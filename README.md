@@ -1,2 +1,3 @@
-# d4dj-event-calculator
-Event calculator for D4DJ
+# d4dj-stuff
+
+Random D4DJ related things
