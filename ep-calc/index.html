@@ -4,13 +4,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hello, world!</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="extras.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="cardList.js"></script>
+    <script src="cards.js"></script>
   </head>
   <body>
-    <div style="height: 500px" class="container-sm table-responsive">
-        <table id="cardData" class="table table-striped table-bordered table-sm">
-            <thead>
+    <div>
+        <h2>Stuff</h2>
+    </div>
+    
+    <!-- Deprecated for now, keeping just in case-->
+    <!-- <div style="height: 500px" class="container-sm table-responsive">
+        <table id="cardData" class="table table-striped table-bordered table-sm sortable">
+            <thead class="table-dark sticky-top">
                 <th scope="col">ID</th>
                 <th scope="col">Character</th>
                 <th scope="col">Card Name</th>
@@ -20,36 +29,45 @@
         
             </tbody>
         </table>
+    </div> -->
+    <div class="container-sm">
+        <p>Sort test - default</p>
+        <div id="cardDropdown1_wrapper">
+            <div id="cardDropdown1">
+                <script>
+                    displayCardsDropdown(cards,"cardDropdown1");
+                </script>
+            </div>
+        </div>
     </div>
-    <script>
-        $.getJSON("cards.json", function(json) {
-            console.log(json);
-        });
-    </script>
-    <!-- <script>
-function myFunction(arr) {
-    var i;
-    for(i = 0; i < arr.length; i++) {
-        var newRow = document.createElement("tr");
-        newRow.setAttribute("scope","row");
-        var id = document.createElement("td");
-        id.innerHTML = arr[i].id;
-        var character = document.createElement("td");
-        character.innerHTML = arr[i].character;
-        var cardname = document.createElement("td");
-        cardname.innerHTML = arr[i].cardname;
-        var unit = document.createElement("td");
-        unit.innerHTML = arr[i].unit;
-        newRow.append(id);
-        newRow.append(character);
-        newRow.append(cardname);
-        newRow.append(unit);
-        document.getElementById("cardRows").appendChild(newRow);
-    }            
-}
-    </script> -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <div class="container-sm">
+        <p>Sort test - heart</p>
+        <div id="cardDropdown2_wrapper">
+            <div id="cardDropdown2">
+                <script>
+                    displayCardsDropdown(cards,"cardDropdown2");
+                </script>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="container-sm">
+        <p>Filter test - miyu</p>
+        <input type="checkbox" onclick="generateFilters(cards, 'cardDropdown3')" id="filter_miyu" name="filter_miyu" class="cardDropdown3_filter_char" value="Miyu"><label for="filter_miyu">Miyu</label>
+        <input type="checkbox" onclick="generateFilters(cards, 'cardDropdown3')" id="filter_dalia" name="filter_dalia" class="cardDropdown3_filter_char" value="Dalia"><label for="filter_dalia">Dalia</label>
+        <input type="checkbox" onclick="generateFilters(cards, 'cardDropdown3')" id="filter_elegant" name="filter_elegant" class="cardDropdown3_filter_type" value="Elegant"><label for="filter_elegant">Elegant</label>
+        <div id="cardDropdown3_wrapper">
+            <div id="cardDropdown3">
+                <script>
+                    displayCardsDropdown(cards,"cardDropdown3");
+                </script>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/js/bootstrap-select.min.js"></script>
   </body>
 </html>
