@@ -1,3 +1,12 @@
 .container-sm {
     border: 1px solid black;
 }
+
+.filter_label {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.filter_text {
+    font-size: 20px;
+}

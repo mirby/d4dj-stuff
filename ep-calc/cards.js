@@ -6,13 +6,28 @@ $(document).ready(function() {
     };
 })
 
+jQuery(function($) {
+    $('#showFilter').on('click', function() {
+        var text=$('#showFilter').text();
+        if (text === "Show Filters") {
+            $(this).text("Hide Filters");
+        } else {
+            $(this).text("Show Filters");
+        }
+    });
 
-// Display every card in a dropdown. This is the default
-function displayCardsDropdown(arr, id) {
+    $(document).on('changed.bs.select', 'select', function() {
+        console.log(cards[$(this).val()]);
+        console.log(cards[$(this).val()].character);
+    });
+});
+
+// Display every card in a dropdown
+function displayCardsDropdown(arr) {
    
     var select = document.createElement("select");
-    select.name = "cards_" + id;
-    select.id = "cards_" + id;
+    select.name = "cards";
+    select.id = "cards";
     select.classList.add("selectpicker");
     select.setAttribute("data-live-search","true");
     select.setAttribute("data-width","fit");
@@ -29,10 +44,10 @@ function displayCardsDropdown(arr, id) {
     }
 
     var label = document.createElement("label");
-    label.innerHTML = "Choose a card";
-    label.htmlFor = "cards_" + id;
+    label.innerHTML = "Choose a card to view stats: ";
+    label.htmlFor = "cards";
 
-    document.getElementById(id).appendChild(label).appendChild(select);
+    document.getElementById("cardDropdown").appendChild(label).appendChild(select);
 }
 
 const sort_by = (field, reverse, primer) => {
@@ -50,14 +65,14 @@ const sort_by = (field, reverse, primer) => {
     }
 }
 
-function generateFilters(arr, id) {
+function generateFilters(arr) {
     // Remove old dropdown
-    var elem = document.getElementById(id);
+    var elem = document.getElementById("cardDropdown");
     if (elem) {
         elem.remove();
         var newElem = document.createElement("div");
-        newElem.id = id;
-        document.getElementById(id + "_wrapper").appendChild(newElem);
+        newElem.id = "cardDropdown";
+        document.getElementById("cardDropdown_wrapper").appendChild(newElem);
     }
 
     // // Sort functions
@@ -68,7 +83,7 @@ function generateFilters(arr, id) {
     // }
 
     // Character filters
-    filters = document.getElementsByClassName(id + "_filter_char");
+    filters = document.getElementsByClassName("filter_char");
     var filterArray = [];
     var hasFilter = false;
     for (let x of filters) {
@@ -81,10 +96,9 @@ function generateFilters(arr, id) {
     if (hasFilter) {
         arr = arr.filter(o => filterArray.some(fn => fn(o)));
     }
-    
 
     // Type filters
-    filters = document.getElementsByClassName(id + "_filter_type");
+    filters = document.getElementsByClassName("filter_type");
     filterArray = [];
     hasFilter = false;
     for (let x of filters) {
@@ -98,29 +112,43 @@ function generateFilters(arr, id) {
         arr = arr.filter(o => filterArray.some(fn => fn(o)));
     }    
 
-    displayCardsDropdown(arr, id);
+    displayCardsDropdown(arr);
 
     $.refreshSelect();
 }
 
-// deprecated in favor of using dropdown, for now
-function displayCardsTable(arr) {
-    var i;
-    for(i = 0; i < arr.length; i++) {
-        var newRow = document.createElement("tr");
-        newRow.setAttribute("scope","row");
-        var id = document.createElement("td");
-        id.innerHTML = arr[i].id;
-        var character = document.createElement("td");
-        character.innerHTML = arr[i].character;
-        var cardname = document.createElement("td");
-        cardname.innerHTML = arr[i].cardname;
-        var unit = document.createElement("td");
-        unit.innerHTML = arr[i].unit;
-        newRow.append(id);
-        newRow.append(character);
-        newRow.append(cardname);
-        newRow.append(unit);
-        document.getElementById("cardRows").appendChild(newRow);
-    }
+function createCharacterFilters() {
+    var i = 1;
+    characters.forEach(function(x) {
+        var newInput = document.createElement("input");
+        newInput.type = "checkbox";
+        newInput.id = "filter_" + x;
+        newInput.name = "filter_" + x;
+        newInput.classList.add("filter_char");
+        newInput.value = x;
+
+        var newLabel = document.createElement("label");
+        newLabel.setAttribute("for", "filter_" + x);
+        newLabel.classList.add("filter_label");
+        newLabel.innerHTML = "<img src='../icons/icon_" + x.toLowerCase() + ".png' width='30' height='30'></img>" + x;
+
+        document.getElementById("filter-character").appendChild(newInput);
+        document.getElementById("filter-character").appendChild(newLabel);
+
+        if ((i % 4) == 0) {
+            var br = document.createElement("br");
+            document.getElementById("filter-character").appendChild(br);
+        }
+        i++;
+    });
+
+    var filters = document.querySelectorAll(".filter_char");
+    filters.forEach(function(x) {
+        x.addEventListener("click", function() {
+            generateFilters(cardArray);
+        });
+    });
 }
+
+var characters = ["Rinku", "Maho", "Muni", "Rei", "Kyoko", "Shinobu", "Yuka", "Esora", "Saki", "Ibuki", "Towa", 
+                    "Noa", "Rika", "Marika", "Saori", "Dalia", "Tsubaki", "Nagisa", "Hiiro", "Aoi", "Miyu", "Haruna", "Kurumi", "Miiko", "Michiru"];

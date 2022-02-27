@@ -12,58 +12,41 @@
     <script src="cards.js"></script>
   </head>
   <body>
+
     <div>
         <h2>Stuff</h2>
     </div>
-    
-    <!-- Deprecated for now, keeping just in case-->
-    <!-- <div style="height: 500px" class="container-sm table-responsive">
-        <table id="cardData" class="table table-striped table-bordered table-sm sortable">
-            <thead class="table-dark sticky-top">
-                <th scope="col">ID</th>
-                <th scope="col">Character</th>
-                <th scope="col">Card Name</th>
-                <th scope="col">Unit</th>
-            </thead>
-            <tbody id="cardRows">
-        
-            </tbody>
-        </table>
-    </div> -->
+
     <div class="container-sm">
-        <p>Sort test - default</p>
-        <div id="cardDropdown1_wrapper">
-            <div id="cardDropdown1">
+        <h4>Team Builder</h4>
+        <a id="showFilter" class="btn btn-primary" data-bs-toggle="collapse" href="#filters" role="button" aria-expanded="false" aria-controls="filters">Show Filters</a>
+        <div class="collapse filters" id="filters">
+            <div id="filter-character">
+                <label class="filter_text"><b><u>Filter by character:</u></b></label><br>
                 <script>
-                    displayCardsDropdown(cards,"cardDropdown1");
+                    createCharacterFilters();
+                </script>
+            </div>
+            <div id="filter-type">
+                <label class="filter_text"><b><u>Filter by type:</u></b></label><br>
+                <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_cute" name="filter_cute" class="filter_type" value="Cute"><label class="filter_label" for="filter_cute"><img src="../icons/type_cute.png" width='30' height='30'></img> Cute</label>
+                <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_party" name="filter_party" class="filter_type" value="Party"><label class="filter_label" for="filter_party"><img src="../icons/type_party.png" width='30' height='30'></img> Party</label>
+                <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_cool" name="filter_cool" class="filter_type" value="Cool"><label class="filter_label" for="filter_cool"><img src="../icons/type_cool.png" width='30' height='30'></img> Cool</label>
+                <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_elegant" name="filter_elegant" class="filter_type" value="Elegant"><label class="filter_label" for="filter_elegant"><img src="../icons/type_elegant.png" width='30' height='30'></img> Elegant</label>
+                <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_street" name="filter_street" class="filter_type" value="Street"><label class="filter_label" for="filter_street"><img src="../icons/type_street.png" width='30' height='30'></img> Street</label>
+            </div>
+        </div>
+        <hr>
+        <div id="cardDropdown_wrapper">
+            <div id="cardDropdown">
+                <script>
+                    displayCardsDropdown(cardArray);
                 </script>
             </div>
         </div>
-    </div>
-
-    <div class="container-sm">
-        <p>Sort test - heart</p>
-        <div id="cardDropdown2_wrapper">
-            <div id="cardDropdown2">
-                <script>
-                    displayCardsDropdown(cards,"cardDropdown2");
-                </script>
-            </div>
-        </div>
-    </div>
-
-    
-    <div class="container-sm">
-        <p>Filter test - miyu</p>
-        <input type="checkbox" onclick="generateFilters(cards, 'cardDropdown3')" id="filter_miyu" name="filter_miyu" class="cardDropdown3_filter_char" value="Miyu"><label for="filter_miyu">Miyu</label>
-        <input type="checkbox" onclick="generateFilters(cards, 'cardDropdown3')" id="filter_dalia" name="filter_dalia" class="cardDropdown3_filter_char" value="Dalia"><label for="filter_dalia">Dalia</label>
-        <input type="checkbox" onclick="generateFilters(cards, 'cardDropdown3')" id="filter_elegant" name="filter_elegant" class="cardDropdown3_filter_type" value="Elegant"><label for="filter_elegant">Elegant</label>
-        <div id="cardDropdown3_wrapper">
-            <div id="cardDropdown3">
-                <script>
-                    displayCardsDropdown(cards,"cardDropdown3");
-                </script>
-            </div>
+        <hr>
+        <div>
+            <label>Name:</label><input class="form-control-sm builder builder-name" type="text" value="" disabled readonly>
         </div>
     </div>
     
