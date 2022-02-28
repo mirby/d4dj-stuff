@@ -32,6 +32,14 @@ jQuery(function($) {
 function fillStat(obj) {
 
     if (!obj) {
+        document.getElementById("charImageWrapper").removeChild(document.getElementById("charImageWrapper").firstChild);
+        document.getElementById("unitImageWrapper").removeChild(document.getElementById("unitImageWrapper").firstChild);
+        document.getElementById("typeImageWrapper").removeChild(document.getElementById("typeImageWrapper").firstChild);
+        document.querySelector('input[name="cardField"]').value = "";
+        document.querySelector('input[name="heartField"]').value = "";
+        document.querySelector('input[name="techField"]').value = "";
+        document.querySelector('input[name="physField"]').value = "";
+        document.querySelector('input[name="totalField"]').value = "";
         return;
     }
     document.querySelector('input[name="cardField"]').value = obj.cardname;
