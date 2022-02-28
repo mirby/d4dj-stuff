@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello, world!</title>
+    <title>Event calculator</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="extras.css" />
@@ -17,39 +17,149 @@
         <h2>Stuff</h2>
     </div>
 
-    <div class="container-sm">
-        <h4>Team Builder</h4>
-        <a id="showFilter" class="btn btn-primary" data-bs-toggle="collapse" href="#filters" role="button" aria-expanded="false" aria-controls="filters">Show Filters</a>
-        <div class="collapse filters" id="filters">
-            <div id="filter-character">
-                <label class="filter_text"><b><u>Filter by character:</u></b></label><br>
-                <script>
-                    createCharacterFilters();
-                </script>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="cardSection-tab" data-bs-toggle="tab" data-bs-target="#cardSection" type="button" role="tab" aria-controls="cardSection" aria-selected="true">Add Cards</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="clubSection-tab" data-bs-toggle="tab" data-bs-target="#clubSection" type="button" role="tab" aria-controls="clubSection" aria-selected="false">Club Items</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="paramSection-tab" data-bs-toggle="tab" data-bs-target="#paramSection" type="button" role="tab" aria-controls="paramSection" aria-selected="false">Parameter Upgrade</button>
+        </li>
+    </ul>
+    <div class="tab-content" id="tabContent">
+        <div class="tab-pane fade show active" id="cardSection" role="tabpabel" aria-labelledby="cardSection-tab">
+            <div class="sectionHeader">
+                <a id="showFilter" class="btn btn-primary" data-bs-toggle="collapse" href="#filters" role="button" aria-expanded="false" aria-controls="filters">Show Filters</a>
+                <a id="clearFilters" class="btn btn-primary" role="button">Clear Filters</a>
             </div>
-            <div id="filter-type">
-                <label class="filter_text"><b><u>Filter by type:</u></b></label><br>
-                <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_cute" name="filter_cute" class="filter_type" value="Cute"><label class="filter_label" for="filter_cute"><img src="../icons/type_cute.png" width='30' height='30'></img> Cute</label>
-                <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_party" name="filter_party" class="filter_type" value="Party"><label class="filter_label" for="filter_party"><img src="../icons/type_party.png" width='30' height='30'></img> Party</label>
-                <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_cool" name="filter_cool" class="filter_type" value="Cool"><label class="filter_label" for="filter_cool"><img src="../icons/type_cool.png" width='30' height='30'></img> Cool</label>
-                <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_elegant" name="filter_elegant" class="filter_type" value="Elegant"><label class="filter_label" for="filter_elegant"><img src="../icons/type_elegant.png" width='30' height='30'></img> Elegant</label>
-                <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_street" name="filter_street" class="filter_type" value="Street"><label class="filter_label" for="filter_street"><img src="../icons/type_street.png" width='30' height='30'></img> Street</label>
+            <div class="collapse filters" id="filters">
+                <hr>
+                <div id="filter-character">
+                    <label class="filter_text"><b><u>Filter by unit:</u></b></label><br>
+                </div>
+                <div id="filter-type">
+                    <label class="filter_text"><b><u>Filter by type:</u></b></label><br>
+                    <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_cute" name="filter_cute" class="d4dj_filter filter_type" value="Cute"><label class="filter_label" for="filter_cute"><img src="../icons/type_cute.png" width='30' height='30'></img> Cute</label>
+                    <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_party" name="filter_party" class="d4dj_filter filter_type" value="Party"><label class="filter_label" for="filter_party"><img src="../icons/type_party.png" width='30' height='30'></img> Party</label>
+                    <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_cool" name="filter_cool" class="d4dj_filter filter_type" value="Cool"><label class="filter_label" for="filter_cool"><img src="../icons/type_cool.png" width='30' height='30'></img> Cool</label>
+                    <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_elegant" name="filter_elegant" class="d4dj_filter filter_type" value="Elegant"><label class="filter_label" for="filter_elegant"><img src="../icons/type_elegant.png" width='30' height='30'></img> Elegant</label>
+                    <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_street" name="filter_street" class="d4dj_filter filter_type" value="Street"><label class="filter_label" for="filter_street"><img src="../icons/type_street.png" width='30' height='30'></img> Street</label>
+                </div>
+                <div id="filter-rarity">
+                    <label class="filter_text"><b><u>Filter by rarity:</u></b></label><br>
+                    <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_3" name="filter_3" class="d4dj_filter filter_rarity" value="3">
+                    <label class="filter_label" for="filter_3"><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img></label>
+                    <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_4" name="filter_4" class="d4dj_filter filter_rarity" value="4">
+                    <label class="filter_label" for="filter_4"><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img></label>
+                </div>
+            </div>
+            <hr>
+            <div id="cardDropdown_wrapper">
+                <div id="cardDropdown">
+                </div>
+            </div>
+            <div class="sortsection">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" onclick="generateFilters(cardArray)" type="radio" name="sortOptions" id="sortOptions1" value="None" checked>
+                    <label class="form-check-label"for="sortOptions1">No Sort</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" onclick="generateFilters(cardArray)" type="radio" name="sortOptions" id="sortOptions2" value="totalpower">
+                    <label class="form-check-label"for="sortOptions2">Total Power</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" onclick="generateFilters(cardArray)" type="radio" name="sortOptions" id="sortOptions3" value="heart">
+                    <label class="form-check-label" for="sortOptions3">Heart</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" onclick="generateFilters(cardArray)" type="radio" name="sortOptions" id="sortOptions4" value="technical">
+                    <label class="form-check-label" for="sortOptions4">Technical</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" onclick="generateFilters(cardArray)" type="radio" name="sortOptions" id="sortOptions5" value="physical">
+                    <label class="form-check-label" for="sortOptions5">Physical</label>
+                </div>
+            </div>
+            <hr>
+            <div class="formsection" style="width:50%">
+                <form>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <span>Character: </span>
+                        </div>
+                        <div id="charImageWrapper" class="col-md-4">
+                        </div>
+                        <div class="col-md-2">
+                            <img class="paramimage" src="../icons/param_heart.png" width='30' height='30'></img>
+                        </div>
+                        <div class="col-md-2">
+                            <input type="text" class="form-control statfield" name="heartField" disabled>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label>Card Name: </label>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control statfield" name="cardField" disabled>
+                        </div>
+                        <div class="col-md-2">
+                            <img class="paramimage" src="../icons/param_technical.png" width='30' height='30'></img>
+                        </div>
+                        <div class="col-md-2">
+                            <input type="text" class="form-control statfield" name="techField" disabled>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label>Unit: </label>
+                        </div>
+                        <div id="unitImageWrapper" class="col-md-4">
+                        </div>
+                        <div class="col-md-2">
+                            <img class="paramimage" src="../icons/param_physical.png" width='30' height='30'></img>
+                        </div>
+                        <div class="col-md-2">
+                            <input type="text" class="form-control statfield" name="physField" disabled>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label>Type: </label>
+                        </div>
+                        <div id="typeImageWrapper" class="col-md-4">
+                        </div>
+                        <div class="col-md-2">
+                            <label>Total Power: </label>
+                        </div>
+                        <div class="col-md-2">
+                            <input type="text" class="form-control statfield" name="totalField" disabled>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
-        <hr>
-        <div id="cardDropdown_wrapper">
-            <div id="cardDropdown">
-                <script>
-                    displayCardsDropdown(cardArray);
-                </script>
+        <div class="tab-pane fade" id="clubSection" role="tabpabel" aria-labelledby="clubSection-tab">
+            <div class="sectionHeader">
             </div>
         </div>
-        <hr>
-        <div>
-            <label>Name:</label><input class="form-control-sm builder builder-name" type="text" value="" disabled readonly>
+        <div class="tab-pane fade" id="paramSection" role="tabpabel" aria-labelledby="paramSection-tab">
+            <div class="sectionHeader">
+            </div>
         </div>
     </div>
-    
+    <br>
+    <hr>
+
+
+    <script>
+        createCharacterFilters();
+        cardArray.sort(default_sort());
+        displayCardsDropdown(cardArray);
+    </script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/js/bootstrap-select.min.js"></script>
   </body>

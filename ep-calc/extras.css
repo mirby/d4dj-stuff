@@ -2,6 +2,10 @@
     border: 1px solid black;
 }
 
+.sectionHeader {
+    padding-top:15px
+}
+
 .filter_label {
     padding: 5px;
     font-size: 20px;
@@ -9,4 +13,30 @@
 
 .filter_text {
     font-size: 20px;
+}
+
+.sortsection {
+    padding-top: 5px;
+}
+
+.formsection {
+    padding-bottom: 10px;
+}
+
+.statfield {
+    background-color: white !important;
+}
+
+.row {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.paramimage {
+    display:block;
+    margin:auto;
+}
+
+.tab-pane {
+    padding-left: 15px;
 }
