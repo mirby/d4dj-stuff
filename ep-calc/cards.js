@@ -6,8 +6,10 @@ $(document).ready(function() {
     };
 })
 
-$(document).on('changed.bs.select', 'select', function() {
-    fillStat(cards[$(this).val()]);
+$(document).on('changed.bs.select', 'select', function(event) {
+    if ($(event.target).is("select#cards")) {
+        fillStat(cards[$(this).val()]);
+    }
 });
 
 jQuery(function($) {
@@ -26,6 +28,22 @@ jQuery(function($) {
             x.checked = false;
         }
         generateFilters(cardArray);
+    });
+
+    $('#addToTeam').on('click', function() {
+        var selection = $('#partypicker').val();
+        var cardId = $('#cards').val();
+        document.getElementById(selection + "_char").innerHTML = cards[cardId].character + ' - ' + cards[cardId].cardname;
+        document.getElementById(selection + "_unit").innerHTML = cards[cardId].unit
+        document.getElementById(selection + "_type").innerHTML = cards[cardId].type
+        document.getElementById(selection + "_heart").innerHTML = cards[cardId].heart
+        document.getElementById(selection + "_tech").innerHTML = cards[cardId].technical
+        document.getElementById(selection + "_phys").innerHTML = cards[cardId].physical
+        document.getElementById(selection + "_cardpower").innerHTML = cards[cardId].heart + cards[cardId].technical + cards[cardId].physical
+        if (selection.startsWith("s")) {
+            var suppPower = Math.floor(cards[cardId].heart / 4) + Math.floor(cards[cardId].technical / 4) + Math.floor(cards[cardId].physical / 4);
+            document.getElementById(selection + "_supportpower").innerHTML = suppPower;
+        }
     });
 });
 
@@ -50,16 +68,18 @@ function fillStat(obj) {
 
     var img = document.createElement('img');
     img.src = "../icons/icon_" + obj.character.toLowerCase() + ".png";
-    img.width = '40';
-    img.height = '40';
+    img.width = '50';
+    img.height = '50';
+    img.title = obj.character
     if (document.getElementById("charImageWrapper").hasChildNodes()) {
         document.getElementById("charImageWrapper").removeChild(document.getElementById("charImageWrapper").firstChild);
     }
     document.getElementById("charImageWrapper").appendChild(img);
 
     img = document.createElement('img');
-    img.width = '40';
-    img.height = '40';
+    img.width = '30';
+    img.height = '30';
+    img.title = obj.unit
     img.src = "../icons/icon_" + obj.unit.toLowerCase() + ".png";
     if (document.getElementById("unitImageWrapper").hasChildNodes()) {
         document.getElementById("unitImageWrapper").removeChild(document.getElementById("unitImageWrapper").firstChild);
@@ -67,8 +87,9 @@ function fillStat(obj) {
     document.getElementById("unitImageWrapper").appendChild(img);
 
     img = document.createElement('img');
-    img.width = '40';
-    img.height = '40';
+    img.width = '30';
+    img.height = '30';
+    img.title = obj.type
     img.src = "../icons/type_" + obj.type.toLowerCase() + ".png";
     if (document.getElementById("typeImageWrapper").hasChildNodes()) {
         document.getElementById("typeImageWrapper").removeChild(document.getElementById("typeImageWrapper").firstChild);
@@ -240,16 +261,16 @@ function createCharacterFilters() {
     units.forEach(function(x) {
         var newInput = document.createElement("input");
         newInput.type = "checkbox";
-        newInput.id = "filter_" + x;
-        newInput.name = "filter_" + x;
+        newInput.id = "filter_" + x.unit;
+        newInput.name = "filter_" + x.unit;
         newInput.classList.add("filter_char");
         newInput.classList.add("d4dj_filter");
-        newInput.value = x;
+        newInput.value = x.unit;
 
         var newLabel = document.createElement("label");
-        newLabel.setAttribute("for", "filter_" + x);
+        newLabel.setAttribute("for", "filter_" + x.unit);
         newLabel.classList.add("filter_label");
-        newLabel.innerHTML = "<img src='../icons/icon_" + x.toLowerCase() + ".png' width='30' height='30'></img>" + x;
+        newLabel.innerHTML = "<img src='../icons/icon_" + x.unit.toLowerCase() + ".png' width='30' height='30'></img>" + x.display;
 
         document.getElementById("filter-character").appendChild(newInput);
         document.getElementById("filter-character").appendChild(newLabel);
@@ -263,6 +284,35 @@ function createCharacterFilters() {
     });
 }
 
-var units = ["HapiAra", "Peaky", "Photon", "Mermaid", "Rondo", "LyriLily", "Common"];
+var units = [
+    {
+        "unit":"HapiAra",
+        "display":"Happy Around"
+    },
+    {
+        "unit":"Peaky",
+        "display":"Peaky P-Key"
+    },
+    {
+        "unit":"Photon",
+        "display":"Photon Maiden"
+    },
+    {
+        "unit":"Mermaid",
+        "display":"Merm4id"
+    },
+    {
+        "unit":"Rondo",
+        "display":"RONDO"
+    },
+    {
+        "unit":"Lyrilily",
+        "display":"Lyrical Lily"
+    },
+    {
+        "unit":"Common",
+        "display":"Other"
+    }
+];
 var characters = ["Rinku", "Maho", "Muni", "Rei", "Kyoko", "Shinobu", "Yuka", "Esora", "Saki", "Ibuki", "Towa", 
                     "Noa", "Rika", "Marika", "Saori", "Dalia", "Tsubaki", "Nagisa", "Hiiro", "Aoi", "Miyu", "Haruna", "Kurumi", "Miiko", "Michiru"];

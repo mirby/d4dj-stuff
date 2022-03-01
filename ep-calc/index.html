@@ -10,13 +10,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="cardList.js"></script>
     <script src="cards.js"></script>
+    <script src="club.js"></script>
   </head>
   <body>
-
-    <div>
-        <h2>Stuff</h2>
-    </div>
-
     <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
           <button class="nav-link active" id="cardSection-tab" data-bs-toggle="tab" data-bs-target="#cardSection" type="button" role="tab" aria-controls="cardSection" aria-selected="true">Add Cards</button>
@@ -57,8 +53,7 @@
             </div>
             <hr>
             <div id="cardDropdown_wrapper">
-                <div id="cardDropdown">
-                </div>
+                <div id="cardDropdown"></div>
             </div>
             <div class="sortsection">
                 <div class="form-check form-check-inline">
@@ -83,66 +78,118 @@
                 </div>
             </div>
             <hr>
-            <div class="formsection" style="width:50%">
+            <div class="formsection" style="width:95%">
                 <form>
                     <div class="row">
-                        <div class="col-md-2">
-                            <span>Character: </span>
+                        <div class="col-md-1">
+                            <label class="fieldHeader">Character: </label>
+                            <div id="charImageWrapper"></div>
                         </div>
-                        <div id="charImageWrapper" class="col-md-4">
-                        </div>
-                        <div class="col-md-2">
-                            <img class="paramimage" src="../icons/param_heart.png" width='30' height='30'></img>
-                        </div>
-                        <div class="col-md-2">
-                            <input type="text" class="form-control statfield" name="heartField" disabled>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2">
-                            <label>Card Name: </label>
-                        </div>
-                        <div class="col-md-4">
+                        <div class="col-md-3">
+                            <label class="fieldHeader">Card Name: </label>
                             <input type="text" class="form-control statfield" name="cardField" disabled>
                         </div>
-                        <div class="col-md-2">
-                            <img class="paramimage" src="../icons/param_technical.png" width='30' height='30'></img>
+                        <div class="col-md-1">
+                            <label class="fieldHeader">Unit: </label>
+                            <div id="unitImageWrapper"></div>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-1">
+                            <label class="fieldHeader">Type: </label>
+                            <div id="typeImageWrapper"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1">
+                            <label class="fieldHeader"><img class="paramimage" src="../icons/param_heart.png" width='30' height='30'></img>Heart:</label>
+                            <input type="text" class="form-control statfield" name="heartField" disabled>
+                        </div>
+                        <div class="col-md-1">
+                            <label class="fieldHeader"><img class="paramimage" src="../icons/param_technical.png" width='30' height='30'></img>Technical:</label>
                             <input type="text" class="form-control statfield" name="techField" disabled>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2">
-                            <label>Unit: </label>
-                        </div>
-                        <div id="unitImageWrapper" class="col-md-4">
-                        </div>
-                        <div class="col-md-2">
-                            <img class="paramimage" src="../icons/param_physical.png" width='30' height='30'></img>
-                        </div>
-                        <div class="col-md-2">
+                        <div class="col-md-1">
+                            <label class="fieldHeader"><img class="paramimage" src="../icons/param_physical.png" width='30' height='30'></img>Physical:</label>
                             <input type="text" class="form-control statfield" name="physField" disabled>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2">
-                            <label>Type: </label>
-                        </div>
-                        <div id="typeImageWrapper" class="col-md-4">
-                        </div>
-                        <div class="col-md-2">
-                            <label>Total Power: </label>
-                        </div>
-                        <div class="col-md-2">
+                        <div class="col-md-1">
+                            <label class="fieldHeader">Total Power: </label>
                             <input type="text" class="form-control statfield" name="totalField" disabled>
                         </div>
                     </div>
                 </form>
             </div>
+            <div class="addToTeamSection">
+                <label>Choose party slot:</label>
+                <select class="selectpicker" id="partypicker">
+                    <option value="m1" data-content="Main Party 1st Slot">Main Party 1st Slot</option>
+                    <option value="m2" data-content="Main Party 2nd Slot">Main Party 2nd Slot</option>
+                    <option value="m3" data-content="Main Party 3rd Slot">Main Party 3rd Slot</option>
+                    <option value="m4" data-content="Main Party 4th Slot">Main Party 4th Slot</option>
+                    <option value="s1" data-content="Support Party 1st Slot">Support Party 1st Slot</option>
+                    <option value="s2" data-content="Support Party 2nd Slot">Support Party 2nd Slot</option>
+                    <option value="s3" data-content="Support Party 3rd Slot">Support Party 3rd Slot</option>
+                    <option value="s4" data-content="Support Party 4th Slot">Support Party 4th Slot</option>
+                </select>
+                <a id="addToTeam" class="btn btn-primary" role="button">Add To Team</a>
+            </div>            
         </div>
         <div class="tab-pane fade" id="clubSection" role="tabpabel" aria-labelledby="clubSection-tab">
             <div class="sectionHeader">
+                <label><b>Important Note:</b> Some club item types may not yet exist, or you may not yet own them. Check your club to be sure.</label>
+            </div>
+            <div class="club" style="width:95%">
+                <form>
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <label>Display:</label>
+                            <div id="club-display"></div>
+                        </div>
+                        <div class="col-sm-1">
+                            <label>DJ Booth:</label>
+                            <div id="club-djbooth"></div>
+                        </div>
+                        <div class="col-sm-1">
+                            <label>Disc L:</label>
+                            <div id="club-discl"></div>
+                        </div>
+                        <div class="col-sm-1">
+                            <label>Disc R:</label>
+                            <div id="club-discr"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <label>Front:</label>
+                            <div id="club-front"></div>
+                        </div>
+                        <div class="col-sm-1">
+                            <label">Side:</label>
+                            <div id="club-side"></div>
+                        </div>
+                        <div class="col-sm-1">
+                            <label">Back:</label>
+                            <div id="club-back"></div>
+                        </div>
+                        <div class="col-sm-1">
+                            <label>Frame:</label>
+                            <div id="club-frame"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <label>Light:</label>
+                            <div id="club-light"></div>
+                        </div>
+                        <div class="col-sm-1">
+                            <label>Accessory:</label>
+                            <div id="club-accessory"></div>
+                        </div>
+                        <div class="col-sm-1">
+                            <label>Decoration:</label>
+                            <div id="club-decoration"></div>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
         <div class="tab-pane fade" id="paramSection" role="tabpabel" aria-labelledby="paramSection-tab">
@@ -152,12 +199,249 @@
     </div>
     <br>
     <hr>
-
+    <div class="mainteam" style="width:800px;min-width:800px">
+        <h4>Main Team:</h4>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Party Slot 1</th>
+                    <th scope="col">Party Slot 2</th>
+                    <th scope="col">Party Slot 3</th>
+                    <th scope="col">Party Slot 4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Character</th>
+                    <td id="m1_char"></td>
+                    <td id="m2_char"></td>
+                    <td id="m3_char"></td>
+                    <td id="m4_char"></td>
+                </tr>
+                <tr>
+                    <th scope="row">Unit</th>
+                    <td id="m1_unit"></td>
+                    <td id="m2_unit"></td>
+                    <td id="m3_unit"></td>
+                    <td id="m4_unit"></td>
+                </tr>
+                <tr>
+                    <th scope="row">Type</th>
+                    <td id="m1_type"></td>
+                    <td id="m2_type"></td>
+                    <td id="m3_type"></td>
+                    <td id="m4_type"></td>
+                </tr>
+                <tr>
+                    <th scope="row">Extra Training</th>
+                    <td>
+                        <select class="selectpicker" id="m1_et" data-width="fit">
+                            <option value="m1_0" data-content="+0">+0</option>
+                            <option value="m1_1" data-content="+1">+1</option>
+                            <option value="m1_2" data-content="+2">+2</option>
+                            <option value="m1_3" data-content="+3">+3</option>
+                            <option value="m1_4" data-content="+4">+4</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select class="selectpicker" id="m2_et" data-width="fit">
+                            <option value="m2_0" data-content="+0">+0</option>
+                            <option value="m2_1" data-content="+1">+1</option>
+                            <option value="m2_2" data-content="+2">+2</option>
+                            <option value="m2_3" data-content="+3">+3</option>
+                            <option value="m2_4" data-content="+4">+4</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select class="selectpicker" id="m3_et" data-width="fit">
+                            <option value="m3_0" data-content="+0">+0</option>
+                            <option value="m3_1" data-content="+1">+1</option>
+                            <option value="m3_2" data-content="+2">+2</option>
+                            <option value="m3_3" data-content="+3">+3</option>
+                            <option value="m3_4" data-content="+4">+4</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select class="selectpicker" id="m1_et" data-width="fit">
+                            <option value="m4_0" data-content="+0">+0</option>
+                            <option value="m4_1" data-content="+1">+1</option>
+                            <option value="m4_2" data-content="+2">+2</option>
+                            <option value="m4_3" data-content="+3">+3</option>
+                            <option value="m4_4" data-content="+4">+4</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr class="table-danger">
+                    <th scope="row">Heart</th>
+                    <td id="m1_heart"></td>
+                    <td id="m2_heart"></td>
+                    <td id="m3_heart"></td>
+                    <td id="m4_heart"></td>
+                </tr>
+                <tr class="table-info">
+                    <th scope="row">Technical</th>
+                    <td id="m1_tech"></td>
+                    <td id="m2_tech"></td>
+                    <td id="m3_tech"></td>
+                    <td id="m4_tech"></td>
+                </tr>
+                <tr class="table-warning">
+                    <th scope="row">Physical</th>
+                    <td id="m1_phys"></td>
+                    <td id="m2_phys"></td>
+                    <td id="m3_phys"></td>
+                    <td id="m4_phys"></td>
+                </tr>
+                <tr>
+                    <th scope="row">Card Power</th>
+                    <td id="m1_cardpower"></td>
+                    <td id="m2_cardpower"></td>
+                    <td id="m3_cardpower"></td>
+                    <td id="m4_cardpower"></td>
+                </tr>
+                <tr>
+                    <th scope="row">Club Bonus</th>
+                    <td id="m1_clubbonus"></td>
+                    <td id="m2_clubbonus"></td>
+                    <td id="m3_clubbonus"></td>
+                    <td id="m4_clubbonus"></td>
+                </tr>
+                <tr>
+                    <th scope="row">Event Bonus</th>
+                    <td id="m1_eventbonus"></td>
+                    <td id="m2_eventbonus"></td>
+                    <td id="m3_eventbonus"></td>
+                    <td id="m4_eventbonus"></td>
+                </tr>
+                <tr>
+                    <th scope="row">Total Power</th>
+                    <td id="m1_totalpower"></td>
+                    <td id="m2_totalpower"></td>
+                    <td id="m3_totalpower"></td>
+                    <td id="m4_totalpower"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="supportteam" style="width:800px;min-width:800px">
+        <h4>Support Team:</h4>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Support Slot 1</th>
+                    <th scope="col">Support Slot 2</th>
+                    <th scope="col">Support Slot 3</th>
+                    <th scope="col">Support Slot 4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Character</th>
+                    <td id="s1_char"></td>
+                    <td id="s2_char"></td>
+                    <td id="s3_char"></td>
+                    <td id="s4_char"></td>
+                </tr>
+                <tr>
+                    <th scope="row">Unit</th>
+                    <td id="s1_unit"></td>
+                    <td id="s2_unit"></td>
+                    <td id="s3_unit"></td>
+                    <td id="s4_unit"></td>
+                </tr>
+                <tr>
+                    <th scope="row">Type</th>
+                    <td id="s1_type"></td>
+                    <td id="s2_type"></td>
+                    <td id="s3_type"></td>
+                    <td id="s4_type"></td>
+                </tr>
+                <tr>
+                    <th scope="row">Extra Training</th>
+                    <td>
+                        <select class="selectpicker" data-width="fit">
+                            <option value="s1_0" data-content="+0">+0</option>
+                            <option value="s1_1" data-content="+1">+1</option>
+                            <option value="s1_2" data-content="+2">+2</option>
+                            <option value="s1_3" data-content="+3">+3</option>
+                            <option value="s1_4" data-content="+4">+4</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select class="selectpicker" data-width="fit">
+                            <option value="s2_0" data-content="+0">+0</option>
+                            <option value="s2_1" data-content="+1">+1</option>
+                            <option value="s2_2" data-content="+2">+2</option>
+                            <option value="s2_3" data-content="+3">+3</option>
+                            <option value="s2_4" data-content="+4">+4</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select class="selectpicker" data-width="fit">
+                            <option value="s3_0" data-content="+0">+0</option>
+                            <option value="s3_1" data-content="+1">+1</option>
+                            <option value="s3_2" data-content="+2">+2</option>
+                            <option value="s3_3" data-content="+3">+3</option>
+                            <option value="s3_4" data-content="+4">+4</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select class="selectpicker" data-width="fit">
+                            <option value="s4_0" data-content="+0">+0</option>
+                            <option value="s4_1" data-content="+1">+1</option>
+                            <option value="s4_2" data-content="+2">+2</option>
+                            <option value="s4_3" data-content="+3">+3</option>
+                            <option value="s4_4" data-content="+4">+4</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr class="table-danger">
+                    <th scope="row">Heart</th>
+                    <td id="s1_heart"></td>
+                    <td id="s2_heart"></td>
+                    <td id="s3_heart"></td>
+                    <td id="s4_heart"></td>
+                </tr>
+                <tr class="table-info">
+                    <th scope="row">Technical</th>
+                    <td id="s1_tech"></td>
+                    <td id="s2_tech"></td>
+                    <td id="s3_tech"></td>
+                    <td id="s4_tech"></td>
+                </tr>
+                <tr class="table-warning">
+                    <th scope="row">Physical</th>
+                    <td id="s1_phys"></td>
+                    <td id="s2_phys"></td>
+                    <td id="s3_phys"></td>
+                    <td id="s4_phys"></td>
+                </tr>
+                <tr>
+                    <th scope="row">Card Power</th>
+                    <td id="s1_cardpower"></td>
+                    <td id="s2_cardpower"></td>
+                    <td id="s3_cardpower"></td>
+                    <td id="s4_cardpower"></td>
+                </tr>
+                <tr>
+                    <th scope="row">Support Power</th>
+                    <td id="s1_supportpower"></td>
+                    <td id="s2_supportpower"></td>
+                    <td id="s3_supportpower"></td>
+                    <td id="s4_supportpower"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
     <script>
         createCharacterFilters();
         cardArray.sort(default_sort());
         displayCardsDropdown(cardArray);
+        createClubSelects();
+        fillClubItems(1);
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
