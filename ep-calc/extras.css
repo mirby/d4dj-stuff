@@ -1,5 +1,5 @@
 .dropdown-toggle.btn-light {
-    background-color: #a5a5a5 !important;
+    background-color: #dfdfdf !important;
 }
 
 .sectionHeader {
@@ -42,7 +42,7 @@
     padding-bottom: 5px;
 }
 
-.mainteam, .supportteam, .tab-pane {
+#overallSection, .tab-pane {
     padding-left: 15px;
 }
 

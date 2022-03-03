@@ -11,14 +11,15 @@
     <script src="cardList.js"></script>
     <script src="cards.js"></script>
     <script src="club.js"></script>
+    <script src="storage.js"></script>
   </head>
   <body>
     <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="cardSection-tab" data-bs-toggle="tab" data-bs-target="#cardSection" type="button" role="tab" aria-controls="cardSection" aria-selected="true">Add Cards</button>
+          <button class="nav-link active" id="cardSection-tab" data-bs-toggle="tab" data-bs-target="#cardSection" type="button" role="tab" aria-controls="cardSection" aria-selected="true">Add Cards To Team</button>
         </li>
         <li class="nav-item" role="presentation">
-            <button class="nav-link" id="teamdisplaySection-tab" data-bs-toggle="tab" data-bs-target="#teamdisplaySection" type="button" role="tab" aria-controls="teamdisplaySection" aria-selected="false">Team Display</button>
+            <button class="nav-link" id="teamdisplaySection-tab" data-bs-toggle="tab" data-bs-target="#teamdisplaySection" type="button" role="tab" aria-controls="teamdisplaySection" aria-selected="false">Team Details</button>
         </li>
         <li class="nav-item" role="presentation">
           <button class="nav-link" id="clubSection-tab" data-bs-toggle="tab" data-bs-target="#clubSection" type="button" role="tab" aria-controls="clubSection" aria-selected="false">Club / Event</button>
@@ -386,51 +387,51 @@
                     <div class="row">
                         <div class="col-sm-1">
                             <label>Display:</label>
-                            <div id="club-display"></div>
+                            <div id="club-display-div"></div>
                         </div>
                         <div class="col-sm-1">
                             <label>DJ Booth:</label>
-                            <div id="club-djbooth"></div>
+                            <div id="club-djbooth-div"></div>
                         </div>
                         <div class="col-sm-1">
                             <label>Disc L:</label>
-                            <div id="club-discl"></div>
+                            <div id="club-discl-div"></div>
                         </div>
                         <div class="col-sm-1">
                             <label>Disc R:</label>
-                            <div id="club-discr"></div>
+                            <div id="club-discr-div"></div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-1">
                             <label>Front:</label>
-                            <div id="club-front"></div>
+                            <div id="club-front-div"></div>
                         </div>
                         <div class="col-sm-1">
                             <label">Side:</label>
-                            <div id="club-side"></div>
+                            <div id="club-side-div"></div>
                         </div>
                         <div class="col-sm-1">
                             <label">Back:</label>
-                            <div id="club-back"></div>
+                            <div id="club-back-div"></div>
                         </div>
                         <div class="col-sm-1">
                             <label>Frame:</label>
-                            <div id="club-frame"></div>
+                            <div id="club-frame-div"></div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-1">
                             <label>Light:</label>
-                            <div id="club-light"></div>
+                            <div id="club-light-div"></div>
                         </div>
                         <div class="col-sm-1">
                             <label>Accessory:</label>
-                            <div id="club-accessory"></div>
+                            <div id="club-accessory-div"></div>
                         </div>
                         <div class="col-sm-1">
                             <label>Decoration:</label>
-                            <div id="club-decoration"></div>
+                            <div id="club-decoration-div"></div>
                         </div>
                     </div>
                 </form>
@@ -514,6 +515,10 @@
     </div>
     <br>
     <hr>
+    <div id="overallSection">
+        <a id="saveData" class="btn btn-primary" role="button">Save Data</a>
+        <a id="removeData" class="btn btn-primary" role="button">Remove All Saved Data</a>
+    </div>
     
     <script>
         createCharacterFilters();

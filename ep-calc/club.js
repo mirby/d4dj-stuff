@@ -6,37 +6,37 @@ $(document).on('changed.bs.select', 'select', function(event) {
 
 function createClubSelects() {
     var select = createClubSelect(clubItems1, "club-display");
-    document.getElementById("club-display").appendChild(select);
+    document.getElementById("club-display-div").appendChild(select);
 
     var select = createClubSelect(clubItems1, "club-djbooth");
-    document.getElementById("club-djbooth").appendChild(select);
+    document.getElementById("club-djbooth-div").appendChild(select);
 
     var select = createClubSelect(clubItems1, "club-discl");
-    document.getElementById("club-discl").appendChild(select);
+    document.getElementById("club-discl-div").appendChild(select);
 
     var select = createClubSelect(clubItems1, "club-discr");
-    document.getElementById("club-discr").appendChild(select);
+    document.getElementById("club-discr-div").appendChild(select);
 
     var select = createClubSelect(clubItems2, "club-front");
-    document.getElementById("club-front").appendChild(select);
+    document.getElementById("club-front-div").appendChild(select);
 
     var select = createClubSelect(clubItems2, "club-side");
-    document.getElementById("club-side").appendChild(select);
+    document.getElementById("club-side-div").appendChild(select);
 
     var select = createClubSelect(clubItems2, "club-back");
-    document.getElementById("club-back").appendChild(select);
+    document.getElementById("club-back-div").appendChild(select);
 
     var select = createClubSelect(clubItems2, "club-frame");
-    document.getElementById("club-frame").appendChild(select);
+    document.getElementById("club-frame-div").appendChild(select);
 
     var select = createClubSelect(clubItems2, "club-light");
-    document.getElementById("club-light").appendChild(select);
+    document.getElementById("club-light-div").appendChild(select);
 
     var select = createClubSelect(clubItems2, "club-accessory");
-    document.getElementById("club-accessory").appendChild(select);
+    document.getElementById("club-accessory-div").appendChild(select);
 
     var select = createClubSelect(clubItems3, "club-decoration");
-    document.getElementById("club-decoration").appendChild(select);
+    document.getElementById("club-decoration-div").appendChild(select);
 }
 
 function createClubSelect(obj, id) {
