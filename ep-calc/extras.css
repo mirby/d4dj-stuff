@@ -1,3 +1,7 @@
+.dropdown-toggle.btn-light {
+    background-color: #a5a5a5 !important;
+}
+
 .sectionHeader {
     padding-top:15px
 }

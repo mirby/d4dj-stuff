@@ -9,10 +9,16 @@ $(document).ready(function() {
 $(document).on('changed.bs.select', 'select', function(event) {
     if ($(event.target).is("select#cards")) {
         fillStat(cards[$(this).val()]);
+    } else if ($(event.target).is("select#eventtype")) {
+        displayCharSelect($(event.target).val());
     }
 });
 
 jQuery(function($) {
+    $(window).on("load", function() {
+        displayCharSelect($('#eventtype').val());
+    });
+
     $('#showFilter').on('click', function() {
         var text=$('#showFilter').text();
         if (text === "Show Filters") {
@@ -255,6 +261,26 @@ function generateFilters(arr) {
     $.refreshSelect();
 }
 
+function displayCharSelect(eventtype) {
+    if (eventtype === "event-medley") {
+        document.getElementById("medleychar").style.display = "block";
+        if (document.getElementById("event-char").hasChildNodes()) {
+            document.getElementById("event-char").removeChild(document.getElementById("event-char").firstChild);
+        }
+        populateCharSelect();
+    } else {
+        document.getElementById("medleychar").style.display = "none";
+    }
+}
+
+function populateCharSelect() {
+    let charSet = new Set().add(document.getElementById("eventbonus1").value).add(document.getElementById("eventbonus2").value)
+        .add(document.getElementById("eventbonus3").value).add(document.getElementById("eventbonus4").value);
+    charSet.forEach(function(x) {
+        console.log(x);
+    });
+}
+
 // Create all the character filters when the page is loaded
 function createCharacterFilters() {
 
@@ -282,6 +308,26 @@ function createCharacterFilters() {
             generateFilters(cardArray);
         });
     });
+
+    // Create event bonus character filters
+    for (var i = 1; i < 5; i++) {
+        var select = document.createElement("select");
+        select.name = "eventbonus" + i;
+        select.id = "eventbonus" + i;
+        select.classList.add("selectpicker");
+        select.setAttribute("data-width","fit");
+        select.setAttribute("data-size","10");
+
+        characters.forEach(function(x) {
+            var option = document.createElement("option");
+            option.value = "bonus" + x;
+            option.setAttribute("data-tokens", x.toLowerCase());
+            option.setAttribute("data-content","<img src='../icons/icon_" + x.toLowerCase() + ".png' width='30' height='30'></img>" + ' ' + x);
+            select.appendChild(option);
+        });
+
+        document.getElementById("bonus" + i).appendChild(select);
+    }
 }
 
 var units = [
