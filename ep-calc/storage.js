@@ -2,11 +2,20 @@ var initializeClub;
 
 jQuery(function($) {
     $(window).on("load", function() {
+        var storage = window.localStorage;
+
         // Initialize event
+        var obj = JSON.parse(storage.getItem("event"));
+        if (obj) {
+            obj.forEach(function(x) {
+                for (var key in x) {
+                    $("select[name=" + key + "]").val(x[key]);
+                }
+            });
+        }
         displayCharSelect($('#eventtype').val());
 
         // Initialize club
-        var storage = window.localStorage;
         var obj = JSON.parse(storage.getItem("club"));
         if (obj) {
             obj.forEach(function(x) {
@@ -14,8 +23,19 @@ jQuery(function($) {
                     $("select[name=" + key + "]").val(x[key]);
                 }
             });
-            $('.selectpicker').selectpicker('refresh');
         }
+        
+        // Initialize team
+        var obj = JSON.parse(storage.getItem("team"));
+        if (obj) {
+            obj.forEach(function(x) {
+                for (var key in x) {
+                    populateTeam(key, x[key]);
+                }
+            });
+        }
+
+        $('.selectpicker').selectpicker('refresh');
     });
 
     $('#saveData').on('click', function() {
@@ -46,9 +66,35 @@ function saveData() {
 
     storage.setItem("club",JSON.stringify(clubItemsSave));
     console.log("SAVED" + JSON.stringify(clubItemsSave));
-    alert("Saved!");
 
     // Event info
+    var eventSave = [];
+    eventSave.push({"eventbonus1":document.getElementById("eventbonus1").value});
+    eventSave.push({"eventbonus2":document.getElementById("eventbonus2").value});
+    eventSave.push({"eventbonus3":document.getElementById("eventbonus3").value});
+    eventSave.push({"eventbonus4":document.getElementById("eventbonus4").value});
+    eventSave.push({"eventbonus":document.getElementById("eventbonus").value});
+    eventSave.push({"eventstyle":document.getElementById("eventstyle").value});
+    eventSave.push({"eventtype":document.getElementById("eventtype").value});
+
+    storage.setItem("event",JSON.stringify(eventSave));
+    console.log("SAVED" + JSON.stringify(eventSave));
+
+    // Team info
+    var teamSave = [];
+    teamSave.push({"m1":document.getElementById("m1_id").innerText});
+    teamSave.push({"m2":document.getElementById("m2_id").innerText});
+    teamSave.push({"m3":document.getElementById("m3_id").innerText});
+    teamSave.push({"m4":document.getElementById("m4_id").innerText});
+    teamSave.push({"s1":document.getElementById("s1_id").innerText});
+    teamSave.push({"s2":document.getElementById("s2_id").innerText});
+    teamSave.push({"s3":document.getElementById("s3_id").innerText});
+    teamSave.push({"s4":document.getElementById("s4_id").innerText});
+
+    storage.setItem("team",JSON.stringify(teamSave));
+    console.log("SAVED" + JSON.stringify(teamSave));
+
+    alert("Saved!");
 }
 
 function removeData() {

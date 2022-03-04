@@ -42,9 +42,19 @@ jQuery(function($) {
     $('#addToTeam').on('click', function() {
         var selection = $('#partypicker').val();
         var cardId = $('#cards').val();
+        populateTeam(selection, cardId);
+
+    });
+});
+
+function populateTeam(selection, cardId) {
+    if (cardId) {
+        document.getElementById(selection + "_id").innerHTML = cardId;
         document.getElementById(selection + "_char").innerHTML = cards[cardId].character + ' - ' + cards[cardId].cardname;
-        document.getElementById(selection + "_unit").innerHTML = cards[cardId].unit
-        document.getElementById(selection + "_type").innerHTML = cards[cardId].type
+        if (selection.startsWith("m")) {
+            document.getElementById(selection + "_unit").innerHTML = cards[cardId].unit
+            document.getElementById(selection + "_type").innerHTML = cards[cardId].type
+        }
         document.getElementById(selection + "_heart").innerHTML = cards[cardId].heart
         document.getElementById(selection + "_tech").innerHTML = cards[cardId].technical
         document.getElementById(selection + "_phys").innerHTML = cards[cardId].physical
@@ -53,8 +63,8 @@ jQuery(function($) {
             var suppPower = Math.floor(cards[cardId].heart / 4) + Math.floor(cards[cardId].technical / 4) + Math.floor(cards[cardId].physical / 4);
             document.getElementById(selection + "_supportpower").innerHTML = suppPower;
         }
-    });
-});
+    }
+}
 
 function fillStat(obj) {
 

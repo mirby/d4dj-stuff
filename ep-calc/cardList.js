@@ -3534,6 +3534,71 @@ var cards = {
             "physical": 7899,
             "totalpower": 36471,
             "skill": 0.5
+        },
+        "274": {
+            "id": 274,
+            "character": "Aoi",
+            "cardname": "Your Heart to Mine",
+            "unit": "Rondo",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 6931,
+            "technical": 17495,
+            "physical": 11661,
+            "totalpower": 36087,
+            "skill": 0.5
+        },
+        "275": {
+            "id": 275,
+            "character": "Nagisa",
+            "cardname": "Nagi the Thief is Coming!",
+            "unit": "Rondo",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 13174,
+            "technical": 16305,
+            "physical": 6943,
+            "totalpower": 36422,
+            "skill": 0.5
+        },
+        "276": {
+            "id": 276,
+            "character": "Hiiro",
+            "cardname": "The notice for you♡",
+            "unit": "Rondo",
+            "type": "Street",
+            "rarity": 3,
+            "heart": 10191,
+            "technical": 13464,
+            "physical": 8722,
+            "totalpower": 32377,
+            "skill": 0.25
+        },
+        "277": {
+            "id": 277,
+            "character": "Tsubaki",
+            "cardname": "Get what I want",
+            "unit": "Rondo",
+            "type": "Street",
+            "rarity": 3,
+            "heart": 8599,
+            "technical": 12668,
+            "physical": 10603,
+            "totalpower": 31870,
+            "skill": 0.25
+        },
+        "278": {
+            "id": 278,
+            "character": "Muni",
+            "cardname": "Birthday -Banquet-",
+            "unit": "HapiAra",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 12628,
+            "technical": 11700,
+            "physical": 12091,
+            "totalpower": 36419,
+            "skill": 0.55
         }
     }
 
