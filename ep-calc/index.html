@@ -14,6 +14,11 @@
     <script src="storage.js"></script>
   </head>
   <body>
+    <div id="saveSection">
+        <a id="saveData" class="btn btn-primary" role="button">Save Data</a>
+        <a id="removeData" class="btn btn-primary" role="button">Remove All Saved Data</a>
+        <a id="testData" class="btn btn-primary" role="button">Test Data</a>
+    </div>
     <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
           <button class="nav-link active" id="cardSection-tab" data-bs-toggle="tab" data-bs-target="#cardSection" type="button" role="tab" aria-controls="cardSection" aria-selected="true">Add Cards To Team</button>
@@ -135,6 +140,7 @@
                     <option value="s4" data-content="Support Party 4th Slot">Support Party 4th Slot</option>
                 </select>
                 <a id="addToTeam" class="btn btn-primary" role="button">Add To Team</a>
+                <div id="fadediv">Added to team!</div>
             </div>            
         </div>
         <div class="tab-pane fade" id="teamdisplaySection" role="tabpabel" aria-labelledby="teamdisplaySection-tab">
@@ -160,12 +166,19 @@
                             <td id="m3_id"></td>
                             <td id="m4_id"></td>
                         </tr>
-                        <tr>
+                        <tr style="display:none;">
                             <th scope="row">Character</th>
                             <td id="m1_char"></td>
                             <td id="m2_char"></td>
                             <td id="m3_char"></td>
                             <td id="m4_char"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Character</th>
+                            <td id="m1_charfull"></td>
+                            <td id="m2_charfull"></td>
+                            <td id="m3_charfull"></td>
+                            <td id="m4_charfull"></td>
                         </tr>
                         <tr>
                             <th scope="row">Unit</th>
@@ -292,12 +305,19 @@
                             <td id="s3_id"></td>
                             <td id="s4_id"></td>
                         </tr>
-                        <tr>
+                        <tr style="display:none;">
                             <th scope="row">Character</th>
                             <td id="s1_char"></td>
                             <td id="s2_char"></td>
                             <td id="s3_char"></td>
                             <td id="s4_char"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Character</th>
+                            <td id="s1_charfull"></td>
+                            <td id="s2_charfull"></td>
+                            <td id="s3_charfull"></td>
+                            <td id="s4_charfull"></td>
                         </tr>
                         <tr>
                             <th scope="row">Extra Training</th>
@@ -506,18 +526,66 @@
         </div>
         <div class="tab-pane fade" id="paramSection" role="tabpabel" aria-labelledby="paramSection-tab">
             <div class="sectionHeader">
-                <h4>Club Items</h4>
+                <h4>Parameter Upgrades</h4>
             </div>
-            <div id="paramChar">
-
+            <div id="paramChar" style="width:800px;min-width:800px">
+                <table id="paramtable" class="table table-bordered"></table>
             </div>
         </div>
     </div>
     <br>
     <hr>
-    <div id="overallSection">
-        <a id="saveData" class="btn btn-primary" role="button">Save Data</a>
-        <a id="removeData" class="btn btn-primary" role="button">Remove All Saved Data</a>
+    <div id="overallSection" style="width:800px;min-width:800px">
+        <table class="table table-bordered caption-top">
+            <caption>Team</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Main 1</th>
+                    <th scope="col">Main 2</th>
+                    <th scope="col">Main 3</th>
+                    <th scope="col">Main 4</th>
+                    <th scope="col">Support 1</th>
+                    <th scope="col">Support 2</th>
+                    <th scope="col">Support 3</th>
+                    <th scope="col">Support 4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="team_m1"></td>
+                    <td id="team_m2"></td>
+                    <td id="team_m3"></td>
+                    <td id="team_m4"></td>
+                    <td id="team_s1"></td>
+                    <td id="team_s2"></td>
+                    <td id="team_s3"></td>
+                    <td id="team_s4"></td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-bordered caption-top">
+            <caption>Power</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Main</th>
+                    <th scope="col">Club</th>
+                    <th scope="col">Support</th>
+                    <th scope="col">Event</th>
+                    <th scope="col">Total (without event)</th>
+                    <th scope="col">Total (with event)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="power_main"></td>
+                    <td id="power_club"></td>
+                    <td id="power_support"></td>
+                    <td id="power_event"></td>
+                    <td id="power_totalwo"></td>
+                    <td id="power_total"></td>
+                </tr>
+            </tbody>
+        </table>
     </div>
     
     <script>

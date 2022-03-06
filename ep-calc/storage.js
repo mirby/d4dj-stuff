@@ -35,6 +35,16 @@ jQuery(function($) {
             });
         }
 
+        // Initialize param
+        var obj = JSON.parse(storage.getItem("param"));
+        if (obj) {
+            obj.forEach(function(x) {
+                for (var key in x) {
+                    $("select[name=" + key + "]").val(x[key]);
+                }
+            });
+        }
+
         $('.selectpicker').selectpicker('refresh');
     });
 
@@ -44,6 +54,10 @@ jQuery(function($) {
 
     $('#removeData').on('click', function() {
         removeData();
+    });
+
+    $('#testData').on('click', function() {
+        testLoad();
     });
 });
 
@@ -65,7 +79,6 @@ function saveData() {
     clubItemsSave.push({"club-decoration":document.getElementById("club-decoration").value});
 
     storage.setItem("club",JSON.stringify(clubItemsSave));
-    console.log("SAVED" + JSON.stringify(clubItemsSave));
 
     // Event info
     var eventSave = [];
@@ -78,7 +91,6 @@ function saveData() {
     eventSave.push({"eventtype":document.getElementById("eventtype").value});
 
     storage.setItem("event",JSON.stringify(eventSave));
-    console.log("SAVED" + JSON.stringify(eventSave));
 
     // Team info
     var teamSave = [];
@@ -92,9 +104,27 @@ function saveData() {
     teamSave.push({"s4":document.getElementById("s4_id").innerText});
 
     storage.setItem("team",JSON.stringify(teamSave));
+
+    // Param info
+    var paramSave = [];
+    for (let x of characters) {
+        for (var i = 1; i <= 3; i++) {
+            var key = "param_" + x.toLowerCase() + "_" + i;
+            paramSave.push({[key]:document.getElementById(key).value});
+        }        
+    }
+    storage.setItem("param",JSON.stringify(paramSave));
+
+    console.log("SAVED" + JSON.stringify(clubItemsSave));
+    console.log("SAVED" + JSON.stringify(eventSave));
     console.log("SAVED" + JSON.stringify(teamSave));
+    console.log("SAVED" + JSON.stringify(paramSave));
 
     alert("Saved!");
+}
+
+function testLoad() {
+    calculatePower();
 }
 
 function removeData() {

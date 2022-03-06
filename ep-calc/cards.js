@@ -44,13 +44,20 @@ jQuery(function($) {
         var cardId = $('#cards').val();
         populateTeam(selection, cardId);
 
+        let text = document.getElementById("fadediv");
+        text.classList.add("fade-in");
+        setTimeout(function () {
+          text.classList.remove("fade-in");
+        }, 2000);
     });
 });
 
 function populateTeam(selection, cardId) {
     if (cardId) {
         document.getElementById(selection + "_id").innerHTML = cardId;
-        document.getElementById(selection + "_char").innerHTML = cards[cardId].character + ' - ' + cards[cardId].cardname;
+        document.getElementById("team_" + selection).innerHTML = cards[cardId].character + ' - ' + cards[cardId].cardname;
+        document.getElementById(selection + "_char").innerHTML = cards[cardId].character.toLowerCase();
+        document.getElementById(selection + "_charfull").innerHTML = cards[cardId].character + ' - ' + cards[cardId].cardname;
         if (selection.startsWith("m")) {
             document.getElementById(selection + "_unit").innerHTML = cards[cardId].unit
             document.getElementById(selection + "_type").innerHTML = cards[cardId].type
@@ -359,6 +366,79 @@ function createCharacterFilters() {
 
         document.getElementById("bonus" + i).appendChild(select);
     }
+
+    // Create character param filters
+    var table = document.getElementById("paramtable");
+    let thead = table.createTHead();
+    let row = thead.insertRow();
+    var th = document.createElement("th");
+    var text = document.createTextNode("Character");
+    th.appendChild(text);
+    row.appendChild(th);
+    var th = document.createElement("th");
+    var text = document.createTextNode("Heart");
+    th.appendChild(text);
+    row.appendChild(th);
+    var th = document.createElement("th");
+    var text = document.createTextNode("Technical");
+    th.appendChild(text);
+    row.appendChild(th);
+    var th = document.createElement("th");
+    var text = document.createTextNode("Physical");
+    th.appendChild(text);
+    row.appendChild(th);
+
+    for (let x of characters) {
+        // For each character, create a new row
+        var charRow = table.insertRow();
+        charRow.insertCell().appendChild(document.createTextNode(x));
+
+        // Create param select
+        for (var i = 1; i < 4; i++) {
+            var paramSelect = document.createElement("select");
+            paramSelect.name = "param_" + x.toLowerCase() + "_" + i;
+            paramSelect.id = "param_" + x.toLowerCase() + "_" + i;
+            paramSelect.classList.add("selectpicker");
+            paramSelect.classList.add("paramchar");
+            paramSelect.setAttribute("data-width","fit");
+            paramSelect.setAttribute("data-size","10");
+
+            for (var j = 0; j <= 5; j+=.1) {
+                var paramOption = document.createElement("option");
+                j = Math.round(j * 10) / 10;
+                paramOption.value = j;
+                paramOption.setAttribute("data-content",j);
+                paramSelect.appendChild(paramOption);
+            }
+
+            charRow.insertCell().appendChild(paramSelect);
+        }
+    }
+}
+function calculatePower() {
+    // Main team
+    var teamPower = parseInt(document.getElementById("m1_cardpower").innerHTML) + parseInt(document.getElementById("m2_cardpower").innerHTML) + 
+        parseInt(document.getElementById("m3_cardpower").innerHTML) + parseInt(document.getElementById("m4_cardpower").innerHTML);
+
+    document.getElementById("power_main").innerHTML = teamPower;
+
+    var clubGain = 0;
+    for (let i = 1; i <= 4; i++) {
+        var dispVal = document.getElementById("club-display").value;
+        var displayPerc = 0;
+        if (clubItems1[dispVal].type === "unit") {
+            if (document.getElementById("m" + i + "_unit").innerText === clubItems1[dispVal].name) {
+                displayPerc = clubItems1[dispVal].bonus;
+            }
+        } else if (clubItems1[dispVal].type === "character") {
+            if (document.getElementById("m" + i + "_char").innerText === clubItems1[dispVal].name) {
+                displayPerc = clubItems1[dispVal].bonus;
+            }
+        } else {
+            displayPerc = .2;
+        }
+        console.log(displayPerc);
+    }    
 }
 
 var units = [

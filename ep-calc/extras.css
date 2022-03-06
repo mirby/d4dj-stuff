@@ -46,6 +46,12 @@
     padding-left: 15px;
 }
 
+#saveSection {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
 #cardDropdown label {
     padding-right: 10px;
 }
@@ -68,4 +74,20 @@
 
 .nav-tabs {
     padding-top: 5px;
+}
+
+#fadediv {
+    display: inline-block;
+    padding-left: 10px;
+    font-weight: bold;
+    opacity: 0;
+    transition: 1s;
+}
+
+#fadediv.fade-in {
+    display: inline-block;
+    padding-left: 10px;
+    font-weight: bold;
+    opacity: 1;
+    transition: 1s;
 }
