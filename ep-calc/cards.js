@@ -407,7 +407,12 @@ function createCharacterFilters() {
                 var paramOption = document.createElement("option");
                 j = Math.round(j * 10) / 10;
                 paramOption.value = j;
-                paramOption.setAttribute("data-content",j);
+                if (j == 0) {
+                    paramOption.setAttribute("data-content","-");
+                } else {
+                    paramOption.setAttribute("data-content",j.toString() + "%");
+                }
+                
                 paramSelect.appendChild(paramOption);
             }
 
@@ -416,29 +421,127 @@ function createCharacterFilters() {
     }
 }
 function calculatePower() {
-    // Main team
+    // Main team power
     var teamPower = parseInt(document.getElementById("m1_cardpower").innerHTML) + parseInt(document.getElementById("m2_cardpower").innerHTML) + 
         parseInt(document.getElementById("m3_cardpower").innerHTML) + parseInt(document.getElementById("m4_cardpower").innerHTML);
 
     document.getElementById("power_main").innerHTML = teamPower;
 
-    var clubGain = 0;
+    // Club power
+    var totalClubPower = 0;
+    // For each party member slot
     for (let i = 1; i <= 4; i++) {
-        var dispVal = document.getElementById("club-display").value;
-        var displayPerc = 0;
-        if (clubItems1[dispVal].type === "unit") {
-            if (document.getElementById("m" + i + "_unit").innerText === clubItems1[dispVal].name) {
-                displayPerc = clubItems1[dispVal].bonus;
-            }
-        } else if (clubItems1[dispVal].type === "character") {
-            if (document.getElementById("m" + i + "_char").innerText === clubItems1[dispVal].name) {
-                displayPerc = clubItems1[dispVal].bonus;
-            }
-        } else {
-            displayPerc = .2;
+        var clubPercGain = 0;
+
+        // For each club item type, get the total club bonus %
+        for (let type1 of clubTypes1) {
+            clubPercGain += getClubPerc(type1, i);    
         }
-        console.log(displayPerc);
-    }    
+
+        for (let type2 of clubTypes2) {
+            clubPercGain += getClubPerc(type2, i);    
+        }
+
+        for (let type3 of clubTypes3) {
+            clubPercGain += getClubPerc(type3, i);    
+        }
+
+        var heart = Math.floor(parseInt(document.getElementById("m" + i + "_heart").innerText) * clubPercGain);
+        var tech = Math.floor(parseInt(document.getElementById("m" + i + "_tech").innerText) * clubPercGain);
+        var phys = Math.floor(parseInt(document.getElementById("m" + i + "_phys").innerText) * clubPercGain);
+        var clubTotal = heart + tech + phys;
+
+        document.getElementById("m" + i + "_clubbonus").innerHTML = clubTotal;
+        totalClubPower += clubTotal;
+    }
+
+    document.getElementById("power_club").innerHTML = totalClubPower;
+
+    // Event power
+    var totalEventPower = 0;
+    for (let i = 1; i <= 4; i++) {
+        var eventPercGain = getEventPerc(i);
+
+        var heart = Math.floor(parseInt(document.getElementById("m" + i + "_heart").innerText) * eventPercGain);
+        var tech = Math.floor(parseInt(document.getElementById("m" + i + "_tech").innerText) * eventPercGain);
+        var phys = Math.floor(parseInt(document.getElementById("m" + i + "_phys").innerText) * eventPercGain);
+        var eventTotal = heart + tech + phys;
+
+        document.getElementById("m" + i + "_eventbonus").innerHTML = eventTotal;
+        totalEventPower += eventTotal;
+    }
+
+    document.getElementById("power_event").innerHTML = totalEventPower;
+}
+
+// Return the club percentage bonus for the club type and character
+function getClubPerc(selectId, charId) {
+    var clubItemCheck = {};
+    switch (selectId) {
+        case "display":
+        case "djbooth":
+        case "discl":
+        case "discr":
+            clubItemCheck = clubItems1;
+            break;
+        case "front":
+        case "side":
+        case "back":
+        case "frame":
+        case "light":
+        case "accessory":
+            clubItemCheck = clubItems2;
+            break;
+        case "decoration":
+            clubItemCheck = clubItems3;
+            break;
+    }
+
+    var clubVal = document.getElementById("club-" + selectId).value;
+    var clubPerc = 0;
+    if (clubItemCheck[clubVal].type === "unit") {
+        if (document.getElementById("m" + charId + "_unit").innerText.toLowerCase() === clubItemCheck[clubVal].name) {
+            clubPerc = clubItemCheck[clubVal].bonus;
+        }
+    } else if (clubItemCheck[clubVal].type === "character") {
+        if (document.getElementById("m" + charId + "_char").innerText.toLowerCase() === clubItemCheck[clubVal].name) {
+            clubPerc = clubItemCheck[clubVal].bonus;
+        }
+    } else {
+        clubPerc = clubItemCheck[clubVal].bonus;
+    }
+
+    return clubPerc;
+}
+
+function getEventPerc(charId) {
+
+    // For each char bonus, check if char matches
+    var character = "bonus" + document.getElementById("m" + charId + "_char").innerText.toLowerCase();
+    var charBonus = false;
+    for (var i = 1; i <= 4; i++) {
+        if (character === document.getElementById("eventbonus" + i).value.toLowerCase()) {
+            charBonus = true;
+        }
+    }
+
+    var style = "event-" + document.getElementById("m" + charId + "_type").innerText.toLowerCase();
+    var styleBonus = (style === document.getElementById("eventstyle").value);
+
+    var eventPerc = 0;
+    if (charBonus) {
+        eventPerc += .2;
+    }
+
+    if (styleBonus) {
+        eventPerc += .2;
+    }
+
+    if ("event-yes" === document.getElementById("eventbonus").value && (eventPerc == .4)) {
+        eventPerc += .1;
+    }
+
+    return eventPerc;
 }
 
 var units = [
