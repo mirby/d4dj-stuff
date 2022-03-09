@@ -19,6 +19,14 @@ $(document).on('changed.bs.select', 'select', function(event) {
     } else if ($(event.target).is("select.eventbonuschar")) {
         populateCharSelect();
     }
+
+    if ($(event.target).is("select.eventselect")) {
+        calcEventPower();
+        calculatePower();
+    } else if ($(event.target).is("select.etselect")) {
+        calcClubPower();
+        calculatePower();
+    }
 });
 
 jQuery(function($) {
@@ -58,16 +66,50 @@ function populateTeam(selection, cardId) {
         document.getElementById("team_" + selection).innerHTML = cards[cardId].character + ' - ' + cards[cardId].cardname;
         document.getElementById(selection + "_char").innerHTML = cards[cardId].character.toLowerCase();
         document.getElementById(selection + "_charfull").innerHTML = cards[cardId].character + ' - ' + cards[cardId].cardname;
+        document.getElementById(selection + "_heartbase").innerHTML = cards[cardId].heart;
+        document.getElementById(selection + "_techbase").innerHTML = cards[cardId].technical;
+        document.getElementById(selection + "_physbase").innerHTML = cards[cardId].physical;
+        document.getElementById(selection + "_cardpower").innerHTML = cards[cardId].heart + cards[cardId].technical + cards[cardId].physical;
+
         if (selection.startsWith("m")) {
-            document.getElementById(selection + "_unit").innerHTML = cards[cardId].unit
-            document.getElementById(selection + "_type").innerHTML = cards[cardId].type
+            document.getElementById(selection + "_unit").innerHTML = cards[cardId].unit;
+            document.getElementById(selection + "_type").innerHTML = cards[cardId].type;
         }
-        document.getElementById(selection + "_heart").innerHTML = cards[cardId].heart
-        document.getElementById(selection + "_tech").innerHTML = cards[cardId].technical
-        document.getElementById(selection + "_phys").innerHTML = cards[cardId].physical
-        document.getElementById(selection + "_cardpower").innerHTML = cards[cardId].heart + cards[cardId].technical + cards[cardId].physical
+
         if (selection.startsWith("s")) {
-            var suppPower = Math.floor(cards[cardId].heart / 4) + Math.floor(cards[cardId].technical / 4) + Math.floor(cards[cardId].physical / 4);
+
+            // TODO Get support ET here
+            var et = 0;
+
+            var heartBase = cards[cardId].heart;
+            var techBase = cards[cardId].technical;
+            var physBase = cards[cardId].physical;
+        
+            var heartMod = 0;
+            var techMod = 0;
+            var physMod = 0;
+    
+            if (heartBase > techBase) {
+                if (heartBase > physBase) {
+                    heartMod += et;
+                } else {
+                    physMod += et;
+                }
+            } else if (techBase > physBase) {
+                techMod += et;
+            } else {
+                physMod += et;
+            }
+            
+            document.getElementById(selection + "_heartmod").innerHTML = heartMod;
+            document.getElementById(selection + "_techmod").innerHTML = techMod;
+            document.getElementById(selection + "_physmod").innerHTML = physMod;
+
+            document.getElementById(selection + "_heart").innerHTML = heartBase + " (+" + heartMod + ")";
+            document.getElementById(selection + "_tech").innerHTML = techBase + " (+" + techMod + ")";
+            document.getElementById(selection + "_phys").innerHTML = physBase + " (+" + physMod + ")";
+
+            var suppPower = Math.floor((heartBase + heartMod) / 4) + Math.floor((techBase + techMod) / 4) + Math.floor((physBase + physMod) / 4);
             document.getElementById(selection + "_supportpower").innerHTML = suppPower;
         }
     }
@@ -304,6 +346,7 @@ function populateCharSelect() {
     select.name = "eventmedleychar";
     select.id = "eventmedleychar";
     select.classList.add("selectpicker");
+    select.classList.add("eventselect");
     select.setAttribute("data-width","fit");
     select.setAttribute("data-size","10");
 
@@ -353,6 +396,7 @@ function createCharacterFilters() {
         select.id = "eventbonus" + i;
         select.classList.add("selectpicker");
         select.classList.add("eventbonuschar");
+        select.classList.add("eventselect");
         select.setAttribute("data-width","fit");
         select.setAttribute("data-size","10");
 
@@ -421,57 +465,116 @@ function createCharacterFilters() {
     }
 }
 function calculatePower() {
-    // Main team power
-    var teamPower = parseInt(document.getElementById("m1_cardpower").innerHTML) + parseInt(document.getElementById("m2_cardpower").innerHTML) + 
-        parseInt(document.getElementById("m3_cardpower").innerHTML) + parseInt(document.getElementById("m4_cardpower").innerHTML);
 
-    document.getElementById("power_main").innerHTML = teamPower;
-
-    // Club power
+    var totalMainPower = 0;
     var totalClubPower = 0;
-    // For each party member slot
+    var totalSupportPower = 0;
+    var totalEventPower = 0;
+    for (let i = 1; i <= 4; i++) {
+        totalMainPower += parseInt(document.getElementById("m" + i + "_cardpower").innerText);
+        totalClubPower += parseInt(document.getElementById("m" + i + "_clubbonus").innerText);
+        totalEventPower += parseInt(document.getElementById("m" + i + "_eventbonus").innerText);
+        totalSupportPower += parseInt(document.getElementById("s" + i + "_supportpower").innerText);
+    }
+
+    document.getElementById("power_main").innerHTML = totalMainPower;
+    document.getElementById("power_club").innerHTML = totalClubPower;
+    document.getElementById("power_support").innerHTML = totalSupportPower;
+    document.getElementById("power_event").innerHTML = totalEventPower;
+
+    // Medley power
+    var totalMedleyPower = 0;
+    if (document.getElementById("eventtype").value === "event-medley") {
+        for (let i = 1; i <= 4; i++) {
+            if (("eventmedleybonus" + document.getElementById("m" + i + "_char").innerText.toLowerCase()) === document.getElementById("eventmedleychar").value.toLowerCase()) {
+                var heart = Math.floor(parseInt(document.getElementById("m" + i + "_heart").innerText) * .1);
+                var tech = Math.floor(parseInt(document.getElementById("m" + i + "_tech").innerText) * .1);
+                var phys = Math.floor(parseInt(document.getElementById("m" + i + "_phys").innerText) * .1);
+                totalMedleyPower = heart + tech + phys;
+                break;
+            }
+        }
+    }
+    document.getElementById("power_medley").innerHTML = totalMedleyPower;
+
+    document.getElementById("power_totalwo").innerHTML = totalMainPower + totalClubPower + totalSupportPower;
+    document.getElementById("power_total").innerHTML = totalMainPower + totalClubPower + totalSupportPower + totalEventPower + totalMedleyPower;
+}
+
+// Anytime club items are changed, recalculate club power
+function calcClubPower() {
+
     for (let i = 1; i <= 4; i++) {
         var clubPercGain = 0;
-
-        // For each club item type, get the total club bonus %
         for (let type1 of clubTypes1) {
             clubPercGain += getClubPerc(type1, i);    
         }
-
+    
         for (let type2 of clubTypes2) {
             clubPercGain += getClubPerc(type2, i);    
         }
-
+    
         for (let type3 of clubTypes3) {
-            clubPercGain += getClubPerc(type3, i);    
+            clubPercGain += getClubPerc(type3, i);
         }
 
-        var heart = Math.floor(parseInt(document.getElementById("m" + i + "_heart").innerText) * clubPercGain);
-        var tech = Math.floor(parseInt(document.getElementById("m" + i + "_tech").innerText) * clubPercGain);
-        var phys = Math.floor(parseInt(document.getElementById("m" + i + "_phys").innerText) * clubPercGain);
-        var clubTotal = heart + tech + phys;
+        var et = document.getElementById("m" + i + "_et").value;
+        var etVal = 0;
 
+        switch (et) {
+            case "1":
+                etVal = 2000;
+                break;
+            case "2":
+                etVal = 2500;
+                break;
+            case "3":
+                etVal = 3000;
+                break;
+            case "4":
+                etVal = 4500;
+                break;
+            default:
+                etVal = 0;
+        }        
+
+        var heartBase = parseInt(document.getElementById("m" + i + "_heartbase").innerText);
+        var techBase = parseInt(document.getElementById("m" + i + "_techbase").innerText);
+        var physBase = parseInt(document.getElementById("m" + i + "_physbase").innerText);
+    
+        var heartMod = 0;
+        var techMod = 0;
+        var physMod = 0;
+
+        if (heartBase > techBase) {
+            if (heartBase > physBase) {
+                heartMod += etVal;
+            } else {
+                physMod += etVal;
+            }
+        } else if (techBase > physBase) {
+            techMod += etVal;
+        } else {
+            physMod += etVal;
+        }
+
+        var heartClub = Math.floor((heartBase + heartMod) * clubPercGain);
+        var techClub = Math.floor((techBase + techMod) * clubPercGain);
+        var physClub = Math.floor((physBase + physMod) * clubPercGain);
+
+        document.getElementById("m" + i + "_heartmod").innerHTML = parseInt(heartMod + heartClub);
+        document.getElementById("m" + i + "_techmod").innerHTML = parseInt(techMod + techClub);
+        document.getElementById("m" + i + "_physmod").innerHTML = parseInt(physMod + physClub);
+        document.getElementById("m" + i + "_heart").innerHTML = heartBase + " (+" + parseInt(heartMod + heartClub) + ")";
+        document.getElementById("m" + i + "_tech").innerHTML = techBase + " (+" + parseInt(techMod + techClub) + ")";
+        document.getElementById("m" + i + "_phys").innerHTML = physBase + " (+" + parseInt(physMod + physClub) + ")";
+
+        var clubTotal = heartClub + techClub + physClub;
+    
         document.getElementById("m" + i + "_clubbonus").innerHTML = clubTotal;
-        totalClubPower += clubTotal;
     }
 
-    document.getElementById("power_club").innerHTML = totalClubPower;
-
-    // Event power
-    var totalEventPower = 0;
-    for (let i = 1; i <= 4; i++) {
-        var eventPercGain = getEventPerc(i);
-
-        var heart = Math.floor(parseInt(document.getElementById("m" + i + "_heart").innerText) * eventPercGain);
-        var tech = Math.floor(parseInt(document.getElementById("m" + i + "_tech").innerText) * eventPercGain);
-        var phys = Math.floor(parseInt(document.getElementById("m" + i + "_phys").innerText) * eventPercGain);
-        var eventTotal = heart + tech + phys;
-
-        document.getElementById("m" + i + "_eventbonus").innerHTML = eventTotal;
-        totalEventPower += eventTotal;
-    }
-
-    document.getElementById("power_event").innerHTML = totalEventPower;
+    calcParams();
 }
 
 // Return the club percentage bonus for the club type and character
@@ -514,6 +617,19 @@ function getClubPerc(selectId, charId) {
     return clubPerc;
 }
 
+function calcEventPower() {
+    for (let i = 1; i <= 4; i++) {
+        var eventPercGain = getEventPerc(i);
+
+        var heart = Math.floor(parseInt(document.getElementById("m" + i + "_heart").innerText) * eventPercGain);
+        var tech = Math.floor(parseInt(document.getElementById("m" + i + "_tech").innerText) * eventPercGain);
+        var phys = Math.floor(parseInt(document.getElementById("m" + i + "_phys").innerText) * eventPercGain);
+        var eventTotal = heart + tech + phys;
+
+        document.getElementById("m" + i + "_eventbonus").innerHTML = eventTotal;
+    }
+}
+
 function getEventPerc(charId) {
 
     // For each char bonus, check if char matches
@@ -542,6 +658,42 @@ function getEventPerc(charId) {
     }
 
     return eventPerc;
+}
+
+function calcParams() {
+    var totalHeart = 0;
+    var totalTech = 0;
+    var totalPhys = 0;
+
+    for (let i = 1; i <= 4; i++) {
+        totalHeart += parseInt(document.getElementById("m" + i + "_heartbase").innerText) || 0;
+        totalHeart += parseInt(document.getElementById("m" + i + "_heartmod").innerText) || 0;
+
+        var suppBase = parseInt(document.getElementById("s" + i + "_heartbase").innerText) || 0;
+        var suppMod = parseInt(document.getElementById("s" + i + "_heartmod").innerText) || 0;
+        totalHeart += Math.floor((suppBase + suppMod) / 4);
+
+        totalTech += parseInt(document.getElementById("m" + i + "_techbase").innerText) || 0;
+        totalTech += parseInt(document.getElementById("m" + i + "_techmod").innerText) || 0;
+
+        suppBase = parseInt(document.getElementById("s" + i + "_techbase").innerText) || 0;
+        suppMod = parseInt(document.getElementById("s" + i + "_techmod").innerText) || 0;
+        totalTech += Math.floor((suppBase + suppMod) / 4);
+
+        totalPhys += parseInt(document.getElementById("m" + i + "_physbase").innerText) || 0;
+        totalPhys += parseInt(document.getElementById("m" + i + "_physmod").innerText) || 0;
+
+        var suppBase = parseInt(document.getElementById("s" + i + "_physbase").innerText) || 0;
+        var suppMod = parseInt(document.getElementById("s" + i + "_physmod").innerText) || 0;
+        totalPhys += Math.floor((suppBase + suppMod) / 4);
+    }
+
+    document.getElementById("paramtotal_heart").innerHTML = totalHeart;
+    document.getElementById("paramtotal_heartep").innerHTML = Math.round(((totalHeart / 600) + Number.EPSILON) * 100) / 100;
+    document.getElementById("paramtotal_tech").innerHTML = totalTech;
+    document.getElementById("paramtotal_techep").innerHTML = Math.round(((totalTech / 600) + Number.EPSILON) * 100) / 100;
+    document.getElementById("paramtotal_phys").innerHTML = totalPhys;
+    document.getElementById("paramtotal_physep").innerHTML = Math.round(((totalPhys / 600) + Number.EPSILON) * 100) / 100;
 }
 
 var units = [

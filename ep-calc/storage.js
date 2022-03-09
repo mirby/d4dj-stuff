@@ -46,6 +46,10 @@ jQuery(function($) {
         }
 
         $('.selectpicker').selectpicker('refresh');
+
+        calcClubPower();
+        calcEventPower();
+        calculatePower();
     });
 
     $('#saveData').on('click', function() {

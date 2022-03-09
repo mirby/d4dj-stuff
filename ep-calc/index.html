@@ -24,13 +24,16 @@
           <button class="nav-link active" id="cardSection-tab" data-bs-toggle="tab" data-bs-target="#cardSection" type="button" role="tab" aria-controls="cardSection" aria-selected="true">Add Cards To Team</button>
         </li>
         <li class="nav-item" role="presentation">
-            <button class="nav-link" id="teamdisplaySection-tab" data-bs-toggle="tab" data-bs-target="#teamdisplaySection" type="button" role="tab" aria-controls="teamdisplaySection" aria-selected="false">Team Details</button>
+            <button class="nav-link" id="teamdisplaySection-tab" data-bs-toggle="tab" data-bs-target="#teamdisplaySection" type="button" role="tab" aria-controls="teamdisplaySection" aria-selected="false">Extra Training</button>
         </li>
         <li class="nav-item" role="presentation">
           <button class="nav-link" id="clubSection-tab" data-bs-toggle="tab" data-bs-target="#clubSection" type="button" role="tab" aria-controls="clubSection" aria-selected="false">Club / Event</button>
         </li>
         <li class="nav-item" role="presentation">
-            <button class="nav-link" id="paramSection-tab" data-bs-toggle="tab" data-bs-target="#paramSection" type="button" role="tab" aria-controls="paramSection" aria-selected="false">Parameter Upgrade</button>
+            <button class="nav-link" id="paramSection-tab" data-bs-toggle="tab" data-bs-target="#paramSection" type="button" role="tab" aria-controls="paramSection" aria-selected="false">Param Upgrade</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="questionSection-tab" data-bs-toggle="tab" data-bs-target="#questionSection" type="button" role="tab" aria-controls="questionSection" aria-selected="false">Credits & Extra</button>
         </li>
     </ul>
     <div class="tab-content" id="tabContent">
@@ -197,58 +200,100 @@
                         <tr>
                             <th scope="row">Extra Training</th>
                             <td>
-                                <select class="selectpicker" id="m1_et" data-width="fit">
-                                    <option value="m1_0" data-content="+0">+0</option>
-                                    <option value="m1_1" data-content="+1">+1</option>
-                                    <option value="m1_2" data-content="+2">+2</option>
-                                    <option value="m1_3" data-content="+3">+3</option>
-                                    <option value="m1_4" data-content="+4">+4</option>
+                                <select class="selectpicker etselect" id="m1_et" data-width="fit">
+                                    <option value="0" data-content="+0">+0</option>
+                                    <option value="1" data-content="+1">+1</option>
+                                    <option value="2" data-content="+2">+2</option>
+                                    <option value="3" data-content="+3">+3</option>
+                                    <option value="4" data-content="+4">+4</option>
                                 </select>
                             </td>
                             <td>
-                                <select class="selectpicker" id="m2_et" data-width="fit">
-                                    <option value="m2_0" data-content="+0">+0</option>
-                                    <option value="m2_1" data-content="+1">+1</option>
-                                    <option value="m2_2" data-content="+2">+2</option>
-                                    <option value="m2_3" data-content="+3">+3</option>
-                                    <option value="m2_4" data-content="+4">+4</option>
+                                <select class="selectpicker etselect" id="m2_et" data-width="fit">
+                                    <option value="0" data-content="+0">+0</option>
+                                    <option value="1" data-content="+1">+1</option>
+                                    <option value="2" data-content="+2">+2</option>
+                                    <option value="3" data-content="+3">+3</option>
+                                    <option value="4" data-content="+4">+4</option>
                                 </select>
                             </td>
                             <td>
-                                <select class="selectpicker" id="m3_et" data-width="fit">
-                                    <option value="m3_0" data-content="+0">+0</option>
-                                    <option value="m3_1" data-content="+1">+1</option>
-                                    <option value="m3_2" data-content="+2">+2</option>
-                                    <option value="m3_3" data-content="+3">+3</option>
-                                    <option value="m3_4" data-content="+4">+4</option>
+                                <select class="selectpicker etselect" id="m3_et" data-width="fit">
+                                    <option value="0" data-content="+0">+0</option>
+                                    <option value="1" data-content="+1">+1</option>
+                                    <option value="2" data-content="+2">+2</option>
+                                    <option value="3" data-content="+3">+3</option>
+                                    <option value="4" data-content="+4">+4</option>
                                 </select>
                             </td>
                             <td>
-                                <select class="selectpicker" id="m4_et" data-width="fit">
-                                    <option value="m4_0" data-content="+0">+0</option>
-                                    <option value="m4_1" data-content="+1">+1</option>
-                                    <option value="m4_2" data-content="+2">+2</option>
-                                    <option value="m4_3" data-content="+3">+3</option>
-                                    <option value="m4_4" data-content="+4">+4</option>
+                                <select class="selectpicker etselect" id="m4_et" data-width="fit">
+                                    <option value="0" data-content="+0">+0</option>
+                                    <option value="1" data-content="+1">+1</option>
+                                    <option value="2" data-content="+2">+2</option>
+                                    <option value="3" data-content="+3">+3</option>
+                                    <option value="4" data-content="+4">+4</option>
                                 </select>
                             </td>
                         </tr>
-                        <tr class="table-danger">
+                        <tr style="display:none;">
                             <th scope="row">Heart</th>
+                            <td id="m1_heartbase"></td>
+                            <td id="m2_heartbase"></td>
+                            <td id="m3_heartbase"></td>
+                            <td id="m4_heartbase"></td>
+                        </tr>
+                        <tr style="display:none;">
+                            <th scope="row">Heart</th>
+                            <td id="m1_heartmod"></td>
+                            <td id="m2_heartmod"></td>
+                            <td id="m3_heartmod"></td>
+                            <td id="m4_heartmod"></td>
+                        </tr>
+                        <tr>
+                            <th class="heart_color" scope="row">Heart</th>
                             <td id="m1_heart"></td>
                             <td id="m2_heart"></td>
                             <td id="m3_heart"></td>
                             <td id="m4_heart"></td>
                         </tr>
-                        <tr class="table-info">
+                        <tr style="display:none;">
                             <th scope="row">Technical</th>
+                            <td id="m1_techbase"></td>
+                            <td id="m2_techbase"></td>
+                            <td id="m3_techbase"></td>
+                            <td id="m4_techbase"></td>
+                        </tr>
+                        <tr style="display:none;" >
+                            <th scope="row">Technical</th>
+                            <td id="m1_techmod"></td>
+                            <td id="m2_techmod"></td>
+                            <td id="m3_techmod"></td>
+                            <td id="m4_techmod"></td>
+                        </tr>
+                        <tr>
+                            <th class="phys_color" scope="row">Technical</th>
                             <td id="m1_tech"></td>
                             <td id="m2_tech"></td>
                             <td id="m3_tech"></td>
                             <td id="m4_tech"></td>
                         </tr>
-                        <tr class="table-warning">
+                        <tr style="display:none;">
                             <th scope="row">Physical</th>
+                            <td id="m1_physbase"></td>
+                            <td id="m2_physbase"></td>
+                            <td id="m3_physbase"></td>
+                            <td id="m4_physbase"></td>
+                        </tr>
+                        <tr style="display:none;">
+                            <th scope="row">Physical</th>
+                            <td id="m1_physmod"></td>
+                            <td id="m2_physmod"></td>
+                            <td id="m3_physmod"></td>
+                            <td id="m4_physmod"></td>
+                        </tr>
+                        <tr>
+                            <th class="tech_color" scope="row">Physical</th>
                             <td id="m1_phys"></td>
                             <td id="m2_phys"></td>
                             <td id="m3_phys"></td>
@@ -274,13 +319,6 @@
                             <td id="m2_eventbonus"></td>
                             <td id="m3_eventbonus"></td>
                             <td id="m4_eventbonus"></td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Total Power</th>
-                            <td id="m1_totalpower"></td>
-                            <td id="m2_totalpower"></td>
-                            <td id="m3_totalpower"></td>
-                            <td id="m4_totalpower"></td>
                         </tr>
                     </tbody>
                 </table>
@@ -322,58 +360,100 @@
                         <tr>
                             <th scope="row">Extra Training</th>
                             <td>
-                                <select class="selectpicker" data-width="fit">
-                                    <option value="s1_0" data-content="+0">+0</option>
-                                    <option value="s1_1" data-content="+1">+1</option>
-                                    <option value="s1_2" data-content="+2">+2</option>
-                                    <option value="s1_3" data-content="+3">+3</option>
-                                    <option value="s1_4" data-content="+4">+4</option>
+                                <select class="selectpicker etselect" id="s1_et" data-width="fit">
+                                    <option value="0" data-content="+0">+0</option>
+                                    <option value="1" data-content="+1">+1</option>
+                                    <option value="2" data-content="+2">+2</option>
+                                    <option value="3" data-content="+3">+3</option>
+                                    <option value="4" data-content="+4">+4</option>
                                 </select>
                             </td>
                             <td>
-                                <select class="selectpicker" data-width="fit">
-                                    <option value="s2_0" data-content="+0">+0</option>
-                                    <option value="s2_1" data-content="+1">+1</option>
-                                    <option value="s2_2" data-content="+2">+2</option>
-                                    <option value="s2_3" data-content="+3">+3</option>
-                                    <option value="s2_4" data-content="+4">+4</option>
+                                <select class="selectpicker etselect" id="s2_et" data-width="fit">
+                                    <option value="0" data-content="+0">+0</option>
+                                    <option value="1" data-content="+1">+1</option>
+                                    <option value="2" data-content="+2">+2</option>
+                                    <option value="3" data-content="+3">+3</option>
+                                    <option value="4" data-content="+4">+4</option>
                                 </select>
                             </td>
                             <td>
-                                <select class="selectpicker" data-width="fit">
-                                    <option value="s3_0" data-content="+0">+0</option>
-                                    <option value="s3_1" data-content="+1">+1</option>
-                                    <option value="s3_2" data-content="+2">+2</option>
-                                    <option value="s3_3" data-content="+3">+3</option>
-                                    <option value="s3_4" data-content="+4">+4</option>
+                                <select class="selectpicker etselect" id="s3_et" data-width="fit">
+                                    <option value="0" data-content="+0">+0</option>
+                                    <option value="1" data-content="+1">+1</option>
+                                    <option value="2" data-content="+2">+2</option>
+                                    <option value="3" data-content="+3">+3</option>
+                                    <option value="4" data-content="+4">+4</option>
                                 </select>
                             </td>
                             <td>
-                                <select class="selectpicker" data-width="fit">
-                                    <option value="s4_0" data-content="+0">+0</option>
-                                    <option value="s4_1" data-content="+1">+1</option>
-                                    <option value="s4_2" data-content="+2">+2</option>
-                                    <option value="s4_3" data-content="+3">+3</option>
-                                    <option value="s4_4" data-content="+4">+4</option>
+                                <select class="selectpicker etselect" id="s4_et" data-width="fit">
+                                    <option value="0" data-content="+0">+0</option>
+                                    <option value="1" data-content="+1">+1</option>
+                                    <option value="2" data-content="+2">+2</option>
+                                    <option value="3" data-content="+3">+3</option>
+                                    <option value="4" data-content="+4">+4</option>
                                 </select>
                             </td>
                         </tr>
-                        <tr class="table-danger">
+                        <tr style="display:none;">
                             <th scope="row">Heart</th>
+                            <td id="s1_heartbase"></td>
+                            <td id="s2_heartbase"></td>
+                            <td id="s3_heartbase"></td>
+                            <td id="s4_heartbase"></td>
+                        </tr>
+                        <tr style="display:none;">
+                            <th scope="row">Heart</th>
+                            <td id="s1_heartmod"></td>
+                            <td id="s2_heartmod"></td>
+                            <td id="s3_heartmod"></td>
+                            <td id="s4_heartmod"></td>
+                        </tr>
+                        <tr>
+                            <th class="heart_color" scope="row">Heart</th>
                             <td id="s1_heart"></td>
                             <td id="s2_heart"></td>
                             <td id="s3_heart"></td>
                             <td id="s4_heart"></td>
                         </tr>
-                        <tr class="table-info">
+                        <tr style="display:none;">
                             <th scope="row">Technical</th>
+                            <td id="s1_techbase"></td>
+                            <td id="s2_techbase"></td>
+                            <td id="s3_techbase"></td>
+                            <td id="s4_techbase"></td>
+                        </tr>
+                        <tr style="display:none;" >
+                            <th scope="row">Technical</th>
+                            <td id="s1_techmod"></td>
+                            <td id="s2_techmod"></td>
+                            <td id="s3_techmod"></td>
+                            <td id="s4_techmod"></td>
+                        </tr>
+                        <tr>
+                            <th class="tech_color" scope="row">Technical</th>
                             <td id="s1_tech"></td>
                             <td id="s2_tech"></td>
                             <td id="s3_tech"></td>
                             <td id="s4_tech"></td>
                         </tr>
-                        <tr class="table-warning">
+                        <tr style="display:none;">
                             <th scope="row">Physical</th>
+                            <td id="s1_physbase"></td>
+                            <td id="s2_physbase"></td>
+                            <td id="s3_physbase"></td>
+                            <td id="s4_physbase"></td>
+                        </tr>
+                        <tr style="display:none;">
+                            <th scope="row">Physical</th>
+                            <td id="s1_physmod"></td>
+                            <td id="s2_physmod"></td>
+                            <td id="s3_physmod"></td>
+                            <td id="s4_physmod"></td>
+                        </tr>
+                        <tr>
+                            <th class="phys_color" scope="row">Physical</th>
                             <td id="s1_phys"></td>
                             <td id="s2_phys"></td>
                             <td id="s3_phys"></td>
@@ -485,7 +565,7 @@
                             <div class="col-sm-1">
                                 <label>Extra 10% Bonus?</label>
                                 <div>
-                                    <select class="selectpicker" name="eventbonus" id="eventbonus" data-width="fit">
+                                    <select class="selectpicker eventselect" name="eventbonus" id="eventbonus" data-width="fit">
                                         <option value="event-yes" data-content="Yes">Yes</option>
                                         <option value="event-no" data-content="No">No</option>
                                     </select>
@@ -494,7 +574,7 @@
                             <div class="col-sm-1">
                                 <label>Event Style:</label>
                                 <div>
-                                    <select class="selectpicker" name="eventstyle" id="eventstyle" data-width="fit">
+                                    <select class="selectpicker eventselect" name="eventstyle" id="eventstyle" data-width="fit">
                                         <option value="event-cute" data-content="<img src='../icons/type_cute.png' width='20' height='20'></img> Cute">Cute</option>
                                         <option value="event-party" data-content="<img src='../icons/type_party.png' width='20' height='20'></img> Party">Party</option>
                                         <option value="event-cool" data-content="<img src='../icons/type_cool.png' width='20' height='20'></img> Cool">Cool</option>
@@ -506,7 +586,7 @@
                             <div class="col-sm-1">
                                 <label>Event Type:</label>
                                 <div>
-                                    <select class="selectpicker" name="eventtype" id="eventtype" data-width="fit">
+                                    <select class="selectpicker eventselect" name="eventtype" id="eventtype" data-width="fit">
                                         <option value="event-poker" data-content="Poker">Poker</option>
                                         <option value="event-bingo" data-content="Bingo">Bingo</option>
                                         <option value="event-medley" data-content="Medley">Medley</option>
@@ -530,6 +610,19 @@
             </div>
             <div id="paramChar" style="width:800px;min-width:800px">
                 <table id="paramtable" class="table table-bordered"></table>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="questionSection" role="tabpabel" aria-labelledby="questionSection-tab">
+            <div id="bugs" style="width:800px;min-width:800px">
+                <div class="sectionHeader">
+                    <h4>Bugs or future features (maybe)</h4>
+                </div>
+                <ul>
+                    <li>(partial) Card images</li>
+                    <li>save ET per card</li>
+                    <li>multiple profiles</li>
+                    <li>jp card support? would anyone use it?</li>
+                </ul>
             </div>
         </div>
     </div>
@@ -567,12 +660,15 @@
             <caption>Power</caption>
             <thead>
                 <tr>
-                    <th scope="col">Main</th>
-                    <th scope="col">Club</th>
-                    <th scope="col">Support</th>
-                    <th scope="col">Event</th>
-                    <th scope="col">Total (without event)</th>
-                    <th scope="col">Total (with event)</th>
+                    <th id="main_color" scope="col">Main</th>
+                    <th id="club_color" scope="col">Club</th>
+                    <th id="support_color" scope="col">Support</th>
+                    <th id="event_color" scope="col">Event</th>
+                    <th id="medley_color" scope="col">Medley</th>
+                    <th id="totalwo_color" scope="col">Total (without event)</th>
+                    <th id="total_color" scope="col">Total (with event)  <span class="explanation">( ? )</img>
+                        <span class="explanation_text">Only for Bingo (Battle Live) and Medley (Task Medley) events</span></span>
+                    </th>
                 </tr>
             </thead>
             <tbody>
@@ -581,8 +677,32 @@
                     <td id="power_club"></td>
                     <td id="power_support"></td>
                     <td id="power_event"></td>
+                    <td id="power_medley"></td>
                     <td id="power_totalwo"></td>
                     <td id="power_total"></td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-bordered caption-top">
+            <caption>Parameters</caption>
+            <thead>
+                <tr>
+                    <th class="heart_color" scope="col">Total Heart</th>
+                    <th class="heart_color" scope="col">Heart EP</th>
+                    <th class="tech_color" scope="col">Total Tech</th>
+                    <th class="tech_color" scope="col">Tech EP</th>
+                    <th class="phys_color" scope="col">Total Phys</th>
+                    <th class="phys_color" scope="col">Phys EP</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="paramtotal_heart"></td>
+                    <td id="paramtotal_heartep"></td>
+                    <td id="paramtotal_tech"></td>
+                    <td id="paramtotal_techep"></td>
+                    <td id="paramtotal_phys"></td>
+                    <td id="paramtotal_physep"></td>
                 </tr>
             </tbody>
         </table>
@@ -593,7 +713,6 @@
         cardArray.sort(default_sort());
         displayCardsDropdown(cardArray);
         createClubSelects();
-        fillClubItems(1);
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

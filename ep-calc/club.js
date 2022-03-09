@@ -1,6 +1,7 @@
 $(document).on('changed.bs.select', 'select', function(event) {
     if ($(event.target).is("select.clubselect")) {
-        console.log("blah");
+        calcClubPower();
+        calculatePower();
     }
 });
 
@@ -45,10 +46,6 @@ function createClubSelect(obj, id) {
         tempSelect.appendChild(option);
     }
     return tempSelect;
-}
-
-function fillClubItems(val) {
-    console.log(clubItems1[val].displayname);
 }
 
 var clubTypes1 = ["display", "djbooth", "discl", "discr"];
