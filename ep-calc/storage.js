@@ -47,9 +47,11 @@ jQuery(function($) {
 
         $('.selectpicker').selectpicker('refresh');
 
+        calcModPower();
         calcClubPower();
         calcEventPower();
-        calculatePower();
+        calcDisplayPower();
+        calcDisplayParams();
     });
 
     $('#saveData').on('click', function() {
