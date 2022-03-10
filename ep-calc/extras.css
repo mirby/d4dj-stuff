@@ -51,9 +51,8 @@
 }
 
 #saveSection {
-    padding-top: 15px;
     padding-left: 15px;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
 }
 
 #cardDropdown label {
@@ -74,10 +73,6 @@
 
 .club {
     padding-top: 15px;
-}
-
-.nav-tabs {
-    padding-top: 5px;
 }
 
 #fadediv {
@@ -112,7 +107,7 @@
     padding: 5px 0;
     position: absolute;
     z-index: 1;
-    bottom: 150%;
+    top: 150%;
     left: 50%;
     margin-left: -60px;
 }
@@ -120,12 +115,12 @@
 .explanation .explanation_text::after {
     content: "";
     position: absolute;
-    top: 100%;
+    bottom: 100%;
     left: 50%;
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: black transparent transparent transparent;
+    border-color: transparent transparent black transparent;
 }
 
 .explanation:hover .explanation_text {
@@ -176,4 +171,23 @@
     background-color: #b69632 !important;
     color: white;
     font-weight: bold;
+}
+
+.parent ~ .rowHide {
+    display: none;
+}
+
+.open .parent ~ .rowHide {
+    display: table-row;
+}
+
+.parent i {
+    transform: rotate(0deg);
+    transition: transform .3s cubic-bezier(.4,0,.2,1);
+    margin: -.5rem;
+    padding: .5rem;
+}
+
+.open .parent i {
+    transform: rotate(180deg)
 }

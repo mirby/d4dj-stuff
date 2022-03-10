@@ -61,10 +61,6 @@ jQuery(function($) {
     $('#removeData').on('click', function() {
         removeData();
     });
-
-    $('#testData').on('click', function() {
-        testLoad();
-    });
 });
 
 function saveData() {
@@ -127,10 +123,6 @@ function saveData() {
     console.log("SAVED" + JSON.stringify(paramSave));
 
     alert("Saved!");
-}
-
-function testLoad() {
-    calculatePower();
 }
 
 function removeData() {

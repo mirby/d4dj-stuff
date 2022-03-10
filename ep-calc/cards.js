@@ -33,6 +33,12 @@ $(document).on('changed.bs.select', 'select', function(event) {
         calcClubPower();
         calcDisplayPower();
         calcDisplayParams();
+    } else if ($(event.target).is("select.paramchar")) {
+        calcModPower();
+        calcClubPower();
+        calcEventPower();
+        calcDisplayPower();
+        calcDisplayParams();
     }
 });
 
@@ -58,6 +64,11 @@ jQuery(function($) {
         var selection = $('#partypicker').val();
         var cardId = $('#cards').val();
         populateTeam(selection, cardId);
+        calcModPower();
+        calcClubPower();
+        calcEventPower();
+        calcDisplayPower();
+        calcDisplayParams();
 
         let text = document.getElementById("fadediv");
         text.classList.add("fade-in");
@@ -65,12 +76,15 @@ jQuery(function($) {
           text.classList.remove("fade-in");
         }, 2000);
     });
+
+    $('table').on('click', 'tr.parent .fa-chevron-down', function(){
+        $(this).closest('tbody').toggleClass('open');
+    });
 });
 
 function populateTeam(selection, cardId) {
     if (cardId) {
         document.getElementById(selection + "_id").innerHTML = cardId;
-        document.getElementById("team_" + selection).innerHTML = cards[cardId].character + ' - ' + cards[cardId].cardname;
         document.getElementById(selection + "_char").innerHTML = cards[cardId].character.toLowerCase();
         document.getElementById(selection + "_charfull").innerHTML = cards[cardId].character + ' - ' + cards[cardId].cardname;
         document.getElementById(selection + "_heartbase").innerHTML = cards[cardId].heart;
@@ -527,8 +541,14 @@ function calcModPower() {
             }
     
             // Get parameter upgrades
-    
-    
+            var char = document.getElementById(x + i + "_char").innerHTML;
+            var heartParamPerc = parseFloat(document.getElementById("param_" + char + "_1").value) / 100;
+            heartMod += Math.floor((heartBase + heartMod) * heartParamPerc);
+            var techParamPerc = parseFloat(document.getElementById("param_" + char + "_2").value) / 100;
+            techMod += Math.floor((techBase + techMod) * techParamPerc);
+            var physParamPerc = parseFloat(document.getElementById("param_" + char + "_3").value) / 100;
+            physMod += Math.floor((physBase + physMod) * physParamPerc);
+
             // Save modified power as base + mods
             document.getElementById(x + i + "_heartmod").innerHTML = parseInt(heartBase + heartMod);
             document.getElementById(x + i + "_techmod").innerHTML = parseInt(techBase + techMod);

@@ -3599,6 +3599,32 @@ var cards = {
             "physical": 12091,
             "totalpower": 36419,
             "skill": 0.55
+        },
+        "279": {
+            "id": 279,
+            "character": "Maho",
+            "cardname": "Dreamy Love⦾Over Night",
+            "unit": "HapiAra",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 12774,
+            "technical": 15500,
+            "physical": 7271,
+            "totalpower": 35545,
+            "skill": 0.5
+        },
+        "280": {
+            "id": 280,
+            "character": "Rei",
+            "cardname": "Dreamy Love⦾Plush Doll",
+            "unit": "HapiAra",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 11343,
+            "technical": 17225,
+            "physical": 6963,
+            "totalpower": 35531,
+            "skill": 0.5
         }
     }
 
