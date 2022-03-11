@@ -1,10 +1,3 @@
-$(document).on('changed.bs.select', 'select', function(event) {
-    if ($(event.target).is("select.clubselect")) {
-        calcClubPower();
-        calculatePower();
-    }
-});
-
 function createClubSelects() {
     for (let type of clubTypes1) {
         var select = createClubSelect(clubItems1, "club-" + type);
@@ -40,9 +33,11 @@ function createClubSelect(obj, id) {
             option.setAttribute("data-content","<img src='../icons/type_" + obj[x].name.toLowerCase() + ".png' width='20' height='20'></img>" + ' ' + option.text);
         } else if (obj[x].type === "decoration") {
             option.setAttribute("data-content",option.text);
+        } else if (obj[x].type === "character") {
+            option.setAttribute("data-content","<img src='../icons/icon_" + obj[x].name.toLowerCase() + ".png' width='30' height='30'></img>" + ' ' + option.text);
         } else {
             option.setAttribute("data-content","<img src='../icons/icon_" + obj[x].name.toLowerCase() + ".png' width='20' height='20'></img>" + ' ' + option.text);
-        }    
+        }
         tempSelect.appendChild(option);
     }
     return tempSelect;

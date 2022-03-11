@@ -15,7 +15,7 @@
     <script src="storage.js"></script>
   </head>
   <body>
-    <div id="overallSection" style="width:800px;min-width:800px">
+    <div id="overallSection" class="container">
         <table class="table table-bordered caption-top">
             <caption>Power</caption>
             <thead>
@@ -26,7 +26,7 @@
                     <th id="event_color" scope="col">Event</th>
                     <th id="medley_color" scope="col">Medley</th>
                     <th id="totalwo_color" scope="col">Total (without event)</th>
-                    <th id="total_color" scope="col">Total (with event)  <span class="explanation">( ? )</img>
+                    <th id="total_color" scope="col">Total (with event)  <span class="explanation"><i class="fa fa-info-circle"></i>
                         <span class="explanation_text">Only for Bingo (Battle Live) and Medley (Task Medley) events</span></span>
                     </th>
                 </tr>
@@ -67,24 +67,26 @@
             </tbody>
         </table>
     </div>
-    <ul class="nav nav-tabs" id="myTab" role="tablist">
-        <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="cardSection-tab" data-bs-toggle="tab" data-bs-target="#cardSection" type="button" role="tab" aria-controls="cardSection" aria-selected="true">Add Cards To Team</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="clubSection-tab" data-bs-toggle="tab" data-bs-target="#clubSection" type="button" role="tab" aria-controls="clubSection" aria-selected="false">Club / Event</button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link" id="paramSection-tab" data-bs-toggle="tab" data-bs-target="#paramSection" type="button" role="tab" aria-controls="paramSection" aria-selected="false">Param Upgrade</button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link" id="scoreSection-tab" data-bs-toggle="tab" data-bs-target="#scoreSection" type="button" role="tab" aria-controls="scoreSection" aria-selected="false">Scoring</button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link" id="questionSection-tab" data-bs-toggle="tab" data-bs-target="#questionSection" type="button" role="tab" aria-controls="questionSection" aria-selected="false">Credits & Extra</button>
-        </li>
-    </ul>
-    <div class="tab-content" id="tabContent">
+    <div id="tab-headers" class="container">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="cardSection-tab" data-bs-toggle="tab" data-bs-target="#cardSection" type="button" role="tab" aria-controls="cardSection" aria-selected="true">Add Cards To Team</button>
+            </li>
+            <li class="nav-item" role="presentation">
+            <button class="nav-link" id="clubSection-tab" data-bs-toggle="tab" data-bs-target="#clubSection" type="button" role="tab" aria-controls="clubSection" aria-selected="false">Club / Event</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="paramSection-tab" data-bs-toggle="tab" data-bs-target="#paramSection" type="button" role="tab" aria-controls="paramSection" aria-selected="false">Param Upgrade</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="scoreSection-tab" data-bs-toggle="tab" data-bs-target="#scoreSection" type="button" role="tab" aria-controls="scoreSection" aria-selected="false">Scoring</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="questionSection-tab" data-bs-toggle="tab" data-bs-target="#questionSection" type="button" role="tab" aria-controls="questionSection" aria-selected="false">How-To & Extras</button>
+            </li>
+        </ul>
+    </div>
+    <div class="tab-content container" id="tabContent">
         <div class="tab-pane fade show active" id="cardSection" role="tabpabel" aria-labelledby="cardSection-tab">
             <div class="sectionHeader">
                 <a id="showFilter" class="btn btn-primary" data-bs-toggle="collapse" href="#filters" role="button" aria-expanded="false" aria-controls="filters">Show Filters</a>
@@ -93,22 +95,36 @@
             <div class="collapse filters" id="filters">
                 <hr>
                 <div id="filter-character">
-                    <label class="filter_text"><b><u>Filter by unit:</u></b></label><br>
+                    <label class="filter_text"><u>Filter by unit:</u></label><br>
                 </div>
                 <div id="filter-type">
-                    <label class="filter_text"><b><u>Filter by type:</u></b></label><br>
-                    <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_cute" name="filter_cute" class="d4dj_filter filter_type" value="Cute"><label class="filter_label" for="filter_cute"><img src="../icons/type_cute.png" width='30' height='30'></img> Cute</label>
-                    <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_party" name="filter_party" class="d4dj_filter filter_type" value="Party"><label class="filter_label" for="filter_party"><img src="../icons/type_party.png" width='30' height='30'></img> Party</label>
-                    <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_cool" name="filter_cool" class="d4dj_filter filter_type" value="Cool"><label class="filter_label" for="filter_cool"><img src="../icons/type_cool.png" width='30' height='30'></img> Cool</label>
-                    <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_elegant" name="filter_elegant" class="d4dj_filter filter_type" value="Elegant"><label class="filter_label" for="filter_elegant"><img src="../icons/type_elegant.png" width='30' height='30'></img> Elegant</label>
-                    <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_street" name="filter_street" class="d4dj_filter filter_type" value="Street"><label class="filter_label" for="filter_street"><img src="../icons/type_street.png" width='30' height='30'></img> Street</label>
+                    <label class="filter_text"><u>Filter by type:</u></label><br>
+                    <div class="d4dj_filter">
+                        <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_cute" name="filter_cute" class="filter_clear filter_type" value="Cute"><label class="filter_label" for="filter_cute"><img src="../icons/type_cute.png" width='30' height='30'></img> Cute</label>
+                    </div>
+                    <div class="d4dj_filter">
+                        <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_party" name="filter_party" class="filter_clear filter_type" value="Party"><label class="filter_label" for="filter_party"><img src="../icons/type_party.png" width='30' height='30'></img> Party</label>
+                    </div>
+                    <div class="d4dj_filter">
+                        <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_cool" name="filter_cool" class="filter_clear filter_type" value="Cool"><label class="filter_label" for="filter_cool"><img src="../icons/type_cool.png" width='30' height='30'></img> Cool</label>
+                    </div>
+                    <div class="d4dj_filter">
+                        <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_elegant" name="filter_elegant" class="filter_clear filter_type" value="Elegant"><label class="filter_label" for="filter_elegant"><img src="../icons/type_elegant.png" width='30' height='30'></img> Elegant</label>
+                    </div>
+                    <div class="d4dj_filter">
+                        <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_street" name="filter_street" class="filter_clear filter_type" value="Street"><label class="filter_label" for="filter_street"><img src="../icons/type_street.png" width='30' height='30'></img> Street</label>
+                    </div>
                 </div>
                 <div id="filter-rarity">
-                    <label class="filter_text"><b><u>Filter by rarity:</u></b></label><br>
-                    <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_3" name="filter_3" class="d4dj_filter filter_rarity" value="3">
-                    <label class="filter_label" for="filter_3"><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img></label>
-                    <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_4" name="filter_4" class="d4dj_filter filter_rarity" value="4">
-                    <label class="filter_label" for="filter_4"><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img></label>
+                    <label class="filter_text"><u>Filter by rarity:</u></label><br>
+                    <div class="d4dj_filter">
+                        <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_3" name="filter_3" class="filter_clear filter_rarity" value="3">
+                        <label class="filter_label" for="filter_3"><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img></label>
+                    </div>
+                    <div class="d4dj_filter">
+                        <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_4" name="filter_4" class="filter_clear filter_rarity" value="4">
+                        <label class="filter_label" for="filter_4"><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img></label>
+                    </div>
                 </div>
             </div>
             <hr>
@@ -138,40 +154,48 @@
                 </div>
             </div>
             <hr>
-            <div class="formsection" style="width:95%">
+            <div class="formsection">
                 <form>
                     <div class="row">
-                        <div class="col-md-1">
+                        <div class="col-5 col-md-3">
                             <label class="fieldHeader">Character: </label>
                             <div id="charImageWrapper"></div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-5 col-md-6">
                             <label class="fieldHeader">Card Name: </label>
                             <input type="text" class="form-control statfield" name="cardField" disabled>
                         </div>
-                        <div class="col-md-1">
+                        <div class="w-100"></div>
+                        <div class="col-5 col-md-3">
                             <label class="fieldHeader">Unit: </label>
                             <div id="unitImageWrapper"></div>
                         </div>
-                        <div class="col-md-1">
+                        <div class="col-5 col-md-3">
                             <label class="fieldHeader">Type: </label>
                             <div id="typeImageWrapper"></div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-1">
+                        <div class="col-5 col-md-3">
+                            <label class="fieldHeader">Skill: </label>
+                            <input type="text" class="form-control statfield" name="skillField" disabled>
+                        </div>
+                        <div class="col-5 col-md-3">
+                            <label class="fieldHeader">Passive Skill: </label>
+                            <input type="text" class="form-control statfield" name="pskillField" disabled>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col-5 col-md-3">
                             <label class="fieldHeader"><img class="paramimage" src="../icons/param_heart.png" width='30' height='30'></img>Heart:</label>
                             <input type="text" class="form-control statfield" name="heartField" disabled>
                         </div>
-                        <div class="col-md-1">
+                        <div class="col-5 col-md-3">
                             <label class="fieldHeader"><img class="paramimage" src="../icons/param_technical.png" width='30' height='30'></img>Technical:</label>
                             <input type="text" class="form-control statfield" name="techField" disabled>
                         </div>
-                        <div class="col-md-1">
+                        <div class="col-5 col-md-3">
                             <label class="fieldHeader"><img class="paramimage" src="../icons/param_physical.png" width='30' height='30'></img>Physical:</label>
                             <input type="text" class="form-control statfield" name="physField" disabled>
                         </div>
-                        <div class="col-md-1">
+                        <div class="col-5 col-md-3">
                             <label class="fieldHeader">Total Power: </label>
                             <input type="text" class="form-control statfield" name="totalField" disabled>
                         </div>
@@ -193,8 +217,8 @@
                 <a id="addToTeam" class="btn btn-primary" role="button">Add To Team</a>
                 <div id="fadediv">Added to team!</div>
             </div>
-            <hr style="width:800px;min-width:800px">
-            <div class="mainteam" style="width:800px;min-width:800px">
+            <hr>
+            <div class="mainteam">
                 <h4>Main Team:</h4>
                 <div>
                     <table class="table table-bordered">
@@ -244,9 +268,16 @@
                                 <td id="m4_type"></td>
                             </tr>
                             <tr class="rowHide">
+                                <th scope="row">Skill</th>
+                                <td id="m1_skill"></td>
+                                <td id="m2_skill"></td>
+                                <td id="m3_skill"></td>
+                                <td id="m4_skill"></td>
+                            </tr>
+                            <tr class="rowHide">
                                 <th scope="row">Extra Training</th>
                                 <td>
-                                    <select class="selectpicker etselect" id="m1_et" data-width="fit">
+                                    <select class="selectpicker etselect" name="m1_et" id="m1_et" data-width="fit">
                                         <option value="0" data-content="+0">+0</option>
                                         <option value="1" data-content="+1">+1</option>
                                         <option value="2" data-content="+2">+2</option>
@@ -255,7 +286,7 @@
                                     </select>
                                 </td>
                                 <td>
-                                    <select class="selectpicker etselect" id="m2_et" data-width="fit">
+                                    <select class="selectpicker etselect" name="m2_et" id="m2_et" data-width="fit">
                                         <option value="0" data-content="+0">+0</option>
                                         <option value="1" data-content="+1">+1</option>
                                         <option value="2" data-content="+2">+2</option>
@@ -264,7 +295,7 @@
                                     </select>
                                 </td>
                                 <td>
-                                    <select class="selectpicker etselect" id="m3_et" data-width="fit">
+                                    <select class="selectpicker etselect" name="m3_et" id="m3_et" data-width="fit">
                                         <option value="0" data-content="+0">+0</option>
                                         <option value="1" data-content="+1">+1</option>
                                         <option value="2" data-content="+2">+2</option>
@@ -273,7 +304,7 @@
                                     </select>
                                 </td>
                                 <td>
-                                    <select class="selectpicker etselect" id="m4_et" data-width="fit">
+                                    <select class="selectpicker etselect" name="m4_et" id="m4_et" data-width="fit">
                                         <option value="0" data-content="+0">+0</option>
                                         <option value="1" data-content="+1">+1</option>
                                         <option value="2" data-content="+2">+2</option>
@@ -391,7 +422,7 @@
                     </table>
                 </div>
             </div>
-            <div class="supportteam" style="width:800px;min-width:800px">
+            <div class="supportteam">
                 <h4>Support Team:</h4>
                 <table class="table table-bordered">
                     <thead>
@@ -428,7 +459,7 @@
                         <tr class="rowHide">
                             <th scope="row">Extra Training</th>
                             <td>
-                                <select class="selectpicker etselect" id="s1_et" data-width="fit">
+                                <select class="selectpicker etselect" name="s1_et" id="s1_et" data-width="fit">
                                     <option value="0" data-content="+0">+0</option>
                                     <option value="1" data-content="+1">+1</option>
                                     <option value="2" data-content="+2">+2</option>
@@ -437,7 +468,7 @@
                                 </select>
                             </td>
                             <td>
-                                <select class="selectpicker etselect" id="s2_et" data-width="fit">
+                                <select class="selectpicker etselect" name="s2_et" id="s2_et" data-width="fit">
                                     <option value="0" data-content="+0">+0</option>
                                     <option value="1" data-content="+1">+1</option>
                                     <option value="2" data-content="+2">+2</option>
@@ -446,7 +477,7 @@
                                 </select>
                             </td>
                             <td>
-                                <select class="selectpicker etselect" id="s3_et" data-width="fit">
+                                <select class="selectpicker etselect" name="s3_et" id="s3_et" data-width="fit">
                                     <option value="0" data-content="+0">+0</option>
                                     <option value="1" data-content="+1">+1</option>
                                     <option value="2" data-content="+2">+2</option>
@@ -455,7 +486,7 @@
                                 </select>
                             </td>
                             <td>
-                                <select class="selectpicker etselect" id="s4_et" data-width="fit">
+                                <select class="selectpicker etselect" name="s4_et" id="s4_et" data-width="fit">
                                     <option value="0" data-content="+0">+0</option>
                                     <option value="1" data-content="+1">+1</option>
                                     <option value="2" data-content="+2">+2</option>
@@ -550,54 +581,52 @@
                 <h4>Club Items</h4>
                 <label><b>Important Note:</b> Some club item types may not yet exist, or you may not yet own them. Check your club to be sure.</label>
             </div>
-            <div class="club" style="width:95%">
+            <div>
                 <form>
                     <div class="row">
-                        <div class="col-sm-1">
+                        <div class="selectDiv col-5 col-sm-3">
                             <label>Display:</label>
                             <div id="club-display-div"></div>
                         </div>
-                        <div class="col-sm-1">
+                        <div class="selectDiv col-5 col-sm-3">
                             <label>DJ Booth:</label>
                             <div id="club-djbooth-div"></div>
                         </div>
-                        <div class="col-sm-1">
+                        <div class="selectDiv col-5 col-sm-3">
                             <label>Disc L:</label>
                             <div id="club-discl-div"></div>
                         </div>
-                        <div class="col-sm-1">
+                        <div class="selectDiv col-5 col-sm-3">
                             <label>Disc R:</label>
                             <div id="club-discr-div"></div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-1">
+                        <div class="w-100"></div>
+                        <div class="selectDiv col-5 col-sm-3">
                             <label>Front:</label>
                             <div id="club-front-div"></div>
                         </div>
-                        <div class="col-sm-1">
+                        <div class="selectDiv col-5 col-sm-3">
                             <label">Side:</label>
                             <div id="club-side-div"></div>
                         </div>
-                        <div class="col-sm-1">
+                        <div class="selectDiv col-5 col-sm-3">
                             <label">Back:</label>
                             <div id="club-back-div"></div>
                         </div>
-                        <div class="col-sm-1">
+                        <div class="selectDiv col-5 col-sm-3">
                             <label>Frame:</label>
                             <div id="club-frame-div"></div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-1">
+                        <div class="w-100"></div>
+                        <div class="selectDiv col-5 col-sm-3">
                             <label>Light:</label>
                             <div id="club-light-div"></div>
                         </div>
-                        <div class="col-sm-1">
+                        <div class="selectDiv col-5 col-sm-3">
                             <label>Accessory:</label>
                             <div id="club-accessory-div"></div>
                         </div>
-                        <div class="col-sm-1">
+                        <div class="selectDiv col-5 col-sm-3">
                             <label>Decoration:</label>
                             <div id="club-decoration-div"></div>
                         </div>
@@ -606,31 +635,30 @@
             </div>
             <hr>
             <div id="eventbonusSection">
-                <div class="sectionHeader">
+                <div>
                     <h4>Event Bonuses</h4>
                 </div>
-                <div class="eventbonus">
+                <div>
                     <form>
                         <div class="row">
-                            <div class="col-sm-1">
+                            <div class="selectDiv col-5 col-sm-3">
                                 <label>Bonus Char 1:</label>
                                 <div id="bonus1"></div>
                             </div>
-                            <div class="col-sm-1">
+                            <div class="selectDiv col-5 col-sm-3">
                                 <label>Bonus Char 2:</label>
                                 <div id="bonus2"></div>
                             </div>
-                            <div class="col-sm-1">
+                            <div class="selectDiv col-5 col-sm-3">
                                 <label>Bonus Char 3:</label>
                                 <div id="bonus3"></div>
                             </div>
-                            <div class="col-sm-1">
+                            <div class="selectDiv col-5 col-sm-3">
                                 <label>Bonus Char 4:</label>
                                 <div id="bonus4"></div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-1">
+                            <div class="w-100"></div>
+                            <div class="selectDiv col-5 col-sm-3">
                                 <label>Extra 10% Bonus?</label>
                                 <div>
                                     <select class="selectpicker eventselect" name="eventbonus" id="eventbonus" data-width="fit">
@@ -639,7 +667,7 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="col-sm-1">
+                            <div class="selectDiv col-5 col-sm-3">
                                 <label>Event Style:</label>
                                 <div>
                                     <select class="selectpicker eventselect" name="eventstyle" id="eventstyle" data-width="fit">
@@ -651,7 +679,7 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="col-sm-1">
+                            <div class="selectDiv col-5 col-sm-3">
                                 <label>Event Type:</label>
                                 <div>
                                     <select class="selectpicker eventselect" name="eventtype" id="eventtype" data-width="fit">
@@ -663,7 +691,7 @@
                                     </select>
                                 </div>
                             </div>
-                            <div id="medleychar" class="col-sm-1" style="display:none">
+                            <div id="medleychar" class="selectDiv col-5 col-sm-3" style="display:none">
                                 <label>Medley Char Bonus:</label>
                                 <div id="event-char"></div>
                             </div>
@@ -676,7 +704,7 @@
             <div class="sectionHeader">
                 <h4>Parameter Upgrades</h4>
             </div>
-            <div id="paramChar" style="width:800px;min-width:800px">
+            <div id="paramChar">
                 <table id="paramtable" class="table table-bordered"></table>
             </div>
         </div>
@@ -686,26 +714,57 @@
             </div>
         </div>
         <div class="tab-pane fade" id="questionSection" role="tabpabel" aria-labelledby="questionSection-tab">
-            <div id="bugs" style="width:800px;min-width:800px">
+            <div id="bugs">
+                <div class="sectionHeader">
+                    <h4>How To:</h4>
+                    <ul>
+                        <li>Add cards to your team. Expand the team details to add extra training levels per card.</li>
+                        <li>Use the club, event and param sections to set additional details, if desired.</li>
+                        <li>Use the resulting team power to calculate score (requires miyubot)</li>
+                        <li>Enter the score in scoring section to see EP and other resource totals.</li>
+                        <li>Click Save Data button to save your current team, event, club, and param values</li>
+                    </ul>
+                </div>
+                <div class="sectionHeader">
+                    <h4>Credits:</h4>
+                    <ul>
+                        <li>Author: Mirby#5516</li>
+                        <li>Special thanks to qwewqa for design ideas and Miyubot <a href="https://miyu-docs.qwewqa.xyz/">https://miyu-docs.qwewqa.xyz/</a></li>
+                    </ul>
+                </div>
+                <div class="sectionHeader">
+                    <h4>What is being saved?</h4>
+                    <ul>
+                        <li>This site uses localstorage (see docs <a href="https://www.w3schools.com/jsref/prop_win_localstorage.asp">here</a> for more details)</li>
+                        <li>Data is stored as a small JSON string to make it easier to resume your session if you close the browser window.</li>
+                        <li>Clicking on the Remove All Saved Data string will clear all the JSON data.</li>
+                        <li>If you open the browser devtools (F12 on Chrome), you can see the exact strings being saved when clicking the save button in the console tab.</li>
+                    </ul>
+                </div>
                 <div class="sectionHeader">
                     <h4>future features (maybe)</h4>
+                    <ul>
+                        <li>scoring section to include in-house calcs</li>
+                        <li>passive skills</li>
+                        <li>better mobile formatting</li>
+                        <li>(partial) Card images</li>
+                        <li>save ET per card</li>
+                        <li>multiple profiles (ability to save multiple teams)</li>
+                        <li>jp card support, if desired</li>
+                    </ul>
                 </div>
-                <ul>
-                    <li>(partial) Card images</li>
-                    <li>save ET per card</li>
-                    <li>multiple profiles</li>
-                    <li>jp card support? would anyone use it?</li>
-                </ul>
             </div>
         </div>
     </div>
-    <br>
-    <hr>
-    <div id="saveSection">
-        <a id="saveData" class="btn btn-primary" role="button">Save Data</a>
-        <a id="removeData" class="btn btn-primary" role="button">Remove All Saved Data</a>
+    <div class="container">
+        <hr>
+        <div id="saveSection">
+            <a id="saveData" class="btn btn-primary" role="button">Save Data</a>
+            <a id="removeData" class="btn btn-primary" role="button">Remove All Saved Data</a>
+            <a id="testData" class="btn btn-primary" role="button">Test Data</a>
+        </div>
     </div>
-    
+
     <script>
         createCharacterFilters();
         cardArray.sort(default_sort());

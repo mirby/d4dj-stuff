@@ -1,7 +1,10 @@
 var initializeClub;
+var localEt = new Map();
 
 jQuery(function($) {
     $(window).on("load", function() {
+
+        // Initialize any saved data
         var storage = window.localStorage;
 
         // Initialize event
@@ -45,6 +48,12 @@ jQuery(function($) {
             });
         }
 
+        // Initialize extra training
+        var obj = JSON.parse(storage.getItem("et"));
+        if (obj) {
+            localEt = new Map(obj);
+        }
+
         $('.selectpicker').selectpicker('refresh');
 
         calcModPower();
@@ -60,6 +69,10 @@ jQuery(function($) {
 
     $('#removeData').on('click', function() {
         removeData();
+    });
+
+    $('#testData').on('click', function() {
+        testData();
     });
 });
 
@@ -107,6 +120,13 @@ function saveData() {
 
     storage.setItem("team",JSON.stringify(teamSave));
 
+    // Extra training info
+    for (var i = 1; i<= 4; i++) {
+        localEt.set(document.getElementById("m" + i + "_id").innerHTML, document.getElementById("m" + i + "_et").value);
+        localEt.set(document.getElementById("s" + i + "_id").innerHTML, document.getElementById("s" + i + "_et").value);
+    }
+    storage.setItem("et", JSON.stringify([...localEt]));
+
     // Param info
     var paramSave = [];
     for (let x of characters) {
@@ -121,6 +141,7 @@ function saveData() {
     console.log("SAVED" + JSON.stringify(eventSave));
     console.log("SAVED" + JSON.stringify(teamSave));
     console.log("SAVED" + JSON.stringify(paramSave));
+    console.log("SAVED" + JSON.stringify([...localEt]));
 
     alert("Saved!");
 }
@@ -130,4 +151,8 @@ function removeData() {
     if (confirm("Are you sure you want to clear all saved data?") == true) {
         storage.clear();
     }
+}
+
+function testData() {
+
 }

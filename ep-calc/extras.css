@@ -1,9 +1,19 @@
+.container {
+    width: 800px;
+    min-width: 800px;
+}
+
 .dropdown-toggle.btn-light {
     background-color: #dfdfdf !important;
 }
 
 .sectionHeader {
     padding-top:15px
+}
+
+.d4dj_filter {
+    display: inline;
+    padding-right: 10px;
 }
 
 .filter_label {
@@ -33,13 +43,13 @@
     padding-top:10px;
 }
 
-.statfield {
-    background-color: white !important;
-}
-
-.row {
+.selectDiv {
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.statfield {
+    background-color: white !important;
 }
 
 #overallSection {
@@ -61,14 +71,6 @@
 
 .addToTeamSection label {
     padding-right: 10px;
-}
-
-.col-md-1 {
-    min-width: 95px;
-}
-
-.col-sm-1 {
-    min-width: 180px;
 }
 
 .club {

@@ -9,7 +9,6 @@ var cards = {
             "heart": 6929,
             "technical": 11919,
             "physical": 17384,
-            "totalpower": 36232,
             "skill": 0.5
         },
         "3": {
@@ -22,7 +21,6 @@ var cards = {
             "heart": 11303,
             "technical": 10815,
             "physical": 12190,
-            "totalpower": 34308,
             "skill": 0.4
         },
         "4": {
@@ -35,7 +33,6 @@ var cards = {
             "heart": 12084,
             "technical": 11228,
             "physical": 11635,
-            "totalpower": 34947,
             "skill": 0.5
         },
         "5": {
@@ -48,7 +45,6 @@ var cards = {
             "heart": 10896,
             "technical": 11709,
             "physical": 11057,
-            "totalpower": 33662,
             "skill": 0.3
         },
         "6": {
@@ -61,7 +57,6 @@ var cards = {
             "heart": 15989,
             "technical": 12517,
             "physical": 7098,
-            "totalpower": 35604,
             "skill": 0.4
         },
         "7": {
@@ -74,7 +69,6 @@ var cards = {
             "heart": 9531,
             "technical": 9037,
             "physical": 9223,
-            "totalpower": 27791,
             "skill": 0.25
         },
         "8": {
@@ -87,7 +81,6 @@ var cards = {
             "heart": 12309,
             "technical": 15350,
             "physical": 6906,
-            "totalpower": 34565,
             "skill": 0.4
         },
         "9": {
@@ -100,7 +93,6 @@ var cards = {
             "heart": 12050,
             "technical": 10949,
             "physical": 11252,
-            "totalpower": 34251,
             "skill": 0.4
         },
         "10": {
@@ -113,7 +105,6 @@ var cards = {
             "heart": 10457,
             "technical": 7469,
             "physical": 9884,
-            "totalpower": 27810,
             "skill": 0.25
         },
         "11": {
@@ -126,7 +117,6 @@ var cards = {
             "heart": 8866,
             "technical": 10178,
             "physical": 9026,
-            "totalpower": 28070,
             "skill": 0.2
         },
         "12": {
@@ -139,7 +129,6 @@ var cards = {
             "heart": 9528,
             "technical": 10744,
             "physical": 7036,
-            "totalpower": 27308,
             "skill": 0.25
         },
         "13": {
@@ -152,7 +141,6 @@ var cards = {
             "heart": 12642,
             "technical": 7098,
             "physical": 17072,
-            "totalpower": 36812,
             "skill": 0.5
         },
         "14": {
@@ -165,7 +153,6 @@ var cards = {
             "heart": 9180,
             "technical": 8567,
             "physical": 9557,
-            "totalpower": 27304,
             "skill": 0.25
         },
         "15": {
@@ -178,7 +165,6 @@ var cards = {
             "heart": 11854,
             "technical": 10865,
             "physical": 12030,
-            "totalpower": 34749,
             "skill": 0.5
         },
         "16": {
@@ -191,7 +177,6 @@ var cards = {
             "heart": 10809,
             "technical": 11258,
             "physical": 11320,
-            "totalpower": 33387,
             "skill": 0.4
         },
         "17": {
@@ -204,7 +189,6 @@ var cards = {
             "heart": 7675,
             "technical": 10332,
             "physical": 9684,
-            "totalpower": 27691,
             "skill": 0.25
         },
         "18": {
@@ -217,7 +201,6 @@ var cards = {
             "heart": 16339,
             "technical": 6694,
             "physical": 11505,
-            "totalpower": 34538,
             "skill": 0.4
         },
         "19": {
@@ -230,7 +213,6 @@ var cards = {
             "heart": 11703,
             "technical": 11602,
             "physical": 11477,
-            "totalpower": 34782,
             "skill": 0.4
         },
         "20": {
@@ -243,7 +225,6 @@ var cards = {
             "heart": 8142,
             "technical": 9301,
             "physical": 10185,
-            "totalpower": 27628,
             "skill": 0.2
         },
         "21": {
@@ -256,7 +237,6 @@ var cards = {
             "heart": 12386,
             "technical": 16597,
             "physical": 7302,
-            "totalpower": 36285,
             "skill": 0.5
         },
         "22": {
@@ -269,7 +249,6 @@ var cards = {
             "heart": 10821,
             "technical": 10524,
             "physical": 12366,
-            "totalpower": 33711,
             "skill": 0.3
         },
         "23": {
@@ -282,7 +261,6 @@ var cards = {
             "heart": 6698,
             "technical": 12428,
             "physical": 16863,
-            "totalpower": 35989,
             "skill": 0.5
         },
         "24": {
@@ -295,7 +273,6 @@ var cards = {
             "heart": 9683,
             "technical": 7577,
             "physical": 10481,
-            "totalpower": 27741,
             "skill": 0.25
         },
         "25": {
@@ -308,7 +285,6 @@ var cards = {
             "heart": 6588,
             "technical": 15987,
             "physical": 13436,
-            "totalpower": 36011,
             "skill": 0.5
         },
         "26": {
@@ -321,7 +297,6 @@ var cards = {
             "heart": 11825,
             "technical": 10519,
             "physical": 11121,
-            "totalpower": 33465,
             "skill": 0.3
         },
         "27": {
@@ -334,7 +309,6 @@ var cards = {
             "heart": 11969,
             "technical": 11033,
             "physical": 11501,
-            "totalpower": 34503,
             "skill": 0.5
         },
         "28": {
@@ -347,7 +321,6 @@ var cards = {
             "heart": 15906,
             "technical": 11927,
             "physical": 6809,
-            "totalpower": 34642,
             "skill": 0.4
         },
         "29": {
@@ -360,7 +333,6 @@ var cards = {
             "heart": 9266,
             "technical": 8802,
             "physical": 9259,
-            "totalpower": 27327,
             "skill": 0.25
         },
         "30": {
@@ -373,7 +345,6 @@ var cards = {
             "heart": 16929,
             "technical": 6979,
             "physical": 12473,
-            "totalpower": 36381,
             "skill": 0.5
         },
         "31": {
@@ -386,7 +357,6 @@ var cards = {
             "heart": 12148,
             "technical": 11083,
             "physical": 12038,
-            "totalpower": 35269,
             "skill": 0.4
         },
         "32": {
@@ -399,8 +369,7 @@ var cards = {
             "heart": 11941,
             "technical": 16126,
             "physical": 6618,
-            "totalpower": 34685,
-            "skill": "40+15%"
+            "skill": 0.55
         },
         "33": {
             "id": 33,
@@ -412,7 +381,6 @@ var cards = {
             "heart": 9860,
             "technical": 8692,
             "physical": 8588,
-            "totalpower": 27140,
             "skill": 0.2
         },
         "34": {
@@ -425,7 +393,6 @@ var cards = {
             "heart": 11487,
             "technical": 6847,
             "physical": 16989,
-            "totalpower": 35323,
             "skill": 0.4
         },
         "35": {
@@ -438,7 +405,6 @@ var cards = {
             "heart": 7048,
             "technical": 13025,
             "physical": 15762,
-            "totalpower": 35835,
             "skill": 0.5
         },
         "36": {
@@ -451,7 +417,6 @@ var cards = {
             "heart": 8860,
             "technical": 9593,
             "physical": 9616,
-            "totalpower": 28069,
             "skill": 0.25
         },
         "37": {
@@ -464,7 +429,6 @@ var cards = {
             "heart": 11518,
             "technical": 11899,
             "physical": 11313,
-            "totalpower": 34730,
             "skill": 0.5
         },
         "38": {
@@ -477,7 +441,6 @@ var cards = {
             "heart": 9412,
             "technical": 10092,
             "physical": 8473,
-            "totalpower": 27977,
             "skill": 0.25
         },
         "39": {
@@ -490,7 +453,6 @@ var cards = {
             "heart": 8827,
             "technical": 9982,
             "physical": 9657,
-            "totalpower": 28466,
             "skill": 0.25
         },
         "40": {
@@ -503,7 +465,6 @@ var cards = {
             "heart": 9985,
             "technical": 9087,
             "physical": 9656,
-            "totalpower": 28728,
             "skill": 0.2
         },
         "41": {
@@ -516,7 +477,6 @@ var cards = {
             "heart": 11290,
             "technical": 10804,
             "physical": 12183,
-            "totalpower": 34277,
             "skill": 0.4
         },
         "42": {
@@ -529,7 +489,6 @@ var cards = {
             "heart": 16058,
             "technical": 11384,
             "physical": 6707,
-            "totalpower": 34149,
             "skill": 0.6
         },
         "43": {
@@ -542,7 +501,6 @@ var cards = {
             "heart": 11296,
             "technical": 11714,
             "physical": 11487,
-            "totalpower": 34497,
             "skill": 0.4
         },
         "44": {
@@ -555,7 +513,6 @@ var cards = {
             "heart": 17287,
             "technical": 6721,
             "physical": 12484,
-            "totalpower": 36492,
             "skill": 0.5
         },
         "45": {
@@ -568,7 +525,6 @@ var cards = {
             "heart": 11885,
             "technical": 11505,
             "physical": 11610,
-            "totalpower": 35000,
             "skill": 0.6
         },
         "46": {
@@ -581,7 +537,6 @@ var cards = {
             "heart": 11674,
             "technical": 11591,
             "physical": 10312,
-            "totalpower": 33577,
             "skill": 0.3
         },
         "47": {
@@ -594,7 +549,6 @@ var cards = {
             "heart": 12179,
             "technical": 6710,
             "physical": 17810,
-            "totalpower": 36699,
             "skill": 0.5
         },
         "48": {
@@ -607,7 +561,6 @@ var cards = {
             "heart": 11962,
             "technical": 11345,
             "physical": 10678,
-            "totalpower": 33985,
             "skill": 0.5
         },
         "49": {
@@ -620,7 +573,6 @@ var cards = {
             "heart": 11962,
             "technical": 11345,
             "physical": 10678,
-            "totalpower": 33985,
             "skill": 0.5
         },
         "50": {
@@ -633,7 +585,6 @@ var cards = {
             "heart": 11155,
             "technical": 12115,
             "physical": 11730,
-            "totalpower": 35000,
             "skill": 0.6
         },
         "51": {
@@ -646,7 +597,6 @@ var cards = {
             "heart": 8825,
             "technical": 9363,
             "physical": 9441,
-            "totalpower": 27629,
             "skill": 0.25
         },
         "52": {
@@ -659,7 +609,6 @@ var cards = {
             "heart": 10181,
             "technical": 10036,
             "physical": 8163,
-            "totalpower": 28380,
             "skill": 0.25
         },
         "53": {
@@ -672,7 +621,6 @@ var cards = {
             "heart": 6236,
             "technical": 15363,
             "physical": 12257,
-            "totalpower": 33856,
             "skill": 0.4
         },
         "54": {
@@ -685,7 +633,6 @@ var cards = {
             "heart": 15144,
             "technical": 12753,
             "physical": 6880,
-            "totalpower": 34777,
             "skill": 0.4
         },
         "55": {
@@ -698,7 +645,6 @@ var cards = {
             "heart": 12595,
             "technical": 10772,
             "physical": 10863,
-            "totalpower": 34230,
             "skill": 0.3
         },
         "56": {
@@ -711,7 +657,6 @@ var cards = {
             "heart": 11256,
             "technical": 11672,
             "physical": 10342,
-            "totalpower": 33270,
             "skill": 0.4
         },
         "57": {
@@ -724,7 +669,6 @@ var cards = {
             "heart": 10410,
             "technical": 9325,
             "physical": 8617,
-            "totalpower": 28352,
             "skill": 0.2
         },
         "58": {
@@ -737,7 +681,6 @@ var cards = {
             "heart": 10399,
             "technical": 7789,
             "physical": 9738,
-            "totalpower": 27926,
             "skill": 0.25
         },
         "59": {
@@ -750,7 +693,6 @@ var cards = {
             "heart": 13264,
             "technical": 15189,
             "physical": 7207,
-            "totalpower": 35660,
             "skill": 0.5
         },
         "60": {
@@ -763,7 +705,6 @@ var cards = {
             "heart": 11217,
             "technical": 11010,
             "physical": 12552,
-            "totalpower": 34779,
             "skill": 0.5
         },
         "61": {
@@ -776,7 +717,6 @@ var cards = {
             "heart": 8878,
             "technical": 8102,
             "physical": 10531,
-            "totalpower": 27511,
             "skill": 0.2
         },
         "62": {
@@ -789,8 +729,7 @@ var cards = {
             "heart": 15613,
             "technical": 7088,
             "physical": 11730,
-            "totalpower": 34431,
-            "skill": "40+15%"
+            "skill": 0.55
         },
         "63": {
             "id": 63,
@@ -802,7 +741,6 @@ var cards = {
             "heart": 7207,
             "technical": 16380,
             "physical": 12772,
-            "totalpower": 36359,
             "skill": 0.5
         },
         "64": {
@@ -815,7 +753,6 @@ var cards = {
             "heart": 10349,
             "technical": 7390,
             "physical": 9770,
-            "totalpower": 27509,
             "skill": 0.25
         },
         "65": {
@@ -828,7 +765,6 @@ var cards = {
             "heart": 9231,
             "technical": 8541,
             "physical": 10575,
-            "totalpower": 28347,
             "skill": 0.25
         },
         "66": {
@@ -841,7 +777,6 @@ var cards = {
             "heart": 6875,
             "technical": 12456,
             "physical": 16043,
-            "totalpower": 35374,
             "skill": 0.4
         },
         "67": {
@@ -854,7 +789,6 @@ var cards = {
             "heart": 11155,
             "technical": 11046,
             "physical": 12343,
-            "totalpower": 34544,
             "skill": 0.3
         },
         "68": {
@@ -867,7 +801,6 @@ var cards = {
             "heart": 9395,
             "technical": 9769,
             "physical": 8595,
-            "totalpower": 27759,
             "skill": 0.25
         },
         "69": {
@@ -880,7 +813,6 @@ var cards = {
             "heart": 17473,
             "technical": 7259,
             "physical": 11714,
-            "totalpower": 36446,
             "skill": 0.5
         },
         "70": {
@@ -893,7 +825,6 @@ var cards = {
             "heart": 12309,
             "technical": 12415,
             "physical": 12072,
-            "totalpower": 36796,
             "skill": 0.55
         },
         "71": {
@@ -906,7 +837,6 @@ var cards = {
             "heart": 10444,
             "technical": 12387,
             "physical": 11213,
-            "totalpower": 34044,
             "skill": 0.5
         },
         "72": {
@@ -919,7 +849,6 @@ var cards = {
             "heart": 10924,
             "technical": 9956,
             "physical": 12567,
-            "totalpower": 33447,
             "skill": 0.3
         },
         "73": {
@@ -932,7 +861,6 @@ var cards = {
             "heart": 8490,
             "technical": 10767,
             "physical": 12538,
-            "totalpower": 31795,
             "skill": 0.25
         },
         "74": {
@@ -945,7 +873,6 @@ var cards = {
             "heart": 11897,
             "technical": 9248,
             "physical": 11034,
-            "totalpower": 32179,
             "skill": 0.25
         },
         "75": {
@@ -958,8 +885,7 @@ var cards = {
             "heart": 11447,
             "technical": 11198,
             "physical": 10933,
-            "totalpower": 33578,
-            "skill": "40+15%"
+            "skill": 0.55
         },
         "76": {
             "id": 76,
@@ -971,7 +897,6 @@ var cards = {
             "heart": 9013,
             "technical": 8827,
             "physical": 9582,
-            "totalpower": 27422,
             "skill": 0.25
         },
         "77": {
@@ -984,7 +909,6 @@ var cards = {
             "heart": 11848,
             "technical": 11649,
             "physical": 8416,
-            "totalpower": 31913,
             "skill": 0.25
         },
         "78": {
@@ -997,7 +921,6 @@ var cards = {
             "heart": 10823,
             "technical": 11041,
             "physical": 11860,
-            "totalpower": 33724,
             "skill": 0.4
         },
         "79": {
@@ -1010,8 +933,7 @@ var cards = {
             "heart": 6804,
             "technical": 15987,
             "physical": 11984,
-            "totalpower": 34775,
-            "skill": "40+15%"
+            "skill": 0.55
         },
         "80": {
             "id": 80,
@@ -1023,7 +945,6 @@ var cards = {
             "heart": 8540,
             "technical": 8681,
             "physical": 9976,
-            "totalpower": 27197,
             "skill": 0.2
         },
         "81": {
@@ -1036,7 +957,6 @@ var cards = {
             "heart": 16631,
             "technical": 12336,
             "physical": 7239,
-            "totalpower": 36206,
             "skill": 0.5
         },
         "82": {
@@ -1049,7 +969,6 @@ var cards = {
             "heart": 7288,
             "technical": 12078,
             "physical": 15306,
-            "totalpower": 34672,
             "skill": 0.4
         },
         "83": {
@@ -1062,7 +981,6 @@ var cards = {
             "heart": 11980,
             "technical": 11717,
             "physical": 11487,
-            "totalpower": 35184,
             "skill": 0.5
         },
         "84": {
@@ -1075,7 +993,6 @@ var cards = {
             "heart": 11799,
             "technical": 11693,
             "physical": 11552,
-            "totalpower": 35044,
             "skill": 0.3
         },
         "85": {
@@ -1088,7 +1005,6 @@ var cards = {
             "heart": 9557,
             "technical": 7915,
             "physical": 9840,
-            "totalpower": 27312,
             "skill": 0.25
         },
         "86": {
@@ -1101,7 +1017,6 @@ var cards = {
             "heart": 12570,
             "technical": 8959,
             "physical": 10614,
-            "totalpower": 32143,
             "skill": 0.25
         },
         "87": {
@@ -1114,7 +1029,6 @@ var cards = {
             "heart": 9629,
             "technical": 9132,
             "physical": 8635,
-            "totalpower": 27396,
             "skill": 0.25
         },
         "88": {
@@ -1127,8 +1041,7 @@ var cards = {
             "heart": 6860,
             "technical": 15367,
             "physical": 12320,
-            "totalpower": 34547,
-            "skill": "40+15%"
+            "skill": 0.55
         },
         "89": {
             "id": 89,
@@ -1140,7 +1053,6 @@ var cards = {
             "heart": 9984,
             "technical": 8247,
             "physical": 9050,
-            "totalpower": 27281,
             "skill": 0.25
         },
         "90": {
@@ -1153,7 +1065,6 @@ var cards = {
             "heart": 11302,
             "technical": 10606,
             "physical": 11463,
-            "totalpower": 33371,
             "skill": 0.4
         },
         "91": {
@@ -1166,7 +1077,6 @@ var cards = {
             "heart": 9486,
             "technical": 9327,
             "physical": 9383,
-            "totalpower": 28196,
             "skill": 0.2
         },
         "92": {
@@ -1179,7 +1089,6 @@ var cards = {
             "heart": 13334,
             "technical": 7433,
             "physical": 16066,
-            "totalpower": 36833,
             "skill": 0.5
         },
         "93": {
@@ -1192,7 +1101,6 @@ var cards = {
             "heart": 11917,
             "technical": 11260,
             "physical": 11645,
-            "totalpower": 34822,
             "skill": 0.5
         },
         "94": {
@@ -1205,7 +1113,6 @@ var cards = {
             "heart": 10432,
             "technical": 11897,
             "physical": 11274,
-            "totalpower": 33603,
             "skill": 0.3
         },
         "95": {
@@ -1218,7 +1125,6 @@ var cards = {
             "heart": 8876,
             "technical": 9874,
             "physical": 8973,
-            "totalpower": 27723,
             "skill": 0.2
         },
         "96": {
@@ -1231,7 +1137,6 @@ var cards = {
             "heart": 10868,
             "technical": 9101,
             "physical": 11938,
-            "totalpower": 31907,
             "skill": 0.25
         },
         "97": {
@@ -1244,7 +1149,6 @@ var cards = {
             "heart": 7824,
             "technical": 10274,
             "physical": 9879,
-            "totalpower": 27977,
             "skill": 0.25
         },
         "98": {
@@ -1257,7 +1161,6 @@ var cards = {
             "heart": 10953,
             "technical": 10888,
             "physical": 11721,
-            "totalpower": 33562,
             "skill": 0.4
         },
         "99": {
@@ -1270,7 +1173,6 @@ var cards = {
             "heart": 11061,
             "technical": 11627,
             "physical": 11932,
-            "totalpower": 34620,
             "skill": 0.4
         },
         "100": {
@@ -1283,8 +1185,7 @@ var cards = {
             "heart": 6941,
             "technical": 16592,
             "physical": 10824,
-            "totalpower": 34357,
-            "skill": "40+15%"
+            "skill": 0.55
         },
         "101": {
             "id": 101,
@@ -1296,7 +1197,6 @@ var cards = {
             "heart": 9887,
             "technical": 8337,
             "physical": 13110,
-            "totalpower": 31334,
             "skill": 0.25
         },
         "102": {
@@ -1309,7 +1209,6 @@ var cards = {
             "heart": 7831,
             "technical": 9679,
             "physical": 9970,
-            "totalpower": 27480,
             "skill": 0.25
         },
         "103": {
@@ -1322,7 +1221,6 @@ var cards = {
             "heart": 6940,
             "technical": 12816,
             "physical": 15906,
-            "totalpower": 35662,
             "skill": 0.5
         },
         "104": {
@@ -1335,7 +1233,6 @@ var cards = {
             "heart": 12138,
             "technical": 11469,
             "physical": 11075,
-            "totalpower": 34682,
             "skill": 0.5
         },
         "105": {
@@ -1348,7 +1245,6 @@ var cards = {
             "heart": 9986,
             "technical": 9167,
             "physical": 9243,
-            "totalpower": 28396,
             "skill": 0.25
         },
         "106": {
@@ -1361,7 +1257,6 @@ var cards = {
             "heart": 10895,
             "technical": 11253,
             "physical": 11988,
-            "totalpower": 34136,
             "skill": 0.4
         },
         "107": {
@@ -1374,7 +1269,6 @@ var cards = {
             "heart": 11272,
             "technical": 11185,
             "physical": 11033,
-            "totalpower": 33490,
             "skill": 0.4
         },
         "108": {
@@ -1387,7 +1281,6 @@ var cards = {
             "heart": 9896,
             "technical": 8355,
             "physical": 8905,
-            "totalpower": 27156,
             "skill": 0.2
         },
         "109": {
@@ -1400,7 +1293,6 @@ var cards = {
             "heart": 11340,
             "technical": 11477,
             "physical": 11255,
-            "totalpower": 34072,
             "skill": 0.3
         },
         "110": {
@@ -1413,7 +1305,6 @@ var cards = {
             "heart": 9444,
             "technical": 9255,
             "physical": 9580,
-            "totalpower": 28279,
             "skill": 0.25
         },
         "111": {
@@ -1426,7 +1317,6 @@ var cards = {
             "heart": 10926,
             "technical": 12504,
             "physical": 8751,
-            "totalpower": 32181,
             "skill": 0.25
         },
         "112": {
@@ -1439,7 +1329,6 @@ var cards = {
             "heart": 8068,
             "technical": 9414,
             "physical": 10303,
-            "totalpower": 27785,
             "skill": 0.25
         },
         "113": {
@@ -1452,7 +1341,6 @@ var cards = {
             "heart": 12260,
             "technical": 6850,
             "physical": 16385,
-            "totalpower": 35495,
             "skill": 0.5
         },
         "114": {
@@ -1465,7 +1353,6 @@ var cards = {
             "heart": 12461,
             "technical": 12369,
             "physical": 13037,
-            "totalpower": 37867,
             "skill": 0.4
         },
         "115": {
@@ -1478,7 +1365,6 @@ var cards = {
             "heart": 6888,
             "technical": 16219,
             "physical": 12915,
-            "totalpower": 36022,
             "skill": 0.5
         },
         "116": {
@@ -1491,7 +1377,6 @@ var cards = {
             "heart": 9860,
             "technical": 9406,
             "physical": 9274,
-            "totalpower": 28540,
             "skill": 0.25
         },
         "117": {
@@ -1504,7 +1389,6 @@ var cards = {
             "heart": 10849,
             "technical": 11673,
             "physical": 11174,
-            "totalpower": 33696,
             "skill": 0.5
         },
         "118": {
@@ -1517,8 +1401,7 @@ var cards = {
             "heart": 11759,
             "technical": 10952,
             "physical": 10761,
-            "totalpower": 33472,
-            "skill": "40+15%"
+            "skill": 0.55
         },
         "119": {
             "id": 119,
@@ -1530,7 +1413,6 @@ var cards = {
             "heart": 10338,
             "technical": 9054,
             "physical": 8671,
-            "totalpower": 28063,
             "skill": 0.2
         },
         "120": {
@@ -1543,7 +1425,6 @@ var cards = {
             "heart": 10247,
             "technical": 9609,
             "physical": 7557,
-            "totalpower": 27413,
             "skill": 0.25
         },
         "121": {
@@ -1556,7 +1437,6 @@ var cards = {
             "heart": 11916,
             "technical": 10971,
             "physical": 11456,
-            "totalpower": 34343,
             "skill": 0.4
         },
         "122": {
@@ -1569,7 +1449,6 @@ var cards = {
             "heart": 8939,
             "technical": 9017,
             "physical": 9333,
-            "totalpower": 27289,
             "skill": 0.25
         },
         "123": {
@@ -1582,7 +1461,6 @@ var cards = {
             "heart": 12475,
             "technical": 6885,
             "physical": 17030,
-            "totalpower": 36390,
             "skill": 0.5
         },
         "124": {
@@ -1595,7 +1473,6 @@ var cards = {
             "heart": 11738,
             "technical": 6611,
             "physical": 15697,
-            "totalpower": 34046,
             "skill": 0.4
         },
         "125": {
@@ -1608,7 +1485,6 @@ var cards = {
             "heart": 12401,
             "technical": 11255,
             "physical": 11098,
-            "totalpower": 34754,
             "skill": 0.3
         },
         "126": {
@@ -1621,7 +1497,6 @@ var cards = {
             "heart": 16309,
             "technical": 12455,
             "physical": 7015,
-            "totalpower": 35779,
             "skill": 0.5
         },
         "127": {
@@ -1634,7 +1509,6 @@ var cards = {
             "heart": 16189,
             "technical": 12939,
             "physical": 6908,
-            "totalpower": 36036,
             "skill": 0.5
         },
         "128": {
@@ -1647,7 +1521,6 @@ var cards = {
             "heart": 12723,
             "technical": 12538,
             "physical": 11407,
-            "totalpower": 36668,
             "skill": 0.55
         },
         "129": {
@@ -1660,7 +1533,6 @@ var cards = {
             "heart": 11258,
             "technical": 12062,
             "physical": 11275,
-            "totalpower": 34595,
             "skill": 0.5
         },
         "130": {
@@ -1673,7 +1545,6 @@ var cards = {
             "heart": 10363,
             "technical": 9893,
             "physical": 7656,
-            "totalpower": 27912,
             "skill": 0.25
         },
         "131": {
@@ -1686,7 +1557,6 @@ var cards = {
             "heart": 11207,
             "technical": 12316,
             "physical": 10798,
-            "totalpower": 34321,
             "skill": 0.4
         },
         "132": {
@@ -1699,7 +1569,6 @@ var cards = {
             "heart": 11736,
             "technical": 16378,
             "physical": 6732,
-            "totalpower": 34846,
             "skill": 0.4
         },
         "133": {
@@ -1712,7 +1581,6 @@ var cards = {
             "heart": 12661,
             "technical": 10612,
             "physical": 10979,
-            "totalpower": 34252,
             "skill": 0.3
         },
         "134": {
@@ -1725,8 +1593,7 @@ var cards = {
             "heart": 11065,
             "technical": 11123,
             "physical": 11156,
-            "totalpower": 33344,
-            "skill": "40+15%"
+            "skill": 0.55
         },
         "135": {
             "id": 135,
@@ -1738,7 +1605,6 @@ var cards = {
             "heart": 9652,
             "technical": 9281,
             "physical": 9360,
-            "totalpower": 28293,
             "skill": 0.25
         },
         "136": {
@@ -1751,7 +1617,6 @@ var cards = {
             "heart": 10692,
             "technical": 8384,
             "physical": 9196,
-            "totalpower": 28272,
             "skill": 0.2
         },
         "137": {
@@ -1764,7 +1629,6 @@ var cards = {
             "heart": 9082,
             "technical": 8640,
             "physical": 9848,
-            "totalpower": 27570,
             "skill": 0.25
         },
         "138": {
@@ -1777,7 +1641,6 @@ var cards = {
             "heart": 9347,
             "technical": 9095,
             "physical": 9418,
-            "totalpower": 27860,
             "skill": 0.25
         },
         "139": {
@@ -1790,7 +1653,6 @@ var cards = {
             "heart": 12292,
             "technical": 9068,
             "physical": 9954,
-            "totalpower": 31314,
             "skill": 0.25
         },
         "140": {
@@ -1803,7 +1665,6 @@ var cards = {
             "heart": 6437,
             "technical": 11260,
             "physical": 16544,
-            "totalpower": 34241,
             "skill": 0.4
         },
         "141": {
@@ -1816,7 +1677,6 @@ var cards = {
             "heart": 6859,
             "technical": 17041,
             "physical": 12346,
-            "totalpower": 36246,
             "skill": 0.5
         },
         "142": {
@@ -1829,7 +1689,6 @@ var cards = {
             "heart": 14213,
             "technical": 7076,
             "physical": 13835,
-            "totalpower": 35124,
             "skill": 0.6
         },
         "143": {
@@ -1842,7 +1701,6 @@ var cards = {
             "heart": 8532,
             "technical": 10405,
             "physical": 8617,
-            "totalpower": 27554,
             "skill": 0.2
         },
         "144": {
@@ -1855,7 +1713,6 @@ var cards = {
             "heart": 6512,
             "technical": 12863,
             "physical": 16823,
-            "totalpower": 36198,
             "skill": 0.5
         },
         "145": {
@@ -1868,7 +1725,6 @@ var cards = {
             "heart": 12221,
             "technical": 10977,
             "physical": 11058,
-            "totalpower": 34256,
             "skill": 0.5
         },
         "146": {
@@ -1881,7 +1737,6 @@ var cards = {
             "heart": 9222,
             "technical": 10162,
             "physical": 8978,
-            "totalpower": 28362,
             "skill": 0.25
         },
         "147": {
@@ -1894,7 +1749,6 @@ var cards = {
             "heart": 10775,
             "technical": 12746,
             "physical": 11253,
-            "totalpower": 34774,
             "skill": 0.3
         },
         "148": {
@@ -1907,7 +1761,6 @@ var cards = {
             "heart": 16528,
             "technical": 12828,
             "physical": 6881,
-            "totalpower": 36237,
             "skill": 0.5
         },
         "149": {
@@ -1920,7 +1773,6 @@ var cards = {
             "heart": 11419,
             "technical": 11216,
             "physical": 11391,
-            "totalpower": 34026,
             "skill": 0.4
         },
         "150": {
@@ -1933,7 +1785,6 @@ var cards = {
             "heart": 9737,
             "technical": 10190,
             "physical": 7501,
-            "totalpower": 27428,
             "skill": 0.25
         },
         "151": {
@@ -1946,7 +1797,6 @@ var cards = {
             "heart": 10332,
             "technical": 7662,
             "physical": 9334,
-            "totalpower": 27328,
             "skill": 0.25
         },
         "152": {
@@ -1959,7 +1809,6 @@ var cards = {
             "heart": 11710,
             "technical": 12200,
             "physical": 11090,
-            "totalpower": 35000,
             "skill": 0.6
         },
         "153": {
@@ -1972,7 +1821,6 @@ var cards = {
             "heart": 7339,
             "technical": 12606,
             "physical": 16655,
-            "totalpower": 36600,
             "skill": 0.5
         },
         "154": {
@@ -1985,7 +1833,6 @@ var cards = {
             "heart": 9331,
             "technical": 8621,
             "physical": 9353,
-            "totalpower": 27305,
             "skill": 0.25
         },
         "155": {
@@ -1998,7 +1845,6 @@ var cards = {
             "heart": 12194,
             "technical": 17876,
             "physical": 6960,
-            "totalpower": 37030,
             "skill": 0.5
         },
         "156": {
@@ -2011,7 +1857,6 @@ var cards = {
             "heart": 10318,
             "technical": 7489,
             "physical": 9771,
-            "totalpower": 27578,
             "skill": 0.25
         },
         "157": {
@@ -2024,7 +1869,6 @@ var cards = {
             "heart": 11335,
             "technical": 11239,
             "physical": 12075,
-            "totalpower": 34649,
             "skill": 0.5
         },
         "158": {
@@ -2037,7 +1881,6 @@ var cards = {
             "heart": 11088,
             "technical": 12277,
             "physical": 10740,
-            "totalpower": 34105,
             "skill": 0.3
         },
         "159": {
@@ -2050,7 +1893,6 @@ var cards = {
             "heart": 16724,
             "technical": 6702,
             "physical": 11922,
-            "totalpower": 35348,
             "skill": 0.4
         },
         "160": {
@@ -2063,7 +1905,6 @@ var cards = {
             "heart": 11069,
             "technical": 10884,
             "physical": 12629,
-            "totalpower": 34582,
             "skill": 0.4
         },
         "161": {
@@ -2076,7 +1917,6 @@ var cards = {
             "heart": 10520,
             "technical": 10964,
             "physical": 12514,
-            "totalpower": 33998,
             "skill": 0.4
         },
         "162": {
@@ -2089,7 +1929,6 @@ var cards = {
             "heart": 9015,
             "technical": 9067,
             "physical": 9790,
-            "totalpower": 27872,
             "skill": 0.25
         },
         "163": {
@@ -2102,7 +1941,6 @@ var cards = {
             "heart": 10215,
             "technical": 9394,
             "physical": 8805,
-            "totalpower": 28414,
             "skill": 0.25
         },
         "164": {
@@ -2115,7 +1953,6 @@ var cards = {
             "heart": 8490,
             "technical": 9767,
             "physical": 8863,
-            "totalpower": 27120,
             "skill": 0.2
         },
         "165": {
@@ -2128,7 +1965,6 @@ var cards = {
             "heart": 9892,
             "technical": 10411,
             "physical": 6986,
-            "totalpower": 27289,
             "skill": 0.25
         },
         "166": {
@@ -2141,7 +1977,6 @@ var cards = {
             "heart": 15925,
             "technical": 12825,
             "physical": 6923,
-            "totalpower": 35673,
             "skill": 0.5
         },
         "167": {
@@ -2154,7 +1989,6 @@ var cards = {
             "heart": 11662,
             "technical": 11217,
             "physical": 12008,
-            "totalpower": 34887,
             "skill": 0.5
         },
         "168": {
@@ -2167,7 +2001,6 @@ var cards = {
             "heart": 12425,
             "technical": 11650,
             "physical": 10925,
-            "totalpower": 35000,
             "skill": 0.6
         },
         "169": {
@@ -2180,7 +2013,6 @@ var cards = {
             "heart": 8710,
             "technical": 9695,
             "physical": 8537,
-            "totalpower": 26942,
             "skill": 0.2
         },
         "170": {
@@ -2193,7 +2025,6 @@ var cards = {
             "heart": 12054,
             "technical": 11075,
             "physical": 8897,
-            "totalpower": 32026,
             "skill": 0.25
         },
         "171": {
@@ -2206,7 +2037,6 @@ var cards = {
             "heart": 12008,
             "technical": 11366,
             "physical": 10629,
-            "totalpower": 34003,
             "skill": 0.4
         },
         "172": {
@@ -2219,7 +2049,6 @@ var cards = {
             "heart": 11883,
             "technical": 6847,
             "physical": 16380,
-            "totalpower": 35110,
             "skill": 0.4
         },
         "173": {
@@ -2232,7 +2061,6 @@ var cards = {
             "heart": 10971,
             "technical": 12724,
             "physical": 8281,
-            "totalpower": 31976,
             "skill": 0.25
         },
         "174": {
@@ -2245,7 +2073,6 @@ var cards = {
             "heart": 9126,
             "technical": 8735,
             "physical": 9545,
-            "totalpower": 27406,
             "skill": 0.25
         },
         "175": {
@@ -2258,7 +2085,6 @@ var cards = {
             "heart": 10932,
             "technical": 12001,
             "physical": 11085,
-            "totalpower": 34018,
             "skill": 0.3
         },
         "176": {
@@ -2271,7 +2097,6 @@ var cards = {
             "heart": 11791,
             "technical": 11314,
             "physical": 10634,
-            "totalpower": 33739,
             "skill": 0.4
         },
         "177": {
@@ -2284,7 +2109,6 @@ var cards = {
             "heart": 16883,
             "technical": 12002,
             "physical": 7126,
-            "totalpower": 36011,
             "skill": 0.5
         },
         "178": {
@@ -2297,7 +2121,6 @@ var cards = {
             "heart": 11120,
             "technical": 12881,
             "physical": 12633,
-            "totalpower": 36634,
             "skill": 0.55
         },
         "179": {
@@ -2310,7 +2133,6 @@ var cards = {
             "heart": 13046,
             "technical": 11070,
             "physical": 10677,
-            "totalpower": 34793,
             "skill": 0.5
         },
         "180": {
@@ -2323,7 +2145,6 @@ var cards = {
             "heart": 10859,
             "technical": 10696,
             "physical": 11710,
-            "totalpower": 33265,
             "skill": 0.4
         },
         "181": {
@@ -2336,7 +2157,6 @@ var cards = {
             "heart": 11453,
             "technical": 12511,
             "physical": 11056,
-            "totalpower": 35020,
             "skill": 0.3
         },
         "182": {
@@ -2349,7 +2169,6 @@ var cards = {
             "heart": 9213,
             "technical": 9275,
             "physical": 9186,
-            "totalpower": 27674,
             "skill": 0.25
         },
         "183": {
@@ -2362,7 +2181,6 @@ var cards = {
             "heart": 8949,
             "technical": 10053,
             "physical": 9359,
-            "totalpower": 28361,
             "skill": 0.25
         },
         "184": {
@@ -2375,7 +2193,6 @@ var cards = {
             "heart": 8779,
             "technical": 10375,
             "physical": 9831,
-            "totalpower": 28985,
             "skill": 0.2
         },
         "185": {
@@ -2388,7 +2205,6 @@ var cards = {
             "heart": 8859,
             "technical": 11005,
             "physical": 12599,
-            "totalpower": 32463,
             "skill": 0.25
         },
         "186": {
@@ -2401,8 +2217,7 @@ var cards = {
             "heart": 12498,
             "technical": 14972,
             "physical": 7140,
-            "totalpower": 34610,
-            "skill": "40+15%"
+            "skill": 0.55
         },
         "187": {
             "id": 187,
@@ -2414,7 +2229,6 @@ var cards = {
             "heart": 16608,
             "technical": 7277,
             "physical": 12216,
-            "totalpower": 36101,
             "skill": 0.5
         },
         "188": {
@@ -2427,7 +2241,6 @@ var cards = {
             "heart": 11565,
             "technical": 11143,
             "physical": 11439,
-            "totalpower": 34147,
             "skill": 0.3
         },
         "189": {
@@ -2440,7 +2253,6 @@ var cards = {
             "heart": 11775,
             "technical": 11201,
             "physical": 11578,
-            "totalpower": 34554,
             "skill": 0.5
         },
         "190": {
@@ -2453,7 +2265,6 @@ var cards = {
             "heart": 7689,
             "technical": 10510,
             "physical": 9514,
-            "totalpower": 27713,
             "skill": 0.25
         },
         "191": {
@@ -2466,7 +2277,6 @@ var cards = {
             "heart": 11429,
             "technical": 10911,
             "physical": 11786,
-            "totalpower": 34126,
             "skill": 0.4
         },
         "192": {
@@ -2479,7 +2289,6 @@ var cards = {
             "heart": 10240,
             "technical": 8820,
             "physical": 9932,
-            "totalpower": 28992,
             "skill": 0.2
         },
         "193": {
@@ -2492,7 +2301,6 @@ var cards = {
             "heart": 9779,
             "technical": 8971,
             "physical": 9711,
-            "totalpower": 28461,
             "skill": 0.25
         },
         "194": {
@@ -2505,7 +2313,6 @@ var cards = {
             "heart": 9414,
             "technical": 9219,
             "physical": 8982,
-            "totalpower": 27615,
             "skill": 0.25
         },
         "195": {
@@ -2518,7 +2325,6 @@ var cards = {
             "heart": 12730,
             "technical": 6327,
             "physical": 15461,
-            "totalpower": 34518,
             "skill": 0.4
         },
         "196": {
@@ -2531,7 +2337,6 @@ var cards = {
             "heart": 7128,
             "technical": 15992,
             "physical": 13163,
-            "totalpower": 36283,
             "skill": 0.5
         },
         "197": {
@@ -2544,7 +2349,6 @@ var cards = {
             "heart": 11123,
             "technical": 11220,
             "physical": 12287,
-            "totalpower": 34630,
             "skill": 0.4
         },
         "198": {
@@ -2557,7 +2361,6 @@ var cards = {
             "heart": 17479,
             "technical": 6798,
             "physical": 11984,
-            "totalpower": 36261,
             "skill": 0.5
         },
         "199": {
@@ -2570,7 +2373,6 @@ var cards = {
             "heart": 12243,
             "technical": 6981,
             "physical": 17843,
-            "totalpower": 37067,
             "skill": 0.5
         },
         "200": {
@@ -2583,7 +2385,6 @@ var cards = {
             "heart": 11329,
             "technical": 11793,
             "physical": 11662,
-            "totalpower": 34784,
             "skill": 0.5
         },
         "201": {
@@ -2596,7 +2397,6 @@ var cards = {
             "heart": 12143,
             "technical": 10636,
             "physical": 11344,
-            "totalpower": 34123,
             "skill": 0.4
         },
         "202": {
@@ -2609,7 +2409,6 @@ var cards = {
             "heart": 9082,
             "technical": 9219,
             "physical": 9348,
-            "totalpower": 27649,
             "skill": 0.25
         },
         "203": {
@@ -2622,7 +2421,6 @@ var cards = {
             "heart": 14283,
             "technical": 14005,
             "physical": 7122,
-            "totalpower": 35410,
             "skill": 0.6
         },
         "204": {
@@ -2635,7 +2433,6 @@ var cards = {
             "heart": 10140,
             "technical": 8917,
             "physical": 8495,
-            "totalpower": 27552,
             "skill": 0.2
         },
         "205": {
@@ -2648,7 +2445,6 @@ var cards = {
             "heart": 11618,
             "technical": 11405,
             "physical": 11697,
-            "totalpower": 34720,
             "skill": 0.4
         },
         "206": {
@@ -2661,8 +2457,7 @@ var cards = {
             "heart": 12648,
             "technical": 14845,
             "physical": 7012,
-            "totalpower": 34505,
-            "skill": "40+15%"
+            "skill": 0.55
         },
         "207": {
             "id": 207,
@@ -2674,7 +2469,6 @@ var cards = {
             "heart": 7384,
             "technical": 10253,
             "physical": 9745,
-            "totalpower": 27382,
             "skill": 0.25
         },
         "208": {
@@ -2687,7 +2481,6 @@ var cards = {
             "heart": 7048,
             "technical": 11735,
             "physical": 16309,
-            "totalpower": 35092,
             "skill": 0.4
         },
         "209": {
@@ -2700,7 +2493,6 @@ var cards = {
             "heart": 11496,
             "technical": 11260,
             "physical": 11137,
-            "totalpower": 33893,
             "skill": 0.3
         },
         "210": {
@@ -2713,7 +2505,6 @@ var cards = {
             "heart": 6895,
             "technical": 16144,
             "physical": 12835,
-            "totalpower": 35874,
             "skill": 0.5
         },
         "211": {
@@ -2726,7 +2517,6 @@ var cards = {
             "heart": 8801,
             "technical": 12441,
             "physical": 10604,
-            "totalpower": 31846,
             "skill": 0.25
         },
         "212": {
@@ -2739,7 +2529,6 @@ var cards = {
             "heart": 9081,
             "technical": 9930,
             "physical": 8530,
-            "totalpower": 27541,
             "skill": 0.2
         },
         "213": {
@@ -2752,7 +2541,6 @@ var cards = {
             "heart": 11279,
             "technical": 11466,
             "physical": 12367,
-            "totalpower": 35112,
             "skill": 0.5
         },
         "214": {
@@ -2765,7 +2553,6 @@ var cards = {
             "heart": 9401,
             "technical": 8628,
             "physical": 9822,
-            "totalpower": 27851,
             "skill": 0.25
         },
         "215": {
@@ -2778,7 +2565,6 @@ var cards = {
             "heart": 11120,
             "technical": 11885,
             "physical": 10470,
-            "totalpower": 33475,
             "skill": 0.4
         },
         "216": {
@@ -2791,7 +2577,6 @@ var cards = {
             "heart": 17052,
             "technical": 6736,
             "physical": 12285,
-            "totalpower": 36073,
             "skill": 0.5
         },
         "217": {
@@ -2804,7 +2589,6 @@ var cards = {
             "heart": 7809,
             "technical": 9775,
             "physical": 10417,
-            "totalpower": 28001,
             "skill": 0.25
         },
         "218": {
@@ -2817,7 +2601,6 @@ var cards = {
             "heart": 11134,
             "technical": 11552,
             "physical": 11099,
-            "totalpower": 33785,
             "skill": 0.4
         },
         "219": {
@@ -2830,7 +2613,6 @@ var cards = {
             "heart": 10007,
             "technical": 13256,
             "physical": 11306,
-            "totalpower": 34569,
             "skill": 0.3
         },
         "220": {
@@ -2843,7 +2625,6 @@ var cards = {
             "heart": 13094,
             "technical": 16581,
             "physical": 6789,
-            "totalpower": 36464,
             "skill": 0.5
         },
         "221": {
@@ -2856,7 +2637,6 @@ var cards = {
             "heart": 9090,
             "technical": 11629,
             "physical": 11183,
-            "totalpower": 31902,
             "skill": 0.25
         },
         "222": {
@@ -2869,7 +2649,6 @@ var cards = {
             "heart": 11881,
             "technical": 11036,
             "physical": 11445,
-            "totalpower": 34362,
             "skill": 0.5
         },
         "223": {
@@ -2882,7 +2661,6 @@ var cards = {
             "heart": 12919,
             "technical": 11511,
             "physical": 12302,
-            "totalpower": 36732,
             "skill": 0.55
         },
         "224": {
@@ -2895,7 +2673,6 @@ var cards = {
             "heart": 9673,
             "technical": 9430,
             "physical": 9408,
-            "totalpower": 28511,
             "skill": 0.25
         },
         "225": {
@@ -2908,7 +2685,6 @@ var cards = {
             "heart": 11876,
             "technical": 12169,
             "physical": 10980,
-            "totalpower": 35025,
             "skill": 0.3
         },
         "226": {
@@ -2921,7 +2697,6 @@ var cards = {
             "heart": 10894,
             "technical": 11257,
             "physical": 11407,
-            "totalpower": 33558,
             "skill": 0.4
         },
         "227": {
@@ -2934,7 +2709,6 @@ var cards = {
             "heart": 9726,
             "technical": 9914,
             "physical": 8839,
-            "totalpower": 28479,
             "skill": 0.25
         },
         "228": {
@@ -2947,7 +2721,6 @@ var cards = {
             "heart": 6501,
             "technical": 12538,
             "physical": 15345,
-            "totalpower": 34384,
             "skill": 0.4
         },
         "229": {
@@ -2960,7 +2733,6 @@ var cards = {
             "heart": 15379,
             "technical": 12386,
             "physical": 6874,
-            "totalpower": 34639,
             "skill": 0.4
         },
         "230": {
@@ -2973,7 +2745,6 @@ var cards = {
             "heart": 8413,
             "technical": 10515,
             "physical": 8811,
-            "totalpower": 27739,
             "skill": 0.2
         },
         "231": {
@@ -2986,7 +2757,6 @@ var cards = {
             "heart": 7484,
             "technical": 12726,
             "physical": 16591,
-            "totalpower": 36801,
             "skill": 0.5
         },
         "232": {
@@ -2999,7 +2769,6 @@ var cards = {
             "heart": 11884,
             "technical": 11734,
             "physical": 11028,
-            "totalpower": 34646,
             "skill": 0.5
         },
         "233": {
@@ -3012,7 +2781,6 @@ var cards = {
             "heart": 12254,
             "technical": 11908,
             "physical": 12439,
-            "totalpower": 36601,
             "skill": 0.55
         },
         "234": {
@@ -3025,7 +2793,6 @@ var cards = {
             "heart": 11581,
             "technical": 12034,
             "physical": 11906,
-            "totalpower": 35521,
             "skill": 0.4
         },
         "235": {
@@ -3038,7 +2805,6 @@ var cards = {
             "heart": 15271,
             "technical": 6669,
             "physical": 12796,
-            "totalpower": 34736,
             "skill": 0.4
         },
         "236": {
@@ -3051,7 +2817,6 @@ var cards = {
             "heart": 8764,
             "technical": 9879,
             "physical": 8648,
-            "totalpower": 27291,
             "skill": 0.2
         },
         "237": {
@@ -3064,7 +2829,6 @@ var cards = {
             "heart": 11148,
             "technical": 12591,
             "physical": 10644,
-            "totalpower": 34383,
             "skill": 0.3
         },
         "238": {
@@ -3077,7 +2841,6 @@ var cards = {
             "heart": 9057,
             "technical": 10668,
             "physical": 9049,
-            "totalpower": 28774,
             "skill": 0.25
         },
         "239": {
@@ -3090,7 +2853,6 @@ var cards = {
             "heart": 11430,
             "technical": 9072,
             "physical": 8065,
-            "totalpower": 28567,
             "skill": 0.25
         },
         "240": {
@@ -3103,7 +2865,6 @@ var cards = {
             "heart": 15876,
             "technical": 6817,
             "physical": 11643,
-            "totalpower": 34336,
             "skill": 0.6
         },
         "241": {
@@ -3116,7 +2877,6 @@ var cards = {
             "heart": 12319,
             "technical": 11578,
             "physical": 8475,
-            "totalpower": 32372,
             "skill": 0.25
         },
         "242": {
@@ -3129,8 +2889,7 @@ var cards = {
             "heart": 15388,
             "technical": 12255,
             "physical": 6883,
-            "totalpower": 34526,
-            "skill": "40+15%"
+            "skill": 0.55
         },
         "243": {
             "id": 243,
@@ -3142,7 +2901,6 @@ var cards = {
             "heart": 7606,
             "technical": 12682,
             "physical": 16725,
-            "totalpower": 37013,
             "skill": 0.5
         },
         "244": {
@@ -3155,7 +2913,6 @@ var cards = {
             "heart": 11282,
             "technical": 11555,
             "physical": 11530,
-            "totalpower": 34367,
             "skill": 0.5
         },
         "245": {
@@ -3168,7 +2925,6 @@ var cards = {
             "heart": 12162,
             "technical": 10739,
             "physical": 11028,
-            "totalpower": 33929,
             "skill": 0.3
         },
         "246": {
@@ -3181,7 +2937,6 @@ var cards = {
             "heart": 9311,
             "technical": 8960,
             "physical": 8952,
-            "totalpower": 27223,
             "skill": 0.25
         },
         "247": {
@@ -3194,7 +2949,6 @@ var cards = {
             "heart": 11660,
             "technical": 10545,
             "physical": 12795,
-            "totalpower": 35000,
             "skill": 0.6
         },
         "248": {
@@ -3207,7 +2961,6 @@ var cards = {
             "heart": 10962,
             "technical": 11965,
             "physical": 11788,
-            "totalpower": 34715,
             "skill": 0.4
         },
         "249": {
@@ -3220,7 +2973,6 @@ var cards = {
             "heart": 12029,
             "technical": 16789,
             "physical": 7116,
-            "totalpower": 35934,
             "skill": 0.5
         },
         "250": {
@@ -3233,7 +2985,6 @@ var cards = {
             "heart": 10627,
             "technical": 8438,
             "physical": 8460,
-            "totalpower": 27525,
             "skill": 0.2
         },
         "251": {
@@ -3246,7 +2997,6 @@ var cards = {
             "heart": 9562,
             "technical": 7786,
             "physical": 10759,
-            "totalpower": 28107,
             "skill": 0.25
         },
         "252": {
@@ -3259,7 +3009,6 @@ var cards = {
             "heart": 16092,
             "technical": 12781,
             "physical": 6873,
-            "totalpower": 35746,
             "skill": 0.5
         },
         "253": {
@@ -3272,7 +3021,6 @@ var cards = {
             "heart": 11340,
             "technical": 11382,
             "physical": 11952,
-            "totalpower": 34674,
             "skill": 0.5
         },
         "254": {
@@ -3285,7 +3033,6 @@ var cards = {
             "heart": 12841,
             "technical": 11330,
             "physical": 12804,
-            "totalpower": 36975,
             "skill": 0.55
         },
         "255": {
@@ -3298,8 +3045,7 @@ var cards = {
             "heart": 11388,
             "technical": 11656,
             "physical": 10259,
-            "totalpower": 33303,
-            "skill": "40+15%"
+            "skill": 0.55
         },
         "256": {
             "id": 256,
@@ -3311,7 +3057,6 @@ var cards = {
             "heart": 8922,
             "technical": 10285,
             "physical": 9808,
-            "totalpower": 29015,
             "skill": 0.2
         },
         "257": {
@@ -3324,7 +3069,6 @@ var cards = {
             "heart": 9258,
             "technical": 9077,
             "physical": 9353,
-            "totalpower": 27688,
             "skill": 0.25
         },
         "258": {
@@ -3337,7 +3081,6 @@ var cards = {
             "heart": 6650,
             "technical": 16474,
             "physical": 11292,
-            "totalpower": 34416,
             "skill": 0.4
         },
         "259": {
@@ -3350,7 +3093,6 @@ var cards = {
             "heart": 10493,
             "technical": 9881,
             "physical": 8021,
-            "totalpower": 28395,
             "skill": 0.25
         },
         "260": {
@@ -3363,7 +3105,6 @@ var cards = {
             "heart": 9233,
             "technical": 8701,
             "physical": 9461,
-            "totalpower": 27395,
             "skill": 0.25
         },
         "261": {
@@ -3376,7 +3117,6 @@ var cards = {
             "heart": 11537,
             "technical": 11633,
             "physical": 10177,
-            "totalpower": 33347,
             "skill": 0.3
         },
         "262": {
@@ -3389,7 +3129,6 @@ var cards = {
             "heart": 11437,
             "technical": 12473,
             "physical": 10808,
-            "totalpower": 34718,
             "skill": 0.4
         },
         "263": {
@@ -3402,7 +3141,6 @@ var cards = {
             "heart": 16573,
             "technical": 7454,
             "physical": 12123,
-            "totalpower": 36150,
             "skill": 0.5
         },
         "264": {
@@ -3415,7 +3153,6 @@ var cards = {
             "heart": 8618,
             "technical": 9251,
             "physical": 10509,
-            "totalpower": 28378,
             "skill": 0.2
         },
         "265": {
@@ -3428,7 +3165,6 @@ var cards = {
             "heart": 9655,
             "technical": 8513,
             "physical": 9134,
-            "totalpower": 27302,
             "skill": 0.25
         },
         "266": {
@@ -3441,7 +3177,6 @@ var cards = {
             "heart": 11606,
             "technical": 6434,
             "physical": 15233,
-            "totalpower": 33273,
             "skill": 0.4
         },
         "267": {
@@ -3454,7 +3189,6 @@ var cards = {
             "heart": 11490,
             "technical": 11630,
             "physical": 10519,
-            "totalpower": 33639,
             "skill": 0.5
         },
         "268": {
@@ -3467,7 +3201,6 @@ var cards = {
             "heart": 12309,
             "technical": 12415,
             "physical": 12072,
-            "totalpower": 36796,
             "skill": 0.55
         },
         "269": {
@@ -3480,7 +3213,6 @@ var cards = {
             "heart": 9729,
             "technical": 10597,
             "physical": 7149,
-            "totalpower": 27475,
             "skill": 0.25
         },
         "270": {
@@ -3493,7 +3225,6 @@ var cards = {
             "heart": 16045,
             "technical": 6243,
             "physical": 11694,
-            "totalpower": 33982,
             "skill": 0.4
         },
         "271": {
@@ -3506,7 +3237,6 @@ var cards = {
             "heart": 9774,
             "technical": 9642,
             "physical": 7814,
-            "totalpower": 27230,
             "skill": 0.25
         },
         "272": {
@@ -3519,7 +3249,6 @@ var cards = {
             "heart": 10610,
             "technical": 10796,
             "physical": 11828,
-            "totalpower": 33234,
             "skill": 0.3
         },
         "273": {
@@ -3532,7 +3261,6 @@ var cards = {
             "heart": 16624,
             "technical": 11948,
             "physical": 7899,
-            "totalpower": 36471,
             "skill": 0.5
         },
         "274": {
@@ -3545,7 +3273,6 @@ var cards = {
             "heart": 6931,
             "technical": 17495,
             "physical": 11661,
-            "totalpower": 36087,
             "skill": 0.5
         },
         "275": {
@@ -3558,7 +3285,6 @@ var cards = {
             "heart": 13174,
             "technical": 16305,
             "physical": 6943,
-            "totalpower": 36422,
             "skill": 0.5
         },
         "276": {
@@ -3571,7 +3297,6 @@ var cards = {
             "heart": 10191,
             "technical": 13464,
             "physical": 8722,
-            "totalpower": 32377,
             "skill": 0.25
         },
         "277": {
@@ -3584,7 +3309,6 @@ var cards = {
             "heart": 8599,
             "technical": 12668,
             "physical": 10603,
-            "totalpower": 31870,
             "skill": 0.25
         },
         "278": {
@@ -3597,7 +3321,6 @@ var cards = {
             "heart": 12628,
             "technical": 11700,
             "physical": 12091,
-            "totalpower": 36419,
             "skill": 0.55
         },
         "279": {
@@ -3610,7 +3333,6 @@ var cards = {
             "heart": 12774,
             "technical": 15500,
             "physical": 7271,
-            "totalpower": 35545,
             "skill": 0.5
         },
         "280": {
@@ -3623,7 +3345,6 @@ var cards = {
             "heart": 11343,
             "technical": 17225,
             "physical": 6963,
-            "totalpower": 35531,
             "skill": 0.5
         }
     }
@@ -3640,7 +3361,6 @@ Template
             "heart": ,
             "technical": ,
             "physical": ,
-            "totalpower": ,
             "skill": 0.5
         }
 */

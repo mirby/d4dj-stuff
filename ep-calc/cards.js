@@ -1,5 +1,6 @@
 var refreshSelect1;
 var refreshSelect2;
+var refreshSelect3;
 
 $(document).ready(function() {
     $.refreshSelect1 = function() {
@@ -8,6 +9,10 @@ $(document).ready(function() {
 
     $.refreshSelect2 = function() {
         $('.selectpicker#eventmedleychar').selectpicker('refresh');
+    };
+
+    $.refreshSelect3 = function() {
+        $('.selectpicker#etselect').selectpicker('refresh');
     };
 })
 
@@ -53,7 +58,7 @@ jQuery(function($) {
     });
     
     $('#clearFilters').on('click', function() {
-        var boxes = document.getElementsByClassName("d4dj_filter");
+        var boxes = document.getElementsByClassName("filter_clear");
         for (let x of boxes) {
             x.checked = false;
         }
@@ -63,18 +68,21 @@ jQuery(function($) {
     $('#addToTeam').on('click', function() {
         var selection = $('#partypicker').val();
         var cardId = $('#cards').val();
-        populateTeam(selection, cardId);
-        calcModPower();
-        calcClubPower();
-        calcEventPower();
-        calcDisplayPower();
-        calcDisplayParams();
+        var added = populateTeam(selection, cardId);
 
-        let text = document.getElementById("fadediv");
-        text.classList.add("fade-in");
-        setTimeout(function () {
-          text.classList.remove("fade-in");
-        }, 2000);
+        if (added != -1) {
+            calcModPower();
+            calcClubPower();
+            calcEventPower();
+            calcDisplayPower();
+            calcDisplayParams();
+    
+            let text = document.getElementById("fadediv");
+            text.classList.add("fade-in");
+            setTimeout(function () {
+              text.classList.remove("fade-in");
+            }, 2000);
+        }
     });
 
     $('table').on('click', 'tr.parent .fa-chevron-down', function(){
@@ -94,7 +102,10 @@ function populateTeam(selection, cardId) {
         if (selection.startsWith("m")) {
             document.getElementById(selection + "_unit").innerHTML = cards[cardId].unit;
             document.getElementById(selection + "_type").innerHTML = cards[cardId].type;
+            document.getElementById(selection + "_skill").innerHTML = (parseFloat(cards[cardId].skill) * 100).toString() + "%";
         }
+    } else {
+        return -1;
     }
 }
 
@@ -112,13 +123,15 @@ function fillStat(obj) {
         document.querySelector('input[name="techField"]').value = "";
         document.querySelector('input[name="physField"]').value = "";
         document.querySelector('input[name="totalField"]').value = "";
+        document.querySelector('input[name="skillField"]').value = "";
         return;
     }
     document.querySelector('input[name="cardField"]').value = obj.cardname;
     document.querySelector('input[name="heartField"]').value = obj.heart;
     document.querySelector('input[name="techField"]').value = obj.technical;
     document.querySelector('input[name="physField"]').value = obj.physical;
-    document.querySelector('input[name="totalField"]').value = obj.totalpower;
+    document.querySelector('input[name="totalField"]').value = parseInt(obj.heart) + parseInt(obj.technical) + parseInt(obj.physical);
+    document.querySelector('input[name="skillField"]').value = (parseFloat(obj.skill) * 100).toString() + "%";
 
     var img = document.createElement('img');
     img.src = "../icons/icon_" + obj.character.toLowerCase() + ".png";
@@ -351,13 +364,18 @@ function populateCharSelect() {
 // Create all the character filters when the page is loaded
 function createCharacterFilters() {
 
+    var i = 1;
     units.forEach(function(x) {
+
+        var newDiv = document.createElement("div");
+        newDiv.classList.add("d4dj_filter");
+
         var newInput = document.createElement("input");
         newInput.type = "checkbox";
         newInput.id = "filter_" + x.unit;
-        newInput.name = "filter_" + x.unit;
+        newInput.name = "filter_" + x.unit; 
         newInput.classList.add("filter_char");
-        newInput.classList.add("d4dj_filter");
+        newInput.classList.add("filter_clear");
         newInput.value = x.unit;
 
         var newLabel = document.createElement("label");
@@ -365,8 +383,17 @@ function createCharacterFilters() {
         newLabel.classList.add("filter_label");
         newLabel.innerHTML = "<img src='../icons/icon_" + x.unit.toLowerCase() + ".png' width='30' height='30'></img>" + x.display;
 
-        document.getElementById("filter-character").appendChild(newInput);
-        document.getElementById("filter-character").appendChild(newLabel);
+        document.getElementById("filter-character").appendChild(newDiv);
+        newDiv.appendChild(newInput);
+        newDiv.appendChild(newLabel);
+
+        if (i % 3 == 0) {
+            var divBreak = document.createElement("div");
+            divBreak.classList.add("w=100");
+            document.getElementById("filter-character").appendChild(divBreak);
+        }
+
+        i++;
     });
 
     var filters = document.querySelectorAll(".filter_char");
@@ -459,10 +486,10 @@ function calcDisplayPower() {
     var totalSupportPower = 0;
     var totalEventPower = 0;
     for (let i = 1; i <= 4; i++) {
-        totalMainPower += parseInt(document.getElementById("m" + i + "_cardpower").innerText);
-        totalClubPower += parseInt(document.getElementById("m" + i + "_clubbonus").innerText);
-        totalEventPower += parseInt(document.getElementById("m" + i + "_eventbonus").innerText);
-        totalSupportPower += parseInt(document.getElementById("s" + i + "_supportpower").innerText);
+        totalMainPower += parseInt(document.getElementById("m" + i + "_cardpower").innerHTML) || 0;
+        totalClubPower += parseInt(document.getElementById("m" + i + "_clubbonus").innerHTML) || 0;
+        totalEventPower += parseInt(document.getElementById("m" + i + "_eventbonus").innerHTML) || 0;
+        totalSupportPower += parseInt(document.getElementById("s" + i + "_supportpower").innerHTML) || 0;
     }
 
     document.getElementById("power_main").innerHTML = totalMainPower;
@@ -474,10 +501,10 @@ function calcDisplayPower() {
     var totalMedleyPower = 0;
     if (document.getElementById("eventtype").value === "event-medley") {
         for (let i = 1; i <= 4; i++) {
-            if (("eventmedleybonus" + document.getElementById("m" + i + "_char").innerText.toLowerCase()) === document.getElementById("eventmedleychar").value.toLowerCase()) {
-                var heart = Math.floor(parseInt(document.getElementById("m" + i + "_heartmod").innerText) * .1);
-                var tech = Math.floor(parseInt(document.getElementById("m" + i + "_techmod").innerText) * .1);
-                var phys = Math.floor(parseInt(document.getElementById("m" + i + "_physmod").innerText) * .1);
+            if (("eventmedleybonus" + document.getElementById("m" + i + "_char").innerHTML.toLowerCase()) === document.getElementById("eventmedleychar").value.toLowerCase()) {
+                var heart = Math.floor(parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) * .1);
+                var tech = Math.floor(parseInt(document.getElementById("m" + i + "_techmod").innerHTML) * .1);
+                var phys = Math.floor(parseInt(document.getElementById("m" + i + "_physmod").innerHTML) * .1);
                 totalMedleyPower = heart + tech + phys;
                 break;
             }
@@ -499,45 +526,53 @@ function calcModPower() {
     for (let x of types) {
         for (let i = 1; i <=4; i++ ) {
 
+            var cardId = document.getElementById(x + i + "_id").innerHTML;
+            if (cardId === "") {
+                continue;
+            }
+
             var heartMod = 0;
             var techMod = 0;
             var physMod = 0;
     
             // Extra training
-            var et = document.getElementById(x + i + "_et").value;
-            var etVal = 0;
-    
-            switch (et) {
-                case "1":
-                    etVal = 2000;
-                    break;
-                case "2":
-                    etVal = 2500;
-                    break;
-                case "3":
-                    etVal = 3000;
-                    break;
-                case "4":
-                    etVal = 4500;
-                    break;
-                default:
-                    etVal = 0;
-            }        
-    
-            var heartBase = parseInt(document.getElementById(x + i + "_heartbase").innerText);
-            var techBase = parseInt(document.getElementById(x + i + "_techbase").innerText);
-            var physBase = parseInt(document.getElementById(x + i + "_physbase").innerText);
+            var et = localEt.get(cardId);
+            if (et != null && et != 0) {
+                document.getElementById(x + i + "_et").value = et;
+                var etVal = 0;
         
-            if (heartBase > techBase) {
-                if (heartBase > physBase) {
-                    heartMod += etVal;
+                switch (et) {
+                    case "1":
+                        etVal = 2000;
+                        break;
+                    case "2":
+                        etVal = 2500;
+                        break;
+                    case "3":
+                        etVal = 3000;
+                        break;
+                    case "4":
+                        etVal = 4500;
+                        break;
+                    default:
+                        etVal = 0;
+                }
+        
+                var heartBase = parseInt(document.getElementById(x + i + "_heartbase").innerText);
+                var techBase = parseInt(document.getElementById(x + i + "_techbase").innerText);
+                var physBase = parseInt(document.getElementById(x + i + "_physbase").innerText);
+            
+                if (heartBase > techBase) {
+                    if (heartBase > physBase) {
+                        heartMod += etVal;
+                    } else {
+                        physMod += etVal;
+                    }
+                } else if (techBase > physBase) {
+                    techMod += etVal;
                 } else {
                     physMod += etVal;
                 }
-            } else if (techBase > physBase) {
-                techMod += etVal;
-            } else {
-                physMod += etVal;
             }
     
             // Get parameter upgrades
@@ -569,6 +604,8 @@ function calcModPower() {
             }
         }
     }
+
+    $.refreshSelect3();
 }
 
 // Anytime club items are changed, recalculate club power
@@ -588,9 +625,9 @@ function calcClubPower() {
             clubPercGain += getClubPerc(type3, i);
         }
 
-        var heart = parseInt(document.getElementById("m" + i + "_heartmod").innerText);
-        var tech = parseInt(document.getElementById("m" + i + "_techmod").innerText);
-        var phys = parseInt(document.getElementById("m" + i + "_physmod").innerText);
+        var heart = parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) || 0;
+        var tech = parseInt(document.getElementById("m" + i + "_techmod").innerHTML) || 0;
+        var phys = parseInt(document.getElementById("m" + i + "_physmod").innerHTML) || 0;
 
         var heartClub = Math.floor(heart * clubPercGain);
         var techClub = Math.floor(tech * clubPercGain);
@@ -648,9 +685,9 @@ function calcEventPower() {
     for (let i = 1; i <= 4; i++) {
         var eventPercGain = getEventPerc(i);
 
-        var heartMod = parseInt(document.getElementById("m" + i + "_heartmod").innerText);
-        var techMod = parseInt(document.getElementById("m" + i + "_techmod").innerText);
-        var physMod = parseInt(document.getElementById("m" + i + "_physmod").innerText);
+        var heartMod = parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) || 0;
+        var techMod = parseInt(document.getElementById("m" + i + "_techmod").innerHTML) || 0;
+        var physMod = parseInt(document.getElementById("m" + i + "_physmod").innerHTML) || 0;
 
         var heart = Math.floor(parseInt(heartMod) * eventPercGain);
         var tech = Math.floor(parseInt(techMod) * eventPercGain);
@@ -697,22 +734,22 @@ function calcDisplayParams() {
     var totalPhys = 0;
 
     for (let i = 1; i <= 4; i++) {
-        totalHeart += parseInt(document.getElementById("m" + i + "_heartclub").innerText) || 0;
-        totalHeart += parseInt(document.getElementById("m" + i + "_heartmod").innerText) || 0;
+        totalHeart += parseInt(document.getElementById("m" + i + "_heartclub").innerHTML) || 0;
+        totalHeart += parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) || 0;
 
-        var suppMod = parseInt(document.getElementById("s" + i + "_heartmod").innerText) || 0;
+        var suppMod = parseInt(document.getElementById("s" + i + "_heartmod").innerHTML) || 0;
         totalHeart += Math.floor(suppMod / 4);
 
-        totalTech += parseInt(document.getElementById("m" + i + "_techclub").innerText) || 0;
-        totalTech += parseInt(document.getElementById("m" + i + "_techmod").innerText) || 0;
+        totalTech += parseInt(document.getElementById("m" + i + "_techclub").innerHTML) || 0;
+        totalTech += parseInt(document.getElementById("m" + i + "_techmod").innerHTML) || 0;
 
-        suppMod = parseInt(document.getElementById("s" + i + "_techmod").innerText) || 0;
+        suppMod = parseInt(document.getElementById("s" + i + "_techmod").innerHTML) || 0;
         totalTech += Math.floor(suppMod / 4);
 
-        totalPhys += parseInt(document.getElementById("m" + i + "_physclub").innerText) || 0;
-        totalPhys += parseInt(document.getElementById("m" + i + "_physmod").innerText) || 0;
+        totalPhys += parseInt(document.getElementById("m" + i + "_physclub").innerHTML) || 0;
+        totalPhys += parseInt(document.getElementById("m" + i + "_physmod").innerHTML) || 0;
 
-        suppMod = parseInt(document.getElementById("s" + i + "_physmod").innerText) || 0;
+        suppMod = parseInt(document.getElementById("s" + i + "_physmod").innerHTML) || 0;
         totalPhys += Math.floor(suppMod / 4);
     }
 
