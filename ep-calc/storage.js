@@ -27,7 +27,13 @@ jQuery(function($) {
                 }
             });
         }
-        
+
+        // Initialize extra training
+        var obj = JSON.parse(storage.getItem("et"));
+        if (obj) {
+            localEt = new Map(obj);
+        }
+
         // Initialize team
         var obj = JSON.parse(storage.getItem("team"));
         if (obj) {
@@ -46,12 +52,6 @@ jQuery(function($) {
                     $("select[name=" + key + "]").val(x[key]);
                 }
             });
-        }
-
-        // Initialize extra training
-        var obj = JSON.parse(storage.getItem("et"));
-        if (obj) {
-            localEt = new Map(obj);
         }
 
         $('.selectpicker').selectpicker('refresh');

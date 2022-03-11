@@ -11,8 +11,8 @@ $(document).ready(function() {
         $('.selectpicker#eventmedleychar').selectpicker('refresh');
     };
 
-    $.refreshSelect3 = function() {
-        $('.selectpicker#etselect').selectpicker('refresh');
+    $.refreshSelect3 = function(id) {
+        $('.selectpicker#' + id + '_et').selectpicker('refresh');
     };
 })
 
@@ -70,7 +70,7 @@ jQuery(function($) {
         var cardId = $('#cards').val();
         var added = populateTeam(selection, cardId);
 
-        if (added != -1) {
+        if (added) {
             calcModPower();
             calcClubPower();
             calcEventPower();
@@ -99,13 +99,20 @@ function populateTeam(selection, cardId) {
         document.getElementById(selection + "_techbase").innerHTML = cards[cardId].technical;
         document.getElementById(selection + "_physbase").innerHTML = cards[cardId].physical;
 
+        // Check if ET exists and if so, set it
+        var et = localEt.get(cardId) || 0;
+        document.getElementById(selection + "_et").value = et;
+        $.refreshSelect3(selection);
+
         if (selection.startsWith("m")) {
             document.getElementById(selection + "_unit").innerHTML = cards[cardId].unit;
             document.getElementById(selection + "_type").innerHTML = cards[cardId].type;
             document.getElementById(selection + "_skill").innerHTML = (parseFloat(cards[cardId].skill) * 100).toString() + "%";
         }
+
+        return true;
     } else {
-        return -1;
+        return false;
     }
 }
 
@@ -534,47 +541,44 @@ function calcModPower() {
             var heartMod = 0;
             var techMod = 0;
             var physMod = 0;
+
+            var heartBase = parseInt(document.getElementById(x + i + "_heartbase").innerText);
+            var techBase = parseInt(document.getElementById(x + i + "_techbase").innerText);
+            var physBase = parseInt(document.getElementById(x + i + "_physbase").innerText);
     
             // Extra training
-            var et = localEt.get(cardId);
-            if (et != null && et != 0) {
-                document.getElementById(x + i + "_et").value = et;
-                var etVal = 0;
-        
-                switch (et) {
-                    case "1":
-                        etVal = 2000;
-                        break;
-                    case "2":
-                        etVal = 2500;
-                        break;
-                    case "3":
-                        etVal = 3000;
-                        break;
-                    case "4":
-                        etVal = 4500;
-                        break;
-                    default:
-                        etVal = 0;
-                }
-        
-                var heartBase = parseInt(document.getElementById(x + i + "_heartbase").innerText);
-                var techBase = parseInt(document.getElementById(x + i + "_techbase").innerText);
-                var physBase = parseInt(document.getElementById(x + i + "_physbase").innerText);
-            
-                if (heartBase > techBase) {
-                    if (heartBase > physBase) {
-                        heartMod += etVal;
-                    } else {
-                        physMod += etVal;
-                    }
-                } else if (techBase > physBase) {
-                    techMod += etVal;
+            var et = document.getElementById(x + i + "_et").value;
+            var etVal = 0;
+    
+            switch (et) {
+                case "1":
+                    etVal = 2000;
+                    break;
+                case "2":
+                    etVal = 2500;
+                    break;
+                case "3":
+                    etVal = 3000;
+                    break;
+                case "4":
+                    etVal = 4500;
+                    break;
+                default:
+                    etVal = 0;
+            }
+
+            if (heartBase > techBase) {
+                if (heartBase > physBase) {
+                    heartMod += etVal;
                 } else {
                     physMod += etVal;
                 }
+            } else if (techBase > physBase) {
+                techMod += etVal;
+            } else {
+                physMod += etVal;
             }
-    
+
             // Get parameter upgrades
             var char = document.getElementById(x + i + "_char").innerHTML;
             var heartParamPerc = parseFloat(document.getElementById("param_" + char + "_1").value) / 100;
@@ -604,8 +608,6 @@ function calcModPower() {
             }
         }
     }
-
-    $.refreshSelect3();
 }
 
 // Anytime club items are changed, recalculate club power
