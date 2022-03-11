@@ -1,4 +1,28 @@
 var cards = {
+        "0": {
+            "id": 0,
+            "character": "Maho",
+            "cardname": "Dreamy Love⦾Over Night",
+            "unit": "HapiAra",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 12774,
+            "technical": 15500,
+            "physical": 7271,
+            "skill": 0.5
+        },
+        "1": {
+            "id": 1,
+            "character": "Rei",
+            "cardname": "Dreamy Love⦾Plush Doll",
+            "unit": "HapiAra",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 11343,
+            "technical": 17225,
+            "physical": 6963,
+            "skill": 0.5
+        },
         "2": {
             "id": 2,
             "character": "Aoi",
@@ -3322,30 +3346,6 @@ var cards = {
             "technical": 11700,
             "physical": 12091,
             "skill": 0.55
-        },
-        "279": {
-            "id": 279,
-            "character": "Maho",
-            "cardname": "Dreamy Love⦾Over Night",
-            "unit": "HapiAra",
-            "type": "Cute",
-            "rarity": 4,
-            "heart": 12774,
-            "technical": 15500,
-            "physical": 7271,
-            "skill": 0.5
-        },
-        "280": {
-            "id": 280,
-            "character": "Rei",
-            "cardname": "Dreamy Love⦾Plush Doll",
-            "unit": "HapiAra",
-            "type": "Cute",
-            "rarity": 4,
-            "heart": 11343,
-            "technical": 17225,
-            "physical": 6963,
-            "skill": 0.5
         }
     }
 
@@ -3386,3 +3386,5 @@ Object.keys(cards).forEach(function(key) {
         "skill":cards[key].skill
     })
 });
+
+const standardArray = [...cardArray];

@@ -18,7 +18,7 @@ $(document).ready(function() {
 
 $(document).on('changed.bs.select', 'select', function(event) {
     if ($(event.target).is("select#cards")) {
-        fillStat(cards[$(this).val()]);
+        fillStat($(this).val());
     } else if ($(event.target).is("select#eventtype")) {
         displayCharSelect($(event.target).val());
     } else if ($(event.target).is("select.eventbonuschar")) {
@@ -119,20 +119,24 @@ function populateTeam(selection, cardId) {
 /*
     Fill out the card stats when selecting a card to add to team
 */
-function fillStat(obj) {
+function fillStat(cardId) {
 
-    if (!obj) {
-        document.getElementById("charImageWrapper").removeChild(document.getElementById("charImageWrapper").firstChild);
-        document.getElementById("unitImageWrapper").removeChild(document.getElementById("unitImageWrapper").firstChild);
-        document.getElementById("typeImageWrapper").removeChild(document.getElementById("typeImageWrapper").firstChild);
-        document.querySelector('input[name="cardField"]').value = "";
-        document.querySelector('input[name="heartField"]').value = "";
-        document.querySelector('input[name="techField"]').value = "";
-        document.querySelector('input[name="physField"]').value = "";
-        document.querySelector('input[name="totalField"]').value = "";
-        document.querySelector('input[name="skillField"]').value = "";
+    if (cardId == null) {
+        if (document.getElementById("charImageWrapper").hasChildNodes()) {
+            document.getElementById("charImageWrapper").removeChild(document.getElementById("charImageWrapper").firstChild);
+            document.getElementById("unitImageWrapper").removeChild(document.getElementById("unitImageWrapper").firstChild);
+            document.getElementById("typeImageWrapper").removeChild(document.getElementById("typeImageWrapper").firstChild);
+            document.querySelector('input[name="cardField"]').value = "";
+            document.querySelector('input[name="heartField"]').value = "";
+            document.querySelector('input[name="techField"]').value = "";
+            document.querySelector('input[name="physField"]').value = "";
+            document.querySelector('input[name="totalField"]').value = "";
+            document.querySelector('input[name="skillField"]').value = "";
+        }
         return;
     }
+
+    var obj = standardArray[cardId];
     document.querySelector('input[name="cardField"]').value = obj.cardname;
     document.querySelector('input[name="heartField"]').value = obj.heart;
     document.querySelector('input[name="techField"]').value = obj.technical;
@@ -176,6 +180,21 @@ function fillStat(obj) {
 */
 function displayCardsDropdown(arr) {
 
+    var label = document.createElement("label");
+    label.innerHTML = "Choose a card to view stats: ";
+    label.htmlFor = "cards";
+
+    if (arr.length == 0) {
+        var nocard = document.createElement("label");
+        nocard.innerHTML = "No cards meet the filter criteria";
+        nocard.style.paddingLeft = "10px";
+        nocard.style.color = "red";
+        document.getElementById("cardDropdown").appendChild(label);
+        document.getElementById("cardDropdown").appendChild(nocard);
+        fillStat(null);
+        return;
+    }
+
     var select = document.createElement("select");
     select.name = "cards";
     select.id = "cards";
@@ -217,24 +236,11 @@ function displayCardsDropdown(arr) {
         select.appendChild(option);
     }
 
-    var label = document.createElement("label");
-    label.innerHTML = "Choose a card to view stats: ";
-    label.htmlFor = "cards";
-
-    if (arr.length == 0) {
-        var nocard = document.createElement("label");
-        nocard.innerHTML = "No cards meet the filter criteria";
-        nocard.style.paddingLeft = "10px";
-        nocard.style.color = "red";
-        document.getElementById("cardDropdown").appendChild(label)
-        document.getElementById("cardDropdown").appendChild(nocard);
-    } else {
-        select.style.paddingLeft = "10px";
-        document.getElementById("cardDropdown").appendChild(label);
-        document.getElementById("cardDropdown").appendChild(select);
-    }
-
-    fillStat(arr[0]);
+    select.style.paddingLeft = "10px";
+    document.getElementById("cardDropdown").appendChild(label);
+    document.getElementById("cardDropdown").appendChild(select);
+    
+    fillStat(arr[0].id);
 }
 
 const sort_by = (field, reverse, primer) => {
