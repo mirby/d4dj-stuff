@@ -1,3 +1,30 @@
+var refreshClubSelect;
+
+$(document).ready(function() {
+    $.refreshClubSelect = function() {
+        $('.selectpicker.clubselect').selectpicker('refresh');
+    };
+})
+
+/*
+    Set all club dropdowns to default values
+*/
+function refreshClubSelects() {
+    for (let type of clubTypes1) {
+        document.getElementById("club-" + type).value = "1";
+    }
+
+    for (let type of clubTypes2) {
+        document.getElementById("club-" + type).value = "1";
+    }
+
+    for (let type of clubTypes3) {
+        document.getElementById("club-" + type).value = "1";
+    }
+
+    $.refreshClubSelect();
+}
+
 function createClubSelects() {
     for (let type of clubTypes1) {
         var select = createClubSelect(clubItems1, "club-" + type);

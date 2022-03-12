@@ -224,7 +224,7 @@
                     <table class="table table-bordered">
                         <thead>
                             <tr>
-                                <th scope="col"></th>
+                                <th scope="col"><a id="refreshmain" class="resetbtn btn btn-primary" role="button">Clear All</a></th>
                                 <th scope="col">Party Slot 1</th>
                                 <th scope="col">Party Slot 2</th>
                                 <th scope="col">Party Slot 3</th>
@@ -363,7 +363,7 @@
                                 <td id="m4_techclub"></td>
                             </tr>
                             <tr class="rowHide">
-                                <th class="phys_color" scope="row">Technical</th>
+                                <th class="tech_color" scope="row">Technical</th>
                                 <td id="m1_tech"></td>
                                 <td id="m2_tech"></td>
                                 <td id="m3_tech"></td>
@@ -391,7 +391,7 @@
                                 <td id="m4_physclub"></td>
                             </tr>
                             <tr class="rowHide">
-                                <th class="tech_color" scope="row">Physical</th>
+                                <th class="phys_color" scope="row">Physical</th>
                                 <td id="m1_phys"></td>
                                 <td id="m2_phys"></td>
                                 <td id="m3_phys"></td>
@@ -427,7 +427,7 @@
                 <table class="table table-bordered">
                     <thead>
                         <tr>
-                            <th scope="col"></th>
+                            <th scope="col"><a id="refreshsupp" class="resetbtn btn btn-primary" role="button">Clear All</a></th>
                             <th scope="col">Support Slot 1</th>
                             <th scope="col">Support Slot 2</th>
                             <th scope="col">Support Slot 3</th>
@@ -724,6 +724,12 @@
                         <li>Enter the score in scoring section to see EP and other resource totals.</li>
                         <li>Click Save Data button to save your current team (including ET), event, club, and param values</li>
                         <li>ET levels are saved per card, so if you want to add extra training levels, you have to add the card, change the ET level, and then save data.</li>
+                        <li>Additional usage notes:
+                            <ul>
+                                <li>If you clear the main team or the support team, you still need to save to persist between sessions.</li>
+                                <li>For slot events, just list the same character twice (it won't count the bonus twice). 5th slot will be added if needed later.</li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
                 <div class="sectionHeader">
@@ -742,8 +748,14 @@
                         <li>If you open the browser devtools (F12 on Chrome), you can see the exact strings being saved when clicking the save button in the console tab.</li>
                     </ul>
                 </div>
+                <!-- <div class="sectionHeader">
+                    <h4>Known Issues:</h4>
+                    <ul>
+                        <li></li>
+                    </ul>
+                </div> -->
                 <div class="sectionHeader">
-                    <h4>future features (maybe)</h4>
+                    <h4>Future features (maybe)</h4>
                     <ul>
                         <li>scoring section to include in-house calcs</li>
                         <li>passive skills</li>
@@ -767,6 +779,7 @@
     </div>
 
     <script>
+        generateCardArray();
         createCharacterFilters();
         cardArray.sort(default_sort());
         displayCardsDropdown(cardArray);

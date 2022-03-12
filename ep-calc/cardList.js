@@ -3365,26 +3365,77 @@ Template
         }
 */
 
-const cardArray = [];
+var cardArray = [];
+var standardArray = [];
 
-Object.keys(cards).forEach(function(key) {
-    var heart = cards[key].heart;
-    var technical = cards[key].technical;
-    var physical = cards[key].physical;
-    var totalpower = parseInt(heart) + parseInt(technical) + parseInt(physical);
-    cardArray.push({
-        "id":cards[key].id,
-        "character":cards[key].character,
-        "cardname":cards[key].cardname,
-        "unit":cards[key].unit,
-        "type":cards[key].type,
-        "rarity":cards[key].rarity,
-        "heart":heart,
-        "technical":technical,
-        "physical":physical,
-        "totalpower":totalpower,
-        "skill":cards[key].skill
-    })
-});
+function generateCardArray() {
 
-const standardArray = [...cardArray];
+    cardArray = [];
+
+    var tempEt = new Map();
+    var storage = window.localStorage;
+    var obj = JSON.parse(storage.getItem("et"));
+    if (obj) {
+        tempEt = new Map(obj);
+    }
+
+    Object.keys(cards).forEach(function(key) {
+
+        var heartMod = 0;
+        var techMod = 0;
+        var physMod = 0;
+
+        var heart = cards[key].heart;
+        var technical = cards[key].technical;
+        var physical = cards[key].physical;
+
+
+        var et = tempEt.get(cards[key].id.toString());
+        var etVal = 0;
+
+        switch (et) {
+            case "1":
+                etVal = 2000;
+                break;
+            case "2":
+                etVal = 2500;
+                break;
+            case "3":
+                etVal = 3000;
+                break;
+            case "4":
+                etVal = 4500;
+                break;
+            default:
+                etVal = 0;
+        }
+
+        if (heart > technical) {
+            if (heart > physical) {
+                heartMod += etVal;
+            } else {
+                physMod += etVal;
+            }
+        } else if (technical > physical) {
+            techMod += etVal;
+        } else {
+            physMod += etVal;
+        }
+
+        cardArray.push({
+            "id":cards[key].id,
+            "character":cards[key].character,
+            "cardname":cards[key].cardname,
+            "unit":cards[key].unit,
+            "type":cards[key].type,
+            "rarity":cards[key].rarity,
+            "heart":parseInt(heart + heartMod),
+            "technical":parseInt(technical + techMod),
+            "physical":parseInt(physical + physMod),
+            "totalpower":parseInt(heart + heartMod + technical + techMod + physical + physMod),
+            "skill":cards[key].skill
+        })
+    });
+
+    standardArray = [...cardArray];
+}

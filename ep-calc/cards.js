@@ -1,6 +1,8 @@
 var refreshSelect1;
 var refreshSelect2;
 var refreshSelect3;
+var refreshEventSelect;
+var refreshParamSelect;
 
 $(document).ready(function() {
     $.refreshSelect1 = function() {
@@ -14,7 +16,15 @@ $(document).ready(function() {
     $.refreshSelect3 = function(id) {
         $('.selectpicker#' + id + '_et').selectpicker('refresh');
     };
-})
+
+    $.refreshEventSelect = function() {
+        $('.selectpicker.eventselect').selectpicker('refresh');
+    };
+
+    $.refreshParamSelect = function() {
+        $('.selectpicker.paramchar').selectpicker('refresh');
+    };
+});
 
 $(document).on('changed.bs.select', 'select', function(event) {
     if ($(event.target).is("select#cards")) {
@@ -58,11 +68,7 @@ jQuery(function($) {
     });
     
     $('#clearFilters').on('click', function() {
-        var boxes = document.getElementsByClassName("filter_clear");
-        for (let x of boxes) {
-            x.checked = false;
-        }
-        generateFilters(cardArray);
+        refreshFilters();
     });
 
     $('#addToTeam').on('click', function() {
@@ -82,6 +88,30 @@ jQuery(function($) {
             setTimeout(function () {
               text.classList.remove("fade-in");
             }, 2000);
+        }
+    });
+
+    $('#refreshmain').on('click', function() {
+        if (confirm("Are you sure you want to reset the main team?") == true) {
+            refreshMainTeam();
+
+            calcModPower();
+            calcClubPower();
+            calcEventPower();
+            calcDisplayPower();
+            calcDisplayParams();
+        }
+    });
+
+    $('#refreshsupp').on('click', function() {
+        if (confirm("Are you sure you want to reset the support team?") == true) {
+            refreshSupportTeam();
+        
+            calcModPower();
+            calcClubPower();
+            calcEventPower();
+            calcDisplayPower();
+            calcDisplayParams();
         }
     });
 
@@ -107,7 +137,8 @@ function populateTeam(selection, cardId) {
         if (selection.startsWith("m")) {
             document.getElementById(selection + "_unit").innerHTML = cards[cardId].unit;
             document.getElementById(selection + "_type").innerHTML = cards[cardId].type;
-            document.getElementById(selection + "_skill").innerHTML = (parseFloat(cards[cardId].skill) * 100).toString() + "%";
+            var skill = Math.round(cards[cardId].skill * 100);
+            document.getElementById(selection + "_skill").innerHTML = skill.toString() + "%";
         }
 
         return true;
@@ -142,7 +173,8 @@ function fillStat(cardId) {
     document.querySelector('input[name="techField"]').value = obj.technical;
     document.querySelector('input[name="physField"]').value = obj.physical;
     document.querySelector('input[name="totalField"]').value = parseInt(obj.heart) + parseInt(obj.technical) + parseInt(obj.physical);
-    document.querySelector('input[name="skillField"]').value = (parseFloat(obj.skill) * 100).toString() + "%";
+    var skill = Math.round(cards[cardId].skill * 100);
+    document.querySelector('input[name="skillField"]').value = skill.toString() + "%";
 
     var img = document.createElement('img');
     img.src = "../icons/icon_" + obj.character.toLowerCase() + ".png";
@@ -264,6 +296,14 @@ const default_sort = () => {
             (a.character.toUpperCase() > b.character.toUpperCase()) - (b.character.toUpperCase() > a.character.toUpperCase()) ||
             (a.cardname.toUpperCase() > b.cardname.toUpperCase()) - (b.cardname.toUpperCase() > a.cardname.toUpperCase());
     }
+}
+
+function refreshFilters() {
+    var boxes = document.getElementsByClassName("filter_clear");
+    for (let x of boxes) {
+        x.checked = false;
+    }
+    generateFilters(cardArray);
 }
 
 // Apply filters when a filter is clicked
@@ -767,6 +807,80 @@ function calcDisplayParams() {
     document.getElementById("paramtotal_techep").innerHTML = Math.round(((totalTech / 600) + Number.EPSILON) * 100) / 100;
     document.getElementById("paramtotal_phys").innerHTML = totalPhys;
     document.getElementById("paramtotal_physep").innerHTML = Math.round(((totalPhys / 600) + Number.EPSILON) * 100) / 100;
+}
+
+function refreshMainTeam() {
+    for (var i=1; i<=4; i++) {
+        var selection = "m" + i;
+        document.getElementById(selection + "_charfull").innerHTML = "";
+        document.getElementById(selection + "_id").innerHTML = "";
+        document.getElementById(selection + "_char").innerHTML = "";
+        document.getElementById(selection + "_unit").innerHTML = "";
+        document.getElementById(selection + "_type").innerHTML = "";
+        document.getElementById(selection + "_skill").innerHTML = "";
+        document.getElementById(selection + "_et").value = 0;
+        document.getElementById(selection + "_heartbase").innerHTML = "";
+        document.getElementById(selection + "_heartmod").innerHTML = "";
+        document.getElementById(selection + "_heartclub").innerHTML = "";
+        document.getElementById(selection + "_heart").innerHTML = "";
+        document.getElementById(selection + "_techbase").innerHTML = "";
+        document.getElementById(selection + "_techmod").innerHTML = "";
+        document.getElementById(selection + "_techclub").innerHTML = "";
+        document.getElementById(selection + "_tech").innerHTML = "";
+        document.getElementById(selection + "_physbase").innerHTML = "";
+        document.getElementById(selection + "_physmod").innerHTML = "";
+        document.getElementById(selection + "_physclub").innerHTML = "";
+        document.getElementById(selection + "_phys").innerHTML = "";
+        document.getElementById(selection + "_cardpower").innerHTML = "";
+        document.getElementById(selection + "_clubbonus").innerHTML = "";
+        document.getElementById(selection + "_eventbonus").innerHTML = "";
+        $.refreshSelect3(selection);
+    }
+}
+
+function refreshSupportTeam() {
+    for (var i=1; i<=4; i++) {
+        var selection = "s" + i;
+        document.getElementById(selection + "_charfull").innerHTML = "";
+        document.getElementById(selection + "_id").innerHTML = "";
+        document.getElementById(selection + "_char").innerHTML = "";
+        document.getElementById(selection + "_et").value = 0;
+        document.getElementById(selection + "_heartbase").innerHTML = "";
+        document.getElementById(selection + "_heartmod").innerHTML = "";
+        document.getElementById(selection + "_heart").innerHTML = "";
+        document.getElementById(selection + "_techbase").innerHTML = "";
+        document.getElementById(selection + "_techmod").innerHTML = "";
+        document.getElementById(selection + "_tech").innerHTML = "";
+        document.getElementById(selection + "_physbase").innerHTML = "";
+        document.getElementById(selection + "_physmod").innerHTML = "";
+        document.getElementById(selection + "_phys").innerHTML = "";
+        document.getElementById(selection + "_cardpower").innerHTML = "";
+        document.getElementById(selection + "_supportpower").innerHTML = "";
+        $.refreshSelect3(selection);
+    }    
+}
+
+function refreshEventSelects() {
+    for (var i = 1; i <= 4; i++) {
+        document.getElementById("eventbonus" + i).value = "bonusRinku";
+    }
+
+    document.getElementById("eventbonus").value = "event-yes";
+    document.getElementById("eventstyle").value = "event-cute";
+    document.getElementById("eventtype").value = "event-poker";
+    displayCharSelect("event-poker");
+    $.refreshEventSelect();
+}
+
+function refreshParamSelects() {
+
+    for (let x of characters) {
+        document.getElementById("param_" + x.toLowerCase() + "_1").value = 0;
+        document.getElementById("param_" + x.toLowerCase() + "_2").value = 0;
+        document.getElementById("param_" + x.toLowerCase() + "_3").value = 0;
+    }
+    
+    $.refreshParamSelect();
 }
 
 var units = [

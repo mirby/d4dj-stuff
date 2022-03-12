@@ -7,6 +7,32 @@ jQuery(function($) {
         // Initialize any saved data
         var storage = window.localStorage;
 
+        // Initialize extra training
+        var obj = JSON.parse(storage.getItem("et"));
+        if (obj) {
+            localEt = new Map(obj);
+        }
+
+        // Initialize param
+        var obj = JSON.parse(storage.getItem("param"));
+        if (obj) {
+            obj.forEach(function(x) {
+                for (var key in x) {
+                    $("select[name=" + key + "]").val(x[key]);
+                }
+            });
+        }
+
+        // Initialize team
+        var obj = JSON.parse(storage.getItem("team"));
+        if (obj) {
+            obj.forEach(function(x) {
+                for (var key in x) {
+                    populateTeam(key, x[key]);
+                }
+            });
+        }
+
         // Initialize event
         var obj = JSON.parse(storage.getItem("event"));
         if (obj) {
@@ -20,32 +46,6 @@ jQuery(function($) {
 
         // Initialize club
         var obj = JSON.parse(storage.getItem("club"));
-        if (obj) {
-            obj.forEach(function(x) {
-                for (var key in x) {
-                    $("select[name=" + key + "]").val(x[key]);
-                }
-            });
-        }
-
-        // Initialize extra training
-        var obj = JSON.parse(storage.getItem("et"));
-        if (obj) {
-            localEt = new Map(obj);
-        }
-
-        // Initialize team
-        var obj = JSON.parse(storage.getItem("team"));
-        if (obj) {
-            obj.forEach(function(x) {
-                for (var key in x) {
-                    populateTeam(key, x[key]);
-                }
-            });
-        }
-
-        // Initialize param
-        var obj = JSON.parse(storage.getItem("param"));
         if (obj) {
             obj.forEach(function(x) {
                 for (var key in x) {
@@ -144,12 +144,28 @@ function saveData() {
     console.log("SAVED" + JSON.stringify([...localEt]));
 
     alert("Saved!");
+
+    // After saving, recreate the card list
+    generateCardArray();
+    generateFilters(cardArray);
 }
 
 function removeData() {
     var storage = window.localStorage;
     if (confirm("Are you sure you want to clear all saved data?") == true) {
         storage.clear();
+
+        refreshClubSelects();
+        refreshEventSelects();
+        refreshParamSelects();
+        refreshMainTeam();
+        refreshSupportTeam();
+
+        calcModPower();
+        calcClubPower();
+        calcEventPower();
+        calcDisplayPower();
+        calcDisplayParams();
     }
 }
 
