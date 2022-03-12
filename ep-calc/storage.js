@@ -1,4 +1,3 @@
-var initializeClub;
 var localEt = new Map();
 
 jQuery(function($) {
@@ -143,16 +142,16 @@ function saveData() {
     console.log("SAVED" + JSON.stringify(paramSave));
     console.log("SAVED" + JSON.stringify([...localEt]));
 
-    alert("Saved!");
-
     // After saving, recreate the card list
     generateCardArray();
     generateFilters(cardArray);
+
+    alert("Saved!");
 }
 
 function removeData() {
     var storage = window.localStorage;
-    if (confirm("Are you sure you want to clear all saved data?") == true) {
+    if (confirm("Are you sure you want to clear all saved data?")) {
         storage.clear();
 
         refreshClubSelects();

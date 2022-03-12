@@ -92,7 +92,7 @@ jQuery(function($) {
     });
 
     $('#refreshmain').on('click', function() {
-        if (confirm("Are you sure you want to reset the main team?") == true) {
+        if (confirm("Are you sure you want to reset the main team?")) {
             refreshMainTeam();
 
             calcModPower();
@@ -104,7 +104,7 @@ jQuery(function($) {
     });
 
     $('#refreshsupp').on('click', function() {
-        if (confirm("Are you sure you want to reset the support team?") == true) {
+        if (confirm("Are you sure you want to reset the support team?")) {
             refreshSupportTeam();
         
             calcModPower();
