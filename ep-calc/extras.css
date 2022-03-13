@@ -93,42 +93,6 @@
     transition: 1s;
 }
 
-.explanation {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-}
-
-.explanation .explanation_text {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-    top: 150%;
-    left: 50%;
-    margin-left: -60px;
-}
-
-.explanation .explanation_text::after {
-    content: "";
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: transparent transparent black transparent;
-}
-
-.explanation:hover .explanation_text {
-    visibility: visible;
-}
-
 #main_color {
     background-color: #bc0de4;
 }
@@ -192,4 +156,94 @@
 
 .open .parent i {
     transform: rotate(180deg)
+}
+
+.inputfield {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.roomtip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+  
+.roomtip .roomscoretip {
+    visibility: hidden;
+    width: 240px;
+    background-color: rgba(62,62,62,0.91);
+    color: #fff;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    top: -100%;
+    left: 105%;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.roomtip .roomscoretip::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent rgba(62,62,62,0.91) transparent transparent;
+}
+
+.roomtip:hover .roomscoretip {
+    visibility: visible;
+    opacity: 1;
+}
+
+.explanation {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.explanation .explanation_text {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgba(62,62,62,0.91);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.explanation .explanation_text::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent rgba(62,62,62,0.91) transparent transparent;
+}
+
+.explanation:hover .explanation_text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.calcbutton {
+    padding-top: 10px;
+}
+
+.outputfield {
+    padding-bottom: 10px;
 }

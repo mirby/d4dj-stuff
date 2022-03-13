@@ -714,39 +714,130 @@
                 <h4>Inputs</h4>
             </div>
             <div id="scoreinputs">
-                <form class="row align-items-center">
-                    <div class="col-md-3">
-                        <label>Score</label>
-                        <div class="col">
-                            <input type="text" class="form-control" id="scorein" placeholder="1000000">
-                        </div>
+                <form class="row">
+                    <div class="inputfield col-5 col-md-4" style="width:250px;">
+                        <label for="scorein">Score</label>
+                        <input type="text" style="display:inline-block;width:100px;" class="form-control" id="scorein" placeholder="1000000" value="1000000">
                     </div>
-                    <div class="col-md-3">
-                        <div class="input-group">
-                            <div class="input-group-text">Volts</div>
-                            <select class="selectpicker voltselect" name="voltsel" id="voltsel" data-width="fit">
-                                <option value="1" data-content="1">1</option>
-                                <option value="2" data-content="2">2</option>
-                                <option value="3" data-content="3">3</option>
-                                <option value="4" data-content="4">4</option>
-                                <option value="5" data-content="5" selected>5</option>
-                            </select>
-                        </div>
+                    <div class="inputfield col-5 col-md-4">
+                        <span class="roomtip">
+                            <label for="roomscorein">Room Score</label>
+                            <span class="roomscoretip">
+                                Room score only applies to Multi-Medley calculation. Leaving it empty defaults to 4 times the Score.
+                            </span>
+                        </span>
+                        <input type="text" style="display:inline-block;width:100px;" class="form-control" id="roomscorein" placeholder="4000000">
                     </div>
-                    <div class="col-md-3">
+                    <div class="w-100"></div>
+                    <div class="inputfield col-5 col-md-4 input-group" style="width:250px;">
+                        <label style="padding-top:5px;padding-right:7px;" for="bonussel">Bonus</label>
+                        <input type="text" class="form-control" id="teambonus" name="teambonus" style="width:100px;flex:0 0 auto;" aria-describedby="bonusaddon">
+                        <span class="input-group-text" id="bonusaddon">%</span>
+                    </div>
+                    <div class="inputfield col-5 col-md-5">
                         <label for="paramsel">Param</label>
                         <select class="selectpicker paramselect" name="paramsel" id="paramsel" data-width="fit">
                             <option value="heart" data-content="Heart">Heart</option>
                             <option value="tech" data-content="Technical">Technical</option>
                             <option value="phys" data-content="Physical">Physical</option>
                         </select>
+                        <input type="text" style="display:inline-block;width:100px;" class="form-control" id="paramselout" name="paramselout">
+                    </div>
+                    <div class="inputfield col-5 col-md-2">
+                        <label for="voltsel">Volts</label>
+                        <select class="selectpicker voltselect" name="voltsel" id="voltsel" data-width="fit">
+                            <option value="1" data-content="1">1</option>
+                            <option value="2" data-content="2">2</option>
+                            <option value="3" data-content="3">3</option>
+                            <option value="4" data-content="4">4</option>
+                            <option value="5" data-content="5" selected>5</option>
+                        </select>
                     </div>
                 </form>
+                <div class="calcbutton">
+                    <a id="calculateep" class="btn btn-primary" role="button">Calculate</a>
+                </div>
             </div>
-            <div class="sectionHeader">
-                <h4>Output</h4>
-            </div>
+            <hr>
+            <h4>Output</h4>
             <div id="scoreoutputs">
+                <fieldset class="outputfield">
+                    <legend>Poker</legend>
+                    <form class="row">
+                        <div class="col-5 col-md-3">
+                            <label>Free/Multi-Live EP:</label>
+                            <input type="text" class="form-control statfield" name="poker_ep" disabled>
+                        </div>
+                        <div class="col-5 col-md-3">
+                            <label>Bet Coins:</label>
+                            <input type="text" class="form-control statfield" name="poker_coins" disabled>
+                        </div>
+                    </form>
+                </fieldset>
+                <fieldset class="outputfield">
+                    <legend>Slots</legend>
+                    <form class="row">
+                        <div class="col-5 col-md-3">
+                            <label>Free/Multi-Live EP:</label>
+                            <input type="text" class="form-control statfield" name="slots_ep" disabled>
+                        </div>
+                        <div class="col-5 col-md-3">
+                            <label>Slot Medals:</label>
+                            <input type="text" class="form-control statfield" name="slots_medals" disabled>
+                        </div>
+                    </form>
+                </fieldset>
+                <fieldset class="outputfield">
+                    <legend>Medley</legend>
+                    <form class="row">
+                        <div class="col-5 col-md-3">
+                            <label>Free Live EP:</label>
+                            <input type="text" class="form-control statfield" name="medley_ep_free" disabled>
+                        </div>
+                        <div class="col-5 col-md-3">
+                            <label>Multi-Medley Live EP:</label>
+                            <input type="text" class="form-control statfield" name="medley_ep_multi" disabled>
+                        </div>
+                        <div class="col-5 col-md-3">
+                            <label>Tickets:</label>
+                            <input type="text" class="form-control statfield" name="medley_tickets" disabled>
+                        </div>
+                        <div class="col-5 col-md-3">
+                            <label>Task Medley EP (x100):</label>
+                            <input type="text" class="form-control statfield" name="medley_ep_task" disabled>
+                        </div>
+                    </form>
+                </fieldset>
+                <fieldset class="outputfield">
+                    <legend>Bingo</legend>
+                    <form class="row">
+                        <div class="col-5 col-md-3">
+                            <label>Free Live EP:</label>
+                            <input type="text" class="form-control statfield" name="bingo_ep_free" disabled>
+                        </div>
+                        <div class="col-5 col-md-3">
+                            <label>Battle Live (1st):</label>
+                            <input type="text" class="form-control statfield" name="bingo_ep_battle" disabled>
+                        </div>
+                        <div class="col-5 col-md-3">
+                            <label>Battle Live (4th):</label>
+                            <input type="text" class="form-control statfield" name="bingo_ep_battle_4" disabled>
+                        </div>
+                    </form>
+                </fieldset>
+                <fieldset class="outputfield">
+                    <legend>Raid</legend>
+                    <form class="row">
+                        <div class="col-5 col-md-3">
+                            <label>Free/Multi-Live EP:</label>
+                            <input type="text" class="form-control statfield" name="raid_ep" disabled>
+                        </div>
+                        <div class="col-5 col-md-3">
+                            <label>Free/Multi EP (Special):</label>
+                            <input type="text" class="form-control statfield" name="raid_ep_special" disabled>
+                        </div>
+                    </form>
+                </fieldset>
             </div>
         </div>
         <div class="tab-pane fade" id="questionSection" role="tabpabel" aria-labelledby="questionSection-tab">
@@ -755,15 +846,15 @@
                     <h4>How To:</h4>
                     <ul>
                         <li>Add cards to your team. Expand the team details to add extra training levels per card.</li>
-                        <li>Use the club, event and param sections to set additional details, if desired.</li>
-                        <li>Use the resulting team power to calculate score (requires miyubot)</li>
+                        <li>Use the club, event and param sections to set additional details.</li>
+                        <li>Using the resulting team power and team skills, calculate score using song of choice (requires Miyubot for now)</li>
                         <li>Enter the score in scoring section to see EP and other resource totals.</li>
-                        <li>Click Save Data button to save your current team (including ET), event, club, and param values</li>
-                        <li>ET levels are saved per card, so if you want to add extra training levels, you have to add the card, change the ET level, and then save data.</li>
+                        <li>Click Save Data button to save your current team (including ET), event, club, and param values.</li>
                         <li>Additional usage notes:
                             <ul>
-                                <li>If you clear the main team or the support team, you still need to save to persist between sessions.</li>
+                                <li>ET levels are saved per card, so if you want to add extra training levels, you have to add the card, change the ET level, and then save data.</li>
                                 <li>For slot events, just list the same character twice (it won't count the bonus twice). 5th slot will be added if needed later.</li>
+                                <li>Scoring input fields (except scores for now) are automatically filled out, but if you don't want to build a team, or want to test other values, you can enter your own values as overrides.</li>
                             </ul>
                         </li>
                     </ul>
@@ -794,13 +885,14 @@
                     <h4>Future features (maybe)</h4>
                     <ul>
                         <li>scoring section to include in-house calcs</li>
+                        <li>Remove event sections and instead choose by event</li>
                         <li>passive skills</li>
                         <li>better mobile formatting</li>
                         <li>(partial) Card images</li>
                         <li>multiple profiles (ability to save multiple teams)</li>
                         <li>jp card support, if desired</li>
                         <li>some way to compare cards when adding them</li>
-                        <li>hide event/medley bonuses based on event</li>
+                        <li>hide event/medley power bonus based on event</li>
                     </ul>
                 </div>
             </div>
@@ -811,7 +903,7 @@
         <div id="saveSection">
             <a id="saveData" class="btn btn-primary" role="button">Save Data</a>
             <a id="removeData" class="btn btn-primary" role="button">Remove All Saved Data</a>
-            <a id="testData" class="btn btn-primary" role="button">Test Data</a>
+            <!-- <a id="testData" class="btn btn-primary" role="button">Test Data</a> -->
         </div>
     </div>
 

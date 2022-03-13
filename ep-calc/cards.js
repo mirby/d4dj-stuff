@@ -54,6 +54,8 @@ $(document).on('changed.bs.select', 'select', function(event) {
         calcEventPower();
         calcDisplayPower();
         calcDisplayParams();
+    } else if ($(event.target).is("select.paramselect")) {
+        document.getElementById("paramselout").value = document.getElementById("paramtotal_" + $(this).val()).innerHTML;
     }
 });
 
@@ -730,8 +732,10 @@ function getClubPerc(selectId, charId) {
 }
 
 function calcEventPower() {
+    var totalPercGain = 0;
     for (let i = 1; i <= 4; i++) {
         var eventPercGain = getEventPerc(i);
+        totalPercGain += eventPercGain;
 
         var heartMod = parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) || 0;
         var techMod = parseInt(document.getElementById("m" + i + "_techmod").innerHTML) || 0;
@@ -744,6 +748,8 @@ function calcEventPower() {
 
         document.getElementById("m" + i + "_eventbonus").innerHTML = eventTotal;
     }
+    document.getElementById("teambonus").innerHTML = totalPercGain;
+    document.getElementById("teambonus").value = Math.round(totalPercGain * 100);
 }
 
 function getEventPerc(charId) {
@@ -807,6 +813,9 @@ function calcDisplayParams() {
     document.getElementById("paramtotal_techep").innerHTML = Math.round(((totalTech / 600) + Number.EPSILON) * 100) / 100;
     document.getElementById("paramtotal_phys").innerHTML = totalPhys;
     document.getElementById("paramtotal_physep").innerHTML = Math.round(((totalPhys / 600) + Number.EPSILON) * 100) / 100;
+
+    var param = document.getElementById("paramsel").value;
+    document.getElementById("paramselout").value = document.getElementById("paramtotal_" + param).innerHTML;
 }
 
 function refreshMainTeam() {
