@@ -3,6 +3,7 @@ var refreshSelect2;
 var refreshSelect3;
 var refreshEventSelect;
 var refreshParamSelect;
+var refreshParamSelect2;
 
 $(document).ready(function() {
     $.refreshSelect1 = function() {
@@ -23,6 +24,10 @@ $(document).ready(function() {
 
     $.refreshParamSelect = function() {
         $('.selectpicker.paramchar').selectpicker('refresh');
+    };
+
+    $.refreshParamSelect2 = function() {
+        $('.selectpicker.paramselect').selectpicker('refresh');
     };
 });
 
@@ -577,6 +582,7 @@ function calcDisplayPower() {
 function calcModPower() {
 
     var types = ["m","s"];
+    var skillList = "";
 
     for (let x of types) {
         for (let i = 1; i <=4; i++ ) {
@@ -653,9 +659,14 @@ function calcModPower() {
                 // Display support power
                 var suppPower = Math.floor(parseInt(heartBase + heartMod) / 4) + Math.floor(parseInt(techBase + techMod) / 4) + Math.floor(parseInt(physBase + physMod) / 4);
                 document.getElementById(x + i + "_supportpower").innerHTML = suppPower;
+            } else {
+                // Display skills on scoring section
+                skillList = skillList + document.getElementById(x + i + "_skill").innerHTML.slice(0, -1) + ",";
             }
         }
     }
+
+    document.getElementById("skillin").value = skillList.slice(0, -1);
 }
 
 // Anytime club items are changed, recalculate club power
@@ -753,7 +764,7 @@ function calcEventPower() {
 }
 
 function getEventPerc(charId) {
-
+    
     // For each char bonus, check if char matches
     var character = "bonus" + document.getElementById("m" + charId + "_char").innerText.toLowerCase();
     var charBonus = false;
@@ -807,6 +818,19 @@ function calcDisplayParams() {
         totalPhys += Math.floor(suppMod / 4);
     }
 
+    var highest = "";
+    if (totalHeart > totalTech) {
+        if (totalHeart > totalPhys) {
+            highest = "heart";
+        } else {
+            highest = "phys";
+        }
+    } else if (totalTech > totalPhys) {
+        highest = "tech";
+    } else {
+        highest = "phys";
+    }
+
     document.getElementById("paramtotal_heart").innerHTML = totalHeart;
     document.getElementById("paramtotal_heartep").innerHTML = Math.round(((totalHeart / 600) + Number.EPSILON) * 100) / 100;
     document.getElementById("paramtotal_tech").innerHTML = totalTech;
@@ -814,8 +838,9 @@ function calcDisplayParams() {
     document.getElementById("paramtotal_phys").innerHTML = totalPhys;
     document.getElementById("paramtotal_physep").innerHTML = Math.round(((totalPhys / 600) + Number.EPSILON) * 100) / 100;
 
-    var param = document.getElementById("paramsel").value;
-    document.getElementById("paramselout").value = document.getElementById("paramtotal_" + param).innerHTML;
+    document.getElementById("paramsel").value = highest;
+    document.getElementById("paramselout").value = document.getElementById("paramtotal_" + highest).innerHTML;
+    $.refreshParamSelect2();
 }
 
 function refreshMainTeam() {
@@ -914,7 +939,7 @@ var units = [
         "display":"RONDO"
     },
     {
-        "unit":"Lyrilily",
+        "unit":"LyriLily",
         "display":"Lyrical Lily"
     },
     {
@@ -922,5 +947,6 @@ var units = [
         "display":"Other"
     }
 ];
+
 var characters = ["Rinku", "Maho", "Muni", "Rei", "Kyoko", "Shinobu", "Yuka", "Esora", "Saki", "Ibuki", "Towa", 
                     "Noa", "Rika", "Marika", "Saori", "Dalia", "Tsubaki", "Nagisa", "Hiiro", "Aoi", "Miyu", "Haruna", "Kurumi", "Miiko", "Michiru"];

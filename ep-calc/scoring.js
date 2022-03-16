@@ -12,9 +12,6 @@ function calculateEp() {
     var param = Math.floor(parseInt(document.getElementById("paramselout").value) / 600);
     var volts = parseInt(document.getElementById("voltsel").value);
 
-    console.log("bonus: " + bonus);
-    console.log("param: " + param);
-
     var roomscore = parseInt(document.getElementById("roomscorein").value);
     if (isNaN(roomscore) || roomscore == 0) {
         roomscore = score * 4;
@@ -62,4 +59,14 @@ function calculateEp() {
 
     var result = volts * (300 + Math.floor(score / 6000));
     document.querySelector('input[name="raid_ep_special"]').value = result || 0;
+
+    var fieldsets = document.getElementsByClassName("outputfield");
+    var currentType = document.getElementById("eventtype").value;
+     for (let x of fieldsets) {
+         x.classList.remove("fieldsetactive");
+         var type = "event-" + x.childNodes[0].nextSibling.innerHTML.toLowerCase();
+        if (type === currentType) {
+            x.classList.add("fieldsetactive");
+        }
+    }
 }

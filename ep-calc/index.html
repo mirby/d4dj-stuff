@@ -71,16 +71,16 @@
     <div id="tab-headers" class="container">
         <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="cardSection-tab" data-bs-toggle="tab" data-bs-target="#cardSection" type="button" role="tab" aria-controls="cardSection" aria-selected="true">Add Cards To Team</button>
-            </li>
-            <li class="nav-item" role="presentation">
-            <button class="nav-link" id="clubSection-tab" data-bs-toggle="tab" data-bs-target="#clubSection" type="button" role="tab" aria-controls="clubSection" aria-selected="false">Club / Event</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="paramSection-tab" data-bs-toggle="tab" data-bs-target="#paramSection" type="button" role="tab" aria-controls="paramSection" aria-selected="false">Param Upgrade</button>
+                <button class="nav-link active" id="cardSection-tab" data-bs-toggle="tab" data-bs-target="#cardSection" type="button" role="tab" aria-controls="cardSection" aria-selected="true">Add Cards To Team</button>
             </li>
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="scoreSection-tab" data-bs-toggle="tab" data-bs-target="#scoreSection" type="button" role="tab" aria-controls="scoreSection" aria-selected="false">Scoring</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="clubSection-tab" data-bs-toggle="tab" data-bs-target="#clubSection" type="button" role="tab" aria-controls="clubSection" aria-selected="false">Club / Event</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="paramSection-tab" data-bs-toggle="tab" data-bs-target="#paramSection" type="button" role="tab" aria-controls="paramSection" aria-selected="false">Param Upgrade</button>
             </li>
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="questionSection-tab" data-bs-toggle="tab" data-bs-target="#questionSection" type="button" role="tab" aria-controls="questionSection" aria-selected="false">How-To & Extras</button>
@@ -714,7 +714,7 @@
                 <h4>Inputs</h4>
             </div>
             <div id="scoreinputs">
-                <form class="row">
+                <form class="row needs-validation">
                     <div class="inputfield col-5 col-md-4" style="width:250px;">
                         <label for="scorein">Score</label>
                         <input type="text" style="display:inline-block;width:100px;" class="form-control" id="scorein" placeholder="1000000" value="1000000">
@@ -727,6 +727,15 @@
                             </span>
                         </span>
                         <input type="text" style="display:inline-block;width:100px;" class="form-control" id="roomscorein" placeholder="4000000">
+                    </div>
+                    <div class="inputfield col-5 col-md-4">
+                        <span class="skilltip">
+                            <label for="skillin">Skills</label>
+                            <span class="skillintip">
+                                Highest skill always assumed to be activated for encore.
+                            </span>
+                        </span>
+                        <input type="text" style="display:inline-block;width:120px;" class="form-control" id="skillin" placeholder="50,50,50,50">
                     </div>
                     <div class="w-100"></div>
                     <div class="inputfield col-5 col-md-4 input-group" style="width:250px;">
@@ -848,7 +857,7 @@
                         <li>Add cards to your team. Expand the team details to add extra training levels per card.</li>
                         <li>Use the club, event and param sections to set additional details.</li>
                         <li>Using the resulting team power and team skills, calculate score using song of choice (requires Miyubot for now)</li>
-                        <li>Enter the score in scoring section to see EP and other resource totals.</li>
+                        <li>Enter the score in scoring section to see EP and other results.</li>
                         <li>Click Save Data button to save your current team (including ET), event, club, and param values.</li>
                         <li>Additional usage notes:
                             <ul>

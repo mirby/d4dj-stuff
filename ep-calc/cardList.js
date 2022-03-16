@@ -3346,6 +3346,66 @@ var cards = {
             "technical": 11700,
             "physical": 12091,
             "skill": 0.55
+        },
+        "279": {
+            "id": 279,
+            "character": "Miiko",
+            "cardname": "Birthday -Garden-",
+            "unit": "LyriLily",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 12191,
+            "technical": 11899,
+            "physical": 12862,
+            "skill": 0.55
+        },
+        "280": {
+            "id": 280,
+            "character": "Miiko",
+            "cardname": "Within A Vial Full of Happiness",
+            "unit": "LyriLily",
+            "type": "Street",
+            "rarity": 3,
+            "heart": 12123,
+            "technical": 11200,
+            "physical": 8919,
+            "skill": 0.25
+        },
+        "281": {
+            "id": 281,
+            "character": "Miyu",
+            "cardname": "Proof Of Love On The Chest",
+            "unit": "LyriLily",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 15868,
+            "technical": 6780,
+            "physical": 13059,
+            "skill": 0.5
+        },
+        "282": {
+            "id": 282,
+            "character": "Haruna",
+            "cardname": "The Thoughts Behind Marguerite",
+            "unit": "LyriLily",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 15982,
+            "technical": 12342,
+            "physical": 7516,
+            "skill": 0.5
+        },
+        "283": {
+            "id": 283,
+            "character": "Kurumi",
+            "cardname": "With A Naughty Smile",
+            "unit": "LyriLily",
+            "type": "Street",
+            "rarity": 3,
+            "heart": 12194,
+            "technical": 8450,
+            "physical": 10583,
+            "skill": 0.25
         }
     }
 
