@@ -714,7 +714,7 @@
                 <h4>Inputs</h4>
             </div>
             <div id="scoreinputs">
-                <form class="row needs-validation">
+                <form class="row">
                     <div class="inputfield col-5 col-md-4" style="width:250px;">
                         <label for="scorein">Score</label>
                         <input type="text" style="display:inline-block;width:100px;" class="form-control" id="scorein" placeholder="1000000" value="1000000">
@@ -858,12 +858,27 @@
                         <li>Use the club, event and param sections to set additional details.</li>
                         <li>Using the resulting team power and team skills, calculate score using song of choice (requires Miyubot for now)</li>
                         <li>Enter the score in scoring section to see EP and other results.</li>
-                        <li>Click Save Data button to save your current team (including ET), event, club, and param values.</li>
+                        <li>Click Save Profile button to save your current team (including ET), event, club, and param values.</li>
                         <li>Additional usage notes:
                             <ul>
-                                <li>ET levels are saved per card, so if you want to add extra training levels, you have to add the card, change the ET level, and then save data.</li>
                                 <li>For slot events, just list the same character twice (it won't count the bonus twice). 5th slot will be added if needed later.</li>
                                 <li>Scoring input fields (except scores for now) are automatically filled out, but if you don't want to build a team, or want to test other values, you can enter your own values as overrides.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sectionHeader">
+                    <h4>How does saving work?</h4>
+                    <ul>
+                        <li>Changing the profile from the selector allows you to save/load between different profiles.</li>
+                        <li>Team, Club, and Event sections are saved per profile. Extra training levels per card, and parameters are universal.</li>
+                        <li>If you want to add extra training levels, you have to add the card, change the ET level, and then save data.</li>
+                        <li>Clicking on the Remove All Saved Data string will clear all the JSON data.</li>
+                        <li>What is being saved?
+                            <ul>
+                                <li>This site uses localstorage (see docs <a href="https://www.w3schools.com/jsref/prop_win_localstorage.asp">here</a> for more details)</li>
+                                <li>Data is stored as a small JSON string to make it easier to resume your session if you close the browser window.</li>
+                                <li>If you open the browser devtools (F12 on Chrome), you can see the exact strings being saved when clicking the save button in the console tab.</li>
                             </ul>
                         </li>
                     </ul>
@@ -875,15 +890,7 @@
                         <li>Special thanks to qwewqa for design ideas and Miyubot <a href="https://miyu-docs.qwewqa.xyz/">https://miyu-docs.qwewqa.xyz/</a></li>
                     </ul>
                 </div>
-                <div class="sectionHeader">
-                    <h4>What is being saved?</h4>
-                    <ul>
-                        <li>This site uses localstorage (see docs <a href="https://www.w3schools.com/jsref/prop_win_localstorage.asp">here</a> for more details)</li>
-                        <li>Data is stored as a small JSON string to make it easier to resume your session if you close the browser window.</li>
-                        <li>Clicking on the Remove All Saved Data string will clear all the JSON data.</li>
-                        <li>If you open the browser devtools (F12 on Chrome), you can see the exact strings being saved when clicking the save button in the console tab.</li>
-                    </ul>
-                </div>
+
                 <!-- <div class="sectionHeader">
                     <h4>Known Issues:</h4>
                     <ul>
@@ -894,11 +901,10 @@
                     <h4>Future features (maybe)</h4>
                     <ul>
                         <li>scoring section to include in-house calcs</li>
-                        <li>Remove event sections and instead choose by event</li>
+                        <li>Remove event section and instead choose by event</li>
                         <li>passive skills</li>
                         <li>better mobile formatting</li>
                         <li>(partial) Card images</li>
-                        <li>multiple profiles (ability to save multiple teams)</li>
                         <li>jp card support, if desired</li>
                         <li>some way to compare cards when adding them</li>
                         <li>hide event/medley power bonus based on event</li>
@@ -910,10 +916,20 @@
     <div class="container">
         <hr>
         <div id="saveSection">
-            <a id="saveData" class="btn btn-primary" role="button">Save Data</a>
-            <a id="removeData" class="btn btn-primary" role="button">Remove All Saved Data</a>
-            <!-- <a id="testData" class="btn btn-primary" role="button">Test Data</a> -->
+            <select class="selectpicker profileselect" name="profsel" id="profsel" data-width="fit">
+                <option value="1" data-content="Profile 1" selected>Profile 1</option>
+                <option value="2" data-content="Profile 2">Profile 2</option>
+                <option value="3" data-content="Profile 3">Profile 3</option>
+                <option value="4" data-content="Profile 4">Profile 4</option>
+                <option value="5" data-content="Profile 5">Profile 5</option>
+            </select>
+            <a id="saveData" class="btn btn-primary" role="button">Save Profile</a>
+            <a id="loadData" class="btn btn-primary" role="button">Load Profile</a>
+            <a id="removeData" class="btn btn-primary pull-right" role="button">Remove All Saved Data</a>
         </div>
+        <!-- <div>
+            <a id="printStuff" class="btn btn-primary" role="button">Print Profile</a>
+        </div> -->
     </div>
 
     <script>

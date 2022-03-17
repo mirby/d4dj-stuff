@@ -2,6 +2,7 @@ jQuery(function($) {
     $('#calculateep').on('click', function() {
         // TODO add validations for all the input fields
         calculateEp();
+        applyFormatting();
     });
 });
 
@@ -38,7 +39,7 @@ function calculateEp() {
 
     result = volts * (15 + Math.floor(score / 50000));
     var result2 = volts * (20 + Math.floor(score / 50000));
-    document.querySelector('input[name="medley_tickets"]').value = result + "-" + result2 || 0;
+    document.querySelector('input[name="medley_tickets"]').value = (result || "-") + "-" + (result2 || "-");
 
     result = Math.floor(bonus * (100 + Math.floor(score / 1000) + param));
     document.querySelector('input[name="medley_ep_task"]').value = result || 0;
@@ -59,7 +60,12 @@ function calculateEp() {
 
     var result = volts * (300 + Math.floor(score / 6000));
     document.querySelector('input[name="raid_ep_special"]').value = result || 0;
+}
 
+/*
+    Apply a border to the current event type
+*/
+function applyFormatting() {
     var fieldsets = document.getElementsByClassName("outputfield");
     var currentType = document.getElementById("eventtype").value;
      for (let x of fieldsets) {

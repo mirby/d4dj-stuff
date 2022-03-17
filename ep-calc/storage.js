@@ -22,35 +22,39 @@ jQuery(function($) {
             });
         }
 
-        // Initialize team
-        var obj = JSON.parse(storage.getItem("team"));
+        var profile = document.getElementById("profsel").value;
+        var obj = storage.getItem(profile);
         if (obj) {
-            obj.forEach(function(x) {
-                for (var key in x) {
-                    populateTeam(key, x[key]);
-                }
-            });
-        }
-
-        // Initialize event
-        var obj = JSON.parse(storage.getItem("event"));
-        if (obj) {
-            obj.forEach(function(x) {
-                for (var key in x) {
-                    $("select[name=" + key + "]").val(x[key]);
-                }
-            });
-        }
-        displayCharSelect($('#eventtype').val());
-
-        // Initialize club
-        var obj = JSON.parse(storage.getItem("club"));
-        if (obj) {
-            obj.forEach(function(x) {
-                for (var key in x) {
-                    $("select[name=" + key + "]").val(x[key]);
-                }
-            });
+    
+            var jsonObj = JSON.parse(obj);
+    
+            // Initialize team
+            if (jsonObj["team"]) {
+                jsonObj["team"].forEach(function(x) {
+                    for (var key in x) {
+                        populateTeam(key, x[key]);
+                    }
+                });
+            }
+    
+            // Initialize event
+            if (jsonObj["event"]) {
+                jsonObj["event"].forEach(function(x) {
+                    for (var key in x) {
+                        $("select[name=" + key + "]").val(x[key]);
+                    }
+                });
+            }
+            displayCharSelect($('#eventtype').val());
+    
+            // Initialize club
+            if (jsonObj["club"]) {
+                jsonObj["club"].forEach(function(x) {
+                    for (var key in x) {
+                        $("select[name=" + key + "]").val(x[key]);
+                    }
+                });
+            }
         }
 
         $('.selectpicker').selectpicker('refresh');
@@ -70,13 +74,20 @@ jQuery(function($) {
         removeData();
     });
 
-    $('#testData').on('click', function() {
-        testData();
+    $('#loadData').on('click', function() {
+        loadData();
+    });
+
+    $('#printStuff').on('click', function() {
+        printStuff();
     });
 });
 
 function saveData() {
     var storage = window.localStorage;
+
+    // Currently selected profile
+    var profile = document.getElementById("profsel").value;
 
     // Club items
     var clubItemsSave = [];
@@ -92,8 +103,6 @@ function saveData() {
     clubItemsSave.push({"club-accessory":document.getElementById("club-accessory").value});
     clubItemsSave.push({"club-decoration":document.getElementById("club-decoration").value});
 
-    storage.setItem("club",JSON.stringify(clubItemsSave));
-
     // Event info
     var eventSave = [];
     eventSave.push({"eventbonus1":document.getElementById("eventbonus1").value});
@@ -103,8 +112,6 @@ function saveData() {
     eventSave.push({"eventbonus":document.getElementById("eventbonus").value});
     eventSave.push({"eventstyle":document.getElementById("eventstyle").value});
     eventSave.push({"eventtype":document.getElementById("eventtype").value});
-
-    storage.setItem("event",JSON.stringify(eventSave));
 
     // Team info
     var teamSave = [];
@@ -117,7 +124,13 @@ function saveData() {
     teamSave.push({"s3":document.getElementById("s3_id").innerText});
     teamSave.push({"s4":document.getElementById("s4_id").innerText});
 
-    storage.setItem("team",JSON.stringify(teamSave));
+    var merges = {
+        ...{"club":clubItemsSave},
+        ...{"event":eventSave},
+        ...{"team":teamSave}
+    }
+
+    storage.setItem(profile, JSON.stringify(merges));
 
     // Extra training info
     for (var i = 1; i<= 4; i++) {
@@ -136,17 +149,15 @@ function saveData() {
     }
     storage.setItem("param",JSON.stringify(paramSave));
 
-    console.log("SAVED" + JSON.stringify(clubItemsSave));
-    console.log("SAVED" + JSON.stringify(eventSave));
-    console.log("SAVED" + JSON.stringify(teamSave));
-    console.log("SAVED" + JSON.stringify(paramSave));
-    console.log("SAVED" + JSON.stringify([...localEt]));
+    console.log("Profile: " + profile + ":\n" + JSON.stringify(merges));
+    console.log("Parameters: " + JSON.stringify(paramSave));
+    console.log("Extra training: " + JSON.stringify([...localEt]));
 
     // After saving, recreate the card list
     generateCardArray();
     generateFilters(cardArray);
 
-    alert("Saved!");
+    alert("Saved profile " + profile + "!");
 }
 
 function removeData() {
@@ -168,6 +179,61 @@ function removeData() {
     }
 }
 
-function testData() {
+function loadData() {
+    var storage = window.localStorage;
 
+    var profile = document.getElementById("profsel").value;
+    var obj = storage.getItem(profile);
+    if (obj) {
+
+        var jsonObj = JSON.parse(obj);
+
+        // Initialize team
+        if (jsonObj["team"]) {
+            jsonObj["team"].forEach(function(x) {
+                for (var key in x) {
+                    populateTeam(key, x[key]);
+                }
+            });
+        }
+
+        // Initialize event
+        if (jsonObj["event"]) {
+            jsonObj["event"].forEach(function(x) {
+                for (var key in x) {
+                    $("select[name=" + key + "]").val(x[key]);
+                }
+            });
+        }
+        displayCharSelect($('#eventtype').val());
+
+        // Initialize club
+        if (jsonObj["club"]) {
+            jsonObj["club"].forEach(function(x) {
+                for (var key in x) {
+                    $("select[name=" + key + "]").val(x[key]);
+                }
+            });
+        }
+
+        $('.selectpicker').selectpicker('refresh');
+    } else {
+        // if doesnt exist, refresh the page items
+        console.log("Profile " + profile + " does not exist.");
+        refreshClubSelects();
+        refreshEventSelects();
+        refreshMainTeam();
+        refreshSupportTeam();
+    }
+
+    calcModPower();
+    calcClubPower();
+    calcEventPower();
+    calcDisplayPower();
+    calcDisplayParams();
+}
+
+function printStuff() {
+    var storage = window.localStorage;
+    console.log(storage);
 }
