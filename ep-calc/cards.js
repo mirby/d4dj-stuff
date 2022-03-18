@@ -675,15 +675,18 @@ function calcClubPower() {
     for (let i = 1; i <= 4; i++) {
         var clubPercGain = 0;
         for (let type1 of clubTypes1) {
-            clubPercGain += getClubPerc(type1, i);    
+            clubPercGain += getClubPerc(type1, i);
+            clubPercGain = Math.round((clubPercGain + Number.EPSILON) * 100) / 100
         }
     
         for (let type2 of clubTypes2) {
-            clubPercGain += getClubPerc(type2, i);    
+            clubPercGain += getClubPerc(type2, i);
+            clubPercGain = Math.round((clubPercGain + Number.EPSILON) * 100) / 100
         }
     
         for (let type3 of clubTypes3) {
             clubPercGain += getClubPerc(type3, i);
+            clubPercGain = Math.round((clubPercGain + Number.EPSILON) * 100) / 100
         }
 
         var heart = parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) || 0;
