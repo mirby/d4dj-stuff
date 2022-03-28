@@ -9,7 +9,9 @@ var cards = {
             "heart": 12774,
             "technical": 15500,
             "physical": 7271,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040120007_1.8d030945",
+            "passive": ""
         },
         "1": {
             "id": 1,
@@ -21,7 +23,9 @@ var cards = {
             "heart": 11343,
             "technical": 17225,
             "physical": 6963,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040140007_1.c3a1112d",
+            "passive": ""
         },
         "2": {
             "id": 2,
@@ -33,7 +37,9 @@ var cards = {
             "heart": 6929,
             "technical": 11919,
             "physical": 17384,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_070540001_1.b132d775",
+            "passive": ""
         },
         "3": {
             "id": 3,
@@ -45,7 +51,9 @@ var cards = {
             "heart": 11303,
             "technical": 10815,
             "physical": 12190,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040540002_1.d371c8df",
+            "passive": ""
         },
         "4": {
             "id": 4,
@@ -57,7 +65,9 @@ var cards = {
             "heart": 12084,
             "technical": 11228,
             "physical": 11635,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040540005_1.029d3d49",
+            "passive": ""
         },
         "5": {
             "id": 5,
@@ -69,7 +79,9 @@ var cards = {
             "heart": 10896,
             "technical": 11709,
             "physical": 11057,
-            "skill": 0.3
+            "skill": 0.3,
+            "icon": "card_icon_040540001_1.06c00f67",
+            "passive": ""
         },
         "6": {
             "id": 6,
@@ -81,7 +93,9 @@ var cards = {
             "heart": 15989,
             "technical": 12517,
             "physical": 7098,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040540004_1.4541f031",
+            "passive": ""
         },
         "7": {
             "id": 7,
@@ -93,7 +107,9 @@ var cards = {
             "heart": 9531,
             "technical": 9037,
             "physical": 9223,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030540002_1.9a118f47",
+            "passive": ""
         },
         "8": {
             "id": 8,
@@ -105,7 +121,9 @@ var cards = {
             "heart": 12309,
             "technical": 15350,
             "physical": 6906,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040540007_1.6b10b677",
+            "passive": ""
         },
         "9": {
             "id": 9,
@@ -117,7 +135,9 @@ var cards = {
             "heart": 12050,
             "technical": 10949,
             "physical": 11252,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040540003_1.063c9698",
+            "passive": ""
         },
         "10": {
             "id": 10,
@@ -129,7 +149,9 @@ var cards = {
             "heart": 10457,
             "technical": 7469,
             "physical": 9884,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030540004_1.c8f31bae",
+            "passive": ""
         },
         "11": {
             "id": 11,
@@ -141,19 +163,23 @@ var cards = {
             "heart": 8866,
             "technical": 10178,
             "physical": 9026,
-            "skill": 0.2
+            "skill": 0.2,
+            "icon": "card_icon_030540001_1.d197cef4",
+            "passive": ""
         },
         "12": {
             "id": 12,
             "character": "Aoi",
-            "cardname": "Waterslider Sage",
+            "cardname": "Waterslide Sage",
             "unit": "Rondo",
             "type": "Cute",
             "rarity": 3,
             "heart": 9528,
             "technical": 10744,
             "physical": 7036,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030540003_1.06d1b33e",
+            "passive": ""
         },
         "13": {
             "id": 13,
@@ -165,7 +191,9 @@ var cards = {
             "heart": 12642,
             "technical": 7098,
             "physical": 17072,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_070440001_1.e3b0c442",
+            "passive": ""
         },
         "14": {
             "id": 14,
@@ -177,7 +205,9 @@ var cards = {
             "heart": 9180,
             "technical": 8567,
             "physical": 9557,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030440002_1.a3527694",
+            "passive": ""
         },
         "15": {
             "id": 15,
@@ -189,7 +219,9 @@ var cards = {
             "heart": 11854,
             "technical": 10865,
             "physical": 12030,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040440004_1.63675ab3",
+            "passive": ""
         },
         "16": {
             "id": 16,
@@ -201,7 +233,9 @@ var cards = {
             "heart": 10809,
             "technical": 11258,
             "physical": 11320,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040440002_1.e2c0fb3d",
+            "passive": ""
         },
         "17": {
             "id": 17,
@@ -213,7 +247,9 @@ var cards = {
             "heart": 7675,
             "technical": 10332,
             "physical": 9684,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030440004_1.a3eaa969",
+            "passive": ""
         },
         "18": {
             "id": 18,
@@ -225,7 +261,9 @@ var cards = {
             "heart": 16339,
             "technical": 6694,
             "physical": 11505,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040440005_1.28ba9ec9",
+            "passive": ""
         },
         "19": {
             "id": 19,
@@ -237,7 +275,9 @@ var cards = {
             "heart": 11703,
             "technical": 11602,
             "physical": 11477,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040440003_1.c80d36ba",
+            "passive": ""
         },
         "20": {
             "id": 20,
@@ -249,7 +289,9 @@ var cards = {
             "heart": 8142,
             "technical": 9301,
             "physical": 10185,
-            "skill": 0.2
+            "skill": 0.2,
+            "icon": "card_icon_030440001_1.fb20b0a0",
+            "passive": ""
         },
         "21": {
             "id": 21,
@@ -261,7 +303,9 @@ var cards = {
             "heart": 12386,
             "technical": 16597,
             "physical": 7302,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040440008_1.7c14ea47",
+            "passive": ""
         },
         "22": {
             "id": 22,
@@ -273,7 +317,9 @@ var cards = {
             "heart": 10821,
             "technical": 10524,
             "physical": 12366,
-            "skill": 0.3
+            "skill": 0.3,
+            "icon": "card_icon_040440001_1.eda318a2",
+            "passive": ""
         },
         "23": {
             "id": 23,
@@ -285,7 +331,9 @@ var cards = {
             "heart": 6698,
             "technical": 12428,
             "physical": 16863,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040440007_1.006e8a36",
+            "passive": ""
         },
         "24": {
             "id": 24,
@@ -297,7 +345,9 @@ var cards = {
             "heart": 9683,
             "technical": 7577,
             "physical": 10481,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030440003_1.d9fca52a",
+            "passive": ""
         },
         "25": {
             "id": 25,
@@ -309,7 +359,9 @@ var cards = {
             "heart": 6588,
             "technical": 15987,
             "physical": 13436,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_070240001_1.e0ce0ada",
+            "passive": ""
         },
         "26": {
             "id": 26,
@@ -321,7 +373,9 @@ var cards = {
             "heart": 11825,
             "technical": 10519,
             "physical": 11121,
-            "skill": 0.3
+            "skill": 0.3,
+            "icon": "card_icon_040240001_1.447643f7",
+            "passive": ""
         },
         "27": {
             "id": 27,
@@ -333,7 +387,9 @@ var cards = {
             "heart": 11969,
             "technical": 11033,
             "physical": 11501,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040240005_1.cca6cc4d",
+            "passive": ""
         },
         "28": {
             "id": 28,
@@ -345,7 +401,9 @@ var cards = {
             "heart": 15906,
             "technical": 11927,
             "physical": 6809,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040240004_1.0882433d",
+            "passive": ""
         },
         "29": {
             "id": 29,
@@ -357,7 +415,9 @@ var cards = {
             "heart": 9266,
             "technical": 8802,
             "physical": 9259,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030240002_1.38bfbb42",
+            "passive": ""
         },
         "30": {
             "id": 30,
@@ -369,7 +429,9 @@ var cards = {
             "heart": 16929,
             "technical": 6979,
             "physical": 12473,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040240008_1.d2836c5f",
+            "passive": ""
         },
         "31": {
             "id": 31,
@@ -381,7 +443,9 @@ var cards = {
             "heart": 12148,
             "technical": 11083,
             "physical": 12038,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040240002_1.45003c07",
+            "passive": ""
         },
         "32": {
             "id": 32,
@@ -393,7 +457,9 @@ var cards = {
             "heart": 11941,
             "technical": 16126,
             "physical": 6618,
-            "skill": 0.55
+            "skill": 0.55,
+            "icon": "card_icon_040240003_1.648c5bba",
+            "passive": ""
         },
         "33": {
             "id": 33,
@@ -405,7 +471,9 @@ var cards = {
             "heart": 9860,
             "technical": 8692,
             "physical": 8588,
-            "skill": 0.2
+            "skill": 0.2,
+            "icon": "card_icon_030240001_1.cf4d132b",
+            "passive": ""
         },
         "34": {
             "id": 34,
@@ -417,7 +485,9 @@ var cards = {
             "heart": 11487,
             "technical": 6847,
             "physical": 16989,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040240006_1.c81f34fe",
+            "passive": ""
         },
         "35": {
             "id": 35,
@@ -429,7 +499,9 @@ var cards = {
             "heart": 7048,
             "technical": 13025,
             "physical": 15762,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_070620001_1.2f352307",
+            "passive": ""
         },
         "36": {
             "id": 36,
@@ -441,7 +513,9 @@ var cards = {
             "heart": 8860,
             "technical": 9593,
             "physical": 9616,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030620003_1.f8942665",
+            "passive": ""
         },
         "37": {
             "id": 37,
@@ -453,7 +527,9 @@ var cards = {
             "heart": 11518,
             "technical": 11899,
             "physical": 11313,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040620005_1.e83c7bcd",
+            "passive": ""
         },
         "38": {
             "id": 38,
@@ -465,7 +541,9 @@ var cards = {
             "heart": 9412,
             "technical": 10092,
             "physical": 8473,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030620002_1.5cb746b8",
+            "passive": ""
         },
         "39": {
             "id": 39,
@@ -477,7 +555,9 @@ var cards = {
             "heart": 8827,
             "technical": 9982,
             "physical": 9657,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030620004_1.b261cd53",
+            "passive": ""
         },
         "40": {
             "id": 40,
@@ -489,7 +569,9 @@ var cards = {
             "heart": 9985,
             "technical": 9087,
             "physical": 9656,
-            "skill": 0.2
+            "skill": 0.2,
+            "icon": "card_icon_030620001_1.393d6196",
+            "passive": ""
         },
         "41": {
             "id": 41,
@@ -501,7 +583,9 @@ var cards = {
             "heart": 11290,
             "technical": 10804,
             "physical": 12183,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040620003_1.006f8f07",
+            "passive": ""
         },
         "42": {
             "id": 42,
@@ -513,7 +597,9 @@ var cards = {
             "heart": 16058,
             "technical": 11384,
             "physical": 6707,
-            "skill": 0.6
+            "skill": 0.6,
+            "icon": "card_icon_040620006_1.b860e15b",
+            "passive": ""
         },
         "43": {
             "id": 43,
@@ -525,7 +611,9 @@ var cards = {
             "heart": 11296,
             "technical": 11714,
             "physical": 11487,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040620002_1.b7d173c7",
+            "passive": ""
         },
         "44": {
             "id": 44,
@@ -537,7 +625,9 @@ var cards = {
             "heart": 17287,
             "technical": 6721,
             "physical": 12484,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040620008_1.e266488b",
+            "passive": ""
         },
         "45": {
             "id": 45,
@@ -549,7 +639,9 @@ var cards = {
             "heart": 11885,
             "technical": 11505,
             "physical": 11610,
-            "skill": 0.6
+            "skill": 0.6,
+            "icon": "card_icon_040620004_1.133fb1c6",
+            "passive": ""
         },
         "46": {
             "id": 46,
@@ -561,7 +653,9 @@ var cards = {
             "heart": 11674,
             "technical": 11591,
             "physical": 10312,
-            "skill": 0.3
+            "skill": 0.3,
+            "icon": "card_icon_040620001_1.0be6b7e5",
+            "passive": ""
         },
         "47": {
             "id": 47,
@@ -573,7 +667,9 @@ var cards = {
             "heart": 12179,
             "technical": 6710,
             "physical": 17810,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_070530001_1.8a5132b3",
+            "passive": ""
         },
         "48": {
             "id": 48,
@@ -585,19 +681,23 @@ var cards = {
             "heart": 11962,
             "technical": 11345,
             "physical": 10678,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040530003_1.ac0c280b",
+            "passive": ""
         },
         "49": {
             "id": 49,
             "character": "Hiiro",
-            "cardname": "Birthday",
+            "cardname": "Birthday -Museum-",
             "unit": "Rondo",
-            "type": "Cute",
+            "type": "Street",
             "rarity": 4,
-            "heart": 11962,
-            "technical": 11345,
-            "physical": 10678,
-            "skill": 0.5
+            "heart": 12323,
+            "technical": 12074,
+            "physical": 12513,
+            "skill": 0.5,
+            "icon": "card_icon_040530009_1.ea4f065d",
+            "passive": ""
         },
         "50": {
             "id": 50,
@@ -609,7 +709,9 @@ var cards = {
             "heart": 11155,
             "technical": 12115,
             "physical": 11730,
-            "skill": 0.6
+            "skill": 0.6,
+            "icon": "card_icon_040530004_1.b198abdf",
+            "passive": ""
         },
         "51": {
             "id": 51,
@@ -621,7 +723,9 @@ var cards = {
             "heart": 8825,
             "technical": 9363,
             "physical": 9441,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030530002_1.82c28585",
+            "passive": ""
         },
         "52": {
             "id": 52,
@@ -633,7 +737,9 @@ var cards = {
             "heart": 10181,
             "technical": 10036,
             "physical": 8163,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030530004_1.0a054660",
+            "passive": ""
         },
         "53": {
             "id": 53,
@@ -645,7 +751,9 @@ var cards = {
             "heart": 6236,
             "technical": 15363,
             "physical": 12257,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040530007_1.b53d79bd",
+            "passive": ""
         },
         "54": {
             "id": 54,
@@ -657,7 +765,9 @@ var cards = {
             "heart": 15144,
             "technical": 12753,
             "physical": 6880,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040530005_1.c2fa2fda",
+            "passive": ""
         },
         "55": {
             "id": 55,
@@ -669,7 +779,9 @@ var cards = {
             "heart": 12595,
             "technical": 10772,
             "physical": 10863,
-            "skill": 0.3
+            "skill": 0.3,
+            "icon": "card_icon_040530001_1.5ae17ca8",
+            "passive": ""
         },
         "56": {
             "id": 56,
@@ -681,7 +793,9 @@ var cards = {
             "heart": 11256,
             "technical": 11672,
             "physical": 10342,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040530002_1.8dd20972",
+            "passive": ""
         },
         "57": {
             "id": 57,
@@ -693,7 +807,9 @@ var cards = {
             "heart": 10410,
             "technical": 9325,
             "physical": 8617,
-            "skill": 0.2
+            "skill": 0.2,
+            "icon": "card_icon_030530001_1.6b046733",
+            "passive": ""
         },
         "58": {
             "id": 58,
@@ -705,7 +821,9 @@ var cards = {
             "heart": 10399,
             "technical": 7789,
             "physical": 9738,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030530003_1.6cac30e0",
+            "passive": ""
         },
         "59": {
             "id": 59,
@@ -717,7 +835,9 @@ var cards = {
             "heart": 13264,
             "technical": 15189,
             "physical": 7207,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_070320001_1.39516c70",
+            "passive": ""
         },
         "60": {
             "id": 60,
@@ -729,7 +849,9 @@ var cards = {
             "heart": 11217,
             "technical": 11010,
             "physical": 12552,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040320003_1.fec50f1f",
+            "passive": ""
         },
         "61": {
             "id": 61,
@@ -741,7 +863,9 @@ var cards = {
             "heart": 8878,
             "technical": 8102,
             "physical": 10531,
-            "skill": 0.2
+            "skill": 0.2,
+            "icon": "card_icon_030320001_1.0dde238a",
+            "passive": ""
         },
         "62": {
             "id": 62,
@@ -753,7 +877,9 @@ var cards = {
             "heart": 15613,
             "technical": 7088,
             "physical": 11730,
-            "skill": 0.55
+            "skill": 0.55,
+            "icon": "card_icon_040320005_1.eece351f",
+            "passive": ""
         },
         "63": {
             "id": 63,
@@ -765,7 +891,9 @@ var cards = {
             "heart": 7207,
             "technical": 16380,
             "physical": 12772,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040320007_1.e32a767f",
+            "passive": ""
         },
         "64": {
             "id": 64,
@@ -777,7 +905,9 @@ var cards = {
             "heart": 10349,
             "technical": 7390,
             "physical": 9770,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030320004_1.5122f14d",
+            "passive": ""
         },
         "65": {
             "id": 65,
@@ -789,7 +919,9 @@ var cards = {
             "heart": 9231,
             "technical": 8541,
             "physical": 10575,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030320002_1.bdca0250",
+            "passive": ""
         },
         "66": {
             "id": 66,
@@ -801,7 +933,9 @@ var cards = {
             "heart": 6875,
             "technical": 12456,
             "physical": 16043,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040320004_1.fcba9390",
+            "passive": ""
         },
         "67": {
             "id": 67,
@@ -813,7 +947,9 @@ var cards = {
             "heart": 11155,
             "technical": 11046,
             "physical": 12343,
-            "skill": 0.3
+            "skill": 0.3,
+            "icon": "card_icon_040320001_1.bb60993c",
+            "passive": ""
         },
         "68": {
             "id": 68,
@@ -825,7 +961,9 @@ var cards = {
             "heart": 9395,
             "technical": 9769,
             "physical": 8595,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030320003_1.beddc211",
+            "passive": ""
         },
         "69": {
             "id": 69,
@@ -837,19 +975,23 @@ var cards = {
             "heart": 17473,
             "technical": 7259,
             "physical": 11714,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_070630001_1.adb04df8",
+            "passive": ""
         },
         "70": {
             "id": 70,
             "character": "Kurumi",
-            "cardname": "Birthday Garden",
+            "cardname": "Birthday -Garden-",
             "unit": "LyriLily",
             "type": "Street",
             "rarity": 4,
             "heart": 12309,
             "technical": 12415,
             "physical": 12072,
-            "skill": 0.55
+            "skill": 0.55,
+            "icon": "card_icon_040630007_1.b52726e9",
+            "passive": ""
         },
         "71": {
             "id": 71,
@@ -861,7 +1003,9 @@ var cards = {
             "heart": 10444,
             "technical": 12387,
             "physical": 11213,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040630002_1.4925d135",
+            "passive": ""
         },
         "72": {
             "id": 72,
@@ -873,7 +1017,9 @@ var cards = {
             "heart": 10924,
             "technical": 9956,
             "physical": 12567,
-            "skill": 0.3
+            "skill": 0.3,
+            "icon": "card_icon_040630001_1.29bf8aa1",
+            "passive": ""
         },
         "73": {
             "id": 73,
@@ -885,7 +1031,9 @@ var cards = {
             "heart": 8490,
             "technical": 10767,
             "physical": 12538,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030630005_1.c9b59292",
+            "passive": ""
         },
         "74": {
             "id": 74,
@@ -897,7 +1045,9 @@ var cards = {
             "heart": 11897,
             "technical": 9248,
             "physical": 11034,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030630003_1.ea8fee9d",
+            "passive": ""
         },
         "75": {
             "id": 75,
@@ -909,7 +1059,9 @@ var cards = {
             "heart": 11447,
             "technical": 11198,
             "physical": 10933,
-            "skill": 0.55
+            "skill": 0.55,
+            "icon": "card_icon_040630004_1.62026add",
+            "passive": ""
         },
         "76": {
             "id": 76,
@@ -921,7 +1073,9 @@ var cards = {
             "heart": 9013,
             "technical": 8827,
             "physical": 9582,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030630002_1.af770734",
+            "passive": ""
         },
         "77": {
             "id": 77,
@@ -933,7 +1087,9 @@ var cards = {
             "heart": 11848,
             "technical": 11649,
             "physical": 8416,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030630004_1.847b3b67",
+            "passive": ""
         },
         "78": {
             "id": 78,
@@ -945,7 +1101,9 @@ var cards = {
             "heart": 10823,
             "technical": 11041,
             "physical": 11860,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040630003_1.88a7f7fe",
+            "passive": ""
         },
         "79": {
             "id": 79,
@@ -957,7 +1115,9 @@ var cards = {
             "heart": 6804,
             "technical": 15987,
             "physical": 11984,
-            "skill": 0.55
+            "skill": 0.55,
+            "icon": "card_icon_040630005_1.7b7e8e7c",
+            "passive": ""
         },
         "80": {
             "id": 80,
@@ -969,7 +1129,9 @@ var cards = {
             "heart": 8540,
             "technical": 8681,
             "physical": 9976,
-            "skill": 0.2
+            "skill": 0.2,
+            "icon": "card_icon_030630001_1.0cd339a3",
+            "passive": ""
         },
         "81": {
             "id": 81,
@@ -981,7 +1143,9 @@ var cards = {
             "heart": 16631,
             "technical": 12336,
             "physical": 7239,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_070210001_1.1f3a8c0a",
+            "passive": ""
         },
         "82": {
             "id": 82,
@@ -993,7 +1157,9 @@ var cards = {
             "heart": 7288,
             "technical": 12078,
             "physical": 15306,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040210008_1.49066467",
+            "passive": ""
         },
         "83": {
             "id": 83,
@@ -1005,7 +1171,9 @@ var cards = {
             "heart": 11980,
             "technical": 11717,
             "physical": 11487,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040210004_1.956395d9",
+            "passive": ""
         },
         "84": {
             "id": 84,
@@ -1017,7 +1185,9 @@ var cards = {
             "heart": 11799,
             "technical": 11693,
             "physical": 11552,
-            "skill": 0.3
+            "skill": 0.3,
+            "icon": "card_icon_040210001_1.aa183113",
+            "passive": ""
         },
         "85": {
             "id": 85,
@@ -1029,7 +1199,9 @@ var cards = {
             "heart": 9557,
             "technical": 7915,
             "physical": 9840,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030210004_1.59269d01",
+            "passive": ""
         },
         "86": {
             "id": 86,
@@ -1041,7 +1213,9 @@ var cards = {
             "heart": 12570,
             "technical": 8959,
             "physical": 10614,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030210005_1.070b9cd7",
+            "passive": ""
         },
         "87": {
             "id": 87,
@@ -1053,7 +1227,9 @@ var cards = {
             "heart": 9629,
             "technical": 9132,
             "physical": 8635,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030210002_1.6cd0b85e",
+            "passive": ""
         },
         "88": {
             "id": 88,
@@ -1065,7 +1241,9 @@ var cards = {
             "heart": 6860,
             "technical": 15367,
             "physical": 12320,
-            "skill": 0.55
+            "skill": 0.55,
+            "icon": "card_icon_040210005_1.54155daf",
+            "passive": ""
         },
         "89": {
             "id": 89,
@@ -1077,7 +1255,9 @@ var cards = {
             "heart": 9984,
             "technical": 8247,
             "physical": 9050,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030210003_1.c3fbb334",
+            "passive": ""
         },
         "90": {
             "id": 90,
@@ -1089,7 +1269,9 @@ var cards = {
             "heart": 11302,
             "technical": 10606,
             "physical": 11463,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040210002_1.7ebc8c54",
+            "passive": ""
         },
         "91": {
             "id": 91,
@@ -1101,7 +1283,9 @@ var cards = {
             "heart": 9486,
             "technical": 9327,
             "physical": 9383,
-            "skill": 0.2
+            "skill": 0.2,
+            "icon": "card_icon_030210001_1.a44122eb",
+            "passive": ""
         },
         "92": {
             "id": 92,
@@ -1113,7 +1297,9 @@ var cards = {
             "heart": 13334,
             "technical": 7433,
             "physical": 16066,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_070120001_1.404ebdfc",
+            "passive": ""
         },
         "93": {
             "id": 93,
@@ -1125,7 +1311,9 @@ var cards = {
             "heart": 11917,
             "technical": 11260,
             "physical": 11645,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040120005_1.1a1ac77c",
+            "passive": ""
         },
         "94": {
             "id": 94,
@@ -1137,7 +1325,9 @@ var cards = {
             "heart": 10432,
             "technical": 11897,
             "physical": 11274,
-            "skill": 0.3
+            "skill": 0.3,
+            "icon": "card_icon_040120001_1.8d370973",
+            "passive": ""
         },
         "95": {
             "id": 95,
@@ -1149,7 +1339,9 @@ var cards = {
             "heart": 8876,
             "technical": 9874,
             "physical": 8973,
-            "skill": 0.2
+            "skill": 0.2,
+            "icon": "card_icon_030120001_1.e80cca10",
+            "passive": ""
         },
         "96": {
             "id": 96,
@@ -1161,7 +1353,9 @@ var cards = {
             "heart": 10868,
             "technical": 9101,
             "physical": 11938,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030120004_1.fb4a6ef2",
+            "passive": ""
         },
         "97": {
             "id": 97,
@@ -1173,7 +1367,9 @@ var cards = {
             "heart": 7824,
             "technical": 10274,
             "physical": 9879,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030120002_1.28431812",
+            "passive": ""
         },
         "98": {
             "id": 98,
@@ -1185,7 +1381,9 @@ var cards = {
             "heart": 10953,
             "technical": 10888,
             "physical": 11721,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040120002_1.5ce8ee96",
+            "passive": ""
         },
         "99": {
             "id": 99,
@@ -1197,7 +1395,9 @@ var cards = {
             "heart": 11061,
             "technical": 11627,
             "physical": 11932,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040120003_1.7acaab4e",
+            "passive": ""
         },
         "100": {
             "id": 100,
@@ -1209,7 +1409,9 @@ var cards = {
             "heart": 6941,
             "technical": 16592,
             "physical": 10824,
-            "skill": 0.55
+            "skill": 0.55,
+            "icon": "card_icon_040120004_1.11755866",
+            "passive": ""
         },
         "101": {
             "id": 101,
@@ -1221,7 +1423,9 @@ var cards = {
             "heart": 9887,
             "technical": 8337,
             "physical": 13110,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030120005_1.0e1608ef",
+            "passive": ""
         },
         "102": {
             "id": 102,
@@ -1233,7 +1437,9 @@ var cards = {
             "heart": 7831,
             "technical": 9679,
             "physical": 9970,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030120003_1.74dc77b7",
+            "passive": ""
         },
         "103": {
             "id": 103,
@@ -1245,7 +1451,9 @@ var cards = {
             "heart": 6940,
             "technical": 12816,
             "physical": 15906,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_070420001_1.2c31e803",
+            "passive": ""
         },
         "104": {
             "id": 104,
@@ -1257,7 +1465,9 @@ var cards = {
             "heart": 12138,
             "technical": 11469,
             "physical": 11075,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040420004_1.c01bc0ce",
+            "passive": ""
         },
         "105": {
             "id": 105,
@@ -1269,7 +1479,9 @@ var cards = {
             "heart": 9986,
             "technical": 9167,
             "physical": 9243,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030420002_1.b37dc55c",
+            "passive": ""
         },
         "106": {
             "id": 106,
@@ -1281,7 +1493,9 @@ var cards = {
             "heart": 10895,
             "technical": 11253,
             "physical": 11988,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040420003_1.3ee90b45",
+            "passive": ""
         },
         "107": {
             "id": 107,
@@ -1293,7 +1507,9 @@ var cards = {
             "heart": 11272,
             "technical": 11185,
             "physical": 11033,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040420002_1.ae147414",
+            "passive": ""
         },
         "108": {
             "id": 108,
@@ -1305,7 +1521,9 @@ var cards = {
             "heart": 9896,
             "technical": 8355,
             "physical": 8905,
-            "skill": 0.2
+            "skill": 0.2,
+            "icon": "card_icon_030420001_1.b69adfc5",
+            "passive": ""
         },
         "109": {
             "id": 109,
@@ -1317,7 +1535,9 @@ var cards = {
             "heart": 11340,
             "technical": 11477,
             "physical": 11255,
-            "skill": 0.3
+            "skill": 0.3,
+            "icon": "card_icon_040420001_1.123a2561",
+            "passive": ""
         },
         "110": {
             "id": 110,
@@ -1329,19 +1549,23 @@ var cards = {
             "heart": 9444,
             "technical": 9255,
             "physical": 9580,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030420003_1.c27c9769",
+            "passive": ""
         },
         "111": {
             "id": 111,
             "character": "Marika",
-            "cardname": "Snowy Holy Night Street Corner",
+            "cardname": "On A Snowy Holy Night At A Street Corner",
             "unit": "Mermaid",
             "type": "Cool",
             "rarity": 3,
             "heart": 10926,
             "technical": 12504,
             "physical": 8751,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030420005_1.43fcb9ae",
+            "passive": ""
         },
         "112": {
             "id": 112,
@@ -1353,19 +1577,23 @@ var cards = {
             "heart": 8068,
             "technical": 9414,
             "physical": 10303,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030420004_1.d1d235d4",
+            "passive": ""
         },
         "113": {
             "id": 113,
             "character": "Marika",
-            "cardname": "Whirling Flower Red Carpet Vibrant",
+            "cardname": "Whirling Flower Red Carpet -Vibrant-",
             "unit": "Mermaid",
             "type": "Elegant",
             "rarity": 4,
             "heart": 12260,
             "technical": 6850,
             "physical": 16385,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040420007_1.f498cb21",
+            "passive": ""
         },
         "114": {
             "id": 114,
@@ -1377,7 +1605,9 @@ var cards = {
             "heart": 12461,
             "technical": 12369,
             "physical": 13037,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_048310001_1.2ca2eb14",
+            "passive": ""
         },
         "115": {
             "id": 115,
@@ -1389,7 +1619,9 @@ var cards = {
             "heart": 6888,
             "technical": 16219,
             "physical": 12915,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_070640001_1.7e27692b",
+            "passive": ""
         },
         "116": {
             "id": 116,
@@ -1401,7 +1633,9 @@ var cards = {
             "heart": 9860,
             "technical": 9406,
             "physical": 9274,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030640003_1.50589fd3",
+            "passive": ""
         },
         "117": {
             "id": 117,
@@ -1413,7 +1647,9 @@ var cards = {
             "heart": 10849,
             "technical": 11673,
             "physical": 11174,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040640003_1.6c0bd39f",
+            "passive": ""
         },
         "118": {
             "id": 118,
@@ -1425,7 +1661,9 @@ var cards = {
             "heart": 11759,
             "technical": 10952,
             "physical": 10761,
-            "skill": 0.55
+            "skill": 0.55,
+            "icon": "card_icon_040640004_1.64c3e530",
+            "passive": ""
         },
         "119": {
             "id": 119,
@@ -1437,7 +1675,9 @@ var cards = {
             "heart": 10338,
             "technical": 9054,
             "physical": 8671,
-            "skill": 0.2
+            "skill": 0.2,
+            "icon": "card_icon_030640001_1.1318f0c1",
+            "passive": ""
         },
         "120": {
             "id": 120,
@@ -1449,7 +1689,9 @@ var cards = {
             "heart": 10247,
             "technical": 9609,
             "physical": 7557,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030640004_1.b89256e8",
+            "passive": ""
         },
         "121": {
             "id": 121,
@@ -1461,7 +1703,9 @@ var cards = {
             "heart": 11916,
             "technical": 10971,
             "physical": 11456,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040640002_1.de01d2c1",
+            "passive": ""
         },
         "122": {
             "id": 122,
@@ -1473,7 +1717,9 @@ var cards = {
             "heart": 8939,
             "technical": 9017,
             "physical": 9333,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030640002_1.e3b0c442",
+            "passive": ""
         },
         "123": {
             "id": 123,
@@ -1485,19 +1731,23 @@ var cards = {
             "heart": 12475,
             "technical": 6885,
             "physical": 17030,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040640008_1.7e679c9a",
+            "passive": ""
         },
         "124": {
             "id": 124,
             "character": "Miiko",
-            "cardname": "White Rose Innocence",
+            "cardname": "White Rose -Innocence-",
             "unit": "LyriLily",
             "type": "Elegant",
             "rarity": 4,
             "heart": 11738,
             "technical": 6611,
             "physical": 15697,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040640007_1.d7428d2b",
+            "passive": ""
         },
         "125": {
             "id": 125,
@@ -1509,7 +1759,9 @@ var cards = {
             "heart": 12401,
             "technical": 11255,
             "physical": 11098,
-            "skill": 0.3
+            "skill": 0.3,
+            "icon": "card_icon_040640001_1.d02ef0e7",
+            "passive": ""
         },
         "126": {
             "id": 126,
@@ -1521,7 +1773,9 @@ var cards = {
             "heart": 16309,
             "technical": 12455,
             "physical": 7015,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040640006_1.a4baea36",
+            "passive": ""
         },
         "127": {
             "id": 127,
@@ -1533,7 +1787,9 @@ var cards = {
             "heart": 16189,
             "technical": 12939,
             "physical": 6908,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_070610001_1.8c179e95",
+            "passive": ""
         },
         "128": {
             "id": 128,
@@ -1545,7 +1801,9 @@ var cards = {
             "heart": 12723,
             "technical": 12538,
             "physical": 11407,
-            "skill": 0.55
+            "skill": 0.55,
+            "icon": "card_icon_040610008_1.5ea40e98",
+            "passive": ""
         },
         "129": {
             "id": 129,
@@ -1557,7 +1815,9 @@ var cards = {
             "heart": 11258,
             "technical": 12062,
             "physical": 11275,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040610003_1.2553d7ee",
+            "passive": ""
         },
         "130": {
             "id": 130,
@@ -1569,7 +1829,9 @@ var cards = {
             "heart": 10363,
             "technical": 9893,
             "physical": 7656,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030610005_1.04f90215",
+            "passive": ""
         },
         "131": {
             "id": 131,
@@ -1581,7 +1843,9 @@ var cards = {
             "heart": 11207,
             "technical": 12316,
             "physical": 10798,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040610002_1.1d696eb0",
+            "passive": ""
         },
         "132": {
             "id": 132,
@@ -1593,7 +1857,9 @@ var cards = {
             "heart": 11736,
             "technical": 16378,
             "physical": 6732,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040610005_1.0db05e4c",
+            "passive": ""
         },
         "133": {
             "id": 133,
@@ -1605,7 +1871,9 @@ var cards = {
             "heart": 12661,
             "technical": 10612,
             "physical": 10979,
-            "skill": 0.3
+            "skill": 0.3,
+            "icon": "card_icon_040610001_1.ab1639a4",
+            "passive": ""
         },
         "134": {
             "id": 134,
@@ -1617,7 +1885,9 @@ var cards = {
             "heart": 11065,
             "technical": 11123,
             "physical": 11156,
-            "skill": 0.55
+            "skill": 0.55,
+            "icon": "card_icon_040610004_1.ddda8c5b",
+            "passive": ""
         },
         "135": {
             "id": 135,
@@ -1629,7 +1899,9 @@ var cards = {
             "heart": 9652,
             "technical": 9281,
             "physical": 9360,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030610002_1.18ec397b",
+            "passive": ""
         },
         "136": {
             "id": 136,
@@ -1641,7 +1913,9 @@ var cards = {
             "heart": 10692,
             "technical": 8384,
             "physical": 9196,
-            "skill": 0.2
+            "skill": 0.2,
+            "icon": "card_icon_030610001_1.026ff484",
+            "passive": ""
         },
         "137": {
             "id": 137,
@@ -1653,7 +1927,9 @@ var cards = {
             "heart": 9082,
             "technical": 8640,
             "physical": 9848,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030610004_1.618feadb",
+            "passive": ""
         },
         "138": {
             "id": 138,
@@ -1665,7 +1941,9 @@ var cards = {
             "heart": 9347,
             "technical": 9095,
             "physical": 9418,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030610003_1.60af6128",
+            "passive": ""
         },
         "139": {
             "id": 139,
@@ -1677,19 +1955,23 @@ var cards = {
             "heart": 12292,
             "technical": 9068,
             "physical": 9954,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030610006_1.ec90022f",
+            "passive": ""
         },
         "140": {
             "id": 140,
             "character": "Miyu",
-            "cardname": "White Rose Purity",
+            "cardname": "White Rose -Purity-",
             "unit": "LyriLily",
             "type": "Elegant",
             "rarity": 4,
             "heart": 6437,
             "technical": 11260,
             "physical": 16544,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040610007_1.3af52d2f",
+            "passive": ""
         },
         "141": {
             "id": 141,
@@ -1701,7 +1983,9 @@ var cards = {
             "heart": 6859,
             "technical": 17041,
             "physical": 12346,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_070130001_1.e84af260",
+            "passive": ""
         },
         "142": {
             "id": 142,
@@ -1713,7 +1997,9 @@ var cards = {
             "heart": 14213,
             "technical": 7076,
             "physical": 13835,
-            "skill": 0.6
+            "skill": 0.6,
+            "icon": "card_icon_040130006_1.2d42365e",
+            "passive": ""
         },
         "143": {
             "id": 143,
@@ -1725,7 +2011,9 @@ var cards = {
             "heart": 8532,
             "technical": 10405,
             "physical": 8617,
-            "skill": 0.2
+            "skill": 0.2,
+            "icon": "card_icon_030130001_1.77bdca9b",
+            "passive": ""
         },
         "144": {
             "id": 144,
@@ -1737,7 +2025,9 @@ var cards = {
             "heart": 6512,
             "technical": 12863,
             "physical": 16823,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040130009_1.440eb89a",
+            "passive": ""
         },
         "145": {
             "id": 145,
@@ -1749,7 +2039,9 @@ var cards = {
             "heart": 12221,
             "technical": 10977,
             "physical": 11058,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040130003_1.f0d4b660",
+            "passive": ""
         },
         "146": {
             "id": 146,
@@ -1761,7 +2053,9 @@ var cards = {
             "heart": 9222,
             "technical": 10162,
             "physical": 8978,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030130002_1.fb9849ff",
+            "passive": ""
         },
         "147": {
             "id": 147,
@@ -1773,7 +2067,9 @@ var cards = {
             "heart": 10775,
             "technical": 12746,
             "physical": 11253,
-            "skill": 0.3
+            "skill": 0.3,
+            "icon": "card_icon_040130001_1.980e3c3b",
+            "passive": ""
         },
         "148": {
             "id": 148,
@@ -1785,7 +2081,9 @@ var cards = {
             "heart": 16528,
             "technical": 12828,
             "physical": 6881,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040130005_1.296f56ed",
+            "passive": ""
         },
         "149": {
             "id": 149,
@@ -1797,7 +2095,9 @@ var cards = {
             "heart": 11419,
             "technical": 11216,
             "physical": 11391,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040130002_1.b9d71fa9",
+            "passive": ""
         },
         "150": {
             "id": 150,
@@ -1809,7 +2109,9 @@ var cards = {
             "heart": 9737,
             "technical": 10190,
             "physical": 7501,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030130004_1.862b9cf1",
+            "passive": ""
         },
         "151": {
             "id": 151,
@@ -1821,7 +2123,9 @@ var cards = {
             "heart": 10332,
             "technical": 7662,
             "physical": 9334,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030130005_1.559d1add",
+            "passive": ""
         },
         "152": {
             "id": 152,
@@ -1833,7 +2137,9 @@ var cards = {
             "heart": 11710,
             "technical": 12200,
             "physical": 11090,
-            "skill": 0.6
+            "skill": 0.6,
+            "icon": "card_icon_040130004_1.1b4b2b1f",
+            "passive": ""
         },
         "153": {
             "id": 153,
@@ -1845,7 +2151,9 @@ var cards = {
             "heart": 7339,
             "technical": 12606,
             "physical": 16655,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040130008_1.19170d64",
+            "passive": ""
         },
         "154": {
             "id": 154,
@@ -1857,7 +2165,9 @@ var cards = {
             "heart": 9331,
             "technical": 8621,
             "physical": 9353,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030130003_1.4663fa6e",
+            "passive": ""
         },
         "155": {
             "id": 155,
@@ -1869,7 +2179,9 @@ var cards = {
             "heart": 12194,
             "technical": 17876,
             "physical": 6960,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_070520001_1.c07750fc",
+            "passive": ""
         },
         "156": {
             "id": 156,
@@ -1881,7 +2193,9 @@ var cards = {
             "heart": 10318,
             "technical": 7489,
             "physical": 9771,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030520005_1.4e52f063",
+            "passive": ""
         },
         "157": {
             "id": 157,
@@ -1893,7 +2207,9 @@ var cards = {
             "heart": 11335,
             "technical": 11239,
             "physical": 12075,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040520005_1.65dfae0f",
+            "passive": ""
         },
         "158": {
             "id": 158,
@@ -1905,7 +2221,9 @@ var cards = {
             "heart": 11088,
             "technical": 12277,
             "physical": 10740,
-            "skill": 0.3
+            "skill": 0.3,
+            "icon": "card_icon_040520001_1.e3b0c442",
+            "passive": ""
         },
         "159": {
             "id": 159,
@@ -1917,7 +2235,9 @@ var cards = {
             "heart": 16724,
             "technical": 6702,
             "physical": 11922,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040520004_1.7139aed4",
+            "passive": ""
         },
         "160": {
             "id": 160,
@@ -1929,7 +2249,9 @@ var cards = {
             "heart": 11069,
             "technical": 10884,
             "physical": 12629,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040520003_1.1fdf758d",
+            "passive": ""
         },
         "161": {
             "id": 161,
@@ -1941,7 +2263,9 @@ var cards = {
             "heart": 10520,
             "technical": 10964,
             "physical": 12514,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040520002_1.6395e583",
+            "passive": ""
         },
         "162": {
             "id": 162,
@@ -1953,7 +2277,9 @@ var cards = {
             "heart": 9015,
             "technical": 9067,
             "physical": 9790,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030520003_1.a764465b",
+            "passive": ""
         },
         "163": {
             "id": 163,
@@ -1965,7 +2291,9 @@ var cards = {
             "heart": 10215,
             "technical": 9394,
             "physical": 8805,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030520002_1.02e58df7",
+            "passive": ""
         },
         "164": {
             "id": 164,
@@ -1977,7 +2305,9 @@ var cards = {
             "heart": 8490,
             "technical": 9767,
             "physical": 8863,
-            "skill": 0.2
+            "skill": 0.2,
+            "icon": "card_icon_030520001_1.81c68977",
+            "passive": ""
         },
         "165": {
             "id": 165,
@@ -1989,7 +2319,9 @@ var cards = {
             "heart": 9892,
             "technical": 10411,
             "physical": 6986,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030520004_1.efbc8d78",
+            "passive": ""
         },
         "166": {
             "id": 166,
@@ -2001,7 +2333,9 @@ var cards = {
             "heart": 15925,
             "technical": 12825,
             "physical": 6923,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_070340001_1.2c4d9ae6",
+            "passive": ""
         },
         "167": {
             "id": 167,
@@ -2013,7 +2347,9 @@ var cards = {
             "heart": 11662,
             "technical": 11217,
             "physical": 12008,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040340006_1.3f31c8a2",
+            "passive": ""
         },
         "168": {
             "id": 168,
@@ -2025,7 +2361,9 @@ var cards = {
             "heart": 12425,
             "technical": 11650,
             "physical": 10925,
-            "skill": 0.6
+            "skill": 0.6,
+            "icon": "card_icon_040340004_1.3077cd52",
+            "passive": ""
         },
         "169": {
             "id": 169,
@@ -2037,7 +2375,9 @@ var cards = {
             "heart": 8710,
             "technical": 9695,
             "physical": 8537,
-            "skill": 0.2
+            "skill": 0.2,
+            "icon": "card_icon_030340001_1.f43cd1c2",
+            "passive": ""
         },
         "170": {
             "id": 170,
@@ -2049,7 +2389,9 @@ var cards = {
             "heart": 12054,
             "technical": 11075,
             "physical": 8897,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030340004_1.1123de6c",
+            "passive": ""
         },
         "171": {
             "id": 171,
@@ -2061,7 +2403,9 @@ var cards = {
             "heart": 12008,
             "technical": 11366,
             "physical": 10629,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040340002_1.9cfa6a42",
+            "passive": ""
         },
         "172": {
             "id": 172,
@@ -2073,7 +2417,9 @@ var cards = {
             "heart": 11883,
             "technical": 6847,
             "physical": 16380,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040340005_1.2cfc3fa3",
+            "passive": ""
         },
         "173": {
             "id": 173,
@@ -2085,7 +2431,9 @@ var cards = {
             "heart": 10971,
             "technical": 12724,
             "physical": 8281,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030340005_1.90f28554",
+            "passive": ""
         },
         "174": {
             "id": 174,
@@ -2097,7 +2445,9 @@ var cards = {
             "heart": 9126,
             "technical": 8735,
             "physical": 9545,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030340003_1.87fc9b01",
+            "passive": ""
         },
         "175": {
             "id": 175,
@@ -2109,7 +2459,9 @@ var cards = {
             "heart": 10932,
             "technical": 12001,
             "physical": 11085,
-            "skill": 0.3
+            "skill": 0.3,
+            "icon": "card_icon_040340001_1.5e3a2bef",
+            "passive": ""
         },
         "176": {
             "id": 176,
@@ -2121,7 +2473,9 @@ var cards = {
             "heart": 11791,
             "technical": 11314,
             "physical": 10634,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040340003_1.2946dde1",
+            "passive": ""
         },
         "177": {
             "id": 177,
@@ -2133,7 +2487,9 @@ var cards = {
             "heart": 16883,
             "technical": 12002,
             "physical": 7126,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_070140001_1.2d3a5016",
+            "passive": ""
         },
         "178": {
             "id": 178,
@@ -2145,7 +2501,9 @@ var cards = {
             "heart": 11120,
             "technical": 12881,
             "physical": 12633,
-            "skill": 0.55
+            "skill": 0.55,
+            "icon": "card_icon_040140005_1.bfdb8dc4",
+            "passive": ""
         },
         "179": {
             "id": 179,
@@ -2157,7 +2515,9 @@ var cards = {
             "heart": 13046,
             "technical": 11070,
             "physical": 10677,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040140002_1.dc7c5f00",
+            "passive": ""
         },
         "180": {
             "id": 180,
@@ -2169,7 +2529,9 @@ var cards = {
             "heart": 10859,
             "technical": 10696,
             "physical": 11710,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040140003_1.9a51fb14",
+            "passive": ""
         },
         "181": {
             "id": 181,
@@ -2181,7 +2543,9 @@ var cards = {
             "heart": 11453,
             "technical": 12511,
             "physical": 11056,
-            "skill": 0.3
+            "skill": 0.3,
+            "icon": "card_icon_040140001_1.82a43351",
+            "passive": ""
         },
         "182": {
             "id": 182,
@@ -2193,7 +2557,9 @@ var cards = {
             "heart": 9213,
             "technical": 9275,
             "physical": 9186,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030140002_1.e1c8ddf9",
+            "passive": ""
         },
         "183": {
             "id": 183,
@@ -2205,7 +2571,9 @@ var cards = {
             "heart": 8949,
             "technical": 10053,
             "physical": 9359,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030140003_1.1f033ee8",
+            "passive": ""
         },
         "184": {
             "id": 184,
@@ -2217,7 +2585,9 @@ var cards = {
             "heart": 8779,
             "technical": 10375,
             "physical": 9831,
-            "skill": 0.2
+            "skill": 0.2,
+            "icon": "card_icon_030140001_1.8c7b8eef",
+            "passive": ""
         },
         "185": {
             "id": 185,
@@ -2229,7 +2599,9 @@ var cards = {
             "heart": 8859,
             "technical": 11005,
             "physical": 12599,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030140005_1.a4080dab",
+            "passive": ""
         },
         "186": {
             "id": 186,
@@ -2241,7 +2613,9 @@ var cards = {
             "heart": 12498,
             "technical": 14972,
             "physical": 7140,
-            "skill": 0.55
+            "skill": 0.55,
+            "icon": "card_icon_040140004_1.3b4b2b47",
+            "passive": ""
         },
         "187": {
             "id": 187,
@@ -2253,7 +2627,9 @@ var cards = {
             "heart": 16608,
             "technical": 7277,
             "physical": 12216,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_070410001_1.e9301c59",
+            "passive": ""
         },
         "188": {
             "id": 188,
@@ -2265,7 +2641,9 @@ var cards = {
             "heart": 11565,
             "technical": 11143,
             "physical": 11439,
-            "skill": 0.3
+            "skill": 0.3,
+            "icon": "card_icon_040410001_1.14ebe123",
+            "passive": ""
         },
         "189": {
             "id": 189,
@@ -2277,7 +2655,9 @@ var cards = {
             "heart": 11775,
             "technical": 11201,
             "physical": 11578,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040410005_1.f49f92fc",
+            "passive": ""
         },
         "190": {
             "id": 190,
@@ -2289,7 +2669,9 @@ var cards = {
             "heart": 7689,
             "technical": 10510,
             "physical": 9514,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030410004_1.687fcff0",
+            "passive": ""
         },
         "191": {
             "id": 191,
@@ -2301,7 +2683,9 @@ var cards = {
             "heart": 11429,
             "technical": 10911,
             "physical": 11786,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040410002_1.fef4769f",
+            "passive": ""
         },
         "192": {
             "id": 192,
@@ -2313,7 +2697,9 @@ var cards = {
             "heart": 10240,
             "technical": 8820,
             "physical": 9932,
-            "skill": 0.2
+            "skill": 0.2,
+            "icon": "card_icon_030410001_1.a7a12b13",
+            "passive": ""
         },
         "193": {
             "id": 193,
@@ -2325,7 +2711,9 @@ var cards = {
             "heart": 9779,
             "technical": 8971,
             "physical": 9711,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030410003_1.eb96f7f8",
+            "passive": ""
         },
         "194": {
             "id": 194,
@@ -2337,7 +2725,9 @@ var cards = {
             "heart": 9414,
             "technical": 9219,
             "physical": 8982,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030410002_1.797f6cdb",
+            "passive": ""
         },
         "195": {
             "id": 195,
@@ -2349,7 +2739,9 @@ var cards = {
             "heart": 12730,
             "technical": 6327,
             "physical": 15461,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040410004_1.ed364ece",
+            "passive": ""
         },
         "196": {
             "id": 196,
@@ -2361,7 +2753,9 @@ var cards = {
             "heart": 7128,
             "technical": 15992,
             "physical": 13163,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040410007_1.bfb405ed",
+            "passive": ""
         },
         "197": {
             "id": 197,
@@ -2373,7 +2767,9 @@ var cards = {
             "heart": 11123,
             "technical": 11220,
             "physical": 12287,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040410003_1.9a69e1de",
+            "passive": ""
         },
         "198": {
             "id": 198,
@@ -2385,7 +2781,9 @@ var cards = {
             "heart": 17479,
             "technical": 6798,
             "physical": 11984,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_070110001_1.5f61df84",
+            "passive": ""
         },
         "199": {
             "id": 199,
@@ -2397,7 +2795,9 @@ var cards = {
             "heart": 12243,
             "technical": 6981,
             "physical": 17843,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040110009_1.779616a6",
+            "passive": ""
         },
         "200": {
             "id": 200,
@@ -2409,7 +2809,9 @@ var cards = {
             "heart": 11329,
             "technical": 11793,
             "physical": 11662,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040110005_1.375f1bea",
+            "passive": ""
         },
         "201": {
             "id": 201,
@@ -2421,7 +2823,9 @@ var cards = {
             "heart": 12143,
             "technical": 10636,
             "physical": 11344,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040110002_1.f01f0e00",
+            "passive": ""
         },
         "202": {
             "id": 202,
@@ -2433,7 +2837,9 @@ var cards = {
             "heart": 9082,
             "technical": 9219,
             "physical": 9348,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030110002_1.b7f73da8",
+            "passive": ""
         },
         "203": {
             "id": 203,
@@ -2445,7 +2851,9 @@ var cards = {
             "heart": 14283,
             "technical": 14005,
             "physical": 7122,
-            "skill": 0.6
+            "skill": 0.6,
+            "icon": "card_icon_040110007_1.d69e9803",
+            "passive": ""
         },
         "204": {
             "id": 204,
@@ -2457,7 +2865,9 @@ var cards = {
             "heart": 10140,
             "technical": 8917,
             "physical": 8495,
-            "skill": 0.2
+            "skill": 0.2,
+            "icon": "card_icon_030110001_1.55c6a365",
+            "passive": ""
         },
         "205": {
             "id": 205,
@@ -2469,7 +2879,9 @@ var cards = {
             "heart": 11618,
             "technical": 11405,
             "physical": 11697,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040110003_1.79136e89",
+            "passive": ""
         },
         "206": {
             "id": 206,
@@ -2481,7 +2893,9 @@ var cards = {
             "heart": 12648,
             "technical": 14845,
             "physical": 7012,
-            "skill": 0.55
+            "skill": 0.55,
+            "icon": "card_icon_040110004_1.a4ae7aaa",
+            "passive": ""
         },
         "207": {
             "id": 207,
@@ -2493,7 +2907,9 @@ var cards = {
             "heart": 7384,
             "technical": 10253,
             "physical": 9745,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030110003_1.de338447",
+            "passive": ""
         },
         "208": {
             "id": 208,
@@ -2505,7 +2921,9 @@ var cards = {
             "heart": 7048,
             "technical": 11735,
             "physical": 16309,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040110006_1.e20391f8",
+            "passive": ""
         },
         "209": {
             "id": 209,
@@ -2517,7 +2935,9 @@ var cards = {
             "heart": 11496,
             "technical": 11260,
             "physical": 11137,
-            "skill": 0.3
+            "skill": 0.3,
+            "icon": "card_icon_040110001_1.5b43f904",
+            "passive": ""
         },
         "210": {
             "id": 210,
@@ -2529,7 +2949,9 @@ var cards = {
             "heart": 6895,
             "technical": 16144,
             "physical": 12835,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_070310001_1.3b7af399",
+            "passive": ""
         },
         "211": {
             "id": 211,
@@ -2541,7 +2963,9 @@ var cards = {
             "heart": 8801,
             "technical": 12441,
             "physical": 10604,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030310004_1.af018f92",
+            "passive": ""
         },
         "212": {
             "id": 212,
@@ -2553,7 +2977,9 @@ var cards = {
             "heart": 9081,
             "technical": 9930,
             "physical": 8530,
-            "skill": 0.2
+            "skill": 0.2,
+            "icon": "card_icon_030310001_1.d4b8eb59",
+            "passive": ""
         },
         "213": {
             "id": 213,
@@ -2565,7 +2991,9 @@ var cards = {
             "heart": 11279,
             "technical": 11466,
             "physical": 12367,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040310005_1.f9b579e7",
+            "passive": ""
         },
         "214": {
             "id": 214,
@@ -2577,7 +3005,9 @@ var cards = {
             "heart": 9401,
             "technical": 8628,
             "physical": 9822,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030310002_1.7aa99688",
+            "passive": ""
         },
         "215": {
             "id": 215,
@@ -2589,7 +3019,9 @@ var cards = {
             "heart": 11120,
             "technical": 11885,
             "physical": 10470,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040310002_1.3b26cd23",
+            "passive": ""
         },
         "216": {
             "id": 216,
@@ -2601,7 +3033,9 @@ var cards = {
             "heart": 17052,
             "technical": 6736,
             "physical": 12285,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040310006_1.283289b3",
+            "passive": ""
         },
         "217": {
             "id": 217,
@@ -2613,7 +3047,9 @@ var cards = {
             "heart": 7809,
             "technical": 9775,
             "physical": 10417,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030310003_1.e3b0c442",
+            "passive": ""
         },
         "218": {
             "id": 218,
@@ -2625,7 +3061,9 @@ var cards = {
             "heart": 11134,
             "technical": 11552,
             "physical": 11099,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040310004_1.6b056578",
+            "passive": ""
         },
         "219": {
             "id": 219,
@@ -2637,7 +3075,9 @@ var cards = {
             "heart": 10007,
             "technical": 13256,
             "physical": 11306,
-            "skill": 0.3
+            "skill": 0.3,
+            "icon": "card_icon_040310001_1.93b37c1c",
+            "passive": ""
         },
         "220": {
             "id": 220,
@@ -2649,7 +3089,9 @@ var cards = {
             "heart": 13094,
             "technical": 16581,
             "physical": 6789,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_070430001_1.feafc993",
+            "passive": ""
         },
         "221": {
             "id": 221,
@@ -2661,7 +3103,9 @@ var cards = {
             "heart": 9090,
             "technical": 11629,
             "physical": 11183,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030430004_1.82fdb854",
+            "passive": ""
         },
         "222": {
             "id": 222,
@@ -2673,7 +3117,9 @@ var cards = {
             "heart": 11881,
             "technical": 11036,
             "physical": 11445,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040430002_1.1a709199",
+            "passive": ""
         },
         "223": {
             "id": 223,
@@ -2685,7 +3131,9 @@ var cards = {
             "heart": 12919,
             "technical": 11511,
             "physical": 12302,
-            "skill": 0.55
+            "skill": 0.55,
+            "icon": "card_icon_040430007_1.46536465",
+            "passive": ""
         },
         "224": {
             "id": 224,
@@ -2697,7 +3145,9 @@ var cards = {
             "heart": 9673,
             "technical": 9430,
             "physical": 9408,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030430003_1.e5f16f8d",
+            "passive": ""
         },
         "225": {
             "id": 225,
@@ -2709,7 +3159,9 @@ var cards = {
             "heart": 11876,
             "technical": 12169,
             "physical": 10980,
-            "skill": 0.3
+            "skill": 0.3,
+            "icon": "card_icon_040430001_1.e48d4b56",
+            "passive": ""
         },
         "226": {
             "id": 226,
@@ -2721,7 +3173,9 @@ var cards = {
             "heart": 10894,
             "technical": 11257,
             "physical": 11407,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040430003_1.3094f18b",
+            "passive": ""
         },
         "227": {
             "id": 227,
@@ -2733,7 +3187,9 @@ var cards = {
             "heart": 9726,
             "technical": 9914,
             "physical": 8839,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030430002_1.1a4d8876",
+            "passive": ""
         },
         "228": {
             "id": 228,
@@ -2745,7 +3201,9 @@ var cards = {
             "heart": 6501,
             "technical": 12538,
             "physical": 15345,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040430004_1.d6817967",
+            "passive": ""
         },
         "229": {
             "id": 229,
@@ -2757,7 +3215,9 @@ var cards = {
             "heart": 15379,
             "technical": 12386,
             "physical": 6874,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040430005_1.ed59e29d",
+            "passive": ""
         },
         "230": {
             "id": 230,
@@ -2769,7 +3229,9 @@ var cards = {
             "heart": 8413,
             "technical": 10515,
             "physical": 8811,
-            "skill": 0.2
+            "skill": 0.2,
+            "icon": "card_icon_030430001_1.762b62b2",
+            "passive": ""
         },
         "231": {
             "id": 231,
@@ -2781,7 +3243,9 @@ var cards = {
             "heart": 7484,
             "technical": 12726,
             "physical": 16591,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_070220001_1.248a2200",
+            "passive": ""
         },
         "232": {
             "id": 232,
@@ -2793,7 +3257,9 @@ var cards = {
             "heart": 11884,
             "technical": 11734,
             "physical": 11028,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040220003_1.01b5ed3e",
+            "passive": ""
         },
         "233": {
             "id": 233,
@@ -2805,7 +3271,9 @@ var cards = {
             "heart": 12254,
             "technical": 11908,
             "physical": 12439,
-            "skill": 0.55
+            "skill": 0.55,
+            "icon": "card_icon_040220008_1.9527a022",
+            "passive": ""
         },
         "234": {
             "id": 234,
@@ -2817,7 +3285,9 @@ var cards = {
             "heart": 11581,
             "technical": 12034,
             "physical": 11906,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040220002_1.94e884c7",
+            "passive": ""
         },
         "235": {
             "id": 235,
@@ -2829,7 +3299,9 @@ var cards = {
             "heart": 15271,
             "technical": 6669,
             "physical": 12796,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040220005_1.3090faed",
+            "passive": ""
         },
         "236": {
             "id": 236,
@@ -2841,7 +3313,9 @@ var cards = {
             "heart": 8764,
             "technical": 9879,
             "physical": 8648,
-            "skill": 0.2
+            "skill": 0.2,
+            "icon": "card_icon_030220001_1.819758fc",
+            "passive": ""
         },
         "237": {
             "id": 237,
@@ -2853,7 +3327,9 @@ var cards = {
             "heart": 11148,
             "technical": 12591,
             "physical": 10644,
-            "skill": 0.3
+            "skill": 0.3,
+            "icon": "card_icon_040220001_1.5b08defb",
+            "passive": ""
         },
         "238": {
             "id": 238,
@@ -2865,7 +3341,9 @@ var cards = {
             "heart": 9057,
             "technical": 10668,
             "physical": 9049,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030220002_1.b65becba",
+            "passive": ""
         },
         "239": {
             "id": 239,
@@ -2877,7 +3355,9 @@ var cards = {
             "heart": 11430,
             "technical": 9072,
             "physical": 8065,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030220004_1.4da9d16a",
+            "passive": ""
         },
         "240": {
             "id": 240,
@@ -2889,7 +3369,9 @@ var cards = {
             "heart": 15876,
             "technical": 6817,
             "physical": 11643,
-            "skill": 0.6
+            "skill": 0.6,
+            "icon": "card_icon_040220006_1.62677bb2",
+            "passive": ""
         },
         "241": {
             "id": 241,
@@ -2901,7 +3383,9 @@ var cards = {
             "heart": 12319,
             "technical": 11578,
             "physical": 8475,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030220005_1.4ca2ffbd",
+            "passive": ""
         },
         "242": {
             "id": 242,
@@ -2913,7 +3397,9 @@ var cards = {
             "heart": 15388,
             "technical": 12255,
             "physical": 6883,
-            "skill": 0.55
+            "skill": 0.55,
+            "icon": "card_icon_040220004_1.063c46f6",
+            "passive": ""
         },
         "243": {
             "id": 243,
@@ -2925,7 +3411,9 @@ var cards = {
             "heart": 7606,
             "technical": 12682,
             "physical": 16725,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_070330001_1.ce2d512b",
+            "passive": ""
         },
         "244": {
             "id": 244,
@@ -2937,7 +3425,9 @@ var cards = {
             "heart": 11282,
             "technical": 11555,
             "physical": 11530,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040330002_1.4bf769fb",
+            "passive": ""
         },
         "245": {
             "id": 245,
@@ -2949,7 +3439,9 @@ var cards = {
             "heart": 12162,
             "technical": 10739,
             "physical": 11028,
-            "skill": 0.3
+            "skill": 0.3,
+            "icon": "card_icon_040330001_1.745d3dd6",
+            "passive": ""
         },
         "246": {
             "id": 246,
@@ -2961,7 +3453,9 @@ var cards = {
             "heart": 9311,
             "technical": 8960,
             "physical": 8952,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030330003_1.6e44a28c",
+            "passive": ""
         },
         "247": {
             "id": 247,
@@ -2973,7 +3467,9 @@ var cards = {
             "heart": 11660,
             "technical": 10545,
             "physical": 12795,
-            "skill": 0.6
+            "skill": 0.6,
+            "icon": "card_icon_040330004_1.5c60670e",
+            "passive": ""
         },
         "248": {
             "id": 248,
@@ -2985,7 +3481,9 @@ var cards = {
             "heart": 10962,
             "technical": 11965,
             "physical": 11788,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040330003_1.233599b2",
+            "passive": ""
         },
         "249": {
             "id": 249,
@@ -2997,7 +3495,9 @@ var cards = {
             "heart": 12029,
             "technical": 16789,
             "physical": 7116,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040330007_1.a405f64c",
+            "passive": ""
         },
         "250": {
             "id": 250,
@@ -3009,7 +3509,9 @@ var cards = {
             "heart": 10627,
             "technical": 8438,
             "physical": 8460,
-            "skill": 0.2
+            "skill": 0.2,
+            "icon": "card_icon_030330001_1.61258902",
+            "passive": ""
         },
         "251": {
             "id": 251,
@@ -3021,7 +3523,9 @@ var cards = {
             "heart": 9562,
             "technical": 7786,
             "physical": 10759,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030330004_1.8d2b1474",
+            "passive": ""
         },
         "252": {
             "id": 252,
@@ -3033,7 +3537,9 @@ var cards = {
             "heart": 16092,
             "technical": 12781,
             "physical": 6873,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_070510001_1.d3f98794",
+            "passive": ""
         },
         "253": {
             "id": 253,
@@ -3045,19 +3551,23 @@ var cards = {
             "heart": 11340,
             "technical": 11382,
             "physical": 11952,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040510003_1.20aa8cc0",
+            "passive": ""
         },
         "254": {
             "id": 254,
             "character": "Tsubaki",
-            "cardname": "Birthday Museum",
+            "cardname": "Birthday -Museum-",
             "unit": "Rondo",
             "type": "Cool",
             "rarity": 4,
             "heart": 12841,
             "technical": 11330,
             "physical": 12804,
-            "skill": 0.55
+            "skill": 0.55,
+            "icon": "card_icon_040510007_1.785ee120",
+            "passive": ""
         },
         "255": {
             "id": 255,
@@ -3069,7 +3579,9 @@ var cards = {
             "heart": 11388,
             "technical": 11656,
             "physical": 10259,
-            "skill": 0.55
+            "skill": 0.55,
+            "icon": "card_icon_040510004_1.48ea483f",
+            "passive": ""
         },
         "256": {
             "id": 256,
@@ -3081,7 +3593,9 @@ var cards = {
             "heart": 8922,
             "technical": 10285,
             "physical": 9808,
-            "skill": 0.2
+            "skill": 0.2,
+            "icon": "card_icon_030510001_1.29b427da",
+            "passive": ""
         },
         "257": {
             "id": 257,
@@ -3093,7 +3607,9 @@ var cards = {
             "heart": 9258,
             "technical": 9077,
             "physical": 9353,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030510002_1.16488f63",
+            "passive": ""
         },
         "258": {
             "id": 258,
@@ -3105,7 +3621,9 @@ var cards = {
             "heart": 6650,
             "technical": 16474,
             "physical": 11292,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040510005_1.63270741",
+            "passive": ""
         },
         "259": {
             "id": 259,
@@ -3117,7 +3635,9 @@ var cards = {
             "heart": 10493,
             "technical": 9881,
             "physical": 8021,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030510004_1.c427f8d0",
+            "passive": ""
         },
         "260": {
             "id": 260,
@@ -3129,7 +3649,9 @@ var cards = {
             "heart": 9233,
             "technical": 8701,
             "physical": 9461,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030510003_1.b73670f4",
+            "passive": ""
         },
         "261": {
             "id": 261,
@@ -3141,7 +3663,9 @@ var cards = {
             "heart": 11537,
             "technical": 11633,
             "physical": 10177,
-            "skill": 0.3
+            "skill": 0.3,
+            "icon": "card_icon_040510001_1.4ca92541",
+            "passive": ""
         },
         "262": {
             "id": 262,
@@ -3153,7 +3677,9 @@ var cards = {
             "heart": 11437,
             "technical": 12473,
             "physical": 10808,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040510002_1.4cebcc17",
+            "passive": ""
         },
         "263": {
             "id": 263,
@@ -3165,7 +3691,9 @@ var cards = {
             "heart": 16573,
             "technical": 7454,
             "physical": 12123,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_070230001_1.53ce8f75",
+            "passive": ""
         },
         "264": {
             "id": 264,
@@ -3177,7 +3705,9 @@ var cards = {
             "heart": 8618,
             "technical": 9251,
             "physical": 10509,
-            "skill": 0.2
+            "skill": 0.2,
+            "icon": "card_icon_030230001_1.1374db60",
+            "passive": ""
         },
         "265": {
             "id": 265,
@@ -3189,7 +3719,9 @@ var cards = {
             "heart": 9655,
             "technical": 8513,
             "physical": 9134,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030230002_1.4d2b6c52",
+            "passive": ""
         },
         "266": {
             "id": 266,
@@ -3201,7 +3733,9 @@ var cards = {
             "heart": 11606,
             "technical": 6434,
             "physical": 15233,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040230006_1.fe934862",
+            "passive": ""
         },
         "267": {
             "id": 267,
@@ -3213,7 +3747,9 @@ var cards = {
             "heart": 11490,
             "technical": 11630,
             "physical": 10519,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040230002_1.2c7954f7",
+            "passive": ""
         },
         "268": {
             "id": 268,
@@ -3225,7 +3761,9 @@ var cards = {
             "heart": 12309,
             "technical": 12415,
             "physical": 12072,
-            "skill": 0.55
+            "skill": 0.55,
+            "icon": "card_icon_040230007_1.cf702a90",
+            "passive": ""
         },
         "269": {
             "id": 269,
@@ -3237,7 +3775,9 @@ var cards = {
             "heart": 9729,
             "technical": 10597,
             "physical": 7149,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030230003_1.4c15e9d9",
+            "passive": ""
         },
         "270": {
             "id": 270,
@@ -3249,7 +3789,9 @@ var cards = {
             "heart": 16045,
             "technical": 6243,
             "physical": 11694,
-            "skill": 0.4
+            "skill": 0.4,
+            "icon": "card_icon_040230004_1.21d6a5fc",
+            "passive": ""
         },
         "271": {
             "id": 271,
@@ -3261,7 +3803,9 @@ var cards = {
             "heart": 9774,
             "technical": 9642,
             "physical": 7814,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030230004_1.f68bba02",
+            "passive": ""
         },
         "272": {
             "id": 272,
@@ -3273,7 +3817,9 @@ var cards = {
             "heart": 10610,
             "technical": 10796,
             "physical": 11828,
-            "skill": 0.3
+            "skill": 0.3,
+            "icon": "card_icon_040230001_1.9cca7d92",
+            "passive": ""
         },
         "273": {
             "id": 273,
@@ -3285,7 +3831,9 @@ var cards = {
             "heart": 16624,
             "technical": 11948,
             "physical": 7899,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040230008_1.27725db4",
+            "passive": ""
         },
         "274": {
             "id": 274,
@@ -3297,7 +3845,9 @@ var cards = {
             "heart": 6931,
             "technical": 17495,
             "physical": 11661,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040540008_1.aaa39449",
+            "passive": ""
         },
         "275": {
             "id": 275,
@@ -3309,7 +3859,9 @@ var cards = {
             "heart": 13174,
             "technical": 16305,
             "physical": 6943,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040520007_1.c25e26a2",
+            "passive": ""
         },
         "276": {
             "id": 276,
@@ -3321,7 +3873,9 @@ var cards = {
             "heart": 10191,
             "technical": 13464,
             "physical": 8722,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030530005_1.2e5802fe",
+            "passive": ""
         },
         "277": {
             "id": 277,
@@ -3333,7 +3887,9 @@ var cards = {
             "heart": 8599,
             "technical": 12668,
             "physical": 10603,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030510005_1.16fcc7d7",
+            "passive": ""
         },
         "278": {
             "id": 278,
@@ -3345,7 +3901,9 @@ var cards = {
             "heart": 12628,
             "technical": 11700,
             "physical": 12091,
-            "skill": 0.55
+            "skill": 0.55,
+            "icon": "card_icon_040130010_1.5b528cb3",
+            "passive": ""
         },
         "279": {
             "id": 279,
@@ -3357,7 +3915,9 @@ var cards = {
             "heart": 12191,
             "technical": 11899,
             "physical": 12862,
-            "skill": 0.55
+            "skill": 0.55,
+            "icon": "card_icon_040640009_1.ffda234c",
+            "passive": ""
         },
         "280": {
             "id": 280,
@@ -3369,7 +3929,9 @@ var cards = {
             "heart": 12123,
             "technical": 11200,
             "physical": 8919,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030640005_1.7bba71cd",
+            "passive": ""
         },
         "281": {
             "id": 281,
@@ -3381,7 +3943,9 @@ var cards = {
             "heart": 15868,
             "technical": 6780,
             "physical": 13059,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040610009_1.c85c5121",
+            "passive": ""
         },
         "282": {
             "id": 282,
@@ -3393,7 +3957,9 @@ var cards = {
             "heart": 15982,
             "technical": 12342,
             "physical": 7516,
-            "skill": 0.5
+            "skill": 0.5,
+            "icon": "card_icon_040620009_1.61f8ad85",
+            "passive": ""
         },
         "283": {
             "id": 283,
@@ -3405,7 +3971,51 @@ var cards = {
             "heart": 12194,
             "technical": 8450,
             "physical": 10583,
-            "skill": 0.25
+            "skill": 0.25,
+            "icon": "card_icon_030630006_1.30fbfb56",
+            "passive": ""
+        },
+        "284": {
+            "id": 284,
+            "character": "Saori",
+            "cardname": "Brilliant Neon and Yin Qipao",
+            "unit": "Mermaid",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 16446,
+            "technical": 6726,
+            "physical": 12498,
+            "skill": 0.5,
+            "icon": "card_icon_040430008_1.686b1e62",
+            "passive": ""
+        },
+        "285": {
+            "id": 285,
+            "character": "Rika",
+            "cardname": "Brilliant Neon and Yang Qipao",
+            "unit": "Mermaid",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 16280,
+            "technical": 12990,
+            "physical": 6814,
+            "skill": 0.5,
+            "icon": "card_icon_040410008_1.74c62ca8",
+            "passive": ""
+        },
+        "286": {
+            "id": 286,
+            "character": "Towa",
+            "cardname": "Birthday -Dancehall-",
+            "unit": "Photon",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 12860,
+            "technical": 11910,
+            "physical": 11628,
+            "skill": 0.55,
+            "icon": "card_icon_040330008_1.a0400328",
+            "passive": ""
         }
     }
 
@@ -3417,11 +4027,13 @@ Template
             "cardname": "",
             "unit": "",
             "type": "",
-            "rarity": 4,
+            "rarity": ,
             "heart": ,
             "technical": ,
             "physical": ,
-            "skill": 0.5
+            "skill": ,
+            "icon": "",
+            "passive": ""
         }
 */
 
@@ -3493,7 +4105,9 @@ function generateCardArray() {
             "technical":parseInt(technical + techMod),
             "physical":parseInt(physical + physMod),
             "totalpower":parseInt(heart + heartMod + technical + techMod + physical + physMod),
-            "skill":cards[key].skill
+            "skill":cards[key].skill,
+            "icon":cards[key].icon,
+            "passive":cards[key].passive,
         })
     });
 

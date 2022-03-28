@@ -1,5 +1,5 @@
 .container {
-    width: 800px;
+    width: 1200px;
     min-width: 800px;
 }
 
@@ -31,7 +31,7 @@
 
 .fieldHeader {
     height: 40px;
-    padding-top: 7px;
+    padding-top: 10px;
     font-weight: bold;
 }
 
@@ -276,6 +276,16 @@
 .skilltip:hover .skillintip {
     visibility: visible;
     opacity: 1;
+}
+
+.formsection input {
+    max-width:60%;
+}
+
+#scoreinputs input {
+    display:inline-block;
+    min-width:100px;
+    max-width:60%;
 }
 
 .calcbutton {

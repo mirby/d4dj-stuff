@@ -157,23 +157,30 @@
             <hr>
             <div class="formsection">
                 <form>
-                    <div class="row">
+                    <div style="float:right;" id="imgwrapper">
+                    </div>
+                    <div class="row content">
                         <div class="col-5 col-md-3">
                             <label class="fieldHeader">Character: </label>
                             <div id="charImageWrapper"></div>
                         </div>
-                        <div class="col-5 col-md-6">
+                        <div class="col-5 col-md-3">
                             <label class="fieldHeader">Card Name: </label>
                             <input type="text" class="form-control statfield" name="cardField" disabled>
-                        </div>
-                        <div class="w-100"></div>
-                        <div class="col-5 col-md-3">
-                            <label class="fieldHeader">Unit: </label>
-                            <div id="unitImageWrapper"></div>
                         </div>
                         <div class="col-5 col-md-3">
                             <label class="fieldHeader">Type: </label>
                             <div id="typeImageWrapper"></div>
+                        </div>
+                        <div class="col-5 col-md-3">
+                            <label class="fieldHeader">Unit: </label>
+                            <div id="unitImageWrapper"></div>
+                        </div>
+
+                        <div class="w-100"></div>
+                        <div class="col-5 col-md-3">
+                            <label class="fieldHeader">Extra Training: </label>
+                            <input type="text" class="form-control statfield" name="etField" disabled>
                         </div>
                         <div class="col-5 col-md-3">
                             <label class="fieldHeader">Skill: </label>
@@ -715,42 +722,43 @@
             </div>
             <div id="scoreinputs">
                 <form class="row">
-                    <div class="inputfield col-5 col-md-4" style="width:250px;">
+                    <div class="inputfield col-5 col-md-3" style="min-width:250px;">
                         <label for="scorein">Score</label>
-                        <input type="text" style="display:inline-block;width:100px;" class="form-control" id="scorein" placeholder="1000000" value="1000000">
+                        <input type="text" class="form-control" id="scorein" placeholder="1000000" value="1000000">
                     </div>
-                    <div class="inputfield col-5 col-md-4">
+                    <div class="inputfield col-5 col-md-3">
                         <span class="roomtip">
                             <label for="roomscorein">Room Score</label>
                             <span class="roomscoretip">
                                 Room score only applies to Multi-Medley calculation. Leaving it empty defaults to 4 times the Score.
                             </span>
                         </span>
-                        <input type="text" style="display:inline-block;width:100px;" class="form-control" id="roomscorein" placeholder="4000000">
+                        <input type="text" class="form-control" id="roomscorein" placeholder="4000000">
                     </div>
-                    <div class="inputfield col-5 col-md-4">
+                    <div class="inputfield col-5 col-md-3">
                         <span class="skilltip">
                             <label for="skillin">Skills</label>
                             <span class="skillintip">
                                 Highest skill always assumed to be activated for encore.
                             </span>
                         </span>
-                        <input type="text" style="display:inline-block;width:120px;" class="form-control" id="skillin" placeholder="50,50,50,50">
+                        <input type="text" class="form-control" id="skillin" placeholder="50,50,50,50">
                     </div>
                     <div class="w-100"></div>
-                    <div class="inputfield col-5 col-md-4 input-group" style="width:250px;">
-                        <label style="padding-top:5px;padding-right:7px;" for="bonussel">Bonus</label>
-                        <input type="text" class="form-control" id="teambonus" name="teambonus" style="width:100px;flex:0 0 auto;" aria-describedby="bonusaddon">
-                        <span class="input-group-text" id="bonusaddon">%</span>
+                    <div class="inputfield col-5 col-md-3">
+                        <div class="input-group">
+                            <label style="padding-top:5px;padding-right:7px;" for="bonussel">Bonus</label>
+                            <input type="text" class="form-control" id="teambonus" name="teambonus" style="width:100px;flex:0 0 auto;" aria-describedby="bonusaddon">
+                            <span class="input-group-text" id="bonusaddon">%</span>
+                        </div>
                     </div>
-                    <div class="inputfield col-5 col-md-5">
-                        <label for="paramsel">Param</label>
+                    <div class="inputfield col-5 col-md-3">
                         <select class="selectpicker paramselect" name="paramsel" id="paramsel" data-width="fit">
                             <option value="heart" data-content="Heart">Heart</option>
                             <option value="tech" data-content="Technical">Technical</option>
                             <option value="phys" data-content="Physical">Physical</option>
                         </select>
-                        <input type="text" style="display:inline-block;width:100px;" class="form-control" id="paramselout" name="paramselout">
+                        <input type="text" class="form-control" id="paramselout" name="paramselout">
                     </div>
                     <div class="inputfield col-5 col-md-2">
                         <label for="voltsel">Volts</label>

@@ -164,6 +164,7 @@ function fillStat(cardId) {
             document.getElementById("charImageWrapper").removeChild(document.getElementById("charImageWrapper").firstChild);
             document.getElementById("unitImageWrapper").removeChild(document.getElementById("unitImageWrapper").firstChild);
             document.getElementById("typeImageWrapper").removeChild(document.getElementById("typeImageWrapper").firstChild);
+            document.getElementById("imgwrapper").removeChild(document.getElementById("imgwrapper").firstChild);
             document.querySelector('input[name="cardField"]').value = "";
             document.querySelector('input[name="heartField"]').value = "";
             document.querySelector('input[name="techField"]').value = "";
@@ -183,7 +184,18 @@ function fillStat(cardId) {
     var skill = Math.round(cards[cardId].skill * 100);
     document.querySelector('input[name="skillField"]').value = skill.toString() + "%";
 
-    var img = document.createElement('img');
+    var img = document.createElement("img");
+    img.src = "https://qwewqa.github.io/miyu-data/ondemand/card_icon/" + obj.icon.toString() + ".jpg";
+    img.classList.add("img-thumbnail");
+    img.width = '200';
+    img.height = '200';
+    img.title = obj.character;
+    if (document.getElementById("imgwrapper").hasChildNodes()) {
+        document.getElementById("imgwrapper").removeChild(document.getElementById("imgwrapper").firstChild);
+    }
+    document.getElementById("imgwrapper").appendChild(img);
+    
+    img = document.createElement('img');
     img.src = "../icons/icon_" + obj.character.toLowerCase() + ".png";
     img.width = '50';
     img.height = '50';
