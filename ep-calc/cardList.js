@@ -4016,6 +4016,62 @@ var cards = {
             "skill": 0.55,
             "icon": "card_icon_040330008_1.a0400328",
             "passive": ""
+        },
+        "287": {
+            "id": 287,
+            "character": "Esora",
+            "cardname": "Lollipop paints",
+            "unit": "Peaky",
+            "type": "Cool",
+            "rarity": 3,
+            "heart": 7414,
+            "technical": 9647,
+            "physical": 10324,
+            "skill": .25,
+            "icon": "card_icon_030240004_1.74d91247",
+            "passive": ""
+        },
+        "288": {
+            "id": 288,
+            "character": "Rinku",
+            "cardname": "Melting summer",
+            "unit": "HapiAra",
+            "type": "Cool",
+            "rarity": 3,
+            "heart": 9687,
+            "technical": 7635,
+            "physical": 10174,
+            "skill": .25,
+            "icon": "card_icon_030110004_1.e6d53e42",
+            "passive": ""
+        },
+        "289": {
+            "id": 289,
+            "character": "Kyoko",
+            "cardname": "A bright smile",
+            "unit": "Peaky",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 12742,
+            "technical": 7012,
+            "physical": 15350,
+            "skill": .60,
+            "icon": "card_icon_040210006_1.f0b5b2ea",
+            "passive": ""
+        },
+        "290": {
+            "id": 290,
+            "character": "Saki",
+            "cardname": "Nightlight of a star",
+            "unit": "Photon",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 6527,
+            "technical": 12150,
+            "physical": 16498,
+            "skill": .60,
+            "icon": "card_icon_040310007_1.4ea1f344",
+            "passive": ""
         }
     }
 
