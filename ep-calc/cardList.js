@@ -4072,6 +4072,76 @@ var cards = {
             "skill": .60,
             "icon": "card_icon_040310007_1.4ea1f344",
             "passive": ""
+        },
+        "291": {
+            "id": 291,
+            "character": "Shinobu",
+            "cardname": "Fast Temp Music-Crossfader",
+            "unit": "Peaky",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 7174,
+            "technical": 13335,
+            "physical": 16181,
+            "skill": .50,
+            "icon": "card_icon_040220009_1.7eb621c6",
+            "passive": ""
+        },
+        "292": {
+            "id": 292,
+            "character": "Hiiro",
+            "cardname": "Mischievous Schemer",
+            "unit": "Rondo",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 12036,
+            "technical": 7398,
+            "physical": 17054,
+            "skill": .50,
+            "icon": "card_icon_040530008_1.9a21b341",
+            "passive": ""
+        },
+        "293": {
+            "id": 293,
+            "character": "Ibuki",
+            "cardname": "True Self",
+            "unit": "Photon",
+            "type": "Cool",
+            "rarity": 3,
+            "heart": 8271,
+            "technical": 10175,
+            "physical": 12970,
+            "skill": .25,
+            "icon": "card_icon_030320005_1.43b376e0",
+            "passive": ""
+        },
+        "294": {
+            "id": 294,
+            "character": "Aoi",
+            "cardname": "The Fascinating Predecessor",
+            "unit": "Rondo",
+            "type": "Cool",
+            "rarity": 3,
+            "heart": 10798,
+            "technical": 8282,
+            "physical": 12294,
+            "skill": .25,
+            "icon": "card_icon_030540005_1.0e4fca61",
+            "passive": ""
+        },
+        "295": {
+            "id": 295,
+            "character": "Ibuki",
+            "cardname": "Birthday -Dancehall-",
+            "unit": "Photon",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 12369,
+            "technical": 11297,
+            "physical": 13049,
+            "skill": .55,
+            "icon": "card_icon_040320009_1.584bb247",
+            "passive": ""
         }
     }
 
