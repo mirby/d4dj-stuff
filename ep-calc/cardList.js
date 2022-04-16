@@ -4076,7 +4076,7 @@ var cards = {
         "291": {
             "id": 291,
             "character": "Shinobu",
-            "cardname": "Fast Temp Music-Crossfader",
+            "cardname": "Fast Tempo Music-Crossfader",
             "unit": "Peaky",
             "type": "Cool",
             "rarity": 4,
@@ -4141,6 +4141,62 @@ var cards = {
             "physical": 13049,
             "skill": .55,
             "icon": "card_icon_040320009_1.584bb247",
+            "passive": ""
+        },
+        "296": {
+            "id": 296,
+            "character": "Noa",
+            "cardname": "The Promised Bench",
+            "unit": "Photon",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 7086,
+            "technical": 12802,
+            "physical": 17087,
+            "skill": .6,
+            "icon": "card_icon_040340008_1.952e2d77",
+            "passive": ""
+        },
+        "297": {
+            "id": 297,
+            "character": "Kurumi",
+            "cardname": "Putting Dreams On A Rocket",
+            "unit": "LyriLily",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 12852,
+            "technical": 7108,
+            "physical": 17160,
+            "skill": .6,
+            "icon": "card_icon_040630008_1.bebc5ffc",
+            "passive": ""
+        },
+        "298": {
+            "id": 298,
+            "character": "Rinku",
+            "cardname": "Stars Seen From Mistletoe",
+            "unit": "HapiAra",
+            "type": "Cool",
+            "rarity": 3,
+            "heart": 8747,
+            "technical": 10886,
+            "physical": 12488,
+            "skill": .25,
+            "icon": "card_icon_030110005_1.d1748f52",
+            "passive": ""
+        },
+        "299": {
+            "id": 299,
+            "character": "Miyu",
+            "cardname": "Bond Of Sakura",
+            "unit": "LyriLily",
+            "type": "Cool",
+            "rarity": 3,
+            "heart": 10821,
+            "technical": 8698,
+            "physical": 12412,
+            "skill": .25,
+            "icon": "card_icon_030610007_1.df49e592",
             "passive": ""
         }
     }
