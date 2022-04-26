@@ -750,6 +750,10 @@ function getClubPerc(selectId, charId) {
         if (document.getElementById("m" + charId + "_char").innerText.toLowerCase() === clubItemCheck[clubVal].name) {
             clubPerc = clubItemCheck[clubVal].bonus;
         }
+    } else if (clubItemCheck[clubVal].type === "type") {
+        if (document.getElementById("m" + charId + "_type").innerText.toLowerCase() === clubItemCheck[clubVal].name) {
+            clubPerc = clubItemCheck[clubVal].bonus;
+        }
     } else {
         clubPerc = clubItemCheck[clubVal].bonus;
     }
