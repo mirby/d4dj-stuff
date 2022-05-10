@@ -4296,6 +4296,76 @@ var cards = {
             "skill": .25,
             "icon": "card_icon_030110006_1.cd9d3417",
             "passive": ""
+        },
+        "307": {
+            "id": 307,
+            "character": "Ibuki",
+            "cardname": "Aimed At Bad Hearts",
+            "unit": "Photon",
+            "type": "Party",
+            "rarity": 3,
+            "heart": 10913,
+            "technical": 8102,
+            "physical": 12532,
+            "skill": .25,
+            "icon": "card_icon_030320006_1.7e9015c4",
+            "passive": "Life Boost 1-2.5%"
+        },
+        "308": {
+            "id": 308,
+            "character": "Saki",
+            "cardname": "Safety Is In The Voice",
+            "unit": "Photon",
+            "type": "Party",
+            "rarity": 3,
+            "heart": 10271,
+            "technical": 8802,
+            "physical": 12264,
+            "skill": .25,
+            "icon": "card_icon_030310005_1.84a7d39f",
+            "passive": "Auto Boost 1.5-2.5%"
+        },
+        "309": {
+            "id": 309,
+            "character": "Noa",
+            "cardname": "Overlooked Escape Routes",
+            "unit": "Photon",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 7070,
+            "technical": 13114,
+            "physical": 15850,
+            "skill": .5,
+            "icon": "card_icon_040340009_1.8de4de01",
+            "passive": "Auto Boost 2.5-6.5%"
+        },
+        "310": {
+            "id": 310,
+            "character": "Towa",
+            "cardname": "Hunt Down with White Wings",
+            "unit": "Photon",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 7345,
+            "technical": 12262,
+            "physical": 16683,
+            "skill": .5,
+            "icon": "card_icon_040330009_1.1364a0c0",
+            "passive": "Life Boost 2.5-6.25%"
+        },
+        "311": {
+            "id": 311,
+            "character": "Saki",
+            "cardname": "Birthday -Dancehall-",
+            "unit": "Photon",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 12547,
+            "technical": 12061,
+            "physical": 12337,
+            "skill": .55,
+            "icon": "card_icon_040310010_1.a051b5a6",
+            "passive": "Life Boost 2.5-7.5%"
         }
     }
 
