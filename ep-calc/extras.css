@@ -11,6 +11,11 @@
     padding-top:15px
 }
 
+.sectionHeader p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
 .d4dj_filter {
     display: inline;
     padding-right: 10px;
@@ -56,7 +61,7 @@
     padding-bottom: 15px;
 }
 
-#overallSection, .tab-pane {
+#overallSection, .tabpane1 {
     padding-left: 15px;
 }
 
@@ -288,6 +293,12 @@
     max-width:60%;
 }
 
+#scoreinputs2 input {
+    display:inline-block;
+    min-width:100px;
+    max-width:60%;
+}
+
 .calcbutton {
     padding-top: 10px;
 }
@@ -296,7 +307,78 @@ fieldset {
     padding: 10px;
 }
 
-.fieldsetactive {
-    border: solid;
-    border-width: thin;
+.power2tip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+  
+.power2tip .power2intip {
+    visibility: hidden;
+    width: 240px;
+    background-color: rgba(62,62,62,0.91);
+    color: #fff;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    top: -100%;
+    left: 105%;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.power2tip .power2intip::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent rgba(62,62,62,0.91) transparent transparent;
+}
+
+.power2tip:hover .power2intip {
+    visibility: visible;
+    opacity: 1;
+}
+
+.paramtip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+  
+.paramtip .paramoptiontip {
+    visibility: hidden;
+    width: 240px;
+    background-color: rgba(62,62,62,0.91);
+    color: #fff;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    top: -100%;
+    left: 105%;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.paramtip .paramoptiontip::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent rgba(62,62,62,0.91) transparent transparent;
+}
+
+.paramtip:hover .paramoptiontip {
+    visibility: visible;
+    opacity: 1;
 }

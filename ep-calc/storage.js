@@ -36,16 +36,12 @@ jQuery(function($) {
                     }
                 });
             }
-    
+
             // Initialize event
             if (jsonObj["event"]) {
-                jsonObj["event"].forEach(function(x) {
-                    for (var key in x) {
-                        $("select[name=" + key + "]").val(x[key]);
-                    }
-                });
+                $("select[name=eventselector]").val(jsonObj["event"][0].eventid);
+                fillEventDisplay();
             }
-            displayCharSelect($('#eventtype').val());
     
             // Initialize club
             if (jsonObj["club"]) {
@@ -105,13 +101,7 @@ function saveData() {
 
     // Event info
     var eventSave = [];
-    eventSave.push({"eventbonus1":document.getElementById("eventbonus1").value});
-    eventSave.push({"eventbonus2":document.getElementById("eventbonus2").value});
-    eventSave.push({"eventbonus3":document.getElementById("eventbonus3").value});
-    eventSave.push({"eventbonus4":document.getElementById("eventbonus4").value});
-    eventSave.push({"eventbonus":document.getElementById("eventbonus").value});
-    eventSave.push({"eventstyle":document.getElementById("eventstyle").value});
-    eventSave.push({"eventtype":document.getElementById("eventtype").value});
+    eventSave.push({"eventid":document.getElementById("eventid").innerHTML});
 
     // Team info
     var teamSave = [];
@@ -164,9 +154,10 @@ function removeData() {
     var storage = window.localStorage;
     if (confirm("Are you sure you want to clear all saved data?")) {
         storage.clear();
+        localEt = new Map();
 
         refreshClubSelects();
-        refreshEventSelects();
+        refreshEventSelect();
         refreshParamSelects();
         refreshMainTeam();
         refreshSupportTeam();
@@ -199,13 +190,9 @@ function loadData() {
 
         // Initialize event
         if (jsonObj["event"]) {
-            jsonObj["event"].forEach(function(x) {
-                for (var key in x) {
-                    $("select[name=" + key + "]").val(x[key]);
-                }
-            });
+            $("select[name=eventselector]").val(jsonObj["event"][0].eventid);
+            fillEventDisplay();
         }
-        displayCharSelect($('#eventtype').val());
 
         // Initialize club
         if (jsonObj["club"]) {
@@ -221,7 +208,7 @@ function loadData() {
         // if doesnt exist, refresh the page items
         console.log("Profile " + profile + " does not exist.");
         refreshClubSelects();
-        refreshEventSelects();
+        refreshEventSelect();
         refreshMainTeam();
         refreshSupportTeam();
     }

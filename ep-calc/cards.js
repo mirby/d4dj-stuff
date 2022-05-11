@@ -1,7 +1,6 @@
 var refreshSelect1;
 var refreshSelect2;
 var refreshSelect3;
-var refreshEventSelect;
 var refreshParamSelect;
 var refreshParamSelect2;
 
@@ -16,10 +15,6 @@ $(document).ready(function() {
 
     $.refreshSelect3 = function(id) {
         $('.selectpicker#' + id + '_et').selectpicker('refresh');
-    };
-
-    $.refreshEventSelect = function() {
-        $('.selectpicker.eventselect').selectpicker('refresh');
     };
 
     $.refreshParamSelect = function() {
@@ -40,7 +35,8 @@ $(document).on('changed.bs.select', 'select', function(event) {
         populateCharSelect();
     }
 
-    if ($(event.target).is("select.eventselect")) {
+    if ($(event.target).is("select#eventselector")) {
+        fillEventDisplay();
         calcEventPower();
         calcDisplayPower();
     } else if ($(event.target).is("select.etselect")) {
@@ -59,8 +55,6 @@ $(document).on('changed.bs.select', 'select', function(event) {
         calcEventPower();
         calcDisplayPower();
         calcDisplayParams();
-    } else if ($(event.target).is("select.paramselect")) {
-        document.getElementById("paramselout").value = document.getElementById("paramtotal_" + $(this).val()).innerHTML;
     }
 });
 
@@ -127,6 +121,9 @@ jQuery(function($) {
     });
 });
 
+/*
+    Add a card to team
+*/
 function populateTeam(selection, cardId) {
     if (cardId) {
         document.getElementById(selection + "_id").innerHTML = cardId;
@@ -396,14 +393,14 @@ function generateFilters(arr) {
 }
 
 // Display the event char bonus select if event type is medley, hide otherwise
-function displayCharSelect(eventtype) {
-    if (eventtype === "event-medley") {
-        document.getElementById("medleychar").style.display = "block";
-        populateCharSelect();
-    } else {
-        document.getElementById("medleychar").style.display = "none";
-    }
-}
+// function displayCharSelect(eventtype) {
+//     if (eventtype === "event-medley") {
+//         document.getElementById("medleychar").style.display = "block";
+//         populateCharSelect();
+//     } else {
+//         document.getElementById("medleychar").style.display = "none";
+//     }
+// }
 
 // Populate the character select based on current event chars
 function populateCharSelect() {
@@ -474,28 +471,6 @@ function createCharacterFilters() {
             generateFilters(cardArray);
         });
     });
-
-    // Create event bonus character filters
-    for (var i = 1; i < 5; i++) {
-        var select = document.createElement("select");
-        select.name = "eventbonus" + i;
-        select.id = "eventbonus" + i;
-        select.classList.add("selectpicker");
-        select.classList.add("eventbonuschar");
-        select.classList.add("eventselect");
-        select.setAttribute("data-width","fit");
-        select.setAttribute("data-size","10");
-
-        characters.forEach(function(x) {
-            var option = document.createElement("option");
-            option.value = "bonus" + x;
-            option.setAttribute("data-tokens", x.toLowerCase());
-            option.setAttribute("data-content","<img src='../icons/icon_" + x.toLowerCase() + ".png' width='30' height='30'></img>" + ' ' + x);
-            select.appendChild(option);
-        });
-
-        document.getElementById("bonus" + i).appendChild(select);
-    }
 
     // Create character param filters
     var table = document.getElementById("paramtable");
@@ -677,8 +652,6 @@ function calcModPower() {
             }
         }
     }
-
-    document.getElementById("skillin").value = skillList.slice(0, -1);
 }
 
 // Anytime club items are changed, recalculate club power
@@ -762,10 +735,8 @@ function getClubPerc(selectId, charId) {
 }
 
 function calcEventPower() {
-    var totalPercGain = 0;
     for (let i = 1; i <= 4; i++) {
         var eventPercGain = getEventPerc(i);
-        totalPercGain += eventPercGain;
 
         var heartMod = parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) || 0;
         var techMod = parseInt(document.getElementById("m" + i + "_techmod").innerHTML) || 0;
@@ -778,23 +749,26 @@ function calcEventPower() {
 
         document.getElementById("m" + i + "_eventbonus").innerHTML = eventTotal;
     }
-    document.getElementById("teambonus").innerHTML = totalPercGain;
-    document.getElementById("teambonus").value = Math.round(totalPercGain * 100);
 }
 
 function getEventPerc(charId) {
     
+    var eventId = document.getElementById("eventid").innerHTML;
+
     // For each char bonus, check if char matches
-    var character = "bonus" + document.getElementById("m" + charId + "_char").innerText.toLowerCase();
+    var character = document.getElementById("m" + charId + "_char").innerText.toLowerCase();
     var charBonus = false;
-    for (var i = 1; i <= 4; i++) {
-        if (character === document.getElementById("eventbonus" + i).value.toLowerCase()) {
-            charBonus = true;
+    if (eventList[eventId].characters !== "None") {
+        var charArray = eventList[eventId].characters.split(",");
+        for (let x of charArray) {
+            if (character === x.toLowerCase()) {
+                charBonus = true;
+            }
         }
     }
 
-    var style = "event-" + document.getElementById("m" + charId + "_type").innerText.toLowerCase();
-    var styleBonus = (style === document.getElementById("eventstyle").value);
+    var style = document.getElementById("m" + charId + "_type").innerText.toLowerCase();
+    var styleBonus = (style === document.getElementById("eventstyleval").innerHTML.toLowerCase());
 
     var eventPerc = 0;
     if (charBonus) {
@@ -805,7 +779,7 @@ function getEventPerc(charId) {
         eventPerc += .2;
     }
 
-    if ("event-yes" === document.getElementById("eventbonus").value && (eventPerc == .4)) {
+    if ("Yes" === document.getElementById("eventbonus").innerHTML && (eventPerc == .4)) {
         eventPerc += .1;
     }
 
@@ -857,8 +831,6 @@ function calcDisplayParams() {
     document.getElementById("paramtotal_phys").innerHTML = totalPhys;
     document.getElementById("paramtotal_physep").innerHTML = Math.round(((totalPhys / 600) + Number.EPSILON) * 100) / 100;
 
-    document.getElementById("paramsel").value = highest;
-    document.getElementById("paramselout").value = document.getElementById("paramtotal_" + highest).innerHTML;
     $.refreshParamSelect2();
 }
 
@@ -911,18 +883,6 @@ function refreshSupportTeam() {
         document.getElementById(selection + "_supportpower").innerHTML = "";
         $.refreshSelect3(selection);
     }    
-}
-
-function refreshEventSelects() {
-    for (var i = 1; i <= 4; i++) {
-        document.getElementById("eventbonus" + i).value = "bonusRinku";
-    }
-
-    document.getElementById("eventbonus").value = "event-yes";
-    document.getElementById("eventstyle").value = "event-cute";
-    document.getElementById("eventtype").value = "event-poker";
-    displayCharSelect("event-poker");
-    $.refreshEventSelect();
 }
 
 function refreshParamSelects() {

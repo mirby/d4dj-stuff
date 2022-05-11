@@ -12,8 +12,10 @@
     <script src="cardList.js"></script>
     <script src="cards.js"></script>
     <script src="club.js"></script>
+    <script src="event.js"></script>
     <script src="storage.js"></script>
     <script src="scoring.js"></script>
+    <script src="chartData.js"></script>
   </head>
   <body>
     <div id="overallSection" class="container">
@@ -88,7 +90,7 @@
         </ul>
     </div>
     <div class="tab-content container" id="tabContent">
-        <div class="tab-pane fade show active" id="cardSection" role="tabpabel" aria-labelledby="cardSection-tab">
+        <div class="tab-pane tabpane1 fade show active" id="cardSection" role="tabpabel" aria-labelledby="cardSection-tab">
             <div class="sectionHeader">
                 <a id="showFilter" class="btn btn-primary" data-bs-toggle="collapse" href="#filters" role="button" aria-expanded="false" aria-controls="filters">Show Filters</a>
                 <a id="clearFilters" class="btn btn-primary" role="button">Clear Filters</a>
@@ -584,7 +586,7 @@
                 </table>
             </div>
         </div>
-        <div class="tab-pane fade" id="clubSection" role="tabpabel" aria-labelledby="clubSection-tab">
+        <div class="tab-pane tabpane1 fade" id="clubSection" role="tabpabel" aria-labelledby="clubSection-tab">
             <div class="sectionHeader">
                 <h4>Club Items</h4>
                 <label><b>Important Note:</b> Some club item types may not yet exist, or you may not yet own them. Check your club to be sure.</label>
@@ -642,73 +644,67 @@
                 </form>
             </div>
             <hr>
-            <div id="eventbonusSection">
+            <div id="eventsection">
                 <div>
-                    <h4>Event Bonuses</h4>
+                    <h4>Event</h4>
                 </div>
-                <div>
-                    <form>
-                        <div class="row">
-                            <div class="selectDiv col-5 col-sm-3">
-                                <label>Bonus Char 1:</label>
-                                <div id="bonus1"></div>
-                            </div>
-                            <div class="selectDiv col-5 col-sm-3">
-                                <label>Bonus Char 2:</label>
-                                <div id="bonus2"></div>
-                            </div>
-                            <div class="selectDiv col-5 col-sm-3">
-                                <label>Bonus Char 3:</label>
-                                <div id="bonus3"></div>
-                            </div>
-                            <div class="selectDiv col-5 col-sm-3">
-                                <label>Bonus Char 4:</label>
-                                <div id="bonus4"></div>
-                            </div>
-                            <div class="w-100"></div>
-                            <div class="selectDiv col-5 col-sm-3">
-                                <label>Extra 10% Bonus?</label>
-                                <div>
-                                    <select class="selectpicker eventselect" name="eventbonus" id="eventbonus" data-width="fit">
-                                        <option value="event-yes" data-content="Yes">Yes</option>
-                                        <option value="event-no" data-content="No">No</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="selectDiv col-5 col-sm-3">
-                                <label>Event Style:</label>
-                                <div>
-                                    <select class="selectpicker eventselect" name="eventstyle" id="eventstyle" data-width="fit">
-                                        <option value="event-cute" data-content="<img src='../icons/type_cute.png' width='20' height='20'></img> Cute">Cute</option>
-                                        <option value="event-party" data-content="<img src='../icons/type_party.png' width='20' height='20'></img> Party">Party</option>
-                                        <option value="event-cool" data-content="<img src='../icons/type_cool.png' width='20' height='20'></img> Cool">Cool</option>
-                                        <option value="event-elegant" data-content="<img src='../icons/type_elegant.png' width='20' height='20'></img> Elegant">Elegant</option>
-                                        <option value="event-street" data-content="<img src='../icons/type_street.png' width='20' height='20'></img> Street">Street</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="selectDiv col-5 col-sm-3">
-                                <label>Event Type:</label>
-                                <div>
-                                    <select class="selectpicker eventselect" name="eventtype" id="eventtype" data-width="fit">
-                                        <option value="event-poker" data-content="Poker">Poker</option>
-                                        <option value="event-bingo" data-content="Bingo">Bingo</option>
-                                        <option value="event-medley" data-content="Medley">Medley</option>
-                                        <option value="event-slots" data-content="Slots">Slots</option>
-                                        <option value="event-raid" data-content="Raid">Raid</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div id="medleychar" class="selectDiv col-5 col-sm-3" style="display:none">
-                                <label>Medley Char Bonus:</label>
-                                <div id="event-char"></div>
-                            </div>
+                <div id="eventselector_wrapper"></div>
+                <div id="eventdisplay">
+                    <div style="margin-top:2rem;margin-bottom:2rem;">
+                        <div style="max-width:612px;margin-left:auto;margin-right:auto;">
+                            <div id="eventimg_wrapper"></div>
                         </div>
-                    </form>
+                    </div>
+                    <div style="max-width:600px;margin-left:auto;margin-right:auto;">
+                        <table style="width:100%;">
+                            <tbody style="line-height:2;">
+                                <tr style="display:none" id="eventid">
+                                </tr>
+                                <tr>
+                                    <td style="padding-top:5px;padding-bottom:5px;">Name:</td>
+                                    <td style="padding-top:5px;padding-bottom:5px;text-align:right;" colspan="2">
+                                        <b><div id="eventname"></div></b>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-top:5px;padding-bottom:5px;">Members:</td>
+                                    <td style="padding-top:5px;padding-bottom:5px;text-align:right;" colspan="2">
+                                        <div id="eventmembers"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-top:5px;padding-bottom:5px;">Type:</td>
+                                    <td style="padding-top:5px;padding-bottom:5px;text-align:right;" colspan="2">
+                                        <div id="eventtype"></div>
+                                    </td>
+                                </tr>
+                                <tr style="display:none" id="eventstyleval">
+                                </tr>
+                                <tr>
+                                    <td style="padding-top:5px;padding-bottom:5px;">Style:</td>
+                                    <td style="padding-top:5px;padding-bottom:5px;text-align:right;" colspan="2">
+                                        <div id="eventstyle"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-top:5px;padding-bottom:5px;">Target Param:</td>
+                                    <td style="padding-top:5px;padding-bottom:5px;text-align:right;" colspan="2">
+                                        <div id="eventparam"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-top:5px;padding-bottom:5px;">Extra Matching Bonus?</td>
+                                    <td style="padding-top:5px;padding-bottom:5px;text-align:right;" colspan="2">
+                                        <div id="eventbonus"></div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="tab-pane fade" id="paramSection" role="tabpabel" aria-labelledby="paramSection-tab">
+        <div class="tab-pane tabpane1 fade" id="paramSection" role="tabpabel" aria-labelledby="paramSection-tab">
             <div class="sectionHeader">
                 <h4>Parameter Upgrades</h4>
             </div>
@@ -716,145 +712,185 @@
                 <table id="paramtable" class="table table-bordered"></table>
             </div>
         </div>
-        <div class="tab-pane fade" id="scoreSection" role="tabpabel" aria-labelledby="scoreSection-tab">
-            <div class="sectionHeader">
-                <h4>Inputs</h4>
+        <div class="tab-pane tabpane1 fade" id="scoreSection" role="tabpabel" aria-labelledby="scoreSection-tab">
+            <div id="tab-headers2" class="sectionHeader">
+                <ul class="nav nav-pills" id="myTab2" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="btn btn-outline-info active" id="calcPower-tab" data-bs-toggle="tab" data-bs-target="#calcPower" type="button" role="tab" aria-controls="calcPower" aria-selected="true">Calculate EP by Power</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="btn btn-outline-info" id="calcScore-tab" data-bs-toggle="tab" data-bs-target="#calcScore" type="button" role="tab" aria-controls="calcScore" aria-selected="false">Calculate EP by Score</button>
+                    </li>
+                </ul>
             </div>
-            <div id="scoreinputs">
-                <form class="row">
-                    <div class="inputfield col-5 col-md-3" style="min-width:250px;">
-                        <label for="scorein">Score</label>
-                        <input type="text" class="form-control" id="scorein" placeholder="1000000" value="1000000">
+            <div class="tab-content" id="tabContent2">
+                <div class="tab-pane fade show active" id="calcPower" role="tabpabel" aria-labelledby="calcPower-tab">
+                    <div id="scoreinputs" class="container">
+                        <form class="row justify-content-center p-3">
+                            <div class="col-auto">
+                                <div>
+                                    <div class="sectionHeader">
+                                        <p>Inputs</p>
+                                    </div>
+                                    <label style="margin-top:15px;width:150px" for="powerin">Power</label>
+                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="powerin" placeholder="250000" value="250000"><br>
+                                    <span style="margin-top:15px;display:inline-block;width:150px">
+                                        <span class="power2tip">
+                                            <label for="power2in">Power (Event)</label>
+                                            <span class="power2intip">
+                                                If event has event bonus (Bingo and Medley), put the bigger number here.
+                                            </span>
+                                        </span>
+                                    </span>
+                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="powerin2" placeholder="300000" value="300000"><br>
+                                    <span style="margin-top:15px;display:inline-block;width:150px">
+                                        <span class="roomtip">
+                                            <label for="roomscorein">Room Score</label>
+                                            <span class="roomscoretip">
+                                                Room score only applies to Multi-Medley calculation. Leaving it empty defaults to 4 times your Score.
+                                            </span>
+                                        </span>
+                                    </span>
+                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="roomscorein" placeholder="4000000"><br>
+                                    <span style="margin-top:15px;display:inline-block;width:150px">
+                                        <span class="skilltip">
+                                            <label for="skillin">Skills</label>
+                                            <span class="skillintip">
+                                                Skill in 4th slot will be used again for 5th skill (encore).
+                                            </span>
+                                        </span>
+                                    </span>
+                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="skillin" placeholder="50,50,50,50" value="50,50,50,50"><br>
+                                    <label style="margin-top:15px;width:150px" for="teambonus">Bonus %</label>
+                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="teambonus" name="teambonus" placeholder="200" value="200"><br>
+                                    <span style="margin-top:15px;display:inline-block;width:150px">
+                                        <span class="paramtip">
+                                            <label for="paramselout">Parameter</label>
+                                            <span class="paramoptiontip">
+                                                If the event is Bingo or Medley, you MUST go to Free Live unit select screen to see the actual parameter value.
+                                            </span>
+                                        </span>
+                                    </span>
+                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="paramselout" placeholder="75000" value="75000"><br>
+                                    <label style="margin-top:15px;width:150px" for="voltsel">Volts</label>
+                                    <select class="selectpicker voltselect" name="voltsel" id="voltsel" data-width="fit">
+                                        <option value="1" data-content="1">1</option>
+                                        <option value="2" data-content="2">2</option>
+                                        <option value="3" data-content="3">3</option>
+                                        <option value="4" data-content="4">4</option>
+                                        <option value="5" data-content="5" selected>5</option>
+                                    </select><br>
+                                    <label style="margin-top:15px;width:150px" for="eventsel">Event</label>
+                                    <select class="selectpicker voltselect" name="eventsel" id="eventsel" data-width="fit">
+                                        <option value="poker" data-content="Poker">Poker</option>
+                                        <option value="bingo" data-content="Bingo">Bingo</option>
+                                        <option value="medley" data-content="Medley">Medley</option>
+                                        <option value="slots" data-content="Slots">Slots</option>
+                                        <option value="raid" data-content="Raid">Raid</option>
+                                    </select><br>
+                                    <div class="sectionHeader">
+                                        <p>Passive Skills</p>
+                                    </div>
+                                    <label style="margin-top:15px;width:150px" for="pass_gt">Groovy Score %</label>
+                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="pass_gt" placeholder="0" value="0"><br>
+                                    <label style="margin-top:15px;width:150px" for="pass_life">Life Boost %</label>
+                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="pass_life" placeholder="0" value="0"><br>
+                                    <label style="margin-top:15px;width:150px" for="pass_auto">Auto %</label>
+                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="pass_auto" placeholder="0" value="0"><br>
+                                </div>
+                                <div class="calcbutton">
+                                    <a id="calculateteam" class="btn btn-primary" role="button">Calculate EP</a>
+                                </div>
+                            </div>
+                            <div class="vr" style="padding:0"></div>
+                            <div class="col-auto">
+                                <div>
+                                    <div class="sectionHeader">
+                                        <p>Output</p>
+                                    </div>
+                                    <div id="scoreoutputs">
+                                        <div style="width:400px;">
+                                            <table id="outputtable" style="width:100%;">
+                                                <tbody id="outputtbody" style="line-height:2;">
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
                     </div>
-                    <div class="inputfield col-5 col-md-3">
-                        <span class="roomtip">
-                            <label for="roomscorein">Room Score</label>
-                            <span class="roomscoretip">
-                                Room score only applies to Multi-Medley calculation. Leaving it empty defaults to 4 times the Score.
-                            </span>
-                        </span>
-                        <input type="text" class="form-control" id="roomscorein" placeholder="4000000">
-                    </div>
-                    <div class="inputfield col-5 col-md-3">
-                        <span class="skilltip">
-                            <label for="skillin">Skills</label>
-                            <span class="skillintip">
-                                Highest skill always assumed to be activated for encore.
-                            </span>
-                        </span>
-                        <input type="text" class="form-control" id="skillin" placeholder="50,50,50,50">
-                    </div>
-                    <div class="w-100"></div>
-                    <div class="inputfield col-5 col-md-3">
-                        <div class="input-group">
-                            <label style="padding-top:5px;padding-right:7px;" for="bonussel">Bonus</label>
-                            <input type="text" class="form-control" id="teambonus" name="teambonus" style="width:100px;flex:0 0 auto;" aria-describedby="bonusaddon">
-                            <span class="input-group-text" id="bonusaddon">%</span>
-                        </div>
-                    </div>
-                    <div class="inputfield col-5 col-md-3">
-                        <select class="selectpicker paramselect" name="paramsel" id="paramsel" data-width="fit">
-                            <option value="heart" data-content="Heart">Heart</option>
-                            <option value="tech" data-content="Technical">Technical</option>
-                            <option value="phys" data-content="Physical">Physical</option>
-                        </select>
-                        <input type="text" class="form-control" id="paramselout" name="paramselout">
-                    </div>
-                    <div class="inputfield col-5 col-md-2">
-                        <label for="voltsel">Volts</label>
-                        <select class="selectpicker voltselect" name="voltsel" id="voltsel" data-width="fit">
-                            <option value="1" data-content="1">1</option>
-                            <option value="2" data-content="2">2</option>
-                            <option value="3" data-content="3">3</option>
-                            <option value="4" data-content="4">4</option>
-                            <option value="5" data-content="5" selected>5</option>
-                        </select>
-                    </div>
-                </form>
-                <div class="calcbutton">
-                    <a id="calculateep" class="btn btn-primary" role="button">Calculate</a>
                 </div>
-            </div>
-            <hr>
-            <h4>Output</h4>
-            <div id="scoreoutputs">
-                <fieldset class="outputfield">
-                    <legend>Poker</legend>
-                    <form class="row">
-                        <div class="col-5 col-md-3">
-                            <label>Free/Multi-Live EP:</label>
-                            <input type="text" class="form-control statfield" name="poker_ep" disabled>
-                        </div>
-                        <div class="col-5 col-md-3">
-                            <label>Bet Coins:</label>
-                            <input type="text" class="form-control statfield" name="poker_coins" disabled>
-                        </div>
-                    </form>
-                </fieldset>
-                <fieldset class="outputfield">
-                    <legend>Slots</legend>
-                    <form class="row">
-                        <div class="col-5 col-md-3">
-                            <label>Free/Multi-Live EP:</label>
-                            <input type="text" class="form-control statfield" name="slots_ep" disabled>
-                        </div>
-                        <div class="col-5 col-md-3">
-                            <label>Slot Medals:</label>
-                            <input type="text" class="form-control statfield" name="slots_medals" disabled>
-                        </div>
-                    </form>
-                </fieldset>
-                <fieldset class="outputfield">
-                    <legend>Medley</legend>
-                    <form class="row">
-                        <div class="col-5 col-md-3">
-                            <label>Free Live EP:</label>
-                            <input type="text" class="form-control statfield" name="medley_ep_free" disabled>
-                        </div>
-                        <div class="col-5 col-md-3">
-                            <label>Multi-Medley Live EP:</label>
-                            <input type="text" class="form-control statfield" name="medley_ep_multi" disabled>
-                        </div>
-                        <div class="col-5 col-md-3">
-                            <label>Tickets:</label>
-                            <input type="text" class="form-control statfield" name="medley_tickets" disabled>
-                        </div>
-                        <div class="col-5 col-md-3">
-                            <label>Task Medley EP (x100):</label>
-                            <input type="text" class="form-control statfield" name="medley_ep_task" disabled>
-                        </div>
-                    </form>
-                </fieldset>
-                <fieldset class="outputfield">
-                    <legend>Bingo</legend>
-                    <form class="row">
-                        <div class="col-5 col-md-3">
-                            <label>Free Live EP:</label>
-                            <input type="text" class="form-control statfield" name="bingo_ep_free" disabled>
-                        </div>
-                        <div class="col-5 col-md-3">
-                            <label>Battle Live (1st):</label>
-                            <input type="text" class="form-control statfield" name="bingo_ep_battle" disabled>
-                        </div>
-                        <div class="col-5 col-md-3">
-                            <label>Battle Live (4th):</label>
-                            <input type="text" class="form-control statfield" name="bingo_ep_battle_4" disabled>
-                        </div>
-                    </form>
-                </fieldset>
-                <fieldset class="outputfield">
-                    <legend>Raid</legend>
-                    <form class="row">
-                        <div class="col-5 col-md-3">
-                            <label>Free/Multi-Live EP:</label>
-                            <input type="text" class="form-control statfield" name="raid_ep" disabled>
-                        </div>
-                        <div class="col-5 col-md-3">
-                            <label>Free/Multi EP (Special):</label>
-                            <input type="text" class="form-control statfield" name="raid_ep_special" disabled>
-                        </div>
-                    </form>
-                </fieldset>
+                <div class="tab-pane fade" id="calcScore" role="tabpabel" aria-labelledby="calcScore-tab">
+                    <div id="scoreinputs2" class="container">
+                        <form class="row justify-content-center p-3">
+                            <div class="col-auto">
+                                <div>
+                                    <div class="sectionHeader">
+                                        <p>Inputs</p>
+                                    </div>
+                                    <label style="margin-top:15px;width:150px" for="scorein">Score</label>
+                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="scorein" placeholder="1000000" value="1000000"><br>
+                                    <span style="margin-top:15px;display:inline-block;width:150px">
+                                        <span class="roomtip">
+                                            <label for="roomscorein2">Room Score</label>
+                                            <span class="roomscoretip">
+                                                Room score only applies to Multi-Medley calculation. Leaving it empty defaults to 4 times your Score.
+                                            </span>
+                                        </span>
+                                    </span>
+                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="roomscorein2" placeholder="4000000"><br>
+                                    <span style="margin-top:15px;display:inline-block;width:150px">
+                                        <span class="paramtip">
+                                            <label for="paramselout2">Parameter</label>
+                                            <span class="paramoptiontip">
+                                                If the event is Bingo or Medley, you MUST go to Free Live unit select screen to see the actual parameter value.
+                                            </span>
+                                        </span>
+                                    </span>
+                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="paramselout2" placeholder="75000" value="75000"><br>
+                                    <label style="margin-top:15px;width:150px" for="teambonus2">Bonus %</label>
+                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="teambonus2" name="teambonus2" placeholder="200" value="200"><br>
+                                    <label style="margin-top:15px;width:150px" for="voltsel2">Volts</label>
+                                    <select class="selectpicker voltselect" name="voltsel2" id="voltsel2" data-width="fit">
+                                        <option value="1" data-content="1">1</option>
+                                        <option value="2" data-content="2">2</option>
+                                        <option value="3" data-content="3">3</option>
+                                        <option value="4" data-content="4">4</option>
+                                        <option value="5" data-content="5" selected>5</option>
+                                    </select><br>
+                                    <label style="margin-top:15px;width:150px" for="eventsel2">Event</label>
+                                    <select class="selectpicker voltselect" name="eventsel2" id="eventsel2" data-width="fit">
+                                        <option value="poker" data-content="Poker">Poker</option>
+                                        <option value="bingo" data-content="Bingo">Bingo</option>
+                                        <option value="medley" data-content="Medley">Medley</option>
+                                        <option value="slots" data-content="Slots">Slots</option>
+                                        <option value="raid" data-content="Raid">Raid</option>
+                                    </select><br>
+                                </div>
+                                <div class="calcbutton">
+                                    <a id="calculatescore" class="btn btn-primary" role="button">Calculate EP</a>
+                                </div>
+                            </div>
+                            <div class="vr" style="padding:0"></div>
+                            <div class="col-auto">
+                                <div>
+                                    <div class="sectionHeader">
+                                        <p>Output</p>
+                                    </div>
+                                    <div id="scoreoutputs2">
+                                        <div style="width:400px;">
+                                            <table id="outputtable2" style="width:100%;">
+                                                <tbody id="outputtbody2" style="line-height:2;">
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="tab-pane fade" id="questionSection" role="tabpabel" aria-labelledby="questionSection-tab">
@@ -864,15 +900,8 @@
                     <ul>
                         <li>Add cards to your team. Expand the team details to add extra training levels per card.</li>
                         <li>Use the club, event and param sections to set additional details.</li>
-                        <li>Using the resulting team power and team skills, calculate score using song of choice (requires Miyubot for now)</li>
-                        <li>Enter the score in scoring section to see EP and other results.</li>
+                        <li>In the scoring section, you can estimate EP gain based on your team. If you want, you can calculate EP based on score only.</li>
                         <li>Click Save Profile button to save your current team (including ET), event, club, and param values.</li>
-                        <li>Additional usage notes:
-                            <ul>
-                                <li>For slot events, just list the same character twice (it won't count the bonus twice). 5th slot will be added if needed later.</li>
-                                <li>Scoring input fields (except scores for now) are automatically filled out, but if you don't want to build a team, or want to test other values, you can enter your own values as overrides.</li>
-                            </ul>
-                        </li>
                     </ul>
                 </div>
                 <div class="sectionHeader">
@@ -908,14 +937,14 @@
                 <div class="sectionHeader">
                     <h4>Future features (maybe)</h4>
                     <ul>
-                        <li>scoring section to include in-house calcs</li>
-                        <li>Remove event section and instead choose by event</li>
-                        <li>passive skills</li>
-                        <li>better mobile formatting</li>
-                        <li>(partial) Card images</li>
+                        <li>ability to import team into scoring sections</li>
+                        <li>auto club items?</li>
+                        <li>add passive skill details per card</li>
+                        <li>better UI (mobile too)</li>
                         <li>jp card support, if desired</li>
                         <li>some way to compare cards when adding them</li>
                         <li>hide event/medley power bonus based on event</li>
+                        <li>more song options for scoring</li>
                     </ul>
                 </div>
             </div>
@@ -943,6 +972,7 @@
     <script>
         generateCardArray();
         createCharacterFilters();
+        createEventSelects();
         cardArray.sort(default_sort());
         displayCardsDropdown(cardArray);
         createClubSelects();

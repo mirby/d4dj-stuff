@@ -1,78 +1,353 @@
 jQuery(function($) {
-    $('#calculateep').on('click', function() {
+    $('#calculateteam').on('click', function() {
         // TODO add validations for all the input fields
-        calculateEp();
-        applyFormatting();
+        calcByPower();
+    });
+
+    $('#calculatescore').on('click', function() {
+        calcByScore();
     });
 });
 
-function calculateEp() {
+function calcByPower() {
 
-    var score = parseInt(document.getElementById("scorein").value);
+    // Remove the old table rows
+    var node = document.getElementById("outputtbody");
+    while (node.hasChildNodes()) {
+        node.removeChild(node.lastChild);
+    }
+
+    var node = document.getElementById("outputtbody2");
+    while (node.hasChildNodes()) {
+        node.removeChild(node.lastChild);
+    }
+
+    // Calculate the score based on the event type
+    var type = document.getElementById("eventsel").value.toLowerCase();
+    var scoreMap = calculateScore(type);
+    var score = 0;
+    
+    if (type === "bingo") {
+        score = scoreMap.get("scoreSolo2");
+    } else {
+        score = scoreMap.get("score");
+    }
+    
     var bonus = (parseInt(document.getElementById("teambonus").value) / 100) + 1;
     var param = Math.floor(parseInt(document.getElementById("paramselout").value) / 600);
     var volts = parseInt(document.getElementById("voltsel").value);
-
     var roomscore = parseInt(document.getElementById("roomscorein").value);
     if (isNaN(roomscore) || roomscore == 0) {
         roomscore = score * 4;
     }
 
-    // Poker
-    var result = volts * Math.floor(bonus * (50 + Math.floor(score / 4000) + param));
-    document.querySelector('input[name="poker_ep"]').value = result || 0;
-    document.querySelector('input[name="slots_ep"]').value = result || 0; // slots ep is the same as poker ep, for now
+    var valueMap = calculateEp(type, scoreMap, bonus, param, volts, roomscore);
 
-    result = volts * Math.floor(bonus * (30 + Math.floor(score / 10000)));
-    document.querySelector('input[name="poker_coins"]').value = result || 0;
+    var table = document.getElementById("outputtable");
+    valueMap.forEach(function(value, key) {
+        insertRow(table, key, value);
+    });
 
-    // Slots
-    result = volts * Math.floor(bonus * (150 + Math.floor(score / 8000)));
-    document.querySelector('input[name="slots_medals"]').value = result || 0;
-
-    // Medley
-    result = volts * Math.floor(bonus * (10 + Math.floor(score / 15000) + param));
-    document.querySelector('input[name="medley_ep_free"]').value = result || 0;
-
-    result = volts * Math.floor(bonus * (10 + Math.floor(score / 10000) + Math.max(10, Math.floor(roomscore / 80000)) + param));
-    document.querySelector('input[name="medley_ep_multi"]').value = result || 0;
-
-    result = volts * (15 + Math.floor(score / 50000));
-    var result2 = volts * (20 + Math.floor(score / 50000));
-    document.querySelector('input[name="medley_tickets"]').value = (result || "-") + "-" + (result2 || "-");
-
-    result = Math.floor(bonus * (100 + Math.floor(score / 1000) + param));
-    document.querySelector('input[name="medley_ep_task"]').value = result || 0;
-
-    // Bingo
-    result = volts * Math.floor(bonus * (Math.max(10, Math.floor(score / 10000)) + param));
-    document.querySelector('input[name="bingo_ep_free"]').value = result || 0;
-
-    result = volts * Math.floor(bonus * (150 + Math.max(10, Math.floor(score / 10000)) + param));
-    document.querySelector('input[name="bingo_ep_battle"]').value = result || 0;
-
-    result = volts * Math.floor(bonus * (110 + Math.max(10, Math.floor(score / 10000)) + param));
-    document.querySelector('input[name="bingo_ep_battle_4"]').value = result || 0;
-
-    // Raid
-    var result = volts * Math.floor(bonus * (50 + Math.floor(score / 10000) + param));
-    document.querySelector('input[name="raid_ep"]').value = result || 0;
-
-    var result = volts * (300 + Math.floor(score / 6000));
-    document.querySelector('input[name="raid_ep_special"]').value = result || 0;
+    insertRow(table, "Song", scoreMap.get("song"));
+    insertRow(table, "Event Type", type.charAt(0).toUpperCase() + type.slice(1));
 }
 
-/*
-    Apply a border to the current event type
-*/
-function applyFormatting() {
-    var fieldsets = document.getElementsByClassName("outputfield");
-    var currentType = document.getElementById("eventtype").value;
-     for (let x of fieldsets) {
-         x.classList.remove("fieldsetactive");
-         var type = "event-" + x.childNodes[0].nextSibling.innerHTML.toLowerCase();
-        if (type === currentType) {
-            x.classList.add("fieldsetactive");
-        }
+function calcByScore() {
+
+    // Remove the old table rows
+    var node = document.getElementById("outputtbody");
+    while (node.hasChildNodes()) {
+        node.removeChild(node.lastChild);
     }
+
+    var node = document.getElementById("outputtbody2");
+    while (node.hasChildNodes()) {
+        node.removeChild(node.lastChild);
+    }
+
+    // Get values
+    var score = parseInt(document.getElementById("scorein").value);
+    var bonus = (parseInt(document.getElementById("teambonus2").value) / 100) + 1;
+    var param = Math.floor(parseInt(document.getElementById("paramselout2").value) / 600);
+    var volts = parseInt(document.getElementById("voltsel2").value);
+    var type = document.getElementById("eventsel2").value.toLowerCase();
+    var roomscore = parseInt(document.getElementById("roomscorein2").value);
+    if (isNaN(roomscore) || roomscore == 0) {
+        roomscore = score * 4;
+    }
+
+    var valueMap = calculateEpScore(type, score, bonus, param, volts, roomscore);
+
+    var table = document.getElementById("outputtable2");
+    valueMap.forEach(function(value, key) {
+        insertRow(table, key, value);
+    });
+
+    insertRow(table, "Event Type", type.charAt(0).toUpperCase() + type.slice(1));
+}
+
+function calculateEp(type, scoreMap, bonus, param, volts, roomscore) {
+    var valueMap = new Map();
+    var result = 0;
+    var scoreSolo = scoreMap.get("scoreSolo");
+    var scoreSolo2 = scoreMap.get("scoreSolo2");
+    var score = scoreMap.get("score");
+
+    switch(type) {
+        case "poker":
+            result = volts * Math.floor(bonus * (30 + Math.floor(score / 10000)));
+            valueMap.set("Bet Coins", result);
+
+            result = volts * Math.floor(bonus * (50 + Math.floor(score / 4000) + param));
+            valueMap.set("Multi Live EP", result);
+
+            valueMap.set("Multi Live Score (Estimated)", score);
+
+            result = volts * Math.floor(bonus * (50 + Math.floor(scoreSolo / 4000) + param));
+            valueMap.set("Free Live EP", result);
+
+            valueMap.set("Free Live Score (Estimated)", scoreSolo);
+
+            break;
+        case "slots":
+            result = volts * Math.floor(bonus * (150 + Math.floor(score / 8000)));
+            valueMap.set("Slot Medals", result);
+
+            result = volts * Math.floor(bonus * (50 + Math.floor(score / 4000) + param));
+            valueMap.set("Multi Live EP", result);
+
+            valueMap.set("Multi Live Score (Estimated)", score);
+
+            result = volts * Math.floor(bonus * (50 + Math.floor(scoreSolo / 4000) + param));
+            valueMap.set("Free Live EP", result);
+
+            valueMap.set("Free Live Score (Estimated)", scoreSolo);
+
+            break;
+        case "medley":
+            result = Math.floor(bonus * (100 + Math.floor(scoreSolo2 / 1000) + param));
+            valueMap.set("Task Medley EP (100 tickets)", result);
+
+            valueMap.set("Task Medley Score (Estimated)", scoreSolo2);
+
+            result = volts * (15 + Math.floor(score / 50000));
+            var result2 = volts * (20 + Math.floor(score / 50000));
+            valueMap.set("Challenge Tickets", (result || "-") + "-" + (result2 || "-"));
+
+            result = volts * Math.floor(bonus * (10 + Math.floor(score / 10000) + Math.max(10, Math.floor(roomscore / 80000)) + param));
+            valueMap.set("Multi-Medley Live EP", result);
+
+            result = volts * Math.floor(bonus * (10 + Math.floor(score / 15000) + param));
+            valueMap.set("Multi Live EP", result);
+
+            valueMap.set("Multi Live Score (Estimated)", score);
+
+            result = volts * Math.floor(bonus * (10 + Math.floor(scoreSolo / 15000) + param));
+            valueMap.set("Free Live EP", result);
+
+            valueMap.set("Free Live Score (Estimated)", scoreSolo);
+
+            break;
+        case "bingo":
+            result = volts * Math.floor(bonus * (110 + Math.max(10, Math.floor(scoreSolo2 / 10000)) + param));
+            valueMap.set("Battle Live EP (Fourth)", result);
+
+            result = volts * Math.floor(bonus * (125 + Math.max(10, Math.floor(scoreSolo2 / 10000)) + param));
+            valueMap.set("Battle Live EP (Third)", result);
+
+            result = volts * Math.floor(bonus * (135 + Math.max(10, Math.floor(scoreSolo2 / 10000)) + param));
+            valueMap.set("Battle Live EP (Second)", result);
+
+            result = volts * Math.floor(bonus * (150 + Math.max(10, Math.floor(scoreSolo2 / 10000)) + param));
+            valueMap.set("Battle Live EP (First)", result);
+
+            valueMap.set("Battle Live Score (Estimated)", scoreSolo2);
+
+            result = volts * Math.floor(bonus * (Math.max(10, Math.floor(score / 10000)) + param));
+            valueMap.set("Multi Live EP", result);
+
+            valueMap.set("Multi Live Score (Estimated)", score);
+
+            result = volts * Math.floor(bonus * (Math.max(10, Math.floor(scoreSolo / 10000)) + param));
+            valueMap.set("Free Live EP", result);
+
+            valueMap.set("Free Live Score (Estimated)", scoreSolo);
+
+            break;
+        case "raid":
+            result = volts * (300 + Math.floor(score / 6000));
+            valueMap.set("Multi Live EP (1st Anni/Precure/NBC)", result);
+
+            result = volts * Math.floor(bonus * (50 + Math.floor(score / 10000) + param));
+            valueMap.set("Multi Live EP (D4FES)", result);
+
+            valueMap.set("Multi Live Score (Estimated)", score);
+
+            result = volts * (300 + Math.floor(scoreSolo / 6000));
+            valueMap.set("Free Live EP (1st Anni/Precure/NBC)", result);
+
+            result = volts * Math.floor(bonus * (50 + Math.floor(scoreSolo / 10000) + param));
+            valueMap.set("Free Live EP (D4FES)", result);
+
+            valueMap.set("Free Live Score (Estimated)", scoreSolo);
+
+            break;
+    }
+    
+    return valueMap;
+}
+
+function calculateEpScore(type, score, bonus, param, volts, roomscore) {
+        var valueMap = new Map();
+        var result = 0;
+
+        switch(type) {
+            case "poker":
+                result = volts * Math.floor(bonus * (30 + Math.floor(score / 10000)));
+                valueMap.set("Bet Coins", result);
+
+                result = volts * Math.floor(bonus * (50 + Math.floor(score / 4000) + param));
+                valueMap.set("Free Live/Multi Live EP", result);
+
+                break;
+            case "slots":
+                result = volts * Math.floor(bonus * (150 + Math.floor(score / 8000)));
+                valueMap.set("Slot Medals", result);
+
+                result = volts * Math.floor(bonus * (50 + Math.floor(score / 4000) + param));
+                valueMap.set("Free Live/Multi Live EP", result);
+
+                break;
+            case "medley":
+                result = Math.floor(bonus * (100 + Math.floor(score / 1000) + param));
+                valueMap.set("Task Medley EP", result);
+
+                result = volts * (15 + Math.floor(score / 50000));
+                var result2 = volts * (20 + Math.floor(score / 50000));
+                valueMap.set("Challenge Tickets", (result || "-") + "-" + (result2 || "-"));
+
+                result = volts * Math.floor(bonus * (10 + Math.floor(score / 10000) + Math.max(10, Math.floor(roomscore / 80000)) + param));
+                valueMap.set("Multi-Medley Live EP", result);
+
+                result = volts * Math.floor(bonus * (10 + Math.floor(score / 15000) + param));
+                valueMap.set("Free Live/Multi Live EP", result);
+
+                break;
+            case "bingo":
+                result = volts * Math.floor(bonus * (110 + Math.max(10, Math.floor(score / 10000)) + param));
+                valueMap.set("Battle Live EP (Fourth)", result);
+
+                result = volts * Math.floor(bonus * (125 + Math.max(10, Math.floor(score / 10000)) + param));
+                valueMap.set("Battle Live EP (Third)", result);
+    
+                result = volts * Math.floor(bonus * (135 + Math.max(10, Math.floor(score / 10000)) + param));
+                valueMap.set("Battle Live EP (Second)", result);
+
+                result = volts * Math.floor(bonus * (150 + Math.max(10, Math.floor(score / 10000)) + param));
+                valueMap.set("Battle Live EP (First)", result);
+
+                result = volts * Math.floor(bonus * (Math.max(10, Math.floor(score / 10000)) + param));
+                valueMap.set("Free Live/Multi Live EP", result);
+
+                break;
+            case "raid":
+                result = volts * (300 + Math.floor(score / 6000));
+                valueMap.set("Free Live/Multi Live EP (1st Anni/Precure/NBC)", result);
+
+                result = volts * Math.floor(bonus * (50 + Math.floor(score / 10000) + param));
+                valueMap.set("Free Live/Multi Live EP (D4FES)", result);
+
+                break;
+        }
+        
+        return valueMap;
+}
+
+function calculateScore(type) {
+    var power = document.getElementById("powerin").value;
+    var power2 = document.getElementById("powerin2").value;
+    if (isNaN(power2) || power2 == 0) {
+        power2 = power;
+    }
+    var skills = document.getElementById("skillin").value;
+    var skillsList = [];
+    skillsList = skills.split(",");
+
+    // Whatever the 4th skill is, add it as the 5th skill
+    skillsList.push(skillsList[skillsList.length-1]);
+
+    // Get passive skills
+    var gtboost = (parseInt(document.getElementById("pass_gt").value) / 100) + 1;
+    var lifeboost = (parseInt(document.getElementById("pass_life").value) / 100) + 1;
+    var autoboost = (parseInt(document.getElementById("pass_auto").value) / 100) + 1;
+
+    var scoreMap = new Map();
+    var scoreSolo = 0; // Free Live
+    var scoreSolo2 = 0; // Bingo/Task Medley
+    var scoreAutoSolo = 0; // Free Live - Auto
+    var score = 0; // Multi w/ GT
+    var scoreAuto = 0; // Multi w/ GT - Auto
+
+    var chart = {};
+
+    switch(type) {
+        case "poker":
+        case "slots":
+        case "raid":
+            chart = cats;
+            break;
+        case "bingo":
+            chart = htl;
+            break;
+        case "medley":
+            chart = directmedley;
+            break;
+    }
+
+    var totalNotes = chart.totalNotes;
+    var feverNotes = chart.feverNotes;
+    var level = chart.level;
+
+    var levelConstant = (95 + level) / 100;
+    var baseNoteScore = (levelConstant * power * 3 * lifeboost) / totalNotes;
+    var baseNoteScore2 = (levelConstant * power2 * 3 * lifeboost) / totalNotes;
+    var autoNoteScore = (levelConstant * power * 3 * .85 * lifeboost * autoboost) / totalNotes;
+    var feverMultiplier = Math.max(1.1, Math.min(2 * ((0.28 / (feverNotes / totalNotes)) ** 0.6), 5)) * gtboost;
+
+    chart.sections.forEach((x) => {
+        var skill = 1;
+        if (x.skill != 0) {
+            skill = (skillsList[x.skill-1] / 100) + 1;
+        }
+        var feverMult = 1;
+        if (x.gt) {
+            feverMult = feverMultiplier;
+        }
+
+        scoreSolo += Math.floor(baseNoteScore * skill * x.comboMult) * x.notes;
+        scoreSolo2 += Math.floor(baseNoteScore2 * skill * x.comboMult) * x.notes;
+        scoreAutoSolo += Math.floor(autoNoteScore * skill) * x.notes;
+        score += Math.floor(baseNoteScore * skill * x.comboMult * feverMult) * x.notes;
+        scoreAuto += Math.floor(autoNoteScore * skill * feverMult) * x.notes;
+    });
+
+    scoreMap.set("song", chart.name);
+    scoreMap.set("scoreSolo", scoreSolo);
+    scoreMap.set("scoreSolo2", scoreSolo2);
+    scoreMap.set("scoreAutoSolo", scoreAutoSolo);
+    scoreMap.set("score", score);
+    scoreMap.set("scoreAuto", scoreAuto);
+
+    return scoreMap;
+}
+
+function insertRow(tableObj, cell1Text, cell2Text) {
+    var row = tableObj.insertRow(0);
+    row.style.borderBottom = "1px solid #000";
+    var cell1 = row.insertCell(0);
+    cell1.style.borderRight = "1px solid #000";
+    var cell2 = row.insertCell(1);
+    cell2.style.textAlign = "right";
+    cell1.innerHTML = cell1Text;
+    cell2.innerHTML = cell2Text;
 }
