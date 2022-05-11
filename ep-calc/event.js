@@ -11,6 +11,7 @@ function createEventSelects() {
     select.name = "eventselector";
     select.id = "eventselector";
     select.classList.add("selectpicker");
+    select.setAttribute("data-live-search","true");
     select.setAttribute("data-width","fit");
     select.setAttribute("data-size","10");
 

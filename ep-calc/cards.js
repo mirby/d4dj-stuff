@@ -505,6 +505,7 @@ function createCharacterFilters() {
             paramSelect.id = "param_" + x.toLowerCase() + "_" + i;
             paramSelect.classList.add("selectpicker");
             paramSelect.classList.add("paramchar");
+            paramSelect.setAttribute("data-live-search","true");
             paramSelect.setAttribute("data-width","fit");
             paramSelect.setAttribute("data-size","10");
 

@@ -48,6 +48,7 @@ function createClubSelect(obj, id) {
     tempSelect.id = id;
     tempSelect.classList.add("selectpicker");
     tempSelect.classList.add("clubselect");
+    tempSelect.setAttribute("data-live-search","true");
     tempSelect.setAttribute("data-width","fit");
     tempSelect.setAttribute("data-size","10");
 
