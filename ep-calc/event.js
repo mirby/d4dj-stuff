@@ -55,6 +55,7 @@ function fillEventDisplay() {
     document.getElementById("eventtype").innerHTML = eventList[eventId].type;
     document.getElementById("eventstyleval").innerHTML = eventList[eventId].style;
     document.getElementById("eventstyle").innerHTML = (eventList[eventId].style !== "None") ? "<img src='../icons/type_" + eventList[eventId].style.toLowerCase() + ".png' width='30' height='30'></img>" + ' ' + eventList[eventId].style : "None";
+    document.getElementById("eventparamval").innerHTML = eventList[eventId].parameter;
     document.getElementById("eventparam").innerHTML = (eventList[eventId].parameter !== "None") ? "<img src='../icons/param_" + eventList[eventId].parameter.toLowerCase() + ".png' width='30' height='30'></img>" + ' ' + eventList[eventId].parameter : "None";
     document.getElementById("eventbonus").innerHTML = (eventList[eventId].bonus) ? "Yes" : "No";
 }

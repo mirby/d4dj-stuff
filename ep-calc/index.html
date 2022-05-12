@@ -62,10 +62,10 @@
                 <tr>
                     <td id="paramtotal_heart"></td>
                     <td id="paramtotal_heartep"></td>
-                    <td id="paramtotal_tech"></td>
-                    <td id="paramtotal_techep"></td>
-                    <td id="paramtotal_phys"></td>
-                    <td id="paramtotal_physep"></td>
+                    <td id="paramtotal_technical"></td>
+                    <td id="paramtotal_technicalep"></td>
+                    <td id="paramtotal_physical"></td>
+                    <td id="paramtotal_physicalep"></td>
                 </tr>
             </tbody>
         </table>
@@ -421,6 +421,13 @@
                                 <td id="m3_clubbonus"></td>
                                 <td id="m4_clubbonus"></td>
                             </tr>
+                            <tr style="display:none;">
+                                <th scope="row">Event %</th>
+                                <td id="m1_eventperc"></td>
+                                <td id="m2_eventperc"></td>
+                                <td id="m3_eventperc"></td>
+                                <td id="m4_eventperc"></td>
+                            </tr>
                             <tr class="rowHide">
                                 <th scope="row">Event Bonus</th>
                                 <td id="m1_eventbonus"></td>
@@ -686,6 +693,7 @@
                                         <div id="eventstyle"></div>
                                     </td>
                                 </tr>
+                                <tr style="display:none" id="eventparamval"></tr>
                                 <tr>
                                     <td style="padding-top:5px;padding-bottom:5px;">Target Param:</td>
                                     <td style="padding-top:5px;padding-bottom:5px;text-align:right;" colspan="2">
@@ -800,6 +808,7 @@
                                 </div>
                                 <div class="calcbutton">
                                     <a id="calculateteam" class="btn btn-primary" role="button">Calculate EP</a>
+                                    <a id="importteam" class="btn btn-primary pull-right" role="button">Import Team</a>
                                 </div>
                             </div>
                             <div class="vr" style="padding:0"></div>
@@ -870,6 +879,7 @@
                                 </div>
                                 <div class="calcbutton">
                                     <a id="calculatescore" class="btn btn-primary" role="button">Calculate EP</a>
+                                    <a id="importteam2" class="btn btn-primary pull-right" role="button">Import Team</a>
                                 </div>
                             </div>
                             <div class="vr" style="padding:0"></div>

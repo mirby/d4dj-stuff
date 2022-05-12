@@ -570,7 +570,6 @@ function calcDisplayPower() {
 function calcModPower() {
 
     var types = ["m","s"];
-    var skillList = "";
 
     for (let x of types) {
         for (let i = 1; i <=4; i++ ) {
@@ -647,9 +646,6 @@ function calcModPower() {
                 // Display support power
                 var suppPower = Math.floor(parseInt(heartBase + heartMod) / 4) + Math.floor(parseInt(techBase + techMod) / 4) + Math.floor(parseInt(physBase + physMod) / 4);
                 document.getElementById(x + i + "_supportpower").innerHTML = suppPower;
-            } else {
-                // Display skills on scoring section
-                skillList = skillList + document.getElementById(x + i + "_skill").innerHTML.slice(0, -1) + ",";
             }
         }
     }
@@ -738,6 +734,7 @@ function getClubPerc(selectId, charId) {
 function calcEventPower() {
     for (let i = 1; i <= 4; i++) {
         var eventPercGain = getEventPerc(i);
+        document.getElementById("m" + i + "_eventperc").innerHTML = eventPercGain;
 
         var heartMod = parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) || 0;
         var techMod = parseInt(document.getElementById("m" + i + "_techmod").innerHTML) || 0;
@@ -827,10 +824,10 @@ function calcDisplayParams() {
 
     document.getElementById("paramtotal_heart").innerHTML = totalHeart;
     document.getElementById("paramtotal_heartep").innerHTML = Math.round(((totalHeart / 600) + Number.EPSILON) * 100) / 100;
-    document.getElementById("paramtotal_tech").innerHTML = totalTech;
-    document.getElementById("paramtotal_techep").innerHTML = Math.round(((totalTech / 600) + Number.EPSILON) * 100) / 100;
-    document.getElementById("paramtotal_phys").innerHTML = totalPhys;
-    document.getElementById("paramtotal_physep").innerHTML = Math.round(((totalPhys / 600) + Number.EPSILON) * 100) / 100;
+    document.getElementById("paramtotal_technical").innerHTML = totalTech;
+    document.getElementById("paramtotal_technicalep").innerHTML = Math.round(((totalTech / 600) + Number.EPSILON) * 100) / 100;
+    document.getElementById("paramtotal_physical").innerHTML = totalPhys;
+    document.getElementById("paramtotal_physicalep").innerHTML = Math.round(((totalPhys / 600) + Number.EPSILON) * 100) / 100;
 
     $.refreshParamSelect2();
 }

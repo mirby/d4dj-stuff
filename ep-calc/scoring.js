@@ -7,6 +7,14 @@ jQuery(function($) {
     $('#calculatescore').on('click', function() {
         calcByScore();
     });
+
+    $('#importteam').on('click', function() {
+        importTeam();
+    });
+
+    $('#importteam2').on('click', function() {
+        importTeam2();
+    });
 });
 
 function calcByPower() {
@@ -346,6 +354,82 @@ function calculateScore(type) {
     scoreMap.set("scoreAuto", scoreAuto);
 
     return scoreMap;
+}
+
+function importTeam() {
+    var power = parseInt(document.getElementById("power_totalwo").innerHTML);
+    var power_event = parseInt(document.getElementById("power_total").innerHTML);
+    var eventtype = document.getElementById("eventtype").innerHTML;
+    var paramtype = document.getElementById("eventparamval").innerHTML;
+    var param = document.getElementById("paramtotal_" + paramtype.toLowerCase()).innerHTML;
+
+    var skillList = "";
+    var bonus = 0;
+    // Get team skills and bonus
+    for (let i = 1; i <= 4; i++) {
+        skillList += document.getElementById("m" + i + "_skill").innerHTML.slice(0, -1) + ",";
+        bonus += parseFloat(document.getElementById("m" + i + "_eventperc").innerHTML);
+    }
+    skillList = skillList.slice(0, -1).split(",").sort().join(",");
+
+    if (power != 0) {
+        document.getElementById("powerin").value = power;
+    } else {
+        document.getElementById("powerin").value = 250000;
+    }
+
+    if (power_event != 0) {
+        document.getElementById("powerin2").value = power_event;
+    } else {
+        document.getElementById("powerin2").value = 300000;
+    }
+
+    if (param != 0) {
+        document.getElementById("paramselout").value = param;
+    } else {
+        document.getElementById("paramselout").value = 75000;
+    }
+
+    if (bonus != 0) {
+        document.getElementById("teambonus").value = bonus * 100;
+    } else {
+        document.getElementById("teambonus").value = 200;
+    }
+    
+    if (skillList !== "" && skillList !== ",,,") {
+        document.getElementById("skillin").value = skillList;
+    } else {
+        document.getElementById("skillin").value = "50,50,50,50";
+    }
+
+    $("select[name=eventsel]").val(eventtype.toLowerCase());
+    $('.selectpicker#eventsel').selectpicker('refresh');
+}
+
+function importTeam2() {
+    var eventtype = document.getElementById("eventtype").innerHTML;
+    var paramtype = document.getElementById("eventparamval").innerHTML;
+    var param = document.getElementById("paramtotal_" + paramtype.toLowerCase()).innerHTML;
+
+    var bonus = 0;
+    for (let i = 1; i <= 4; i++) {
+        bonus += parseFloat(document.getElementById("m" + i + "_eventperc").innerHTML);
+    }
+
+    if (param != 0) {
+        document.getElementById("paramselout2").value = param;
+    } else {
+        document.getElementById("paramselout2").value = 75000;
+    }
+
+    if (bonus != 0) {
+        document.getElementById("teambonus2").value = bonus * 100;
+    } else {
+        document.getElementById("teambonus2").value = 200;
+    }
+
+    $("select[name=eventsel2]").val(eventtype.toLowerCase());
+    $('.selectpicker#eventsel2').selectpicker('refresh');
 }
 
 function insertRow(tableObj, cell1Text, cell2Text) {

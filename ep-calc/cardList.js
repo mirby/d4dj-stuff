@@ -11,7 +11,7 @@ var cards = {
             "physical": 7271,
             "skill": 0.5,
             "icon": "card_icon_040120007_1.8d030945",
-            "passive": ""
+            "passive": "Groovy Solo 20-50%"
         },
         "1": {
             "id": 1,
@@ -25,7 +25,7 @@ var cards = {
             "physical": 6963,
             "skill": 0.5,
             "icon": "card_icon_040140007_1.c3a1112d",
-            "passive": ""
+            "passive": "Groovy Bonus 10-25%"
         },
         "2": {
             "id": 2,
@@ -333,7 +333,7 @@ var cards = {
             "physical": 16863,
             "skill": 0.5,
             "icon": "card_icon_040440007_1.006e8a36",
-            "passive": ""
+            "passive": "Groovy Bonus 10-25%"
         },
         "24": {
             "id": 24,
@@ -697,7 +697,7 @@ var cards = {
             "physical": 12513,
             "skill": 0.5,
             "icon": "card_icon_040530009_1.ea4f065d",
-            "passive": ""
+            "passive": "Groovy Bonus 10-30%"
         },
         "50": {
             "id": 50,
@@ -1593,7 +1593,7 @@ var cards = {
             "physical": 16385,
             "skill": 0.5,
             "icon": "card_icon_040420007_1.f498cb21",
-            "passive": ""
+            "passive": "Groovy Solo 20-50%"
         },
         "114": {
             "id": 114,
@@ -2601,7 +2601,7 @@ var cards = {
             "physical": 12599,
             "skill": 0.25,
             "icon": "card_icon_030140005_1.a4080dab",
-            "passive": ""
+            "passive": "Auto Boost 1.5-2.5%"
         },
         "186": {
             "id": 186,
@@ -3693,7 +3693,7 @@ var cards = {
             "physical": 12123,
             "skill": 0.5,
             "icon": "card_icon_070230001_1.53ce8f75",
-            "passive": ""
+            "passive": "Groovy Bonus 10-20%"
         },
         "264": {
             "id": 264,
@@ -3707,12 +3707,12 @@ var cards = {
             "physical": 10509,
             "skill": 0.2,
             "icon": "card_icon_030230001_1.1374db60",
-            "passive": ""
+            "passive": "Auto Boost 1-2.5%"
         },
         "265": {
             "id": 265,
             "character": "Yuka",
-            "cardname": "Awe Elegant Lady",
+            "cardname": "Awe - ELEGANT LADY",
             "unit": "Peaky",
             "type": "Party",
             "rarity": 3,
@@ -3721,7 +3721,7 @@ var cards = {
             "physical": 9134,
             "skill": 0.25,
             "icon": "card_icon_030230002_1.4d2b6c52",
-            "passive": ""
+            "passive": "Groovy Solo 10-20%"
         },
         "266": {
             "id": 266,
@@ -3735,7 +3735,7 @@ var cards = {
             "physical": 15233,
             "skill": 0.4,
             "icon": "card_icon_040230006_1.fe934862",
-            "passive": ""
+            "passive": "Auto Boost 2.5-4%"
         },
         "267": {
             "id": 267,
@@ -3749,12 +3749,12 @@ var cards = {
             "physical": 10519,
             "skill": 0.5,
             "icon": "card_icon_040230002_1.2c7954f7",
-            "passive": ""
+            "passive": "Auto Boost 2.5-5.5%"
         },
         "268": {
             "id": 268,
             "character": "Yuka",
-            "cardname": "Birthday Thrones",
+            "cardname": "Birthday -Thrones-",
             "unit": "Peaky",
             "type": "Cute",
             "rarity": 4,
@@ -3763,7 +3763,7 @@ var cards = {
             "physical": 12072,
             "skill": 0.55,
             "icon": "card_icon_040230007_1.cf702a90",
-            "passive": ""
+            "passive": "Groovy Bonus 10-30%"
         },
         "269": {
             "id": 269,
@@ -3777,12 +3777,12 @@ var cards = {
             "physical": 7149,
             "skill": 0.25,
             "icon": "card_icon_030230003_1.4c15e9d9",
-            "passive": ""
+            "passive": "Groovy Bonus 5-10%"
         },
         "270": {
             "id": 270,
             "character": "Yuka",
-            "cardname": "Drizzle Photogenic",
+            "cardname": "Drizzle-PHOTOGENIC",
             "unit": "Peaky",
             "type": "Street",
             "rarity": 4,
@@ -3791,7 +3791,7 @@ var cards = {
             "physical": 11694,
             "skill": 0.4,
             "icon": "card_icon_040230004_1.21d6a5fc",
-            "passive": ""
+            "passive": "Life Boost 2.5-3.75%"
         },
         "271": {
             "id": 271,
@@ -3805,12 +3805,12 @@ var cards = {
             "physical": 7814,
             "skill": 0.25,
             "icon": "card_icon_030230004_1.f68bba02",
-            "passive": ""
+            "passive": "Life Boost 1-2.5%"
         },
         "272": {
             "id": 272,
             "character": "Yuka",
-            "cardname": "Train Line Bigbang",
+            "cardname": "Train Line BIGBANG",
             "unit": "Peaky",
             "type": "Elegant",
             "rarity": 4,
@@ -3819,7 +3819,7 @@ var cards = {
             "physical": 11828,
             "skill": 0.3,
             "icon": "card_icon_040230001_1.9cca7d92",
-            "passive": ""
+            "passive": "Groovy Solo 20-30%"
         },
         "273": {
             "id": 273,
@@ -3833,7 +3833,7 @@ var cards = {
             "physical": 7899,
             "skill": 0.5,
             "icon": "card_icon_040230008_1.27725db4",
-            "passive": ""
+            "passive": "Life Boost 2.5-6.25%"
         },
         "274": {
             "id": 274,
@@ -3847,7 +3847,7 @@ var cards = {
             "physical": 11661,
             "skill": 0.5,
             "icon": "card_icon_040540008_1.aaa39449",
-            "passive": ""
+            "passive": "Life Boost 2.5-6.25%"
         },
         "275": {
             "id": 275,
@@ -3861,7 +3861,7 @@ var cards = {
             "physical": 6943,
             "skill": 0.5,
             "icon": "card_icon_040520007_1.c25e26a2",
-            "passive": ""
+            "passive": "Groovy Solo 20-50%"
         },
         "276": {
             "id": 276,
@@ -3875,7 +3875,7 @@ var cards = {
             "physical": 8722,
             "skill": 0.25,
             "icon": "card_icon_030530005_1.2e5802fe",
-            "passive": ""
+            "passive": "Auto Boost 1.5-2.5%"
         },
         "277": {
             "id": 277,
@@ -3889,7 +3889,7 @@ var cards = {
             "physical": 10603,
             "skill": 0.25,
             "icon": "card_icon_030510005_1.16fcc7d7",
-            "passive": ""
+            "passive": "Groovy Bonus 5-10%"
         },
         "278": {
             "id": 278,
@@ -3903,7 +3903,7 @@ var cards = {
             "physical": 12091,
             "skill": 0.55,
             "icon": "card_icon_040130010_1.5b528cb3",
-            "passive": ""
+            "passive": "Groovy Solo 20-60%"
         },
         "279": {
             "id": 279,
@@ -3917,7 +3917,7 @@ var cards = {
             "physical": 12862,
             "skill": 0.55,
             "icon": "card_icon_040640009_1.ffda234c",
-            "passive": ""
+            "passive": "Groovy Solo 20-60%"
         },
         "280": {
             "id": 280,
@@ -3931,7 +3931,7 @@ var cards = {
             "physical": 8919,
             "skill": 0.25,
             "icon": "card_icon_030640005_1.7bba71cd",
-            "passive": ""
+            "passive": "Auto Boost 1.5-2.5%"
         },
         "281": {
             "id": 281,
@@ -3945,7 +3945,7 @@ var cards = {
             "physical": 13059,
             "skill": 0.5,
             "icon": "card_icon_040610009_1.c85c5121",
-            "passive": ""
+            "passive": "Life Boost 2.5-6.25%"
         },
         "282": {
             "id": 282,
@@ -3959,7 +3959,7 @@ var cards = {
             "physical": 7516,
             "skill": 0.5,
             "icon": "card_icon_040620009_1.61f8ad85",
-            "passive": ""
+            "passive": "Auto Boost 2.5-6.5%"
         },
         "283": {
             "id": 283,
@@ -3973,7 +3973,7 @@ var cards = {
             "physical": 10583,
             "skill": 0.25,
             "icon": "card_icon_030630006_1.30fbfb56",
-            "passive": ""
+            "passive": "Groovy Bonus 5-10%"
         },
         "284": {
             "id": 284,
@@ -3987,7 +3987,7 @@ var cards = {
             "physical": 12498,
             "skill": 0.5,
             "icon": "card_icon_040430008_1.686b1e62",
-            "passive": ""
+            "passive": "Groovy Bonus 10-25%"
         },
         "285": {
             "id": 285,
@@ -4001,7 +4001,7 @@ var cards = {
             "physical": 6814,
             "skill": 0.5,
             "icon": "card_icon_040410008_1.74c62ca8",
-            "passive": ""
+            "passive": "Auto Boost 2.5-6.5%"
         },
         "286": {
             "id": 286,
@@ -4015,7 +4015,7 @@ var cards = {
             "physical": 11628,
             "skill": 0.55,
             "icon": "card_icon_040330008_1.a0400328",
-            "passive": ""
+            "passive": "Auto Boost 2.5-8%"
         },
         "287": {
             "id": 287,
@@ -4029,7 +4029,7 @@ var cards = {
             "physical": 10324,
             "skill": .25,
             "icon": "card_icon_030240004_1.74d91247",
-            "passive": ""
+            "passive": "Auto Boost 1.5-2.5%"
         },
         "288": {
             "id": 288,
@@ -4043,7 +4043,7 @@ var cards = {
             "physical": 10174,
             "skill": .25,
             "icon": "card_icon_030110004_1.e6d53e42",
-            "passive": ""
+            "passive": "Groovy Bonus 5-10%"
         },
         "289": {
             "id": 289,
@@ -4057,7 +4057,7 @@ var cards = {
             "physical": 15350,
             "skill": .60,
             "icon": "card_icon_040210006_1.f0b5b2ea",
-            "passive": ""
+            "passive": "Life Boost 2.5-7.5%"
         },
         "290": {
             "id": 290,
@@ -4071,7 +4071,7 @@ var cards = {
             "physical": 16498,
             "skill": .60,
             "icon": "card_icon_040310007_1.4ea1f344",
-            "passive": ""
+            "passive": "Groovy Solo 20-60%"
         },
         "291": {
             "id": 291,
@@ -4085,7 +4085,7 @@ var cards = {
             "physical": 16181,
             "skill": .50,
             "icon": "card_icon_040220009_1.7eb621c6",
-            "passive": ""
+            "passive": "Auto Boost 2.5-6.5%"
         },
         "292": {
             "id": 292,
@@ -4099,7 +4099,7 @@ var cards = {
             "physical": 17054,
             "skill": .50,
             "icon": "card_icon_040530008_1.9a21b341",
-            "passive": ""
+            "passive": "Groovy Solo 20-50%"
         },
         "293": {
             "id": 293,
@@ -4113,7 +4113,7 @@ var cards = {
             "physical": 12970,
             "skill": .25,
             "icon": "card_icon_030320005_1.43b376e0",
-            "passive": ""
+            "passive": "Groovy Bonus 5-10%"
         },
         "294": {
             "id": 294,
@@ -4127,7 +4127,7 @@ var cards = {
             "physical": 12294,
             "skill": .25,
             "icon": "card_icon_030540005_1.0e4fca61",
-            "passive": ""
+            "passive": "Life Boost 1-2.5%"
         },
         "295": {
             "id": 295,
@@ -4141,7 +4141,7 @@ var cards = {
             "physical": 13049,
             "skill": .55,
             "icon": "card_icon_040320009_1.584bb247",
-            "passive": ""
+            "passive": "Groovy Solo 20-60%"
         },
         "296": {
             "id": 296,
@@ -4155,7 +4155,7 @@ var cards = {
             "physical": 17087,
             "skill": .6,
             "icon": "card_icon_040340008_1.952e2d77",
-            "passive": ""
+            "passive": "Life Boost 2.5-7.5%"
         },
         "297": {
             "id": 297,
@@ -4169,7 +4169,7 @@ var cards = {
             "physical": 17160,
             "skill": .6,
             "icon": "card_icon_040630008_1.bebc5ffc",
-            "passive": ""
+            "passive": "Auto Boost 2.5-8%"
         },
         "298": {
             "id": 298,
@@ -4183,7 +4183,7 @@ var cards = {
             "physical": 12488,
             "skill": .25,
             "icon": "card_icon_030110005_1.d1748f52",
-            "passive": ""
+            "passive": "Auto Boost 1.5-2.5%"
         },
         "299": {
             "id": 299,
@@ -4197,7 +4197,7 @@ var cards = {
             "physical": 12412,
             "skill": .25,
             "icon": "card_icon_030610007_1.df49e592",
-            "passive": ""
+            "passive": "Groovy Solo 10-20%"
         },
         "300": {
             "id": 300,
@@ -4211,7 +4211,7 @@ var cards = {
             "physical": 13466,
             "skill": .5,
             "icon": "card_icon_040320008_1.68ea9f17",
-            "passive": ""
+            "passive": "Auto Boost 2.5-6.5%"
         },
         "301": {
             "id": 301,
@@ -4225,7 +4225,7 @@ var cards = {
             "physical": 6955,
             "skill": .5,
             "icon": "card_icon_040310009_1.eedbd506",
-            "passive": ""
+            "passive": "Groovy Bonus 10-25%"
         },
         "302": {
             "id": 302,
@@ -4239,7 +4239,7 @@ var cards = {
             "physical": 12079,
             "skill": .55,
             "icon": "card_icon_040210010_1.19afc433",
-            "passive": ""
+            "passive": "Groovy Solo 20-60%"
         },
         "303": {
             "id": 303,
@@ -4253,7 +4253,7 @@ var cards = {
             "physical": 12976,
             "skill": .5,
             "icon": "card_icon_040120009_1.ccf6b8b3",
-            "passive": ""
+            "passive": "Auto Boost 2.5-6.5%"
         },
         "304": {
             "id": 304,
@@ -4267,7 +4267,7 @@ var cards = {
             "physical": 7013,
             "skill": .5,
             "icon": "card_icon_040240010_1.d75c5a47",
-            "passive": ""
+            "passive": "Life Boost 2.5-6.5%"
         },
         "305": {
             "id": 305,
@@ -4281,7 +4281,7 @@ var cards = {
             "physical": 10935,
             "skill": .25,
             "icon": "card_icon_030420006_1.20fc70ea",
-            "passive": ""
+            "passive": "Groovy Solo 10-20%"
         },
         "306": {
             "id": 306,
@@ -4295,7 +4295,7 @@ var cards = {
             "physical": 8818,
             "skill": .25,
             "icon": "card_icon_030110006_1.cd9d3417",
-            "passive": ""
+            "passive": "Auto Boost 1.5-2.5%"
         },
         "307": {
             "id": 307,
