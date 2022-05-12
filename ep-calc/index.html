@@ -736,7 +736,7 @@
                                     <input style="text-align:right;width:150px" type="text" class="form-control" id="powerin" placeholder="250000" value="250000"><br>
                                     <span style="margin-top:15px;display:inline-block;width:150px">
                                         <span class="power2tip">
-                                            <label for="power2in">Power (Event)</label>
+                                            <label for="power2in">Power (Event) <i class="fa fa-info-circle"></i></label>
                                             <span class="power2intip">
                                                 If event has event bonus (Bingo and Medley), put the bigger number here.
                                             </span>
@@ -745,7 +745,7 @@
                                     <input style="text-align:right;width:150px" type="text" class="form-control" id="powerin2" placeholder="300000" value="300000"><br>
                                     <span style="margin-top:15px;display:inline-block;width:150px">
                                         <span class="roomtip">
-                                            <label for="roomscorein">Room Score</label>
+                                            <label for="roomscorein">Room Score <i class="fa fa-info-circle"></i></label>
                                             <span class="roomscoretip">
                                                 Room score only applies to Multi-Medley calculation. Leaving it empty defaults to 4 times your Score.
                                             </span>
@@ -754,9 +754,9 @@
                                     <input style="text-align:right;width:150px" type="text" class="form-control" id="roomscorein" placeholder="4000000"><br>
                                     <span style="margin-top:15px;display:inline-block;width:150px">
                                         <span class="skilltip">
-                                            <label for="skillin">Skills</label>
+                                            <label for="skillin">Skills <i class="fa fa-info-circle"></i></label>
                                             <span class="skillintip">
-                                                Skill in 4th slot will be used again for 5th skill (encore).
+                                                Set the skills that will be activated in order (highest skill will be activated in the 5th slot). Note that in a real game, the skill order (except the 5th) will be random.
                                             </span>
                                         </span>
                                     </span>
@@ -765,7 +765,7 @@
                                     <input style="text-align:right;width:150px" type="text" class="form-control" id="teambonus" name="teambonus" placeholder="200" value="200"><br>
                                     <span style="margin-top:15px;display:inline-block;width:150px">
                                         <span class="paramtip">
-                                            <label for="paramselout">Parameter</label>
+                                            <label for="paramselout">Parameter <i class="fa fa-info-circle"></i></label>
                                             <span class="paramoptiontip">
                                                 If the event is Bingo or Medley, you MUST go to Free Live unit select screen to see the actual parameter value.
                                             </span>
@@ -795,8 +795,8 @@
                                     <input style="text-align:right;width:150px" type="text" class="form-control" id="pass_gt" placeholder="0" value="0"><br>
                                     <label style="margin-top:15px;width:150px" for="pass_life">Life Boost %</label>
                                     <input style="text-align:right;width:150px" type="text" class="form-control" id="pass_life" placeholder="0" value="0"><br>
-                                    <label style="margin-top:15px;width:150px" for="pass_auto">Auto %</label>
-                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="pass_auto" placeholder="0" value="0"><br>
+                                    <!-- <label style="margin-top:15px;width:150px" for="pass_auto">Auto %</label>
+                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="pass_auto" placeholder="0" value="0"><br> -->
                                 </div>
                                 <div class="calcbutton">
                                     <a id="calculateteam" class="btn btn-primary" role="button">Calculate EP</a>
@@ -833,7 +833,7 @@
                                     <input style="text-align:right;width:150px" type="text" class="form-control" id="scorein" placeholder="1000000" value="1000000"><br>
                                     <span style="margin-top:15px;display:inline-block;width:150px">
                                         <span class="roomtip">
-                                            <label for="roomscorein2">Room Score</label>
+                                            <label for="roomscorein2">Room Score <i class="fa fa-info-circle"></i></label>
                                             <span class="roomscoretip">
                                                 Room score only applies to Multi-Medley calculation. Leaving it empty defaults to 4 times your Score.
                                             </span>
@@ -842,7 +842,7 @@
                                     <input style="text-align:right;width:150px" type="text" class="form-control" id="roomscorein2" placeholder="4000000"><br>
                                     <span style="margin-top:15px;display:inline-block;width:150px">
                                         <span class="paramtip">
-                                            <label for="paramselout2">Parameter</label>
+                                            <label for="paramselout2">Parameter <i class="fa fa-info-circle"></i></label>
                                             <span class="paramoptiontip">
                                                 If the event is Bingo or Medley, you MUST go to Free Live unit select screen to see the actual parameter value.
                                             </span>
@@ -945,6 +945,7 @@
                         <li>some way to compare cards when adding them</li>
                         <li>hide event/medley power bonus based on event</li>
                         <li>more song options for scoring</li>
+                        <li>export/import data as a json file (because if you clear browser cache it deletes the localstorage)</li>
                     </ul>
                 </div>
             </div>

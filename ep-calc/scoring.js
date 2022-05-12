@@ -273,13 +273,20 @@ function calculateScore(type) {
     var skillsList = [];
     skillsList = skills.split(",");
 
-    // Whatever the 4th skill is, add it as the 5th skill
-    skillsList.push(skillsList[skillsList.length-1]);
+    // Whatever the highest skill is, add it as the 5th skill
+    var highest = 0;
+    skillsList.forEach((x) => {
+        if (x > highest) {
+            highest = x;
+        }
+    });
+    skillsList.push(highest);
 
     // Get passive skills
     var gtboost = (parseInt(document.getElementById("pass_gt").value) / 100) + 1;
     var lifeboost = (parseInt(document.getElementById("pass_life").value) / 100) + 1;
-    var autoboost = (parseInt(document.getElementById("pass_auto").value) / 100) + 1;
+    //var autoboost = (parseInt(document.getElementById("pass_auto").value) / 100) + 1;
+    var autoboost = 1;
 
     var scoreMap = new Map();
     var scoreSolo = 0; // Free Live
