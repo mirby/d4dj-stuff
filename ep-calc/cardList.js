@@ -4366,6 +4366,34 @@ var cards = {
             "skill": .55,
             "icon": "card_icon_040310010_1.a051b5a6",
             "passive": "Life Boost 2.5-7.5%"
+        },
+        "312": {
+            "id": 312,
+            "character": "Tsubaki",
+            "cardname": "Wavering Solo Camellia",
+            "unit": "Rondo",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 15854,
+            "technical": 6755,
+            "physical": 13481,
+            "skill": .5,
+            "icon": "card_icon_040510009_1.f79b64b6",
+            "passive": "Auto Boost 2.5-6.5%"
+        },
+        "313": {
+            "id": 313,
+            "character": "Nagisa",
+            "cardname": "Wavering Solo Marigold",
+            "unit": "Rondo",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 17202,
+            "technical": 12170,
+            "physical": 6964,
+            "skill": .5,
+            "icon": "card_icon_040520008_1.7eae436c",
+            "passive": "Groovy Bonus 10-25%"
         }
     }
 

@@ -434,6 +434,15 @@ var eventList = {
         "parameter":"Physical",
         "bonus":true
     },
+    "54": {
+        "id":54,
+        "name":"Because We Can't Play It Alone ~Tsubaki & Nagisa~",
+        "characters":"Tsubaki,Nagisa",
+        "type":"Slots",
+        "style":"Elegant",
+        "parameter":"Heart",
+        "bonus":true
+    },
 }
 
 /*
