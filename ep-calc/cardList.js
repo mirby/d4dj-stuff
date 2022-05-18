@@ -4394,6 +4394,34 @@ var cards = {
             "skill": .5,
             "icon": "card_icon_040520008_1.7eae436c",
             "passive": "Groovy Bonus 10-25%"
+        },
+        "314": {
+            "id": 314,
+            "character": "Nagisa",
+            "cardname": "DJ-MIX!",
+            "unit": "Rondo",
+            "type": "Elegant",
+            "rarity": 2,
+            "heart": 3355,
+            "technical": 3256,
+            "physical": 3778,
+            "skill": .1,
+            "icon": "card_icon_020520002_0.e7f4222d",
+            "passive": ""
+        },
+        "315": {
+            "id": 315,
+            "character": "Tsubaki",
+            "cardname": "School Uniform",
+            "unit": "Rondo",
+            "type": "Elegant",
+            "rarity": 1,
+            "heart": 2483,
+            "technical": 2586,
+            "physical": 2298,
+            "skill": .1,
+            "icon": "card_icon_010510001_0.7db293fb",
+            "passive": ""
         }
     }
 
