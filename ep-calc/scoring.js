@@ -391,7 +391,7 @@ function importTeam() {
     }
 
     if (bonus != 0) {
-        document.getElementById("teambonus").value = bonus * 100;
+        document.getElementById("teambonus").value = (bonus * 1000) / 10;
     } else {
         document.getElementById("teambonus").value = 200;
     }
@@ -423,7 +423,7 @@ function importTeam2() {
     }
 
     if (bonus != 0) {
-        document.getElementById("teambonus2").value = bonus * 100;
+        document.getElementById("teambonus2").value = (bonus * 1000) / 10;
     } else {
         document.getElementById("teambonus2").value = 200;
     }

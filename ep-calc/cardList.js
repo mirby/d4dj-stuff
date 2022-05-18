@@ -4423,10 +4423,21 @@ function generateCardArray() {
     cardArray = [];
 
     var tempEt = new Map();
+    var tempParam = new Map();
     var storage = window.localStorage;
     var obj = JSON.parse(storage.getItem("et"));
     if (obj) {
         tempEt = new Map(obj);
+    }
+
+    obj = JSON.parse(storage.getItem("param"));
+    if (obj) {
+        
+        obj.forEach(function(x) {
+            for (var key in x) {
+                tempParam.set(key, x[key]);
+            }
+        });
     }
 
     Object.keys(cards).forEach(function(key) {
@@ -4438,7 +4449,6 @@ function generateCardArray() {
         var heart = cards[key].heart;
         var technical = cards[key].technical;
         var physical = cards[key].physical;
-
 
         var et = tempEt.get(cards[key].id.toString());
         var etVal = 0;
@@ -4471,6 +4481,15 @@ function generateCardArray() {
         } else {
             physMod += etVal;
         }
+
+        var heartParamPerc = parseFloat(tempParam.get("param_" + cards[key].character.toLowerCase() + "_1")) / 100;
+        heartMod += Math.floor((heart + heartMod) * heartParamPerc);
+
+        var techParamPerc = parseFloat(tempParam.get("param_" + cards[key].character.toLowerCase() + "_2")) / 100;
+        techMod += Math.floor((technical + techMod) * techParamPerc);
+
+        var physParamPerc = parseFloat(tempParam.get("param_" + cards[key].character.toLowerCase() + "_3")) / 100;
+        physMod += Math.floor((physical + physMod) * physParamPerc);
 
         cardArray.push({
             "id":cards[key].id,
