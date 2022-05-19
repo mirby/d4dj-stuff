@@ -6,6 +6,12 @@ jQuery(function($) {
         // Initialize any saved data
         var storage = window.localStorage;
 
+        // Check first time user
+        if (storage.getItem("firstTime") == null) {
+            alert("If this is your first time, check out the Help Docs tab for tips to help get you started!")
+            storage.setItem("firstTime", "false");
+        }
+
         // Initialize extra training
         var obj = JSON.parse(storage.getItem("et"));
         if (obj) {
@@ -154,6 +160,7 @@ function removeData() {
     var storage = window.localStorage;
     if (confirm("Are you sure you want to clear all saved data?")) {
         storage.clear();
+        storage.setItem("firstTime", "false");
         localEt = new Map();
 
         refreshClubSelects();

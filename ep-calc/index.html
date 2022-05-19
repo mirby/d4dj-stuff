@@ -76,16 +76,19 @@
                 <button class="nav-link active" id="cardSection-tab" data-bs-toggle="tab" data-bs-target="#cardSection" type="button" role="tab" aria-controls="cardSection" aria-selected="true">Add Cards To Team</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="scoreSection-tab" data-bs-toggle="tab" data-bs-target="#scoreSection" type="button" role="tab" aria-controls="scoreSection" aria-selected="false">Scoring</button>
-            </li>
-            <li class="nav-item" role="presentation">
                 <button class="nav-link" id="clubSection-tab" data-bs-toggle="tab" data-bs-target="#clubSection" type="button" role="tab" aria-controls="clubSection" aria-selected="false">Club / Event</button>
             </li>
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="paramSection-tab" data-bs-toggle="tab" data-bs-target="#paramSection" type="button" role="tab" aria-controls="paramSection" aria-selected="false">Param Upgrade</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="questionSection-tab" data-bs-toggle="tab" data-bs-target="#questionSection" type="button" role="tab" aria-controls="questionSection" aria-selected="false">How-To & Extras</button>
+                <button class="nav-link" id="scoreSection-tab" data-bs-toggle="tab" data-bs-target="#scoreSection" type="button" role="tab" aria-controls="scoreSection" aria-selected="false">Scoring</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="questionSection-tab" data-bs-toggle="tab" data-bs-target="#questionSection" type="button" role="tab" aria-controls="questionSection" aria-selected="false">Help Docs</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="extraSection-tab" data-bs-toggle="tab" data-bs-target="#extraSection" type="button" role="tab" aria-controls="extraSection" aria-selected="false">Credits & Extra</button>
             </li>
         </ul>
     </div>
@@ -903,61 +906,123 @@
                 </div>
             </div>
         </div>
-        <div class="tab-pane fade" id="questionSection" role="tabpabel" aria-labelledby="questionSection-tab">
-            <div id="bugs">
-                <div class="sectionHeader">
-                    <h4>How To:</h4>
-                    <ul>
-                        <li>Add cards to your team. Expand the team details to add extra training levels per card.</li>
-                        <li>Use the club, event and param sections to set additional details.</li>
-                        <li>In the scoring section, you can estimate EP gain based on your team. If you want, you can calculate EP based on score only.</li>
-                        <li>Click Save Profile button to save your current team (including ET), event, club, and param values.</li>
-                    </ul>
+        <div class="tab-pane tabpane1 fade" id="questionSection" role="tabpabel" aria-labelledby="questionSection-tab">
+            <div class="sectionHeader">
+                <p>How to use this site:</p>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <b>Adding Cards To Your Team</b>
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                From the <b>Add Cards to Team</b> tab, you can build your team by adding cards from a list of all cards available in the game (English version). After choosing a card from the list,
+                                the card's statistics will display in the menu below the drop down. From here, you can pick the party slot (main or support) and then click the Add To Team button to add that card to you team.
+                                By expanding the Show Filters section, you can filter the card list by Unit or Style, and you can also sort by Total Power or by a target Parameter.
+                                <br><br>
+                                After adding to your team, you can view the extended stats by expanding the Main Team and Support Team sections at the bottom. From here, you can also add to the extra training levels for each 
+                                card. Adding any cards to your team, or increasing the extra training levels, will reflect immediately on the team power stats on the top of the page.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <b>Choosing Club Items, Event, and Setting Parameter Upgrades</b>
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                From the <b>Club / Event</b> tab, you can set the club items for your team. The display, dj booth and discs can be character or unit. The remaining slots can be unit or style. 
+                                As noted on the club item section, every potential item in the game can be chosen, but some items may not yet exist in the game, or you do not yet own them. You should double
+                                check the items you own in game when setting them here. Any club changes will display the Club Power (and the current parameters) from the team power section.
+                                <br><br>
+                                For the Event section, you can choose the event from the drop down list. The details of the event will be displayed in the table below it. When selecting an event, any power 
+                                changes from the event bonus will be displayed on the team power section. Note, however, that the event power and additionally, the Total (with event) numbers, ONLY matter for 
+                                certain types of events (Bingo during Battle Lives, and Medley during Task Medley). You will also notice that the event bonus does not affect the parameters, even though it appears
+                                to in game. This is because the event bonus doesn't actually give you more parameters that give you more event points, so I decided not to display it here.
+                                <br><br>
+                                From the <b>Param Upgrade</b> tab, you can set the parameter upgrades you've given to any characters so far. Like it is in game, the upgrades can be applied to the 3 parameters, 
+                                and goes from 0 to 5%. Any parameter upgrade changes can be verified if you have a corresponding character set to your main or support team in the expanded team view.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <b>Scoring</b>
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                From the <b>Scoring</b> tab, you can estimate the Event Points (EP) earned based on your team's power, skills, etc. You can enter the values from the game, or if you've built your
+                                own team on the site, you can click the Import Team button to bring over all the relevant fields. (Note that currently, passive skills are not imported, you will need to set them
+                                yourself). The calculations currently only use very specific songs (Cat's Eye for Poker, Slots and Raid, Here's the Light for Bingo, and a Direct Drive x4 medley for Medley).
+                                <br><br>
+                                For the Skills field, you may need to change the values around to get an accurate calculation. The import button will always bring in your team's current skills, but for some event
+                                types, it only uses the DJ slot's skills from all the members. For example, if your team's skills are 20%, 30%, 40%, and 50%, but you're playing in a Poker event, where you want to
+                                estimate that all the other members have a DJ with a 50% skill, then you would want to change the 20,30,40,50 that got imported, into 50,50,50,50 to simulate this scenario. The 5th
+                                skill (encore skill) will always default to using the highest skill from this list of four.
+                                <br><br>
+                                If you wish to just calculate EP by the score earned instead, you can do so from the Calculate EP by Score section. This takes in a score that you can either estimate or calculate from
+                                other methods (i.e. Miyubot).
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <b>Saving</b>
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                On the bottom of the screen, you will be able to save and load from 5 different profiles. This allows you to keep using the same team if you close the browser. When you click 
+                                save, your currently built team, club, and event are all saved to that profile only. Any extra trainings you've done to cards and any param upgrades are saved to all profiles. 
+                                All extra trainings and param upgrades done, once saved, will be reflected in the card list if you choose any of the sorts. If you want to add extra training levels to more 
+                                cards, you can add the card to your team, change the extra training value, and then save. If you ever want to start completely over, you can click the Remove All Saved Data button,
+                                which will delete all your profiles, as well as resets all the extra training and param upgrades to 0.
+                                <br><br>
+                                This site uses localstorage (see docs <a href="https://www.w3schools.com/jsref/prop_win_localstorage.asp">here</a> for more details). The data is stored as a small JSON string on 
+                                your computer. If you open the browser's devtools console (F12 on Chrome), you can see the string that gets saved every time you click the save button. Note that the saved data
+                                is treated similar to cookies, meaning if you clear your browser data, your saved data will be lost as well. In the future, there will be an option to export the profile information
+                                to a physical file.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                <b>Future features</b>
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>auto club items?</li>
+                                    <li>add passive skill details per card</li>
+                                    <li>better UI (mobile too)</li>
+                                    <li>jp card support, if desired</li>
+                                    <li>some way to compare cards when adding them</li>
+                                    <li>hide event/medley power bonus based on event</li>
+                                    <li>more song options for scoring</li>
+                                    <li>export/import data as a json file (because if you clear browser cache it deletes the localstorage)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="sectionHeader">
-                    <h4>How does saving work?</h4>
-                    <ul>
-                        <li>Changing the profile from the selector allows you to save/load between different profiles.</li>
-                        <li>Team, Club, and Event sections are saved per profile. Extra training levels per card, and parameters are universal.</li>
-                        <li>If you want to add extra training levels, you have to add the card, change the ET level, and then save data.</li>
-                        <li>Clicking on the Remove All Saved Data string will clear all the JSON data.</li>
-                        <li>What is being saved?
-                            <ul>
-                                <li>This site uses localstorage (see docs <a href="https://www.w3schools.com/jsref/prop_win_localstorage.asp">here</a> for more details)</li>
-                                <li>Data is stored as a small JSON string to make it easier to resume your session if you close the browser window.</li>
-                                <li>If you open the browser devtools (F12 on Chrome), you can see the exact strings being saved when clicking the save button in the console tab.</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <div class="sectionHeader">
-                    <h4>Credits:</h4>
-                    <ul>
-                        <li>Author: Mirby#5516</li>
-                        <li>Special thanks to qwewqa for design ideas and Miyubot <a href="https://miyu-docs.qwewqa.xyz/">https://miyu-docs.qwewqa.xyz/</a></li>
-                    </ul>
-                </div>
-
-                <!-- <div class="sectionHeader">
-                    <h4>Known Issues:</h4>
-                    <ul>
-                        <li></li>
-                    </ul>
-                </div> -->
-                <div class="sectionHeader">
-                    <h4>Future features (maybe)</h4>
-                    <ul>
-                        <li>ability to import team into scoring sections</li>
-                        <li>auto club items?</li>
-                        <li>add passive skill details per card</li>
-                        <li>better UI (mobile too)</li>
-                        <li>jp card support, if desired</li>
-                        <li>some way to compare cards when adding them</li>
-                        <li>hide event/medley power bonus based on event</li>
-                        <li>more song options for scoring</li>
-                        <li>export/import data as a json file (because if you clear browser cache it deletes the localstorage)</li>
-                    </ul>
-                </div>
+            </div>
+        </div>
+        <div class="tab-pane tabpane1 fade" id="extraSection" role="tabpabel" aria-labelledby="extraSection-tab">
+            <div class="sectionHeader">
+                <p>Credits:</p>
+                <ul>
+                    <li>Author: Mirby#5516</li>
+                    <li>Special thanks to qwewqa for design ideas and Miyubot <a href="https://miyu-docs.qwewqa.xyz/">https://miyu-docs.qwewqa.xyz/</a></li>
+                </ul>
             </div>
         </div>
     </div>
