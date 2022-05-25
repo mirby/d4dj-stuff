@@ -443,6 +443,15 @@ var eventList = {
         "parameter":"Heart",
         "bonus":true
     },
+    "55": {
+        "id":55,
+        "name":"D4 FES.Remix -Sing in Chorus",
+        "characters":"Rei,Dalia,Miyu,Miiko",
+        "type":"Poker",
+        "style":"Party",
+        "parameter":"Technical",
+        "bonus":true
+    },
 }
 
 /*

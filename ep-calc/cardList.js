@@ -4407,7 +4407,7 @@ var cards = {
             "physical": 3778,
             "skill": .1,
             "icon": "card_icon_020520002_0.e7f4222d",
-            "passive": ""
+            "passive": "None"
         },
         "315": {
             "id": 315,
@@ -4421,7 +4421,77 @@ var cards = {
             "physical": 2298,
             "skill": .1,
             "icon": "card_icon_010510001_0.7db293fb",
-            "passive": ""
+            "passive": "None"
+        },
+        "316": {
+            "id": 316,
+            "character": "Haruna",
+            "cardname": "Birthday -Garden-",
+            "unit": "LyriLily",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 11862,
+            "technical": 11765,
+            "physical": 13382,
+            "skill": .55,
+            "icon": "card_icon_040620010_1.d1456ff1",
+            "passive": "Life Boost 2.5-7.5%"
+        },
+        "317": {
+            "id": 317,
+            "character": "Miiko",
+            "cardname": "Friendship Innocente",
+            "unit": "LyriLily",
+            "type": "Party",
+            "rarity": 3,
+            "heart": 8148,
+            "technical": 13054,
+            "physical": 10787,
+            "skill": .25,
+            "icon": "card_icon_030640006_1.02152a7b",
+            "passive": "Auto Boost 1.5-2.5%"
+        },
+        "318": {
+            "id": 318,
+            "character": "Rei",
+            "cardname": "Fully Enjoying◎Souvenir!",
+            "unit": "HapiAra",
+            "type": "Party",
+            "rarity": 3,
+            "heart": 10725,
+            "technical": 11726,
+            "physical": 9564,
+            "skill": .25,
+            "icon": "card_icon_030140006_1.523fd9f1",
+            "passive": "Groovy Bonus 5-10%"
+        },
+        "319": {
+            "id": 319,
+            "character": "Dalia",
+            "cardname": "Early bird str011!ng",
+            "unit": "Mermaid",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 6643,
+            "technical": 16986,
+            "physical": 13307,
+            "skill": .5,
+            "icon": "card_icon_040440010_1.708c3250",
+            "passive": "Life Boost 2.5-6.25%"
+        },
+        "320": {
+            "id": 320,
+            "character": "Miyu",
+            "cardname": "Envy Grazioso",
+            "unit": "LyriLily",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 12586,
+            "technical": 17059,
+            "physical": 6709,
+            "skill": .5,
+            "icon": "card_icon_040610010_1.7f2df00b",
+            "passive": "Groovy Solo 20-50%"
         }
     }
 
