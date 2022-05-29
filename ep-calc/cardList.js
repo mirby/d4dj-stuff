@@ -4651,12 +4651,21 @@ function generateCardArray() {
         }
 
         var heartParamPerc = parseFloat(tempParam.get("param_" + cards[key].character.toLowerCase() + "_1")) / 100;
+        if (isNaN(heartParamPerc)) {
+            heartParamPerc = 0;
+        }
         heartMod += Math.floor((heart + heartMod) * heartParamPerc);
 
         var techParamPerc = parseFloat(tempParam.get("param_" + cards[key].character.toLowerCase() + "_2")) / 100;
+        if (isNaN(techParamPerc)) {
+            heartParamPerc = 0;
+        }
         techMod += Math.floor((technical + techMod) * techParamPerc);
 
         var physParamPerc = parseFloat(tempParam.get("param_" + cards[key].character.toLowerCase() + "_3")) / 100;
+        if (isNaN(physParamPerc)) {
+            heartParamPerc = 0;
+        }
         physMod += Math.floor((physical + physMod) * physParamPerc);
 
         cardArray.push({
