@@ -4492,6 +4492,76 @@ var cards = {
             "skill": .5,
             "icon": "card_icon_040610010_1.7f2df00b",
             "passive": "Groovy Solo 20-50%"
+        },
+        "321": {
+            "id": 321,
+            "character": "Michiru",
+            "cardname": "1.5th Anniversary",
+            "unit": "Common",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 13698,
+            "technical": 13732,
+            "physical": 13729,
+            "skill": .5,
+            "icon": "card_icon_078310001_1.ab44873d",
+            "passive": "Groovy Solo 20-50%"
+        },
+        "322": {
+            "id": 322,
+            "character": "Toka",
+            "cardname": "The Path Shown by the Moonlight",
+            "unit": "CallofArtemis",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 14241,
+            "technical": 14567,
+            "physical": 13896,
+            "skill": .5,
+            "icon": "card_icon_070740001_1.46ae8429",
+            "passive": "Skill Duration 10-30%"
+        },
+        "323": {
+            "id": 323,
+            "character": "Shano",
+            "cardname": "By the Shimmering Lake Moon",
+            "unit": "CallofArtemis",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 14125,
+            "technical": 13953,
+            "physical": 14629,
+            "skill": .5,
+            "icon": "card_icon_070730001_1.e52c4189",
+            "passive": "Score Up 4-6%"
+        },
+        "324": {
+            "id": 324,
+            "character": "Mana",
+            "cardname": "Blooming Full Moon Flowers",
+            "unit": "CallofArtemis",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 13899,
+            "technical": 14516,
+            "physical": 14286,
+            "skill": .5,
+            "icon": "card_icon_070720001_1.9f803e77",
+            "passive": "Skill Duration 10-30%"
+        },
+        "325": {
+            "id": 325,
+            "character": "Airi",
+            "cardname": "Clad in a Dazzling Moon Frost",
+            "unit": "CallofArtemis",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 14585,
+            "technical": 14147,
+            "physical": 13978,
+            "skill": .5,
+            "icon": "card_icon_070710001_1.6d2e41cd",
+            "passive": "Score Up 4-6%"
         }
     }
 

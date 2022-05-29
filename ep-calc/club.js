@@ -267,7 +267,32 @@ var clubItems1 = {
         "displayname":"Michiru",
         "type":"character",
         "bonus":.12
+    },
+    "33": {
+        "name":"toka",
+        "displayname":"Toka",
+        "type":"character",
+        "bonus":.12
+    },
+    "34": {
+        "name":"shano",
+        "displayname":"Shano",
+        "type":"character",
+        "bonus":.12
+    },
+    "35": {
+        "name":"mana",
+        "displayname":"Mana",
+        "type":"character",
+        "bonus":.12
+    },
+    "36": {
+        "name":"airi",
+        "displayname":"Airi",
+        "type":"character",
+        "bonus":.12
     }
+    
 }
 
 var clubItems2 = {
