@@ -920,6 +920,10 @@ var units = [
         "display":"Lyrical Lily"
     },
     {
+        "unit":"CallofArtemis",
+        "display":"Call of Artemis"
+    },
+    {
         "unit":"Common",
         "display":"Other"
     }
