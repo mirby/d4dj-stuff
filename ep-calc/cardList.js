@@ -4618,6 +4618,20 @@ var cards = {
             "skill": .5,
             "icon": "card_icon_040220010_1.400e8f52",
             "passive": "Life Boost 2.5-6.25%"
+        },
+        "330": {
+            "id": 330,
+            "character": "Mana",
+            "cardname": "Birthday -Boudoir-",
+            "unit": "CallofArtemis",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 13755,
+            "technical": 13629,
+            "physical": 14594,
+            "skill": .55,
+            "icon": "card_icon_040720001_1.01fa6928",
+            "passive": "Skill Duration 10-30%"
         }
     }
 
