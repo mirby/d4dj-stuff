@@ -181,50 +181,52 @@ function loadData() {
     var storage = window.localStorage;
 
     var profile = document.getElementById("profsel").value;
-    var obj = storage.getItem(profile);
-    if (obj) {
-
-        var jsonObj = JSON.parse(obj);
-
-        // Initialize team
-        if (jsonObj["team"]) {
-            jsonObj["team"].forEach(function(x) {
-                for (var key in x) {
-                    populateTeam(key, x[key]);
-                }
-            });
+    if (confirm("Are you sure you wish to load profile " + profile + "? Make sure you save first!")) {
+        var obj = storage.getItem(profile);
+        if (obj) {
+    
+            var jsonObj = JSON.parse(obj);
+    
+            // Initialize team
+            if (jsonObj["team"]) {
+                jsonObj["team"].forEach(function(x) {
+                    for (var key in x) {
+                        populateTeam(key, x[key]);
+                    }
+                });
+            }
+    
+            // Initialize event
+            if (jsonObj["event"]) {
+                $("select[name=eventselector]").val(jsonObj["event"][0].eventid);
+                fillEventDisplay();
+            }
+    
+            // Initialize club
+            if (jsonObj["club"]) {
+                jsonObj["club"].forEach(function(x) {
+                    for (var key in x) {
+                        $("select[name=" + key + "]").val(x[key]);
+                    }
+                });
+            }
+    
+            $('.selectpicker').selectpicker('refresh');
+        } else {
+            // if doesnt exist, refresh the page items
+            console.log("Profile " + profile + " does not exist.");
+            refreshClubSelects();
+            refreshEventSelect();
+            refreshMainTeam();
+            refreshSupportTeam();
         }
-
-        // Initialize event
-        if (jsonObj["event"]) {
-            $("select[name=eventselector]").val(jsonObj["event"][0].eventid);
-            fillEventDisplay();
-        }
-
-        // Initialize club
-        if (jsonObj["club"]) {
-            jsonObj["club"].forEach(function(x) {
-                for (var key in x) {
-                    $("select[name=" + key + "]").val(x[key]);
-                }
-            });
-        }
-
-        $('.selectpicker').selectpicker('refresh');
-    } else {
-        // if doesnt exist, refresh the page items
-        console.log("Profile " + profile + " does not exist.");
-        refreshClubSelects();
-        refreshEventSelect();
-        refreshMainTeam();
-        refreshSupportTeam();
+    
+        calcModPower();
+        calcClubPower();
+        calcEventPower();
+        calcDisplayPower();
+        calcDisplayParams();
     }
-
-    calcModPower();
-    calcClubPower();
-    calcEventPower();
-    calcDisplayPower();
-    calcDisplayParams();
 }
 
 function printStuff() {
