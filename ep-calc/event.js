@@ -452,6 +452,15 @@ var eventList = {
         "parameter":"Technical",
         "bonus":true
     },
+    "56": {
+        "id":56,
+        "name":"Clash! The Ninjutsu Battle of the Kunoichi!",
+        "characters":"Kyoko,Shinobu,Yuka,Esora",
+        "type":"Bingo",
+        "style":"Cute",
+        "parameter":"Physical",
+        "bonus":true
+    },
 }
 
 /*

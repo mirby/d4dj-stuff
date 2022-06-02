@@ -4562,6 +4562,62 @@ var cards = {
             "skill": .5,
             "icon": "card_icon_070710001_1.6d2e41cd",
             "passive": "Score Up 4-6%"
+        },
+        "326": {
+            "id": 326,
+            "character": "Kyoko",
+            "cardname": "Yard Keepers on a Moonlit Night",
+            "unit": "Peaky",
+            "type": "Cute",
+            "rarity": 3,
+            "heart": 9266,
+            "technical": 10209,
+            "physical": 12601,
+            "skill": .25,
+            "icon": "card_icon_030210006_1.2b0f1473",
+            "passive": "Groovy Solo 10-20%"
+        },
+        "327": {
+            "id": 327,
+            "character": "Esora",
+            "cardname": "Covert Action is Also a Given♡",
+            "unit": "Peaky",
+            "type": "Cute",
+            "rarity": 3,
+            "heart": 11429,
+            "technical": 8230,
+            "physical": 12248,
+            "skill": .25,
+            "icon": "card_icon_030240005_1.61623aa8",
+            "passive": "Auto Boost 1.5-2.5%"
+        },
+        "328": {
+            "id": 328,
+            "character": "Yuka",
+            "cardname": "Daily Training Pays Off",
+            "unit": "Peaky",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 7239,
+            "technical": 12473,
+            "physical": 16508,
+            "skill": .5,
+            "icon": "card_icon_040230009_1.334fe354",
+            "passive": "Auto Boost 2.5-6.5%"
+        },
+        "329": {
+            "id": 329,
+            "character": "Shinobu",
+            "cardname": "No One is Standing in My Way!",
+            "unit": "Peaky",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 12120,
+            "technical": 6781,
+            "physical": 17236,
+            "skill": .5,
+            "icon": "card_icon_040220010_1.400e8f52",
+            "passive": "Life Boost 2.5-6.25%"
         }
     }
 
