@@ -4666,7 +4666,7 @@ var cards = {
             "character": "Muni",
             "cardname": "In Search of Unseen Treasures",
             "unit": "HapiAra",
-            "type": "HapiAra",
+            "type": "Party",
             "rarity": 3,
             "heart": 13404,
             "technical": 10249,
