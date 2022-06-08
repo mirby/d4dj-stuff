@@ -4784,13 +4784,13 @@ function generateCardArray() {
 
         var techParamPerc = parseFloat(tempParam.get("param_" + cards[key].character.toLowerCase() + "_2")) / 100;
         if (isNaN(techParamPerc)) {
-            heartParamPerc = 0;
+            techParamPerc = 0;
         }
         techMod += Math.floor((technical + techMod) * techParamPerc);
 
         var physParamPerc = parseFloat(tempParam.get("param_" + cards[key].character.toLowerCase() + "_3")) / 100;
         if (isNaN(physParamPerc)) {
-            heartParamPerc = 0;
+            physParamPerc = 0;
         }
         physMod += Math.floor((physical + physMod) * physParamPerc);
 
