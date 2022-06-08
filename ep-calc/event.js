@@ -461,6 +461,15 @@ var eventList = {
         "parameter":"Physical",
         "bonus":true
     },
+    "57": {
+        "id":57,
+        "name":"Rinku Aimoto Exploration Party - Chase a mysterious rare creature in the last unexplored region of Japan!",
+        "characters":"Rinku,Maho,Muni,Rei",
+        "type":"Medley",
+        "style":"Party",
+        "parameter":"Heart",
+        "bonus":true
+    },
 }
 
 /*

@@ -4632,6 +4632,62 @@ var cards = {
             "skill": .55,
             "icon": "card_icon_040720001_1.01fa6928",
             "passive": "Skill Duration 10-30%"
+        },
+        "331": {
+            "id": 331,
+            "character": "Rei",
+            "cardname": "Flying Through the Sky",
+            "unit": "HapiAra",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 17088,
+            "technical": 7323,
+            "physical": 12614,
+            "skill": .5,
+            "icon": "card_icon_040140010_1.417f5a68",
+            "passive": "Groovy Solo 20-50%"
+        },
+        "332": {
+            "id": 332,
+            "character": "Maho",
+            "cardname": "Indulging in the Treasure of Golden Coins",
+            "unit": "HapiAra",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 16750,
+            "technical": 12416,
+            "physical": 7446,
+            "skill": .5,
+            "icon": "card_icon_040120010_1.d2b8f193",
+            "passive": "Life Boost 2.5-6.25%"
+        },
+        "333": {
+            "id": 333,
+            "character": "Muni",
+            "cardname": "In Search of Unseen Treasures",
+            "unit": "HapiAra",
+            "type": "HapiAra",
+            "rarity": 3,
+            "heart": 13404,
+            "technical": 10249,
+            "physical": 8607,
+            "skill": .25,
+            "icon": "card_icon_030130006_1.d356789c",
+            "passive": "Groovy Bonus 5-10%"
+        },
+        "334": {
+            "id": 334,
+            "character": "Rinku",
+            "cardname": "Overwhelming Torrents of Water",
+            "unit": "HapiAra",
+            "type": "Party",
+            "rarity": 3,
+            "heart": 12005,
+            "technical": 8050,
+            "physical": 11368,
+            "skill": .25,
+            "icon": "card_icon_030110007_1.4fab12b2",
+            "passive": "Life Boost 1-2.5%"
         }
     }
 
