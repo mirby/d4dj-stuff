@@ -470,6 +470,15 @@ var eventList = {
         "parameter":"Heart",
         "bonus":true
     },
+    "58": {
+        "id":58,
+        "name":"Signposts Are In Our Words ~Towa & Noa~",
+        "characters":"Towa,Noa",
+        "type":"Slots",
+        "style":"Cute",
+        "parameter":"Heart",
+        "bonus":true
+    },
 }
 
 /*
