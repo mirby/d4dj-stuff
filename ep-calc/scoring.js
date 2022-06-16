@@ -291,10 +291,12 @@ function calculateScore(type) {
     skillsList.push(highest);
 
     // Get passive skills
-    var gtboost = (parseInt(document.getElementById("pass_gt").value) / 100) + 1;
-    var lifeboost = (parseInt(document.getElementById("pass_life").value) / 100) + 1;
+    var gtboost = ((parseInt(document.getElementById("pass_gt").value) / 100) || 0) + 1;
+    var lifeboost = (parseInt(document.getElementById("pass_life").value) / 100) || 0;
+    var scoreupboost = (parseInt(document.getElementById("pass_scoreup").value) / 100) || 0;
     //var autoboost = (parseInt(document.getElementById("pass_auto").value) / 100) + 1;
     var autoboost = 1;
+    lifeboost = lifeboost + scoreupboost + 1;
 
     var scoreMap = new Map();
     var scoreSolo = 0; // Free Live
