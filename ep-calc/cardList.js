@@ -4688,6 +4688,34 @@ var cards = {
             "skill": .25,
             "icon": "card_icon_030110007_1.4fab12b2",
             "passive": "Life Boost 1-2.5%"
+        },
+        "335": {
+            "id": 335,
+            "character": "Towa",
+            "cardname": "Pale And Aromatic Wings",
+            "unit": "Photon",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 16081,
+            "technical": 13186,
+            "physical": 6772,
+            "skill": .5,
+            "icon": "card_icon_040330010_1.450aabd8",
+            "passive": "Groovy Bonus 10-25%"
+        },
+        "336": {
+            "id": 336,
+            "character": "Noa",
+            "cardname": "Pale And Dainty Wings",
+            "unit": "Photon",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 16548,
+            "technical": 7015,
+            "physical": 12727,
+            "skill": .5,
+            "icon": "card_icon_040340010_1.8c680b33",
+            "passive": "Groovy Solo 20-50%"
         }
     }
 
