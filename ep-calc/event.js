@@ -472,7 +472,7 @@ var eventList = {
     },
     "58": {
         "id":58,
-        "name":"Signposts Are In Our Words ~Towa & Noa~",
+        "name":"Our Words Are Guiding Signs ~Towa & Noa~",
         "characters":"Towa,Noa",
         "type":"Slots",
         "style":"Cute",

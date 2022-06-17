@@ -51,6 +51,11 @@ jQuery(function($) {
     
             // Initialize club
             if (jsonObj["club"]) {
+                if (storage.getItem("needsclubpatch") == null) {
+                    patchClub();
+                    storage.setItem("needsclubpatch", "false");
+                }
+
                 jsonObj["club"].forEach(function(x) {
                     for (var key in x) {
                         $("select[name=" + key + "]").val(x[key]);
@@ -232,4 +237,62 @@ function loadData() {
 function printStuff() {
     var storage = window.localStorage;
     console.log(storage);
+}
+
+// Changed club indices. Patches cases where people had old save data. Need to fix for each profile (if it exists)
+function patchClub() {
+
+    var storage = window.localStorage;
+
+    for (let i = 1; i <= 5; i++) {
+        var obj = storage.getItem(i.toString());
+        if (obj) {
+            var jsonObj = JSON.parse(obj);
+            var clubJson = jsonObj["club"];
+            if (!isNaN(clubJson[0]["club-display"])) {
+                var newClubJson = [];
+                clubJson.forEach(function(x) {
+                    for (var key in x) {
+                        switch (key) {
+                            case "club-display":
+                                newClubJson.push({[key]:clubArray1[x[key]-1]})
+                                break;
+                            case "club-djbooth":
+                                newClubJson.push({[key]:clubArray1[x[key]-1]})
+                                break;
+                            case "club-discl":
+                                newClubJson.push({[key]:clubArray1[x[key]-1]})
+                                break;
+                            case "club-discr":
+                                newClubJson.push({[key]:clubArray1[x[key]-1]})
+                                break;
+                            case "club-front":
+                                newClubJson.push({[key]:clubArray2[x[key]-1]})
+                                break;
+                            case "club-side":
+                                newClubJson.push({[key]:clubArray2[x[key]-1]})
+                                break;
+                            case "club-back":
+                                newClubJson.push({[key]:clubArray2[x[key]-1]})
+                                break;
+                            case "club-frame":
+                                newClubJson.push({[key]:clubArray2[x[key]-1]})
+                                break;
+                            case "club-light":
+                                newClubJson.push({[key]:clubArray2[x[key]-1]})
+                                break;
+                            case "club-accessory":
+                                newClubJson.push({[key]:clubArray2[x[key]-1]})
+                                break;
+                            case "club-decoration":
+                                newClubJson.push({[key]:clubArray3[x[key]-1]})
+                                break;
+                        }
+                    }
+                });
+                jsonObj.club = newClubJson;
+                storage.setItem(i.toString(), JSON.stringify(jsonObj));
+            }
+        }        
+    }
 }

@@ -6,20 +6,26 @@ $(document).ready(function() {
     };
 })
 
+jQuery(function($) {
+    $('#autoClub').on('click', function() {
+        autoClub();
+    });
+});
+
 /*
     Set all club dropdowns to default values
 */
 function refreshClubSelects() {
     for (let type of clubTypes1) {
-        document.getElementById("club-" + type).value = "1";
+        document.getElementById("club-" + type).value = "rinku";
     }
 
     for (let type of clubTypes2) {
-        document.getElementById("club-" + type).value = "1";
+        document.getElementById("club-" + type).value = "hapiara";
     }
 
     for (let type of clubTypes3) {
-        document.getElementById("club-" + type).value = "1";
+        document.getElementById("club-" + type).value = "snowman";
     }
 
     $.refreshClubSelect();
@@ -40,6 +46,8 @@ function createClubSelects() {
         var select = createClubSelect(clubItems3, "club-" + type);
         document.getElementById("club-" + type + "-div").appendChild(select);
     }
+
+    generateClubArrays();
 }
 
 function createClubSelect(obj, id) {
@@ -71,298 +79,381 @@ function createClubSelect(obj, id) {
     return tempSelect;
 }
 
+function autoClub() {
+
+    // Get strongest member, and unit/style counts from current team
+    var highestPower = 0;
+    var highestChar = "";
+    var clubUse = "";
+    var styleArr = [];
+    var unitArr = [];
+    for (let i = 1; i <= 4; i++) {
+        var tempPower = document.getElementById("m" + i + "_cardpower").innerHTML;
+        if (tempPower > highestPower) {
+            highestPower = tempPower;
+            highestChar = document.getElementById("m" + i + "_char").innerHTML;
+        }
+
+        styleArr.push(document.getElementById("m" + i + "_type").innerHTML.toLowerCase());
+        unitArr.push(document.getElementById("m" + i + "_unit").innerHTML.toLowerCase());
+    }
+
+    // Don't bother setting club items if a team isn't built yet
+    if (highestPower != 0) {
+        var styleNum = 0;
+        var unitNum = 0;
+        var styleUse = "";
+        var unitUse = "";
+        var styleCount = {};
+        var unitCount = {};
+        styleArr.forEach(function(i) { styleCount[i] = (styleCount[i]||0) + 1;});
+        unitArr.forEach(function(i) { unitCount[i] = (unitCount[i]||0) + 1;});
+        for (var key of Object.keys(styleCount)) {
+            styleNum = styleCount[key];
+            if (styleNum >= 3) {
+                styleUse = key;
+            }            
+        }
+        for (var key of Object.keys(unitCount)) {
+            unitNum = unitCount[key];
+            if (unitNum >= 3) {
+                unitUse = key;
+            }            
+        }
+
+        // Call of Artemis general club items don't exist yet. Remove this extra check when they get added
+        if (unitNum > styleNum && unitUse !== "callofartemis") {
+            if (unitUse !== "") {
+                clubUse = unitUse;
+            }
+        } else {
+            if (styleUse !== "") {
+                clubUse = styleUse;
+            } else {
+                clubUse = "common";
+            }
+        }
+
+        for (var type of clubTypes1) {
+            $("select[name=club-" + type + "]").val(highestChar);
+        }
+    
+        for (var type of clubTypes2) {
+            $("select[name=club-" + type + "]").val(clubUse);
+        }
+    
+        $.refreshClubSelect();
+    }
+}
+
 var clubTypes1 = ["display", "djbooth", "discl", "discr"];
 var clubTypes2 = ["front", "side", "back", "frame", "light", "accessory"];
 var clubTypes3 = ["decoration"];
+var clubArray1 = [];
+var clubArray2 = [];
+var clubArray3 = [];
+
+function generateClubArrays() {
+    for (var x in clubItems1) {
+        clubArray1.push(x);
+    }
+
+    for (var x in clubItems2) {
+        clubArray2.push(x);
+    }
+
+    for (var x in clubItems3) {
+        clubArray3.push(x);
+    }
+}
 
 var clubItems1 = {
-    "1": {
+    "hapiara": {
         "name":"hapiara",
         "displayname":"Happy Around",
         "type":"unit",
         "bonus":.03
     },
-    "2": {
+    "peaky": {
         "name":"peaky",
         "displayname":"Peaky P-Key",
         "type":"unit",
         "bonus":.03
     },
-    "3": {
+    "photon": {
         "name":"photon",
         "displayname":"Photon Maiden",
         "type":"unit",
         "bonus":.03
     },
-    "4": {
+    "mermaid": {
         "name":"mermaid",
         "displayname":"Merm4id",
         "type":"unit",
         "bonus":.03
     },
-    "5": {
+    "rondo": {
         "name":"rondo",
         "displayname":"RONDO",
         "type":"unit",
         "bonus":.03
     },
-    "6": {
+    "lyrilily": {
         "name":"lyrilily",
         "displayname":"Lyrical Lily",
         "type":"unit",
         "bonus":.03
     },
-    "7": {
+    "common": {
         "name":"common",
         "displayname":"All Units",
         "type":"all",
         "bonus":.02
     },
-    "8": {
+    "rinku": {
         "name":"rinku",
         "displayname":"Rinku",
         "type":"character",
         "bonus":.12
     },
-    "9": {
+    "maho": {
         "name":"maho",
         "displayname":"Maho",
         "type":"character",
         "bonus":.12
     },
-    "10": {
+    "muni": {
         "name":"muni",
         "displayname":"Muni",
         "type":"character",
         "bonus":.12
     },
-    "11": {
+    "rei": {
         "name":"rei",
         "displayname":"Rei",
         "type":"character",
         "bonus":.12
     },
-    "12": {
+    "kyoko": {
         "name":"kyoko",
         "displayname":"Kyoko",
         "type":"character",
         "bonus":.12
     },
-    "13": {
+    "shinobu": {
         "name":"shinobu",
         "displayname":"Shinobu",
         "type":"character",
         "bonus":.12
     },
-    "14": {
+    "yuka": {
         "name":"yuka",
         "displayname":"Yuka",
         "type":"character",
         "bonus":.12
     },
-    "15": {
+    "esora": {
         "name":"esora",
         "displayname":"Esora",
         "type":"character",
         "bonus":.12
     },
-    "16": {
+    "saki": {
         "name":"saki",
         "displayname":"Saki",
         "type":"character",
         "bonus":.12
     },
-    "17": {
+    "ibuki": {
         "name":"ibuki",
         "displayname":"Ibuki",
         "type":"character",
         "bonus":.12
     },
-    "18": {
+    "towa": {
         "name":"towa",
         "displayname":"Towa",
         "type":"character",
         "bonus":.12
     },
-    "19": {
+    "noa": {
         "name":"noa",
         "displayname":"Noa",
         "type":"character",
         "bonus":.12
     },
-    "20": {
+    "rika": {
         "name":"rika",
         "displayname":"Rika",
         "type":"character",
         "bonus":.12
     },
-    "21": {
+    "marika": {
         "name":"marika",
         "displayname":"Marika",
         "type":"character",
         "bonus":.12
     },
-    "22": {
+    "saori": {
         "name":"saori",
         "displayname":"Saori",
         "type":"character",
         "bonus":.12
     },
-    "23": {
+    "dalia": {
         "name":"dalia",
         "displayname":"Dalia",
         "type":"character",
         "bonus":.12
     },
-    "24": {
+    "tsubaki": {
         "name":"tsubaki",
         "displayname":"Tsubaki",
         "type":"character",
         "bonus":.12
     },
-    "25": {
+    "nagisa": {
         "name":"nagisa",
         "displayname":"Nagisa",
         "type":"character",
         "bonus":.12
     },
-    "26": {
+    "hiiro": {
         "name":"hiiro",
         "displayname":"Hiiro",
         "type":"character",
         "bonus":.12
     },
-    "27": {
+    "aoi": {
         "name":"aoi",
         "displayname":"Aoi",
         "type":"character",
         "bonus":.12
     },
-    "28": {
+    "miyu": {
         "name":"miyu",
         "displayname":"Miyu",
         "type":"character",
         "bonus":.12
     },
-    "29": {
+    "haruna": {
         "name":"haruna",
         "displayname":"Haruna",
         "type":"character",
         "bonus":.12
     },
-    "30": {
+    "kurumi": {
         "name":"kurumi",
         "displayname":"Kurumi",
         "type":"character",
         "bonus":.12
     },
-    "31": {
+    "miiko": {
         "name":"miiko",
         "displayname":"Miiko",
         "type":"character",
         "bonus":.12
     },
-    "32": {
+    "michiru": {
         "name":"michiru",
         "displayname":"Michiru",
         "type":"character",
         "bonus":.12
     },
-    "33": {
+    "toka": {
         "name":"toka",
         "displayname":"Toka",
         "type":"character",
         "bonus":.12
     },
-    "34": {
+    "shano": {
         "name":"shano",
         "displayname":"Shano",
         "type":"character",
         "bonus":.12
     },
-    "35": {
+    "mana": {
         "name":"mana",
         "displayname":"Mana",
         "type":"character",
         "bonus":.12
     },
-    "36": {
+    "airi": {
         "name":"airi",
         "displayname":"Airi",
         "type":"character",
         "bonus":.12
     }
-    
 }
 
 var clubItems2 = {
-    "1": {
+    "hapiara": {
         "name":"hapiara",
         "displayname":"Happy Around",
         "type":"unit",
         "bonus":.03
     },
-    "2": {
+    "peaky": {
         "name":"peaky",
         "displayname":"Peaky P-Key",
         "type":"unit",
         "bonus":.03
     },
-    "3": {
+    "photon": {
         "name":"photon",
         "displayname":"Photon Maiden",
         "type":"unit",
         "bonus":.03
     },
-    "4": {
+    "mermaid": {
         "name":"mermaid",
         "displayname":"Merm4id",
         "type":"unit",
         "bonus":.03
     },
-    "5": {
+    "rondo": {
         "name":"rondo",
         "displayname":"RONDO",
         "type":"unit",
         "bonus":.03
     },
-    "6": {
+    "lyrilily": {
         "name":"lyrilily",
         "displayname":"Lyrical Lily",
         "type":"unit",
         "bonus":.03
     },
-    "7": {
+    "common": {
         "name":"common",
         "displayname":"All Units",
         "type":"all",
         "bonus":.02
     },
-    "8": {
+    "street": {
         "name":"street",
         "displayname":"Street",
         "type":"type",
         "bonus":.03
     },
-    "9": {
+    "party": {
         "name":"party",
         "displayname":"Party",
         "type":"type",
         "bonus":.03
     },
-    "10": {
+    "cute": {
         "name":"cute",
         "displayname":"Cute",
         "type":"type",
         "bonus":.03
     },
-    "11": {
+    "elegant": {
         "name":"elegant",
         "displayname":"Elegant",
         "type":"type",
         "bonus":.03
     },
-    "12": {
+    "cool": {
         "name":"cool",
         "displayname":"Cool",
         "type":"type",
@@ -371,19 +462,19 @@ var clubItems2 = {
 }
 
 var clubItems3 = {
-    "1": {
+    "snowman": {
         "name":"snowman",
         "displayname":"Snowman",
         "type":"decoration",
         "bonus":.02
     },
-    "2": {
+    "wings": {
         "name":"wings",
         "displayname":"Wings",
         "type":"decoration",
         "bonus":.02
     },
-    "3": {
+    "archwings": {
         "name":"archwings",
         "displayname":"Archangel Wings",
         "type":"decoration",
