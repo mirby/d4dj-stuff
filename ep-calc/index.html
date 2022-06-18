@@ -170,10 +170,6 @@
                             <div id="charImageWrapper"></div>
                         </div>
                         <div class="col-5 col-md-3">
-                            <label class="fieldHeader">Card Name: </label>
-                            <input type="text" class="form-control statfield" name="cardField" disabled>
-                        </div>
-                        <div class="col-5 col-md-3">
                             <label class="fieldHeader">Type: </label>
                             <div id="typeImageWrapper"></div>
                         </div>
@@ -181,36 +177,39 @@
                             <label class="fieldHeader">Unit: </label>
                             <div id="unitImageWrapper"></div>
                         </div>
-
-                        <div class="w-100"></div>
-                        <div class="col-5 col-md-3">
-                            <label class="fieldHeader">Extra Training: </label>
-                            <input type="text" class="form-control statfield" name="etField" disabled>
-                        </div>
                         <div class="col-5 col-md-3">
                             <label class="fieldHeader">Skill: </label>
-                            <input type="text" class="form-control statfield" name="skillField" disabled>
+                            <input type="text" class="form-control statfield reducedstat" name="skillField" disabled>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col-5 col-md-6">
+                            <label class="fieldHeader">Card Name: </label>
+                            <input type="text" class="form-control statfield" name="cardField" disabled>
                         </div>
                         <div class="col-5 col-md-3">
                             <label class="fieldHeader">Passive Skill: </label>
                             <input type="text" class="form-control statfield" name="pskillField" disabled>
                         </div>
+                        <div class="col-5 col-md-3">
+                            <label class="fieldHeader">Extra Training: </label>
+                            <input type="text" class="form-control statfield reducedstat" name="etField" disabled>
+                        </div>
                         <div class="w-100"></div>
                         <div class="col-5 col-md-3">
                             <label class="fieldHeader"><img class="paramimage" src="../icons/param_heart.png" width='30' height='30'></img>Heart:</label>
-                            <input type="text" class="form-control statfield" name="heartField" disabled>
+                            <input type="text" class="form-control statfield reducedstat" name="heartField" disabled>
                         </div>
                         <div class="col-5 col-md-3">
                             <label class="fieldHeader"><img class="paramimage" src="../icons/param_technical.png" width='30' height='30'></img>Technical:</label>
-                            <input type="text" class="form-control statfield" name="techField" disabled>
+                            <input type="text" class="form-control statfield reducedstat" name="techField" disabled>
                         </div>
                         <div class="col-5 col-md-3">
                             <label class="fieldHeader"><img class="paramimage" src="../icons/param_physical.png" width='30' height='30'></img>Physical:</label>
-                            <input type="text" class="form-control statfield" name="physField" disabled>
+                            <input type="text" class="form-control statfield reducedstat" name="physField" disabled>
                         </div>
                         <div class="col-5 col-md-3">
                             <label class="fieldHeader">Total Power: </label>
-                            <input type="text" class="form-control statfield" name="totalField" disabled>
+                            <input type="text" class="form-control statfield reducedstat" name="totalField" disabled>
                         </div>
                     </div>
                 </form>
@@ -286,6 +285,13 @@
                                 <td id="m2_skill"></td>
                                 <td id="m3_skill"></td>
                                 <td id="m4_skill"></td>
+                            </tr>
+                            <tr class="rowHide">
+                                <th scope="row">Passive Skill</th>
+                                <td id="m1_pskill"></td>
+                                <td id="m2_pskill"></td>
+                                <td id="m3_pskill"></td>
+                                <td id="m4_pskill"></td>
                             </tr>
                             <tr class="rowHide">
                                 <th scope="row">Extra Training</th>
@@ -591,6 +597,13 @@
                             <td id="s2_supportpower"></td>
                             <td id="s3_supportpower"></td>
                             <td id="s4_supportpower"></td>
+                        </tr>
+                        <tr class="rowHide">
+                            <th scope="row">Passive Skill</th>
+                            <td id="s1_pskill"></td>
+                            <td id="s2_pskill"></td>
+                            <td id="s3_pskill"></td>
+                            <td id="s4_pskill"></td>
                         </tr>
                     </tbody>
                 </table>

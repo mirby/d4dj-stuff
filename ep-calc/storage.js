@@ -16,6 +16,7 @@ jQuery(function($) {
         var obj = JSON.parse(storage.getItem("et"));
         if (obj) {
             localEt = new Map(obj);
+            fillStat(document.getElementById("cards").value);
         }
 
         // Initialize param

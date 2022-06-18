@@ -283,7 +283,7 @@
     opacity: 1;
 }
 
-.formsection input {
+.formsection .reducedstat {
     max-width:60%;
 }
 

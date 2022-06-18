@@ -132,6 +132,7 @@ function populateTeam(selection, cardId) {
         document.getElementById(selection + "_heartbase").innerHTML = cards[cardId].heart;
         document.getElementById(selection + "_techbase").innerHTML = cards[cardId].technical;
         document.getElementById(selection + "_physbase").innerHTML = cards[cardId].physical;
+        document.getElementById(selection + "_pskill").innerHTML = cards[cardId].passive;
 
         // Check if ET exists and if so, set it
         var et = localEt.get(cardId) || 0;
@@ -168,18 +169,26 @@ function fillStat(cardId) {
             document.querySelector('input[name="physField"]').value = "";
             document.querySelector('input[name="totalField"]').value = "";
             document.querySelector('input[name="skillField"]').value = "";
+            document.querySelector('input[name="pskillField"]').value = "";
+            document.querySelector('input[name="etField"]').value = "";
         }
         return;
     }
 
-    var obj = standardArray[cardId];
+    var cardIdString = cardId.toString();
+
+    var obj = standardArray[cardIdString];
     document.querySelector('input[name="cardField"]').value = obj.cardname;
     document.querySelector('input[name="heartField"]').value = obj.heart;
     document.querySelector('input[name="techField"]').value = obj.technical;
     document.querySelector('input[name="physField"]').value = obj.physical;
     document.querySelector('input[name="totalField"]').value = parseInt(obj.heart) + parseInt(obj.technical) + parseInt(obj.physical);
-    var skill = Math.round(cards[cardId].skill * 100);
+    var skill = Math.round(cards[cardIdString].skill * 100);
     document.querySelector('input[name="skillField"]').value = skill.toString() + "%";
+    document.querySelector('input[name="pskillField"]').value = obj.passive;
+    var et = localEt.get(cardIdString) || 0;
+
+    document.querySelector('input[name="etField"]').value = et;
 
     var img = document.createElement("img");
     img.src = "https://qwewqa.github.io/miyu-data/ondemand/card_icon/" + obj.icon.toString() + ".jpg";
