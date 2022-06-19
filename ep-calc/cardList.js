@@ -39,7 +39,7 @@ var cards = {
             "physical": 17384,
             "skill": 0.5,
             "icon": "card_icon_070540001_1.b132d775",
-            "passive": ""
+            "passive": "Auto Boost 2.5-5.5%"
         },
         "3": {
             "id": 3,
@@ -53,7 +53,7 @@ var cards = {
             "physical": 12190,
             "skill": 0.4,
             "icon": "card_icon_040540002_1.d371c8df",
-            "passive": ""
+            "passive": "Life Boost 2.5-3.75%"
         },
         "4": {
             "id": 4,
@@ -67,7 +67,7 @@ var cards = {
             "physical": 11635,
             "skill": 0.5,
             "icon": "card_icon_040540005_1.029d3d49",
-            "passive": ""
+            "passive": "Groovy Bonus 10-20%"
         },
         "5": {
             "id": 5,
@@ -81,7 +81,7 @@ var cards = {
             "physical": 11057,
             "skill": 0.3,
             "icon": "card_icon_040540001_1.06c00f67",
-            "passive": ""
+            "passive": "Groovy Solo 20-30%"
         },
         "6": {
             "id": 6,
@@ -95,7 +95,7 @@ var cards = {
             "physical": 7098,
             "skill": 0.4,
             "icon": "card_icon_040540004_1.4541f031",
-            "passive": ""
+            "passive": "Life Boost 2.5-3.75%"
         },
         "7": {
             "id": 7,
@@ -109,12 +109,12 @@ var cards = {
             "physical": 9223,
             "skill": 0.25,
             "icon": "card_icon_030540002_1.9a118f47",
-            "passive": ""
+            "passive": "Life Boost 1-2.5%"
         },
         "8": {
             "id": 8,
             "character": "Aoi",
-            "cardname": "Gorgeous Dance Knight",
+            "cardname": "Gorgeous Dance -Knight-",
             "unit": "Rondo",
             "type": "Cool",
             "rarity": 4,
@@ -123,12 +123,12 @@ var cards = {
             "physical": 6906,
             "skill": 0.4,
             "icon": "card_icon_040540007_1.6b10b677",
-            "passive": ""
+            "passive": "Groovy Solo 20-30%"
         },
         "9": {
             "id": 9,
             "character": "Aoi",
-            "cardname": "Nobleman of the Twilight",
+            "cardname": "The Nobleman of the Twilight",
             "unit": "Rondo",
             "type": "Street",
             "rarity": 4,
@@ -137,7 +137,7 @@ var cards = {
             "physical": 11252,
             "skill": 0.4,
             "icon": "card_icon_040540003_1.063c9698",
-            "passive": ""
+            "passive": "Auto Boost 2.5-4%"
         },
         "10": {
             "id": 10,
@@ -151,7 +151,7 @@ var cards = {
             "physical": 9884,
             "skill": 0.25,
             "icon": "card_icon_030540004_1.c8f31bae",
-            "passive": ""
+            "passive": "Auto Boost 1.5-2.5%"
         },
         "11": {
             "id": 11,
@@ -165,7 +165,7 @@ var cards = {
             "physical": 9026,
             "skill": 0.2,
             "icon": "card_icon_030540001_1.d197cef4",
-            "passive": ""
+            "passive": "Groovy Bonus 3-10%"
         },
         "12": {
             "id": 12,
@@ -179,7 +179,7 @@ var cards = {
             "physical": 7036,
             "skill": 0.25,
             "icon": "card_icon_030540003_1.06d1b33e",
-            "passive": ""
+            "passive": "Groovy Solo 10-20%"
         },
         "13": {
             "id": 13,
@@ -193,7 +193,7 @@ var cards = {
             "physical": 17072,
             "skill": 0.5,
             "icon": "card_icon_070440001_1.e3b0c442",
-            "passive": ""
+            "passive": "Groovy Solo 20-40%"
         },
         "14": {
             "id": 14,
@@ -207,7 +207,7 @@ var cards = {
             "physical": 9557,
             "skill": 0.25,
             "icon": "card_icon_030440002_1.a3527694",
-            "passive": ""
+            "passive": "Groovy Solo 10-20%"
         },
         "15": {
             "id": 15,
@@ -221,7 +221,7 @@ var cards = {
             "physical": 12030,
             "skill": 0.5,
             "icon": "card_icon_040440004_1.63675ab3",
-            "passive": ""
+            "passive": "Life Boost 2.5-5%"
         },
         "16": {
             "id": 16,
@@ -235,7 +235,7 @@ var cards = {
             "physical": 11320,
             "skill": 0.4,
             "icon": "card_icon_040440002_1.e2c0fb3d",
-            "passive": ""
+            "passive": "Groovy Bonus 10-15%"
         },
         "17": {
             "id": 17,
@@ -249,12 +249,12 @@ var cards = {
             "physical": 9684,
             "skill": 0.25,
             "icon": "card_icon_030440004_1.a3eaa969",
-            "passive": ""
+            "passive": "Auto Boost 1.5-2.5%"
         },
         "18": {
             "id": 18,
             "character": "Dalia",
-            "cardname": "Enchanted Shuten-doji",
+            "cardname": "The Enchanted Shuten-doji",
             "unit": "Mermaid",
             "type": "Cool",
             "rarity": 4,
@@ -263,7 +263,7 @@ var cards = {
             "physical": 11505,
             "skill": 0.4,
             "icon": "card_icon_040440005_1.28ba9ec9",
-            "passive": ""
+            "passive": "Auto Boost 2.5-4%"
         },
         "19": {
             "id": 19,
@@ -277,12 +277,12 @@ var cards = {
             "physical": 11477,
             "skill": 0.4,
             "icon": "card_icon_040440003_1.c80d36ba",
-            "passive": ""
+            "passive": "Auto Boost 2.5-8%"
         },
         "20": {
             "id": 20,
             "character": "Dalia",
-            "cardname": "Passion Dancer",
+            "cardname": "P@ssion D@ncer",
             "unit": "Mermaid",
             "type": "Elegant",
             "rarity": 3,
@@ -291,7 +291,7 @@ var cards = {
             "physical": 10185,
             "skill": 0.2,
             "icon": "card_icon_030440001_1.fb20b0a0",
-            "passive": ""
+            "passive": "Life Boost 0.5-2%"
         },
         "21": {
             "id": 21,
@@ -305,7 +305,7 @@ var cards = {
             "physical": 7302,
             "skill": 0.5,
             "icon": "card_icon_040440008_1.7c14ea47",
-            "passive": ""
+            "passive": "Groovy Solo 20-50%"
         },
         "22": {
             "id": 22,
@@ -319,7 +319,7 @@ var cards = {
             "physical": 12366,
             "skill": 0.3,
             "icon": "card_icon_040440001_1.eda318a2",
-            "passive": ""
+            "passive": "Groovy Bonus 10-15%"
         },
         "23": {
             "id": 23,
@@ -347,7 +347,7 @@ var cards = {
             "physical": 10481,
             "skill": 0.25,
             "icon": "card_icon_030440003_1.d9fca52a",
-            "passive": ""
+            "passive": "Groovy Bonus 5-10%"
         },
         "25": {
             "id": 25,
@@ -361,12 +361,12 @@ var cards = {
             "physical": 13436,
             "skill": 0.5,
             "icon": "card_icon_070240001_1.e0ce0ada",
-            "passive": ""
+            "passive": "Life Boost 2.5-5%"
         },
         "26": {
             "id": 26,
             "character": "Esora",
-            "cardname": "All Aboard Trance",
+            "cardname": "All Aboard - TRANCE",
             "unit": "Peaky",
             "type": "Cute",
             "rarity": 4,
@@ -375,7 +375,7 @@ var cards = {
             "physical": 11121,
             "skill": 0.3,
             "icon": "card_icon_040240001_1.447643f7",
-            "passive": ""
+            "passive": "Auto Boost 2.5-4%"
         },
         "27": {
             "id": 27,
@@ -389,12 +389,12 @@ var cards = {
             "physical": 11501,
             "skill": 0.5,
             "icon": "card_icon_040240005_1.cca6cc4d",
-            "passive": ""
+            "passive": "Groovy Solo 20-40%"
         },
         "28": {
             "id": 28,
             "character": "Esora",
-            "cardname": "Dew Brilliant",
+            "cardname": "Dew-BRILLIANT",
             "unit": "Peaky",
             "type": "Street",
             "rarity": 4,
@@ -403,12 +403,12 @@ var cards = {
             "physical": 6809,
             "skill": 0.4,
             "icon": "card_icon_040240004_1.0882433d",
-            "passive": ""
+            "passive": "Groovy Bonus 10-15%"
         },
         "29": {
             "id": 29,
             "character": "Esora",
-            "cardname": "Ephemeral Foxy Lady",
+            "cardname": "Ephemeral—FOXY LADY",
             "unit": "Peaky",
             "type": "Cool",
             "rarity": 3,
@@ -417,12 +417,12 @@ var cards = {
             "physical": 9259,
             "skill": 0.25,
             "icon": "card_icon_030240002_1.38bfbb42",
-            "passive": ""
+            "passive": "Groovy Solo 10-20%"
         },
         "30": {
             "id": 30,
             "character": "Esora",
-            "cardname": "Happy New Year 2022",
+            "cardname": "Happy New Year☆2022!",
             "unit": "Peaky",
             "type": "Elegant",
             "rarity": 4,
@@ -431,12 +431,12 @@ var cards = {
             "physical": 12473,
             "skill": 0.5,
             "icon": "card_icon_040240008_1.d2836c5f",
-            "passive": ""
+            "passive": "Groovy Solo 20-50%"
         },
         "31": {
             "id": 31,
             "character": "Esora",
-            "cardname": "Starlit Sweet Poison",
+            "cardname": "Starlit - SWEET POISON",
             "unit": "Peaky",
             "type": "Party",
             "rarity": 4,
@@ -445,7 +445,7 @@ var cards = {
             "physical": 12038,
             "skill": 0.4,
             "icon": "card_icon_040240002_1.45003c07",
-            "passive": ""
+            "passive": "Groovy Bonus 10-15%"
         },
         "32": {
             "id": 32,
@@ -459,12 +459,12 @@ var cards = {
             "physical": 6618,
             "skill": 0.55,
             "icon": "card_icon_040240003_1.648c5bba",
-            "passive": ""
+            "passive": "Auto Boost 2.5-4%"
         },
         "33": {
             "id": 33,
             "character": "Esora",
-            "cardname": "Vainglory 3 out",
+            "cardname": "Vainglory - 3 OUT",
             "unit": "Peaky",
             "type": "Street",
             "rarity": 3,
@@ -473,7 +473,7 @@ var cards = {
             "physical": 8588,
             "skill": 0.2,
             "icon": "card_icon_030240001_1.cf4d132b",
-            "passive": ""
+            "passive": "Groovy Bonus 3-10%"
         },
         "34": {
             "id": 34,
@@ -487,7 +487,7 @@ var cards = {
             "physical": 16989,
             "skill": 0.4,
             "icon": "card_icon_040240006_1.c81f34fe",
-            "passive": ""
+            "passive": "Groovy Solo 20-30%"
         },
         "35": {
             "id": 35,
@@ -501,12 +501,12 @@ var cards = {
             "physical": 15762,
             "skill": 0.5,
             "icon": "card_icon_070620001_1.2f352307",
-            "passive": ""
+            "passive": "Groovy Bonus 10-20%"
         },
         "36": {
             "id": 36,
             "character": "Haruna",
-            "cardname": "A Clean And Fresh Stage",
+            "cardname": "A clean And fresh stage",
             "unit": "LyriLily",
             "type": "Cool",
             "rarity": 3,
@@ -515,7 +515,7 @@ var cards = {
             "physical": 9616,
             "skill": 0.25,
             "icon": "card_icon_030620003_1.f8942665",
-            "passive": ""
+            "passive": "Life Boost 1-2.5%"
         },
         "37": {
             "id": 37,
@@ -529,7 +529,7 @@ var cards = {
             "physical": 11313,
             "skill": 0.5,
             "icon": "card_icon_040620005_1.e83c7bcd",
-            "passive": ""
+            "passive": "Auto Boost 2.5-5.5%"
         },
         "38": {
             "id": 38,
@@ -543,12 +543,12 @@ var cards = {
             "physical": 8473,
             "skill": 0.25,
             "icon": "card_icon_030620002_1.5cb746b8",
-            "passive": ""
+            "passive": "Groovy Solo 10-20%"
         },
         "39": {
             "id": 39,
             "character": "Haruna",
-            "cardname": "Cinderella at the Stroke of Midnight",
+            "cardname": "Cinderella at the stroke of midnight",
             "unit": "LyriLily",
             "type": "Cool",
             "rarity": 3,
@@ -557,7 +557,7 @@ var cards = {
             "physical": 9657,
             "skill": 0.25,
             "icon": "card_icon_030620004_1.b261cd53",
-            "passive": ""
+            "passive": "Auto Boost 1.5-2.5%"
         },
         "40": {
             "id": 40,
@@ -571,7 +571,7 @@ var cards = {
             "physical": 9656,
             "skill": 0.2,
             "icon": "card_icon_030620001_1.393d6196",
-            "passive": ""
+            "passive": "Auto Boost 1-2.5%"
         },
         "41": {
             "id": 41,
@@ -585,7 +585,7 @@ var cards = {
             "physical": 12183,
             "skill": 0.4,
             "icon": "card_icon_040620003_1.006f8f07",
-            "passive": ""
+            "passive": "Groovy Solo 20-60%"
         },
         "42": {
             "id": 42,
@@ -599,7 +599,7 @@ var cards = {
             "physical": 6707,
             "skill": 0.6,
             "icon": "card_icon_040620006_1.b860e15b",
-            "passive": ""
+            "passive": "Groovy Bonus 10-30%"
         },
         "43": {
             "id": 43,
@@ -613,7 +613,7 @@ var cards = {
             "physical": 11487,
             "skill": 0.4,
             "icon": "card_icon_040620002_1.b7d173c7",
-            "passive": ""
+            "passive": "Life Boost 2.5-3.75%"
         },
         "44": {
             "id": 44,
@@ -627,7 +627,7 @@ var cards = {
             "physical": 12484,
             "skill": 0.5,
             "icon": "card_icon_040620008_1.e266488b",
-            "passive": ""
+            "passive": "Life Boost 2.5-6.25%"
         },
         "45": {
             "id": 45,
@@ -641,7 +641,7 @@ var cards = {
             "physical": 11610,
             "skill": 0.6,
             "icon": "card_icon_040620004_1.133fb1c6",
-            "passive": ""
+            "passive": "Auto Boost 2.5-8%"
         },
         "46": {
             "id": 46,
@@ -655,7 +655,7 @@ var cards = {
             "physical": 10312,
             "skill": 0.3,
             "icon": "card_icon_040620001_1.0be6b7e5",
-            "passive": ""
+            "passive": "Groovy Solo 20-30%"
         },
         "47": {
             "id": 47,
@@ -669,7 +669,7 @@ var cards = {
             "physical": 17810,
             "skill": 0.5,
             "icon": "card_icon_070530001_1.8a5132b3",
-            "passive": ""
+            "passive": "Groovy Bonus 10-20%"
         },
         "48": {
             "id": 48,
@@ -683,7 +683,7 @@ var cards = {
             "physical": 10678,
             "skill": 0.5,
             "icon": "card_icon_040530003_1.ac0c280b",
-            "passive": ""
+            "passive": "Auto Boost 2.5-5.5%"
         },
         "49": {
             "id": 49,
@@ -711,7 +711,7 @@ var cards = {
             "physical": 11730,
             "skill": 0.6,
             "icon": "card_icon_040530004_1.b198abdf",
-            "passive": ""
+            "passive": "Life Boost 2.5-7.5%"
         },
         "51": {
             "id": 51,
@@ -725,7 +725,7 @@ var cards = {
             "physical": 9441,
             "skill": 0.25,
             "icon": "card_icon_030530002_1.82c28585",
-            "passive": ""
+            "passive": "Auto Boost 1.5-2.5%"
         },
         "52": {
             "id": 52,
@@ -739,12 +739,12 @@ var cards = {
             "physical": 8163,
             "skill": 0.25,
             "icon": "card_icon_030530004_1.0a054660",
-            "passive": ""
+            "passive": "Groovy Bonus 5-10%"
         },
         "53": {
             "id": 53,
             "character": "Hiiro",
-            "cardname": "Gorgeous Dance Princess",
+            "cardname": "Gorgeous Dance -Princess-",
             "unit": "Rondo",
             "type": "Cool",
             "rarity": 4,
@@ -753,7 +753,7 @@ var cards = {
             "physical": 12257,
             "skill": 0.4,
             "icon": "card_icon_040530007_1.b53d79bd",
-            "passive": ""
+            "passive": "Groovy Bonus 10-15%"
         },
         "54": {
             "id": 54,
@@ -767,7 +767,7 @@ var cards = {
             "physical": 6880,
             "skill": 0.4,
             "icon": "card_icon_040530005_1.c2fa2fda",
-            "passive": ""
+            "passive": "Groovy Solo 20-30%"
         },
         "55": {
             "id": 55,
@@ -781,7 +781,7 @@ var cards = {
             "physical": 10863,
             "skill": 0.3,
             "icon": "card_icon_040530001_1.5ae17ca8",
-            "passive": ""
+            "passive": "Life Boost 2.5-3.75%"
         },
         "56": {
             "id": 56,
@@ -795,7 +795,7 @@ var cards = {
             "physical": 10342,
             "skill": 0.4,
             "icon": "card_icon_040530002_1.8dd20972",
-            "passive": ""
+            "passive": "Auto Boost 2.5-4%"
         },
         "57": {
             "id": 57,
@@ -809,7 +809,7 @@ var cards = {
             "physical": 8617,
             "skill": 0.2,
             "icon": "card_icon_030530001_1.6b046733",
-            "passive": ""
+            "passive": "Life Boost 0.5-2%"
         },
         "58": {
             "id": 58,
@@ -823,7 +823,7 @@ var cards = {
             "physical": 9738,
             "skill": 0.25,
             "icon": "card_icon_030530003_1.6cac30e0",
-            "passive": ""
+            "passive": "Groovy Solo 10-20%"
         },
         "59": {
             "id": 59,
@@ -837,7 +837,7 @@ var cards = {
             "physical": 7207,
             "skill": 0.5,
             "icon": "card_icon_070320001_1.39516c70",
-            "passive": ""
+            "passive": "Groovy Bonus 10-20%"
         },
         "60": {
             "id": 60,
@@ -851,7 +851,7 @@ var cards = {
             "physical": 12552,
             "skill": 0.5,
             "icon": "card_icon_040320003_1.fec50f1f",
-            "passive": ""
+            "passive": "Life Boost 2.5-5%"
         },
         "61": {
             "id": 61,
@@ -865,7 +865,7 @@ var cards = {
             "physical": 10531,
             "skill": 0.2,
             "icon": "card_icon_030320001_1.0dde238a",
-            "passive": ""
+            "passive": "Groovy Bonus 3-10%"
         },
         "62": {
             "id": 62,
@@ -879,12 +879,12 @@ var cards = {
             "physical": 11730,
             "skill": 0.55,
             "icon": "card_icon_040320005_1.eece351f",
-            "passive": ""
+            "passive": "Auto Boost 2.5-4%"
         },
         "63": {
             "id": 63,
             "character": "Ibuki",
-            "cardname": "Dokidoki Heartbeat",
+            "cardname": "Dokidoki♡Heartbeat",
             "unit": "Photon",
             "type": "Street",
             "rarity": 4,
@@ -893,7 +893,7 @@ var cards = {
             "physical": 12772,
             "skill": 0.5,
             "icon": "card_icon_040320007_1.e32a767f",
-            "passive": ""
+            "passive": "Groovy Bonus 10-25%"
         },
         "64": {
             "id": 64,
@@ -907,7 +907,7 @@ var cards = {
             "physical": 9770,
             "skill": 0.25,
             "icon": "card_icon_030320004_1.5122f14d",
-            "passive": ""
+            "passive": "Groovy Solo 10-20%"
         },
         "65": {
             "id": 65,
@@ -921,7 +921,7 @@ var cards = {
             "physical": 10575,
             "skill": 0.25,
             "icon": "card_icon_030320002_1.bdca0250",
-            "passive": ""
+            "passive": "Life Boost 1-2.5%"
         },
         "66": {
             "id": 66,
@@ -935,7 +935,7 @@ var cards = {
             "physical": 16043,
             "skill": 0.4,
             "icon": "card_icon_040320004_1.fcba9390",
-            "passive": ""
+            "passive": "Life Boost 2.5-3.75%"
         },
         "67": {
             "id": 67,
@@ -949,7 +949,7 @@ var cards = {
             "physical": 12343,
             "skill": 0.3,
             "icon": "card_icon_040320001_1.bb60993c",
-            "passive": ""
+            "passive": "Groovy Solo 20-30%"
         },
         "68": {
             "id": 68,
@@ -963,7 +963,7 @@ var cards = {
             "physical": 8595,
             "skill": 0.25,
             "icon": "card_icon_030320003_1.beddc211",
-            "passive": ""
+            "passive": "Auto Boost 1.5-2.5%"
         },
         "69": {
             "id": 69,
@@ -977,7 +977,7 @@ var cards = {
             "physical": 11714,
             "skill": 0.5,
             "icon": "card_icon_070630001_1.adb04df8",
-            "passive": ""
+            "passive": "Groovy Solo 20-40%"
         },
         "70": {
             "id": 70,
@@ -991,7 +991,7 @@ var cards = {
             "physical": 12072,
             "skill": 0.55,
             "icon": "card_icon_040630007_1.b52726e9",
-            "passive": ""
+            "passive": "Auto Boost 2.5-8%"
         },
         "71": {
             "id": 71,
@@ -1005,7 +1005,7 @@ var cards = {
             "physical": 11213,
             "skill": 0.5,
             "icon": "card_icon_040630002_1.4925d135",
-            "passive": ""
+            "passive": "Life Boost 2.5-5%"
         },
         "72": {
             "id": 72,
@@ -1019,7 +1019,7 @@ var cards = {
             "physical": 12567,
             "skill": 0.3,
             "icon": "card_icon_040630001_1.29bf8aa1",
-            "passive": ""
+            "passive": "Life Boost 2.5-3.75%"
         },
         "73": {
             "id": 73,
@@ -1033,12 +1033,12 @@ var cards = {
             "physical": 12538,
             "skill": 0.25,
             "icon": "card_icon_030630005_1.c9b59292",
-            "passive": ""
+            "passive": "Groovy Bonus 5-10%"
         },
         "74": {
             "id": 74,
             "character": "Kurumi",
-            "cardname": "Journey In The Sky",
+            "cardname": "Journey in the Sky",
             "unit": "LyriLily",
             "type": "Cute",
             "rarity": 3,
@@ -1047,7 +1047,7 @@ var cards = {
             "physical": 11034,
             "skill": 0.25,
             "icon": "card_icon_030630003_1.ea8fee9d",
-            "passive": ""
+            "passive": "Auto Boost 1.5-2.5%"
         },
         "75": {
             "id": 75,
@@ -1061,7 +1061,7 @@ var cards = {
             "physical": 10933,
             "skill": 0.55,
             "icon": "card_icon_040630004_1.62026add",
-            "passive": ""
+            "passive": "Auto Boost 2.5-4%"
         },
         "76": {
             "id": 76,
@@ -1075,7 +1075,7 @@ var cards = {
             "physical": 9582,
             "skill": 0.25,
             "icon": "card_icon_030630002_1.af770734",
-            "passive": ""
+            "passive": "Groovy Bonus 5-10%"
         },
         "77": {
             "id": 77,
@@ -1089,7 +1089,7 @@ var cards = {
             "physical": 8416,
             "skill": 0.25,
             "icon": "card_icon_030630004_1.847b3b67",
-            "passive": ""
+            "passive": "Groovy Solo 10-20%"
         },
         "78": {
             "id": 78,
@@ -1103,7 +1103,7 @@ var cards = {
             "physical": 11860,
             "skill": 0.4,
             "icon": "card_icon_040630003_1.88a7f7fe",
-            "passive": ""
+            "passive": "Groovy Bonus 10-30%"
         },
         "79": {
             "id": 79,
@@ -1117,12 +1117,12 @@ var cards = {
             "physical": 11984,
             "skill": 0.55,
             "icon": "card_icon_040630005_1.7b7e8e7c",
-            "passive": ""
+            "passive": "Groovy Bonus 10-15%"
         },
         "80": {
             "id": 80,
             "character": "Kurumi",
-            "cardname": "Swaying In The Wind",
+            "cardname": "Swaying in the Wind",
             "unit": "LyriLily",
             "type": "Street",
             "rarity": 3,
@@ -1131,7 +1131,7 @@ var cards = {
             "physical": 9976,
             "skill": 0.2,
             "icon": "card_icon_030630001_1.0cd339a3",
-            "passive": ""
+            "passive": "Life Boost 0.5-2%"
         },
         "81": {
             "id": 81,
@@ -1145,7 +1145,7 @@ var cards = {
             "physical": 7239,
             "skill": 0.5,
             "icon": "card_icon_070210001_1.1f3a8c0a",
-            "passive": ""
+            "passive": "Auto Boost 2.5-5.5%"
         },
         "82": {
             "id": 82,
@@ -1159,7 +1159,7 @@ var cards = {
             "physical": 15306,
             "skill": 0.4,
             "icon": "card_icon_040210008_1.49066467",
-            "passive": ""
+            "passive": "Groovy Bonus 10-15%"
         },
         "83": {
             "id": 83,
@@ -1173,12 +1173,12 @@ var cards = {
             "physical": 11487,
             "skill": 0.5,
             "icon": "card_icon_040210004_1.956395d9",
-            "passive": ""
+            "passive": "Life Boost 2.5-5%"
         },
         "84": {
             "id": 84,
             "character": "Kyoko",
-            "cardname": "Destination Heaven",
+            "cardname": "Destination - HEAVEN",
             "unit": "Peaky",
             "type": "Cool",
             "rarity": 4,
@@ -1187,7 +1187,7 @@ var cards = {
             "physical": 11552,
             "skill": 0.3,
             "icon": "card_icon_040210001_1.aa183113",
-            "passive": ""
+            "passive": "Groovy Bonus 10-15%"
         },
         "85": {
             "id": 85,
@@ -1201,12 +1201,12 @@ var cards = {
             "physical": 9840,
             "skill": 0.25,
             "icon": "card_icon_030210004_1.59269d01",
-            "passive": ""
+            "passive": "Groovy Bonus 5-10%"
         },
         "86": {
             "id": 86,
             "character": "Kyoko",
-            "cardname": "Irresistable Force 2022",
+            "cardname": "Irresistable Force☆2022",
             "unit": "Peaky",
             "type": "Elegant",
             "rarity": 3,
@@ -1215,12 +1215,12 @@ var cards = {
             "physical": 10614,
             "skill": 0.25,
             "icon": "card_icon_030210005_1.070b9cd7",
-            "passive": ""
+            "passive": "Auto Boost 1.5-2.5%"
         },
         "87": {
             "id": 87,
             "character": "Kyoko",
-            "cardname": "Moonlight Behold",
+            "cardname": "Moonlight - BEHOLD",
             "unit": "Peaky",
             "type": "Party",
             "rarity": 3,
@@ -1229,7 +1229,7 @@ var cards = {
             "physical": 8635,
             "skill": 0.25,
             "icon": "card_icon_030210002_1.6cd0b85e",
-            "passive": ""
+            "passive": "Life Boost 1-2.5%"
         },
         "88": {
             "id": 88,
@@ -1243,12 +1243,12 @@ var cards = {
             "physical": 12320,
             "skill": 0.55,
             "icon": "card_icon_040210005_1.54155daf",
-            "passive": ""
+            "passive": "Groovy Solo 20-30%"
         },
         "89": {
             "id": 89,
             "character": "Kyoko",
-            "cardname": "Red Rain Breathtaking",
+            "cardname": "Red Rain-BREATHTAKING",
             "unit": "Peaky",
             "type": "Street",
             "rarity": 3,
@@ -1257,12 +1257,12 @@ var cards = {
             "physical": 9050,
             "skill": 0.25,
             "icon": "card_icon_030210003_1.c3fbb334",
-            "passive": ""
+            "passive": "Auto Boost 1.5-2.5%"
         },
         "90": {
             "id": 90,
             "character": "Kyoko",
-            "cardname": "Soaring Heart Beat",
+            "cardname": "Soaring HEART BEAT",
             "unit": "Peaky",
             "type": "Street",
             "rarity": 4,
@@ -1271,12 +1271,12 @@ var cards = {
             "physical": 11463,
             "skill": 0.4,
             "icon": "card_icon_040210002_1.7ebc8c54",
-            "passive": ""
+            "passive": "Groovy Solo 20-30%"
         },
         "91": {
             "id": 91,
             "character": "Kyoko",
-            "cardname": "Universe Lock On",
+            "cardname": "Universe - LOCK ON",
             "unit": "Peaky",
             "type": "Party",
             "rarity": 3,
@@ -1285,7 +1285,7 @@ var cards = {
             "physical": 9383,
             "skill": 0.2,
             "icon": "card_icon_030210001_1.a44122eb",
-            "passive": ""
+            "passive": "Groovy Solo 7-20%"
         },
         "92": {
             "id": 92,
@@ -1299,7 +1299,7 @@ var cards = {
             "physical": 16066,
             "skill": 0.5,
             "icon": "card_icon_070120001_1.404ebdfc",
-            "passive": ""
+            "passive": "Groovy Bonus 10-20%"
         },
         "93": {
             "id": 93,
@@ -1313,12 +1313,12 @@ var cards = {
             "physical": 11645,
             "skill": 0.5,
             "icon": "card_icon_040120005_1.1a1ac77c",
-            "passive": ""
+            "passive": "Groovy Bonus 10-20%"
         },
         "94": {
             "id": 94,
             "character": "Maho",
-            "cardname": "Delight Remix",
+            "cardname": "Delight REMIX",
             "unit": "HapiAra",
             "type": "Elegant",
             "rarity": 4,
@@ -1327,7 +1327,7 @@ var cards = {
             "physical": 11274,
             "skill": 0.3,
             "icon": "card_icon_040120001_1.8d370973",
-            "passive": ""
+            "passive": "Life Boost 2.5-3.75%"
         },
         "95": {
             "id": 95,
@@ -1341,12 +1341,12 @@ var cards = {
             "physical": 8973,
             "skill": 0.2,
             "icon": "card_icon_030120001_1.e80cca10",
-            "passive": ""
+            "passive": "Groovy Bonus 3-10%"
         },
         "96": {
             "id": 96,
             "character": "Maho",
-            "cardname": "Esoteric Art! Silver Flow and Flash",
+            "cardname": "Esoteric Art! Silver Flower and Flash",
             "unit": "HapiAra",
             "type": "Party",
             "rarity": 3,
@@ -1355,7 +1355,7 @@ var cards = {
             "physical": 11938,
             "skill": 0.25,
             "icon": "card_icon_030120004_1.fb4a6ef2",
-            "passive": ""
+            "passive": "Groovy Solo 10-20%"
         },
         "97": {
             "id": 97,
@@ -1369,12 +1369,12 @@ var cards = {
             "physical": 9879,
             "skill": 0.25,
             "icon": "card_icon_030120002_1.28431812",
-            "passive": ""
+            "passive": "Auto Boost 1.5-2.5%"
         },
         "98": {
             "id": 98,
             "character": "Maho",
-            "cardname": "New Year Good Fortune 2021",
+            "cardname": "New Year Good Fortune◎2021",
             "unit": "HapiAra",
             "type": "Party",
             "rarity": 4,
@@ -1383,7 +1383,7 @@ var cards = {
             "physical": 11721,
             "skill": 0.4,
             "icon": "card_icon_040120002_1.5ce8ee96",
-            "passive": ""
+            "passive": "Auto Boost 2.5-4%"
         },
         "99": {
             "id": 99,
@@ -1397,12 +1397,12 @@ var cards = {
             "physical": 11932,
             "skill": 0.4,
             "icon": "card_icon_040120003_1.7acaab4e",
-            "passive": ""
+            "passive": "Auto Boost 2.5-4%"
         },
         "100": {
             "id": 100,
             "character": "Maho",
-            "cardname": "Tropical Icecandy",
+            "cardname": "Tropical◎Icecandy",
             "unit": "HapiAra",
             "type": "Street",
             "rarity": 4,
@@ -1411,12 +1411,12 @@ var cards = {
             "physical": 10824,
             "skill": 0.55,
             "icon": "card_icon_040120004_1.11755866",
-            "passive": ""
+            "passive": "Groovy Solo 20-30%"
         },
         "101": {
             "id": 101,
             "character": "Maho",
-            "cardname": "Which Do You Want",
+            "cardname": "Which Do You Want?",
             "unit": "HapiAra",
             "type": "Elegant",
             "rarity": 3,
@@ -1425,7 +1425,7 @@ var cards = {
             "physical": 13110,
             "skill": 0.25,
             "icon": "card_icon_030120005_1.0e1608ef",
-            "passive": ""
+            "passive": "Groovy Solo 10-20%"
         },
         "102": {
             "id": 102,
@@ -1439,7 +1439,7 @@ var cards = {
             "physical": 9970,
             "skill": 0.25,
             "icon": "card_icon_030120003_1.74dc77b7",
-            "passive": ""
+            "passive": "Life Boost 1-2.5%"
         },
         "103": {
             "id": 103,
@@ -1453,7 +1453,7 @@ var cards = {
             "physical": 15906,
             "skill": 0.5,
             "icon": "card_icon_070420001_1.2c31e803",
-            "passive": ""
+            "passive": "Life Boost 2.5-5%"
         },
         "104": {
             "id": 104,
@@ -1467,7 +1467,7 @@ var cards = {
             "physical": 11075,
             "skill": 0.5,
             "icon": "card_icon_040420004_1.c01bc0ce",
-            "passive": ""
+            "passive": "Groovy Bonus 10-20%"
         },
         "105": {
             "id": 105,
@@ -1481,7 +1481,7 @@ var cards = {
             "physical": 9243,
             "skill": 0.25,
             "icon": "card_icon_030420002_1.b37dc55c",
-            "passive": ""
+            "passive": "Groovy Bonus 5-10%"
         },
         "106": {
             "id": 106,
@@ -1495,7 +1495,7 @@ var cards = {
             "physical": 11988,
             "skill": 0.4,
             "icon": "card_icon_040420003_1.3ee90b45",
-            "passive": ""
+            "passive": "Groovy Bonus 10-15%"
         },
         "107": {
             "id": 107,
@@ -1509,7 +1509,7 @@ var cards = {
             "physical": 11033,
             "skill": 0.4,
             "icon": "card_icon_040420002_1.ae147414",
-            "passive": ""
+            "passive": "Groovy Solo 20-30%"
         },
         "108": {
             "id": 108,
@@ -1523,7 +1523,7 @@ var cards = {
             "physical": 8905,
             "skill": 0.2,
             "icon": "card_icon_030420001_1.b69adfc5",
-            "passive": ""
+            "passive": "Groovy Solo 7-20%"
         },
         "109": {
             "id": 109,
@@ -1537,7 +1537,7 @@ var cards = {
             "physical": 11255,
             "skill": 0.3,
             "icon": "card_icon_040420001_1.123a2561",
-            "passive": ""
+            "passive": "Auto Boost 2.5-4%"
         },
         "110": {
             "id": 110,
@@ -1551,7 +1551,7 @@ var cards = {
             "physical": 9580,
             "skill": 0.25,
             "icon": "card_icon_030420003_1.c27c9769",
-            "passive": ""
+            "passive": "Life Boost 1-2.5%"
         },
         "111": {
             "id": 111,
@@ -1565,7 +1565,7 @@ var cards = {
             "physical": 8751,
             "skill": 0.25,
             "icon": "card_icon_030420005_1.43fcb9ae",
-            "passive": ""
+            "passive": "Groovy Bonus 5-10%"
         },
         "112": {
             "id": 112,
@@ -1579,7 +1579,7 @@ var cards = {
             "physical": 10303,
             "skill": 0.25,
             "icon": "card_icon_030420004_1.d1d235d4",
-            "passive": ""
+            "passive": "Auto Boost 1.5-2.5%"
         },
         "113": {
             "id": 113,
@@ -1607,7 +1607,7 @@ var cards = {
             "physical": 13037,
             "skill": 0.4,
             "icon": "card_icon_048310001_1.2ca2eb14",
-            "passive": ""
+            "passive": "Auto Boost 2.5-4%"
         },
         "115": {
             "id": 115,
@@ -1621,7 +1621,7 @@ var cards = {
             "physical": 12915,
             "skill": 0.5,
             "icon": "card_icon_070640001_1.7e27692b",
-            "passive": ""
+            "passive": "Life Boost 2.5-5%"
         },
         "116": {
             "id": 116,
@@ -1635,7 +1635,7 @@ var cards = {
             "physical": 9274,
             "skill": 0.25,
             "icon": "card_icon_030640003_1.50589fd3",
-            "passive": ""
+            "passive": "Groovy Bonus 5-10%"
         },
         "117": {
             "id": 117,
@@ -1649,12 +1649,12 @@ var cards = {
             "physical": 11174,
             "skill": 0.5,
             "icon": "card_icon_040640003_1.6c0bd39f",
-            "passive": ""
+            "passive": "Groovy Bonus 10-20%"
         },
         "118": {
             "id": 118,
             "character": "Miiko",
-            "cardname": "Captive Sleeping Beauty",
+            "cardname": "The Captive Sleeping Beauty",
             "unit": "LyriLily",
             "type": "Cool",
             "rarity": 4,
@@ -1663,7 +1663,7 @@ var cards = {
             "physical": 10761,
             "skill": 0.55,
             "icon": "card_icon_040640004_1.64c3e530",
-            "passive": ""
+            "passive": "Groovy Bonus 10-15%"
         },
         "119": {
             "id": 119,
@@ -1677,7 +1677,7 @@ var cards = {
             "physical": 8671,
             "skill": 0.2,
             "icon": "card_icon_030640001_1.1318f0c1",
-            "passive": ""
+            "passive": "Groovy Solo 7-20%"
         },
         "120": {
             "id": 120,
@@ -1691,7 +1691,7 @@ var cards = {
             "physical": 7557,
             "skill": 0.25,
             "icon": "card_icon_030640004_1.b89256e8",
-            "passive": ""
+            "passive": "Auto Boost 1.5-2.5%"
         },
         "121": {
             "id": 121,
@@ -1705,7 +1705,7 @@ var cards = {
             "physical": 11456,
             "skill": 0.4,
             "icon": "card_icon_040640002_1.de01d2c1",
-            "passive": ""
+            "passive": "Groovy Solo 20-30%"
         },
         "122": {
             "id": 122,
@@ -1719,7 +1719,7 @@ var cards = {
             "physical": 9333,
             "skill": 0.25,
             "icon": "card_icon_030640002_1.e3b0c442",
-            "passive": ""
+            "passive": "Life Boost 1-2.5%"
         },
         "123": {
             "id": 123,
@@ -1733,7 +1733,7 @@ var cards = {
             "physical": 17030,
             "skill": 0.5,
             "icon": "card_icon_040640008_1.7e679c9a",
-            "passive": ""
+            "passive": "Life Boost 2.5-6.25%"
         },
         "124": {
             "id": 124,
@@ -1747,7 +1747,7 @@ var cards = {
             "physical": 15697,
             "skill": 0.4,
             "icon": "card_icon_040640007_1.d7428d2b",
-            "passive": ""
+            "passive": "Life Boost 2.5-3.75%"
         },
         "125": {
             "id": 125,
@@ -1761,7 +1761,7 @@ var cards = {
             "physical": 11098,
             "skill": 0.3,
             "icon": "card_icon_040640001_1.d02ef0e7",
-            "passive": ""
+            "passive": "Auto Boost 2.5-4%"
         },
         "126": {
             "id": 126,
@@ -1775,7 +1775,7 @@ var cards = {
             "physical": 7015,
             "skill": 0.5,
             "icon": "card_icon_040640006_1.a4baea36",
-            "passive": ""
+            "passive": "Auto Boost 2.5-6.5%"
         },
         "127": {
             "id": 127,
@@ -1789,12 +1789,12 @@ var cards = {
             "physical": 6908,
             "skill": 0.5,
             "icon": "card_icon_070610001_1.8c179e95",
-            "passive": ""
+            "passive": "Auto Boost 2.5-5.5%"
         },
         "128": {
             "id": 128,
             "character": "Miyu",
-            "cardname": "Birthday Garden",
+            "cardname": "Birthday -Garden-",
             "unit": "LyriLily",
             "type": "Party",
             "rarity": 4,
@@ -1803,7 +1803,7 @@ var cards = {
             "physical": 11407,
             "skill": 0.55,
             "icon": "card_icon_040610008_1.5ea40e98",
-            "passive": ""
+            "passive": "Groovy Bonus 10-30%"
         },
         "129": {
             "id": 129,
@@ -1817,7 +1817,7 @@ var cards = {
             "physical": 11275,
             "skill": 0.5,
             "icon": "card_icon_040610003_1.2553d7ee",
-            "passive": ""
+            "passive": "Groovy Solo 20-40%"
         },
         "130": {
             "id": 130,
@@ -1831,7 +1831,7 @@ var cards = {
             "physical": 7656,
             "skill": 0.25,
             "icon": "card_icon_030610005_1.04f90215",
-            "passive": ""
+            "passive": "Life Boost 1-2.5%"
         },
         "131": {
             "id": 131,
@@ -1845,7 +1845,7 @@ var cards = {
             "physical": 10798,
             "skill": 0.4,
             "icon": "card_icon_040610002_1.1d696eb0",
-            "passive": ""
+            "passive": "Auto Boost 2.5-4%"
         },
         "132": {
             "id": 132,
@@ -1859,7 +1859,7 @@ var cards = {
             "physical": 6732,
             "skill": 0.4,
             "icon": "card_icon_040610005_1.0db05e4c",
-            "passive": ""
+            "passive": "Life Boost 2.5-3.75%"
         },
         "133": {
             "id": 133,
@@ -1873,7 +1873,7 @@ var cards = {
             "physical": 10979,
             "skill": 0.3,
             "icon": "card_icon_040610001_1.ab1639a4",
-            "passive": ""
+            "passive": "Groovy Bonus 10-15%"
         },
         "134": {
             "id": 134,
@@ -1887,7 +1887,7 @@ var cards = {
             "physical": 11156,
             "skill": 0.55,
             "icon": "card_icon_040610004_1.ddda8c5b",
-            "passive": ""
+            "passive": "Life Boost 2.5-3.75%"
         },
         "135": {
             "id": 135,
@@ -1901,7 +1901,7 @@ var cards = {
             "physical": 9360,
             "skill": 0.25,
             "icon": "card_icon_030610002_1.18ec397b",
-            "passive": ""
+            "passive": "Auto Boost 1.5-2.5%"
         },
         "136": {
             "id": 136,
@@ -1915,7 +1915,7 @@ var cards = {
             "physical": 9196,
             "skill": 0.2,
             "icon": "card_icon_030610001_1.026ff484",
-            "passive": ""
+            "passive": "Groovy Bonus 3-10%"
         },
         "137": {
             "id": 137,
@@ -1929,7 +1929,7 @@ var cards = {
             "physical": 9848,
             "skill": 0.25,
             "icon": "card_icon_030610004_1.618feadb",
-            "passive": ""
+            "passive": "Groovy Solo 10-20%"
         },
         "138": {
             "id": 138,
@@ -1943,7 +1943,7 @@ var cards = {
             "physical": 9418,
             "skill": 0.25,
             "icon": "card_icon_030610003_1.60af6128",
-            "passive": ""
+            "passive": "Groovy Boost 5-10%"
         },
         "139": {
             "id": 139,
@@ -1957,7 +1957,7 @@ var cards = {
             "physical": 9954,
             "skill": 0.25,
             "icon": "card_icon_030610006_1.ec90022f",
-            "passive": ""
+            "passive": "Life Boost 1-2.5%"
         },
         "140": {
             "id": 140,
@@ -1971,7 +1971,7 @@ var cards = {
             "physical": 16544,
             "skill": 0.4,
             "icon": "card_icon_040610007_1.3af52d2f",
-            "passive": ""
+            "passive": "Groovy Solo 20-30%"
         },
         "141": {
             "id": 141,
@@ -1985,12 +1985,12 @@ var cards = {
             "physical": 12346,
             "skill": 0.5,
             "icon": "card_icon_070130001_1.e84af260",
-            "passive": ""
+            "passive": "Auto Boost 2.5-5.5%"
         },
         "142": {
             "id": 142,
             "character": "Muni",
-            "cardname": "Amanojaku Cappucino",
+            "cardname": "Amanojaku ◎Cappucino",
             "unit": "HapiAra",
             "type": "Street",
             "rarity": 4,
@@ -1999,12 +1999,12 @@ var cards = {
             "physical": 13835,
             "skill": 0.6,
             "icon": "card_icon_040130006_1.2d42365e",
-            "passive": ""
+            "passive": "Groovy Bonus 10-30%"
         },
         "143": {
             "id": 143,
             "character": "Muni",
-            "cardname": "Around Go-round",
+            "cardname": "Around Go-Round",
             "unit": "HapiAra",
             "type": "Elegant",
             "rarity": 3,
@@ -2013,7 +2013,7 @@ var cards = {
             "physical": 8617,
             "skill": 0.2,
             "icon": "card_icon_030130001_1.77bdca9b",
-            "passive": ""
+            "passive": "Groovy Solo 7-20%"
         },
         "144": {
             "id": 144,
@@ -2027,7 +2027,7 @@ var cards = {
             "physical": 16823,
             "skill": 0.5,
             "icon": "card_icon_040130009_1.440eb89a",
-            "passive": ""
+            "passive": "Life Boost 2.5-6.25%"
         },
         "145": {
             "id": 145,
@@ -2041,7 +2041,7 @@ var cards = {
             "physical": 11058,
             "skill": 0.5,
             "icon": "card_icon_040130003_1.f0d4b660",
-            "passive": ""
+            "passive": "Life Boost 2.5-5%"
         },
         "146": {
             "id": 146,
@@ -2055,7 +2055,7 @@ var cards = {
             "physical": 8978,
             "skill": 0.25,
             "icon": "card_icon_030130002_1.fb9849ff",
-            "passive": ""
+            "passive": "Groovy Bonus 5-10%"
         },
         "147": {
             "id": 147,
@@ -2069,7 +2069,7 @@ var cards = {
             "physical": 11253,
             "skill": 0.3,
             "icon": "card_icon_040130001_1.980e3c3b",
-            "passive": ""
+            "passive": "Groovy Solo 20-30%"
         },
         "148": {
             "id": 148,
@@ -2083,12 +2083,12 @@ var cards = {
             "physical": 6881,
             "skill": 0.5,
             "icon": "card_icon_040130005_1.296f56ed",
-            "passive": ""
+            "passive": "Groovy Solo 20-50%"
         },
         "149": {
             "id": 149,
             "character": "Muni",
-            "cardname": "Fortune Favors Smiles 2021",
+            "cardname": "Fortune Favors Smiles◎2021",
             "unit": "HapiAra",
             "type": "Party",
             "rarity": 4,
@@ -2097,12 +2097,12 @@ var cards = {
             "physical": 11391,
             "skill": 0.4,
             "icon": "card_icon_040130002_1.b9d71fa9",
-            "passive": ""
+            "passive": "Groovy Bonus 10-15%"
         },
         "150": {
             "id": 150,
             "character": "Muni",
-            "cardname": "Sailing Dolphin",
+            "cardname": "Sailing◎Dolphin",
             "unit": "HapiAra",
             "type": "Street",
             "rarity": 3,
@@ -2111,12 +2111,12 @@ var cards = {
             "physical": 7501,
             "skill": 0.25,
             "icon": "card_icon_030130004_1.862b9cf1",
-            "passive": ""
+            "passive": "Auto Boost 1.5-2.5%"
         },
         "151": {
             "id": 151,
             "character": "Muni",
-            "cardname": "Sparkling Bunny",
+            "cardname": "Sparkling◎Bunny",
             "unit": "HapiAra",
             "type": "Cute",
             "rarity": 3,
@@ -2125,7 +2125,7 @@ var cards = {
             "physical": 9334,
             "skill": 0.25,
             "icon": "card_icon_030130005_1.559d1add",
-            "passive": ""
+            "passive": "Groovy Solo 10-20%"
         },
         "152": {
             "id": 152,
@@ -2139,7 +2139,7 @@ var cards = {
             "physical": 11090,
             "skill": 0.6,
             "icon": "card_icon_040130004_1.1b4b2b1f",
-            "passive": ""
+            "passive": "Auto Boost 2.5-8%"
         },
         "153": {
             "id": 153,
@@ -2153,7 +2153,7 @@ var cards = {
             "physical": 16655,
             "skill": 0.5,
             "icon": "card_icon_040130008_1.19170d64",
-            "passive": ""
+            "passive": "Auto Boost 2.5-6.5%"
         },
         "154": {
             "id": 154,
@@ -2167,7 +2167,7 @@ var cards = {
             "physical": 9353,
             "skill": 0.25,
             "icon": "card_icon_030130003_1.4663fa6e",
-            "passive": ""
+            "passive": "Life Boost 1-2.5%"
         },
         "155": {
             "id": 155,
@@ -2181,7 +2181,7 @@ var cards = {
             "physical": 6960,
             "skill": 0.5,
             "icon": "card_icon_070520001_1.c07750fc",
-            "passive": ""
+            "passive": "Life Boost 2.5-5%"
         },
         "156": {
             "id": 156,
@@ -2195,7 +2195,7 @@ var cards = {
             "physical": 9771,
             "skill": 0.25,
             "icon": "card_icon_030520005_1.4e52f063",
-            "passive": ""
+            "passive": "Life Boost 1-2.5%"
         },
         "157": {
             "id": 157,
@@ -2209,7 +2209,7 @@ var cards = {
             "physical": 12075,
             "skill": 0.5,
             "icon": "card_icon_040520005_1.65dfae0f",
-            "passive": ""
+            "passive": "Groovy Solo 20-40%"
         },
         "158": {
             "id": 158,
@@ -2223,7 +2223,7 @@ var cards = {
             "physical": 10740,
             "skill": 0.3,
             "icon": "card_icon_040520001_1.e3b0c442",
-            "passive": ""
+            "passive": "Auto Boost 2.5-4%"
         },
         "159": {
             "id": 159,
@@ -2237,7 +2237,7 @@ var cards = {
             "physical": 11922,
             "skill": 0.4,
             "icon": "card_icon_040520004_1.7139aed4",
-            "passive": ""
+            "passive": "Auto Boost 2.5-4%"
         },
         "160": {
             "id": 160,
@@ -2251,7 +2251,7 @@ var cards = {
             "physical": 12629,
             "skill": 0.4,
             "icon": "card_icon_040520003_1.1fdf758d",
-            "passive": ""
+            "passive": "Groovy Bonus 10-15%"
         },
         "161": {
             "id": 161,
@@ -2265,7 +2265,7 @@ var cards = {
             "physical": 12514,
             "skill": 0.4,
             "icon": "card_icon_040520002_1.6395e583",
-            "passive": ""
+            "passive": "Life Boost 2.5-3.75%"
         },
         "162": {
             "id": 162,
@@ -2279,7 +2279,7 @@ var cards = {
             "physical": 9790,
             "skill": 0.25,
             "icon": "card_icon_030520003_1.a764465b",
-            "passive": ""
+            "passive": "Groovy Bonus 5-10%"
         },
         "163": {
             "id": 163,
@@ -2293,7 +2293,7 @@ var cards = {
             "physical": 8805,
             "skill": 0.25,
             "icon": "card_icon_030520002_1.02e58df7",
-            "passive": ""
+            "passive": "Auto Boost 1.5-2.5%"
         },
         "164": {
             "id": 164,
@@ -2307,7 +2307,7 @@ var cards = {
             "physical": 8863,
             "skill": 0.2,
             "icon": "card_icon_030520001_1.81c68977",
-            "passive": ""
+            "passive": "Groovy Solo 7-20%"
         },
         "165": {
             "id": 165,
@@ -2321,7 +2321,7 @@ var cards = {
             "physical": 6986,
             "skill": 0.25,
             "icon": "card_icon_030520004_1.efbc8d78",
-            "passive": ""
+            "passive": "Groovy Solo 10-20%"
         },
         "166": {
             "id": 166,
@@ -2335,7 +2335,7 @@ var cards = {
             "physical": 6923,
             "skill": 0.5,
             "icon": "card_icon_070340001_1.2c4d9ae6",
-            "passive": ""
+            "passive": "Auto Boost 2.5-5.5%"
         },
         "167": {
             "id": 167,
@@ -2349,7 +2349,7 @@ var cards = {
             "physical": 12008,
             "skill": 0.5,
             "icon": "card_icon_040340006_1.3f31c8a2",
-            "passive": ""
+            "passive": "Groovy Solo 20-40%"
         },
         "168": {
             "id": 168,
@@ -2363,12 +2363,12 @@ var cards = {
             "physical": 10925,
             "skill": 0.6,
             "icon": "card_icon_040340004_1.3077cd52",
-            "passive": ""
+            "passive": "Groovy Bonus 10-30%"
         },
         "169": {
             "id": 169,
             "character": "Noa",
-            "cardname": "Cute Bringer",
+            "cardname": "Cute-Bringer",
             "unit": "Photon",
             "type": "Elegant",
             "rarity": 3,
@@ -2377,7 +2377,7 @@ var cards = {
             "physical": 8537,
             "skill": 0.2,
             "icon": "card_icon_030340001_1.f43cd1c2",
-            "passive": ""
+            "passive": "Life Boost 0.5-2%"
         },
         "170": {
             "id": 170,
@@ -2391,7 +2391,7 @@ var cards = {
             "physical": 8897,
             "skill": 0.25,
             "icon": "card_icon_030340004_1.1123de6c",
-            "passive": ""
+            "passive": "Groovy Bonus 5-10%"
         },
         "171": {
             "id": 171,
@@ -2405,7 +2405,7 @@ var cards = {
             "physical": 10629,
             "skill": 0.4,
             "icon": "card_icon_040340002_1.9cfa6a42",
-            "passive": ""
+            "passive": "Auto Boost 2.5-4%"
         },
         "172": {
             "id": 172,
@@ -2419,12 +2419,12 @@ var cards = {
             "physical": 16380,
             "skill": 0.4,
             "icon": "card_icon_040340005_1.2cfc3fa3",
-            "passive": ""
+            "passive": "Groovy Bonus 10-15%"
         },
         "173": {
             "id": 173,
             "character": "Noa",
-            "cardname": "Love Injection",
+            "cardname": "Love♡Injection",
             "unit": "Photon",
             "type": "Street",
             "rarity": 3,
@@ -2433,7 +2433,7 @@ var cards = {
             "physical": 8281,
             "skill": 0.25,
             "icon": "card_icon_030340005_1.90f28554",
-            "passive": ""
+            "passive": "Life Boost 1-2.5%"
         },
         "174": {
             "id": 174,
@@ -2447,7 +2447,7 @@ var cards = {
             "physical": 9545,
             "skill": 0.25,
             "icon": "card_icon_030340003_1.87fc9b01",
-            "passive": ""
+            "passive": "Auto Boost 1.5-2.5%"
         },
         "175": {
             "id": 175,
@@ -2461,12 +2461,12 @@ var cards = {
             "physical": 11085,
             "skill": 0.3,
             "icon": "card_icon_040340001_1.5e3a2bef",
-            "passive": ""
+            "passive": "Life Boost 2.5-3.75%"
         },
         "176": {
             "id": 176,
             "character": "Noa",
-            "cardname": "Sweet Cookie",
+            "cardname": "Sweet cookie",
             "unit": "Photon",
             "type": "Cute",
             "rarity": 4,
@@ -2475,7 +2475,7 @@ var cards = {
             "physical": 10634,
             "skill": 0.4,
             "icon": "card_icon_040340003_1.2946dde1",
-            "passive": ""
+            "passive": "Life Boost 2.5-3.75%"
         },
         "177": {
             "id": 177,
@@ -2489,12 +2489,12 @@ var cards = {
             "physical": 7126,
             "skill": 0.5,
             "icon": "card_icon_070140001_1.2d3a5016",
-            "passive": ""
+            "passive": "Life Boost 2.5-5%"
         },
         "178": {
             "id": 178,
             "character": "Rei",
-            "cardname": "Birthday Banquet",
+            "cardname": "Birthday -Banquet-",
             "unit": "HapiAra",
             "type": "Cool",
             "rarity": 4,
@@ -2503,7 +2503,7 @@ var cards = {
             "physical": 12633,
             "skill": 0.55,
             "icon": "card_icon_040140005_1.bfdb8dc4",
-            "passive": ""
+            "passive": "Groovy Bonus 10-30%"
         },
         "179": {
             "id": 179,
@@ -2517,12 +2517,12 @@ var cards = {
             "physical": 10677,
             "skill": 0.5,
             "icon": "card_icon_040140002_1.dc7c5f00",
-            "passive": ""
+            "passive": "Groovy Solo 20-40%"
         },
         "180": {
             "id": 180,
             "character": "Rei",
-            "cardname": "Bubble Show Time",
+            "cardname": "bubble ◎ Show Time",
             "unit": "HapiAra",
             "type": "Cool",
             "rarity": 4,
@@ -2531,7 +2531,7 @@ var cards = {
             "physical": 11710,
             "skill": 0.4,
             "icon": "card_icon_040140003_1.9a51fb14",
-            "passive": ""
+            "passive": "Groovy Solo 20-30%"
         },
         "181": {
             "id": 181,
@@ -2545,12 +2545,12 @@ var cards = {
             "physical": 11056,
             "skill": 0.3,
             "icon": "card_icon_040140001_1.82a43351",
-            "passive": ""
+            "passive": "Auto Boost 2.5-4%"
         },
         "182": {
             "id": 182,
             "character": "Rei",
-            "cardname": "Good Fortune Ahead 2021",
+            "cardname": "Good Fortune Ahead◎2021",
             "unit": "HapiAra",
             "type": "Party",
             "rarity": 3,
@@ -2559,7 +2559,7 @@ var cards = {
             "physical": 9186,
             "skill": 0.25,
             "icon": "card_icon_030140002_1.e1c8ddf9",
-            "passive": ""
+            "passive": "Life Boost 1-2.5%"
         },
         "183": {
             "id": 183,
@@ -2573,7 +2573,7 @@ var cards = {
             "physical": 9359,
             "skill": 0.25,
             "icon": "card_icon_030140003_1.1f033ee8",
-            "passive": ""
+            "passive": "Groovy Bonus 5-10%"
         },
         "184": {
             "id": 184,
@@ -2587,7 +2587,7 @@ var cards = {
             "physical": 9831,
             "skill": 0.2,
             "icon": "card_icon_030140001_1.8c7b8eef",
-            "passive": ""
+            "passive": "Auto Boost 1-2.5%"
         },
         "185": {
             "id": 185,
@@ -2606,7 +2606,7 @@ var cards = {
         "186": {
             "id": 186,
             "character": "Rei",
-            "cardname": "Splash Shower",
+            "cardname": "Splash◎Shower",
             "unit": "HapiAra",
             "type": "Street",
             "rarity": 4,
@@ -2615,7 +2615,7 @@ var cards = {
             "physical": 7140,
             "skill": 0.55,
             "icon": "card_icon_040140004_1.3b4b2b47",
-            "passive": ""
+            "passive": "Life Boost 2.5-3.75%"
         },
         "187": {
             "id": 187,
@@ -2629,7 +2629,7 @@ var cards = {
             "physical": 12216,
             "skill": 0.5,
             "icon": "card_icon_070410001_1.e9301c59",
-            "passive": ""
+            "passive": "Groovy Bonus 10-20%"
         },
         "188": {
             "id": 188,
@@ -2643,7 +2643,7 @@ var cards = {
             "physical": 11439,
             "skill": 0.3,
             "icon": "card_icon_040410001_1.14ebe123",
-            "passive": ""
+            "passive": "Life Boost 2.5-3.75%"
         },
         "189": {
             "id": 189,
@@ -2657,7 +2657,7 @@ var cards = {
             "physical": 11578,
             "skill": 0.5,
             "icon": "card_icon_040410005_1.f49f92fc",
-            "passive": ""
+            "passive": "Auto Boost 2.5-5.5%"
         },
         "190": {
             "id": 190,
@@ -2671,7 +2671,7 @@ var cards = {
             "physical": 9514,
             "skill": 0.25,
             "icon": "card_icon_030410004_1.687fcff0",
-            "passive": ""
+            "passive": "Groovy Bonus 5-10%"
         },
         "191": {
             "id": 191,
@@ -2685,12 +2685,12 @@ var cards = {
             "physical": 11786,
             "skill": 0.4,
             "icon": "card_icon_040410002_1.fef4769f",
-            "passive": ""
+            "passive": "Groovy Solo 20-30%"
         },
         "192": {
             "id": 192,
             "character": "Rika",
-            "cardname": "Hype Stage",
+            "cardname": "HYPE St4ge",
             "unit": "Mermaid",
             "type": "Street",
             "rarity": 3,
@@ -2699,7 +2699,7 @@ var cards = {
             "physical": 9932,
             "skill": 0.2,
             "icon": "card_icon_030410001_1.a7a12b13",
-            "passive": ""
+            "passive": "Life Boost 0.5-2%"
         },
         "193": {
             "id": 193,
@@ -2713,7 +2713,7 @@ var cards = {
             "physical": 9711,
             "skill": 0.25,
             "icon": "card_icon_030410003_1.eb96f7f8",
-            "passive": ""
+            "passive": "Groovy Solo 10-20%"
         },
         "194": {
             "id": 194,
@@ -2727,7 +2727,7 @@ var cards = {
             "physical": 8982,
             "skill": 0.25,
             "icon": "card_icon_030410002_1.797f6cdb",
-            "passive": ""
+            "passive": "Auto Boost 1.5-2.5%"
         },
         "195": {
             "id": 195,
@@ -2741,7 +2741,7 @@ var cards = {
             "physical": 15461,
             "skill": 0.4,
             "icon": "card_icon_040410004_1.ed364ece",
-            "passive": ""
+            "passive": "Groovy Solo 20-30%"
         },
         "196": {
             "id": 196,
@@ -2755,12 +2755,12 @@ var cards = {
             "physical": 13163,
             "skill": 0.5,
             "icon": "card_icon_040410007_1.bfb405ed",
-            "passive": ""
+            "passive": "Life Boost 2.5-6.25%"
         },
         "197": {
             "id": 197,
             "character": "Rika",
-            "cardname": "Sick Blast",
+            "cardname": "S I C K Blast",
             "unit": "Mermaid",
             "type": "Party",
             "rarity": 4,
@@ -2769,7 +2769,7 @@ var cards = {
             "physical": 12287,
             "skill": 0.4,
             "icon": "card_icon_040410003_1.9a69e1de",
-            "passive": ""
+            "passive": "Groovy Bonus 10-15%"
         },
         "198": {
             "id": 198,
@@ -2783,7 +2783,7 @@ var cards = {
             "physical": 11984,
             "skill": 0.5,
             "icon": "card_icon_070110001_1.5f61df84",
-            "passive": ""
+            "passive": "Groovy Solo 20-40%"
         },
         "199": {
             "id": 199,
@@ -2797,7 +2797,7 @@ var cards = {
             "physical": 17843,
             "skill": 0.5,
             "icon": "card_icon_040110009_1.779616a6",
-            "passive": ""
+            "passive": "Auto Boost 2.5-6.5%"
         },
         "200": {
             "id": 200,
@@ -2811,7 +2811,7 @@ var cards = {
             "physical": 11662,
             "skill": 0.5,
             "icon": "card_icon_040110005_1.375f1bea",
-            "passive": ""
+            "passive": "Auto Boost 2.5-5.5%"
         },
         "201": {
             "id": 201,
@@ -2825,12 +2825,12 @@ var cards = {
             "physical": 11344,
             "skill": 0.4,
             "icon": "card_icon_040110002_1.f01f0e00",
-            "passive": ""
+            "passive": "Life Boost 2.5-3.75%"
         },
         "202": {
             "id": 202,
             "character": "Rinku",
-            "cardname": "Fortunate Portent 2021",
+            "cardname": "Fortunate Portent◎2021",
             "unit": "HapiAra",
             "type": "Party",
             "rarity": 3,
@@ -2839,12 +2839,12 @@ var cards = {
             "physical": 9348,
             "skill": 0.25,
             "icon": "card_icon_030110002_1.b7f73da8",
-            "passive": ""
+            "passive": "Groovy Solo 10-20%"
         },
         "203": {
             "id": 203,
             "character": "Rinku",
-            "cardname": "Happy Hot Cocoa",
+            "cardname": "Happy ◎Hot Cocoa",
             "unit": "HapiAra",
             "type": "Cool",
             "rarity": 4,
@@ -2853,12 +2853,12 @@ var cards = {
             "physical": 7122,
             "skill": 0.6,
             "icon": "card_icon_040110007_1.d69e9803",
-            "passive": ""
+            "passive": "Groovy Solo 20-60%"
         },
         "204": {
             "id": 204,
             "character": "Rinku",
-            "cardname": "Happy Sky High",
+            "cardname": "Happy Sky-High",
             "unit": "HapiAra",
             "type": "Cute",
             "rarity": 3,
@@ -2867,7 +2867,7 @@ var cards = {
             "physical": 8495,
             "skill": 0.2,
             "icon": "card_icon_030110001_1.55c6a365",
-            "passive": ""
+            "passive": "Life Boost 0.5-2%"
         },
         "205": {
             "id": 205,
@@ -2881,12 +2881,12 @@ var cards = {
             "physical": 11697,
             "skill": 0.4,
             "icon": "card_icon_040110003_1.79136e89",
-            "passive": ""
+            "passive": "Life Boost 2.5-3.75%"
         },
         "206": {
             "id": 206,
             "character": "Rinku",
-            "cardname": "Reach The Sky",
+            "cardname": "Reach The Sky!",
             "unit": "HapiAra",
             "type": "Party",
             "rarity": 4,
@@ -2895,12 +2895,12 @@ var cards = {
             "physical": 7012,
             "skill": 0.55,
             "icon": "card_icon_040110004_1.a4ae7aaa",
-            "passive": ""
+            "passive": "Groovy Bonus 10-15%"
         },
         "207": {
             "id": 207,
             "character": "Rinku",
-            "cardname": "Sandy Beachball",
+            "cardname": "Sandy◎Beachball",
             "unit": "HapiAra",
             "type": "Street",
             "rarity": 3,
@@ -2909,7 +2909,7 @@ var cards = {
             "physical": 9745,
             "skill": 0.25,
             "icon": "card_icon_030110003_1.de338447",
-            "passive": ""
+            "passive": "Groovy Bonus 5-10%"
         },
         "208": {
             "id": 208,
@@ -2923,7 +2923,7 @@ var cards = {
             "physical": 16309,
             "skill": 0.4,
             "icon": "card_icon_040110006_1.e20391f8",
-            "passive": ""
+            "passive": "Auto Boost 2.5-4%"
         },
         "209": {
             "id": 209,
@@ -2937,7 +2937,7 @@ var cards = {
             "physical": 11137,
             "skill": 0.3,
             "icon": "card_icon_040110001_1.5b43f904",
-            "passive": ""
+            "passive": "Groovy Bonus 10-15%"
         },
         "210": {
             "id": 210,
@@ -2951,12 +2951,12 @@ var cards = {
             "physical": 12835,
             "skill": 0.5,
             "icon": "card_icon_070310001_1.3b7af399",
-            "passive": ""
+            "passive": "Groovy Solo 20-40%"
         },
         "211": {
             "id": 211,
             "character": "Saki",
-            "cardname": "Angelic Intravenous",
+            "cardname": "Angelic♡Intravenous",
             "unit": "Photon",
             "type": "Street",
             "rarity": 3,
@@ -2965,7 +2965,7 @@ var cards = {
             "physical": 10604,
             "skill": 0.25,
             "icon": "card_icon_030310004_1.af018f92",
-            "passive": ""
+            "passive": "Groovy Solo 10-20%"
         },
         "212": {
             "id": 212,
@@ -2979,7 +2979,7 @@ var cards = {
             "physical": 8530,
             "skill": 0.2,
             "icon": "card_icon_030310001_1.d4b8eb59",
-            "passive": ""
+            "passive": "Auto Boost 1-2.5%"
         },
         "213": {
             "id": 213,
@@ -2993,12 +2993,12 @@ var cards = {
             "physical": 12367,
             "skill": 0.5,
             "icon": "card_icon_040310005_1.f9b579e7",
-            "passive": ""
+            "passive": "Auto Boost 2.5-5.5%"
         },
         "214": {
             "id": 214,
             "character": "Saki",
-            "cardname": "Holic Candy",
+            "cardname": "Holic candy",
             "unit": "Photon",
             "type": "Cute",
             "rarity": 3,
@@ -3007,7 +3007,7 @@ var cards = {
             "physical": 9822,
             "skill": 0.25,
             "icon": "card_icon_030310002_1.7aa99688",
-            "passive": ""
+            "passive": "Life Boost 1-2.5%"
         },
         "215": {
             "id": 215,
@@ -3021,7 +3021,7 @@ var cards = {
             "physical": 10470,
             "skill": 0.4,
             "icon": "card_icon_040310002_1.3b26cd23",
-            "passive": ""
+            "passive": "Groovy Bonus 10-15%"
         },
         "216": {
             "id": 216,
@@ -3035,7 +3035,7 @@ var cards = {
             "physical": 12285,
             "skill": 0.5,
             "icon": "card_icon_040310006_1.283289b3",
-            "passive": ""
+            "passive": "Life Boost 2.5-6.25%"
         },
         "217": {
             "id": 217,
@@ -3049,7 +3049,7 @@ var cards = {
             "physical": 10417,
             "skill": 0.25,
             "icon": "card_icon_030310003_1.e3b0c442",
-            "passive": ""
+            "passive": "Groovy Bonus 5-10%"
         },
         "218": {
             "id": 218,
@@ -3063,7 +3063,7 @@ var cards = {
             "physical": 11099,
             "skill": 0.4,
             "icon": "card_icon_040310004_1.6b056578",
-            "passive": ""
+            "passive": "Life Boost 2.5-3.75%"
         },
         "219": {
             "id": 219,
@@ -3077,7 +3077,7 @@ var cards = {
             "physical": 11306,
             "skill": 0.3,
             "icon": "card_icon_040310001_1.93b37c1c",
-            "passive": ""
+            "passive": "Auto Boost 2.5-4%"
         },
         "220": {
             "id": 220,
@@ -3091,7 +3091,7 @@ var cards = {
             "physical": 6789,
             "skill": 0.5,
             "icon": "card_icon_070430001_1.feafc993",
-            "passive": ""
+            "passive": "Auto Boost 2.5-5.5%"
         },
         "221": {
             "id": 221,
@@ -3105,7 +3105,7 @@ var cards = {
             "physical": 11183,
             "skill": 0.25,
             "icon": "card_icon_030430004_1.82fdb854",
-            "passive": ""
+            "passive": "Auto Boost 1.5-2.5%"
         },
         "222": {
             "id": 222,
@@ -3119,12 +3119,12 @@ var cards = {
             "physical": 11445,
             "skill": 0.5,
             "icon": "card_icon_040430002_1.1a709199",
-            "passive": ""
+            "passive": "Groovy Solo 20-40%"
         },
         "223": {
             "id": 223,
             "character": "Saori",
-            "cardname": "Birthday Fountain",
+            "cardname": "Birthday -Fountain-",
             "unit": "Mermaid",
             "type": "Elegant",
             "rarity": 4,
@@ -3133,7 +3133,7 @@ var cards = {
             "physical": 12302,
             "skill": 0.55,
             "icon": "card_icon_040430007_1.46536465",
-            "passive": ""
+            "passive": "Groovy Bonus 10-30%"
         },
         "224": {
             "id": 224,
@@ -3147,12 +3147,12 @@ var cards = {
             "physical": 9408,
             "skill": 0.25,
             "icon": "card_icon_030430003_1.e5f16f8d",
-            "passive": ""
+            "passive": "Groovy Solo 10-20%"
         },
         "225": {
             "id": 225,
             "character": "Saori",
-            "cardname": "Bridging Gaps",
+            "cardname": "Br!dging Gaps",
             "unit": "Mermaid",
             "type": "Street",
             "rarity": 4,
@@ -3161,12 +3161,12 @@ var cards = {
             "physical": 10980,
             "skill": 0.3,
             "icon": "card_icon_040430001_1.e48d4b56",
-            "passive": ""
+            "passive": "Groovy Solo 20-30%"
         },
         "226": {
             "id": 226,
             "character": "Saori",
-            "cardname": "Critical Jackpot",
+            "cardname": "Critical JACKPOT",
             "unit": "Mermaid",
             "type": "Cute",
             "rarity": 4,
@@ -3175,12 +3175,12 @@ var cards = {
             "physical": 11407,
             "skill": 0.4,
             "icon": "card_icon_040430003_1.3094f18b",
-            "passive": ""
+            "passive": "Life Boost 2.5-7.5%"
         },
         "227": {
             "id": 227,
             "character": "Saori",
-            "cardname": "Dancing Together",
+            "cardname": "Dancing Toge+her",
             "unit": "Mermaid",
             "type": "Street",
             "rarity": 3,
@@ -3189,7 +3189,7 @@ var cards = {
             "physical": 8839,
             "skill": 0.25,
             "icon": "card_icon_030430002_1.1a4d8876",
-            "passive": ""
+            "passive": "Life Boost 1-2.5%"
         },
         "228": {
             "id": 228,
@@ -3203,7 +3203,7 @@ var cards = {
             "physical": 15345,
             "skill": 0.4,
             "icon": "card_icon_040430004_1.d6817967",
-            "passive": ""
+            "passive": "Life Boost 2.5-3.75%"
         },
         "229": {
             "id": 229,
@@ -3217,12 +3217,12 @@ var cards = {
             "physical": 6874,
             "skill": 0.4,
             "icon": "card_icon_040430005_1.ed59e29d",
-            "passive": ""
+            "passive": "Groovy Bonus 10-15%"
         },
         "230": {
             "id": 230,
             "character": "Saori",
-            "cardname": "Sick Scratch",
+            "cardname": "Sick Scra+ch",
             "unit": "Mermaid",
             "type": "Party",
             "rarity": 3,
@@ -3231,7 +3231,7 @@ var cards = {
             "physical": 8811,
             "skill": 0.2,
             "icon": "card_icon_030430001_1.762b62b2",
-            "passive": ""
+            "passive": "Groovy Bonus 3-10%"
         },
         "231": {
             "id": 231,
@@ -3245,7 +3245,7 @@ var cards = {
             "physical": 16591,
             "skill": 0.5,
             "icon": "card_icon_070220001_1.248a2200",
-            "passive": ""
+            "passive": "Groovy Solo 20-40%"
         },
         "232": {
             "id": 232,
@@ -3259,7 +3259,7 @@ var cards = {
             "physical": 11028,
             "skill": 0.5,
             "icon": "card_icon_040220003_1.01b5ed3e",
-            "passive": ""
+            "passive": "Groovy Bonus 10-20%"
         },
         "233": {
             "id": 233,
@@ -3273,12 +3273,12 @@ var cards = {
             "physical": 12439,
             "skill": 0.55,
             "icon": "card_icon_040220008_1.9527a022",
-            "passive": ""
+            "passive": "Life Boost 2.5-7.5%"
         },
         "234": {
             "id": 234,
             "character": "Shinobu",
-            "cardname": "Fascination Cage",
+            "cardname": "Fascination - CAGE",
             "unit": "Peaky",
             "type": "Party",
             "rarity": 4,
@@ -3287,7 +3287,7 @@ var cards = {
             "physical": 11906,
             "skill": 0.4,
             "icon": "card_icon_040220002_1.94e884c7",
-            "passive": ""
+            "passive": "Auto Boost 2.5-4%"
         },
         "235": {
             "id": 235,
@@ -3301,12 +3301,12 @@ var cards = {
             "physical": 12796,
             "skill": 0.4,
             "icon": "card_icon_040220005_1.3090faed",
-            "passive": ""
+            "passive": "Groovy Bonus 10-15%"
         },
         "236": {
             "id": 236,
             "character": "Shinobu",
-            "cardname": "No Brainer Cut In",
+            "cardname": "No Brainer - CUT IN",
             "unit": "Peaky",
             "type": "Elegant",
             "rarity": 3,
@@ -3315,12 +3315,12 @@ var cards = {
             "physical": 8648,
             "skill": 0.2,
             "icon": "card_icon_030220001_1.819758fc",
-            "passive": ""
+            "passive": "Life Boost 0.5-2%"
         },
         "237": {
             "id": 237,
             "character": "Shinobu",
-            "cardname": "No Stops Express",
+            "cardname": "No Stops - EXPRESS",
             "unit": "Peaky",
             "type": "Street",
             "rarity": 4,
@@ -3329,12 +3329,12 @@ var cards = {
             "physical": 10644,
             "skill": 0.3,
             "icon": "card_icon_040220001_1.5b08defb",
-            "passive": ""
+            "passive": "Life Boost 2.5-3.75%"
         },
         "238": {
             "id": 238,
             "character": "Shinobu",
-            "cardname": "Provoke Cute Devil",
+            "cardname": "Provoke - CUTE DEVIL",
             "unit": "Peaky",
             "type": "Street",
             "rarity": 3,
@@ -3343,12 +3343,12 @@ var cards = {
             "physical": 9049,
             "skill": 0.25,
             "icon": "card_icon_030220002_1.b65becba",
-            "passive": ""
+            "passive": "Auto Boost 1.5-2.5%"
         },
         "239": {
             "id": 239,
             "character": "Shinobu",
-            "cardname": "Sleet Consonance",
+            "cardname": "Sleet-CONSONANCE",
             "unit": "Peaky",
             "type": "Street",
             "rarity": 3,
@@ -3357,7 +3357,7 @@ var cards = {
             "physical": 8065,
             "skill": 0.25,
             "icon": "card_icon_030220004_1.4da9d16a",
-            "passive": ""
+            "passive": "Groovy Solo 10-20%"
         },
         "240": {
             "id": 240,
@@ -3371,12 +3371,12 @@ var cards = {
             "physical": 11643,
             "skill": 0.6,
             "icon": "card_icon_040220006_1.62677bb2",
-            "passive": ""
+            "passive": "Groovy Solo 20-60%"
         },
         "241": {
             "id": 241,
             "character": "Shinobu",
-            "cardname": "Tiger Gaze 2022",
+            "cardname": "Tiger Gaze☆2022",
             "unit": "Peaky",
             "type": "Elegant",
             "rarity": 3,
@@ -3385,7 +3385,7 @@ var cards = {
             "physical": 8475,
             "skill": 0.25,
             "icon": "card_icon_030220005_1.4ca2ffbd",
-            "passive": ""
+            "passive": "Groovy Bonus 5-10%"
         },
         "242": {
             "id": 242,
@@ -3399,7 +3399,7 @@ var cards = {
             "physical": 6883,
             "skill": 0.55,
             "icon": "card_icon_040220004_1.063c46f6",
-            "passive": ""
+            "passive": "Life Boost 2.5-3.75%"
         },
         "243": {
             "id": 243,
@@ -3413,7 +3413,7 @@ var cards = {
             "physical": 16725,
             "skill": 0.5,
             "icon": "card_icon_070330001_1.ce2d512b",
-            "passive": ""
+            "passive": "Life Boost 2.5-5%"
         },
         "244": {
             "id": 244,
@@ -3427,7 +3427,7 @@ var cards = {
             "physical": 11530,
             "skill": 0.5,
             "icon": "card_icon_040330002_1.4bf769fb",
-            "passive": ""
+            "passive": "Groovy Bonus 10-20%"
         },
         "245": {
             "id": 245,
@@ -3441,7 +3441,7 @@ var cards = {
             "physical": 11028,
             "skill": 0.3,
             "icon": "card_icon_040330001_1.745d3dd6",
-            "passive": ""
+            "passive": "Groovy Bonus 10-15%"
         },
         "246": {
             "id": 246,
@@ -3455,7 +3455,7 @@ var cards = {
             "physical": 8952,
             "skill": 0.25,
             "icon": "card_icon_030330003_1.6e44a28c",
-            "passive": ""
+            "passive": "Groovy Bonus 5-10%"
         },
         "247": {
             "id": 247,
@@ -3469,7 +3469,7 @@ var cards = {
             "physical": 12795,
             "skill": 0.6,
             "icon": "card_icon_040330004_1.5c60670e",
-            "passive": ""
+            "passive": "Groovy Solo 20-60%"
         },
         "248": {
             "id": 248,
@@ -3483,7 +3483,7 @@ var cards = {
             "physical": 11788,
             "skill": 0.4,
             "icon": "card_icon_040330003_1.233599b2",
-            "passive": ""
+            "passive": "Groovy Solo 20-30%"
         },
         "249": {
             "id": 249,
@@ -3497,7 +3497,7 @@ var cards = {
             "physical": 7116,
             "skill": 0.5,
             "icon": "card_icon_040330007_1.a405f64c",
-            "passive": ""
+            "passive": "Auto Boost 2.5-6.5%"
         },
         "250": {
             "id": 250,
@@ -3511,7 +3511,7 @@ var cards = {
             "physical": 8460,
             "skill": 0.2,
             "icon": "card_icon_030330001_1.61258902",
-            "passive": ""
+            "passive": "Groovy Solo 7-20%"
         },
         "251": {
             "id": 251,
@@ -3525,7 +3525,7 @@ var cards = {
             "physical": 10759,
             "skill": 0.25,
             "icon": "card_icon_030330004_1.8d2b1474",
-            "passive": ""
+            "passive": "Auto Boost 1.5-2.5%"
         },
         "252": {
             "id": 252,
@@ -3539,7 +3539,7 @@ var cards = {
             "physical": 6873,
             "skill": 0.5,
             "icon": "card_icon_070510001_1.d3f98794",
-            "passive": ""
+            "passive": "Groovy Solo 20-40%"
         },
         "253": {
             "id": 253,
@@ -3553,7 +3553,7 @@ var cards = {
             "physical": 11952,
             "skill": 0.5,
             "icon": "card_icon_040510003_1.20aa8cc0",
-            "passive": ""
+            "passive": "Life Boost 2.5-5%"
         },
         "254": {
             "id": 254,
@@ -3567,7 +3567,7 @@ var cards = {
             "physical": 12804,
             "skill": 0.55,
             "icon": "card_icon_040510007_1.785ee120",
-            "passive": ""
+            "passive": "Groovy Solo 20-60%"
         },
         "255": {
             "id": 255,
@@ -3581,7 +3581,7 @@ var cards = {
             "physical": 10259,
             "skill": 0.55,
             "icon": "card_icon_040510004_1.48ea483f",
-            "passive": ""
+            "passive": "Groovy Solo 20-30%"
         },
         "256": {
             "id": 256,
@@ -3595,7 +3595,7 @@ var cards = {
             "physical": 9808,
             "skill": 0.2,
             "icon": "card_icon_030510001_1.29b427da",
-            "passive": ""
+            "passive": "Auto Boost 1-2.5%"
         },
         "257": {
             "id": 257,
@@ -3609,7 +3609,7 @@ var cards = {
             "physical": 9353,
             "skill": 0.25,
             "icon": "card_icon_030510002_1.16488f63",
-            "passive": ""
+            "passive": "Groovy Solo 10-20%"
         },
         "258": {
             "id": 258,
@@ -3623,7 +3623,7 @@ var cards = {
             "physical": 11292,
             "skill": 0.4,
             "icon": "card_icon_040510005_1.63270741",
-            "passive": ""
+            "passive": "Auto Boost 2.5-4%"
         },
         "259": {
             "id": 259,
@@ -3637,7 +3637,7 @@ var cards = {
             "physical": 8021,
             "skill": 0.25,
             "icon": "card_icon_030510004_1.c427f8d0",
-            "passive": ""
+            "passive": "Groovy Bonus 5-10%"
         },
         "260": {
             "id": 260,
@@ -3651,7 +3651,7 @@ var cards = {
             "physical": 9461,
             "skill": 0.25,
             "icon": "card_icon_030510003_1.b73670f4",
-            "passive": ""
+            "passive": "Life Boost 1-2.5%"
         },
         "261": {
             "id": 261,
@@ -3665,7 +3665,7 @@ var cards = {
             "physical": 10177,
             "skill": 0.3,
             "icon": "card_icon_040510001_1.4ca92541",
-            "passive": ""
+            "passive": "Groovy Bonus 10-15%"
         },
         "262": {
             "id": 262,
@@ -3679,7 +3679,7 @@ var cards = {
             "physical": 10808,
             "skill": 0.4,
             "icon": "card_icon_040510002_1.4cebcc17",
-            "passive": ""
+            "passive": "Auto Boost 2.5-4%"
         },
         "263": {
             "id": 263,
