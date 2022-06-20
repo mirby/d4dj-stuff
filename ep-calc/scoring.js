@@ -361,15 +361,20 @@ function calculateScore(type) {
 function importTeam() {
     var power = parseInt(document.getElementById("power_totalwo").innerHTML);
     var power_event = parseInt(document.getElementById("power_total").innerHTML);
-    var eventtype = document.getElementById("eventtype").innerHTML;
+    var eventtype = document.getElementById("eventtype").innerHTML.toLowerCase();
     var paramtype = document.getElementById("eventparamval").innerHTML;
     var param = document.getElementById("paramtotal_" + paramtype.toLowerCase()).innerHTML;
 
     var skillList = "";
     var bonus = 0;
+    var highestSkill = 0;
     // Get team skills and bonus
     for (let i = 1; i <= 4; i++) {
-        skillList += document.getElementById("m" + i + "_skill").innerHTML.slice(0, -1) + ",";
+        var skill = document.getElementById("m" + i + "_skill").innerHTML.slice(0, -1);
+        if (parseInt(skill) > highestSkill) {
+            highestSkill = parseInt(skill);
+        }
+        skillList += skill + ",";
         bonus += parseFloat(document.getElementById("m" + i + "_eventperc").innerHTML);
     }
     skillList = skillList.slice(0, -1).split(",").sort().join(",");
@@ -399,13 +404,120 @@ function importTeam() {
     }
     
     if (skillList !== "" && skillList !== ",,,") {
-        document.getElementById("skillin").value = skillList;
+        if (eventtype === "poker" || eventtype === "slots" || eventtype === "raid") {
+            document.getElementById("skillin").value = highestSkill + "," + highestSkill + "," + highestSkill + "," + highestSkill;
+        } else {
+            document.getElementById("skillin").value = skillList;
+        }        
     } else {
         document.getElementById("skillin").value = "50,50,50,50";
     }
 
-    $("select[name=eventsel]").val(eventtype.toLowerCase());
+    $("select[name=eventsel]").val(eventtype);
     $('.selectpicker#eventsel').selectpicker('refresh');
+
+    // Import passives
+    var groovyBonus = 0;
+    var lifeBoost = 0;
+    var scoreUp = 0;
+    var autoBoost = 0;
+
+    var hasShano = false;
+    var hasToka = false;
+    var hasAiri = false;
+    var hasMana = false;
+
+    // Set variables if any CoA members are in team
+    for (let x of ["m", "s"]) {
+        for (let i = 1; i <= 4; i++) {
+            var char = document.getElementById(x + i + "_char").innerHTML;
+            switch (char) {
+                case "shano":
+                    hasShano = true;
+                    break;
+                case "toka":
+                    hasToka = true;
+                    break;
+                case "airi":
+                    hasAiri = true;
+                    break;
+                case "mana":
+                    hasMana = true;
+                    break;
+            }
+        }
+    }
+
+
+    for (let i = 1; i <= 4; i++) {
+        var pskillString = document.getElementById("m" + i + "_pskill").innerHTML;
+        var pskillStringSupp = document.getElementById("s" + i + "_pskill").innerHTML;
+        if (pskillString.startsWith("Life Boost")) {
+            var et = document.getElementById("m" + i + "_et").value;
+            var lifeBoostTemp = getPassiveValue(pskillString, "Life Boost", et);
+            if (lifeBoostTemp > lifeBoost) {
+                lifeBoost = lifeBoostTemp;
+            }
+        } else if (pskillString.startsWith("Auto Boost")) {
+            var et = document.getElementById("m" + i + "_et").value;
+            var autoBoostTemp = getPassiveValue(pskillString, "Auto Boost", et);
+            if (autoBoostTemp > autoBoost) {
+                autoBoost = autoBoostTemp;
+            }
+        } else if (pskillString.startsWith("Groovy Bonus")) {
+            var et = document.getElementById("m" + i + "_et").value;
+            var groovyBonusTemp = getPassiveValue(pskillString, "Groovy Bonus", et);
+            if (groovyBonusTemp > groovyBonus) {
+                groovyBonus = groovyBonusTemp;
+            }
+        } else if (pskillString.startsWith("Score Up")) {
+            var et = document.getElementById("m" + i + "_et").value;
+            var char = document.getElementById("m" + i + "_char").innerHTML;
+            var bonus = 0;
+            if (char === "shano") {
+                if (hasToka) {
+                    bonus += 1.5;
+                }
+            } else if (char === "airi") {
+                if (hasMana) {
+                    bonus += 1.5;
+                }
+            }
+            var scoreUpTemp = getPassiveValue(pskillString, "Score Up", et) + bonus;
+            if (scoreUpTemp > scoreUp) {
+                scoreUp = scoreUpTemp;
+            }
+        } else  if (pskillStringSupp.startsWith("Score Up")){
+            var et = document.getElementById("s" + i + "_et").value;
+            var char = document.getElementById("s" + i + "_char").innerHTML;
+            var bonus = 0;
+            if (char === "shano") {
+                if (hasToka) {
+                    bonus += 1.5;
+                }
+            } else if (char === "airi") {
+                if (hasMana) {
+                    bonus += 1.5;
+                }
+            }
+            var scoreUpTemp = getPassiveValue(pskillStringSupp, "Score Up", et) + bonus;
+            if (scoreUpTemp > scoreUp) {
+                scoreUp = scoreUpTemp;
+            }
+        }
+    }
+
+    document.getElementById("pass_gt").value = groovyBonus;
+    document.getElementById("pass_life").value = lifeBoost;
+    document.getElementById("pass_scoreup").value = scoreUp;
+    // document.getElementById("pass_auto").value = autoBoost;
+}
+
+function getPassiveValue(pString, type,  et) {
+    var pSkill = pString.substring(type.length + 1).slice(0, -1);
+    var pSkillParts = pSkill.split("-");
+    var interval = (parseFloat(pSkillParts[1]) - parseFloat(pSkillParts[0])) * 100 / 400;
+    return parseFloat(pSkillParts[0]) + (interval * et);
 }
 
 function importTeam2() {
