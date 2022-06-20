@@ -122,9 +122,11 @@ function autoClub() {
         }
 
         // Call of Artemis general club items don't exist yet. Remove this extra check when they get added
-        if (unitNum > styleNum && unitUse !== "callofartemis") {
+        if (unitNum >= styleNum && unitUse !== "callofartemis") {
             if (unitUse !== "") {
                 clubUse = unitUse;
+            } else {
+                clubUse = "common";
             }
         } else {
             if (styleUse !== "") {

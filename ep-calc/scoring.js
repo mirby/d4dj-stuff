@@ -448,7 +448,6 @@ function importTeam() {
         }
     }
 
-
     for (let i = 1; i <= 4; i++) {
         var pskillString = document.getElementById("m" + i + "_pskill").innerHTML;
         var pskillStringSupp = document.getElementById("s" + i + "_pskill").innerHTML;
