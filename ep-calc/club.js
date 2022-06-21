@@ -112,12 +112,14 @@ function autoClub() {
             styleNum = styleCount[key];
             if (styleNum >= 3) {
                 styleUse = key;
+                break;
             }            
         }
         for (var key of Object.keys(unitCount)) {
             unitNum = unitCount[key];
             if (unitNum >= 3) {
                 unitUse = key;
+                break;
             }            
         }
 
