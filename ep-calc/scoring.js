@@ -99,9 +99,11 @@ function calculateEp(type, scoreMap, bonus, param, volts, roomscore) {
     var result = 0;
     var scoreSolo = scoreMap.get("scoreSolo");
     var scoreSolo2 = scoreMap.get("scoreSolo2");
+    var scoreSolo3 = scoreMap.get("scoreSolo3");
     var scoreAuto = scoreMap.get("scoreAuto");
     var scoreAuto2 = scoreMap.get("scoreAuto2");
     var scoreAutoSolo2 = scoreMap.get("scoreAutoSolo2");
+    var scoreAutoSolo3 = scoreMap.get("scoreAutoSolo3");
     var score = scoreMap.get("score");
     var score2 = scoreMap.get("score2");
 
@@ -210,35 +212,45 @@ function calculateEp(type, scoreMap, bonus, param, volts, roomscore) {
 
             break;
         case "raid":
-            result = volts * (300 + Math.floor(scoreAuto2 / 6000));
-            valueMap.set("Dengeki/Precure - Multi Live EP - Auto", result);
+            result = 8 * (500 + Math.floor(scoreAutoSolo3 / 5000));
+            valueMap.set("Super Dengeki Live EP - Auto (Dengeki)", result);
 
-            valueMap.set("Dengeki/Precure - Multi Live Score - Auto (Estimated)", scoreAuto2);
+            valueMap.set("Dengeki - Super Dengeki Live Score - Auto (Estimated)", scoreAutoSolo3);
+
+            result = 8 * (500 + Math.floor(scoreSolo3 / 5000));
+            valueMap.set("Super Dengeki Live EP (Dengeki)", result);
+
+            valueMap.set("Dengeki - Super Dengeki Live Score (Estimated)", scoreSolo3);
+
+            result = volts * (300 + Math.floor(scoreAuto2 / 6000));
+            valueMap.set("Dengeki - Multi Live EP - Auto", result);
+
+            valueMap.set("Dengeki - Multi Live Score - Auto (Estimated)", scoreAuto2);
 
             result = volts * (300 + Math.floor(score2 / 6000));
-            valueMap.set("Dengeki/Precure - Multi Live EP", result);
+            valueMap.set("Dengeki - Multi Live EP", result);
 
-            valueMap.set("Dengeki/Precure - Multi Live Score (Estimated)", score2);
+            valueMap.set("Dengeki - Multi Live Score (Estimated)", score2);
 
             result = volts * (300 + Math.floor(scoreSolo2 / 6000));
-            valueMap.set("Dengeki/Precure - Free Live EP", result);
+            valueMap.set("Dengeki - Free Live EP", result);
 
-            valueMap.set("Dengeki/Precure - Free Live Score (Estimated)", scoreSolo2);
+            valueMap.set("Dengeki - Free Live Score (Estimated)", scoreSolo2);
 
-            result = volts * Math.floor(bonus * (50 + Math.floor(scoreAuto / 10000) + param));
-            valueMap.set("D4FES - Multi Live EP - Auto", result);
+            // result = volts * Math.floor(bonus * (50 + Math.floor(scoreAuto / 10000) + param));
+            // valueMap.set("D4FES - Multi Live EP - Auto", result);
 
-            valueMap.set("D4FES - Multi Live Score - Auto (Estimated)", scoreAuto);
+            // valueMap.set("D4FES - Multi Live Score - Auto (Estimated)", scoreAuto);
 
-            result = volts * Math.floor(bonus * (50 + Math.floor(score / 10000) + param));
-            valueMap.set("D4FES - Multi Live EP", result);
+            // result = volts * Math.floor(bonus * (50 + Math.floor(score / 10000) + param));
+            // valueMap.set("D4FES - Multi Live EP", result);
 
-            valueMap.set("D4FES - Multi Live Score (Estimated)", score);
+            // valueMap.set("D4FES - Multi Live Score (Estimated)", score);
 
-            result = volts * Math.floor(bonus * (50 + Math.floor(scoreSolo / 10000) + param));
-            valueMap.set("D4FES - Free Live EP", result);
+            // result = volts * Math.floor(bonus * (50 + Math.floor(scoreSolo / 10000) + param));
+            // valueMap.set("D4FES - Free Live EP", result);
 
-            valueMap.set("D4FES - Free Live Score (Estimated)", scoreSolo);
+            // valueMap.set("D4FES - Free Live Score (Estimated)", scoreSolo);
 
             break;
     }
@@ -300,6 +312,9 @@ function calculateEpScore(type, score, bonus, param, volts, roomscore) {
 
                 break;
             case "raid":
+                result = 8 * (500 + Math.floor(score / 5000));
+                valueMap.set("Super Dengeki Live EP (Dengeki)", result);
+
                 result = volts * (300 + Math.floor(score / 6000));
                 valueMap.set("Free Live/Multi Live EP (Precure/Dengeki)", result);
 
@@ -317,6 +332,10 @@ function calculateScore(type) {
     var power2 = document.getElementById("powerin2").value;
     if (isNaN(power2) || power2 == 0) {
         power2 = power;
+    }
+    var power3 = document.getElementById("powerin3").value;
+    if (isNaN(power3) || power3 == 0) {
+        power3 = power;
     }
     var skills = document.getElementById("skillin").value;
     var skillsList = [];
@@ -345,8 +364,10 @@ function calculateScore(type) {
     var scoreMap = new Map();
     var scoreSolo = 0; // Free Live
     var scoreSolo2 = 0; // Bingo/Task Medley
+    var scoreSolo3 = 0; // Super dengeki live
     var scoreAutoSolo = 0; // Free Live - Auto
     var scoreAutoSolo2 = 0; // Bingo/Task Medley - Auto
+    var scoreAutoSolo3 = 0; // Super dengeki live - Auto
     var score = 0; // Multi w/ GT
     var score2 = 0; // Multi with event power w/ GT (raids)
     var scoreAuto = 0; // Multi w/ GT - Auto
@@ -375,8 +396,10 @@ function calculateScore(type) {
     var levelConstant = (95 + level) / 100;
     var baseNoteScore = (levelConstant * power * 3 * lifeboost) / totalNotes;
     var baseNoteScore2 = (levelConstant * power2 * 3 * lifeboost) / totalNotes;
+    var baseNoteScore3 = (levelConstant * power3 * 3 * lifeboost) / totalNotes;
     var autoNoteScore = (levelConstant * power * 3 * .85 * lifeboost * autoboost) / totalNotes;
     var autoNoteScore2 = (levelConstant * power2 * 3 * .85 * lifeboost * autoboost) / totalNotes;
+    var autoNoteScore3 = (levelConstant * power3 * 3 * .85 * lifeboost * autoboost) / totalNotes;
     var feverMultiplier = Math.max(1.1, Math.min(2 * ((0.28 / (feverNotes / totalNotes)) ** 0.6), 5)) * gtboost;
 
     for (let i = 1; i <= totalNotes; i++) {
@@ -406,8 +429,10 @@ function calculateScore(type) {
 
         scoreSolo += Math.floor(baseNoteScore * skill * comboMult);
         scoreSolo2 += Math.floor(baseNoteScore2 * skill * comboMult);
+        scoreSolo3 += Math.floor(baseNoteScore3 * skill * comboMult);
         scoreAutoSolo += Math.floor(autoNoteScore * skill);
         scoreAutoSolo2 += Math.floor(autoNoteScore2 * skill);
+        scoreAutoSolo3 += Math.floor(autoNoteScore3 * skill);
         score += Math.floor(baseNoteScore * skill * comboMult * feverMult);
         score2 += Math.floor(baseNoteScore2 * skill * comboMult * feverMult);
         scoreAuto += Math.floor(autoNoteScore * skill * feverMult);
@@ -417,8 +442,10 @@ function calculateScore(type) {
     scoreMap.set("song", chart.name);
     scoreMap.set("scoreSolo", scoreSolo);
     scoreMap.set("scoreSolo2", scoreSolo2);
+    scoreMap.set("scoreSolo3", scoreSolo3);
     scoreMap.set("scoreAutoSolo", scoreAutoSolo);
     scoreMap.set("scoreAutoSolo2", scoreAutoSolo2);
+    scoreMap.set("scoreAutoSolo3", scoreAutoSolo3);
     scoreMap.set("score", score);
     scoreMap.set("score2", score2);
     scoreMap.set("scoreAuto", scoreAuto);
@@ -458,6 +485,13 @@ function getComboMult(num) {
 function importTeam() {
     var power = parseInt(document.getElementById("power_totalwo").innerHTML);
     var power_event = parseInt(document.getElementById("power_total").innerHTML);
+
+    // Get power for super dengeki
+    var power_event_dengeki = power;
+    for (let i = 1; i <= 4; i++) {
+        power_event_dengeki += parseInt(document.getElementById("m" + i + "_eventbonus2").innerHTML);
+    }
+
     var eventtype = document.getElementById("eventtype").innerHTML.toLowerCase();
     var paramtype = document.getElementById("eventparamval").innerHTML;
     if (paramtype === "None") {
@@ -489,6 +523,12 @@ function importTeam() {
         document.getElementById("powerin2").value = power_event;
     } else {
         document.getElementById("powerin2").value = 300000;
+    }
+
+    if (power_event_dengeki != 0) {
+        document.getElementById("powerin3").value = power_event_dengeki;
+    } else {
+        document.getElementById("powerin3").value = 400000;
     }
 
     if (param != 0) {

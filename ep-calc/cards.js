@@ -761,10 +761,16 @@ function calcEventPower() {
         }
     } else {
         // Power for newer special raids (dengeki, precure, quint2, etc)
-        // +50% for matching char, +50% for collab (how to detect collab?)
+        // +50% for matching char, +50% for collab
+
+        // Really bad hack to detect if a card is collab type, basically just map the card names to the event ID
+        var collabSet = {
+            "59":["Motorrad Rider Traveler", "Dichotomy of Bludgeoning and Resurrection", "Red-Eyed Rabbit's Tenchu Kick", "Railgun Exploding in the Dark of Night"]
+        };
 
         var charList = [];
         var eventId = document.getElementById("eventid").innerHTML;
+        var collabList = collabSet[eventId];
         for (let x of eventList[eventId].characters.split(",")) {
             charList.push(x.toLowerCase());
         }
@@ -772,8 +778,12 @@ function calcEventPower() {
         for (let i = 1; i <= 4; i++) {
             var char = document.getElementById("m" + i + "_char").innerHTML;
             if (charList.includes(char)) {
+                var cardNameFull = document.getElementById("m" + i + "_charfull").innerHTML;
+                var cardName = cardNameFull.slice(cardNameFull.indexOf("-") + 1).substring(1);
                 var eventPerc = .5;
-                // TODO detect if collab card, add another .5
+                if (collabList.includes(cardName)) {
+                    eventPerc = 1;
+                }
 
                 var heartMod = parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) || 0;
                 var techMod = parseInt(document.getElementById("m" + i + "_techmod").innerHTML) || 0;
@@ -784,7 +794,14 @@ function calcEventPower() {
                 var phys = Math.floor(parseInt(physMod) * eventPerc);
                 var eventTotal = heart + tech + phys;
 
+                // Power for super dengeki live
+                var heart2 = Math.floor(parseInt(heartMod) * eventPerc * 2);
+                var tech2 = Math.floor(parseInt(techMod) * eventPerc * 2);
+                var phys2 = Math.floor(parseInt(physMod) * eventPerc * 2);
+                var eventTotal2 = heart2 + tech2 + phys2;
+
                 document.getElementById("m" + i + "_eventbonus").innerHTML = eventTotal;
+                document.getElementById("m" + i + "_eventbonus2").innerHTML = eventTotal2;
             }
         }
     }
@@ -899,6 +916,7 @@ function refreshMainTeam() {
         document.getElementById(selection + "_cardpower").innerHTML = "";
         document.getElementById(selection + "_clubbonus").innerHTML = "";
         document.getElementById(selection + "_eventbonus").innerHTML = "";
+        document.getElementById(selection + "_eventbonus2").innerHTML = "";
         $.refreshSelect3(selection);
     }
 }
