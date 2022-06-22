@@ -4736,7 +4736,7 @@ var cards = {
             "character": "Miiko",
             "cardname": "Dichotomy of Bludgeoning and Resurrection",
             "unit": "LyriLily",
-            "type": "",
+            "type": "Party",
             "rarity": 4,
             "heart": 12521,
             "technical": 12956,
