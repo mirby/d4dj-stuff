@@ -483,6 +483,13 @@
                             <td id="s4_char"></td>
                         </tr>
                         <tr class="rowHide">
+                            <th scope="row">Passive Skill</th>
+                            <td id="s1_pskill"></td>
+                            <td id="s2_pskill"></td>
+                            <td id="s3_pskill"></td>
+                            <td id="s4_pskill"></td>
+                        </tr>
+                        <tr class="rowHide">
                             <th scope="row">Extra Training</th>
                             <td>
                                 <select class="selectpicker etselect" name="s1_et" id="s1_et" data-width="fit">
@@ -597,13 +604,6 @@
                             <td id="s2_supportpower"></td>
                             <td id="s3_supportpower"></td>
                             <td id="s4_supportpower"></td>
-                        </tr>
-                        <tr class="rowHide">
-                            <th scope="row">Passive Skill</th>
-                            <td id="s1_pskill"></td>
-                            <td id="s2_pskill"></td>
-                            <td id="s3_pskill"></td>
-                            <td id="s4_pskill"></td>
                         </tr>
                     </tbody>
                 </table>
@@ -826,10 +826,12 @@
                                     <input style="text-align:right;width:150px" type="text" class="form-control" id="pass_gt" placeholder="0" value="0"><br>
                                     <label style="margin-top:15px;width:150px" for="pass_life">Life Boost %</label>
                                     <input style="text-align:right;width:150px" type="text" class="form-control" id="pass_life" placeholder="0" value="0"><br>
+                                    <label style="margin-top:15px;width:150px" for="pass_auto">Auto %</label>
+                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="pass_auto" placeholder="0" value="0"><br>
                                     <label style="margin-top:15px;width:150px" for="pass_scoreup">Score Up %</label>
                                     <input style="text-align:right;width:150px" type="text" class="form-control" id="pass_scoreup" placeholder="0" value="0"><br>
-                                    <!-- <label style="margin-top:15px;width:150px" for="pass_auto">Auto %</label>
-                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="pass_auto" placeholder="0" value="0"><br> -->
+                                    <label style="margin-top:15px;width:150px" for="pass_skilldur">Skill Duration %</label>
+                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="pass_skilldur" placeholder="0" value="0"><br>
                                 </div>
                                 <div class="calcbutton">
                                     <a id="calculateteam" class="btn btn-primary" role="button">Calculate EP</a>
@@ -1023,6 +1025,7 @@
                         <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <ul>
+                                    <li>Figure out power bonuses for special raids</li>
                                     <li>better UI (mobile too)</li>
                                     <li>jp card support, if desired</li>
                                     <li>some way to compare cards when adding them</li>

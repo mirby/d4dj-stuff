@@ -99,10 +99,17 @@ function calculateEp(type, scoreMap, bonus, param, volts, roomscore) {
     var result = 0;
     var scoreSolo = scoreMap.get("scoreSolo");
     var scoreSolo2 = scoreMap.get("scoreSolo2");
+    var scoreAuto = scoreMap.get("scoreAuto");
+    var scoreAutoSolo2 = scoreMap.get("scoreAutoSolo2");
     var score = scoreMap.get("score");
 
     switch(type) {
         case "poker":
+            result = volts * Math.floor(bonus * (50 + Math.floor(scoreAuto / 4000) + param));
+            valueMap.set("Multi Live EP - Auto", result);
+
+            valueMap.set("Multi Live Score - Auto (Estimated)", scoreAuto);
+
             result = volts * Math.floor(bonus * (30 + Math.floor(score / 10000)));
             valueMap.set("Bet Coins", result);
 
@@ -118,6 +125,11 @@ function calculateEp(type, scoreMap, bonus, param, volts, roomscore) {
 
             break;
         case "slots":
+            result = volts * Math.floor(bonus * (50 + Math.floor(scoreAuto / 4000) + param));
+            valueMap.set("Multi Live EP - Auto", result);
+
+            valueMap.set("Multi Live Score - Auto (Estimated)", scoreAuto);
+
             result = volts * Math.floor(bonus * (150 + Math.floor(score / 8000)));
             valueMap.set("Slot Medals", result);
 
@@ -138,8 +150,16 @@ function calculateEp(type, scoreMap, bonus, param, volts, roomscore) {
 
             valueMap.set("Task Medley Score (Estimated)", scoreSolo2);
 
+            result = volts * (15 + Math.floor(scoreAuto / 50000));
+            var result2 = volts * (20 + Math.floor(scoreAuto / 50000));
+            valueMap.set("Challenge Tickets - Auto", (result || "-") + "-" + (result2 || "-"));
+
+            var roomscoreAuto = scoreAuto * 4;
+            result = volts * Math.floor(bonus * (10 + Math.floor(scoreAuto / 10000) + Math.max(10, Math.floor(roomscoreAuto / 80000)) + param));
+            valueMap.set("Multi-Medley Live EP - Auto", result);
+
             result = volts * (15 + Math.floor(score / 50000));
-            var result2 = volts * (20 + Math.floor(score / 50000));
+            result2 = volts * (20 + Math.floor(score / 50000));
             valueMap.set("Challenge Tickets", (result || "-") + "-" + (result2 || "-"));
 
             result = volts * Math.floor(bonus * (10 + Math.floor(score / 10000) + Math.max(10, Math.floor(roomscore / 80000)) + param));
@@ -157,6 +177,11 @@ function calculateEp(type, scoreMap, bonus, param, volts, roomscore) {
 
             break;
         case "bingo":
+            result = volts * Math.floor(bonus * (150 + Math.max(10, Math.floor(scoreAutoSolo2 / 10000)) + param));
+            valueMap.set("Battle Live EP - Auto (First)", result);
+
+            valueMap.set("Battle Live Score - Auto (Estimated)", scoreAutoSolo2);
+
             result = volts * Math.floor(bonus * (110 + Math.max(10, Math.floor(scoreSolo2 / 10000)) + param));
             valueMap.set("Battle Live EP (Fourth)", result);
 
@@ -183,6 +208,14 @@ function calculateEp(type, scoreMap, bonus, param, volts, roomscore) {
 
             break;
         case "raid":
+            result = volts * (300 + Math.floor(scoreAuto / 6000));
+            valueMap.set("Multi Live EP - Auto (1st Anni/Precure/NBC)", result);
+
+            result = volts * Math.floor(bonus * (50 + Math.floor(scoreAuto / 10000) + param));
+            valueMap.set("Multi Live EP - Auto (D4FES)", result);
+
+            valueMap.set("Multi Live Score - Auto (Estimated)", scoreAuto);
+
             result = volts * (300 + Math.floor(score / 6000));
             valueMap.set("Multi Live EP (1st Anni/Precure/NBC)", result);
 
@@ -291,17 +324,21 @@ function calculateScore(type) {
     skillsList.push(highest);
 
     // Get passive skills
-    var gtboost = ((parseInt(document.getElementById("pass_gt").value) / 100) || 0) + 1;
-    var lifeboost = (parseInt(document.getElementById("pass_life").value) / 100) || 0;
-    var scoreupboost = (parseInt(document.getElementById("pass_scoreup").value) / 100) || 0;
-    //var autoboost = (parseInt(document.getElementById("pass_auto").value) / 100) + 1;
-    var autoboost = 1;
+    var gtboost = ((parseFloat(document.getElementById("pass_gt").value) / 100) || 0) + 1;
+    var lifeboost = (parseFloat(document.getElementById("pass_life").value) / 100) || 0;
+    var scoreupboost = (parseFloat(document.getElementById("pass_scoreup").value) / 100) || 0;
+    var skillDuration = (parseInt(document.getElementById("pass_skilldur").value)) || 0;
+    if (![0, 10, 15, 20, 25, 30, 35, 40, 45].includes(skillDuration)) {
+        skillDuration = 0;
+    }
+    var autoboost = ((parseFloat(document.getElementById("pass_auto").value) / 100) || 0) + 1;
     lifeboost = lifeboost + scoreupboost + 1;
 
     var scoreMap = new Map();
     var scoreSolo = 0; // Free Live
     var scoreSolo2 = 0; // Bingo/Task Medley
     var scoreAutoSolo = 0; // Free Live - Auto
+    var scoreAutoSolo2 = 0; // Bingo/Task Medley - Auto
     var score = 0; // Multi w/ GT
     var scoreAuto = 0; // Multi w/ GT - Auto
 
@@ -329,33 +366,79 @@ function calculateScore(type) {
     var baseNoteScore = (levelConstant * power * 3 * lifeboost) / totalNotes;
     var baseNoteScore2 = (levelConstant * power2 * 3 * lifeboost) / totalNotes;
     var autoNoteScore = (levelConstant * power * 3 * .85 * lifeboost * autoboost) / totalNotes;
+    var autoNoteScore2 = (levelConstant * power2 * 3 * .85 * lifeboost * autoboost) / totalNotes;
     var feverMultiplier = Math.max(1.1, Math.min(2 * ((0.28 / (feverNotes / totalNotes)) ** 0.6), 5)) * gtboost;
 
-    chart.sections.forEach((x) => {
+    for (let i = 1; i <= totalNotes; i++) {
+
+        // Combo multiplier
+        var comboMult = getComboMult(i);
+        
+        // Skills
         var skill = 1;
-        if (x.skill != 0) {
-            skill = (skillsList[x.skill-1] / 100) + 1;
+        if (i >= chart.s1Start && i < (chart.s1Start + chart["s1_" + skillDuration + "_Notes"])) {
+            skill = (skillsList[0] / 100) + 1;
+        } else if (i >= chart.s2Start && i < (chart.s2Start + chart["s2_" + skillDuration + "_Notes"])) {
+            skill = (skillsList[1] / 100) + 1;
+        } else if (i >= chart.s3Start && i < (chart.s3Start + chart["s3_" + skillDuration + "_Notes"])) {
+            skill = (skillsList[2] / 100) + 1;
+        } else if (i >= chart.s4Start && i < (chart.s4Start + chart["s4_" + skillDuration + "_Notes"])) {
+            skill = (skillsList[3] / 100) + 1;
+        } else if (i >= chart.s5Start && i < (chart.s5Start + chart["s5_" + skillDuration + "_Notes"])) {
+            skill = (skillsList[4] / 100) + 1;
         }
+
+        // Groovy Time
         var feverMult = 1;
-        if (x.gt) {
+        if (i >= chart.gtStart && i < (chart.gtStart + feverNotes)) {
             feverMult = feverMultiplier;
         }
 
-        scoreSolo += Math.floor(baseNoteScore * skill * x.comboMult) * x.notes;
-        scoreSolo2 += Math.floor(baseNoteScore2 * skill * x.comboMult) * x.notes;
-        scoreAutoSolo += Math.floor(autoNoteScore * skill) * x.notes;
-        score += Math.floor(baseNoteScore * skill * x.comboMult * feverMult) * x.notes;
-        scoreAuto += Math.floor(autoNoteScore * skill * feverMult) * x.notes;
-    });
+        scoreSolo += Math.floor(baseNoteScore * skill * comboMult);
+        scoreSolo2 += Math.floor(baseNoteScore2 * skill * comboMult);
+        scoreAutoSolo += Math.floor(autoNoteScore * skill);
+        scoreAutoSolo2 += Math.floor(autoNoteScore2 * skill);
+        score += Math.floor(baseNoteScore * skill * comboMult * feverMult);
+        scoreAuto += Math.floor(autoNoteScore * skill * feverMult);
+    }
 
     scoreMap.set("song", chart.name);
     scoreMap.set("scoreSolo", scoreSolo);
     scoreMap.set("scoreSolo2", scoreSolo2);
     scoreMap.set("scoreAutoSolo", scoreAutoSolo);
+    scoreMap.set("scoreAutoSolo2", scoreAutoSolo2);
     scoreMap.set("score", score);
     scoreMap.set("scoreAuto", scoreAuto);
 
     return scoreMap;
+}
+
+function getComboMult(num) {
+    if (num <= 20) {
+        return 1.00;
+    } else if (num <= 50) {
+        return 1.01;
+    } else if (num <= 100) {
+        return 1.02;
+    } else if (num <= 150) {
+        return 1.03;
+    } else if (num <= 200) {
+        return 1.04;
+    } else if (num <= 250) {
+        return 1.05;
+    } else if (num <= 300) {
+        return 1.06;
+    } else if (num <= 400) {
+        return 1.07;
+    } else if (num <= 500) {
+        return 1.08;
+    } else if (num <= 600) {
+        return 1.09;
+    } else if (num <= 700) {
+        return 1.10;
+    } else {
+        return 1.11;
+    }
 }
 
 function importTeam() {
@@ -397,11 +480,7 @@ function importTeam() {
         document.getElementById("paramselout").value = 75000;
     }
 
-    if (bonus != 0) {
-        document.getElementById("teambonus").value = (bonus * 1000) / 10;
-    } else {
-        document.getElementById("teambonus").value = 200;
-    }
+    document.getElementById("teambonus").value = (bonus * 1000) / 10;
     
     if (skillList !== "" && skillList !== ",,,") {
         if (eventtype === "poker" || eventtype === "slots" || eventtype === "raid") {
@@ -421,6 +500,7 @@ function importTeam() {
     var lifeBoost = 0;
     var scoreUp = 0;
     var autoBoost = 0;
+    var skillDuration = 0;
 
     var hasShano = false;
     var hasToka = false;
@@ -450,7 +530,6 @@ function importTeam() {
 
     for (let i = 1; i <= 4; i++) {
         var pskillString = document.getElementById("m" + i + "_pskill").innerHTML;
-        var pskillStringSupp = document.getElementById("s" + i + "_pskill").innerHTML;
         if (pskillString.startsWith("Life Boost")) {
             var et = document.getElementById("m" + i + "_et").value;
             var lifeBoostTemp = getPassiveValue(pskillString, "Life Boost", et);
@@ -486,7 +565,30 @@ function importTeam() {
             if (scoreUpTemp > scoreUp) {
                 scoreUp = scoreUpTemp;
             }
-        } else  if (pskillStringSupp.startsWith("Score Up")){
+        } else if (pskillString.startsWith("Skill Duration")) {
+            var et = document.getElementById("m" + i + "_et").value;
+            var char = document.getElementById("m" + i + "_char").innerHTML;
+            var bonus = 0;
+            if (char === "mana") {
+                if (hasAiri) {
+                    bonus += 15;
+                }
+            } else if (char === "toka") {
+                if (hasShano) {
+                    bonus += 15;
+                }
+            }
+            var skillDurTemp = getPassiveValue(pskillString, "Skill Duration", et) + bonus;
+            if (skillDurTemp > skillDuration) {
+                skillDuration = skillDurTemp;
+            }
+        }
+    }
+
+    // Check for support passive CoA
+    for (let i = 1; i <= 4; i++) {
+        var pskillStringSupp = document.getElementById("s" + i + "_pskill").innerHTML;
+        if (pskillStringSupp.startsWith("Score Up")){
             var et = document.getElementById("s" + i + "_et").value;
             var char = document.getElementById("s" + i + "_char").innerHTML;
             var bonus = 0;
@@ -503,13 +605,31 @@ function importTeam() {
             if (scoreUpTemp > scoreUp) {
                 scoreUp = scoreUpTemp;
             }
+        } else if (pskillStringSupp.startsWith("Skill Duration")) {
+            var et = document.getElementById("s" + i + "_et").value;
+            var char = document.getElementById("s" + i + "_char").innerHTML;
+            var bonus = 0;
+            if (char === "mana") {
+                if (hasAiri) {
+                    bonus += 15;
+                }
+            } else if (char === "toka") {
+                if (hasShano) {
+                    bonus += 15;
+                }
+            }
+            var skillDurTemp = getPassiveValue(pskillStringSupp, "Skill Duration", et) + bonus;
+            if (skillDurTemp > skillDuration) {
+                skillDuration = skillDurTemp;
+            }
         }
     }
 
     document.getElementById("pass_gt").value = groovyBonus;
     document.getElementById("pass_life").value = lifeBoost;
     document.getElementById("pass_scoreup").value = scoreUp;
-    // document.getElementById("pass_auto").value = autoBoost;
+    document.getElementById("pass_skilldur").value = skillDuration;
+    document.getElementById("pass_auto").value = autoBoost;
 }
 
 function getPassiveValue(pString, type,  et) {
@@ -535,11 +655,7 @@ function importTeam2() {
         document.getElementById("paramselout2").value = 75000;
     }
 
-    if (bonus != 0) {
-        document.getElementById("teambonus2").value = (bonus * 1000) / 10;
-    } else {
-        document.getElementById("teambonus2").value = 200;
-    }
+    document.getElementById("teambonus2").value = (bonus * 1000) / 10;
 
     $("select[name=eventsel2]").val(eventtype.toLowerCase());
     $('.selectpicker#eventsel2').selectpicker('refresh');

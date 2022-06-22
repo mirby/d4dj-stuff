@@ -94,8 +94,10 @@ function autoClub() {
             highestChar = document.getElementById("m" + i + "_char").innerHTML;
         }
 
-        styleArr.push(document.getElementById("m" + i + "_type").innerHTML.toLowerCase());
-        unitArr.push(document.getElementById("m" + i + "_unit").innerHTML.toLowerCase());
+        if (tempPower != 0) {
+            styleArr.push(document.getElementById("m" + i + "_type").innerHTML.toLowerCase());
+            unitArr.push(document.getElementById("m" + i + "_unit").innerHTML.toLowerCase());
+        }
     }
 
     // Don't bother setting club items if a team isn't built yet
@@ -147,6 +149,10 @@ function autoClub() {
         }
     
         $.refreshClubSelect();
+
+        calcClubPower();
+        calcDisplayPower();
+        calcDisplayParams();
     }
 }
 
