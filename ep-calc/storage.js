@@ -136,8 +136,15 @@ function saveData() {
 
     // Extra training info
     for (var i = 1; i<= 4; i++) {
-        localEt.set(document.getElementById("m" + i + "_id").innerHTML, document.getElementById("m" + i + "_et").value);
-        localEt.set(document.getElementById("s" + i + "_id").innerHTML, document.getElementById("s" + i + "_et").value);
+        var id = document.getElementById("m" + i + "_id").innerHTML;
+        if (id !== "") {
+            localEt.set(id, document.getElementById("m" + i + "_et").value);    
+        }
+        
+        id = document.getElementById("s" + i + "_id").innerHTML;
+        if (id !== "") {
+            localEt.set(id, document.getElementById("s" + i + "_et").value);    
+        }
     }
     storage.setItem("et", JSON.stringify([...localEt]));
 

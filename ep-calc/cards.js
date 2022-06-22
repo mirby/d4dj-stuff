@@ -882,6 +882,7 @@ function refreshMainTeam() {
         document.getElementById(selection + "_unit").innerHTML = "";
         document.getElementById(selection + "_type").innerHTML = "";
         document.getElementById(selection + "_skill").innerHTML = "";
+        document.getElementById(selection + "_pskill").innerHTML = "";
         document.getElementById(selection + "_et").value = 0;
         document.getElementById(selection + "_heartbase").innerHTML = "";
         document.getElementById(selection + "_heartmod").innerHTML = "";
@@ -908,6 +909,7 @@ function refreshSupportTeam() {
         document.getElementById(selection + "_charfull").innerHTML = "";
         document.getElementById(selection + "_id").innerHTML = "";
         document.getElementById(selection + "_char").innerHTML = "";
+        document.getElementById(selection + "_pskill").innerHTML = "";
         document.getElementById(selection + "_et").value = 0;
         document.getElementById(selection + "_heartbase").innerHTML = "";
         document.getElementById(selection + "_heartmod").innerHTML = "";
