@@ -100,8 +100,10 @@ function calculateEp(type, scoreMap, bonus, param, volts, roomscore) {
     var scoreSolo = scoreMap.get("scoreSolo");
     var scoreSolo2 = scoreMap.get("scoreSolo2");
     var scoreAuto = scoreMap.get("scoreAuto");
+    var scoreAuto2 = scoreMap.get("scoreAuto2");
     var scoreAutoSolo2 = scoreMap.get("scoreAutoSolo2");
     var score = scoreMap.get("score");
+    var score2 = scoreMap.get("score2");
 
     switch(type) {
         case "poker":
@@ -208,29 +210,35 @@ function calculateEp(type, scoreMap, bonus, param, volts, roomscore) {
 
             break;
         case "raid":
-            result = volts * (300 + Math.floor(scoreAuto / 6000));
-            valueMap.set("Multi Live EP - Auto (1st Anni/Precure/NBC)", result);
+            result = volts * (300 + Math.floor(scoreAuto2 / 6000));
+            valueMap.set("Dengeki/Precure - Multi Live EP - Auto", result);
+
+            valueMap.set("Dengeki/Precure - Multi Live Score - Auto (Estimated)", scoreAuto2);
+
+            result = volts * (300 + Math.floor(score2 / 6000));
+            valueMap.set("Dengeki/Precure - Multi Live EP", result);
+
+            valueMap.set("Dengeki/Precure - Multi Live Score (Estimated)", score2);
+
+            result = volts * (300 + Math.floor(scoreSolo2 / 6000));
+            valueMap.set("Dengeki/Precure - Free Live EP", result);
+
+            valueMap.set("Dengeki/Precure - Free Live Score (Estimated)", scoreSolo2);
 
             result = volts * Math.floor(bonus * (50 + Math.floor(scoreAuto / 10000) + param));
-            valueMap.set("Multi Live EP - Auto (D4FES)", result);
+            valueMap.set("D4FES - Multi Live EP - Auto", result);
 
-            valueMap.set("Multi Live Score - Auto (Estimated)", scoreAuto);
-
-            result = volts * (300 + Math.floor(score / 6000));
-            valueMap.set("Multi Live EP (1st Anni/Precure/NBC)", result);
+            valueMap.set("D4FES - Multi Live Score - Auto (Estimated)", scoreAuto);
 
             result = volts * Math.floor(bonus * (50 + Math.floor(score / 10000) + param));
-            valueMap.set("Multi Live EP (D4FES)", result);
+            valueMap.set("D4FES - Multi Live EP", result);
 
-            valueMap.set("Multi Live Score (Estimated)", score);
-
-            result = volts * (300 + Math.floor(scoreSolo / 6000));
-            valueMap.set("Free Live EP (1st Anni/Precure/NBC)", result);
+            valueMap.set("D4FES - Multi Live Score (Estimated)", score);
 
             result = volts * Math.floor(bonus * (50 + Math.floor(scoreSolo / 10000) + param));
-            valueMap.set("Free Live EP (D4FES)", result);
+            valueMap.set("D4FES - Free Live EP", result);
 
-            valueMap.set("Free Live Score (Estimated)", scoreSolo);
+            valueMap.set("D4FES - Free Live Score (Estimated)", scoreSolo);
 
             break;
     }
@@ -293,7 +301,7 @@ function calculateEpScore(type, score, bonus, param, volts, roomscore) {
                 break;
             case "raid":
                 result = volts * (300 + Math.floor(score / 6000));
-                valueMap.set("Free Live/Multi Live EP (1st Anni/Precure/NBC)", result);
+                valueMap.set("Free Live/Multi Live EP (Precure/Dengeki)", result);
 
                 result = volts * Math.floor(bonus * (50 + Math.floor(score / 10000) + param));
                 valueMap.set("Free Live/Multi Live EP (D4FES)", result);
@@ -340,7 +348,9 @@ function calculateScore(type) {
     var scoreAutoSolo = 0; // Free Live - Auto
     var scoreAutoSolo2 = 0; // Bingo/Task Medley - Auto
     var score = 0; // Multi w/ GT
+    var score2 = 0; // Multi with event power w/ GT (raids)
     var scoreAuto = 0; // Multi w/ GT - Auto
+    var scoreAuto2 = 0; // Multi with event power w/ GT - Auto (raids)
 
     var chart = {};
 
@@ -399,7 +409,9 @@ function calculateScore(type) {
         scoreAutoSolo += Math.floor(autoNoteScore * skill);
         scoreAutoSolo2 += Math.floor(autoNoteScore2 * skill);
         score += Math.floor(baseNoteScore * skill * comboMult * feverMult);
+        score2 += Math.floor(baseNoteScore2 * skill * comboMult * feverMult);
         scoreAuto += Math.floor(autoNoteScore * skill * feverMult);
+        scoreAuto2 += Math.floor(autoNoteScore2 * skill * feverMult);
     }
 
     scoreMap.set("song", chart.name);
@@ -408,7 +420,9 @@ function calculateScore(type) {
     scoreMap.set("scoreAutoSolo", scoreAutoSolo);
     scoreMap.set("scoreAutoSolo2", scoreAutoSolo2);
     scoreMap.set("score", score);
+    scoreMap.set("score2", score2);
     scoreMap.set("scoreAuto", scoreAuto);
+    scoreMap.set("scoreAuto2", scoreAuto2);
 
     return scoreMap;
 }
@@ -446,6 +460,9 @@ function importTeam() {
     var power_event = parseInt(document.getElementById("power_total").innerHTML);
     var eventtype = document.getElementById("eventtype").innerHTML.toLowerCase();
     var paramtype = document.getElementById("eventparamval").innerHTML;
+    if (paramtype === "None") {
+        paramtype = "heart";
+    }
     var param = document.getElementById("paramtotal_" + paramtype.toLowerCase()).innerHTML;
 
     var skillList = "";
@@ -480,6 +497,9 @@ function importTeam() {
         document.getElementById("paramselout").value = 75000;
     }
 
+    if (isNaN(bonus)) {
+        bonus = 0;
+    }
     document.getElementById("teambonus").value = (bonus * 1000) / 10;
     
     if (skillList !== "" && skillList !== ",,,") {
@@ -668,6 +688,7 @@ function insertRow(tableObj, cell1Text, cell2Text) {
     cell1.style.borderRight = "1px solid #000";
     var cell2 = row.insertCell(1);
     cell2.style.textAlign = "right";
+    cell2.style.width = "100px";
     cell1.innerHTML = cell1Text;
     cell2.innerHTML = cell2Text;
 }

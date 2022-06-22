@@ -741,20 +741,52 @@ function getClubPerc(selectId, charId) {
 }
 
 function calcEventPower() {
-    for (let i = 1; i <= 4; i++) {
-        var eventPercGain = getEventPerc(i);
-        document.getElementById("m" + i + "_eventperc").innerHTML = eventPercGain;
+    var type = document.getElementById("eventtype").innerHTML;
+    // For now, just assume all raids the same for Dengeki. Will need to tweak further for 1st Anni or possibly old D4FES type again
+    if (type !== "Raid") {
+        for (let i = 1; i <= 4; i++) {
+            var eventPercGain = getEventPerc(i);
+            document.getElementById("m" + i + "_eventperc").innerHTML = eventPercGain;
+    
+            var heartMod = parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) || 0;
+            var techMod = parseInt(document.getElementById("m" + i + "_techmod").innerHTML) || 0;
+            var physMod = parseInt(document.getElementById("m" + i + "_physmod").innerHTML) || 0;
+    
+            var heart = Math.floor(parseInt(heartMod) * eventPercGain);
+            var tech = Math.floor(parseInt(techMod) * eventPercGain);
+            var phys = Math.floor(parseInt(physMod) * eventPercGain);
+            var eventTotal = heart + tech + phys;
+    
+            document.getElementById("m" + i + "_eventbonus").innerHTML = eventTotal;
+        }
+    } else {
+        // Power for newer special raids (dengeki, precure, quint2, etc)
+        // +50% for matching char, +50% for collab (how to detect collab?)
 
-        var heartMod = parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) || 0;
-        var techMod = parseInt(document.getElementById("m" + i + "_techmod").innerHTML) || 0;
-        var physMod = parseInt(document.getElementById("m" + i + "_physmod").innerHTML) || 0;
+        var charList = [];
+        var eventId = document.getElementById("eventid").innerHTML;
+        for (let x of eventList[eventId].characters.split(",")) {
+            charList.push(x.toLowerCase());
+        }
 
-        var heart = Math.floor(parseInt(heartMod) * eventPercGain);
-        var tech = Math.floor(parseInt(techMod) * eventPercGain);
-        var phys = Math.floor(parseInt(physMod) * eventPercGain);
-        var eventTotal = heart + tech + phys;
+        for (let i = 1; i <= 4; i++) {
+            var char = document.getElementById("m" + i + "_char").innerHTML;
+            if (charList.includes(char)) {
+                var eventPerc = .5;
+                // TODO detect if collab card, add another .5
 
-        document.getElementById("m" + i + "_eventbonus").innerHTML = eventTotal;
+                var heartMod = parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) || 0;
+                var techMod = parseInt(document.getElementById("m" + i + "_techmod").innerHTML) || 0;
+                var physMod = parseInt(document.getElementById("m" + i + "_physmod").innerHTML) || 0;
+        
+                var heart = Math.floor(parseInt(heartMod) * eventPerc);
+                var tech = Math.floor(parseInt(techMod) * eventPerc);
+                var phys = Math.floor(parseInt(physMod) * eventPerc);
+                var eventTotal = heart + tech + phys;
+
+                document.getElementById("m" + i + "_eventbonus").innerHTML = eventTotal;
+            }
+        }
     }
 }
 

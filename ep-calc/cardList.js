@@ -4716,6 +4716,62 @@ var cards = {
             "skill": .5,
             "icon": "card_icon_040340010_1.8c680b33",
             "passive": "Groovy Solo 20-50%"
+        },
+        "337": {
+            "id": 337,
+            "character": "Aoi",
+            "cardname": "Motorrad Rider Traveler",
+            "unit": "Rondo",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 12785,
+            "technical": 11475,
+            "physical": 12888,
+            "skill": .6,
+            "icon": "card_icon_040540009_1.44eccd38",
+            "passive": "Auto Boost 2.5-8%"
+        },
+        "338": {
+            "id": 338,
+            "character": "Miiko",
+            "cardname": "Dichotomy of Bludgeoning and Resurrection",
+            "unit": "LyriLily",
+            "type": "",
+            "rarity": 4,
+            "heart": 12521,
+            "technical": 12956,
+            "physical": 11688,
+            "skill": .6,
+            "icon": "card_icon_040640010_1.2ecedb23",
+            "passive": "Groovy Bonus 10-30%"
+        },
+        "339": {
+            "id": 339,
+            "character": "Muni",
+            "cardname": "Red-Eyed Rabbit's Tenchu Kick",
+            "unit": "HapiAra",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 11852,
+            "technical": 12611,
+            "physical": 12715,
+            "skill": .6,
+            "icon": "card_icon_040130011_1.230d72a8",
+            "passive": "Life Boost 2.5-7.5%"
+        },
+        "340": {
+            "id": 340,
+            "character": "Kyoko",
+            "cardname": "Railgun Exploding in the Dark of Night",
+            "unit": "Peaky",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 12139,
+            "technical": 12122,
+            "physical": 12970,
+            "skill": .6,
+            "icon": "card_icon_040210009_1.14f67e87",
+            "passive": "Groovy Solo 20-60%"
         }
     }
 
