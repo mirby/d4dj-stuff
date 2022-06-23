@@ -702,6 +702,9 @@ function getPassiveValue(pString, type,  et) {
 function importTeam2() {
     var eventtype = document.getElementById("eventtype").innerHTML;
     var paramtype = document.getElementById("eventparamval").innerHTML;
+    if (paramtype === "None") {
+        paramtype = "heart";
+    }
     var param = document.getElementById("paramtotal_" + paramtype.toLowerCase()).innerHTML;
 
     var bonus = 0;
@@ -715,6 +718,9 @@ function importTeam2() {
         document.getElementById("paramselout2").value = 75000;
     }
 
+    if (isNaN(bonus)) {
+        bonus = 0;
+    }
     document.getElementById("teambonus2").value = (bonus * 1000) / 10;
 
     $("select[name=eventsel2]").val(eventtype.toLowerCase());

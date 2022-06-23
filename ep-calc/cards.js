@@ -758,6 +758,7 @@ function calcEventPower() {
             var eventTotal = heart + tech + phys;
     
             document.getElementById("m" + i + "_eventbonus").innerHTML = eventTotal;
+            document.getElementById("m" + i + "_eventbonus2").innerHTML = 0;
         }
     } else {
         // Power for newer special raids (dengeki, precure, quint2, etc)
@@ -802,6 +803,9 @@ function calcEventPower() {
 
                 document.getElementById("m" + i + "_eventbonus").innerHTML = eventTotal;
                 document.getElementById("m" + i + "_eventbonus2").innerHTML = eventTotal2;
+            } else {
+                document.getElementById("m" + i + "_eventbonus").innerHTML = 0;
+                document.getElementById("m" + i + "_eventbonus2").innerHTML = 0;
             }
         }
     }
