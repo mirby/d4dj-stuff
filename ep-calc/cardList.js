@@ -4772,6 +4772,62 @@ var cards = {
             "skill": .6,
             "icon": "card_icon_040210009_1.14f67e87",
             "passive": "Groovy Solo 20-60%"
+        },
+        "341": {
+            "id": 341,
+            "character": "Rei",
+            "cardname": "With You Sleeping Peacefully",
+            "unit": "HapiAra",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 12748,
+            "technical": 12204,
+            "physical": 12195,
+            "skill": .6,
+            "icon": "card_icon_040140009_1.6b5a0765",
+            "passive": "Groovy Bonus 10-30%"
+        },
+        "342": {
+            "id": 342,
+            "character": "Tsubaki",
+            "cardname": "Shana and the Blue Flame Hunter",
+            "unit": "Rondo",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 12654,
+            "technical": 12497,
+            "physical": 12056,
+            "skill": .6,
+            "icon": "card_icon_040510010_1.df2c2d6c",
+            "passive": "Auto Boost 2.5-8%"
+        },
+        "343": {
+            "id": 343,
+            "character": "Hiiro",
+            "cardname": "Proudly Sparkle Rod",
+            "unit": "Rondo",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 11890,
+            "technical": 13108,
+            "physical": 12163,
+            "skill": .6,
+            "icon": "card_icon_040530010_1.b6119416",
+            "passive": "Groovy Solo 20-60%"
+        },
+        "344": {
+            "id": 344,
+            "character": "Kurumi",
+            "cardname": "Naughty Sister",
+            "unit": "LyriLily",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 12814,
+            "technical": 12037,
+            "physical": 12350,
+            "skill": .6,
+            "icon": "card_icon_040630010_1.9ba7176f",
+            "passive": "Life Boost 2.5-7.5%"
         }
     }
 

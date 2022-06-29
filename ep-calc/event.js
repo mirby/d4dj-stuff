@@ -533,7 +533,17 @@ var eventList = {
         "style":"None",
         "parameter":"None",
         "bonus":false,
-        "addition":"50% power boost to matching character. 50% power boost to matching collab card. 50% power boost to matching Yell Live room."
+        "addition":"50% power boost to matching character. 50% power boost to matching collab card. 50% power boost to matching Support Live room."
+    },
+    "60": {
+        "id":60,
+        "name":"Dengeki & NBC Universal 30th Anniversary Lightning groove!! -2nd Half-",
+        "characters":"Rei,Tsubaki,Hiiro,Kurumi",
+        "type":"Raid",
+        "style":"None",
+        "parameter":"None",
+        "bonus":false,
+        "addition":"50% power boost to matching character. 50% power boost to matching collab card. 50% power boost to matching Support Live room."
     },
 }
 
