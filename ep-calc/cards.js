@@ -724,7 +724,8 @@ function calcEventPower() {
 
         // Really bad hack to detect if a card is collab type, basically just map the card names to the event ID
         var collabSet = {
-            "59":["Motorrad Rider Traveler", "Dichotomy of Bludgeoning and Resurrection", "Red-Eyed Rabbit's Tenchu Kick", "Railgun Exploding in the Dark of Night"]
+            "59":["Motorrad Rider Traveler", "Dichotomy of Bludgeoning and Resurrection", "Red-Eyed Rabbit's Tenchu Kick", "Railgun Exploding in the Dark of Night"],
+            "60":["With You Sleeping Peacefully", "Shana and the Blue Flame Hunter", "Proudly Sparkle Rod", "Naughty Sister"],
         };
 
         var charList = [];

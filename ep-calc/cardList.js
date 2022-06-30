@@ -4828,6 +4828,20 @@ var cards = {
             "skill": .6,
             "icon": "card_icon_040630010_1.9ba7176f",
             "passive": "Life Boost 2.5-7.5%"
+        },
+        "345": {
+            "id": 345,
+            "character": "Rinku",
+            "cardname": "Birthday -Banquet-",
+            "unit": "HapiAra",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 11395,
+            "technical": 11376,
+            "physical": 12886,
+            "skill": .55,
+            "icon": "",
+            "passive": "Life Boost 2.5-7.5%"
         }
     }
 
