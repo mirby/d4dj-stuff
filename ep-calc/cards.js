@@ -1,5 +1,4 @@
 var refreshSelect1;
-var refreshSelect2;
 var refreshSelect3;
 var refreshParamSelect;
 var refreshParamSelect2;
@@ -7,10 +6,6 @@ var refreshParamSelect2;
 $(document).ready(function() {
     $.refreshSelect1 = function() {
         $('.selectpicker#cards').selectpicker('refresh');
-    };
-
-    $.refreshSelect2 = function() {
-        $('.selectpicker#eventmedleychar').selectpicker('refresh');
     };
 
     $.refreshSelect3 = function(id) {
@@ -31,12 +26,11 @@ $(document).on('changed.bs.select', 'select', function(event) {
         fillStat($(this).val());
     } else if ($(event.target).is("select#eventtype")) {
         displayCharSelect($(event.target).val());
-    } else if ($(event.target).is("select.eventbonuschar")) {
-        populateCharSelect();
     }
 
     if ($(event.target).is("select#eventselector")) {
         fillEventDisplay();
+        populateCharSelect();
         calcEventPower();
         calcDisplayPower();
     } else if ($(event.target).is("select.etselect")) {
@@ -55,6 +49,8 @@ $(document).on('changed.bs.select', 'select', function(event) {
         calcEventPower();
         calcDisplayPower();
         calcDisplayParams();
+    } else if ($(event.target).is("select#eventsel")) {
+        displayEventBonus($(this).val());
     }
 });
 
@@ -399,44 +395,6 @@ function generateFilters(arr) {
     displayCardsDropdown(arr);
 
     $.refreshSelect1();
-}
-
-// Display the event char bonus select if event type is medley, hide otherwise
-// function displayCharSelect(eventtype) {
-//     if (eventtype === "event-medley") {
-//         document.getElementById("medleychar").style.display = "block";
-//         populateCharSelect();
-//     } else {
-//         document.getElementById("medleychar").style.display = "none";
-//     }
-// }
-
-// Populate the character select based on current event chars
-function populateCharSelect() {
-    let charSet = new Set().add(document.getElementById("eventbonus1").value).add(document.getElementById("eventbonus2").value)
-        .add(document.getElementById("eventbonus3").value).add(document.getElementById("eventbonus4").value);
-    
-    if (document.getElementById("event-char").hasChildNodes()) {
-        document.getElementById("event-char").removeChild(document.getElementById("event-char").firstChild);
-    }
-
-    var select = document.createElement("select");
-    select.name = "eventmedleychar";
-    select.id = "eventmedleychar";
-    select.classList.add("selectpicker");
-    select.classList.add("eventselect");
-    select.setAttribute("data-width","fit");
-    select.setAttribute("data-size","10");
-
-    charSet.forEach(function(x) {
-        var option = document.createElement("option");
-        option.value = "eventmedley" + x;
-        option.setAttribute("data-tokens", x.toLowerCase());
-        option.setAttribute("data-content","<img src='../icons/icon_" + x.toLowerCase().substring(5) + ".png' width='30' height='30'></img>" + ' ' + x.substring(5));
-        select.appendChild(option);        
-    });
-    document.getElementById("event-char").appendChild(select);
-    $.refreshSelect2();
 }
 
 // Create all the character filters when the page is loaded

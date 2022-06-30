@@ -1,3 +1,11 @@
+var refreshSelect2;
+
+$(document).ready(function() {
+    $.refreshSelect2 = function() {
+        $('.selectpicker#eventchars').selectpicker('refresh');
+    };
+});
+
 jQuery(function($) {
     $('#calculateteam').on('click', function() {
         // TODO add validations for all the input fields
@@ -350,6 +358,10 @@ function calculateScore(type) {
     });
     skillsList.push(highest);
 
+    // Get event bonus power if raid for the target Support Live room
+    var bonusPower = getBonusPower(type);
+    power2 = parseInt(power2) + parseInt(bonusPower);
+    
     // Get passive skills
     var gtboost = ((parseFloat(document.getElementById("pass_gt").value) / 100) || 0) + 1;
     var lifeboost = (parseFloat(document.getElementById("pass_life").value) / 100) || 0;
@@ -454,6 +466,36 @@ function calculateScore(type) {
     return scoreMap;
 }
 
+// Get bonus power for Raid bonus room
+function getBonusPower(eventType) {
+    var bonusPower = 0;
+    if (eventType === "raid") {
+        var character = document.getElementById("eventchars").value.toLowerCase();
+        for (let i = 1; i <= 4; i++) {
+            var char = document.getElementById("m" + i + "_char").innerHTML;
+            if (char === character) {
+                var cardpower = document.getElementById("m" + i + "_cardpower").innerHTML;
+                var eventbonus = document.getElementById("m" + i + "_eventbonus").innerHTML;
+
+                // If the card power matches the event bonus, it means it's a collab card, and gets an extra 50% bonus for playing in the support room
+                if (cardpower == eventbonus) {
+                    var eventPerc = .5;
+                    var heartMod = parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) || 0;
+                    var techMod = parseInt(document.getElementById("m" + i + "_techmod").innerHTML) || 0;
+                    var physMod = parseInt(document.getElementById("m" + i + "_physmod").innerHTML) || 0;
+            
+                    var heart = Math.floor(parseInt(heartMod) * eventPerc);
+                    var tech = Math.floor(parseInt(techMod) * eventPerc);
+                    var phys = Math.floor(parseInt(physMod) * eventPerc);
+                    bonusPower = heart + tech + phys;
+                }
+            }
+        }
+    }
+
+    return bonusPower;
+}
+
 function getComboMult(num) {
     if (num <= 20) {
         return 1.00;
@@ -493,6 +535,9 @@ function importTeam() {
     }
 
     var eventtype = document.getElementById("eventtype").innerHTML.toLowerCase();
+
+    displayEventBonus(eventtype);
+
     var paramtype = document.getElementById("eventparamval").innerHTML;
     if (paramtype === "None") {
         paramtype = "heart";
@@ -737,4 +782,47 @@ function insertRow(tableObj, cell1Text, cell2Text) {
     cell2.style.width = "100px";
     cell1.innerHTML = cell1Text;
     cell2.innerHTML = cell2Text;
+}
+
+// Display extra selector if event type is Raid
+function displayEventBonus(eventType) {
+    if (eventType === "raid") {
+        document.getElementById("eventcharselect").style.display = "block";
+        populateCharSelect();
+    } else {
+        document.getElementById("eventcharselect").style.display = "none";
+    }    
+}
+
+// Populate the character select based on current event chars
+function populateCharSelect() {
+    var eventid = document.getElementById("eventid").innerHTML;
+    var charArray = eventList[eventid].characters.split(",");
+    var charSet = new Set();
+    for (let x of charArray) {
+        charSet.add(x);
+    }
+
+    if (document.getElementById("eventchar").hasChildNodes()) {
+        document.getElementById("eventchar").removeChild(document.getElementById("eventchar").firstChild);
+    }
+
+    var select = document.createElement("select");
+    select.name = "eventchars";
+    select.id = "eventchars";
+    select.classList.add("selectpicker");
+    select.classList.add("voltselect");
+    select.setAttribute("data-width","fit");
+    select.setAttribute("data-size","10");
+
+    charSet.forEach(function(x) {
+        var option = document.createElement("option");
+        option.value = x;
+        option.setAttribute("data-tokens", x.toLowerCase());
+        option.setAttribute("data-content","<img src='../icons/icon_" + x.toLowerCase() + ".png' width='30' height='30'></img>" + ' ' + x);
+        select.appendChild(option);        
+    });
+    document.getElementById("eventchar").appendChild(select);
+
+    $.refreshSelect2();
 }
