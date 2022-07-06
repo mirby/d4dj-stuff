@@ -545,6 +545,16 @@ var eventList = {
         "bonus":false,
         "addition":"50% power boost to matching character. 50% power boost to matching collab card. 50% power boost to matching Support Live room."
     },
+    "61": {
+        "id":61,
+        "name":"The Loneliness In My Heart -Shinobu & Esora-",
+        "characters":"Shinobu,Esora",
+        "type":"Slots",
+        "style":"Party",
+        "parameter":"Technical",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*

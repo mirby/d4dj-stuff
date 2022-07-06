@@ -187,7 +187,7 @@ function fillStat(cardId) {
     document.querySelector('input[name="etField"]').value = et;
 
     var img = document.createElement("img");
-    img.src = "https://qwewqa.github.io/miyu-data/ondemand/card_icon/" + obj.icon.toString() + ".jpg";
+    img.src = "https://miyu-data.qwewqa.xyz/ondemand/card_icon/" + obj.icon.toString() + ".jpg";
     img.classList.add("img-thumbnail");
     img.width = '200';
     img.height = '200';

@@ -4842,6 +4842,34 @@ var cards = {
             "skill": .55,
             "icon": "",
             "passive": "Life Boost 2.5-7.5%"
+        },
+        "346": {
+            "id": 346,
+            "character": "Shinobu",
+            "cardname": "White Cat Sees Through The Heart",
+            "unit": "Peaky",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 12725,
+            "technical": 16827,
+            "physical": 7487,
+            "skill": .5,
+            "icon": "card_icon_040220011_1.dab913de",
+            "passive": "Groovy Bonus 10-25%"
+        },
+        "347": {
+            "id": 347,
+            "character": "Esora",
+            "cardname": "Black Cat Pushes Through With Heart",
+            "unit": "Peaky",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 6896,
+            "technical": 17014,
+            "physical": 12387,
+            "skill": .5,
+            "icon": "card_icon_040240011_1.4d1067a2",
+            "passive": "Life Boost 2.5-6.25%"
         }
     }
 

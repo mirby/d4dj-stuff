@@ -555,6 +555,7 @@ function importTeam() {
         }
         skillList += skill + ",";
         bonus += parseFloat(document.getElementById("m" + i + "_eventperc").innerHTML);
+        bonus = parseFloat(bonus.toFixed(2));
     }
     skillList = skillList.slice(0, -1).split(",").sort().join(",");
 
@@ -755,6 +756,7 @@ function importTeam2() {
     var bonus = 0;
     for (let i = 1; i <= 4; i++) {
         bonus += parseFloat(document.getElementById("m" + i + "_eventperc").innerHTML);
+        bonus = parseFloat(bonus.toFixed(2));
     }
 
     if (param != 0) {
