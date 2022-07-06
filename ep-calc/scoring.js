@@ -341,10 +341,11 @@ function calculateScore(type) {
     if (isNaN(power2) || power2 == 0) {
         power2 = power;
     }
-    var power3 = document.getElementById("powerin3").value;
-    if (isNaN(power3) || power3 == 0) {
-        power3 = power;
-    }
+    var power3 = power;
+    // var power3 = document.getElementById("powerin3").value;
+    // if (isNaN(power3) || power3 == 0) {
+    //     power3 = power;
+    // }
     var skills = document.getElementById("skillin").value;
     var skillsList = [];
     skillsList = skills.split(",");
