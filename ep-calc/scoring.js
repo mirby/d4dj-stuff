@@ -572,11 +572,11 @@ function importTeam() {
         document.getElementById("powerin2").value = 300000;
     }
 
-    if (power_event_dengeki != 0) {
-        document.getElementById("powerin3").value = power_event_dengeki;
-    } else {
-        document.getElementById("powerin3").value = 400000;
-    }
+    // if (power_event_dengeki != 0) {
+    //     document.getElementById("powerin3").value = power_event_dengeki;
+    // } else {
+    //     document.getElementById("powerin3").value = 400000;
+    // }
 
     if (param != 0) {
         document.getElementById("paramselout").value = param;
