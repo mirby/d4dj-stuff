@@ -24,8 +24,6 @@ $(document).ready(function() {
 $(document).on('changed.bs.select', 'select', function(event) {
     if ($(event.target).is("select#cards")) {
         fillStat($(this).val());
-    } else if ($(event.target).is("select#eventtype")) {
-        displayCharSelect($(event.target).val());
     }
 
     if ($(event.target).is("select#eventselector")) {
@@ -51,6 +49,9 @@ $(document).on('changed.bs.select', 'select', function(event) {
         calcDisplayParams();
     } else if ($(event.target).is("select#eventsel")) {
         displayEventBonus($(this).val());
+    } else if ($(event.target).is("select#medleychars")) {
+        calcDisplayPower();
+        calcDisplayParams();
     }
 });
 
@@ -514,14 +515,16 @@ function calcDisplayPower() {
 
     // Medley power
     var totalMedleyPower = 0;
-    if (document.getElementById("eventtype").value === "event-medley") {
-        for (let i = 1; i <= 4; i++) {
-            if (("eventmedleybonus" + document.getElementById("m" + i + "_char").innerHTML.toLowerCase()) === document.getElementById("eventmedleychar").value.toLowerCase()) {
-                var heart = Math.floor(parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) * .1);
-                var tech = Math.floor(parseInt(document.getElementById("m" + i + "_techmod").innerHTML) * .1);
-                var phys = Math.floor(parseInt(document.getElementById("m" + i + "_physmod").innerHTML) * .1);
-                totalMedleyPower = heart + tech + phys;
-                break;
+    if (document.getElementById("eventtype").innerHTML === "Medley") {
+        if (document.getElementById("medleychars").value.toLowerCase() !== "none") {
+            for (let i = 1; i <= 4; i++) {
+                if ((document.getElementById("m" + i + "_char").innerHTML.toLowerCase()) === document.getElementById("medleychars").value.toLowerCase()) {
+                    var heart = Math.floor(parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) * .1);
+                    var tech = Math.floor(parseInt(document.getElementById("m" + i + "_techmod").innerHTML) * .1);
+                    var phys = Math.floor(parseInt(document.getElementById("m" + i + "_physmod").innerHTML) * .1);
+                    totalMedleyPower = heart + tech + phys;
+                    break;
+                }
             }
         }
     }

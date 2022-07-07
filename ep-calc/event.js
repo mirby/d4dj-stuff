@@ -1,8 +1,13 @@
 var refreshEventSelector;
+var refreshMedleySelect;
 
 $(document).ready(function() {
     $.refreshEventSelector = function() {
         $('.selectpicker#eventselector').selectpicker('refresh');
+    };
+    
+    $.refreshMedleySelect = function() {
+        $('.selectpicker#medleychars').selectpicker('refresh');
     };
 });
 
@@ -59,6 +64,18 @@ function fillEventDisplay() {
     document.getElementById("eventparam").innerHTML = (eventList[eventId].parameter !== "None") ? "<img src='../icons/param_" + eventList[eventId].parameter.toLowerCase() + ".png' width='30' height='30'></img>" + ' ' + eventList[eventId].parameter : "None";
     document.getElementById("eventbonus").innerHTML = (eventList[eventId].bonus) ? "Yes" : "No";
     document.getElementById("eventdetails").innerHTML = eventList[eventId].addition;
+
+    // Display medley bonus char selector
+    if (eventList[eventId].type.toLowerCase() === "medley") {
+        document.getElementById("medleycharselect").style.display = "table-row";
+        document.getElementById("medley_color").style.display = "table-cell";
+        document.getElementById("power_medley").style.display = "table-cell";
+        populateCharSelectMed();
+    } else {
+        document.getElementById("medleycharselect").style.display = "none";
+        document.getElementById("medley_color").style.display = "none";
+        document.getElementById("power_medley").style.display = "none";
+    }
 }
 
 // A 404 can occur if the event notice is there but not the event image yet, so display the event notice image instead
@@ -72,6 +89,45 @@ function refreshEventSelect() {
     $("select[name=eventselector]").val(Object.keys(eventList).length + 13);
     fillEventDisplay();
     $.refreshEventSelector();
+}
+
+function populateCharSelectMed() {
+    var eventid = document.getElementById("eventid").innerHTML;
+    var charArray = eventList[eventid].characters.split(",");
+    var charSet = new Set();
+    for (let x of charArray) {
+        charSet.add(x);
+    }
+
+    if (document.getElementById("eventmedleychar").hasChildNodes()) {
+        document.getElementById("eventmedleychar").removeChild(document.getElementById("eventmedleychar").firstChild);
+    }
+
+    var select = document.createElement("select");
+    select.name = "medleychars";
+    select.id = "medleychars";
+    select.classList.add("selectpicker");
+    select.classList.add("voltselect");
+    select.setAttribute("data-width","fit");
+    select.setAttribute("data-size","10");
+
+    charSet.forEach(function(x) {
+        var option = document.createElement("option");
+        option.value = x;
+        option.setAttribute("data-tokens", x.toLowerCase());
+        option.setAttribute("data-content","<img src='../icons/icon_" + x.toLowerCase() + ".png' width='30' height='30'></img>" + ' ' + x);
+        select.appendChild(option);        
+    });
+
+    var option = document.createElement("option");
+    option.value = "none";
+    option.setAttribute("data-tokens", "none");
+    option.setAttribute("data-content","None");
+    select.appendChild(option); 
+
+    document.getElementById("eventmedleychar").appendChild(select);
+
+    $.refreshMedleySelect();
 }
 
 var eventList = {

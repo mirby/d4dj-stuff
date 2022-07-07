@@ -1,7 +1,7 @@
-var refreshSelect2;
+var refreshSelect;
 
 $(document).ready(function() {
-    $.refreshSelect2 = function() {
+    $.refreshSelect = function() {
         $('.selectpicker#eventchars').selectpicker('refresh');
     };
 });
@@ -806,8 +806,8 @@ function populateCharSelect() {
         charSet.add(x);
     }
 
-    if (document.getElementById("eventchar").hasChildNodes()) {
-        document.getElementById("eventchar").removeChild(document.getElementById("eventchar").firstChild);
+    if (document.getElementById("eventraidchar").hasChildNodes()) {
+        document.getElementById("eventraidchar").removeChild(document.getElementById("eventraidchar").firstChild);
     }
 
     var select = document.createElement("select");
@@ -825,7 +825,7 @@ function populateCharSelect() {
         option.setAttribute("data-content","<img src='../icons/icon_" + x.toLowerCase() + ".png' width='30' height='30'></img>" + ' ' + x);
         select.appendChild(option);        
     });
-    document.getElementById("eventchar").appendChild(select);
+    document.getElementById("eventraidchar").appendChild(select);
 
-    $.refreshSelect2();
+    $.refreshSelect();
 }

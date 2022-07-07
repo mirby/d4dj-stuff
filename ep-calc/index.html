@@ -27,7 +27,7 @@
                     <th id="club_color" scope="col">Club</th>
                     <th id="support_color" scope="col">Support</th>
                     <th id="event_color" scope="col">Event</th>
-                    <th id="medley_color" scope="col">Medley</th>
+                    <th style="display:none" id="medley_color" scope="col">Medley</th>
                     <th id="totalwo_color" scope="col">Total (without event)</th>
                     <th id="total_color" scope="col">Total (with event)  <span class="explanation"><i class="fa fa-info-circle"></i>
                         <span class="explanation_text">Only for Bingo (Battle Live) and Medley (Task Medley) events</span></span>
@@ -40,7 +40,7 @@
                     <td id="power_club"></td>
                     <td id="power_support"></td>
                     <td id="power_event"></td>
-                    <td id="power_medley"></td>
+                    <td style="display:none" id="power_medley"></td>
                     <td id="power_totalwo"></td>
                     <td id="power_total"></td>
                 </tr>
@@ -736,8 +736,14 @@
                                         <div id="eventbonus"></div>
                                     </td>
                                 </tr>
+                                <tr style="display:none" id="medleycharselect">
+                                    <td style="padding-top:5px;padding-bottom:5px;">Task Medley Bonus Char</td>
+                                    <td style="padding-top:5px;padding-bottom:5px;text-align:right;" colspan="2">
+                                        <span id="eventmedleychar"></span>
+                                    </td>
+                                </tr>
                                 <tr>
-                                    <td style="padding-top:5px;padding-bottom:5px;">Additional Details</td>
+                                    <td style="padding-top:5px;padding-bottom:5px;">More Details</td>
                                     <td style="padding-top:5px;padding-bottom:5px;text-align:right;" colspan="2">
                                         <div id="eventdetails"></div>
                                     </td>
@@ -843,7 +849,7 @@
                                     </select><br>
                                     <div id="eventcharselect" style="display:none">
                                         <label style="margin-top:15px;width:150px" for="eventraidchar">Support Room</label>
-                                        <span id="eventchar"></span>
+                                        <span id="eventraidchar"></span>
                                     </div>
                                     <div class="sectionHeader">
                                         <p>Passive Skills</p>
@@ -1051,7 +1057,6 @@
                         <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <ul>
-                                    <li>Figure out power bonuses for special raids</li>
                                     <li>better UI (mobile too)</li>
                                     <li>jp card support, if desired</li>
                                     <li>some way to compare cards when adding them</li>
