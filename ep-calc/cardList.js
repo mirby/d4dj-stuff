@@ -4870,6 +4870,20 @@ var cards = {
             "skill": .5,
             "icon": "card_icon_040240011_1.4d1067a2",
             "passive": "Life Boost 2.5-6.25%"
+        },
+        "348": {
+            "id": 348,
+            "character": "Aoi",
+            "cardname": "Birthday -Museum-",
+            "unit": "Rondo",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 12236,
+            "technical": 12765,
+            "physical": 11851,
+            "skill": .55,
+            "icon": "card_icon_040540011_1.a88c3648",
+            "passive": "Auto Boost 2.5-8%"
         }
     }
 
