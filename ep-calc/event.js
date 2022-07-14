@@ -611,6 +611,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "62": {
+        "id":62,
+        "name":"D4 FES.Remix -Destination-",
+        "characters":"Yuka,Saki,Towa,Saori",
+        "type":"Poker",
+        "style":"Cool",
+        "parameter":"Physical",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*
