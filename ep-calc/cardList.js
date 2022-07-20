@@ -5025,8 +5025,8 @@ var cards = {
             "icon": "card_icon_040530011_1.1cf7b98b",
             "passive": "Life Boost 2.5-6.25%"
         },
-        "358": {
-            "id": 358,
+        "359": {
+            "id": 359,
             "character": "Aoi",
             "cardname": "At Your Service",
             "unit": "Rondo",
@@ -5039,8 +5039,8 @@ var cards = {
             "icon": "card_icon_040540010_1.7759d527",
             "passive": "Auto Boost 2.5-6.5%"
         },
-        "359": {
-            "id": 359,
+        "360": {
+            "id": 360,
             "character": "Tsubaki",
             "cardname": "Because I Want To Make You Happy",
             "unit": "Rondo",
