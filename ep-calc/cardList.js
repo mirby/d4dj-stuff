@@ -4996,6 +4996,62 @@ var cards = {
             "skill": .4,
             "icon": "card_icon_040330005_1.eb42ce78",
             "passive": "Auto Boost 2.5-4%"
+        },
+        "357": {
+            "id": 357,
+            "character": "Nagisa",
+            "cardname": "Lit By Candlelight",
+            "unit": "Rondo",
+            "type": "Cool",
+            "rarity": 3,
+            "heart": 8757,
+            "technical": 10897,
+            "physical": 12503,
+            "skill": .25,
+            "icon": "card_icon_030520006_1.6767ed83",
+            "passive": "Groovy Bonus 5-10%"
+        },
+        "358": {
+            "id": 358,
+            "character": "Hiiro",
+            "cardname": "The Supreme Drink For You",
+            "unit": "Rondo",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 7006,
+            "technical": 12614,
+            "physical": 16821,
+            "skill": .5,
+            "icon": "card_icon_040530011_1.1cf7b98b",
+            "passive": "Life Boost 2.5-6.25%"
+        },
+        "358": {
+            "id": 358,
+            "character": "Aoi",
+            "cardname": "At Your Service",
+            "unit": "Rondo",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 12521,
+            "technical": 6966,
+            "physical": 16687,
+            "skill": .5,
+            "icon": "card_icon_040540010_1.7759d527",
+            "passive": "Auto Boost 2.5-6.5%"
+        },
+        "359": {
+            "id": 359,
+            "character": "Tsubaki",
+            "cardname": "Because I Want To Make You Happy",
+            "unit": "Rondo",
+            "type": "Cool",
+            "rarity": 3,
+            "heart": 10629,
+            "technical": 8781,
+            "physical": 12540,
+            "skill": .25,
+            "icon": "card_icon_030510006_1.2d77d3ef",
+            "passive": "Groovy Solo 10-20%"
         }
     }
 

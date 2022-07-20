@@ -621,6 +621,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "63": {
+        "id":63,
+        "name":"Tonight, A Special Time For You",
+        "characters":"Tsubaki,Nagisa,Hiiro,Aoi",
+        "type":"Bingo",
+        "style":"Cool",
+        "parameter":"Physical",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*
