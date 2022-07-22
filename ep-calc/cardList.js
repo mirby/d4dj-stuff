@@ -5052,6 +5052,20 @@ var cards = {
             "skill": .25,
             "icon": "card_icon_030510006_1.2d77d3ef",
             "passive": "Groovy Solo 10-20%"
+        },
+        "361": {
+            "id": 361,
+            "character": "Toka",
+            "cardname": "Birthday -Boudoir-",
+            "unit": "CallofArtemis",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 13570,
+            "technical": 14122,
+            "physical": 14503,
+            "skill": .55,
+            "icon": "card_icon_040740001_1.ae5a805d",
+            "passive": "Skill Duration 10-30%"
         }
     }
 
