@@ -631,6 +631,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "64": {
+        "id":64,
+        "name":"D4 FES.Remix -Floor Integrate-",
+        "characters":"Kyoko,Noa,Rika,Tsubaki",
+        "type":"Medley",
+        "style":"Elegant",
+        "parameter":"Physical",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*

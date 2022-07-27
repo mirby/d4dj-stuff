@@ -5066,6 +5066,62 @@ var cards = {
             "skill": .55,
             "icon": "card_icon_040740001_1.ae5a805d",
             "passive": "Skill Duration 10-30%"
+        },
+        "362": {
+            "id": 362,
+            "character": "Noa",
+            "cardname": "Cute Infration",
+            "unit": "Photon",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 6866,
+            "technical": 12288,
+            "physical": 16354,
+            "skill": .5,
+            "icon": "card_icon_040340011_1.77bc550d",
+            "passive": "Groovy Solo 20-50%"
+        },
+        "363": {
+            "id": 363,
+            "character": "Tsubaki",
+            "cardname": "Passionate Bystander",
+            "unit": "Rondo",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 12464,
+            "technical": 6941,
+            "physical": 16606,
+            "skill": .5,
+            "icon": "card_icon_040510012_1.ee4cf7f0",
+            "passive": "Groovy Bonus 10-25%"
+        },
+        "364": {
+            "id": 364,
+            "character": "Kyoko",
+            "cardname": "Stand On Own Beliefs",
+            "unit": "Peaky",
+            "type": "Elegant",
+            "rarity": 3,
+            "heart": 10807,
+            "technical": 8688,
+            "physical": 12397,
+            "skill": .25,
+            "icon": "card_icon_030210007_1.541df6e9",
+            "passive": "Life Boost 1-2.5%"
+        },
+        "365": {
+            "id": 365,
+            "character": "Rika",
+            "cardname": "Monopoly strεαm!иg",
+            "unit": "Mermaid",
+            "type": "Elegant",
+            "rarity": 3,
+            "heart": 8669,
+            "technical": 10783,
+            "physical": 12368,
+            "skill": .25,
+            "icon": "card_icon_030410005_1.034993af",
+            "passive": "Groovy Bonus 5-10%"
         }
     }
 
