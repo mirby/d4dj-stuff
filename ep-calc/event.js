@@ -91,6 +91,7 @@ function refreshEventSelect() {
     $.refreshEventSelector();
 }
 
+// Populate a character selector if the event type is medley
 function populateCharSelectMed() {
     var eventid = document.getElementById("eventid").innerHTML;
     var charArray = eventList[eventid].characters.split(",");
@@ -126,8 +127,6 @@ function populateCharSelectMed() {
     select.appendChild(option); 
 
     document.getElementById("eventmedleychar").appendChild(select);
-
-    $.refreshMedleySelect();
 }
 
 var eventList = {
