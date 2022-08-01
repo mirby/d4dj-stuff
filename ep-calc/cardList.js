@@ -5122,6 +5122,20 @@ var cards = {
             "skill": .25,
             "icon": "card_icon_030410005_1.034993af",
             "passive": "Groovy Bonus 5-10%"
+        },
+        "366": {
+            "id": 366,
+            "character": "Marika",
+            "cardname": "Birthday -Fountain-",
+            "unit": "Mermaid",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 12178,
+            "technical": 12046,
+            "physical": 12019,
+            "skill": .55,
+            "icon": "card_icon_040420010_1.4e230574",
+            "passive": "Auto Boost 2.5-8%"
         }
     }
 
