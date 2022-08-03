@@ -4840,7 +4840,7 @@ var cards = {
             "technical": 11376,
             "physical": 12886,
             "skill": .55,
-            "icon": "",
+            "icon": "card_icon_040110010_1.5d7f283f",
             "passive": "Life Boost 2.5-7.5%"
         },
         "346": {

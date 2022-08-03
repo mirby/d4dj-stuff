@@ -19,6 +19,22 @@
   </head>
   <body>
     <div id="overallSection" class="container">
+        <div id="saveSection">
+            <select class="selectpicker profileselect" name="profsel" id="profsel" data-width="fit">
+                <option value="1" data-content="Profile 1" selected>Profile 1</option>
+                <option value="2" data-content="Profile 2">Profile 2</option>
+                <option value="3" data-content="Profile 3">Profile 3</option>
+                <option value="4" data-content="Profile 4">Profile 4</option>
+                <option value="5" data-content="Profile 5">Profile 5</option>
+            </select>
+            <a id="saveData" class="btn btn-primary" role="button">Save Profile</a>
+            <a id="loadData" class="btn btn-primary" role="button">Load Profile</a>
+            <!-- <div>
+                <a id="printStuff" class="btn btn-primary" role="button">Print Profile</a>
+            </div> -->
+            <a id="removeData" class="btn btn-primary pull-right" role="button">Remove All Saved Data</a>
+        </div>
+
         <table class="table table-bordered caption-top">
             <caption>Power</caption>
             <thead>
@@ -1092,24 +1108,6 @@
                 </ul>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <hr>
-        <div id="saveSection">
-            <select class="selectpicker profileselect" name="profsel" id="profsel" data-width="fit">
-                <option value="1" data-content="Profile 1" selected>Profile 1</option>
-                <option value="2" data-content="Profile 2">Profile 2</option>
-                <option value="3" data-content="Profile 3">Profile 3</option>
-                <option value="4" data-content="Profile 4">Profile 4</option>
-                <option value="5" data-content="Profile 5">Profile 5</option>
-            </select>
-            <a id="saveData" class="btn btn-primary" role="button">Save Profile</a>
-            <a id="loadData" class="btn btn-primary" role="button">Load Profile</a>
-            <a id="removeData" class="btn btn-primary pull-right" role="button">Remove All Saved Data</a>
-        </div>
-        <!-- <div>
-            <a id="printStuff" class="btn btn-primary" role="button">Print Profile</a>
-        </div> -->
     </div>
 
     <script>
