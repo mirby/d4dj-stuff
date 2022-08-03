@@ -640,6 +640,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "65": {
+        "id":65,
+        "name":"Starry Flowers With Loved One",
+        "characters":"Rinku,Maho,Muni,Rei",
+        "type":"Poker",
+        "style":"Cool",
+        "parameter":"Physical",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*

@@ -5136,6 +5136,62 @@ var cards = {
             "skill": .55,
             "icon": "card_icon_040420010_1.4e230574",
             "passive": "Auto Boost 2.5-8%"
+        },
+        "367": {
+            "id": 367,
+            "character": "Muni",
+            "cardname": "Happiest◎Moment",
+            "unit": "HapiAra",
+            "type": "Cool",
+            "rarity": 3,
+            "heart": 8730,
+            "technical": 10863,
+            "physical": 12462,
+            "skill": .25,
+            "icon": "card_icon_030130007_1.58b14180",
+            "passive": "Auto Boost 1.5-2.5%"
+        },
+        "368": {
+            "id": 368,
+            "character": "Rinku",
+            "cardname": "Inspire◎Everyone",
+            "unit": "HapiAra",
+            "type": "Cool",
+            "rarity": 3,
+            "heart": 10828,
+            "technical": 8703,
+            "physical": 12421,
+            "skill": .25,
+            "icon": "card_icon_030110008_1.1379d8b1",
+            "passive": "Life Boost 1-2.5%"
+        },
+        "369": {
+            "id": 369,
+            "character": "Rei",
+            "cardname": "Smile◎Politely",
+            "unit": "HapiAra",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 12696,
+            "technical": 7041,
+            "physical": 16937,
+            "skill": .5,
+            "icon": "card_icon_040140011_1.eed95c7c",
+            "passive": "Life Boost 2.5-6.25%"
+        },
+        "370": {
+            "id": 370,
+            "character": "Maho",
+            "cardname": "Swaying◎Windmill",
+            "unit": "HapiAra",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 7034,
+            "technical": 12681,
+            "physical": 16916,
+            "skill": .5,
+            "icon": "card_icon_040120011_1.a5602c1a",
+            "passive": "Groovy Solo 20-50%"
         }
     }
 
