@@ -75,14 +75,23 @@ jQuery(function($) {
     });
 
     $('#saveData').on('click', function() {
+        if ($('#teamSelectSection').hasClass('show')) {
+            $('#teamSelectSection').toggleClass('show');
+        }
         saveData();
     });
 
     $('#removeData').on('click', function() {
+        if ($('#teamSelectSection').hasClass('show')) {
+            $('#teamSelectSection').toggleClass('show');
+        }
         removeData();
     });
 
     $('#loadData').on('click', function() {
+        if ($('#teamSelectSection').hasClass('show')) {
+            $('#teamSelectSection').toggleClass('show');
+        }
         loadData();
     });
 
@@ -179,8 +188,7 @@ function removeData() {
         refreshClubSelects();
         refreshEventSelect();
         refreshParamSelects();
-        refreshMainTeam();
-        refreshSupportTeam();
+        refreshTeam();
 
         calcModPower();
         calcClubPower();
@@ -230,8 +238,7 @@ function loadData() {
             console.log("Profile " + profile + " does not exist.");
             refreshClubSelects();
             refreshEventSelect();
-            refreshMainTeam();
-            refreshSupportTeam();
+            refreshTeam();
         }
     
         calcModPower();

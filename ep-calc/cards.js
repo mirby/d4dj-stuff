@@ -71,7 +71,7 @@ jQuery(function($) {
     });
 
     $('#addToTeam').on('click', function() {
-        var selection = $('#partypicker').val();
+        var selection = document.getElementById("idToReplace").innerHTML;
         var cardId = $('#cards').val();
         var added = populateTeam(selection, cardId);
 
@@ -82,30 +82,23 @@ jQuery(function($) {
             calcDisplayPower();
             calcDisplayParams();
     
-            let text = document.getElementById("fadediv");
-            text.classList.add("fade-in");
-            setTimeout(function () {
-              text.classList.remove("fade-in");
-            }, 2000);
+            // let text = document.getElementById("fadediv");
+            // text.classList.add("fade-in");
+            // setTimeout(function () {
+            //   text.classList.remove("fade-in");
+            // }, 2000);
+
+            $('#teamSelectSection').toggleClass('show');
         }
     });
 
-    $('#refreshmain').on('click', function() {
-        if (confirm("Are you sure you want to reset the main team?")) {
-            refreshMainTeam();
+    $('#refreshall').on('click', function() {
+        if (confirm("Are you sure you want to reset your team?")) {
+            if ($('#teamSelectSection').hasClass('show')) {
+                $('#teamSelectSection').toggleClass('show');
+            }
+            refreshTeam();
 
-            calcModPower();
-            calcClubPower();
-            calcEventPower();
-            calcDisplayPower();
-            calcDisplayParams();
-        }
-    });
-
-    $('#refreshsupp').on('click', function() {
-        if (confirm("Are you sure you want to reset the support team?")) {
-            refreshSupportTeam();
-        
             calcModPower();
             calcClubPower();
             calcEventPower();
@@ -117,6 +110,25 @@ jQuery(function($) {
     $('table').on('click', 'tr.parent .fa-chevron-down', function(){
         $(this).closest('tbody').toggleClass('open');
     });
+
+    $('.charbutton').on('click', function() {
+
+        // If the team details pane is open, close it
+        if ($('#mainTeamTable').hasClass('open')) {
+            $('#mainTeamTable').toggleClass('open');
+        }
+
+        if (! $('#teamSelectSection').hasClass('show')) {
+            $('#teamSelectSection').toggleClass('show');
+        }
+
+        var ids = $(this).attr('id').split('_');
+        setReplaceCard(ids[0]);
+    });
+
+    $('#cancelAdd').on('click', function() {
+        $('#teamSelectSection').toggleClass('show');
+    });
 });
 
 /*
@@ -124,6 +136,16 @@ jQuery(function($) {
 */
 function populateTeam(selection, cardId) {
     if (cardId) {
+        var img = document.createElement("img");
+        img.id = selection + "_charImage";
+        img.src = "https://miyu-data.qwewqa.xyz/ondemand/card_icon/" + cards[cardId].icon + ".jpg";
+        img.width = '100';
+        img.height = '100';
+        img.title = cards[cardId].character.toLowerCase();
+        if (document.getElementById(selection + "_charImageWrapper").hasChildNodes()) {
+            document.getElementById(selection + "_charImageWrapper").removeChild(document.getElementById(selection + "_charImageWrapper").firstChild);
+        }
+        document.getElementById(selection + "_charImageWrapper").appendChild(img);
         document.getElementById(selection + "_id").innerHTML = cardId;
         document.getElementById(selection + "_char").innerHTML = cards[cardId].character.toLowerCase();
         document.getElementById(selection + "_charfull").innerHTML = cards[cardId].character + ' - ' + cards[cardId].cardname;
@@ -137,12 +159,10 @@ function populateTeam(selection, cardId) {
         document.getElementById(selection + "_et").value = et;
         $.refreshSelect3(selection);
 
-        if (selection.startsWith("m")) {
-            document.getElementById(selection + "_unit").innerHTML = cards[cardId].unit;
-            document.getElementById(selection + "_type").innerHTML = cards[cardId].type;
-            var skill = Math.round(cards[cardId].skill * 100);
-            document.getElementById(selection + "_skill").innerHTML = skill.toString() + "%";
-        }
+        document.getElementById(selection + "_unit").innerHTML = cards[cardId].unit;
+        document.getElementById(selection + "_type").innerHTML = cards[cardId].type;
+        var skill = Math.round(cards[cardId].skill * 100);
+        document.getElementById(selection + "_skill").innerHTML = skill.toString() + "%";
 
         return true;
     } else {
@@ -169,6 +189,10 @@ function fillStat(cardId) {
             document.querySelector('input[name="skillField"]').value = "";
             document.querySelector('input[name="pskillField"]').value = "";
             document.querySelector('input[name="etField"]').value = "";
+            document.getElementById("addnew_heart").innerHTML = "";
+            document.getElementById("addnew_tech").innerHTML = "";
+            document.getElementById("addnew_phys").innerHTML = "";
+            document.getElementById("addnew_total").innerHTML = "";
         }
         return;
     }
@@ -178,9 +202,13 @@ function fillStat(cardId) {
     var obj = standardArray[cardIdString];
     document.querySelector('input[name="cardField"]').value = obj.cardname;
     document.querySelector('input[name="heartField"]').value = obj.heart;
+    document.getElementById("addnew_heart").innerHTML = obj.heart;
     document.querySelector('input[name="techField"]').value = obj.technical;
+    document.getElementById("addnew_tech").innerHTML = obj.technical;
     document.querySelector('input[name="physField"]').value = obj.physical;
+    document.getElementById("addnew_phys").innerHTML = obj.physical;
     document.querySelector('input[name="totalField"]').value = parseInt(obj.heart) + parseInt(obj.technical) + parseInt(obj.physical);
+    document.getElementById("addnew_total").innerHTML = parseInt(obj.heart) + parseInt(obj.technical) + parseInt(obj.physical);
     var skill = Math.round(cards[cardIdString].skill * 100);
     document.querySelector('input[name="skillField"]').value = skill.toString() + "%";
     document.querySelector('input[name="pskillField"]').value = obj.passive;
@@ -191,8 +219,9 @@ function fillStat(cardId) {
     var img = document.createElement("img");
     img.src = "https://miyu-data.qwewqa.xyz/ondemand/card_icon/" + obj.icon.toString() + ".jpg";
     img.classList.add("img-thumbnail");
-    img.width = '200';
-    img.height = '200';
+    img.style = 'margin-left:auto;margin-right:auto;display:block';
+    img.width = '100';
+    img.height = '100';
     img.title = obj.character;
     if (document.getElementById("imgwrapper").hasChildNodes()) {
         document.getElementById("imgwrapper").removeChild(document.getElementById("imgwrapper").firstChild);
@@ -425,7 +454,7 @@ function createCharacterFilters() {
         newDiv.appendChild(newInput);
         newDiv.appendChild(newLabel);
 
-        if (i % 3 == 0) {
+        if (i % 6 == 0) {
             var divBreak = document.createElement("div");
             divBreak.classList.add("w=100");
             document.getElementById("filter-character").appendChild(divBreak);
@@ -493,6 +522,54 @@ function createCharacterFilters() {
 
             charRow.insertCell().appendChild(paramSelect);
         }
+    }
+}
+
+/*
+    Set details and image for the selected card when adding new card to team
+*/
+function setReplaceCard(selection) {
+
+    document.getElementById("idToReplace").innerHTML = selection;
+
+    // Using the selection, set the previous card's info, if it exists
+    if (document.getElementById(selection + "_charfull").innerHTML != "") {
+        var heart = document.getElementById(selection + "_heartmod").innerHTML;
+        var tech = document.getElementById(selection + "_techmod").innerHTML;
+        var phys = document.getElementById(selection + "_physmod").innerHTML;
+        var power = parseInt(heart) + parseInt(tech) + parseInt(phys);
+
+        var source = document.getElementById(selection + "_charImage").src;
+        var img = document.createElement("img");
+        img.src = source;
+        img.classList.add("img-thumbnail");
+        img.style = 'margin-left:auto;margin-right:auto;display:block';
+        img.width = '100';
+        img.height = '100';
+        if (document.getElementById("imgwrapperprev").hasChildNodes()) {
+            document.getElementById("imgwrapperprev").removeChild(document.getElementById("imgwrapperprev").firstChild);
+        }
+        document.getElementById("imgwrapperprev").appendChild(img);
+
+        document.getElementById("addold_heart").innerHTML = heart;
+        document.getElementById("addold_tech").innerHTML = tech;
+        document.getElementById("addold_phys").innerHTML = phys;
+        document.getElementById("addold_total").innerHTML = power;
+    } else {
+        var img = document.createElement("img");
+        img.src = "../icons/icon_none.png";
+        img.width = '100';
+        img.height = '100';
+        img.style = 'margin-left:auto;margin-right:auto;display:block';
+        if (document.getElementById("imgwrapperprev").hasChildNodes()) {
+            document.getElementById("imgwrapperprev").removeChild(document.getElementById("imgwrapperprev").firstChild);
+        }
+        document.getElementById("imgwrapperprev").appendChild(img);
+        
+        document.getElementById("addold_heart").innerHTML = 0;
+        document.getElementById("addold_tech").innerHTML = 0;
+        document.getElementById("addold_phys").innerHTML = 0;
+        document.getElementById("addold_total").innerHTML = 0;
     }
 }
 
@@ -857,58 +934,48 @@ function calcDisplayParams() {
     $.refreshParamSelect2();
 }
 
-function refreshMainTeam() {
-    for (var i=1; i<=4; i++) {
-        var selection = "m" + i;
-        document.getElementById(selection + "_charfull").innerHTML = "";
-        document.getElementById(selection + "_id").innerHTML = "";
-        document.getElementById(selection + "_char").innerHTML = "";
-        document.getElementById(selection + "_unit").innerHTML = "";
-        document.getElementById(selection + "_type").innerHTML = "";
-        document.getElementById(selection + "_skill").innerHTML = "";
-        document.getElementById(selection + "_pskill").innerHTML = "";
-        document.getElementById(selection + "_et").value = 0;
-        document.getElementById(selection + "_heartbase").innerHTML = "";
-        document.getElementById(selection + "_heartmod").innerHTML = "";
-        document.getElementById(selection + "_heartclub").innerHTML = "";
-        document.getElementById(selection + "_heart").innerHTML = "";
-        document.getElementById(selection + "_techbase").innerHTML = "";
-        document.getElementById(selection + "_techmod").innerHTML = "";
-        document.getElementById(selection + "_techclub").innerHTML = "";
-        document.getElementById(selection + "_tech").innerHTML = "";
-        document.getElementById(selection + "_physbase").innerHTML = "";
-        document.getElementById(selection + "_physmod").innerHTML = "";
-        document.getElementById(selection + "_physclub").innerHTML = "";
-        document.getElementById(selection + "_phys").innerHTML = "";
-        document.getElementById(selection + "_cardpower").innerHTML = "";
-        document.getElementById(selection + "_clubbonus").innerHTML = "";
-        document.getElementById(selection + "_eventbonus").innerHTML = "";
-        document.getElementById(selection + "_eventbonus2").innerHTML = "";
-        $.refreshSelect3(selection);
+function refreshTeam() {
+    var types = ["m","s"];
+    for (let x of types) {
+        for (var i=1; i<=4; i++) {
+            var selection = x + i;
+            if (document.getElementById(selection + "_charImageWrapper").hasChildNodes()) {
+                document.getElementById(selection + "_charImageWrapper").removeChild(document.getElementById(selection + "_charImageWrapper").firstChild);
+            }
+            var img = document.createElement("img");
+            img.src = "../icons/icon_none.png";
+            img.width = '100';
+            img.height = '100';
+            img.title = 'Add card to team';
+            document.getElementById(selection + "_charImageWrapper").appendChild(img);
+            document.getElementById(selection + "_charfull").innerHTML = "";
+            document.getElementById(selection + "_id").innerHTML = "";
+            document.getElementById(selection + "_char").innerHTML = "";
+            document.getElementById(selection + "_unit").innerHTML = "";
+            document.getElementById(selection + "_type").innerHTML = "";
+            document.getElementById(selection + "_skill").innerHTML = "";
+            document.getElementById(selection + "_pskill").innerHTML = "";
+            document.getElementById(selection + "_et").value = 0;
+            document.getElementById(selection + "_heartbase").innerHTML = "";
+            document.getElementById(selection + "_heartmod").innerHTML = "";
+            document.getElementById(selection + "_heartclub").innerHTML = "";
+            document.getElementById(selection + "_heart").innerHTML = "";
+            document.getElementById(selection + "_techbase").innerHTML = "";
+            document.getElementById(selection + "_techmod").innerHTML = "";
+            document.getElementById(selection + "_techclub").innerHTML = "";
+            document.getElementById(selection + "_tech").innerHTML = "";
+            document.getElementById(selection + "_physbase").innerHTML = "";
+            document.getElementById(selection + "_physmod").innerHTML = "";
+            document.getElementById(selection + "_physclub").innerHTML = "";
+            document.getElementById(selection + "_phys").innerHTML = "";
+            document.getElementById(selection + "_cardpower").innerHTML = "";
+            document.getElementById(selection + "_clubbonus").innerHTML = "";
+            document.getElementById(selection + "_eventbonus").innerHTML = "";
+            document.getElementById(selection + "_eventbonus2").innerHTML = "";
+            document.getElementById(selection + "_supportpower").innerHTML = "";
+            $.refreshSelect3(selection);
+        }
     }
-}
-
-function refreshSupportTeam() {
-    for (var i=1; i<=4; i++) {
-        var selection = "s" + i;
-        document.getElementById(selection + "_charfull").innerHTML = "";
-        document.getElementById(selection + "_id").innerHTML = "";
-        document.getElementById(selection + "_char").innerHTML = "";
-        document.getElementById(selection + "_pskill").innerHTML = "";
-        document.getElementById(selection + "_et").value = 0;
-        document.getElementById(selection + "_heartbase").innerHTML = "";
-        document.getElementById(selection + "_heartmod").innerHTML = "";
-        document.getElementById(selection + "_heart").innerHTML = "";
-        document.getElementById(selection + "_techbase").innerHTML = "";
-        document.getElementById(selection + "_techmod").innerHTML = "";
-        document.getElementById(selection + "_tech").innerHTML = "";
-        document.getElementById(selection + "_physbase").innerHTML = "";
-        document.getElementById(selection + "_physmod").innerHTML = "";
-        document.getElementById(selection + "_phys").innerHTML = "";
-        document.getElementById(selection + "_cardpower").innerHTML = "";
-        document.getElementById(selection + "_supportpower").innerHTML = "";
-        $.refreshSelect3(selection);
-    }    
 }
 
 function refreshParamSelects() {

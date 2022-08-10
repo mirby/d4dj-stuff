@@ -34,458 +34,34 @@
             </div> -->
             <a id="removeData" class="btn btn-primary pull-right" role="button">Remove All Saved Data</a>
         </div>
-
-        <table class="table table-bordered caption-top">
-            <caption>Power</caption>
-            <thead>
-                <tr>
-                    <th id="main_color" scope="col">Main</th>
-                    <th id="club_color" scope="col">Club</th>
-                    <th id="support_color" scope="col">Support</th>
-                    <th id="event_color" scope="col">Event</th>
-                    <th style="display:none" id="medley_color" scope="col">Medley</th>
-                    <th id="totalwo_color" scope="col">Total (without event)</th>
-                    <th id="total_color" scope="col">Total (with event)  <span class="explanation"><i class="fa fa-info-circle"></i>
-                        <span class="explanation_text">Only for Bingo (Battle Live) and Medley (Task Medley) events</span></span>
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td id="power_main"></td>
-                    <td id="power_club"></td>
-                    <td id="power_support"></td>
-                    <td id="power_event"></td>
-                    <td style="display:none" id="power_medley"></td>
-                    <td id="power_totalwo"></td>
-                    <td id="power_total"></td>
-                </tr>
-            </tbody>
-        </table>
-        <table class="table table-bordered caption-top">
-            <caption>Parameters</caption>
-            <thead>
-                <tr>
-                    <th class="heart_color" scope="col">Total Heart</th>
-                    <th class="heart_color" scope="col">Heart EP</th>
-                    <th class="tech_color" scope="col">Total Tech</th>
-                    <th class="tech_color" scope="col">Tech EP</th>
-                    <th class="phys_color" scope="col">Total Phys</th>
-                    <th class="phys_color" scope="col">Phys EP</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td id="paramtotal_heart"></td>
-                    <td id="paramtotal_heartep"></td>
-                    <td id="paramtotal_technical"></td>
-                    <td id="paramtotal_technicalep"></td>
-                    <td id="paramtotal_physical"></td>
-                    <td id="paramtotal_physicalep"></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div id="tab-headers" class="container">
-        <ul class="nav nav-tabs" id="myTab" role="tablist">
-            <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="cardSection-tab" data-bs-toggle="tab" data-bs-target="#cardSection" type="button" role="tab" aria-controls="cardSection" aria-selected="true">Add Cards To Team</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="clubSection-tab" data-bs-toggle="tab" data-bs-target="#clubSection" type="button" role="tab" aria-controls="clubSection" aria-selected="false">Club / Event</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="paramSection-tab" data-bs-toggle="tab" data-bs-target="#paramSection" type="button" role="tab" aria-controls="paramSection" aria-selected="false">Param Upgrade</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="scoreSection-tab" data-bs-toggle="tab" data-bs-target="#scoreSection" type="button" role="tab" aria-controls="scoreSection" aria-selected="false">Scoring</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="questionSection-tab" data-bs-toggle="tab" data-bs-target="#questionSection" type="button" role="tab" aria-controls="questionSection" aria-selected="false">Help Docs</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="extraSection-tab" data-bs-toggle="tab" data-bs-target="#extraSection" type="button" role="tab" aria-controls="extraSection" aria-selected="false">Credits & Extra</button>
-            </li>
-        </ul>
-    </div>
-    <div class="tab-content container" id="tabContent">
-        <div class="tab-pane tabpane1 fade show active" id="cardSection" role="tabpabel" aria-labelledby="cardSection-tab">
-            <div class="sectionHeader">
-                <a id="showFilter" class="btn btn-primary" data-bs-toggle="collapse" href="#filters" role="button" aria-expanded="false" aria-controls="filters">Show Filters</a>
-                <a id="clearFilters" class="btn btn-primary" role="button">Clear Filters</a>
-            </div>
-            <div class="collapse filters" id="filters">
-                <hr>
-                <div id="filter-character">
-                    <label class="filter_text"><u>Filter by unit:</u></label><br>
-                </div>
-                <div id="filter-type">
-                    <label class="filter_text"><u>Filter by type:</u></label><br>
-                    <div class="d4dj_filter">
-                        <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_cute" name="filter_cute" class="filter_clear filter_type" value="Cute"><label class="filter_label" for="filter_cute"><img src="../icons/type_cute.png" width='30' height='30'></img> Cute</label>
-                    </div>
-                    <div class="d4dj_filter">
-                        <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_party" name="filter_party" class="filter_clear filter_type" value="Party"><label class="filter_label" for="filter_party"><img src="../icons/type_party.png" width='30' height='30'></img> Party</label>
-                    </div>
-                    <div class="d4dj_filter">
-                        <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_cool" name="filter_cool" class="filter_clear filter_type" value="Cool"><label class="filter_label" for="filter_cool"><img src="../icons/type_cool.png" width='30' height='30'></img> Cool</label>
-                    </div>
-                    <div class="d4dj_filter">
-                        <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_elegant" name="filter_elegant" class="filter_clear filter_type" value="Elegant"><label class="filter_label" for="filter_elegant"><img src="../icons/type_elegant.png" width='30' height='30'></img> Elegant</label>
-                    </div>
-                    <div class="d4dj_filter">
-                        <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_street" name="filter_street" class="filter_clear filter_type" value="Street"><label class="filter_label" for="filter_street"><img src="../icons/type_street.png" width='30' height='30'></img> Street</label>
-                    </div>
-                </div>
-                <div id="filter-rarity">
-                    <label class="filter_text"><u>Filter by rarity:</u></label><br>
-                    <div class="d4dj_filter">
-                        <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_3" name="filter_3" class="filter_clear filter_rarity" value="3">
-                        <label class="filter_label" for="filter_3"><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img></label>
-                    </div>
-                    <div class="d4dj_filter">
-                        <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_4" name="filter_4" class="filter_clear filter_rarity" value="4">
-                        <label class="filter_label" for="filter_4"><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img></label>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <div id="cardDropdown_wrapper">
-                <div id="cardDropdown"></div>
-            </div>
-            <div class="sortsection">
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" onclick="generateFilters(cardArray)" type="radio" name="sortOptions" id="sortOptions1" value="None" checked>
-                    <label class="form-check-label"for="sortOptions1">No Sort</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" onclick="generateFilters(cardArray)" type="radio" name="sortOptions" id="sortOptions2" value="totalpower">
-                    <label class="form-check-label"for="sortOptions2">Total Power</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" onclick="generateFilters(cardArray)" type="radio" name="sortOptions" id="sortOptions3" value="heart">
-                    <label class="form-check-label" for="sortOptions3">Heart</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" onclick="generateFilters(cardArray)" type="radio" name="sortOptions" id="sortOptions4" value="technical">
-                    <label class="form-check-label" for="sortOptions4">Technical</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" onclick="generateFilters(cardArray)" type="radio" name="sortOptions" id="sortOptions5" value="physical">
-                    <label class="form-check-label" for="sortOptions5">Physical</label>
-                </div>
-            </div>
-            <hr>
-            <div class="formsection">
-                <form>
-                    <div style="float:right;" id="imgwrapper">
-                    </div>
-                    <div class="row content">
-                        <div class="col-5 col-md-3">
-                            <label class="fieldHeader">Character: </label>
-                            <div id="charImageWrapper"></div>
-                        </div>
-                        <div class="col-5 col-md-3">
-                            <label class="fieldHeader">Type: </label>
-                            <div id="typeImageWrapper"></div>
-                        </div>
-                        <div class="col-5 col-md-3">
-                            <label class="fieldHeader">Unit: </label>
-                            <div id="unitImageWrapper"></div>
-                        </div>
-                        <div class="col-5 col-md-3">
-                            <label class="fieldHeader">Skill: </label>
-                            <input type="text" class="form-control statfield reducedstat" name="skillField" disabled>
-                        </div>
-                        <div class="w-100"></div>
-                        <div class="col-5 col-md-6">
-                            <label class="fieldHeader">Card Name: </label>
-                            <input type="text" class="form-control statfield" name="cardField" disabled>
-                        </div>
-                        <div class="col-5 col-md-3">
-                            <label class="fieldHeader">Passive Skill: </label>
-                            <input type="text" class="form-control statfield" name="pskillField" disabled>
-                        </div>
-                        <div class="col-5 col-md-3">
-                            <label class="fieldHeader">Extra Training: </label>
-                            <input type="text" class="form-control statfield reducedstat" name="etField" disabled>
-                        </div>
-                        <div class="w-100"></div>
-                        <div class="col-5 col-md-3">
-                            <label class="fieldHeader"><img class="paramimage" src="../icons/param_heart.png" width='30' height='30'></img>Heart:</label>
-                            <input type="text" class="form-control statfield reducedstat" name="heartField" disabled>
-                        </div>
-                        <div class="col-5 col-md-3">
-                            <label class="fieldHeader"><img class="paramimage" src="../icons/param_technical.png" width='30' height='30'></img>Technical:</label>
-                            <input type="text" class="form-control statfield reducedstat" name="techField" disabled>
-                        </div>
-                        <div class="col-5 col-md-3">
-                            <label class="fieldHeader"><img class="paramimage" src="../icons/param_physical.png" width='30' height='30'></img>Physical:</label>
-                            <input type="text" class="form-control statfield reducedstat" name="physField" disabled>
-                        </div>
-                        <div class="col-5 col-md-3">
-                            <label class="fieldHeader">Total Power: </label>
-                            <input type="text" class="form-control statfield reducedstat" name="totalField" disabled>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <div class="addToTeamSection">
-                <label>Choose party slot:</label>
-                <select class="selectpicker" id="partypicker">
-                    <option value="m1" data-content="Main Party 1st Slot">Main Party 1st Slot</option>
-                    <option value="m2" data-content="Main Party 2nd Slot">Main Party 2nd Slot</option>
-                    <option value="m3" data-content="Main Party 3rd Slot">Main Party 3rd Slot</option>
-                    <option value="m4" data-content="Main Party 4th Slot">Main Party 4th Slot</option>
-                    <option value="s1" data-content="Support Party 1st Slot">Support Party 1st Slot</option>
-                    <option value="s2" data-content="Support Party 2nd Slot">Support Party 2nd Slot</option>
-                    <option value="s3" data-content="Support Party 3rd Slot">Support Party 3rd Slot</option>
-                    <option value="s4" data-content="Support Party 4th Slot">Support Party 4th Slot</option>
-                </select>
-                <a id="addToTeam" class="btn btn-primary" role="button">Add To Team</a>
-                <div id="fadediv">Added to team!</div>
-            </div>
-            <hr>
-            <div class="mainteam">
-                <h4>Main Team:</h4>
-                <div>
-                    <table class="table table-bordered">
-                        <thead>
-                            <tr>
-                                <th scope="col"><a id="refreshmain" class="resetbtn btn btn-primary" role="button">Clear All</a></th>
-                                <th scope="col">Party Slot 1</th>
-                                <th scope="col">Party Slot 2</th>
-                                <th scope="col">Party Slot 3</th>
-                                <th scope="col">Party Slot 4</th>
-                            </tr>
-                        </thead>
-                        <tbody id="mainTeamTable">
-                            <tr class="parent">
-                                <th scope="row"><i class="fa fa-chevron-down"></i>  Team details</th>
-                                <td id="m1_charfull"></td>
-                                <td id="m2_charfull"></td>
-                                <td id="m3_charfull"></td>
-                                <td id="m4_charfull"></td>
-                            </tr>
-                            <tr style="display:none;">
-                                <th scope="row">ID</th>
-                                <td id="m1_id"></td>
-                                <td id="m2_id"></td>
-                                <td id="m3_id"></td>
-                                <td id="m4_id"></td>
-                            </tr>
-                            <tr style="display:none;">
-                                <th scope="row">Character</th>
-                                <td id="m1_char"></td>
-                                <td id="m2_char"></td>
-                                <td id="m3_char"></td>
-                                <td id="m4_char"></td>
-                            </tr>
-                            <tr class="rowHide">
-                                <th scope="row">Unit</th>
-                                <td id="m1_unit"></td>
-                                <td id="m2_unit"></td>
-                                <td id="m3_unit"></td>
-                                <td id="m4_unit"></td>
-                            </tr>
-                            <tr class="rowHide">
-                                <th scope="row">Type</th>
-                                <td id="m1_type"></td>
-                                <td id="m2_type"></td>
-                                <td id="m3_type"></td>
-                                <td id="m4_type"></td>
-                            </tr>
-                            <tr class="rowHide">
-                                <th scope="row">Skill</th>
-                                <td id="m1_skill"></td>
-                                <td id="m2_skill"></td>
-                                <td id="m3_skill"></td>
-                                <td id="m4_skill"></td>
-                            </tr>
-                            <tr class="rowHide">
-                                <th scope="row">Passive Skill</th>
-                                <td id="m1_pskill"></td>
-                                <td id="m2_pskill"></td>
-                                <td id="m3_pskill"></td>
-                                <td id="m4_pskill"></td>
-                            </tr>
-                            <tr class="rowHide">
-                                <th scope="row">Extra Training</th>
-                                <td>
-                                    <select class="selectpicker etselect" name="m1_et" id="m1_et" data-width="fit">
-                                        <option value="0" data-content="+0">+0</option>
-                                        <option value="1" data-content="+1">+1</option>
-                                        <option value="2" data-content="+2">+2</option>
-                                        <option value="3" data-content="+3">+3</option>
-                                        <option value="4" data-content="+4">+4</option>
-                                    </select>
-                                </td>
-                                <td>
-                                    <select class="selectpicker etselect" name="m2_et" id="m2_et" data-width="fit">
-                                        <option value="0" data-content="+0">+0</option>
-                                        <option value="1" data-content="+1">+1</option>
-                                        <option value="2" data-content="+2">+2</option>
-                                        <option value="3" data-content="+3">+3</option>
-                                        <option value="4" data-content="+4">+4</option>
-                                    </select>
-                                </td>
-                                <td>
-                                    <select class="selectpicker etselect" name="m3_et" id="m3_et" data-width="fit">
-                                        <option value="0" data-content="+0">+0</option>
-                                        <option value="1" data-content="+1">+1</option>
-                                        <option value="2" data-content="+2">+2</option>
-                                        <option value="3" data-content="+3">+3</option>
-                                        <option value="4" data-content="+4">+4</option>
-                                    </select>
-                                </td>
-                                <td>
-                                    <select class="selectpicker etselect" name="m4_et" id="m4_et" data-width="fit">
-                                        <option value="0" data-content="+0">+0</option>
-                                        <option value="1" data-content="+1">+1</option>
-                                        <option value="2" data-content="+2">+2</option>
-                                        <option value="3" data-content="+3">+3</option>
-                                        <option value="4" data-content="+4">+4</option>
-                                    </select>
-                                </td>
-                            </tr>
-                            <tr style="display:none;">
-                                <th scope="row">Heart</th>
-                                <td id="m1_heartbase"></td>
-                                <td id="m2_heartbase"></td>
-                                <td id="m3_heartbase"></td>
-                                <td id="m4_heartbase"></td>
-                            </tr>
-                            <tr style="display:none;">
-                                <th scope="row">Heart</th>
-                                <td id="m1_heartmod"></td>
-                                <td id="m2_heartmod"></td>
-                                <td id="m3_heartmod"></td>
-                                <td id="m4_heartmod"></td>
-                            </tr>
-                            <tr style="display:none;">
-                                <th scope="row">Heart</th>
-                                <td id="m1_heartclub"></td>
-                                <td id="m2_heartclub"></td>
-                                <td id="m3_heartclub"></td>
-                                <td id="m4_heartclub"></td>
-                            </tr>
-                            <tr class="rowHide">
-                                <th class="heart_color" scope="row">Heart</th>
-                                <td id="m1_heart"></td>
-                                <td id="m2_heart"></td>
-                                <td id="m3_heart"></td>
-                                <td id="m4_heart"></td>
-                            </tr>
-                            <tr style="display:none;">
-                                <th scope="row">Technical</th>
-                                <td id="m1_techbase"></td>
-                                <td id="m2_techbase"></td>
-                                <td id="m3_techbase"></td>
-                                <td id="m4_techbase"></td>
-                            </tr>
-                            <tr style="display:none;" >
-                                <th scope="row">Technical</th>
-                                <td id="m1_techmod"></td>
-                                <td id="m2_techmod"></td>
-                                <td id="m3_techmod"></td>
-                                <td id="m4_techmod"></td>
-                            </tr>
-                            <tr style="display:none;" >
-                                <th scope="row">Technical</th>
-                                <td id="m1_techclub"></td>
-                                <td id="m2_techclub"></td>
-                                <td id="m3_techclub"></td>
-                                <td id="m4_techclub"></td>
-                            </tr>
-                            <tr class="rowHide">
-                                <th class="tech_color" scope="row">Technical</th>
-                                <td id="m1_tech"></td>
-                                <td id="m2_tech"></td>
-                                <td id="m3_tech"></td>
-                                <td id="m4_tech"></td>
-                            </tr>
-                            <tr style="display:none;">
-                                <th scope="row">Physical</th>
-                                <td id="m1_physbase"></td>
-                                <td id="m2_physbase"></td>
-                                <td id="m3_physbase"></td>
-                                <td id="m4_physbase"></td>
-                            </tr>
-                            <tr style="display:none;">
-                                <th scope="row">Physical</th>
-                                <td id="m1_physmod"></td>
-                                <td id="m2_physmod"></td>
-                                <td id="m3_physmod"></td>
-                                <td id="m4_physmod"></td>
-                            </tr>
-                            <tr style="display:none;">
-                                <th scope="row">Physical</th>
-                                <td id="m1_physclub"></td>
-                                <td id="m2_physclub"></td>
-                                <td id="m3_physclub"></td>
-                                <td id="m4_physclub"></td>
-                            </tr>
-                            <tr class="rowHide">
-                                <th class="phys_color" scope="row">Physical</th>
-                                <td id="m1_phys"></td>
-                                <td id="m2_phys"></td>
-                                <td id="m3_phys"></td>
-                                <td id="m4_phys"></td>
-                            </tr>
-                            <tr class="rowHide">
-                                <th scope="row">Card Power</th>
-                                <td id="m1_cardpower"></td>
-                                <td id="m2_cardpower"></td>
-                                <td id="m3_cardpower"></td>
-                                <td id="m4_cardpower"></td>
-                            </tr>
-                            <tr class="rowHide">
-                                <th scope="row">Club Bonus</th>
-                                <td id="m1_clubbonus"></td>
-                                <td id="m2_clubbonus"></td>
-                                <td id="m3_clubbonus"></td>
-                                <td id="m4_clubbonus"></td>
-                            </tr>
-                            <tr style="display:none;">
-                                <th scope="row">Event %</th>
-                                <td id="m1_eventperc"></td>
-                                <td id="m2_eventperc"></td>
-                                <td id="m3_eventperc"></td>
-                                <td id="m4_eventperc"></td>
-                            </tr>
-                            <tr class="rowHide">
-                                <th scope="row">Event Bonus</th>
-                                <td id="m1_eventbonus"></td>
-                                <td id="m2_eventbonus"></td>
-                                <td id="m3_eventbonus"></td>
-                                <td id="m4_eventbonus"></td>
-                            </tr>
-                            <tr style="display:none;">
-                                <th scope="row">Event Bonus 2 (Raid)</th>
-                                <td id="m1_eventbonus2"></td>
-                                <td id="m2_eventbonus2"></td>
-                                <td id="m3_eventbonus2"></td>
-                                <td id="m4_eventbonus2"></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <div class="supportteam">
-                <h4>Support Team:</h4>
-                <table class="table table-bordered">
+        <div id="teamSection">
+            <div id="mainteam">
+                <table class="table table-bordered align-middle" style="margin-bottom:5px">
                     <thead>
                         <tr>
-                            <th scope="col"><a id="refreshsupp" class="resetbtn btn btn-primary" role="button">Clear All</a></th>
-                            <th scope="col">Support Slot 1</th>
-                            <th scope="col">Support Slot 2</th>
-                            <th scope="col">Support Slot 3</th>
-                            <th scope="col">Support Slot 4</th>
+                            <th scope="col"><a id="refreshall" class="resetbtn btn btn-primary" role="button">Clear</a></th>
+                            <th colspan="4" class="text-center" style="font-size:25px">Main Team</th>
+                            <th colspan="4" class="text-center" style="font-size:25px">Support Team</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody id="mainTeamTable">
+                        <tr>
+                            <th></th>
+                            <td scope="col"><a id="m1_charImageWrapper" class="charbutton" role="button"></a></td>
+                            <td scope="col"><a id="m2_charImageWrapper" class="charbutton" role="button"></a></td>
+                            <td scope="col"><a id="m3_charImageWrapper" class="charbutton" role="button"></a></td>
+                            <td scope="col"><a id="m4_charImageWrapper" class="charbutton" role="button"></a></td>
+                            <td scope="col"><a id="s1_charImageWrapper" class="charbutton" role="button"></a></td>
+                            <td scope="col"><a id="s2_charImageWrapper" class="charbutton" role="button"></a></td>
+                            <td scope="col"><a id="s3_charImageWrapper" class="charbutton" role="button"></a></td>
+                            <td scope="col"><a id="s4_charImageWrapper" class="charbutton" role="button"></a></td>
+                        </tr>
                         <tr class="parent">
-                            <th scope="row"><i class="fa fa-chevron-down"></i>  Team details</th>
+                            <th scope="row"><i class="fa fa-chevron-down"></i>  Expand</th>
+                            <td id="m1_charfull"></td>
+                            <td id="m2_charfull"></td>
+                            <td id="m3_charfull"></td>
+                            <td id="m4_charfull"></td>
                             <td id="s1_charfull"></td>
                             <td id="s2_charfull"></td>
                             <td id="s3_charfull"></td>
@@ -493,6 +69,10 @@
                         </tr>
                         <tr style="display:none;">
                             <th scope="row">ID</th>
+                            <td id="m1_id"></td>
+                            <td id="m2_id"></td>
+                            <td id="m3_id"></td>
+                            <td id="m4_id"></td>
                             <td id="s1_id"></td>
                             <td id="s2_id"></td>
                             <td id="s3_id"></td>
@@ -500,13 +80,54 @@
                         </tr>
                         <tr style="display:none;">
                             <th scope="row">Character</th>
+                            <td id="m1_char"></td>
+                            <td id="m2_char"></td>
+                            <td id="m3_char"></td>
+                            <td id="m4_char"></td>
                             <td id="s1_char"></td>
                             <td id="s2_char"></td>
                             <td id="s3_char"></td>
                             <td id="s4_char"></td>
                         </tr>
                         <tr class="rowHide">
+                            <th scope="row">Unit</th>
+                            <td id="m1_unit"></td>
+                            <td id="m2_unit"></td>
+                            <td id="m3_unit"></td>
+                            <td id="m4_unit"></td>
+                            <td id="s1_unit"></td>
+                            <td id="s2_unit"></td>
+                            <td id="s3_unit"></td>
+                            <td id="s4_unit"></td>
+                        </tr>
+                        <tr class="rowHide">
+                            <th scope="row">Type</th>
+                            <td id="m1_type"></td>
+                            <td id="m2_type"></td>
+                            <td id="m3_type"></td>
+                            <td id="m4_type"></td>
+                            <td id="s1_type"></td>
+                            <td id="s2_type"></td>
+                            <td id="s3_type"></td>
+                            <td id="s4_type"></td>
+                        </tr>
+                        <tr class="rowHide">
+                            <th scope="row">Skill</th>
+                            <td id="m1_skill"></td>
+                            <td id="m2_skill"></td>
+                            <td id="m3_skill"></td>
+                            <td id="m4_skill"></td>
+                            <td id="s1_skill"></td>
+                            <td id="s2_skill"></td>
+                            <td id="s3_skill"></td>
+                            <td id="s4_skill"></td>
+                        </tr>
+                        <tr class="rowHide">
                             <th scope="row">Passive Skill</th>
+                            <td id="m1_pskill"></td>
+                            <td id="m2_pskill"></td>
+                            <td id="m3_pskill"></td>
+                            <td id="m4_pskill"></td>
                             <td id="s1_pskill"></td>
                             <td id="s2_pskill"></td>
                             <td id="s3_pskill"></td>
@@ -514,6 +135,42 @@
                         </tr>
                         <tr class="rowHide">
                             <th scope="row">Extra Training</th>
+                            <td>
+                                <select class="selectpicker etselect" name="m1_et" id="m1_et" data-width="fit">
+                                    <option value="0" data-content="+0">+0</option>
+                                    <option value="1" data-content="+1">+1</option>
+                                    <option value="2" data-content="+2">+2</option>
+                                    <option value="3" data-content="+3">+3</option>
+                                    <option value="4" data-content="+4">+4</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select class="selectpicker etselect" name="m2_et" id="m2_et" data-width="fit">
+                                    <option value="0" data-content="+0">+0</option>
+                                    <option value="1" data-content="+1">+1</option>
+                                    <option value="2" data-content="+2">+2</option>
+                                    <option value="3" data-content="+3">+3</option>
+                                    <option value="4" data-content="+4">+4</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select class="selectpicker etselect" name="m3_et" id="m3_et" data-width="fit">
+                                    <option value="0" data-content="+0">+0</option>
+                                    <option value="1" data-content="+1">+1</option>
+                                    <option value="2" data-content="+2">+2</option>
+                                    <option value="3" data-content="+3">+3</option>
+                                    <option value="4" data-content="+4">+4</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select class="selectpicker etselect" name="m4_et" id="m4_et" data-width="fit">
+                                    <option value="0" data-content="+0">+0</option>
+                                    <option value="1" data-content="+1">+1</option>
+                                    <option value="2" data-content="+2">+2</option>
+                                    <option value="3" data-content="+3">+3</option>
+                                    <option value="4" data-content="+4">+4</option>
+                                </select>
+                            </td>
                             <td>
                                 <select class="selectpicker etselect" name="s1_et" id="s1_et" data-width="fit">
                                     <option value="0" data-content="+0">+0</option>
@@ -553,6 +210,10 @@
                         </tr>
                         <tr style="display:none;">
                             <th scope="row">Heart</th>
+                            <td id="m1_heartbase"></td>
+                            <td id="m2_heartbase"></td>
+                            <td id="m3_heartbase"></td>
+                            <td id="m4_heartbase"></td>
                             <td id="s1_heartbase"></td>
                             <td id="s2_heartbase"></td>
                             <td id="s3_heartbase"></td>
@@ -560,13 +221,32 @@
                         </tr>
                         <tr style="display:none;">
                             <th scope="row">Heart</th>
+                            <td id="m1_heartmod"></td>
+                            <td id="m2_heartmod"></td>
+                            <td id="m3_heartmod"></td>
+                            <td id="m4_heartmod"></td>
                             <td id="s1_heartmod"></td>
                             <td id="s2_heartmod"></td>
                             <td id="s3_heartmod"></td>
                             <td id="s4_heartmod"></td>
                         </tr>
+                        <tr style="display:none;">
+                            <th scope="row">Heart</th>
+                            <td id="m1_heartclub"></td>
+                            <td id="m2_heartclub"></td>
+                            <td id="m3_heartclub"></td>
+                            <td id="m4_heartclub"></td>
+                            <td id="s1_heartclub"></td>
+                            <td id="s2_heartclub"></td>
+                            <td id="s3_heartclub"></td>
+                            <td id="s4_heartclub"></td>
+                        </tr>
                         <tr class="rowHide">
                             <th class="heart_color" scope="row">Heart</th>
+                            <td id="m1_heart"></td>
+                            <td id="m2_heart"></td>
+                            <td id="m3_heart"></td>
+                            <td id="m4_heart"></td>
                             <td id="s1_heart"></td>
                             <td id="s2_heart"></td>
                             <td id="s3_heart"></td>
@@ -574,6 +254,10 @@
                         </tr>
                         <tr style="display:none;">
                             <th scope="row">Technical</th>
+                            <td id="m1_techbase"></td>
+                            <td id="m2_techbase"></td>
+                            <td id="m3_techbase"></td>
+                            <td id="m4_techbase"></td>
                             <td id="s1_techbase"></td>
                             <td id="s2_techbase"></td>
                             <td id="s3_techbase"></td>
@@ -581,13 +265,32 @@
                         </tr>
                         <tr style="display:none;" >
                             <th scope="row">Technical</th>
+                            <td id="m1_techmod"></td>
+                            <td id="m2_techmod"></td>
+                            <td id="m3_techmod"></td>
+                            <td id="m4_techmod"></td>
                             <td id="s1_techmod"></td>
                             <td id="s2_techmod"></td>
                             <td id="s3_techmod"></td>
                             <td id="s4_techmod"></td>
                         </tr>
+                        <tr style="display:none;" >
+                            <th scope="row">Technical</th>
+                            <td id="m1_techclub"></td>
+                            <td id="m2_techclub"></td>
+                            <td id="m3_techclub"></td>
+                            <td id="m4_techclub"></td>
+                            <td id="s1_techclub"></td>
+                            <td id="s2_techclub"></td>
+                            <td id="s3_techclub"></td>
+                            <td id="s4_techclub"></td>
+                        </tr>
                         <tr class="rowHide">
                             <th class="tech_color" scope="row">Technical</th>
+                            <td id="m1_tech"></td>
+                            <td id="m2_tech"></td>
+                            <td id="m3_tech"></td>
+                            <td id="m4_tech"></td>
                             <td id="s1_tech"></td>
                             <td id="s2_tech"></td>
                             <td id="s3_tech"></td>
@@ -595,6 +298,10 @@
                         </tr>
                         <tr style="display:none;">
                             <th scope="row">Physical</th>
+                            <td id="m1_physbase"></td>
+                            <td id="m2_physbase"></td>
+                            <td id="m3_physbase"></td>
+                            <td id="m4_physbase"></td>
                             <td id="s1_physbase"></td>
                             <td id="s2_physbase"></td>
                             <td id="s3_physbase"></td>
@@ -602,13 +309,32 @@
                         </tr>
                         <tr style="display:none;">
                             <th scope="row">Physical</th>
+                            <td id="m1_physmod"></td>
+                            <td id="m2_physmod"></td>
+                            <td id="m3_physmod"></td>
+                            <td id="m4_physmod"></td>
                             <td id="s1_physmod"></td>
                             <td id="s2_physmod"></td>
                             <td id="s3_physmod"></td>
                             <td id="s4_physmod"></td>
                         </tr>
+                        <tr style="display:none;">
+                            <th scope="row">Physical</th>
+                            <td id="m1_physclub"></td>
+                            <td id="m2_physclub"></td>
+                            <td id="m3_physclub"></td>
+                            <td id="m4_physclub"></td>
+                            <td id="s1_physclub"></td>
+                            <td id="s2_physclub"></td>
+                            <td id="s3_physclub"></td>
+                            <td id="s4_physclub"></td>
+                        </tr>
                         <tr class="rowHide">
                             <th class="phys_color" scope="row">Physical</th>
+                            <td id="m1_phys"></td>
+                            <td id="m2_phys"></td>
+                            <td id="m3_phys"></td>
+                            <td id="m4_phys"></td>
                             <td id="s1_phys"></td>
                             <td id="s2_phys"></td>
                             <td id="s3_phys"></td>
@@ -616,13 +342,65 @@
                         </tr>
                         <tr class="rowHide">
                             <th scope="row">Card Power</th>
+                            <td id="m1_cardpower"></td>
+                            <td id="m2_cardpower"></td>
+                            <td id="m3_cardpower"></td>
+                            <td id="m4_cardpower"></td>
                             <td id="s1_cardpower"></td>
                             <td id="s2_cardpower"></td>
                             <td id="s3_cardpower"></td>
                             <td id="s4_cardpower"></td>
                         </tr>
                         <tr class="rowHide">
+                            <th scope="row">Club Bonus</th>
+                            <td id="m1_clubbonus"></td>
+                            <td id="m2_clubbonus"></td>
+                            <td id="m3_clubbonus"></td>
+                            <td id="m4_clubbonus"></td>
+                            <td id="s1_clubbonus"></td>
+                            <td id="s2_clubbonus"></td>
+                            <td id="s3_clubbonus"></td>
+                            <td id="s4_clubbonus"></td>
+                        </tr>
+                        <tr style="display:none;">
+                            <th scope="row">Event %</th>
+                            <td id="m1_eventperc"></td>
+                            <td id="m2_eventperc"></td>
+                            <td id="m3_eventperc"></td>
+                            <td id="m4_eventperc"></td>
+                            <td id="s1_eventperc"></td>
+                            <td id="s2_eventperc"></td>
+                            <td id="s3_eventperc"></td>
+                            <td id="s4_eventperc"></td>
+                        </tr>
+                        <tr class="rowHide">
+                            <th scope="row">Event Bonus</th>
+                            <td id="m1_eventbonus"></td>
+                            <td id="m2_eventbonus"></td>
+                            <td id="m3_eventbonus"></td>
+                            <td id="m4_eventbonus"></td>
+                            <td id="s1_eventbonus"></td>
+                            <td id="s2_eventbonus"></td>
+                            <td id="s3_eventbonus"></td>
+                            <td id="s4_eventbonus"></td>
+                        </tr>
+                        <tr style="display:none;">
+                            <th scope="row">Event Bonus 2 (Raid)</th>
+                            <td id="m1_eventbonus2"></td>
+                            <td id="m2_eventbonus2"></td>
+                            <td id="m3_eventbonus2"></td>
+                            <td id="m4_eventbonus2"></td>
+                            <td id="s1_eventbonus2"></td>
+                            <td id="s2_eventbonus2"></td>
+                            <td id="s3_eventbonus2"></td>
+                            <td id="s4_eventbonus2"></td>
+                        </tr>
+                        <tr class="rowHide">
                             <th scope="row">Support Power</th>
+                            <td id="m1_supportpower"></td>
+                            <td id="m2_supportpower"></td>
+                            <td id="m3_supportpower"></td>
+                            <td id="m4_supportpower"></td>
                             <td id="s1_supportpower"></td>
                             <td id="s2_supportpower"></td>
                             <td id="s3_supportpower"></td>
@@ -630,155 +408,267 @@
                         </tr>
                     </tbody>
                 </table>
-            </div>
-        </div>
-        <div class="tab-pane tabpane1 fade" id="clubSection" role="tabpabel" aria-labelledby="clubSection-tab">
-            <div class="sectionHeader">
-                <h4>Club Items</h4>
-                <label><b>Important Note:</b> Some club item types may not yet exist, or you may not yet own them. Check your club to be sure.</label>
-            </div>
-            <div>
-                <form>
-                    <div class="row">
-                        <div class="selectDiv col-5 col-sm-3">
-                            <label>Display:</label>
-                            <div id="club-display-div"></div>
-                        </div>
-                        <div class="selectDiv col-5 col-sm-3">
-                            <label>DJ Booth:</label>
-                            <div id="club-djbooth-div"></div>
-                        </div>
-                        <div class="selectDiv col-5 col-sm-3">
-                            <label>Disc L:</label>
-                            <div id="club-discl-div"></div>
-                        </div>
-                        <div class="selectDiv col-5 col-sm-3">
-                            <label>Disc R:</label>
-                            <div id="club-discr-div"></div>
-                        </div>
-                        <div class="w-100"></div>
-                        <div class="selectDiv col-5 col-sm-3">
-                            <label>Front:</label>
-                            <div id="club-front-div"></div>
-                        </div>
-                        <div class="selectDiv col-5 col-sm-3">
-                            <label">Side:</label>
-                            <div id="club-side-div"></div>
-                        </div>
-                        <div class="selectDiv col-5 col-sm-3">
-                            <label">Back:</label>
-                            <div id="club-back-div"></div>
-                        </div>
-                        <div class="selectDiv col-5 col-sm-3">
-                            <label>Frame:</label>
-                            <div id="club-frame-div"></div>
-                        </div>
-                        <div class="w-100"></div>
-                        <div class="selectDiv col-5 col-sm-3">
-                            <label>Light:</label>
-                            <div id="club-light-div"></div>
-                        </div>
-                        <div class="selectDiv col-5 col-sm-3">
-                            <label>Accessory:</label>
-                            <div id="club-accessory-div"></div>
-                        </div>
-                        <div class="selectDiv col-5 col-sm-3">
-                            <label>Decoration:</label>
-                            <div id="club-decoration-div"></div>
-                        </div>
-                        <div class="selectDiv col-5 col-sm-3">
-                            <label>(Warning - You might not own all items)</label>
-                            <div id="club-auto-div">
-                                <a id="autoClub" class="btn btn-primary" role="button">Auto Club Items</a>
+                <div id="teamSelectSection" class="collapse" style="border-style:groove;padding:5px;background-color: #efe4f5;">
+                    <div id="cardSection">
+                        <div>
+                            <span style="display:none" id="idToReplace"></span>
+                            <div class="row">
+                                <div class="col" style="margin-top:auto;margin-bottom:auto;" id="imgwrapperprev"></div>
+                                <div class="col col-sm-1" style="font-size:50px;font-weight:bold;margin-top:auto;margin-bottom:auto;text-align:center">></div>
+                                <div class="col" style="margin-top:auto;margin-bottom:auto;" id="imgwrapper"></div>
+                                <div class="vr" style="padding:0"></div>
+                                <div class="col col-md-4">
+                                    <table class="table align-middle">
+                                        <tbody>
+                                            <tr>
+                                                <td><img class="paramimage" src="../icons/param_heart.png" width='30' height='30'></img> Heart</td>
+                                                <td class="text-center" id="addold_heart"></td>
+                                                <td class="text-center">></td>
+                                                <td class="text-center" id="addnew_heart"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><img class="paramimage" src="../icons/param_technical.png" width='30' height='30'></img> Technical</td>
+                                                <td class="text-center" id="addold_tech"></td>
+                                                <td class="text-center">></td>
+                                                <td class="text-center" id="addnew_tech"></td>
+                                            </tr>
+                                            <tr class="text-left">
+                                                <td><img class="paramimage" src="../icons/param_physical.png" width='30' height='30'></img> Physical</td>
+                                                <td class="text-center"  id="addold_phys"></td>
+                                                <td class="text-center">></td>
+                                                <td class="text-center" id="addnew_phys"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="col col-md-4" style="margin-top:auto;margin-bottom:auto">
+                                    <table class="table align-middle">
+                                        <thead>
+                                            <tr>
+                                                <td colspan="3" class="text-center" style="font-weight:bold;font-size:25px;">Total Card Power</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="text-center" style="font-size:21px" id="addold_total"></td>
+                                                <td class="text-center" style="font-size:21px">></td>
+                                                <td class="text-center" style="font-size:21px" id="addnew_total"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
-                            
-                    </div>
-                </form>
-            </div>
-            <hr>
-            <div id="eventsection">
-                <div>
-                    <h4>Event</h4>
-                </div>
-                <div id="eventselector_wrapper"></div>
-                <div id="eventdisplay">
-                    <div style="margin-top:2rem;margin-bottom:2rem;">
-                        <div style="max-width:612px;margin-left:auto;margin-right:auto;">
-                            <div id="eventimg_wrapper"></div>
+                        <hr style="margin-top:5px;">
+                        <div>
+                            <a id="showFilter" class="btn btn-primary" data-bs-toggle="collapse" href="#filters" role="button" aria-expanded="false" aria-controls="filters">Show Filters</a>
+                            <a id="clearFilters" class="btn btn-primary" role="button">Clear Filters</a>
+                            <a id="cancelAdd" class="btn btn-primary pull-right" role="button">Cancel</a>
+                            <a id="addToTeam" class="btn btn-primary pull-right" style="margin-right:5px;" role="button">Add To Team</a>
                         </div>
-                    </div>
-                    <div style="max-width:600px;margin-left:auto;margin-right:auto;">
-                        <table style="width:100%;">
-                            <tbody style="line-height:2;">
-                                <tr style="display:none" id="eventid">
-                                </tr>
-                                <tr>
-                                    <td style="padding-top:5px;padding-bottom:5px;">Name:</td>
-                                    <td style="padding-top:5px;padding-bottom:5px;text-align:right;" colspan="2">
-                                        <b><div id="eventname"></div></b>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="padding-top:5px;padding-bottom:5px;">Members:</td>
-                                    <td style="padding-top:5px;padding-bottom:5px;text-align:right;" colspan="2">
-                                        <div id="eventmembers"></div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="padding-top:5px;padding-bottom:5px;">Type:</td>
-                                    <td style="padding-top:5px;padding-bottom:5px;text-align:right;" colspan="2">
-                                        <div id="eventtype"></div>
-                                    </td>
-                                </tr>
-                                <tr style="display:none" id="eventstyleval">
-                                </tr>
-                                <tr>
-                                    <td style="padding-top:5px;padding-bottom:5px;">Style:</td>
-                                    <td style="padding-top:5px;padding-bottom:5px;text-align:right;" colspan="2">
-                                        <div id="eventstyle"></div>
-                                    </td>
-                                </tr>
-                                <tr style="display:none" id="eventparamval"></tr>
-                                <tr>
-                                    <td style="padding-top:5px;padding-bottom:5px;">Target Param:</td>
-                                    <td style="padding-top:5px;padding-bottom:5px;text-align:right;" colspan="2">
-                                        <div id="eventparam"></div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="padding-top:5px;padding-bottom:5px;">Extra Matching Bonus?</td>
-                                    <td style="padding-top:5px;padding-bottom:5px;text-align:right;" colspan="2">
-                                        <div id="eventbonus"></div>
-                                    </td>
-                                </tr>
-                                <tr style="display:none" id="medleycharselect">
-                                    <td style="padding-top:5px;padding-bottom:5px;">Task Medley Bonus Char</td>
-                                    <td style="padding-top:5px;padding-bottom:5px;text-align:right;" colspan="2">
-                                        <span id="eventmedleychar"></span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="padding-top:5px;padding-bottom:5px;">More Details</td>
-                                    <td style="padding-top:5px;padding-bottom:5px;text-align:right;" colspan="2">
-                                        <div id="eventdetails"></div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div class="collapse filters" id="filters">
+                            <hr>
+                            <div id="filter-character">
+                                <label class="filter_text"><u>Filter by unit:</u></label><br>
+                            </div>
+                            <div id="filter-type">
+                                <label class="filter_text"><u>Filter by type:</u></label><br>
+                                <div class="d4dj_filter">
+                                    <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_cute" name="filter_cute" class="filter_clear filter_type" value="Cute"><label class="filter_label" for="filter_cute"><img src="../icons/type_cute.png" width='30' height='30'></img> Cute</label>
+                                </div>
+                                <div class="d4dj_filter">
+                                    <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_party" name="filter_party" class="filter_clear filter_type" value="Party"><label class="filter_label" for="filter_party"><img src="../icons/type_party.png" width='30' height='30'></img> Party</label>
+                                </div>
+                                <div class="d4dj_filter">
+                                    <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_cool" name="filter_cool" class="filter_clear filter_type" value="Cool"><label class="filter_label" for="filter_cool"><img src="../icons/type_cool.png" width='30' height='30'></img> Cool</label>
+                                </div>
+                                <div class="d4dj_filter">
+                                    <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_elegant" name="filter_elegant" class="filter_clear filter_type" value="Elegant"><label class="filter_label" for="filter_elegant"><img src="../icons/type_elegant.png" width='30' height='30'></img> Elegant</label>
+                                </div>
+                                <div class="d4dj_filter">
+                                    <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_street" name="filter_street" class="filter_clear filter_type" value="Street"><label class="filter_label" for="filter_street"><img src="../icons/type_street.png" width='30' height='30'></img> Street</label>
+                                </div>
+                            </div>
+                            <div id="filter-rarity">
+                                <label class="filter_text"><u>Filter by rarity:</u></label><br>
+                                <div class="d4dj_filter">
+                                    <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_3" name="filter_3" class="filter_clear filter_rarity" value="3">
+                                    <label class="filter_label" for="filter_3"><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img></label>
+                                </div>
+                                <div class="d4dj_filter">
+                                    <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_4" name="filter_4" class="filter_clear filter_rarity" value="4">
+                                    <label class="filter_label" for="filter_4"><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img></label>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div id="cardDropdown_wrapper">
+                            <div id="cardDropdown"></div>
+                        </div>
+                        <div class="sortsection">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" onclick="generateFilters(cardArray)" type="radio" name="sortOptions" id="sortOptions1" value="None" checked>
+                                <label class="form-check-label"for="sortOptions1">No Sort</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" onclick="generateFilters(cardArray)" type="radio" name="sortOptions" id="sortOptions2" value="totalpower">
+                                <label class="form-check-label"for="sortOptions2">Total Power</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" onclick="generateFilters(cardArray)" type="radio" name="sortOptions" id="sortOptions3" value="heart">
+                                <label class="form-check-label" for="sortOptions3">Heart</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" onclick="generateFilters(cardArray)" type="radio" name="sortOptions" id="sortOptions4" value="technical">
+                                <label class="form-check-label" for="sortOptions4">Technical</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" onclick="generateFilters(cardArray)" type="radio" name="sortOptions" id="sortOptions5" value="physical">
+                                <label class="form-check-label" for="sortOptions5">Physical</label>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="formsection">
+                            <form>
+                                <div class="row content">
+                                    <div class="col-5 col-md-2">
+                                        <label class="fieldHeader">Character: </label>
+                                        <div id="charImageWrapper"></div>
+                                    </div>
+                                    <div class="col-5 col-md-2">
+                                        <label class="fieldHeader">Type: </label>
+                                        <div id="typeImageWrapper"></div>
+                                    </div>
+                                    <div class="col-5 col-md-2">
+                                        <label class="fieldHeader">Unit: </label>
+                                        <div id="unitImageWrapper"></div>
+                                    </div>
+                                    <div class="col-5 col-md-3">
+                                        <label class="fieldHeader">Skill: </label>
+                                        <input type="text" class="form-control statfield reducedstat" name="skillField" disabled>
+                                    </div>
+                                    <div class="col-5 col-md-3">
+                                        <label class="fieldHeader">Extra Training: </label>
+                                        <input type="text" class="form-control statfield reducedstat" name="etField" disabled>
+                                    </div>
+                                    <div class="w-100"></div>
+                                    <div class="col-5 col-md-6">
+                                        <label class="fieldHeader">Card Name: </label>
+                                        <input type="text" class="form-control statfield" name="cardField" disabled>
+                                    </div>
+                                    <div class="col-5 col-md-3">
+                                        <label class="fieldHeader">Passive Skill: </label>
+                                        <input type="text" class="form-control statfield" name="pskillField" disabled>
+                                    </div>
+                                    <div class="w-100"></div>
+                                    <div class="col-5 col-md-3">
+                                        <label class="fieldHeader"><img class="paramimage" src="../icons/param_heart.png" width='30' height='30'></img>Heart:</label>
+                                        <input type="text" class="form-control statfield reducedstat" name="heartField" disabled>
+                                    </div>
+                                    <div class="col-5 col-md-3">
+                                        <label class="fieldHeader"><img class="paramimage" src="../icons/param_technical.png" width='30' height='30'></img>Technical:</label>
+                                        <input type="text" class="form-control statfield reducedstat" name="techField" disabled>
+                                    </div>
+                                    <div class="col-5 col-md-3">
+                                        <label class="fieldHeader"><img class="paramimage" src="../icons/param_physical.png" width='30' height='30'></img>Physical:</label>
+                                        <input type="text" class="form-control statfield reducedstat" name="physField" disabled>
+                                    </div>
+                                    <div class="col-5 col-md-3">
+                                        <label class="fieldHeader">Total Power: </label>
+                                        <input type="text" class="form-control statfield reducedstat" name="totalField" disabled>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- <div class="addToTeamSection">
+                            <label>Choose party slot:</label>
+                            <select class="selectpicker" id="partypicker">
+                                <option value="m1" data-content="Main Party 1st Slot">Main Party 1st Slot</option>
+                                <option value="m2" data-content="Main Party 2nd Slot">Main Party 2nd Slot</option>
+                                <option value="m3" data-content="Main Party 3rd Slot">Main Party 3rd Slot</option>
+                                <option value="m4" data-content="Main Party 4th Slot">Main Party 4th Slot</option>
+                                <option value="s1" data-content="Support Party 1st Slot">Support Party 1st Slot</option>
+                                <option value="s2" data-content="Support Party 2nd Slot">Support Party 2nd Slot</option>
+                                <option value="s3" data-content="Support Party 3rd Slot">Support Party 3rd Slot</option>
+                                <option value="s4" data-content="Support Party 4th Slot">Support Party 4th Slot</option>
+                            </select>
+                            <a id="addToTeam" class="btn btn-primary" role="button">Add To Team</a>
+                        </div> -->
                     </div>
                 </div>
+                <table class="table table-bordered table-sm" style="margin-bottom:5px">
+                    <thead>
+                        <tr>
+                            <th id="main_color" scope="col">Main</th>
+                            <th id="club_color" scope="col">Club</th>
+                            <th id="support_color" scope="col">Support</th>
+                            <th id="event_color" scope="col">Event</th>
+                            <th style="display:none" id="medley_color" scope="col">Medley</th>
+                            <th id="totalwo_color" scope="col">Total Power (without event)</th>
+                            <th id="total_color" scope="col">Total Power (with event)  <span class="explanation"><i class="fa fa-info-circle"></i>
+                                <span class="explanation_text">Only for Bingo (Battle Live) and Medley (Task Medley) events</span></span>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="power_main"></td>
+                            <td id="power_club"></td>
+                            <td id="power_support"></td>
+                            <td id="power_event"></td>
+                            <td style="display:none" id="power_medley"></td>
+                            <td id="power_totalwo"></td>
+                            <td id="power_total"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="table table-bordered table-sm" style="margin-bottom:5px">
+                    <thead>
+                        <tr>
+                            <th class="heart_color" scope="col">Total Heart</th>
+                            <th class="heart_color" scope="col">Heart EP</th>
+                            <th class="tech_color" scope="col">Total Tech</th>
+                            <th class="tech_color" scope="col">Tech EP</th>
+                            <th class="phys_color" scope="col">Total Phys</th>
+                            <th class="phys_color" scope="col">Phys EP</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="paramtotal_heart"></td>
+                            <td id="paramtotal_heartep"></td>
+                            <td id="paramtotal_technical"></td>
+                            <td id="paramtotal_technicalep"></td>
+                            <td id="paramtotal_physical"></td>
+                            <td id="paramtotal_physicalep"></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
-        <div class="tab-pane tabpane1 fade" id="paramSection" role="tabpabel" aria-labelledby="paramSection-tab">
-            <div class="sectionHeader">
-                <h4>Parameter Upgrades</h4>
-            </div>
-            <div id="paramChar">
-                <table id="paramtable" class="table table-bordered"></table>
-            </div>
-        </div>
-        <div class="tab-pane tabpane1 fade" id="scoreSection" role="tabpabel" aria-labelledby="scoreSection-tab">
+    </div>
+    <div id="tab-headers" class="container">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="scoreSection-tab" data-bs-toggle="tab" data-bs-target="#scoreSection" type="button" role="tab" aria-controls="scoreSection" aria-selected="false">Scoring</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="clubSection-tab" data-bs-toggle="tab" data-bs-target="#clubSection" type="button" role="tab" aria-controls="clubSection" aria-selected="false">Club / Event</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="paramSection-tab" data-bs-toggle="tab" data-bs-target="#paramSection" type="button" role="tab" aria-controls="paramSection" aria-selected="false">Param Upgrade</button>
+            </li>
+
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="questionSection-tab" data-bs-toggle="tab" data-bs-target="#questionSection" type="button" role="tab" aria-controls="questionSection" aria-selected="false">Help Docs</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="extraSection-tab" data-bs-toggle="tab" data-bs-target="#extraSection" type="button" role="tab" aria-controls="extraSection" aria-selected="false">Credits & Extra</button>
+            </li>
+        </ul>
+    </div>
+    <div class="tab-content container" id="tabContent">
+        <div class="tab-pane tabpane1 fade show active" id="scoreSection" role="tabpabel" aria-labelledby="scoreSection-tab">
             <div id="tab-headers2" class="sectionHeader">
                 <ul class="nav nav-pills" id="myTab2" role="tablist">
                     <li class="nav-item" role="presentation">
@@ -977,6 +867,154 @@
                     </div>
                 </div>
             </div>
+            <hr>
+        </div>
+        <div class="tab-pane tabpane1 fade" id="clubSection" role="tabpabel" aria-labelledby="clubSection-tab">
+            <div class="sectionHeader">
+                <h4>Club Items</h4>
+                <label><b>Important Note:</b> Some club item types may not yet exist, or you may not yet own them. Check your club to be sure.</label>
+            </div>
+            <div>
+                <form>
+                    <div class="row">
+                        <div class="selectDiv col-5 col-sm-3">
+                            <label>Display:</label>
+                            <div id="club-display-div"></div>
+                        </div>
+                        <div class="selectDiv col-5 col-sm-3">
+                            <label>DJ Booth:</label>
+                            <div id="club-djbooth-div"></div>
+                        </div>
+                        <div class="selectDiv col-5 col-sm-3">
+                            <label>Disc L:</label>
+                            <div id="club-discl-div"></div>
+                        </div>
+                        <div class="selectDiv col-5 col-sm-3">
+                            <label>Disc R:</label>
+                            <div id="club-discr-div"></div>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="selectDiv col-5 col-sm-3">
+                            <label>Front:</label>
+                            <div id="club-front-div"></div>
+                        </div>
+                        <div class="selectDiv col-5 col-sm-3">
+                            <label">Side:</label>
+                            <div id="club-side-div"></div>
+                        </div>
+                        <div class="selectDiv col-5 col-sm-3">
+                            <label">Back:</label>
+                            <div id="club-back-div"></div>
+                        </div>
+                        <div class="selectDiv col-5 col-sm-3">
+                            <label>Frame:</label>
+                            <div id="club-frame-div"></div>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="selectDiv col-5 col-sm-3">
+                            <label>Light:</label>
+                            <div id="club-light-div"></div>
+                        </div>
+                        <div class="selectDiv col-5 col-sm-3">
+                            <label>Accessory:</label>
+                            <div id="club-accessory-div"></div>
+                        </div>
+                        <div class="selectDiv col-5 col-sm-3">
+                            <label>Decoration:</label>
+                            <div id="club-decoration-div"></div>
+                        </div>
+                        <div class="selectDiv col-5 col-sm-3">
+                            <label>(Warning - You might not own all items)</label>
+                            <div id="club-auto-div">
+                                <a id="autoClub" class="btn btn-primary" role="button">Auto Club Items</a>
+                            </div>
+                        </div>
+                            
+                    </div>
+                </form>
+            </div>
+            <hr>
+            <div id="eventsection">
+                <div>
+                    <h4>Event</h4>
+                </div>
+                <div id="eventselector_wrapper"></div>
+                <div id="eventdisplay">
+                    <div style="margin-top:2rem;margin-bottom:2rem;">
+                        <div style="max-width:612px;margin-left:auto;margin-right:auto;">
+                            <div id="eventimg_wrapper"></div>
+                        </div>
+                    </div>
+                    <div style="max-width:600px;margin-left:auto;margin-right:auto;">
+                        <table style="width:100%;">
+                            <tbody style="line-height:2;">
+                                <tr style="display:none" id="eventid">
+                                </tr>
+                                <tr>
+                                    <td style="padding-top:5px;padding-bottom:5px;">Name:</td>
+                                    <td style="padding-top:5px;padding-bottom:5px;text-align:right;" colspan="2">
+                                        <b><div id="eventname"></div></b>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-top:5px;padding-bottom:5px;">Members:</td>
+                                    <td style="padding-top:5px;padding-bottom:5px;text-align:right;" colspan="2">
+                                        <div id="eventmembers"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-top:5px;padding-bottom:5px;">Type:</td>
+                                    <td style="padding-top:5px;padding-bottom:5px;text-align:right;" colspan="2">
+                                        <div id="eventtype"></div>
+                                    </td>
+                                </tr>
+                                <tr style="display:none" id="eventstyleval">
+                                </tr>
+                                <tr>
+                                    <td style="padding-top:5px;padding-bottom:5px;">Style:</td>
+                                    <td style="padding-top:5px;padding-bottom:5px;text-align:right;" colspan="2">
+                                        <div id="eventstyle"></div>
+                                    </td>
+                                </tr>
+                                <tr style="display:none" id="eventparamval"></tr>
+                                <tr>
+                                    <td style="padding-top:5px;padding-bottom:5px;">Target Param:</td>
+                                    <td style="padding-top:5px;padding-bottom:5px;text-align:right;" colspan="2">
+                                        <div id="eventparam"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-top:5px;padding-bottom:5px;">Extra Matching Bonus?</td>
+                                    <td style="padding-top:5px;padding-bottom:5px;text-align:right;" colspan="2">
+                                        <div id="eventbonus"></div>
+                                    </td>
+                                </tr>
+                                <tr style="display:none" id="medleycharselect">
+                                    <td style="padding-top:5px;padding-bottom:5px;">Task Medley Bonus Char</td>
+                                    <td style="padding-top:5px;padding-bottom:5px;text-align:right;" colspan="2">
+                                        <span id="eventmedleychar"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-top:5px;padding-bottom:5px;">More Details</td>
+                                    <td style="padding-top:5px;padding-bottom:5px;text-align:right;" colspan="2">
+                                        <div id="eventdetails"></div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="tab-pane tabpane1 fade" id="paramSection" role="tabpabel" aria-labelledby="paramSection-tab">
+            <div class="sectionHeader">
+                <h4>Parameter Upgrades</h4>
+            </div>
+            <div id="paramChar">
+                <table id="paramtable" class="table table-bordered"></table>
+            </div>
         </div>
         <div class="tab-pane tabpane1 fade" id="questionSection" role="tabpabel" aria-labelledby="questionSection-tab">
             <div class="sectionHeader">
@@ -990,12 +1028,14 @@
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                From the <b>Add Cards to Team</b> tab, you can build your team by adding cards from a list of all cards available in the game (English version). After choosing a card from the list,
-                                the card's statistics will display in the menu below the drop down. From here, you can pick the party slot (main or support) and then click the Add To Team button to add that card to you team.
-                                By expanding the Show Filters section, you can filter the card list by Unit or Style, and you can also sort by Total Power or by a target Parameter.
+                                You can build your team by adding cards from a list of all cards available in the game (English version). First, click one of the slots in either the Main Team or the Support Team. This will open 
+                                a new section where you can select a card from a list. After choosing a card from the list, the card's statistics will display in the menu below the drop down. Once you decide on a card, you can 
+                                click the "Add To Team" button to add that card to your team with the slot chosen. By expanding the Show Filters section, you can filter the card list by Unit or Style, and you can also sort by 
+                                Total Power or by a target Parameter.
                                 <br><br>
-                                After adding to your team, you can view the extended stats by expanding the Main Team and Support Team sections at the bottom. From here, you can also add to the extra training levels for each 
-                                card. Adding any cards to your team, or increasing the extra training levels, will reflect immediately on the team power stats on the top of the page.
+                                After adding to your team, you can view the extended stats by clicking the arrow (^) icon in the team section. From the expanded team view, you can also add to the extra training levels for each 
+                                card. Adding any cards to your team, or increasing the extra training levels, will reflect immediately on the team power stats. Note that any extra training levels set will not be permanent until you
+                                click save.
                             </div>
                         </div>
                     </div>
@@ -1051,7 +1091,7 @@
                         </h2>
                         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                On the bottom of the screen, you will be able to save and load from 5 different profiles. This allows you to keep using the same team if you close the browser. When you click 
+                                On the top of the screen, you will be able to save and load from 5 different profiles. This allows you to keep using the same team if you close the browser. When you click 
                                 save, your currently built team, club, and event are all saved to that profile only. Any extra trainings you've done to cards and any param upgrades are saved to all profiles. 
                                 All extra trainings and param upgrades done, once saved, will be reflected in the card list if you choose any of the sorts. If you want to add extra training levels to more 
                                 cards, you can add the card to your team, change the extra training value, and then save. If you ever want to start completely over, you can click the Remove All Saved Data button,
@@ -1073,10 +1113,9 @@
                         <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <ul>
-                                    <li>better UI (mobile too)</li>
+                                    <li>mobile formatting</li>
                                     <li>jp card support, if desired</li>
-                                    <li>some way to compare cards when adding them</li>
-                                    <li>hide event/medley power bonus based on event</li>
+                                    <li>hide event power bonus based on event</li>
                                     <li>more song options for scoring</li>
                                     <li>export/import data as a json file (because if you clear browser cache it deletes the localstorage)</li>
                                 </ul>
@@ -1085,6 +1124,7 @@
                     </div>
                 </div>
             </div>
+            <hr>
         </div>
         <div class="tab-pane tabpane1 fade" id="extraSection" role="tabpabel" aria-labelledby="extraSection-tab">
             <div class="sectionHeader">
@@ -1107,6 +1147,7 @@
                     <li>D4DJ Fandom Wiki: <a href="https://d4dj.fandom.com/wiki/Dig_Delight_Direct_Drive_DJ_Wiki" target="_blank">https://d4dj.fandom.com/wiki/Dig_Delight_Direct_Drive_DJ_Wiki</a></li>
                 </ul>
             </div>
+            <hr>
         </div>
     </div>
 
