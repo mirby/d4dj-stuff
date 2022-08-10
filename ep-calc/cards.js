@@ -166,6 +166,14 @@ function populateTeam(selection, cardId) {
 
         return true;
     } else {
+        var img = document.createElement("img");
+        img.src = "../icons/icon_none.png";
+        img.width = '100';
+        img.height = '100';
+        if (document.getElementById(selection + "_charImageWrapper").hasChildNodes()) {
+            document.getElementById(selection + "_charImageWrapper").removeChild(document.getElementById(selection + "_charImageWrapper").firstChild);
+        }
+        document.getElementById(selection + "_charImageWrapper").appendChild(img);
         return false;
     }
 }

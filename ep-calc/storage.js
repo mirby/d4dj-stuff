@@ -63,6 +63,8 @@ jQuery(function($) {
                     }
                 });
             }
+        } else {
+            refreshTeam();
         }
 
         $('.selectpicker').selectpicker('refresh');
