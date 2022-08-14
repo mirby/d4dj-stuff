@@ -5192,6 +5192,62 @@ var cards = {
             "skill": .5,
             "icon": "card_icon_040120011_1.a5602c1a",
             "passive": "Groovy Solo 20-50%"
+        },
+        "371": {
+            "id": 371,
+            "character": "Esora",
+            "cardname": "Sunset Beauty",
+            "unit": "Peaky",
+            "type": "Street",
+            "rarity": 3,
+            "heart": 9810,
+            "technical": 12763,
+            "physical": 9422,
+            "skill": .25,
+            "icon": "card_icon_030240006_1.5c868e57",
+            "passive": "Groovy Solo 10-20%"
+        },
+        "372": {
+            "id": 372,
+            "character": "Shinobu",
+            "cardname": "Relaxing Beachside",
+            "unit": "Peaky",
+            "type": "Street",
+            "rarity": 3,
+            "heart": 9219,
+            "technical": 12636,
+            "physical": 10145,
+            "skill": .25,
+            "icon": "card_icon_030220006_1.459e08f7",
+            "passive": "Life Boost 1-2.5%"
+        },
+        "373": {
+            "id": 373,
+            "character": "Kyoko",
+            "cardname": "Sparkling Wave",
+            "unit": "Peaky",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 12676,
+            "technical": 16886,
+            "physical": 7280,
+            "skill": .5,
+            "icon": "card_icon_040210011_1.85771125",
+            "passive": "Groovy Bonus 10-25%"
+        },
+        "374": {
+            "id": 374,
+            "character": "Yuka",
+            "cardname": "Radiant Sunlight",
+            "unit": "Peaky",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 7482,
+            "technical": 16995,
+            "physical": 12055,
+            "skill": .5,
+            "icon": "card_icon_040230011_1.1a7f348d",
+            "passive": "Groovy Solo 20-50%"
         }
     }
 

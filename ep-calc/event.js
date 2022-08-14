@@ -650,6 +650,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "66": {
+        "id":66,
+        "name":"Welcome! Peaky's Freedom Summer!!",
+        "characters":"Kyoko,Shinobu,Yuka,Esora",
+        "type":"Bingo",
+        "style":"Street",
+        "parameter":"Technical",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*
