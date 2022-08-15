@@ -5248,6 +5248,20 @@ var cards = {
             "skill": .5,
             "icon": "card_icon_040230011_1.1a7f348d",
             "passive": "Groovy Solo 20-50%"
+        },
+        "375": {
+            "id": 375,
+            "character": "Nagisa",
+            "cardname": "Birthday -Museum-",
+            "unit": "Rondo",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 12917,
+            "technical": 11564,
+            "physical": 12684,
+            "skill": .55,
+            "icon": "card_icon_040520010_1.76d9d755",
+            "passive": "Auto Boost 2.5-8%"
         }
     }
 
