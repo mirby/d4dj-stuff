@@ -5262,6 +5262,62 @@ var cards = {
             "skill": .55,
             "icon": "card_icon_040520010_1.76d9d755",
             "passive": "Auto Boost 2.5-8%"
+        },
+        "376": {
+            "id": 376,
+            "character": "Haruna",
+            "cardname": "Whistle Echoing in The Cove",
+            "unit": "LyriLily",
+            "type": "Cute",
+            "rarity": 3,
+            "heart": 9843,
+            "technical": 8879,
+            "physical": 12562,
+            "skill": .25,
+            "icon": "card_icon_030620007_1.50fdf4ae",
+            "passive": "Life Boost 1-2.5%"
+        },
+        "377": {
+            "id": 377,
+            "character": "Kurumi",
+            "cardname": "Rawr Pose With Mr. Shisa",
+            "unit": "LyriLily",
+            "type": "Cute",
+            "rarity": 3,
+            "heart": 9142,
+            "technical": 10508,
+            "physical": 11727,
+            "skill": .25,
+            "icon": "card_icon_030630008_1.85a56514",
+            "passive": "Groovy Solo 10-20%"
+        },
+        "378": {
+            "id": 378,
+            "character": "Miiko",
+            "cardname": "Paddle Through The Waves",
+            "unit": "LyriLily",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 7036,
+            "technical": 12705,
+            "physical": 16854,
+            "skill": .5,
+            "icon": "card_icon_040640011_1.13c5576f",
+            "passive": "Groovy Solo 20-50%"
+        },
+        "379": {
+            "id": 379,
+            "character": "Miyu",
+            "cardname": "Holding Coral Up to the Dappled Light",
+            "unit": "LyriLily",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 12801,
+            "technical": 7469,
+            "physical": 16889,
+            "skill": .5,
+            "icon": "card_icon_040610012_1.ec606d5e",
+            "passive": "Auto Boost 2.5-6.5%"
         }
     }
 

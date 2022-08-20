@@ -660,6 +660,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "67": {
+        "id":67,
+        "name":"Lasting Memories in Our Heart",
+        "characters":"Miyu,Haruna,Kurumi,Miiko",
+        "type":"Poker",
+        "style":"Cute",
+        "parameter":"Physical",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*
