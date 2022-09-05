@@ -5330,7 +5330,7 @@ var cards = {
             "technical": 14247,
             "physical": 14081,
             "skill": .55,
-            "icon": "",
+            "icon": "card_icon_040730001_1.def08561",
             "passive": "Score Up 4-6%"
         },
         "381": {
@@ -5402,6 +5402,62 @@ var cards = {
             "skill": .6,
             "icon": "card_icon_040420009_1.6b20f073",
             "passive": "Life Boost 2.5-7.5%"
+        },
+        "386": {
+            "id": 386,
+            "character": "Airi",
+            "cardname": "Birthday -Boudoir-",
+            "unit": "CallofArtemis",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 13963,
+            "technical": 14575,
+            "physical": 13690,
+            "skill": .55,
+            "icon": "",
+            "passive": "Score Up 4-6%"
+        },
+        "387": {
+            "id": 387,
+            "character": "Rika",
+            "cardname": "Birthday -Fountain-",
+            "unit": "Mermaid",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 12117,
+            "technical": 12878,
+            "physical": 11948,
+            "skill": .55,
+            "icon": "card_icon_040410010_1.92ca5b74",
+            "passive": "Life Boost 2.5-7.5%"
+        },
+        "388": {
+            "id": 388,
+            "character": "Haruna",
+            "cardname": "Lyrical Illusion!!-Bunny-",
+            "unit": "LyriLily",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 12066,
+            "technical": 16877,
+            "physical": 7339,
+            "skill": .5,
+            "icon": "card_icon_040620011_1.068ced01",
+            "passive": "Groovy Bonus 10-25%"
+        },
+        "389": {
+            "id": 389,
+            "character": "Kurumi",
+            "cardname": "Lyrical Illusion!!-Magician-",
+            "unit": "LyriLily",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 7083,
+            "technical": 17496,
+            "physical": 11440,
+            "skill": .5,
+            "icon": "card_icon_040630011_1.5bf95eb9",
+            "passive": "Auto Boost 2.5-6.5%"
         }
     }
 

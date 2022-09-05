@@ -680,6 +680,16 @@ var eventList = {
         "bonus":false,
         "addition":"50% power boost to matching character. 50% power boost to matching collab card. 50% power boost to matching Support Live room."
     },
+    "69": {
+        "id":69,
+        "name":"My Dear Friends -Haruna & Kurumi-",
+        "characters":"Haruna,Kurumi",
+        "type":"Slots",
+        "style":"Elegant",
+        "parameter":"Technical",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*
