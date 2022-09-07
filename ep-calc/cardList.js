@@ -5414,7 +5414,7 @@ var cards = {
             "technical": 14575,
             "physical": 13690,
             "skill": .55,
-            "icon": "",
+            "icon": "card_icon_040710001_1.216f828b",
             "passive": "Score Up 4-6%"
         },
         "387": {
