@@ -690,6 +690,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "70": {
+        "id":70,
+        "name":"D4 FES.Remix -Delightful Carnival-",
+        "characters":"Muni,Nagisa,Haruna,Kurumi",
+        "type":"Medley",
+        "style":"Cute",
+        "parameter":"Technical",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*

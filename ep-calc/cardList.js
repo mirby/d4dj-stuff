@@ -5458,6 +5458,62 @@ var cards = {
             "skill": .5,
             "icon": "card_icon_040630011_1.5bf95eb9",
             "passive": "Auto Boost 2.5-6.5%"
+        },
+        "390": {
+            "id": 390,
+            "character": "Muni",
+            "cardname": "The Only One ◎Sneaking!",
+            "unit": "HapiAra",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 12396,
+            "technical": 16996,
+            "physical": 7100,
+            "skill": .5,
+            "icon": "card_icon_040130012_1.a2adf8a4",
+            "passive": "Life Boost 2.5-6.25%"
+        },
+        "391": {
+            "id": 391,
+            "character": "Nagisa",
+            "cardname": "Vigorous Unaware Maiden",
+            "unit": "Rondo",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 6619,
+            "technical": 17387,
+            "physical": 13153,
+            "skill": .5,
+            "icon": "card_icon_040520009_1.a8e2b320",
+            "passive": "Groovy Solo 20-50%"
+        },
+        "392": {
+            "id": 392,
+            "character": "Haruna",
+            "cardname": "Strict Pomposo",
+            "unit": "LyriLily",
+            "type": "Cute",
+            "rarity": 3,
+            "heart": 8314,
+            "technical": 11646,
+            "physical": 11261,
+            "skill": .25,
+            "icon": "card_icon_030620006_1.83d16035",
+            "passive": "Groovy Solo 10-20%"
+        },
+        "393": {
+            "id": 393,
+            "character": "Kurumi",
+            "cardname": "Little Devil's Espressivo",
+            "unit": "LyriLily",
+            "type": "Cute",
+            "rarity": 3,
+            "heart": 11233,
+            "technical": 12656,
+            "physical": 8315,
+            "skill": .25,
+            "icon": "card_icon_030630007_1.f0389ff8",
+            "passive": "Life Boost 1-2.5%"
         }
     }
 
