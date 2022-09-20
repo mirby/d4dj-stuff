@@ -700,6 +700,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "71": {
+        "id":71,
+        "name":"We'll Always Be Together, Even If We're Apart -Miyu & Saori-",
+        "characters":"Saori,Miyu",
+        "type":"Slots",
+        "style":"Cute",
+        "parameter":"Physical",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*

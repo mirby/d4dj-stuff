@@ -5514,6 +5514,48 @@ var cards = {
             "skill": .25,
             "icon": "card_icon_030630007_1.f0389ff8",
             "passive": "Life Boost 1-2.5%"
+        },
+        "394": {
+            "id": 394,
+            "character": "Maho",
+            "cardname": "Birthday -Banquet-",
+            "unit": "HapiAra",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 12883,
+            "technical": 12584,
+            "physical": 11463,
+            "skill": .55,
+            "icon": "card_icon_040120012_1.47cb571e",
+            "passive": "Auto Boost 2.5-8%"
+        },
+        "395": {
+            "id": 395,
+            "character": "Miyu",
+            "cardname": "Desk With Tea",
+            "unit": "LyriLily",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 6598,
+            "technical": 13123,
+            "physical": 16897,
+            "skill": .5,
+            "icon": "card_icon_040610011_1.36bf7ded",
+            "passive": "Groovy Bonus 10-25%"
+        },
+        "396": {
+            "id": 396,
+            "character": "Saori",
+            "cardname": "Desk With An Energy Drink",
+            "unit": "Mermaid",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 13663,
+            "technical": 7075,
+            "physical": 15639,
+            "skill": .5,
+            "icon": "card_icon_040430011_1.e32c1c12",
+            "passive": "Auto Boost 2.5-6.5%"
         }
     }
 
