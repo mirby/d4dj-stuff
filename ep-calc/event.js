@@ -710,6 +710,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "72": {
+        "id":72,
+        "name":"Apprentice Shrine Maiden and Fortune-Bringing Cat Goddess",
+        "characters":"Saki,Ibuki,Towa,Noa",
+        "type":"Bingo",
+        "style":"Cool",
+        "parameter":"Heart",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*

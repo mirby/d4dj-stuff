@@ -5556,6 +5556,62 @@ var cards = {
             "skill": .5,
             "icon": "card_icon_040430011_1.e32c1c12",
             "passive": "Auto Boost 2.5-6.5%"
+        },
+        "397": {
+            "id": 397,
+            "character": "Saki",
+            "cardname": "Fan Dancing With A Cat",
+            "unit": "Photon",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 16001,
+            "technical": 12839,
+            "physical": 7174,
+            "skill": .5,
+            "icon": "card_icon_040310011_1.8f2a302c",
+            "passive": "Auto Boost 2.5-6.5%"
+        },
+        "398": {
+            "id": 398,
+            "character": "Ibuki",
+            "cardname": "Dignified And Clear Kagura Bell",
+            "unit": "Photon",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 16270,
+            "technical": 7177,
+            "physical": 12592,
+            "skill": .5,
+            "icon": "card_icon_040320011_1.f906ef64",
+            "passive": "Groovy Bonus 10-25%"
+        },
+        "399": {
+            "id": 399,
+            "character": "Towa",
+            "cardname": "Umbrella Stopping On The Water",
+            "unit": "Photon",
+            "type": "Cool",
+            "rarity": 3,
+            "heart": 12497,
+            "technical": 8380,
+            "physical": 11075,
+            "skill": .25,
+            "icon": "card_icon_030330005_1.e0145ff9",
+            "passive": "Life Boost 1-2.5%"
+        },
+        "400": {
+            "id": 400,
+            "character": "Noa",
+            "cardname": "Three Treasures Dedicated To Cute",
+            "unit": "Photon",
+            "type": "Cool",
+            "rarity": 3,
+            "heart": 12646,
+            "technical": 10794,
+            "physical": 8659,
+            "skill": .25,
+            "icon": "card_icon_030340006_1.7b571fcc",
+            "passive": "Groovy Solo 10-20%"
         }
     }
 
