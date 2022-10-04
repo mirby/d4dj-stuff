@@ -4,7 +4,7 @@ var standardSongArray = [];
 const songDefaultSort = () => {
     return function(a, b) {
         return -1 * ((a.category.toUpperCase() > b.category.toUpperCase()) - (b.category.toUpperCase() > a.category.toUpperCase())) ||
-        ((parseInt(a.unitId) > parseInt(b.unitId)) - (parseInt(b.unitId) > parseInt(a.unitId))) ||
+        ((parseInt(a.jpStartTimestamp) > parseInt(b.jpStartTimestamp)) - (parseInt(b.jpStartTimestamp) > parseInt(a.jpStartTimestamp))) ||
         ((a.name.toUpperCase() > b.name.toUpperCase()) - (b.name.toUpperCase() > a.name.toUpperCase()));
     }
 }
@@ -18,7 +18,8 @@ const sortDate = () => {
 
 const sortDateRev = () => {
     return function(a, b) {
-        return -1 * ((parseInt(a.jpStartTimestamp) > parseInt(b.jpStartTimestamp)) - (parseInt(b.jpStartTimestamp) > parseInt(a.jpStartTimestamp)));
+        return -1 * ((parseInt(a.jpStartTimestamp) > parseInt(b.jpStartTimestamp)) - (parseInt(b.jpStartTimestamp) > parseInt(a.jpStartTimestamp))) ||
+            ((a.name.toUpperCase() > b.name.toUpperCase()) - (b.name.toUpperCase() > a.name.toUpperCase()));
     }
 }
 
