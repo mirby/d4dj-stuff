@@ -720,6 +720,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "73": {
+        "id":73,
+        "name":"Sparkling Buds, Bursting LAGOON",
+        "characters":"Saori,Dalia,Hiiro,Aoi",
+        "type":"Medley",
+        "style":"Elegant",
+        "parameter":"Heart",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*

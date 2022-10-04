@@ -5612,6 +5612,62 @@ var cards = {
             "skill": .25,
             "icon": "card_icon_030340006_1.7b571fcc",
             "passive": "Groovy Solo 10-20%"
+        },
+        "401": {
+            "id": 401,
+            "character": "Aoi",
+            "cardname": "Legato Harmonies",
+            "unit": "Rondo",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 16293,
+            "technical": 7027,
+            "physical": 13168,
+            "skill": .6,
+            "icon": "card_icon_040540012_1.9574a85c",
+            "passive": "Groovy Bonus 10-30%"
+        },
+        "402": {
+            "id": 402,
+            "character": "Hiiro",
+            "cardname": "Kicky Songs",
+            "unit": "Rondo",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 16411,
+            "technical": 13154,
+            "physical": 7468,
+            "skill": .6,
+            "icon": "card_icon_040530012_1.01f264db",
+            "passive": "Life Boost 2.5-7.5%"
+        },
+        "403": {
+            "id": 403,
+            "character": "Dalia",
+            "cardname": "Paradisal Rhythms",
+            "unit": "Mermaid",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 17163,
+            "technical": 6659,
+            "physical": 13032,
+            "skill": .6,
+            "icon": "card_icon_040440012_1.7ae2f31a",
+            "passive": "Auto Boost 2.5-8%"
+        },
+        "404": {
+            "id": 404,
+            "character": "Saori",
+            "cardname": "Sunshine Melodies",
+            "unit": "Mermaid",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 17192,
+            "technical": 12489,
+            "physical": 6693,
+            "skill": .6,
+            "icon": "card_icon_040430012_1.d4bc560b",
+            "passive": "Groovy Solo 20-60%"
         }
     }
 
