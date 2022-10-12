@@ -150,9 +150,7 @@ function displaySongList(arr) {
     var enCount = 0;
 
     for (let x of arr) {
-        if (!(x.name === "")) {
-            enCount++;
-        }
+        enCount++;
         var charRow = table.insertRow();
         charRow.insertCell().appendChild(document.createTextNode(x.jpName));
         charRow.insertCell().appendChild(document.createTextNode(x.name));

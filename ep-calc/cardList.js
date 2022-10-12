@@ -5668,6 +5668,62 @@ var cards = {
             "skill": .6,
             "icon": "card_icon_040430012_1.d4bc560b",
             "passive": "Groovy Solo 20-60%"
+        },
+        "405": {
+            "id": 405,
+            "character": "Rika",
+            "cardname": "Summer Fes. 2022",
+            "unit": "Mermaid",
+            "type": "Cool",
+            "rarity": 3,
+            "heart": 10482,
+            "technical": 8972,
+            "physical": 13056,
+            "skill": .25,
+            "icon": "card_icon_050410001_1.562f9b91",
+            "passive": "Auto Boost 1.5-2.5%"
+        },
+        "406": {
+            "id": 406,
+            "character": "Noa",
+            "cardname": "Birthday -Dancehall-",
+            "unit": "Photon",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 12299,
+            "technical": 12824,
+            "physical": 11729,
+            "skill": .55,
+            "icon": "card_icon_040340013_1.29db79e2",
+            "passive": "Groovy Bonus 10-30%"
+        },
+        "407": {
+            "id": 407,
+            "character": "Kurumi",
+            "cardname": "Swaying Teddy Bear-Prank Supervisor",
+            "unit": "LyriLily",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 7126,
+            "technical": 16439,
+            "physical": 12692,
+            "skill": .5,
+            "icon": "card_icon_040630012_1.e919e5aa",
+            "passive": "Groovy Solo 20-50%"
+        },
+        "408": {
+            "id": 408,
+            "character": "Noa",
+            "cardname": "Swaying Teddy Bear-Cute Supervisor",
+            "unit": "Photon",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 12463,
+            "technical": 16515,
+            "physical": 6553,
+            "skill": .5,
+            "icon": "card_icon_040340012_1.686280fa",
+            "passive": "Groovy Bonus 10-25%"
         }
     }
 

@@ -730,6 +730,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "74": {
+        "id":74,
+        "name":"That Cute Girl and The Scary Me -Kurumi & Noa-",
+        "characters":"Noa,Kurumi",
+        "type":"Slots",
+        "style":"Party",
+        "parameter":"Technical",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*
