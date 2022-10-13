@@ -5700,7 +5700,7 @@ var cards = {
         "407": {
             "id": 407,
             "character": "Kurumi",
-            "cardname": "Swaying Teddy Bear-Prank Supervisor",
+            "cardname": "Swaying Teddy -Captain Prankster-",
             "unit": "LyriLily",
             "type": "Party",
             "rarity": 4,
@@ -5714,7 +5714,7 @@ var cards = {
         "408": {
             "id": 408,
             "character": "Noa",
-            "cardname": "Swaying Teddy Bear-Cute Supervisor",
+            "cardname": "Swaying Teddy -Captain Cute-",
             "unit": "Photon",
             "type": "Party",
             "rarity": 4,
