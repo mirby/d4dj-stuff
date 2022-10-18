@@ -5724,6 +5724,62 @@ var cards = {
             "skill": .5,
             "icon": "card_icon_040340012_1.686280fa",
             "passive": "Groovy Bonus 10-25%"
+        },
+        "409": {
+            "id": 409,
+            "character": "Miyu",
+            "cardname": "Leave the Mystery to Me",
+            "unit": "LyriLily",
+            "type": "Cute",
+            "rarity": 3,
+            "heart": 11236,
+            "technical": 8473,
+            "physical": 12396,
+            "skill": .25,
+            "icon": "card_icon_030610008_1.9b8fda64",
+            "passive": "Auto Boost 1.5-2.5%"
+        },
+        "410": {
+            "id": 410,
+            "character": "Miiko",
+            "cardname": "Heart Fluttering Detective",
+            "unit": "LyriLily",
+            "type": "Cute",
+            "rarity": 3,
+            "heart": 9353,
+            "technical": 9918,
+            "physical": 13199,
+            "skill": .25,
+            "icon": "card_icon_030640007_1.4a176fe2",
+            "passive": "Life Boost 1-2.5%"
+        },
+        "411": {
+            "id": 411,
+            "character": "Saki",
+            "cardname": "Remaining Messages",
+            "unit": "Photon",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 12150,
+            "technical": 6928,
+            "physical": 17020,
+            "skill": .5,
+            "icon": "card_icon_040310012_1.ce1d273d",
+            "passive": "Groovy Solo 20-50%"
+        },
+        "412": {
+            "id": 412,
+            "character": "Rei",
+            "cardname": "Trap of the Locked Room Trick",
+            "unit": "HapiAra",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 6965,
+            "technical": 13534,
+            "physical": 16289,
+            "skill": .5,
+            "icon": "card_icon_040140012_1.e6ab7e00",
+            "passive": "Auto Boost 2.5-6.5%"
         }
     }
 

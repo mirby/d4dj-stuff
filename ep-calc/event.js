@@ -740,6 +740,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "75": {
+        "id":75,
+        "name":"Case File 001: The Detective Agency and the Mysterious Phantom",
+        "characters":"Rei,Saki,Miyu,Miiko",
+        "type":"Poker",
+        "style":"Cute",
+        "parameter":"Physical",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*
