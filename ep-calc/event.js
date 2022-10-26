@@ -750,6 +750,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "76": {
+        "id":76,
+        "name":"Heartthrob! Angels and Devils Costume Contest",
+        "characters":"Muni,Tsubaki,Haruna,Kurumi",
+        "type":"Medley",
+        "style":"Cool",
+        "parameter":"Physical",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*

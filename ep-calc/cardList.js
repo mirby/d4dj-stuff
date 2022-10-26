@@ -5780,6 +5780,62 @@ var cards = {
             "skill": .5,
             "icon": "card_icon_040140012_1.e6ab7e00",
             "passive": "Auto Boost 2.5-6.5%"
+        },
+        "413": {
+            "id": 413,
+            "character": "Kurumi",
+            "cardname": "Pranks Are A Given ☆",
+            "unit": "LyriLily",
+            "type": "Cool",
+            "rarity": 3,
+            "heart": 9822,
+            "technical": 9034,
+            "physical": 13044,
+            "skill": .25,
+            "icon": "card_icon_030630009_1.ee7c919c",
+            "passive": "Auto Boost 1.5-2.5%"
+        },
+        "414": {
+            "id": 414,
+            "character": "Tsubaki",
+            "cardname": "The Sweet Temptation Of A Little Devil",
+            "unit": "Rondo",
+            "type": "Cool",
+            "rarity": 3,
+            "heart": 8695,
+            "technical": 10428,
+            "physical": 12671,
+            "skill": .25,
+            "icon": "card_icon_030510007_1.727be8cd",
+            "passive": "Life Boost 1-2.5%"
+        },
+        "415": {
+            "id": 415,
+            "character": "Haruna",
+            "cardname": "Candy As A Treat",
+            "unit": "LyriLily",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 12119,
+            "technical": 6883,
+            "physical": 18064,
+            "skill": .5,
+            "icon": "card_icon_040620012_1.00700f72",
+            "passive": "Groovy Solo 20-50%"
+        },
+        "416": {
+            "id": 416,
+            "character": "Muni",
+            "cardname": "The Angel's Prank",
+            "unit": "HapiAra",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 6870,
+            "technical": 12964,
+            "physical": 16844,
+            "skill": .5,
+            "icon": "card_icon_040130014_1.f168c157",
+            "passive": "Groovy Bonus 10-25%"
         }
     }
 
