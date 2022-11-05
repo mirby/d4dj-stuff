@@ -5836,6 +5836,34 @@ var cards = {
             "skill": .5,
             "icon": "card_icon_040130014_1.f168c157",
             "passive": "Groovy Bonus 10-25%"
+        },
+        "417": {
+            "id": 417,
+            "character": "Muni",
+            "cardname": "Chained Sick Cute Angel -Partial Love-",
+            "unit": "HapiAra",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 12383,
+            "technical": 17200,
+            "physical": 7272,
+            "skill": .5,
+            "icon": "card_icon_040130013_1.2789623c",
+            "passive": "Auto Boost 2.5-6.5%"
+        },
+        "418": {
+            "id": 418,
+            "character": "Rinku",
+            "cardname": "Chained Sick Cute Angel -Equal Love-",
+            "unit": "HapiAra",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 6874,
+            "technical": 17435,
+            "physical": 12612,
+            "skill": .5,
+            "icon": "card_icon_040110011_1.0edaddb9",
+            "passive": "Groovy Solo 20-50%"
         }
     }
 

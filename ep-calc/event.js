@@ -760,6 +760,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "77": {
+        "id":77,
+        "name":"\"JEALOUSY -link with your heart-\" -Rinku & Muni-",
+        "characters":"Rinku,Muni",
+        "type":"Slots",
+        "style":"Street",
+        "parameter":"Technical",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*
