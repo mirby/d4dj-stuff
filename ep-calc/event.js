@@ -770,6 +770,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "78": {
+        "id":78,
+        "name":"Tαke Me GЯOOMY!",
+        "characters":"Rika,Marika,Saori,Dalia",
+        "type":"Bingo",
+        "style":"Party",
+        "parameter":"Technical",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*

@@ -5864,6 +5864,62 @@ var cards = {
             "skill": .5,
             "icon": "card_icon_040110011_1.0edaddb9",
             "passive": "Groovy Solo 20-50%"
+        },
+        "419": {
+            "id": 419,
+            "character": "Marika",
+            "cardname": "Find Hiddeи Peta1",
+            "unit": "Mermaid",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 12266,
+            "technical": 17301,
+            "physical": 7079,
+            "skill": .5,
+            "icon": "card_icon_040420011_1.7444e701",
+            "passive": "Auto Boost 2.5-6.5%"
+        },
+        "420": {
+            "id": 420,
+            "character": "Rika",
+            "cardname": "Peek Lift the Ve!l",
+            "unit": "Mermaid",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 7428,
+            "technical": 17127,
+            "physical": 12161,
+            "skill": .5,
+            "icon": "card_icon_040410011_1.86e5c1c7",
+            "passive": "Groovy Bonus 10-25%"
+        },
+        "421": {
+            "id": 421,
+            "character": "Dalia",
+            "cardname": "Hug Cut!e Masc0t",
+            "unit": "Mermaid",
+            "type": "Party",
+            "rarity": 3,
+            "heart": 10719,
+            "technical": 11898,
+            "physical": 9448,
+            "skill": .25,
+            "icon": "card_icon_030440005_1.bfdf3d2b",
+            "passive": "Life Boost 1-2.5%"
+        },
+        "422": {
+            "id": 422,
+            "character": "Saori",
+            "cardname": "Shine Pαrade w!th Us",
+            "unit": "Mermaid",
+            "type": "Party",
+            "rarity": 3,
+            "heart": 8577,
+            "technical": 12313,
+            "physical": 11023,
+            "skill": .25,
+            "icon": "card_icon_030430005_1.3a5404da",
+            "passive": "Groovy Solo 10-20%"
         }
     }
 
