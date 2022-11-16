@@ -89,14 +89,23 @@ const MAXSTEPS= 10000
 		document.getElementById("Raid").checked?"Raid":
 		document.getElementById("RaidAnni").checked?"RaidAnni":
 		"Medley")
-		var flexible = document.getElementById("flexible").checked
+		//var flexible = document.getElementById("flexible").checked
+		var flexible = false
+		var isEN = document.getElementById('ServerEN').checked
 		//document.getElementById("console").value=flexible+"...\n\n"
 		var step=1
 		var flameCount=0
 		var originalTarget=start
 		document.getElementById("console").value=""
 
-		var interval = (type=="Medley")?15000:(type=="Poker/Slots")?4000:(type=="RaidAnni")?4000:10000
+		var interval = 0
+		if (isEN) {
+			interval = (type=="Medley")?15000:(type=="Poker/Slots")?4000:(type=="RaidAnni")?4000:10000
+		} else {
+			// Only post-2nd anni bingo interval is known, TODO change other intervals as the events are held
+			interval = (type=="Medley")?15000:(type=="Poker/Slots")?4000:(type=="RaidAnni")?4000:8000
+		}
+		
 		var special = (type=="RaidAnni");
 		if (special) {
 			bonus = 0;
@@ -109,7 +118,11 @@ const MAXSTEPS= 10000
 			if (voltage>0) {
 				switch (type) {
 					case "Bingo":{
-						return voltage * Math.floor((1 + bonus) * (Math.max(10, Math.floor(score/interval)) + Math.floor(parameter/600)))
+						if (isEN) {
+							return voltage * Math.floor((1 + bonus) * (Math.max(10, Math.floor(score/interval)) + Math.floor(parameter/600)))
+						} else {
+							return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + bonus) * Math.max(10, Math.floor(score/interval))))
+						}
 					}break;
 					case "Medley":{
 						return voltage * Math.floor((1 + bonus) * (10 + Math.floor(score/interval) + Math.floor(parameter/600)))

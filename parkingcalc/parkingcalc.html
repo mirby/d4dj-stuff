@@ -15,7 +15,6 @@
 
     <fieldset>
       <legend>Parking Configuration</legend>
-      <!-- There's actually no difference between JP/EN scoring for now. But leaving this here if/when it does change again. -->
       <label for="serverType">Server:</label>
       <input type="radio" id="ServerJP" name="serverType" value="ServerJP" checked />
       <label for="ServerJP">JP</label>
@@ -58,19 +57,20 @@
         <option value="1.6" selected>160%</option>
       </select>
       &nbsp;&nbsp;&nbsp;&nbsp;
-      <span onClick="toggleWarning()" class="tooltip">
+      <!-- <span onClick="toggleWarning()" class="tooltip">
         <label for="flexible" alt="Yes"><b>Flexible Team?</b></label>
         <input id="flexible" type="checkbox" />
         <span class="tooltiptext">If turned on, calculates scoring options using lower % teams also.</span>
-	    </span>
+	    </span> -->
 	  <span id="warningparktext" style="visibility:hidden;"><font color="red"><b>WARNING!</b> If your team% changes as you are parking you will have to recalculate the <font color="black"><b><u>PARAMETER</u></b></font> value in the middle of parking!</font></span>
       <br />
       <br />
       <span class="tooltip"><label for="maxscore"><b>Max Free Live Score: </b></label><input id="maxscore" min="0" type="number" value="620000" /> <span class="tooltiptext translate22">
 	  The maximum score you can get from playing a song using <font color="aqua">Free Live</font>.<br>(Tip: Subtract 50-100k from the score to give you more wiggle room)<br>
 	  <sub>(Use 0 for Rehearsals Only)</sub></span></span>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="parameter"><b>Parameter: </b></label><input id="parameter" min="0" type="number" value="62000" /> 
-	  <i><a href="parameterbonus_instructions_small.png" target="_blank">How to find Parameter value???</a></i>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <label for="parameter"><b>Parameter: </b></label><input id="parameter" min="0" type="number" value="62000" /> 
+      <span><i>To get parameter value, see bottom of page (different per server)</i></span>
       <hr />
       <label for="starting"><b>Starting EP: </b></label><input id="starting" min="0" type="number" value="100000" />
       <span style="font-size: 32px; padding: 0px 10px 0px 10px">➔</span>
@@ -90,6 +90,18 @@
     <div style="display: flex; justify-content: stretch; align-items: center">
       <textarea rows="20" cols="160" id="console" disabled> </textarea>
     </div>
+  <p><b>How To Get Parameter Value</b></p>
+  <u>English Server</u>
+  <ul>
+    <li>Go into Free Live and pick a song. In the unit formation, find the event's target parameter and get the value for it here.</li>
+    <li><a href="parameterbonus_instructions_small.png" target="_blank">Example</a></i></li>
+  </ul>
+  <u>Japanese Server</u>
+  <ul>
+    <li>For each card on your main team, you get 10% if that card's highest parameter is the event target parameter</li>
+    <li>For example, if the event target parameter is Technical, if 3 out of 4 cards on your <b>main</b> team have technical as their highest param, you will have 30%</li>
+    <li>Enter the value directly in the parameter box (no need to add % symbol)</li>
+  </ul>
 	<sub><u>Tips</u></sub>
 	<ul>
     <li>When trying to park during Raid(Special) type events, if you get "Impossible" messages, try lowering the max free live score by 100k increments.</li>
@@ -100,9 +112,9 @@
   <li class="translate23">See any issues? Contact Mirby#5516 on D4DJ discord. Republished with permission from sigonasr</li>
 	</ul>
 
-    <script>
+    <!-- <script>
       document.getElementById("ips").value = ""; //Muni??
-    </script>
+    </script> -->
   </body>
 </html>
  
