@@ -816,6 +816,7 @@ function calcEventPower() {
             "59":["Motorrad Rider Traveler", "Dichotomy of Bludgeoning and Resurrection", "Red-Eyed Rabbit's Tenchu Kick", "Railgun Exploding in the Dark of Night"],
             "60":["With You Sleeping Peacefully", "Shana and the Blue Flame Hunter", "Proudly Sparkle Rod", "Naughty Sister"],
             "68":["I Wonder Why It's You", "You Can't Veto It", "You're Responsible For It", "Please Make My Dream Come True", "Beautiful Full Moon"],
+            "79":["Pursue The Path Of Darkness-pyo!", "Reiwa's Most Powerful Idol!", "Puchiko Will Dance Too-nyu", "Dejiko Is The Lead-nyo!"],
         };
 
         var charList = [];
@@ -830,9 +831,9 @@ function calcEventPower() {
             if (charList.includes(char)) {
                 var cardNameFull = document.getElementById("m" + i + "_charfull").innerHTML;
                 var cardName = cardNameFull.slice(cardNameFull.indexOf("-") + 1).substring(1);
-                var eventPerc = .5;
+                var eventPerc = 1;
                 if (collabList.includes(cardName)) {
-                    eventPerc = 1;
+                    eventPerc = 2;
                 }
 
                 var heartMod = parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) || 0;
