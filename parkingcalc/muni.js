@@ -128,7 +128,11 @@ const MAXSTEPS= 10000
 						return voltage * Math.floor((1 + bonus) * (10 + Math.floor(score/interval) + Math.floor(parameter/600)))
 					}break;
 					case "Poker/Slots":{
-						return voltage * Math.floor((1 + bonus) * (50 + Math.floor(score/interval) + Math.floor(parameter/600)))
+						if (isEN) {
+							return voltage * Math.floor((1 + bonus) * (50 + Math.floor(score/interval) + Math.floor(parameter/600)))
+						} else {
+							return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + bonus) * (50 + Math.floor(score/interval))))
+						}						
 					}break;
 					case "Raid":{
 						return voltage * Math.floor((1 + bonus) * (50 + Math.floor(score/interval) + Math.floor(parameter/600)))
