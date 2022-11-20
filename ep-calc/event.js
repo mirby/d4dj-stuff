@@ -780,6 +780,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "79": {
+        "id":79,
+        "name":"Reiwa no Gu Ru Mix nyo",
+        "characters":"Shinobu,Esora,Nagisa,Miiko",
+        "type":"Raid",
+        "style":"None",
+        "parameter":"None",
+        "bonus":true,
+        "addition":"100% power boost to matching character. 100% power boost to matching collab card."
+    },
 }
 
 /*

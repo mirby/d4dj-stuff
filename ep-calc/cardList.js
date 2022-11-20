@@ -5920,6 +5920,62 @@ var cards = {
             "skill": .25,
             "icon": "card_icon_030430005_1.3a5404da",
             "passive": "Groovy Solo 10-20%"
+        },
+        "423": {
+            "id": 423,
+            "character": "Nagisa",
+            "cardname": "Pursue The Path Of Darkness-pyo!",
+            "unit": "Rondo",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 12126,
+            "technical": 12165,
+            "physical": 12416,
+            "skill": .6,
+            "icon": "card_icon_040520012_1.ffb04a78",
+            "passive": "Groovy Solo 20-60%"
+        },
+        "424": {
+            "id": 424,
+            "character": "Esora",
+            "cardname": "Reiwa's Most Powerful Idol!",
+            "unit": "Peaky",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 12168,
+            "technical": 11611,
+            "physical": 12354,
+            "skill": .6,
+            "icon": "card_icon_040240012_1.52f3852a",
+            "passive": "Groovy Bonus 10-30%"
+        },
+        "425": {
+            "id": 425,
+            "character": "Shinobu",
+            "cardname": "Puchiko Will Dance Too-nyu",
+            "unit": "Peaky",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 12292,
+            "technical": 11949,
+            "physical": 12591,
+            "skill": .6,
+            "icon": "card_icon_040220013_1.5896eabe",
+            "passive": "Life Boost 2.5-7.5%"
+        },
+        "426": {
+            "id": 426,
+            "character": "Miiko",
+            "cardname": "Dejiko Is The Lead-nyo!",
+            "unit": "LyriLily",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 11688,
+            "technical": 11631,
+            "physical": 12377,
+            "skill": .6,
+            "icon": "card_icon_040640012_1.6d2ed24e",
+            "passive": "Auto Boost 2.5-8%"
         }
     }
 
