@@ -125,7 +125,11 @@ const MAXSTEPS= 10000
 						}
 					}break;
 					case "Medley":{
-						return voltage * Math.floor((1 + bonus) * (10 + Math.floor(score/interval) + Math.floor(parameter/600)))
+						if (isEN) {
+							return voltage * Math.floor((1 + bonus) * (10 + Math.floor(score/interval) + Math.floor(parameter/600)))
+						} else {
+							return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + bonus) * (10 + Math.floor(score/interval))))
+						}
 					}break;
 					case "Poker/Slots":{
 						if (isEN) {
