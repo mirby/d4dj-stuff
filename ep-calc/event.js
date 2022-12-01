@@ -790,6 +790,16 @@ var eventList = {
         "bonus":true,
         "addition":"100% power boost to matching character. 100% power boost to matching collab card."
     },
+    "80": {
+        "id":80,
+        "name":"side:nova Season 1 -The Revolution Live-",
+        "characters":"None",
+        "type":"Raid",
+        "style":"None",
+        "parameter":"None",
+        "bonus":true,
+        "addition":"During specific periods, 50% power boost for matching unit. Additional 50% boost if 2nd Anniversary card."
+    },
 }
 
 /*
