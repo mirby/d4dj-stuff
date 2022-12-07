@@ -6326,6 +6326,62 @@ var cards = {
             "skill": .5,
             "icon": "card_icon_040710002_1.6f0a407d",
             "passive": "Skill Duration 10-30%"
+        },
+        "452": {
+            "id": 452,
+            "character": "Yuka",
+            "cardname": "Navigation",
+            "unit": "Peaky",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 15247,
+            "technical": 14019,
+            "physical": 15167,
+            "skill": .45,
+            "icon": "card_icon_060230001_1.3f99cece",
+            "passive": "Life Boost 2.5-7.75%"
+        },
+        "453": {
+            "id": 453,
+            "character": "Miyu",
+            "cardname": "Navigation",
+            "unit": "LyriLily",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 14603,
+            "technical": 14227,
+            "physical": 15235,
+            "skill": .45,
+            "icon": "card_icon_060610001_1.5543525a",
+            "passive": "Groovy Bonus 10-31.5%"
+        },
+        "454": {
+            "id": 454,
+            "character": "Saori",
+            "cardname": "Navigation",
+            "unit": "Mermaid",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 14617,
+            "technical": 15185,
+            "physical": 15324,
+            "skill": .45,
+            "icon": "card_icon_060430001_1.45401a69",
+            "passive": "Groovy Bonus 10-31.5%"
+        },
+        "455": {
+            "id": 455,
+            "character": "Kurumi",
+            "cardname": "Navigation",
+            "unit": "LyriLily",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 14963,
+            "technical": 14662,
+            "physical": 14863,
+            "skill": .45,
+            "icon": "card_icon_060630001_1.9e5293e0",
+            "passive": "Life Boost 2.5-7.75%"
         }
     }
 
