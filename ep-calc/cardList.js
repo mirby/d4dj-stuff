@@ -6382,6 +6382,132 @@ var cards = {
             "skill": .45,
             "icon": "card_icon_060630001_1.9e5293e0",
             "passive": "Life Boost 2.5-7.75%"
+        },
+        "456": {
+            "id": 456,
+            "character": "Ibuki",
+            "cardname": "Our Road Ahead -Player-",
+            "unit": "Photon",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 13326,
+            "technical": 16645,
+            "physical": 6814,
+            "skill": .5,
+            "icon": "card_icon_040320012_1.f260c131",
+            "passive": "Auto Boost 2.5-6.5%"
+        },
+        "457": {
+            "id": 457,
+            "character": "Yuka",
+            "cardname": "Our Road Ahead -Trainer-",
+            "unit": "Peaky",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 7619,
+            "technical": 15997,
+            "physical": 12939,
+            "skill": .5,
+            "icon": "card_icon_040230012_1.ef225883",
+            "passive": "Groovy Bonus 10-25%"
+        },
+        "458": {
+            "id": 458,
+            "character": "Michiru",
+            "cardname": "To The Linked World",
+            "unit": "Common",
+            "type": "Party",
+            "rarity": 3,
+            "heart": 10350,
+            "technical": 10429,
+            "physical": 10974,
+            "skill": .25,
+            "icon": "card_icon_058310001_1.8a4ece66",
+            "passive": "Groovy Bonus 5-10%"
+        },
+        "459": {
+            "id": 459,
+            "character": "Miyu",
+            "cardname": "To The Linked World",
+            "unit": "LyriLily",
+            "type": "Street",
+            "rarity": 3,
+            "heart": 10100,
+            "technical": 11083,
+            "physical": 11056,
+            "skill": .25,
+            "icon": "card_icon_050610001_1.c08b5cea",
+            "passive": "Groovy Solo 10-20%"
+        },
+        "460": {
+            "id": 460,
+            "character": "Tsubaki",
+            "cardname": "To The Linked World",
+            "unit": "Rondo",
+            "type": "Cute",
+            "rarity": 3,
+            "heart": 10879,
+            "technical": 10742,
+            "physical": 9997,
+            "skill": .25,
+            "icon": "card_icon_050510001_1.f87733d2",
+            "passive": "Auto Boost 1.5-2.5%"
+        },
+        "461": {
+            "id": 461,
+            "character": "Rika",
+            "cardname": "To The Linked World",
+            "unit": "Mermaid",
+            "type": "Party",
+            "rarity": 3,
+            "heart": 10801,
+            "technical": 10852,
+            "physical": 10573,
+            "skill": .25,
+            "icon": "card_icon_050410002_1.677a5f28",
+            "passive": "Life Boost 1-2.5%"
+        },
+        "462": {
+            "id": 462,
+            "character": "Saki",
+            "cardname": "To The Linked World",
+            "unit": "Photon",
+            "type": "Elegant",
+            "rarity": 3,
+            "heart": 11005,
+            "technical": 10753,
+            "physical": 10086,
+            "skill": .25,
+            "icon": "card_icon_050310002_1.c518b45a",
+            "passive": "Life Boost 1-2.5%"
+        },
+        "463": {
+            "id": 463,
+            "character": "Kyoko",
+            "cardname": "To The Linked World",
+            "unit": "Peaky",
+            "type": "Cool",
+            "rarity": 3,
+            "heart": 11235,
+            "technical": 11278,
+            "physical": 9732,
+            "skill": .25,
+            "icon": "card_icon_050210002_1.00be597f",
+            "passive": "Groovy Bonus 5-10%"
+        },
+        "464": {
+            "id": 464,
+            "character": "Rinku",
+            "cardname": "To The Linked World",
+            "unit": "HapiAra",
+            "type": "Elegant",
+            "rarity": 3,
+            "heart": 10647,
+            "technical": 11031,
+            "physical": 10106,
+            "skill": .25,
+            "icon": "card_icon_050110002_1.63d66aea",
+            "passive": "Groovy Solo 10-20%"
         }
     }
 
@@ -6402,6 +6528,52 @@ Template
             "passive": ""
         }
 */
+
+// Unused for now, for future refactoring
+function setUnit(name) {
+    switch (name) {
+        case "Rinku":
+        case "Maho":
+        case "Muni":
+        case "Rei":
+            return "HapiAra";
+        case "Kyoko":
+        case "Shinobu":
+        case "Yuka":
+        case "Esora":
+            return "Peaky";
+        case "Saki":
+        case "Ibuki":
+        case "Towa":
+        case "Noa":
+            return "Photon";
+        case "Rika":
+        case "Marika":
+        case "Saori":
+        case "Dalia":
+            return "Mermaid";
+        case "Tsubaki":
+        case "Nagisa":
+        case "Hiiro":
+        case "Aoi":
+            return "Rondo";
+        case "Miyu":
+        case "Haruna":
+        case "Kurumi":
+        case "Miiko":
+            return "LyriLily";
+        case "Michiru":
+        case "Lumina":
+        case "Kokoa":
+        case "Hayate":
+            return "Common";
+        case "Shano":
+        case "Toka":
+        case "Airi":
+        case "Mana":
+            return "CallofArtemis";
+    }
+}
 
 var cardArray = [];
 var standardArray = [];

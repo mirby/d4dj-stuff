@@ -800,6 +800,16 @@ var eventList = {
         "bonus":true,
         "addition":"During specific periods, 50% power boost for matching unit. Additional 50% boost if 2nd Anniversary card."
     },
+    "81": {
+        "id":81,
+        "name":"\"Dear You, Aiming for the Goal\" -Yuka & Ibuki-",
+        "characters":"Yuka,Ibuki",
+        "type":"Slots",
+        "style":"Party",
+        "parameter":"Technical",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*
