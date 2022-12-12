@@ -32,11 +32,11 @@
       <input type="radio" id="Medley" name="type" value="Medley" />
       <label for="Medley">Medley</label>
       &nbsp;&nbsp;&nbsp;
-      <input type="radio" id="Raid" name="type" value="Raid" />
+      <!-- <input type="radio" id="Raid" name="type" value="Raid" />
       <label for="Raid">Raid (D4 FES)</label>
-      &nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp; -->
       <input type="radio" id="RaidAnni" name="type" value="RaidAnni" />
-      <label for="RaidAnni">Raid (Special)</label>
+      <label for="RaidAnni">Raid</label>
       <hr />
       <label for="team">Event Team Bonus:</label>
       &nbsp;&nbsp;
@@ -70,7 +70,7 @@
 	  <sub>(Use 0 for Rehearsals Only)</sub></span></span>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <label for="parameter"><b>Parameter: </b></label><input id="parameter" min="0" type="number" value="62000" /> 
-      <span><i>To get parameter value, see bottom of page (different per server)</i></span>
+      <span><i><b>NEW</b> To get parameter value, see bottom of page (different per server)</i></span>
       <hr />
       <label for="starting"><b>Starting EP: </b></label><input id="starting" min="0" type="number" value="100000" />
       <span style="font-size: 32px; padding: 0px 10px 0px 10px">➔</span>
@@ -98,14 +98,15 @@
   </ul>
   <u>Japanese Server</u>
   <ul>
-    <li>For each card on your main team, you get 10% if that card's highest parameter is the event target parameter</li>
+    <li>For each card on your <b>main</b> team, you get 10% if that card's highest parameter is the event target parameter</li>
     <li>For example, if the event target parameter is Technical, if 3 out of 4 cards on your <b>main</b> team have technical as their highest param, you will have 30%</li>
     <li>If any cards on main team has the event target parameter over 20k, you get an additional 1% for every 1000. (i.e. if the target param is Technical and one of your main team cards has 21400 tech, this card would give 11%)</li>
     <li>Enter the value directly in the parameter box (no need to add % symbol)</li>
+    <li><a href="parambonus_new.png" target="_blank">Example</a></i></li>
   </ul>
 	<sub><u>Tips</u></sub>
 	<ul>
-    <li>When trying to park during Raid(Special) type events, if you get "Impossible" messages, try lowering the max free live score by 100k increments.</li>
+    <li>When trying to park during Raid type events, if you get "Impossible" messages, try lowering the max free live score by 100k increments.</li>
 	<li class="translate19">Here's the Light on EX or Synchrogazer on Hard/EX difficulty are some of the highest scoring songs you can pick.</li>
   <li class="translate24">When doing rehearsals, do them in reverse order so it's easier to fix if you make a mistake.</li>
 	<li class="translate20">When you get close to the score you need in Free Live, purposely fail the song. Notes are worth 10% their normal value when you have 0 health so you can finish easily.</li>
