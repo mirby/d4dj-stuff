@@ -6508,6 +6508,62 @@ var cards = {
             "skill": .25,
             "icon": "card_icon_050110002_1.63d66aea",
             "passive": "Groovy Solo 10-20%"
+        },
+        "465": {
+            "id": 465,
+            "character": "Muni",
+            "cardname": "A bagful of stars to send",
+            "unit": "HapiAra",
+            "type": "Cute",
+            "rarity": 3,
+            "heart": 7758,
+            "technical": 6086,
+            "physical": 17354,
+            "skill": .25,
+            "icon": "card_icon_030130008_1.aea7cedc",
+            "passive": "Groovy Solo 10-20%"
+        },
+        "466": {
+            "id": 466,
+            "character": "Rei",
+            "cardname": "What are your thoughts?",
+            "unit": "HapiAra",
+            "type": "Cute",
+            "rarity": 3,
+            "heart": 17641,
+            "technical": 7559,
+            "physical": 6578,
+            "skill": .25,
+            "icon": "card_icon_030140007_1.e1afe466",
+            "passive": "Life Boost 1-2.5%"
+        },
+        "467": {
+            "id": 467,
+            "character": "Maho",
+            "cardname": "Hidden hand behind",
+            "unit": "HapiAra",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 20098,
+            "technical": 7667,
+            "physical": 14783,
+            "skill": .4,
+            "icon": "card_icon_040120013_1.5bb54269",
+            "passive": "Auto Boost 2.5-8%"
+        },
+        "468": {
+            "id": 468,
+            "character": "Rinku",
+            "cardname": "A double handful of emotion",
+            "unit": "HapiAra",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 14590,
+            "technical": 20469,
+            "physical": 7580,
+            "skill": .4,
+            "icon": "card_icon_040110012_1.02a67dd6",
+            "passive": "Groovy Bonus 10-30%"
         }
     }
 

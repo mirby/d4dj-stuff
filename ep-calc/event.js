@@ -810,6 +810,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "82": {
+        "id":82,
+        "name":"Holy Night, With You -Present for 'You'-",
+        "characters":"Rinku,Maho,Rei,Muni",
+        "type":"Growth",
+        "style":"None",
+        "parameter":"None",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*
