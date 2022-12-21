@@ -22,23 +22,21 @@ function test() {
     } else if (et === "4") {
         etMulti = 1.2;
     }
-    console.log(etMulti);
 
     var eventBonus = 1;
     if (event === "y") {
         eventBonus = 1.1;
     }
-    console.log(eventBonus);
 
     var moveMulti = parseInt(move);
-    console.log(moveMulti);
 
     var actMulti = parseFloat(multi);
-    console.log(actMulti);
 
     var result = Math.floor(baseVal * etMulti * eventBonus * moveMulti * actMulti);
     var charMatchResult = Math.floor(baseVal * etMulti * eventBonus * moveMulti * actMulti * 1.2);
 
     document.getElementById("result").innerHTML = result;
+    document.getElementById("result2").innerHTML = result * 2;
     document.getElementById("charResult").innerHTML = charMatchResult;
+    document.getElementById("charResult2").innerHTML = charMatchResult * 2;
 }
