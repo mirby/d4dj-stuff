@@ -214,6 +214,12 @@ var clubItems1 = {
         "type":"unit",
         "bonus":.03
     },
+    "callofartemis": {
+        "name":"callofartemis",
+        "displayname":"Call of Artemis",
+        "type":"unit",
+        "bonus":.03
+    },
     "common": {
         "name":"common",
         "displayname":"All Units",
@@ -430,6 +436,12 @@ var clubItems2 = {
     "lyrilily": {
         "name":"lyrilily",
         "displayname":"Lyrical Lily",
+        "type":"unit",
+        "bonus":.03
+    },
+    "callofartemis": {
+        "name":"callofartemis",
+        "displayname":"Call of Artemis",
         "type":"unit",
         "bonus":.03
     },

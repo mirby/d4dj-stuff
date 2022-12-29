@@ -6564,6 +6564,62 @@ var cards = {
             "skill": .4,
             "icon": "card_icon_040110012_1.02a67dd6",
             "passive": "Groovy Bonus 10-30%"
+        },
+        "469": {
+            "id": 469,
+            "character": "Noa",
+            "cardname": "Tranquility",
+            "unit": "Photon",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 8032,
+            "technical": 20652,
+            "physical": 14523,
+            "skill": .8,
+            "icon": "card_icon_070340003_1.90373d6a",
+            "passive": "Auto Boost 2.5-8%"
+        },
+        "470": {
+            "id": 470,
+            "character": "Towa",
+            "cardname": "Twilight",
+            "unit": "Photon",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 14161,
+            "technical": 20360,
+            "physical": 7573,
+            "skill": .8,
+            "icon": "card_icon_070330003_1.7ad3c207",
+            "passive": "Groovy Bonus 10-30%"
+        },
+        "471": {
+            "id": 471,
+            "character": "Ibuki",
+            "cardname": "Sunset",
+            "unit": "Photon",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 8327,
+            "technical": 20119,
+            "physical": 15210,
+            "skill": .8,
+            "icon": "card_icon_070320003_1.8662f218",
+            "passive": "Life Boost 2.5-7.5%"
+        },
+        "472": {
+            "id": 472,
+            "character": "Saki",
+            "cardname": "Eternal Night",
+            "unit": "Photon",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 14753,
+            "technical": 20017,
+            "physical": 8192,
+            "skill": .8,
+            "icon": "card_icon_070310003_1.0063906e",
+            "passive": "Groovy Solo 20-60%"
         }
     }
 

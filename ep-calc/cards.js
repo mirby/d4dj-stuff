@@ -1029,6 +1029,10 @@ var units = [
         "display":"Call of Artemis"
     },
     {
+        "unit":"Unichord",
+        "display":"UniChØrd"
+    },
+    {
         "unit":"Common",
         "display":"Other"
     }

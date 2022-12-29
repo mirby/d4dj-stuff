@@ -820,6 +820,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "83": {
+        "id":83,
+        "name":"side : origin -Photon Maiden-",
+        "characters":"Saki,Ibuki,Towa,Noa",
+        "type":"Bingo",
+        "style":"Elegant",
+        "parameter":"Technical",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*

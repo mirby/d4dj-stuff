@@ -70,6 +70,10 @@ function generateSongArray() {
                 unit = "Lyrical Lily";
                 unitIcon = "lyrilily";
                 break;
+            case 8:
+                unit = "UniChØrd";
+                unitIcon = "unichord";
+                break;
             default:
                 unit = "Other";
                 unitIcon = "none";
