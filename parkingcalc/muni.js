@@ -102,7 +102,6 @@ const MAXSTEPS= 10000
 		if (isEN) {
 			interval = (type=="Medley")?15000:(type=="Poker/Slots")?4000:(type=="RaidAnni")?4000:10000
 		} else {
-			// Only post-2nd anni bingo interval is known, TODO change other intervals as the events are held
 			interval = (type=="Medley")?15000:(type=="Poker/Slots")?4000:(type=="RaidAnni")?4000:8000
 		}
 		
@@ -118,32 +117,28 @@ const MAXSTEPS= 10000
 			if (voltage>0) {
 				switch (type) {
 					case "Bingo":{
-						if (isEN) {
-							return voltage * Math.floor((1 + bonus) * (Math.max(10, Math.floor(score/interval)) + Math.floor(parameter/600)))
-						} else {
-							return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + bonus) * Math.max(10, Math.floor(score/interval))))
-						}
-					}break;
+						return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + bonus) * Math.max(10, Math.floor(score/interval))))
+					}
 					case "Medley":{
 						if (isEN) {
 							return voltage * Math.floor((1 + bonus) * (10 + Math.floor(score/interval) + Math.floor(parameter/600)))
 						} else {
 							return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + bonus) * (10 + Math.floor(score/interval))))
 						}
-					}break;
+					}
 					case "Poker/Slots":{
 						if (isEN) {
 							return voltage * Math.floor((1 + bonus) * (50 + Math.floor(score/interval) + Math.floor(parameter/600)))
 						} else {
 							return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + bonus) * (50 + Math.floor(score/interval))))
 						}						
-					}break;
+					}
 					case "Raid":{
 						return voltage * Math.floor((1 + bonus) * (50 + Math.floor(score/interval) + Math.floor(parameter/600)))
-					}break;
+					}
 					case "RaidAnni":{
 						return voltage * (100 + Math.floor(score/interval))
-					}break;
+					}
 				}
 			} else {
 				return Math.round(bonus*10)+10
