@@ -830,6 +830,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "84": {
+        "id":84,
+        "name":"Fortune Comes in by a Merry Gate -New Ye4r Wishes-",
+        "characters":"Rika,Marika,Saori,Dalia",
+        "type":"Growth",
+        "style":"None",
+        "parameter":"None",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*
