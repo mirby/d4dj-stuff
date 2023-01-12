@@ -127,11 +127,7 @@ const MAXSTEPS= 10000
 						}
 					}
 					case "Poker/Slots":{
-						if (isEN) {
-							return voltage * Math.floor((1 + bonus) * (50 + Math.floor(score/interval) + Math.floor(parameter/600)))
-						} else {
-							return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + bonus) * (50 + Math.floor(score/interval))))
-						}						
+						return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + bonus) * (50 + Math.floor(score/interval))))
 					}
 					case "Raid":{
 						return voltage * Math.floor((1 + bonus) * (50 + Math.floor(score/interval) + Math.floor(parameter/600)))

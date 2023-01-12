@@ -840,6 +840,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "85": {
+        "id":85,
+        "name":"My Prince -Haruna & Aoi-",
+        "characters":"Aoi,Haruna",
+        "type":"Slots",
+        "style":"Street",
+        "parameter":"Physical",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*

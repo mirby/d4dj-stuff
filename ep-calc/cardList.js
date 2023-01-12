@@ -6704,6 +6704,34 @@ var cards = {
             "skill": .25,
             "icon": "card_icon_030410006_1.017fb2dc",
             "passive": "Auto Boost 1.5-2.5%"
+        },
+        "479": {
+            "id": 479,
+            "character": "Haruna",
+            "cardname": "The Hand That Cannot Reach You -Romeo-",
+            "unit": "LyriLily",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 15513,
+            "technical": 8308,
+            "physical": 19682,
+            "skill": .5,
+            "icon": "card_icon_040620013_1.939b8692",
+            "passive": "Life Boost 2.5-7.5%"
+        },
+        "480": {
+            "id": 480,
+            "character": "Aoi",
+            "cardname": "The Hand That Cannot Reach You -Juliet-",
+            "unit": "Rondo",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 8121,
+            "technical": 15290,
+            "physical": 19655,
+            "skill": .5,
+            "icon": "card_icon_040540014_1.cbe9c40a",
+            "passive": "Groovy Solo 20-60%"
         }
     }
 
