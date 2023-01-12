@@ -13,72 +13,157 @@
   </head>
   <body>
       <a href="index.html">Return to team builder</a>
-      <div class="container">
-        <h1>Action Card Bonus Calculator</h1>
-        <p>Calculate how much param will be gained when using specific action cards</p>
-        <fieldset>
-            <legend>Value Entry</legend>
-            <label>Card Rarity:  </label>
-            <select id="rarity">
-                <option value="4">4 star/SP</option>
-                <option value="3">3 star/CP</option>
-            </select><br>
-            <label>Extra Training Level:  </label>
-            <select id="et">
-                <option value="0">+0</option>
-                <option value="1">+1</option>
-                <option value="2">+2</option>
-                <option value="3">+3</option>
-                <option value="4">+4</option>
-            </select><br>
-            <label>Event Card?  </label>
-            <select id="event">
-                <option value="n">No</option>
-                <option value="y">Yes</option>
-            </select><br>
-            <label>Total Spaces Moved: </label>
-            <select id="move">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-            </select><br>
-            <label>Action Card Multiplier? (Choose 1 for No)</label>
-            <select id="multi">
-                <option value="1">1</option>
-                <option value="1.5">1.5</option>
-                <option value="2">2</option>
-            </select><br>
-            <button id="calculate" onclick="test()">
-                Calculate
-            </button>
-        </fieldset>
-        <br>
-        <fieldset>
-            <legend>Result</legend>
-            <label> Parameter Bonus For All Members (Single param):</label>
-            <span id="result"></span><br>
-            <label> Parameter Bonus For All Members (Total):</label>
-            <span id="result2"></span><br><br>
-            <label> Parameter Bonus For Matching Character (Single param):</label>
-            <span id="charResult"></span><br>
-            <label> Parameter Bonus For Matching Character (Total):</label>
-            <span id="charResult2"></span><br>
-        </fieldset>
-      </div>
-      <br><br>
-      <div class="container">
-        <p>Notes:</p>
+      <div class="container border">
+        <p>Growth Calculator Notes:</p>
         <ul>
             <li>Cards are assumed to be max level (80 for 4 stars, 60 for 3 stars). If they are not leveled, the bonus is lower.</li>
             <li>Green/Red/Character squares apply bonus/minus on a single parameter</li>
-            <li>Event cards are the Happy Around! Christmas cards</li>
+            <li>Event cards are the current event's gacha cards</li>
             <li>If you stop on a boss square, you will only get movement bonus for actual squares moved</li>
             <li>Action Card Multiplier is a result of landing on specific Character squares (Miyu, Aoi, Marika, Kyoko, Event, etc)</li>
         </ul>
-      </div>
+      </div><br>
+      <div class="container">
+            <div class="accordion" id="growthAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="growthHeadingTwo">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#growthCollapseTwo" aria-expanded="true" aria-controls="growthCollapseTwo">
+                            <b>Action Card Bonus Calculator</b>
+                        </button>
+                    </h2>
+                    <div id="growthCollapseTwo" class="accordion-collapse collapse show" aria-labelledby="growthHeadingTwo" data-bs-parent="#growthAccordion">
+                        <div class="accordion-body">
+                            <p>Calculate how much param will be gained when using specific action cards</p>
+                            <fieldset>
+                                <legend>Value Entry</legend>
+                                <label>Card Rarity:  </label>
+                                <select id="rarity">
+                                    <option value="4">4 star</option>
+                                    <option value="3">3 star</option>
+                                </select><br>
+                                <label>Extra Training Level:  </label>
+                                <select id="et">
+                                    <option value="0">Lv1</option>
+                                    <option value="1">Lv2</option>
+                                    <option value="2">Lv3</option>
+                                    <option value="3">Lv4</option>
+                                    <option value="4">Lv5</option>
+                                </select><br>
+                                <label>Event Card?  </label>
+                                <select id="event">
+                                    <option value="no">No</option>
+                                    <option value="yes">Yes</option>
+                                </select><br>
+                                <label>Total Spaces Moved: </label>
+                                <select id="move">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select><br>
+                                <label>Action Card Multiplier? (Choose 1 for No)</label>
+                                <select id="multi">
+                                    <option value="1">1</option>
+                                    <option value="1.5">1.5</option>
+                                    <option value="2">2</option>
+                                </select><br><br>
+                                <a role="button" class="btn btn-primary" id="calculate" onclick="calcBonus()">Calculate</a>
+                            </fieldset><br>
+                            <fieldset>
+                                <legend>Result</legend>
+                                <label> Parameter Bonus For All Members (Single param):</label>
+                                <span id="result"></span><br>
+                                <label> Parameter Bonus For All Members (Total):</label>
+                                <span id="result2"></span><br><br>
+                                <label> Parameter Bonus For Matching Character (Single param):</label>
+                                <span id="charResult"></span><br>
+                                <label> Parameter Bonus For Matching Character (Total):</label>
+                                <span id="charResult2"></span><br>
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="growthHeadingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#growthCollapseOne" aria-expanded="false" aria-controls="growthCollapseOne">
+                            <b>Growth Step Builder</b>
+                        </button>
+                    </h2>
+                    <div id="growthCollapseOne" class="accordion-collapse collapse" aria-labelledby="growthHeadingOne" data-bs-parent="#growthAccordion">
+                        <div class="accordion-body">
+                            <p> Construct multiple steps to see how much bonus you will get for a single character</p>
+                            <fieldset>
+                                <legend>Starting Values</legend>
+                                <div class="row">
+                                    <div class="col">
+                                        <label style="width:150px" for="growthHeart">Heart</label>
+                                        <input style="text-align:right;width:150px" type="number" class="form-control" id="growthHeart" placeholder="0" value="0"><br>
+                                    </div>
+                                    <div class="col">
+                                        <label style="width:150px" for="growthTech">Technical</label>
+                                        <input style="text-align:right;width:150px" type="number" class="form-control" id="growthTech" placeholder="0" value="0"><br>
+                                    </div>
+                                    <div class="col">
+                                        <label style="width:150px" for="growthPhys">Physical</label>
+                                        <input style="text-align:right;width:150px" type="number" class="form-control" id="growthPhys" placeholder="0" value="0"><br>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Add Step</legend>
+                                <div class="row">
+                                    <div class="col">
+                                        <label>Step Type:</label>
+                                        <div id="growthselector_wrapper"></div>
+                                    </div>
+                                </div><br>
+                                <div id="growthType_wrapper"></div><br>
+                                <a role="button" class="btn btn-primary" id="addStep" onclick="addStep()">Add Step</a>
+                                <a role="button" class="btn btn-primary" id="resetSteps" onclick="resetSteps()">Reset Steps</a><br><br>
+                                <div>
+                                    <p>Step List:</p>
+                                    <div style="width:750px;">
+                                        <table id="growthStepTable" style="width:100%;">
+                                            <tbody id="growthStepBody" style="line-height:2;">
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div><br>
+                            </fieldset>
+                            <hr>
+                            <fieldset>
+                                <legend>Result</legend>
+                                <div class="row">
+                                    <div class="col">
+                                        <label style="width:150px" for="growthHeartResult">Heart</label>
+                                        <label style="text-align:right;width:150px" type="text" class="form-control" id="growthHeartResult"></label>
+                                        <span style="font-size: small;" id="heartChange"></span>
+                                    </div>
+                                    <div class="col">
+                                        <label style="width:150px" for="growthTechResult">Technical</label>
+                                        <label style="text-align:right;width:150px" type="text" class="form-control" id="growthTechResult"></label>
+                                        <span style="font-size: small;" id="techChange"></span>
+                                    </div>
+                                    <div class="col">
+                                        <label style="width:150px" for="growthPhysResult">Physical</label>
+                                        <label style="text-align:right;width:150px" type="text" class="form-control" id="growthPhysResult"></label>
+                                        <span style="font-size: small;" id="physChange"></span>
+                                    </div>
+                                    <div class="col">
+                                        <label style="width:150px" for="growthTotalResult">Total</label>
+                                        <label style="text-align:right;width:150px" type="text" class="form-control" id="growthTotalResult"></label>
+                                        <span style="font-size: small;" id="totalChange"></span>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </div><br>
+      <hr>
 
       <script>
-
+        createGrowthSelects();
       </script>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
