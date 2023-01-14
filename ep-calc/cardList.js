@@ -6708,7 +6708,7 @@ var cards = {
         "479": {
             "id": 479,
             "character": "Haruna",
-            "cardname": "The Hand That Cannot Reach You -Romeo-",
+            "cardname": "I Can't Reach You -Romeo-",
             "unit": "LyriLily",
             "type": "Street",
             "rarity": 4,
@@ -6722,7 +6722,7 @@ var cards = {
         "480": {
             "id": 480,
             "character": "Aoi",
-            "cardname": "The Hand That Cannot Reach You -Juliet-",
+            "cardname": "I Can't Reach You -Juliet-",
             "unit": "Rondo",
             "type": "Street",
             "rarity": 4,
