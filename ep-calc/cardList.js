@@ -6732,6 +6732,62 @@ var cards = {
             "skill": .5,
             "icon": "card_icon_040540014_1.cbe9c40a",
             "passive": "Groovy Solo 20-60%"
+        },
+        "481": {
+            "id": 481,
+            "character": "Hiiro",
+            "cardname": "Illumination and Illusion",
+            "unit": "Rondo",
+            "type": "Street",
+            "rarity": 3,
+            "heart": 17423,
+            "technical": 6120,
+            "physical": 8157,
+            "skill": .3,
+            "icon": "card_icon_030530006_1.87365866",
+            "passive": "Life Boost 1-2.5%"
+        },
+        "482": {
+            "id": 482,
+            "character": "Miiko",
+            "cardname": "Pretty meets Mysterious",
+            "unit": "LyriLily",
+            "type": "Street",
+            "rarity": 3,
+            "heart": 17462,
+            "technical": 8508,
+            "physical": 6156,
+            "skill": .3,
+            "icon": "card_icon_030640008_1.b4207914",
+            "passive": "Groovy Solo 10-20%"
+        },
+        "483": {
+            "id": 483,
+            "character": "Rika",
+            "cardname": "Hyped and hyped",
+            "unit": "Mermaid",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 19538,
+            "technical": 8576,
+            "physical": 14192,
+            "skill": .6,
+            "icon": "card_icon_040410012_1.6aa287f0",
+            "passive": "Groovy Bonus 10-30%"
+        },
+        "484": {
+            "id": 484,
+            "character": "Rei",
+            "cardname": "Disciple playing and Master conducting",
+            "unit": "HapiAra",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 19643,
+            "technical": 15699,
+            "physical": 7831,
+            "skill": .6,
+            "icon": "card_icon_040140013_1.d8dec1b7",
+            "passive": "Auto Boost 2.5-8%"
         }
     }
 

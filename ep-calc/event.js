@@ -850,6 +850,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "86": {
+        "id":86,
+        "name":"side:nova : season 2 -Opening Act-",
+        "characters":"Rei,Rika,Hiiro,Miiko",
+        "type":"Medley",
+        "style":"Street",
+        "parameter":"Heart",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*
