@@ -492,6 +492,14 @@
                             <div id="filter-rarity">
                                 <label class="filter_text"><u>Filter by rarity:</u></label><br>
                                 <div class="d4dj_filter">
+                                    <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_1" name="filter_1" class="filter_clear filter_rarity" value="1">
+                                    <label class="filter_label" for="filter_1"><img src="../icons/icon_rarityNorm.png" width='30' height='30'></img></label>
+                                </div>
+                                <div class="d4dj_filter">
+                                    <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_2" name="filter_2" class="filter_clear filter_rarity" value="2">
+                                    <label class="filter_label" for="filter_2"><img src="../icons/icon_rarityNorm.png" width='30' height='30'></img><img src="../icons/icon_rarityNorm.png" width='30' height='30'></img></label>
+                                </div>
+                                <div class="d4dj_filter">
                                     <input type="checkbox" onclick="generateFilters(cardArray)" id="filter_3" name="filter_3" class="filter_clear filter_rarity" value="3">
                                     <label class="filter_label" for="filter_3"><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img><img src="../icons/icon_rarityEvo.png" width='30' height='30'></img></label>
                                 </div>
@@ -626,11 +634,11 @@
                     <thead>
                         <tr>
                             <th class="heart_color" scope="col">Total Heart</th>
-                            <th class="heart_color" scope="col">Heart EP</th>
+                            <th class="heart_color" scope="col">Main Team %</th>
                             <th class="tech_color" scope="col">Total Tech</th>
-                            <th class="tech_color" scope="col">Tech EP</th>
+                            <th class="tech_color" scope="col">Main Team %</th>
                             <th class="phys_color" scope="col">Total Phys</th>
-                            <th class="phys_color" scope="col">Phys EP</th>
+                            <th class="phys_color" scope="col">Main Team %</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -730,13 +738,13 @@
                                     <input style="text-align:right;width:150px" type="text" class="form-control" id="teambonus" name="teambonus" placeholder="200" value="200"><br>
                                     <span style="margin-top:15px;display:inline-block;width:150px">
                                         <span class="paramtip">
-                                            <label for="paramselout">Parameter <i class="fa fa-info-circle"></i></label>
+                                            <label for="paramselout">Parameter % <i class="fa fa-info-circle"></i></label>
                                             <span class="paramoptiontip">
-                                                If the event is Bingo or Medley, you MUST go to Free Live unit select screen to see the actual parameter value.
+                                                See example image for calculating param bonus: <a href="../parkingcalc/parambonus_new.png" target="_blank">Example</a>
                                             </span>
                                         </span>
                                     </span>
-                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="paramselout" placeholder="75000" value="75000"><br>
+                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="paramselout" placeholder="40" value="40"><br>
                                     <label style="margin-top:15px;width:150px" for="voltsel">Volts</label>
                                     <select class="selectpicker voltselect" name="voltsel" id="voltsel" data-width="fit">
                                         <option value="1" data-content="1">1</option>
@@ -816,13 +824,13 @@
                                     <input style="text-align:right;width:150px" type="text" class="form-control" id="roomscorein2" placeholder="4000000"><br>
                                     <span style="margin-top:15px;display:inline-block;width:150px">
                                         <span class="paramtip">
-                                            <label for="paramselout2">Parameter <i class="fa fa-info-circle"></i></label>
+                                            <label for="paramselout2">Parameter % <i class="fa fa-info-circle"></i></label>
                                             <span class="paramoptiontip">
-                                                If the event is Bingo or Medley, you MUST go to Free Live unit select screen to see the actual parameter value.
+                                                See example image for calculating param bonus: <a href="../parkingcalc/parambonus_new.png" target="_blank">Example</a>
                                             </span>
                                         </span>
                                     </span>
-                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="paramselout2" placeholder="75000" value="75000"><br>
+                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="paramselout2" placeholder="40" value="40"><br>
                                     <label style="margin-top:15px;width:150px" for="teambonus2">Bonus %</label>
                                     <input style="text-align:right;width:150px" type="text" class="form-control" id="teambonus2" name="teambonus2" placeholder="200" value="200"><br>
                                     <label style="margin-top:15px;width:150px" for="voltsel2">Volts</label>

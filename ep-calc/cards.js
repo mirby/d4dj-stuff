@@ -901,45 +901,71 @@ function calcDisplayParams() {
     var totalTech = 0;
     var totalPhys = 0;
 
+    var heartPerc = 0;
+    var techPerc = 0;
+    var physPerc = 0;
+
     for (let i = 1; i <= 4; i++) {
         totalHeart += parseInt(document.getElementById("m" + i + "_heartclub").innerHTML) || 0;
-        totalHeart += parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) || 0;
+        var heartMod = parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) || 0;
+        totalHeart += heartMod;
 
         var suppMod = parseInt(document.getElementById("s" + i + "_heartmod").innerHTML) || 0;
         totalHeart += Math.floor(suppMod / 4);
 
         totalTech += parseInt(document.getElementById("m" + i + "_techclub").innerHTML) || 0;
-        totalTech += parseInt(document.getElementById("m" + i + "_techmod").innerHTML) || 0;
+        var techMod = parseInt(document.getElementById("m" + i + "_techmod").innerHTML) || 0;
+        totalTech += techMod;
 
         suppMod = parseInt(document.getElementById("s" + i + "_techmod").innerHTML) || 0;
         totalTech += Math.floor(suppMod / 4);
 
         totalPhys += parseInt(document.getElementById("m" + i + "_physclub").innerHTML) || 0;
-        totalPhys += parseInt(document.getElementById("m" + i + "_physmod").innerHTML) || 0;
+        var physMod = parseInt(document.getElementById("m" + i + "_physmod").innerHTML) || 0;
+        totalPhys += physMod;
 
         suppMod = parseInt(document.getElementById("s" + i + "_physmod").innerHTML) || 0;
         totalPhys += Math.floor(suppMod / 4);
-    }
 
-    var highest = "";
-    if (totalHeart > totalTech) {
-        if (totalHeart > totalPhys) {
-            highest = "heart";
+        var highest = "";
+        if (heartMod > techMod) {
+            if (heartMod > physMod) {
+                highest = "heart";
+            } else {
+                highest = "phys";
+            }
+        } else if (techMod > physMod) {
+            highest = "tech";
         } else {
             highest = "phys";
         }
-    } else if (totalTech > totalPhys) {
-        highest = "tech";
-    } else {
-        highest = "phys";
+
+        if (highest === "heart") {
+            heartPerc += 10;
+            if (heartMod >= 21000) {
+                heartPerc += Math.floor((heartMod - 20000) / 1000);
+            } 
+        } else if (highest === "tech") {
+            techPerc += 10;
+            if (techMod >= 21000) {
+                techPerc += Math.floor((techMod - 20000) / 1000);
+            }
+        } else {
+            physPerc += 10;
+            if (physMod >= 21000) {
+                physPerc += Math.floor((physMod - 20000) / 1000);
+            }
+        }
     }
 
+
+
     document.getElementById("paramtotal_heart").innerHTML = totalHeart;
-    document.getElementById("paramtotal_heartep").innerHTML = Math.round(((totalHeart / 600) + Number.EPSILON) * 100) / 100;
+    document.getElementById("paramtotal_heartep").innerHTML = heartPerc + "%";
     document.getElementById("paramtotal_technical").innerHTML = totalTech;
-    document.getElementById("paramtotal_technicalep").innerHTML = Math.round(((totalTech / 600) + Number.EPSILON) * 100) / 100;
+    document.getElementById("paramtotal_technicalep").innerHTML = techPerc + "%";
     document.getElementById("paramtotal_physical").innerHTML = totalPhys;
-    document.getElementById("paramtotal_physicalep").innerHTML = Math.round(((totalPhys / 600) + Number.EPSILON) * 100) / 100;
+    document.getElementById("paramtotal_physicalep").innerHTML = physPerc + "%";
 
     $.refreshParamSelect2();
 }

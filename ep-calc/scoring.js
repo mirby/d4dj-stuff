@@ -50,7 +50,7 @@ function calcByPower() {
     }
     
     var bonus = (parseInt(document.getElementById("teambonus").value) / 100) + 1;
-    var param = Math.floor(parseInt(document.getElementById("paramselout").value) / 600);
+    var param = (parseInt(document.getElementById("paramselout").value) / 100) + 1;
     var volts = parseInt(document.getElementById("voltsel").value);
     var roomscore = parseInt(document.getElementById("roomscorein").value);
     if (isNaN(roomscore) || roomscore == 0) {
@@ -84,7 +84,7 @@ function calcByScore() {
     // Get values
     var score = parseInt(document.getElementById("scorein").value);
     var bonus = (parseInt(document.getElementById("teambonus2").value) / 100) + 1;
-    var param = Math.floor(parseInt(document.getElementById("paramselout2").value) / 600);
+    var param = (parseInt(document.getElementById("paramselout2").value) / 100) + 1;
     var volts = parseInt(document.getElementById("voltsel2").value);
     var type = document.getElementById("eventsel2").value.toLowerCase();
     var roomscore = parseInt(document.getElementById("roomscorein2").value);
@@ -117,7 +117,7 @@ function calculateEp(type, scoreMap, bonus, param, volts, roomscore) {
 
     switch(type) {
         case "poker":
-            result = volts * Math.floor(bonus * (50 + Math.floor(scoreAuto / 4000) + param));
+            result = volts * Math.floor(param * Math.floor(bonus * (50 + Math.floor(scoreAuto / 4000))));
             valueMap.set("Multi Live EP - Auto", result);
 
             valueMap.set("Multi Live Score - Auto (Estimated)", scoreAuto);
@@ -125,19 +125,19 @@ function calculateEp(type, scoreMap, bonus, param, volts, roomscore) {
             result = volts * Math.floor(bonus * (30 + Math.floor(score / 10000)));
             valueMap.set("Bet Coins", result);
 
-            result = volts * Math.floor(bonus * (50 + Math.floor(score / 4000) + param));
+            result = volts * Math.floor(param * Math.floor(bonus * (50 + Math.floor(score / 4000))));
             valueMap.set("Multi Live EP", result);
 
             valueMap.set("Multi Live Score (Estimated)", score);
 
-            result = volts * Math.floor(bonus * (50 + Math.floor(scoreSolo / 4000) + param));
+            result = volts * Math.floor(param * Math.floor(bonus * (50 + Math.floor(scoreSolo / 4000))));
             valueMap.set("Free Live EP", result);
 
             valueMap.set("Free Live Score (Estimated)", scoreSolo);
 
             break;
         case "slots":
-            result = volts * Math.floor(bonus * (50 + Math.floor(scoreAuto / 4000) + param));
+            result = volts * Math.floor(param * Math.floor(bonus * (50 + Math.floor(scoreAuto / 4000))));
             valueMap.set("Multi Live EP - Auto", result);
 
             valueMap.set("Multi Live Score - Auto (Estimated)", scoreAuto);
@@ -145,19 +145,19 @@ function calculateEp(type, scoreMap, bonus, param, volts, roomscore) {
             result = volts * Math.floor(bonus * (150 + Math.floor(score / 8000)));
             valueMap.set("Slot Medals", result);
 
-            result = volts * Math.floor(bonus * (50 + Math.floor(score / 4000) + param));
+            result = volts * Math.floor(param * Math.floor(bonus * (50 + Math.floor(score / 4000))));
             valueMap.set("Multi Live EP", result);
 
             valueMap.set("Multi Live Score (Estimated)", score);
 
-            result = volts * Math.floor(bonus * (50 + Math.floor(scoreSolo / 4000) + param));
+            result = volts * Math.floor(param * Math.floor(bonus * (50 + Math.floor(scoreSolo / 4000))));
             valueMap.set("Free Live EP", result);
 
             valueMap.set("Free Live Score (Estimated)", scoreSolo);
 
             break;
         case "medley":
-            result = Math.floor(bonus * (100 + Math.floor(scoreSolo2 / 1000) + param));
+            result = Math.floor(param * Math.floor(bonus * (100 + Math.floor(scoreSolo2 / 1000))));
             valueMap.set("Task Medley EP (100 tickets)", result);
 
             valueMap.set("Task Medley Score (Estimated)", scoreSolo2);
@@ -167,53 +167,55 @@ function calculateEp(type, scoreMap, bonus, param, volts, roomscore) {
             valueMap.set("Challenge Tickets - Auto", (result || "-") + "-" + (result2 || "-"));
 
             var roomscoreAuto = scoreAuto * 4;
-            result = volts * Math.floor(bonus * (10 + Math.floor(scoreAuto / 10000) + Math.max(10, Math.floor(roomscoreAuto / 80000)) + param));
+            result = volts * Math.floor(param * Math.floor(bonus * (10 + Math.floor(scoreAuto / 10000) + Math.max(10, Math.floor(roomscoreAuto / 80000)))));
             valueMap.set("Multi-Medley Live EP - Auto", result);
+
+            valueMap.set("Multi-Medley Live Score - Auto (Estimated)", scoreAuto);
 
             result = volts * (15 + Math.floor(score / 50000));
             result2 = volts * (20 + Math.floor(score / 50000));
             valueMap.set("Challenge Tickets", (result || "-") + "-" + (result2 || "-"));
 
-            result = volts * Math.floor(bonus * (10 + Math.floor(score / 10000) + Math.max(10, Math.floor(roomscore / 80000)) + param));
+            result = volts * Math.floor(param * Math.floor(bonus * (10 + Math.floor(score / 10000) + Math.max(10, Math.floor(roomscore / 80000)))));
             valueMap.set("Multi-Medley Live EP", result);
 
-            result = volts * Math.floor(bonus * (10 + Math.floor(score / 15000) + param));
+            result = volts * Math.floor(param * Math.floor(bonus * (10 + Math.floor(score / 15000))));
             valueMap.set("Multi Live EP", result);
 
             valueMap.set("Multi Live Score (Estimated)", score);
 
-            result = volts * Math.floor(bonus * (10 + Math.floor(scoreSolo / 15000) + param));
+            result = volts * Math.floor(param * Math.floor(bonus * (10 + Math.floor(scoreSolo / 15000))));
             valueMap.set("Free Live EP", result);
 
             valueMap.set("Free Live Score (Estimated)", scoreSolo);
 
             break;
         case "bingo":
-            result = volts * Math.floor(bonus * (150 + Math.max(10, Math.floor(scoreAutoSolo2 / 10000)) + param));
+            result = volts * Math.floor(param * Math.floor(bonus * (150 + Math.max(10, Math.floor(scoreAutoSolo2 / 8000)))));
             valueMap.set("Battle Live EP - Auto (First)", result);
 
             valueMap.set("Battle Live Score - Auto (Estimated)", scoreAutoSolo2);
 
-            result = volts * Math.floor(bonus * (110 + Math.max(10, Math.floor(scoreSolo2 / 10000)) + param));
+            result = volts * Math.floor(param * Math.floor(bonus * (110 + Math.max(10, Math.floor(scoreSolo2 / 8000)))));
             valueMap.set("Battle Live EP (Fourth)", result);
 
-            result = volts * Math.floor(bonus * (125 + Math.max(10, Math.floor(scoreSolo2 / 10000)) + param));
+            result = volts * Math.floor(param * Math.floor(bonus * (125 + Math.max(10, Math.floor(scoreSolo2 / 8000)))));
             valueMap.set("Battle Live EP (Third)", result);
 
-            result = volts * Math.floor(bonus * (135 + Math.max(10, Math.floor(scoreSolo2 / 10000)) + param));
+            result = volts * Math.floor(param * Math.floor(bonus * (135 + Math.max(10, Math.floor(scoreSolo2 / 8000)))));
             valueMap.set("Battle Live EP (Second)", result);
 
-            result = volts * Math.floor(bonus * (150 + Math.max(10, Math.floor(scoreSolo2 / 10000)) + param));
+            result = volts * Math.floor(param * Math.floor(bonus * (150 + Math.max(10, Math.floor(scoreSolo2 / 8000)))));
             valueMap.set("Battle Live EP (First)", result);
 
             valueMap.set("Battle Live Score (Estimated)", scoreSolo2);
 
-            result = volts * Math.floor(bonus * (Math.max(10, Math.floor(score / 10000)) + param));
+            result = volts * Math.floor(param * Math.floor(bonus * (Math.max(10, Math.floor(score / 8000)))));
             valueMap.set("Multi Live EP", result);
 
             valueMap.set("Multi Live Score (Estimated)", score);
 
-            result = volts * Math.floor(bonus * (Math.max(10, Math.floor(scoreSolo / 10000)) + param));
+            result = volts * Math.floor(param * Math.floor(bonus * (Math.max(10, Math.floor(scoreSolo / 8000)))));
             valueMap.set("Free Live EP", result);
 
             valueMap.set("Free Live Score (Estimated)", scoreSolo);
@@ -275,7 +277,7 @@ function calculateEpScore(type, score, bonus, param, volts, roomscore) {
                 result = volts * Math.floor(bonus * (30 + Math.floor(score / 10000)));
                 valueMap.set("Bet Coins", result);
 
-                result = volts * Math.floor(bonus * (50 + Math.floor(score / 4000) + param));
+                result = volts * Math.floor(param * Math.floor(bonus * (50 + Math.floor(score / 4000))));
                 valueMap.set("Free Live/Multi Live EP", result);
 
                 break;
@@ -283,39 +285,39 @@ function calculateEpScore(type, score, bonus, param, volts, roomscore) {
                 result = volts * Math.floor(bonus * (150 + Math.floor(score / 8000)));
                 valueMap.set("Slot Medals", result);
 
-                result = volts * Math.floor(bonus * (50 + Math.floor(score / 4000) + param));
+                result = volts * Math.floor(param * Math.floor(bonus * (50 + Math.floor(score / 4000))));
                 valueMap.set("Free Live/Multi Live EP", result);
 
                 break;
             case "medley":
-                result = Math.floor(bonus * (100 + Math.floor(score / 1000) + param));
+                result = Math.floor(param * Math.floor(bonus * (100 + Math.floor(score / 1000))));
                 valueMap.set("Task Medley EP", result);
 
                 result = volts * (15 + Math.floor(score / 50000));
                 var result2 = volts * (20 + Math.floor(score / 50000));
                 valueMap.set("Challenge Tickets", (result || "-") + "-" + (result2 || "-"));
 
-                result = volts * Math.floor(bonus * (10 + Math.floor(score / 10000) + Math.max(10, Math.floor(roomscore / 80000)) + param));
+                result = volts * Math.floor(param * Math.floor(bonus * (10 + Math.floor(score / 10000) + Math.max(10, Math.floor(roomscore / 80000)))));
                 valueMap.set("Multi-Medley Live EP", result);
 
-                result = volts * Math.floor(bonus * (10 + Math.floor(score / 15000) + param));
+                result = volts * Math.floor(param * Math.floor(bonus * (10 + Math.floor(score / 15000))));
                 valueMap.set("Free Live/Multi Live EP", result);
 
                 break;
             case "bingo":
-                result = volts * Math.floor(bonus * (110 + Math.max(10, Math.floor(score / 10000)) + param));
+                result = volts * Math.floor(param * Math.floor(bonus * (110 + Math.max(10, Math.floor(score / 8000)))));
                 valueMap.set("Battle Live EP (Fourth)", result);
 
-                result = volts * Math.floor(bonus * (125 + Math.max(10, Math.floor(score / 10000)) + param));
+                result = volts * Math.floor(param * Math.floor(bonus * (125 + Math.max(10, Math.floor(score / 8000)))));
                 valueMap.set("Battle Live EP (Third)", result);
     
-                result = volts * Math.floor(bonus * (135 + Math.max(10, Math.floor(score / 10000)) + param));
+                result = volts * Math.floor(param * Math.floor(bonus * (135 + Math.max(10, Math.floor(score / 8000)))));
                 valueMap.set("Battle Live EP (Second)", result);
 
-                result = volts * Math.floor(bonus * (150 + Math.max(10, Math.floor(score / 10000)) + param));
+                result = volts * Math.floor(param * Math.floor(bonus * (150 + Math.max(10, Math.floor(score / 8000)))));
                 valueMap.set("Battle Live EP (First)", result);
 
-                result = volts * Math.floor(bonus * (Math.max(10, Math.floor(score / 10000)) + param));
+                result = volts * Math.floor(param * Math.floor(bonus * (Math.max(10, Math.floor(score / 8000)))));
                 valueMap.set("Free Live/Multi Live EP", result);
 
                 break;
@@ -326,8 +328,8 @@ function calculateEpScore(type, score, bonus, param, volts, roomscore) {
                 result = volts * (300 + Math.floor(score / 6000));
                 valueMap.set("Free Live/Multi Live EP (Precure/Dengeki)", result);
 
-                result = volts * Math.floor(bonus * (50 + Math.floor(score / 10000) + param));
-                valueMap.set("Free Live/Multi Live EP (D4FES)", result);
+                // result = volts * Math.floor(bonus * (50 + Math.floor(score / 10000) + param));
+                // valueMap.set("Free Live/Multi Live EP (D4FES)", result);
 
                 break;
         }
@@ -543,7 +545,7 @@ function importTeam() {
     if (paramtype === "None") {
         paramtype = "heart";
     }
-    var param = document.getElementById("paramtotal_" + paramtype.toLowerCase()).innerHTML;
+    var param = document.getElementById("paramtotal_" + paramtype.toLowerCase() + "ep").innerHTML.slice(0, -1);
 
     var skillList = "";
     var bonus = 0;
@@ -603,11 +605,7 @@ function importTeam() {
     //     document.getElementById("powerin3").value = 400000;
     // }
 
-    if (param != 0) {
-        document.getElementById("paramselout").value = param;
-    } else {
-        document.getElementById("paramselout").value = 75000;
-    }
+    document.getElementById("paramselout").value = param;
 
     if (isNaN(bonus)) {
         bonus = 0;
@@ -777,7 +775,7 @@ function importTeam2() {
     if (paramtype === "None") {
         paramtype = "heart";
     }
-    var param = document.getElementById("paramtotal_" + paramtype.toLowerCase()).innerHTML;
+    var param = document.getElementById("paramtotal_" + paramtype.toLowerCase() + "ep").innerHTML.slice(0, -1);
 
     var bonus = 0;
     for (let i = 1; i <= 4; i++) {
@@ -785,11 +783,7 @@ function importTeam2() {
         bonus = parseFloat(bonus.toFixed(2));
     }
 
-    if (param != 0) {
-        document.getElementById("paramselout2").value = param;
-    } else {
-        document.getElementById("paramselout2").value = 75000;
-    }
+    document.getElementById("paramselout2").value = param;
 
     if (isNaN(bonus)) {
         bonus = 0;
