@@ -11,10 +11,15 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="combined.js"></script>
     <script src="songs.js"></script>
+    <script src="jptimeline.js"></script>
+    <script src="entimeline.js"></script>
   </head>
   <body>
       <a href="index.html">Return to team builder</a>
+      <div id="chartContainer" class="container" style="height: 370px; width: 100%;"></div>
+      <div id="chartContainer2" class="container" style="height: 370px; width: 100%;"></div><hr>
       <div class="container">
+        <p class="text-center" style="font-size:25px; font-weight: bold;">EN Song Gap List</p>
         <p style="font-size:large;"><b>Last Updated: <span id="updated"></span></b></p>
         <p style="font-size:large;"><b>Songs not in EN: <span id="songCount"></span></b><span style="font-size: small";>   (List does not include songs in EN but not in JP)</span></p>
         <div class="sortsection">
@@ -36,16 +41,68 @@
               <label class="form-check-label" for="sortOptions4">Name</label>
           </div>
       </div>
-        <div id="songTableWrapper"></div>
-      </div>
-
+      <div id="songTableWrapper"></div>
+      
       <script>
         generateSongArray();
         songArray.sort(songDefaultSort());
         displaySongList(songArray);
+        var list = generateJpTimeline();
+        var list2 = generateEnTimeline();
+        window.onload = function () {
+          var chart = new CanvasJS.Chart("chartContainer", {
+            theme: "light2",
+            animationEnabled: true,
+            title: {
+              text: "Songs added in 2022 (JP) - " + jptotal
+            },
+            axisX: {
+              interval: 1,
+              intervalType: "month",
+              valueFormatString: "MMM"
+            },
+            axisY: {
+              minimum: 0,
+              maximum: 26,
+              interval:2,
+              title: "Count",
+            },
+            data: [{
+              type: "line",
+              dataPoints: list
+            }]
+          })
+          chart.render();
+
+          var chart2 = new CanvasJS.Chart("chartContainer2", {
+            theme: "light2",
+            animationEnabled: true,
+            title: {
+              text: "Songs added in 2022 (EN) - " + entotal
+            },
+            axisX: {
+              interval: 1,
+              intervalType: "month",
+              valueFormatString: "MMM"
+            },
+            axisY: {
+              minimum: 0,
+              maximum: 26,
+              interval: 2,
+              title: "Count",
+            },
+            data: [{
+              type: "line",
+              dataPoints: list2
+            }]
+          })
+          chart2.render();
+        }
+        //test();
       </script>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/js/bootstrap-select.min.js"></script>
+      <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
   </body>
 </html>

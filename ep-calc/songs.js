@@ -187,3 +187,36 @@ function displaySongList(arr) {
     document.getElementById("songCount").innerHTML = enCount;
     document.getElementById("songTableWrapper").appendChild(table);
 }
+
+var jptotal = 0;
+var entotal = 0;
+function generateJpTimeline() {
+    var timelineList = [];
+    Object.keys(jpTimeline).forEach(function(key) {
+        timelineList.push({
+            x : new Date(key),
+            y : jpTimeline[key]
+        })
+        jptotal += jpTimeline[key];
+    });
+    return timelineList;
+}
+
+function generateEnTimeline() {
+    var timelineList = [];
+    Object.keys(enTimeline).forEach(function(key) {
+        timelineList.push({
+            x : new Date(key),
+            y : enTimeline[key]
+        })
+        entotal += enTimeline[key];
+    });
+    return timelineList;
+}
+
+function test() {
+    var key = Object.keys(jpTimeline)[0];
+    console.log(key);
+    console.log(jpTimeline[key]);
+
+}
