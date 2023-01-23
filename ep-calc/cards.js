@@ -599,25 +599,66 @@ function calcDisplayPower() {
     document.getElementById("power_support").innerHTML = totalSupportPower;
     document.getElementById("power_event").innerHTML = totalEventPower;
 
-    // Medley power
-    var totalMedleyPower = 0;
-    if (document.getElementById("eventtype").innerHTML === "Medley") {
-        if (document.getElementById("medleychars").value.toLowerCase() !== "none") {
-            for (let i = 1; i <= 4; i++) {
-                if ((document.getElementById("m" + i + "_char").innerHTML.toLowerCase()) === document.getElementById("medleychars").value.toLowerCase()) {
-                    var heart = Math.floor(parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) * .1);
-                    var tech = Math.floor(parseInt(document.getElementById("m" + i + "_techmod").innerHTML) * .1);
-                    var phys = Math.floor(parseInt(document.getElementById("m" + i + "_physmod").innerHTML) * .1);
-                    totalMedleyPower = heart + tech + phys;
-                    break;
-                }
-            }
-        }
-    }
+    var totalMedleyPower = getMedleyPower();
     document.getElementById("power_medley").innerHTML = totalMedleyPower;
 
     document.getElementById("power_totalwo").innerHTML = totalMainPower + totalClubPower + totalSupportPower;
     document.getElementById("power_total").innerHTML = totalMainPower + totalClubPower + totalSupportPower + totalEventPower + totalMedleyPower;
+}
+
+function getMedleyPower() {
+
+    // Medley event cards 
+    var cardSet = {
+        "86":["Disciple playing and Master conducting", "Hyped and hyped", "Illumination and Illusion", "Pretty meets Mysterious"],
+    };
+
+    var charList = [];
+    var eventId = document.getElementById("eventid").innerHTML;
+    var cardList = cardSet[eventId];
+    for (let x of eventList[eventId].characters.split(",")) {
+        charList.push(x.toLowerCase());
+    }
+
+    var isNewType = false;
+    if (cardSet.hasOwnProperty(eventId)) {
+        isNewType = true;
+    }
+
+    // Medley power
+    var totalMedleyPower = 0;
+    if (document.getElementById("eventtype").innerHTML === "Medley") {
+        var medleyChar = document.getElementById("medleychars").value.toLowerCase();
+        if (isNewType) { // New medleys give +50% to specific card per medley
+            for (let i = 1; i <= 4; i++) {
+                if ((document.getElementById("m" + i + "_char").innerHTML.toLowerCase()) === medleyChar) {
+                    var cardNameFull = document.getElementById("m" + i + "_charfull").innerHTML;
+                    var cardName = cardNameFull.slice(cardNameFull.indexOf("-") + 1).substring(1);
+                    if (cardList.includes(cardName)) {
+                        var heart = Math.floor(parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) * .5);
+                        var tech = Math.floor(parseInt(document.getElementById("m" + i + "_techmod").innerHTML) * .5);
+                        var phys = Math.floor(parseInt(document.getElementById("m" + i + "_physmod").innerHTML) * .5);
+                        totalMedleyPower = heart + tech + phys;
+                        return totalMedleyPower;
+                    }
+                }
+            }
+        } else { // Old medleys gave +10% to specific character per medley
+            if (medleyChar !== "none") {
+                for (let i = 1; i <= 4; i++) {
+                    if ((document.getElementById("m" + i + "_char").innerHTML.toLowerCase()) === medleyChar) {
+                        var heart = Math.floor(parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) * .1);
+                        var tech = Math.floor(parseInt(document.getElementById("m" + i + "_techmod").innerHTML) * .1);
+                        var phys = Math.floor(parseInt(document.getElementById("m" + i + "_physmod").innerHTML) * .1);
+                        totalMedleyPower = heart + tech + phys;
+                        return totalMedleyPower;
+                    }
+                }
+            }
+        }
+    }
+
+    return totalMedleyPower;
 }
 
 /*

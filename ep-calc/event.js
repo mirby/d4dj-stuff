@@ -95,10 +95,6 @@ function refreshEventSelect() {
 function populateCharSelectMed() {
     var eventid = document.getElementById("eventid").innerHTML;
     var charArray = eventList[eventid].characters.split(",");
-    var charSet = new Set();
-    for (let x of charArray) {
-        charSet.add(x);
-    }
 
     if (document.getElementById("eventmedleychar").hasChildNodes()) {
         document.getElementById("eventmedleychar").removeChild(document.getElementById("eventmedleychar").firstChild);
@@ -112,19 +108,19 @@ function populateCharSelectMed() {
     select.setAttribute("data-width","fit");
     select.setAttribute("data-size","10");
 
-    charSet.forEach(function(x) {
+    for (let x of charArray) {
         var option = document.createElement("option");
         option.value = x;
         option.setAttribute("data-tokens", x.toLowerCase());
         option.setAttribute("data-content","<img src='../icons/icon_" + x.toLowerCase() + ".png' width='30' height='30'></img>" + ' ' + x);
         select.appendChild(option);        
-    });
+    }
 
-    var option = document.createElement("option");
-    option.value = "none";
-    option.setAttribute("data-tokens", "none");
-    option.setAttribute("data-content","None");
-    select.appendChild(option); 
+    // var option = document.createElement("option");
+    // option.value = "none";
+    // option.setAttribute("data-tokens", "none");
+    // option.setAttribute("data-content","None");
+    // select.appendChild(option); 
 
     document.getElementById("eventmedleychar").appendChild(select);
 }
