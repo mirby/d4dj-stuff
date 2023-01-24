@@ -190,28 +190,50 @@ function displaySongList(arr) {
 
 var jptotal = 0;
 var entotal = 0;
-function generateJpTimeline() {
-    var timelineList = [];
+var jpList = [];
+var enList = [];
+var max = 0;
+
+function generateTimelines() {
+    var firstDateJp;
+    var firstDateEn;
+    firstDateJp = new Date(Object.keys(jpTimeline)[0]);
+    firstDateEn = new Date(Object.keys(enTimeline)[0]);
+    if (firstDateJp < firstDateEn) {
+        enList.push({
+            x : firstDateJp,
+            y : 0
+        });
+    } else if (firstDateJp > firstDateEn) { 
+        jpList.push({
+            x : firstDateEn,
+            y : 0
+        });
+    }
+    
     Object.keys(jpTimeline).forEach(function(key) {
-        timelineList.push({
+        setMax(jpTimeline[key]);
+        jpList.push({
             x : new Date(key),
             y : jpTimeline[key]
-        })
+        });
         jptotal += jpTimeline[key];
     });
-    return timelineList;
-}
 
-function generateEnTimeline() {
-    var timelineList = [];
     Object.keys(enTimeline).forEach(function(key) {
-        timelineList.push({
+        setMax(enTimeline[key]);
+        enList.push({
             x : new Date(key),
             y : enTimeline[key]
-        })
+        });
         entotal += enTimeline[key];
     });
-    return timelineList;
+}
+
+function setMax(num) {
+    if (num > max) {
+        max = num;
+    }
 }
 
 function test() {

@@ -16,11 +16,11 @@
   </head>
   <body>
       <a href="index.html">Return to team builder</a>
+      <p style="font-size:large;"><b>Last Updated: <span id="updated"></span></b></p>
       <div id="chartContainer" class="container" style="height: 370px; width: 100%;"></div>
       <div id="chartContainer2" class="container" style="height: 370px; width: 100%;"></div><hr>
       <div class="container">
         <p class="text-center" style="font-size:25px; font-weight: bold;">EN Song Gap List</p>
-        <p style="font-size:large;"><b>Last Updated: <span id="updated"></span></b></p>
         <p style="font-size:large;"><b>Songs not in EN: <span id="songCount"></span></b><span style="font-size: small";>   (List does not include songs in EN but not in JP)</span></p>
         <div class="sortsection">
           <span><b>Sort By:     </b></span>
@@ -47,14 +47,15 @@
         generateSongArray();
         songArray.sort(songDefaultSort());
         displaySongList(songArray);
-        var list = generateJpTimeline();
-        var list2 = generateEnTimeline();
+        generateTimelines();
+
+        // Render songs charts
         window.onload = function () {
           var chart = new CanvasJS.Chart("chartContainer", {
             theme: "light2",
             animationEnabled: true,
             title: {
-              text: "Songs added in 2022 (JP) - " + jptotal
+              text: "Songs added last 365 days (JP) - " + jptotal
             },
             axisX: {
               interval: 1,
@@ -63,13 +64,20 @@
             },
             axisY: {
               minimum: 0,
-              maximum: 26,
+              maximum: max + 2,
               interval:2,
               title: "Count",
             },
+            toolTip: {
+              contentFormatter: function(e) {
+                let date = new Date(e.entries[0].dataPoint.x);
+                let content = date.toLocaleString("en-US", { month: "short", year: "numeric", timeZone: "JST" });
+                return content + ": " + e.entries[0].dataPoint.y;
+              }
+            },
             data: [{
               type: "line",
-              dataPoints: list
+              dataPoints: jpList
             }]
           })
           chart.render();
@@ -78,7 +86,7 @@
             theme: "light2",
             animationEnabled: true,
             title: {
-              text: "Songs added in 2022 (EN) - " + entotal
+              text: "Songs added last 365 days (EN) - " + entotal
             },
             axisX: {
               interval: 1,
@@ -87,13 +95,20 @@
             },
             axisY: {
               minimum: 0,
-              maximum: 26,
+              maximum: max + 2,
               interval: 2,
               title: "Count",
             },
+            toolTip: {
+              contentFormatter: function(e) {
+                let date = new Date(e.entries[0].dataPoint.x);
+                let content = date.toLocaleString("en-US", { month: "short", year: "numeric", timeZone: "UTC" });
+                return content + ": " + e.entries[0].dataPoint.y;
+              }
+            },
             data: [{
               type: "line",
-              dataPoints: list2
+              dataPoints: enList
             }]
           })
           chart2.render();
