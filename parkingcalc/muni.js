@@ -86,7 +86,7 @@ const MAXSTEPS= 10000
 		var parameter = Math.abs(Math.max(0,Number(document.getElementById("parameter").value)))
 		var type = (document.getElementById("Bingo").checked?"Bingo":
 		document.getElementById("Poker/Slots").checked?"Poker/Slots":
-		document.getElementById("Raid").checked?"Raid":
+		// document.getElementById("Raid").checked?"Raid":
 		document.getElementById("RaidAnni").checked?"RaidAnni":
 		"Medley")
 		//var flexible = document.getElementById("flexible").checked
