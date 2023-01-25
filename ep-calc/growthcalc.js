@@ -1,6 +1,7 @@
 var refreshGrowthSelect;
 var refreshGrowthSelect2;
 
+// TODO: These need to get filled out every new growth event, maybe worth adding to event list and parse from there instead
 var eventChars = ["Rika", "Marika", "Saori", "Dalia"];
 var eventBonus = ["4:phys:1.5","3:tech:2","4:tech:1.5","4:phys:1.5"]
 
@@ -41,193 +42,36 @@ $(document).on('change keyup', function(event) {
 
 function createGrowthSelects() {
 
-    var select = bSelect("growthselector");
-    select.appendChild(bOption("card", "Action Card"));
-    select.appendChild(bOption("square", "Square"));
-    select.appendChild(bOption("char", "Character"));
-
-    document.getElementById("growthselector_wrapper").appendChild(select);
-
     document.getElementById("growthHeartResult").innerHTML = 0;
     document.getElementById("growthTechResult").innerHTML = 0;
     document.getElementById("growthPhysResult").innerHTML = 0;
     document.getElementById("growthTotalResult").innerHTML = 0;
 
-    fillGrowthDisplay();
+    var label = document.createElement("label");
+    label.innerHTML = "Character: ";
+    label.htmlFor = "charChar";
+
+    var node = document.getElementById("growthType_wrapper");
+    node.appendChild(label);
+
+    var select = bSelect("charChar");
+
+    var tempArr = eventChars.map(i => i + '(event)');
+    for (let x of characters.concat(tempArr)) {
+        select.appendChild(bOption(x.toLowerCase(), x));
+    }
+
+    node.appendChild(select);
+
     calculateTotal();
 }
 
-function fillGrowthDisplay() {
-
-    var node = document.getElementById("growthType_wrapper");
-    while (node.hasChildNodes()) {
-        node.removeChild(node.lastChild);
-    }
-
-    var stepType = document.getElementById("growthselector").value;
-    if (stepType === "card") {
-
-        var label = document.createElement("label");
-        label.innerHTML = "Rarity: ";
-        label.htmlFor = "calcRarity";
-
-        node.appendChild(label);
-
-        var select = bSelect("calcRarity");
-        select.appendChild(bOption("4", "4 Star"));
-        select.appendChild(bOption("3", "3 Star"));
-
-        node.appendChild(select);
-        node.appendChild(document.createElement("br"));
-
-        label = document.createElement("label");
-        label.innerHTML = "ET Level: ";
-        label.htmlFor = "calcEt";
-
-        node.appendChild(label);
-
-        select = bSelect("calcEt");
-        select.appendChild(bOption("0", "Lv1"));
-        select.appendChild(bOption("1", "Lv2"));
-        select.appendChild(bOption("2", "Lv3"));
-        select.appendChild(bOption("3", "Lv4"));
-        select.appendChild(bOption("4", "Lv5"));
-
-        node.appendChild(select);
-        node.appendChild(document.createElement("br"));
-
-        label = document.createElement("label");
-        label.innerHTML = "Event Card?: ";
-        label.htmlFor = "calcEvent";
-
-        node.appendChild(label);
-
-        select = bSelect("calcEvent");
-        select.appendChild(bOption("no", "No"));
-        select.appendChild(bOption("yes", "Yes"));
-
-        node.appendChild(select);
-        node.appendChild(document.createElement("br"));
-
-        label = document.createElement("label");
-        label.innerHTML = "Spaces Moved: ";
-        label.htmlFor = "calcMove";
-
-        node.appendChild(label);
-
-        select = bSelect("calcMove");
-        select.appendChild(bOption("1", "1"));
-        select.appendChild(bOption("2", "2"));
-        select.appendChild(bOption("3", "3"));
-
-        node.appendChild(select);
-        node.appendChild(document.createElement("br"));
-
-        label = document.createElement("label");
-        label.innerHTML = "Action Card Multiplier: ";
-        label.htmlFor = "calcMulti";
-
-        node.appendChild(label);
-
-        select = bSelect("calcMulti");
-        select.appendChild(bOption("1", "1"));
-        select.appendChild(bOption("1.5", "1.5"));
-        select.appendChild(bOption("2", "2"));
-
-        node.appendChild(select);
-        node.appendChild(document.createElement("br"));
-
-        label = document.createElement("label");
-        label.innerHTML = "Char Match?: ";
-        label.htmlFor = "calcMatch";
-
-        node.appendChild(label);
-
-        select = bSelect("calcMatch");
-        select.appendChild(bOption("no", "No"));
-        select.appendChild(bOption("yes", "Yes"));
-
-        node.appendChild(select);
-        node.appendChild(document.createElement("br"));
-
-        label = document.createElement("label");
-        label.innerHTML = "Params: ";
-        label.htmlFor = "calcParam";
-
-        node.appendChild(label);
-
-        select = bSelect("calcParam");
-        select.appendChild(bOption("heart", "Heart"));
-        select.appendChild(bOption("tech", "Technical"));
-        select.appendChild(bOption("phys", "Physical"));
-
-        node.appendChild(select);
-
-        select = bSelect("calcParam2");
-        select.appendChild(bOption("heart", "Heart"));
-        select.appendChild(bOption("tech", "Technical"));
-        select.appendChild(bOption("phys", "Physical"));
-
-        node.appendChild(select);
-
-
-    } else if (stepType === "square") {
-
-        // Square Color
-        var label = document.createElement("label");
-        label.innerHTML = "Color: ";
-        label.htmlFor = "squareColor";
-
-        node.appendChild(label);
-
-        var select = bSelect("squareColor");
-        select.appendChild(bOption("green", "Green"));
-        select.appendChild(bOption("red", "Red"));
-
-        node.appendChild(select);
-        node.appendChild(document.createElement("br"));
-
-        // Param
-        label = document.createElement("label");
-        label.innerHTML = "Param: ";
-        label.htmlFor = "squareParam";
-
-        node.appendChild(label);
-
-        var select = bSelect("squareParam");
-        select.appendChild(bOption("heart", "Heart"));
-        select.appendChild(bOption("tech", "Technical"));
-        select.appendChild(bOption("phys", "Physical"));
-
-        node.appendChild(select);
-    } else if (stepType === "char") {
-        var label = document.createElement("label");
-        label.innerHTML = "Character: ";
-        label.htmlFor = "charChar";
-
-        node.appendChild(label);
-
-        var select = bSelect("charChar");
-
-        var tempArr = eventChars.map(i => i + '(event)');
-        for (let x of characters.concat(tempArr)) {
-            select.appendChild(bOption(x.toLowerCase(), x));
-        }
-
-        node.appendChild(select);
-    }
-}
-
-function addStep() {
+function addStep(num) {
     var table = document.getElementById("growthStepTable");
     var currentCount = document.getElementById("growthStepBody").childElementCount;
-
     var text = "";
 
-    // Get step details
-    var stepType = document.getElementById("growthselector").value;
-
-    if (stepType === "card") {
+    if (num == 1) {
         var rarity = document.getElementById("calcRarity").value;
         var et = document.getElementById("calcEt").value;
         var event = document.getElementById("calcEvent").value;
@@ -249,7 +93,7 @@ function addStep() {
 
         stepArray.push(param1 + ":" + result);
         stepArray.push(param2 + ":" + result);
-    } else if (stepType === "square") {
+    } else if (num == 2) {
         var color = document.getElementById("squareColor").value;
         var param = document.getElementById("squareParam").value;
 
@@ -260,7 +104,7 @@ function addStep() {
             text = cap(color) + " square: -350 " + param;
             stepArray.push(param + ":-350");
         }
-    } else if (stepType === "char") {
+    } else if (num == 3) {
         var char = document.getElementById("charChar").value;
         if (charHeart.includes(char)) {
             text = cap(char) + ": +4% heart";

@@ -110,15 +110,94 @@
                             </fieldset>
                             <fieldset>
                                 <legend>Add Step</legend>
-                                <div class="row">
-                                    <div class="col">
-                                        <label>Step Type:</label>
-                                        <div id="growthselector_wrapper"></div>
+                                <div id="tab-headers" class="container">
+                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link active" id="card-tab" data-bs-toggle="tab" data-bs-target="#cardSection" type="button" role="tab" aria-controls="cardSection" aria-selected="false">Action Cards</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="square-tab" data-bs-toggle="tab" data-bs-target="#squareSection" type="button" role="tab" aria-controls="squareSection" aria-selected="false">Squares</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="char-tab" data-bs-toggle="tab" data-bs-target="#charSection" type="button" role="tab" aria-controls="charSection" aria-selected="false">Characters</button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-content container" id="tabContent">
+                                    <div class="tab-pane tabpane1 fade show active" id="cardSection" role="tabpabel" aria-labelledby="cardSection-tab">
+                                        <br>
+                                        <label for="calcRarity">Rarity: </label>
+                                        <select name="calcRarity" id="calcRarity" class="selectpicker" data-live-search="false" data-width="fit" data-size="10">
+                                            <option value="4" data-content="4 Star"></option>
+                                            <option value="3" data-content="3 Star"></option>
+                                        </select><br>
+                                        <label for="calcEt">ET Level: </label>
+                                        <select name="calcEt" id="calcEt" class="selectpicker" data-live-search="false" data-width="fit" data-size="10">
+                                            <option value="0" data-content="Lv1"></option>
+                                            <option value="1" data-content="Lv2"></option>
+                                            <option value="2" data-content="Lv3"></option>
+                                            <option value="3" data-content="Lv4"></option>
+                                            <option value="4" data-content="Lv5"></option>
+                                        </select><br>
+                                        <label for="calcEvent">Event Card?: </label>
+                                        <select name="calcEvent" id="calcEvent" class="selectpicker" data-live-search="false" data-width="fit" data-size="10">
+                                            <option value="no" data-content="No"></option>
+                                            <option value="yes" data-content="Yes"></option>
+                                        </select><br>
+                                        <label for="calcMove">Spaces Moved: </label>
+                                        <select name="calcMove" id="calcMove" class="selectpicker" data-live-search="false" data-width="fit" data-size="10">
+                                            <option value="1" data-content="1"></option>
+                                            <option value="2" data-content="2"></option>
+                                            <option value="3" data-content="3"></option>
+                                        </select><br>
+                                        <label for="calcMulti">Action Card Multiplier: </label>
+                                        <select name="calcMulti" id="calcMulti" class="selectpicker" data-live-search="false" data-width="fit" data-size="10">
+                                            <option value="1" data-content="1"></option>
+                                            <option value="1.5" data-content="1.5"></option>
+                                            <option value="2" data-content="2"></option>
+                                        </select><br>
+                                        <label for="calcMatch">Char Match?: </label>
+                                        <select name="calcMatch" id="calcMatch" class="selectpicker" data-live-search="false" data-width="fit" data-size="10">
+                                            <option value="no" data-content="No"></option>
+                                            <option value="yes" data-content="Yes"></option>
+                                        </select><br>
+                                        <label for="calcParam">Params: </label>
+                                        <select name="calcParam" id="calcParam" class="selectpicker" data-live-search="false" data-width="fit" data-size="10">
+                                            <option value="heart" data-content="Heart"></option>
+                                            <option value="tech" data-content="Technical"></option>
+                                            <option value="tech" data-content="Physical"></option>
+                                        </select>
+                                        <select name="calcParam2" id="calcParam2" class="selectpicker" data-live-search="false" data-width="fit" data-size="10">
+                                            <option value="heart" data-content="Heart"></option>
+                                            <option value="tech" data-content="Technical"></option>
+                                            <option value="tech" data-content="Physical"></option>
+                                        </select><br><br>
+                                        <a role="button" class="btn btn-primary" id="addStep1" onclick="addStep(1)">Add Step</a>
+                                        <a role="button" class="btn btn-primary" id="resetSteps1" onclick="resetSteps()">Reset Steps</a><br><br>
                                     </div>
-                                </div><br>
-                                <div id="growthType_wrapper"></div><br>
-                                <a role="button" class="btn btn-primary" id="addStep" onclick="addStep()">Add Step</a>
-                                <a role="button" class="btn btn-primary" id="resetSteps" onclick="resetSteps()">Reset Steps</a><br><br>
+                                    <div class="tab-pane tabpane1 fade" id="squareSection" role="tabpabel" aria-labelledby="squareSection-tab">
+                                        <br>
+                                        <label for="squareColor">Color: </label>
+                                        <select name="squareColor" id="squareColor" class="selectpicker" data-live-search="false" data-width="fit" data-size="10">
+                                            <option value="green" data-content="Green"></option>
+                                            <option value="red" data-content="Red"></option>
+                                        </select><br>
+                                        <label for="squareParam">Param: </label>
+                                        <select name="squareParam" id="squareParam" class="selectpicker" data-live-search="false" data-width="fit" data-size="10">
+                                            <option value="heart" data-content="Heart"></option>
+                                            <option value="tech" data-content="Technical"></option>
+                                            <option value="tech" data-content="Physical"></option>
+                                        </select><br><br>
+                                        <a role="button" class="btn btn-primary" id="addStep2" onclick="addStep(2)">Add Step</a>
+                                        <a role="button" class="btn btn-primary" id="resetSteps2" onclick="resetSteps()">Reset Steps</a><br><br>
+                                    </div>
+                                    <div class="tab-pane tabpane1 fade" id="charSection" role="tabpabel" aria-labelledby="charSection-tab">
+                                        <br>
+                                        <div id="growthType_wrapper"></div><br><br>
+                                        <a role="button" class="btn btn-primary" id="addStep3" onclick="addStep(3)">Add Step</a>
+                                        <a role="button" class="btn btn-primary" id="resetSteps3" onclick="resetSteps()">Reset Steps</a><br><br>
+                                    </div>
+                                </div>
                                 <div>
                                     <p>Step List:</p>
                                     <div style="width:750px;">
@@ -127,7 +206,8 @@
                                             </tbody>
                                         </table>
                                     </div>
-                                </div><br>
+                                </div>
+                                <br>
                             </fieldset>
                             <hr>
                             <fieldset>
