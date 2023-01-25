@@ -856,6 +856,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "87": {
+        "id":87,
+        "name":"side : origin -Peaky P-key-",
+        "characters":"Kyoko,Shinobu,Yuka,Esora",
+        "type":"Poker",
+        "style":"Party",
+        "parameter":"Technical",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*

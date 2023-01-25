@@ -7838,6 +7838,62 @@ var cards = {
             "skill": .1,
             "icon": "card_icon_020110001_0.861bc6bc",
             "passive": "None"
+        },
+        "560": {
+            "id": 560,
+            "character": "Kyoko",
+            "cardname": "Symphony",
+            "unit": "Peaky",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 7666,
+            "technical": 20897,
+            "physical": 14871,
+            "skill": .8,
+            "icon": "card_icon_070210004_1.045275c5",
+            "passive": "Auto Boost 2.5-8%"
+        },
+        "561": {
+            "id": 561,
+            "character": "Shinobu",
+            "cardname": "Piercing",
+            "unit": "Peaky",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 14773,
+            "technical": 21380,
+            "physical": 7794,
+            "skill": .8,
+            "icon": "card_icon_070220003_1.f2dcb8e0",
+            "passive": "Life Boost 2.5-7.5%"
+        },
+        "562": {
+            "id": 562,
+            "character": "Yuka",
+            "cardname": "Sunshine",
+            "unit": "Peaky",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 15324,
+            "technical": 19724,
+            "physical": 8871,
+            "skill": .8,
+            "icon": "card_icon_070230003_1.1586aa79",
+            "passive": "Groovy Solo 20-60%"
+        },
+        "563": {
+            "id": 563,
+            "character": "Esora",
+            "cardname": "Firelight",
+            "unit": "Peaky",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 8229,
+            "technical": 19755,
+            "physical": 15796,
+            "skill": .8,
+            "icon": "card_icon_070240003_1.d51b6437",
+            "passive": "Groovy Bonus 10-30%"
         }
     }
 

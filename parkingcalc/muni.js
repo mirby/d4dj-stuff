@@ -98,12 +98,7 @@ const MAXSTEPS= 10000
 		var originalTarget=start
 		document.getElementById("console").value=""
 
-		var interval = 0
-		if (isEN) {
-			interval = (type=="Medley")?15000:(type=="Poker/Slots")?4000:(type=="RaidAnni")?4000:10000
-		} else {
-			interval = (type=="Medley")?15000:(type=="Poker/Slots")?4000:(type=="RaidAnni")?4000:8000
-		}
+		var interval = (type=="Medley")?15000:(type=="Poker/Slots")?4000:(type=="RaidAnni")?4000:8000
 		
 		var special = (type=="RaidAnni");
 		if (special) {
@@ -120,11 +115,7 @@ const MAXSTEPS= 10000
 						return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + bonus) * Math.max(10, Math.floor(score/interval))))
 					}
 					case "Medley":{
-						if (isEN) {
-							return voltage * Math.floor((1 + bonus) * (10 + Math.floor(score/interval) + Math.floor(parameter/600)))
-						} else {
-							return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + bonus) * (10 + Math.floor(score/interval))))
-						}
+						return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + bonus) * (10 + Math.floor(score/interval))))
 					}
 					case "Poker/Slots":{
 						return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + bonus) * (50 + Math.floor(score/interval))))
