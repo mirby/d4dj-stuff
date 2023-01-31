@@ -2,8 +2,8 @@ var refreshGrowthSelect;
 var refreshGrowthSelect2;
 
 // TODO: These need to get filled out every new growth event, maybe worth adding to event list and parse from there instead
-var eventChars = ["Rika", "Marika", "Saori", "Dalia"];
-var eventBonus = ["4:phys:1.5","3:tech:2","4:tech:1.5","4:phys:1.5"]
+var eventChars = ["Miyu", "Saki", "Nagisa", "Esora"];
+var eventBonus = ["3:heart:2","4:tech:1.5","4:phys:1.5","4:heart:1.5"]
 
 var stepArray = [];
 
