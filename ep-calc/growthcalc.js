@@ -81,7 +81,7 @@ function addStep(num) {
     
         var baseResult = performCalc(rarity, et, event, move, multi);
         var result = 0;
-        if (calcMatch === "no") {
+        if (match === "no") {
             result = Math.round(baseResult);
         } else {
             result = Math.round(baseResult * 1.2);
