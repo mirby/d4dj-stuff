@@ -6652,7 +6652,7 @@ var cards = {
         "475": {
             "id": 475,
             "character": "Marika",
-            "cardname": "Joyful New Spring☆2023!",
+            "cardname": "Wealth And Comfort☆2023!",
             "unit": "Mermaid",
             "type": "Cute",
             "rarity": 4,
@@ -6666,7 +6666,7 @@ var cards = {
         "476": {
             "id": 476,
             "character": "Dalia",
-            "cardname": "Lively Spring Breeze☆2023!",
+            "cardname": "Joyful New Spring☆2023!",
             "unit": "Mermaid",
             "type": "Cute",
             "rarity": 4,
@@ -6680,7 +6680,7 @@ var cards = {
         "477": {
             "id": 477,
             "character": "Saori",
-            "cardname": "Fun Light Of Spring☆2023!",
+            "cardname": "Lively Spring Breeze☆2023!",
             "unit": "Mermaid",
             "type": "Cute",
             "rarity": 3,
@@ -6694,7 +6694,7 @@ var cards = {
         "478": {
             "id": 478,
             "character": "Rika",
-            "cardname": "Wealth And Comfort☆2023!",
+            "cardname": "Fun Light Of Spring☆2023!",
             "unit": "Mermaid",
             "type": "Cute",
             "rarity": 3,
