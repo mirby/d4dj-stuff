@@ -866,6 +866,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "88": {
+        "id":88,
+        "name":"'It's my style' -Towa & Marika-",
+        "characters":"Towa,Marika",
+        "type":"Slots",
+        "style":"Elegant",
+        "parameter":"Physical",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*

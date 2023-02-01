@@ -7894,6 +7894,62 @@ var cards = {
             "skill": .8,
             "icon": "card_icon_070240003_1.d51b6437",
             "passive": "Groovy Bonus 10-30%"
+        },
+        "564": {
+            "id": 564,
+            "character": "Miiko",
+            "cardname": "Navigation",
+            "unit": "LyriLily",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 15193,
+            "technical": 14757,
+            "physical": 14104,
+            "skill": .45,
+            "icon": "card_icon_060640001_1.83de6cad",
+            "passive": "Life Boost 2.5-7.75%"
+        },
+        "565": {
+            "id": 565,
+            "character": "Shinobu",
+            "cardname": "Navigation",
+            "unit": "Peaky",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 14248,
+            "technical": 14454,
+            "physical": 15334,
+            "skill": .45,
+            "icon": "card_icon_060220001_1.f074cf4d",
+            "passive": "Groovy Bonus 10-31.5%"
+        },
+        "566": {
+            "id": 566,
+            "character": "Aiming For A Glorious Festival",
+            "cardname": "Marika",
+            "unit": "Mermaid",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 15174,
+            "technical": 8338,
+            "physical": 19290,
+            "skill": .5,
+            "icon": "card_icon_040420012_1.b571d119",
+            "passive": "Life Boost 2.5-7.5%"
+        },
+        "567": {
+            "id": 567,
+            "character": "Towa",
+            "cardname": "Aiming For A Fluorescent Ocean",
+            "unit": "Photon",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 7755,
+            "technical": 15201,
+            "physical": 19846,
+            "skill": .5,
+            "icon": "card_icon_040330012_1.c072f7b6",
+            "passive": "Auto Boost 2.5-8%"
         }
     }
 
