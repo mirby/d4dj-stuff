@@ -7925,8 +7925,8 @@ var cards = {
         },
         "566": {
             "id": 566,
-            "character": "Aiming For A Glorious Festival",
-            "cardname": "Marika",
+            "character": "Marika",
+            "cardname": "Aiming For A Glorious Festival",
             "unit": "Mermaid",
             "type": "Elegant",
             "rarity": 4,
