@@ -739,14 +739,14 @@ function importTeam() {
             var et = document.getElementById("s" + i + "_et").value;
             var char = document.getElementById("s" + i + "_char").innerHTML;
             var bonus = 0;
-            if (char === "mana") {
-                if (hasAiri) {
-                    bonus += 15;
-                }
-            } else if (char === "toka") {
-                if (hasShano) {
-                    bonus += 15;
-                }
+            if (char === "mana" && hasAiri) {
+                bonus += 15;
+            } else if (char === "toka" && hasShano) {
+                bonus += 15;
+            } else if (char === "airi" && hasMana) {
+                bonus += 15;
+            } else if (char === "shano" && hasToka) {
+                bonus += 15;
             }
             var skillDurTemp = getPassiveValue(pskillStringSupp, "Skill Duration", et) + bonus;
             if (skillDurTemp > skillDuration) {
