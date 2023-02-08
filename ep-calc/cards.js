@@ -858,6 +858,7 @@ function calcEventPower() {
             "60":["With You Sleeping Peacefully", "Shana and the Blue Flame Hunter", "Proudly Sparkle Rod", "Naughty Sister"],
             "68":["I Wonder Why It's You", "You Can't Veto It", "You're Responsible For It", "Please Make My Dream Come True", "Beautiful Full Moon"],
             "79":["Pursue The Path Of Darkness-pyo!", "Reiwa's Most Powerful Idol!", "Puchiko Will Dance Too-nyu", "Dejiko Is The Lead-nyo!"],
+            "89":["Anthem of Dawn", "Do You Even DJ?", "CHAMPION GIRL", "Summit Of Babel"],
         };
 
         var charList = [];
