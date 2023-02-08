@@ -223,29 +223,29 @@ function calculateEp(type, scoreMap, bonus, param, volts, roomscore) {
             break;
         case "raid":
             result = 8 * (500 + Math.floor(scoreAutoSolo3 / 5000));
-            valueMap.set("Super Dengeki Live EP - Auto (Dengeki)", result);
+            valueMap.set("Special Solo Live EP - Auto", result);
 
-            valueMap.set("Dengeki - Super Dengeki Live Score - Auto (Estimated)", scoreAutoSolo3);
+            valueMap.set("Special Solo Live Score - Auto (Estimated)", scoreAutoSolo3);
 
             result = 8 * (500 + Math.floor(scoreSolo3 / 5000));
-            valueMap.set("Super Dengeki Live EP (Dengeki)", result);
+            valueMap.set("Special Solo Live EP", result);
 
-            valueMap.set("Dengeki - Super Dengeki Live Score (Estimated)", scoreSolo3);
+            valueMap.set("Special Solo Live Score (Estimated)", scoreSolo3);
 
             result = volts * (300 + Math.floor(scoreAuto2 / 6000));
-            valueMap.set("Dengeki - Multi Live EP - Auto", result);
+            valueMap.set("(Raid) Multi Live EP - Auto", result);
 
-            valueMap.set("Dengeki - Multi Live Score - Auto (Estimated)", scoreAuto2);
+            valueMap.set("(Raid) Multi Live Score - Auto (Estimated)", scoreAuto2);
 
             result = volts * (300 + Math.floor(score2 / 6000));
-            valueMap.set("Dengeki - Multi Live EP", result);
+            valueMap.set("(Raid) Multi Live EP", result);
 
-            valueMap.set("Dengeki - Multi Live Score (Estimated)", score2);
+            valueMap.set("(Raid) Multi Live Score (Estimated)", score2);
 
             result = volts * (300 + Math.floor(scoreSolo2 / 6000));
-            valueMap.set("Dengeki - Free Live EP", result);
+            valueMap.set("(Raid) Free Live EP", result);
 
-            valueMap.set("Dengeki - Free Live Score (Estimated)", scoreSolo2);
+            valueMap.set("(Raid) Free Live Score (Estimated)", scoreSolo2);
 
             // result = volts * Math.floor(bonus * (50 + Math.floor(scoreAuto / 10000) + param));
             // valueMap.set("D4FES - Multi Live EP - Auto", result);
