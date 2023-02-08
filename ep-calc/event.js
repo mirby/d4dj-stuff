@@ -876,6 +876,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "89": {
+        "id":89,
+        "name":"DEN-ON-BU x D4DJ Dual Anthem - New Groovy-",
+        "characters":"Rinku,Muni,Kyoko,Michiru",
+        "type":"Raid",
+        "style":"None",
+        "parameter":"None",
+        "bonus":false,
+        "addition":"50% power boost to matching character. 50% power boost to matching collab card. 50% power boost to matching Support Live room."
+    },
 }
 
 /*
