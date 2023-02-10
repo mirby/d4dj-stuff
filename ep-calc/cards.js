@@ -873,9 +873,9 @@ function calcEventPower() {
             if (charList.includes(char)) {
                 var cardNameFull = document.getElementById("m" + i + "_charfull").innerHTML;
                 var cardName = cardNameFull.slice(cardNameFull.indexOf("-") + 1).substring(1);
-                var eventPerc = 1;
+                var eventPerc = .5;
                 if (collabList.includes(cardName)) {
-                    eventPerc = 2;
+                    eventPerc = 1;
                 }
 
                 var heartMod = parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) || 0;

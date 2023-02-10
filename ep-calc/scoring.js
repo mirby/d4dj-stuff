@@ -232,17 +232,17 @@ function calculateEp(type, scoreMap, bonus, param, volts, roomscore) {
 
             valueMap.set("Special Solo Live Score (Estimated)", scoreSolo3);
 
-            result = volts * (300 + Math.floor(scoreAuto2 / 6000));
+            result = volts * (100 + Math.floor(scoreAuto2 / 4000));
             valueMap.set("(Raid) Multi Live EP - Auto", result);
 
             valueMap.set("(Raid) Multi Live Score - Auto (Estimated)", scoreAuto2);
 
-            result = volts * (300 + Math.floor(score2 / 6000));
+            result = volts * (100 + Math.floor(score2 / 4000));
             valueMap.set("(Raid) Multi Live EP", result);
 
             valueMap.set("(Raid) Multi Live Score (Estimated)", score2);
 
-            result = volts * (300 + Math.floor(scoreSolo2 / 6000));
+            result = volts * (100 + Math.floor(scoreSolo2 / 4000));
             valueMap.set("(Raid) Free Live EP", result);
 
             valueMap.set("(Raid) Free Live Score (Estimated)", scoreSolo2);
@@ -323,10 +323,10 @@ function calculateEpScore(type, score, bonus, param, volts, roomscore) {
                 break;
             case "raid":
                 result = 8 * (500 + Math.floor(score / 5000));
-                valueMap.set("Super Dengeki Live EP (Dengeki)", result);
+                valueMap.set("Special Solo Live EP", result);
 
-                result = volts * (300 + Math.floor(score / 6000));
-                valueMap.set("Free Live/Multi Live EP (Precure/Dengeki)", result);
+                result = volts * (100 + Math.floor(score / 4000));
+                valueMap.set("(Raid) Free Live/Multi Live EP", result);
 
                 // result = volts * Math.floor(bonus * (50 + Math.floor(score / 10000) + param));
                 // valueMap.set("Free Live/Multi Live EP (D4FES)", result);
@@ -344,10 +344,11 @@ function calculateScore(type) {
         power2 = power;
     }
     var power3 = power;
-    // var power3 = document.getElementById("powerin3").value;
-    // if (isNaN(power3) || power3 == 0) {
-    //     power3 = power;
-    // }
+    var power3 = document.getElementById("powerin3").value;
+    if (isNaN(power3) || power3 == 0) {
+        power3 = power;
+    }
+
     var skills = document.getElementById("skillin").value;
     var skillsList = [];
     skillsList = skills.split(",");
@@ -599,13 +600,18 @@ function importTeam() {
         document.getElementById("powerin2").value = 300000;
     }
 
-    // if (power_event_dengeki != 0) {
-    //     document.getElementById("powerin3").value = power_event_dengeki;
-    // } else {
-    //     document.getElementById("powerin3").value = 400000;
-    // }
+    if (power_event_dengeki != 0) {
+        document.getElementById("powerin3").value = power_event_dengeki;
+    } else {
+        document.getElementById("powerin3").value = 400000;
+    }
 
-    document.getElementById("paramselout").value = param;
+    // Don't import param when raid type
+    if (eventtype === "raid") {
+        document.getElementById("paramselout").value = 0;
+    } else {
+        document.getElementById("paramselout").value = param;
+    }
 
     if (isNaN(bonus)) {
         bonus = 0;
