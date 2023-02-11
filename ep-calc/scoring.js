@@ -222,12 +222,12 @@ function calculateEp(type, scoreMap, bonus, param, volts, roomscore) {
 
             break;
         case "raid":
-            result = 8 * (500 + Math.floor(scoreAutoSolo3 / 5000));
+            result = 7 * (300 + Math.floor(scoreAutoSolo3 / 2000));
             valueMap.set("Special Solo Live EP - Auto", result);
 
             valueMap.set("Special Solo Live Score - Auto (Estimated)", scoreAutoSolo3);
 
-            result = 8 * (500 + Math.floor(scoreSolo3 / 5000));
+            result = 7 * (300 + Math.floor(scoreSolo3 / 2000));
             valueMap.set("Special Solo Live EP", result);
 
             valueMap.set("Special Solo Live Score (Estimated)", scoreSolo3);
@@ -322,7 +322,7 @@ function calculateEpScore(type, score, bonus, param, volts, roomscore) {
 
                 break;
             case "raid":
-                result = 8 * (500 + Math.floor(score / 5000));
+                result = 7 * (300 + Math.floor(score / 2000));
                 valueMap.set("Special Solo Live EP", result);
 
                 result = volts * (100 + Math.floor(score / 4000));
@@ -776,7 +776,7 @@ function getPassiveValue(pString, type,  et) {
 }
 
 function importTeam2() {
-    var eventtype = document.getElementById("eventtype").innerHTML;
+    var eventtype = document.getElementById("eventtype").innerHTML.toLowerCase();
     var paramtype = document.getElementById("eventparamval").innerHTML;
     if (paramtype === "None") {
         paramtype = "heart";
@@ -789,14 +789,18 @@ function importTeam2() {
         bonus = parseFloat(bonus.toFixed(2));
     }
 
-    document.getElementById("paramselout2").value = param;
+    if (eventtype === "raid") {
+        document.getElementById("paramselout2").value = 0;    
+    } else {
+        document.getElementById("paramselout2").value = param;
+    }
 
     if (isNaN(bonus)) {
         bonus = 0;
     }
     document.getElementById("teambonus2").value = (bonus * 1000) / 10;
 
-    $("select[name=eventsel2]").val(eventtype.toLowerCase());
+    $("select[name=eventsel2]").val(eventtype);
     $('.selectpicker#eventsel2').selectpicker('refresh');
 }
 
