@@ -886,6 +886,16 @@ var eventList = {
         "bonus":false,
         "addition":"50% power boost to matching character. 50% power boost to matching collab card. 50% power boost to matching Support Live room."
     },
+    "90": {
+        "id":90,
+        "name":"Reach for the Light -Maho & Saki-",
+        "characters":"Maho,Saki",
+        "type":"Slots",
+        "style":"Cool",
+        "parameter":"Technical",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*

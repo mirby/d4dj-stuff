@@ -8034,6 +8034,48 @@ var cards = {
             "skill": .6,
             "icon": "card_icon_078310002_1.6b29c4e4",
             "passive": "Life Boost 2.5-7.5%"
+        },
+        "574": {
+            "id": 574,
+            "character": "Saki",
+            "cardname": "Imagination",
+            "unit": "Photon",
+            "type": "Party",
+            "rarity": 3,
+            "heart": 10413,
+            "technical": 10555,
+            "physical": 10687,
+            "skill": .25,
+            "icon": "card_icon_050310001_1.4abe9e0f",
+            "passive": "Groovy Solo 10-20%"
+        },
+        "575": {
+            "id": 575,
+            "character": "Saki",
+            "cardname": "Resonance of Brilliant Stone -Sensory-",
+            "unit": "Photon",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 8222,
+            "technical": 18957,
+            "physical": 16025,
+            "skill": .5,
+            "icon": "card_icon_040310013_1.018f19f0",
+            "passive": "Life Boost 2.5-7.5%"
+        },
+        "576": {
+            "id": 576,
+            "character": "Maho",
+            "cardname": "Resonance of Brilliant Stone -Theory-",
+            "unit": "HapiAra",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 14833,
+            "technical": 19764,
+            "physical": 7733,
+            "skill": .5,
+            "icon": "card_icon_040120014_1.2364a160",
+            "passive": "Auto Boost 2.5-8%"
         }
     }
 
