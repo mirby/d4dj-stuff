@@ -80,6 +80,7 @@ var cards = {
             "technical": 11709,
             "physical": 11057,
             "skill": 0.3,
+            "growth": true,
             "icon": "card_icon_040540001_1.06c00f67",
             "passive": "Groovy Solo 20-30%"
         },
@@ -318,6 +319,7 @@ var cards = {
             "technical": 10524,
             "physical": 12366,
             "skill": 0.3,
+            "growth": true,
             "icon": "card_icon_040440001_1.eda318a2",
             "passive": "Groovy Bonus 10-15%"
         },
@@ -374,6 +376,7 @@ var cards = {
             "technical": 10519,
             "physical": 11121,
             "skill": 0.3,
+            "growth": true,
             "icon": "card_icon_040240001_1.447643f7",
             "passive": "Auto Boost 2.5-4%"
         },
@@ -654,6 +657,7 @@ var cards = {
             "technical": 11591,
             "physical": 10312,
             "skill": 0.3,
+            "growth": true,
             "icon": "card_icon_040620001_1.0be6b7e5",
             "passive": "Groovy Solo 20-30%"
         },
@@ -780,6 +784,7 @@ var cards = {
             "technical": 10772,
             "physical": 10863,
             "skill": 0.3,
+            "growth": true,
             "icon": "card_icon_040530001_1.5ae17ca8",
             "passive": "Life Boost 2.5-3.75%"
         },
@@ -948,6 +953,7 @@ var cards = {
             "technical": 11046,
             "physical": 12343,
             "skill": 0.3,
+            "growth": true,
             "icon": "card_icon_040320001_1.bb60993c",
             "passive": "Groovy Solo 20-30%"
         },
@@ -1018,6 +1024,7 @@ var cards = {
             "technical": 9956,
             "physical": 12567,
             "skill": 0.3,
+            "growth": true,
             "icon": "card_icon_040630001_1.29bf8aa1",
             "passive": "Life Boost 2.5-3.75%"
         },
@@ -1186,6 +1193,7 @@ var cards = {
             "technical": 11693,
             "physical": 11552,
             "skill": 0.3,
+            "growth": true,
             "icon": "card_icon_040210001_1.aa183113",
             "passive": "Groovy Bonus 10-15%"
         },
@@ -1326,6 +1334,7 @@ var cards = {
             "technical": 11897,
             "physical": 11274,
             "skill": 0.3,
+            "growth": true,
             "icon": "card_icon_040120001_1.8d370973",
             "passive": "Life Boost 2.5-3.75%"
         },
@@ -1536,6 +1545,7 @@ var cards = {
             "technical": 11477,
             "physical": 11255,
             "skill": 0.3,
+            "growth": true,
             "icon": "card_icon_040420001_1.123a2561",
             "passive": "Auto Boost 2.5-4%"
         },
@@ -1760,6 +1770,7 @@ var cards = {
             "technical": 11255,
             "physical": 11098,
             "skill": 0.3,
+            "growth": true,
             "icon": "card_icon_040640001_1.d02ef0e7",
             "passive": "Auto Boost 2.5-4%"
         },
@@ -1872,6 +1883,7 @@ var cards = {
             "technical": 10612,
             "physical": 10979,
             "skill": 0.3,
+            "growth": true,
             "icon": "card_icon_040610001_1.ab1639a4",
             "passive": "Groovy Bonus 10-15%"
         },
@@ -2068,6 +2080,7 @@ var cards = {
             "technical": 12746,
             "physical": 11253,
             "skill": 0.3,
+            "growth": true,
             "icon": "card_icon_040130001_1.980e3c3b",
             "passive": "Groovy Solo 20-30%"
         },
@@ -2222,6 +2235,7 @@ var cards = {
             "technical": 12277,
             "physical": 10740,
             "skill": 0.3,
+            "growth": true,
             "icon": "card_icon_040520001_1.e3b0c442",
             "passive": "Auto Boost 2.5-4%"
         },
@@ -2460,6 +2474,7 @@ var cards = {
             "technical": 12001,
             "physical": 11085,
             "skill": 0.3,
+            "growth": true,
             "icon": "card_icon_040340001_1.5e3a2bef",
             "passive": "Life Boost 2.5-3.75%"
         },
@@ -2544,6 +2559,7 @@ var cards = {
             "technical": 12511,
             "physical": 11056,
             "skill": 0.3,
+            "growth": true,
             "icon": "card_icon_040140001_1.82a43351",
             "passive": "Auto Boost 2.5-4%"
         },
@@ -2642,6 +2658,7 @@ var cards = {
             "technical": 11143,
             "physical": 11439,
             "skill": 0.3,
+            "growth": true,
             "icon": "card_icon_040410001_1.14ebe123",
             "passive": "Life Boost 2.5-3.75%"
         },
@@ -2936,6 +2953,7 @@ var cards = {
             "technical": 11260,
             "physical": 11137,
             "skill": 0.3,
+            "growth": true,
             "icon": "card_icon_040110001_1.5b43f904",
             "passive": "Groovy Bonus 10-15%"
         },
@@ -3076,6 +3094,7 @@ var cards = {
             "technical": 13256,
             "physical": 11306,
             "skill": 0.3,
+            "growth": true,
             "icon": "card_icon_040310001_1.93b37c1c",
             "passive": "Auto Boost 2.5-4%"
         },
@@ -3160,6 +3179,7 @@ var cards = {
             "technical": 12169,
             "physical": 10980,
             "skill": 0.3,
+            "growth": true,
             "icon": "card_icon_040430001_1.e48d4b56",
             "passive": "Groovy Solo 20-30%"
         },
@@ -3328,6 +3348,7 @@ var cards = {
             "technical": 12591,
             "physical": 10644,
             "skill": 0.3,
+            "growth": true,
             "icon": "card_icon_040220001_1.5b08defb",
             "passive": "Life Boost 2.5-3.75%"
         },
@@ -3440,6 +3461,7 @@ var cards = {
             "technical": 10739,
             "physical": 11028,
             "skill": 0.3,
+            "growth": true,
             "icon": "card_icon_040330001_1.745d3dd6",
             "passive": "Groovy Bonus 10-15%"
         },
@@ -3664,6 +3686,7 @@ var cards = {
             "technical": 11633,
             "physical": 10177,
             "skill": 0.3,
+            "growth": true,
             "icon": "card_icon_040510001_1.4ca92541",
             "passive": "Groovy Bonus 10-15%"
         },
@@ -3818,6 +3841,7 @@ var cards = {
             "technical": 10796,
             "physical": 11828,
             "skill": 0.3,
+            "growth": true,
             "icon": "card_icon_040230001_1.9cca7d92",
             "passive": "Groovy Solo 20-30%"
         },
@@ -4276,7 +4300,7 @@ var cards = {
             "unit": "Mermaid",
             "type": "Street",
             "rarity": 3,
-            "heart": 12170,
+            "heart": 12710,
             "technical": 8139,
             "physical": 10935,
             "skill": .25,
@@ -6520,6 +6544,7 @@ var cards = {
             "technical": 6086,
             "physical": 17354,
             "skill": .25,
+            "growth": true,
             "icon": "card_icon_030130008_1.aea7cedc",
             "passive": "Groovy Solo 10-20%"
         },
@@ -6534,6 +6559,7 @@ var cards = {
             "technical": 7559,
             "physical": 6578,
             "skill": .25,
+            "growth": true,
             "icon": "card_icon_030140007_1.e1afe466",
             "passive": "Life Boost 1-2.5%"
         },
@@ -6548,6 +6574,7 @@ var cards = {
             "technical": 7667,
             "physical": 14783,
             "skill": .4,
+            "growth": true,
             "icon": "card_icon_040120013_1.5bb54269",
             "passive": "Auto Boost 2.5-8%"
         },
@@ -6562,6 +6589,7 @@ var cards = {
             "technical": 20469,
             "physical": 7580,
             "skill": .4,
+            "growth": true,
             "icon": "card_icon_040110012_1.02a67dd6",
             "passive": "Groovy Bonus 10-30%"
         },
@@ -6660,6 +6688,7 @@ var cards = {
             "technical": 7639,
             "physical": 13496,
             "skill": .4,
+            "growth": true,
             "icon": "card_icon_040420013_1.3039784e",
             "passive": "Groovy Bonus 10-30%"
         },
@@ -6674,6 +6703,7 @@ var cards = {
             "technical": 14482,
             "physical": 7850,
             "skill": .4,
+            "growth": true,
             "icon": "card_icon_040440013_1.bde0b42f",
             "passive": "Life Boost 2.5-7.5%"
         },
@@ -6688,6 +6718,7 @@ var cards = {
             "technical": 8285,
             "physical": 6615,
             "skill": .25,
+            "growth": true,
             "icon": "card_icon_030430006_1.2d32f931",
             "passive": "Groovy Solo 10-20%"
         },
@@ -6702,6 +6733,7 @@ var cards = {
             "technical": 6102,
             "physical": 7953,
             "skill": .25,
+            "growth": true,
             "icon": "card_icon_030410006_1.017fb2dc",
             "passive": "Auto Boost 1.5-2.5%"
         },
@@ -8144,27 +8176,32 @@ function setUnit(name) {
 }
 
 var cardArray = [];
+var cardArray2 = [];
 var standardArray = [];
 
 function generateCardArray() {
 
     cardArray = [];
 
+    var tempStats = new Map();
     var tempEt = new Map();
     var tempParam = new Map();
     var storage = window.localStorage;
-    var obj = JSON.parse(storage.getItem("et"));
+
+    var obj = JSON.parse(storage.getItem("growth"));
+    if (obj) {
+        tempStats = new Map(obj);
+    }
+
+    obj = JSON.parse(storage.getItem("et"));
     if (obj) {
         tempEt = new Map(obj);
     }
 
     obj = JSON.parse(storage.getItem("param"));
     if (obj) {
-        
         obj.forEach(function(x) {
-            for (var key in x) {
-                tempParam.set(key, x[key]);
-            }
+            tempParam.set(x[0], x[1]);
         });
     }
 
@@ -8175,8 +8212,25 @@ function generateCardArray() {
         var physMod = 0;
 
         var heart = cards[key].heart;
+        var tempHeart = tempStats.get(cards[key].id.toString() + "_heart");
+        if (tempHeart) {
+            heart = parseInt(tempHeart);
+        }
         var technical = cards[key].technical;
+        var tempTech = tempStats.get(cards[key].id.toString() + "_tech");
+        if (tempTech) {
+            technical = parseInt(tempTech);
+        }
         var physical = cards[key].physical;
+        var tempPhys = tempStats.get(cards[key].id.toString() + "_phys");
+        if (tempPhys) {
+            physical = parseInt(tempPhys);
+        }
+        var skill = cards[key].skill;
+        var tempSkill = tempStats.get(cards[key].id.toString() + "_skill");
+        if (tempSkill) {
+            skill = parseFloat(tempSkill);
+        }
 
         var et = tempEt.get(cards[key].id.toString());
         var etVal = 0;
@@ -8239,10 +8293,28 @@ function generateCardArray() {
             "technical":parseInt(technical + techMod),
             "physical":parseInt(physical + physMod),
             "totalpower":parseInt(heart + heartMod + technical + techMod + physical + physMod),
-            "skill":cards[key].skill,
+            "skill":skill,
             "icon":cards[key].icon,
             "passive":cards[key].passive,
         })
+
+        if (cards[key].growth != null) {
+            cardArray2.push({
+                "id":cards[key].id,
+                "character":cards[key].character,
+                "cardname":cards[key].cardname,
+                "unit":cards[key].unit,
+                "type":cards[key].type,
+                "rarity":cards[key].rarity,
+                "heart":parseInt(heart + heartMod),
+                "technical":parseInt(technical + techMod),
+                "physical":parseInt(physical + physMod),
+                "totalpower":parseInt(heart + heartMod + technical + techMod + physical + physMod),
+                "skill":skill,
+                "icon":cards[key].icon,
+                "passive":cards[key].passive,
+            })
+        }
     });
 
     standardArray = [...cardArray];

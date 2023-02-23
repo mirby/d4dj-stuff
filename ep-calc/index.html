@@ -666,7 +666,9 @@
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="paramSection-tab" data-bs-toggle="tab" data-bs-target="#paramSection" type="button" role="tab" aria-controls="paramSection" aria-selected="false">Param Upgrade</button>
             </li>
-
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="growthSection-tab" data-bs-toggle="tab" data-bs-target="#growthSection" type="button" role="tab" aria-controls="growthSection" aria-selected="false">Growth Upgrade</button>
+            </li>
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="questionSection-tab" data-bs-toggle="tab" data-bs-target="#questionSection" type="button" role="tab" aria-controls="questionSection" aria-selected="false">Help Docs</button>
             </li>
@@ -1024,6 +1026,95 @@
                 <table id="paramtable" class="table table-bordered"></table>
             </div>
         </div>
+        <div class="tab-pane tabpane1 fade" id="growthSection" role="tabpabel" aria-labelledby="growthSection-tab">
+            <div class="sectionHeader">
+                <h4>Growth Upgrades</h4>
+            </div>
+            <div id="growthDropdown_wrapper">
+                <div id="growthDropdown"></div>
+            </div>
+            <div class="formsection">
+                <form class="row justify-content-center p-3">
+                    <div class="col-auto">
+                        <div>
+                            <div class="sectionHeader">
+                                <p>Original Stats</p>
+                            </div>
+                            <label class="fieldHeader"><img class="paramimage" src="../icons/param_heart.png" width='30' height='30'></img>Heart:</label>
+                            <input style="text-align:right;width:150px" type="text" class="form-control" id="growthHeartBase" disabled>
+                            <label class="fieldHeader"><img class="paramimage" src="../icons/param_technical.png" width='30' height='30'></img>Technical:</label>
+                            <input style="text-align:right;width:150px" type="text" class="form-control" id="growthTechBase" disabled>
+                            <label class="fieldHeader"><img class="paramimage" src="../icons/param_physical.png" width='30' height='30'></img>Physical:</label>
+                            <input style="text-align:right;width:150px" type="text" class="form-control" id="growthPhysBase" disabled>
+                            <label class="fieldHeader">Skill:</label>
+                            <input style="text-align:right;width:150px" type="text" class="form-control" id="growthSkillBase" disabled>
+                        </div>
+                    </div>
+                    <div class="vr" style="padding:0"></div>
+                    <div class="col-auto">
+                        <div>
+                            <div class="sectionHeader">
+                                <p style="font-size: medium;">Upgraded Stats</p>
+                                <p style="font-size: smaller;">Enter displayed stats along with any params and extra training</p>
+                            </div>
+                            <table style="width:100%">
+                                <tbody>
+                                    <tr>
+                                        <td><label class="fieldHeader"><img class="paramimage" src="../icons/param_heart.png" width='30' height='30'></img>Heart:</label></td>
+                                        <td><input style="text-align:right;width:150px" type="number" class="form-control" id="growthHeartNew"></td>
+                                        <td><label class="fieldHeader">Heart Param:</label></td>
+                                        <td>
+                                            <div id=growthParamHeartWrapper></div>
+                                        </td>
+                                        <td><p>Base: </p></td>
+                                        <td><p id="growthHeartBase2"></p></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label class="fieldHeader"><img class="paramimage" src="../icons/param_technical.png" width='30' height='30'></img>Technical:</label></td>
+                                        <td><input style="text-align:right;width:150px" type="number" class="form-control" id="growthTechNew"></td>
+                                        <td><label class="fieldHeader">Tech Param:</label></td>
+                                        <td>
+                                            <div id=growthParamTechWrapper></div>
+                                        </td>
+                                        <td><p>Base: </p></td>
+                                        <td><p id="growthTechBase2"></p></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label class="fieldHeader"><img class="paramimage" src="../icons/param_physical.png" width='30' height='30'></img>Physical:</label></td>
+                                        <td><input style="text-align:right;width:150px" type="number" class="form-control" id="growthPhysNew"></td>
+                                        <td><label class="fieldHeader">Phys Param:</label></td>
+                                        <td>
+                                            <div id=growthParamPhysWrapper></div>
+                                        </td>
+                                        <td><p>Base: </p></td>
+                                        <td><p id="growthPhysBase2"></p></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label class="fieldHeader">Skill:</label></td>
+                                        <td><input style="text-align:right;width:150px" type="text" class="form-control" id="growthSkillNew"></td>
+                                        <td><label class="fieldHeader">Extra Training:</label></td>
+                                        <td>
+                                            <select class="selectpicker growthselector" name="growthEt" id="growthEt" data-width="fit">
+                                                <option value="0" data-content="+0">+0</option>
+                                                <option value="1" data-content="+1">+1</option>
+                                                <option value="2" data-content="+2">+2</option>
+                                                <option value="3" data-content="+3">+3</option>
+                                                <option value="4" data-content="+4">+4</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="calcbutton">
+                                <a id="updateStats" class="btn btn-primary" role="button">Update Stats</a>
+                                <a id="resetStats" class="btn btn-primary" role="button">Reset Stats</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <br><hr>
+        </div>
         <div class="tab-pane tabpane1 fade" id="questionSection" role="tabpabel" aria-labelledby="questionSection-tab">
             <div class="sectionHeader">
                 <p>How to use this site:</p>
@@ -1165,8 +1256,11 @@
         createCharacterFilters();
         createEventSelects();
         cardArray.sort(default_sort());
+        cardArray2.sort(default_sort());
         displayCardsDropdown(cardArray);
+        displayCardsDropdown2(cardArray2);
         createClubSelects();
+        setupGrowthUpgradeSection();
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
