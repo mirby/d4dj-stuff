@@ -1132,8 +1132,8 @@
                                 click the "Add To Team" button to add that card to your team with the slot chosen. By expanding the Show Filters section, you can filter the card list by Unit or Style, and you can also sort by 
                                 Total Power or by a target Parameter.
                                 <br><br>
-                                After adding to your team, you can view the extended stats by clicking the arrow (^) icon in the team section. From the expanded team view, you can also add to the extra training levels for each 
-                                card. Adding any cards to your team, or increasing the extra training levels, will reflect immediately on the team power stats. Note that any extra training levels set will not be permanent until you
+                                After adding to your team, only the character/card name and extra training select will be shown. You can view the extended stats by clicking the arrow (^) icon in the team section. 
+                                Adding any cards to your team, or increasing the extra training levels, will reflect immediately on the team power stats. Note that any extra training levels set will not be permanent until you
                                 click save.
                             </div>
                         </div>
@@ -1161,6 +1161,25 @@
                         </div>
                     </div>
                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingGrowth">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGrowth" aria-expanded="false" aria-controls="collapseGrowth">
+                                <b>Growth Event Card Updates</b>
+                            </button>
+                        </h2>
+                        <div id="collapseGrowth" class="accordion-collapse collapse" aria-labelledby="headingGrowth" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                In the <b>Growth Upgrade</b> tab, you can set the changes made to your cards (Event or Initials) from Growth events. On the left side of the window, you can choose a card from the list.
+                                Only Growth-eligible cards will be displayed here. Upon selecting a card, the Original Stats section will show what the card's original parameters and skill are. On the right side,
+                                you can set the new parameters or skills here. When entering the card stats here, you want to make sure you also set any ETs the card here, as well as any parameter upgrades 
+                                you've done for that character. Once you've set the values, click the Update Stats button to save these changes. The "final" parameter values will still be displayed in the 
+                                input fields, but the base parameters (without ETs and without parameter upgrades) will be displayed to the right.
+                                <br><br>
+                                If you want to reset the Growth Upgrade stats for any card, just select the card from the list. Then click the Reset Stats button. This will remove the saved stats for that card 
+                                only. You will need to do this for any cards you wish to reset.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 <b>Scoring</b>
@@ -1169,8 +1188,9 @@
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 From the <b>Scoring</b> tab, you can estimate the Event Points (EP) earned based on your team's power, skills, etc. You can enter the values from the game, or if you've built your
-                                own team on the site, you can click the Import Team button to bring over all the relevant fields. (Note that currently, passive skills are not imported, you will need to set them
-                                yourself). The calculations currently only use very specific songs (Cat's Eye for Poker, Slots and Raid, Here's the Light for Bingo, and a Direct Drive x4 medley for Medley).
+                                own team on the site, you can click the Import Team button to bring over all the relevant fields. The calculations currently only use very specific songs (Cat's Eye for Poker, 
+                                Slots and Raid, Here's the Light for Bingo, and a Direct Drive x4 medley for Medley). The import will automatically bring in the correct parameter based on whatever event you 
+                                currently have selected. If the event doesn't have a target parameter (i.e. Raid), it will set it to 0.
                                 <br><br>
                                 For the Skills field, you may need to change the values around to get an accurate calculation. The import button will always bring in your team's current skills, but for some event
                                 types, it only uses the DJ slot's skills from all the members. For example, let's say your team's skills are 20%, 30%, 40%, and 50%, but you're playing in a Poker event. If you want to

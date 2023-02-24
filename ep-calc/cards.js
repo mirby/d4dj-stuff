@@ -1171,7 +1171,7 @@ function calcDisplayParams() {
             }
         } else if (techMod > physMod) {
             highest = "tech";
-        } else {
+        } else if (physMod != 0) {
             highest = "phys";
         }
 
@@ -1185,15 +1185,13 @@ function calcDisplayParams() {
             if (techMod >= 21000) {
                 techPerc += Math.floor((techMod - 20000) / 1000);
             }
-        } else {
+        } else if (highest === "phys") {
             physPerc += 10;
             if (physMod >= 21000) {
                 physPerc += Math.floor((physMod - 20000) / 1000);
             }
         }
     }
-
-
 
     document.getElementById("paramtotal_heart").innerHTML = totalHeart;
     document.getElementById("paramtotal_heartep").innerHTML = heartPerc + "%";
