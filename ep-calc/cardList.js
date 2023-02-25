@@ -1609,7 +1609,7 @@ var cards = {
             "id": 114,
             "character": "Michiru",
             "cardname": "Supernova",
-            "unit": "Common",
+            "unit": "Unichord",
             "type": "Cute",
             "rarity": 4,
             "heart": 12461,
@@ -4521,7 +4521,7 @@ var cards = {
             "id": 321,
             "character": "Michiru",
             "cardname": "1.5th Anniversary",
-            "unit": "Common",
+            "unit": "Unichord",
             "type": "Elegant",
             "rarity": 4,
             "heart": 13698,
@@ -6439,7 +6439,7 @@ var cards = {
             "id": 458,
             "character": "Michiru",
             "cardname": "To The Linked World",
-            "unit": "Common",
+            "unit": "Unichord",
             "type": "Party",
             "rarity": 3,
             "heart": 10350,
@@ -7203,7 +7203,7 @@ var cards = {
             "id": 512,
             "character": "Michiru",
             "cardname": "Let's debut!",
-            "unit": "Common",
+            "unit": "Unichord",
             "type": "Cool",
             "rarity": 2,
             "heart": 3550,
@@ -8057,7 +8057,7 @@ var cards = {
             "id": 573,
             "character": "Michiru",
             "cardname": "Summit Of Babel",
-            "unit": "Common",
+            "unit": "Unichord",
             "type": "Elegant",
             "rarity": 4,
             "heart": 16089,
@@ -8107,6 +8107,62 @@ var cards = {
             "physical": 7733,
             "skill": .5,
             "icon": "card_icon_040120014_1.2364a160",
+            "passive": "Auto Boost 2.5-8%"
+        },
+        "577": {
+            "id": 577,
+            "character": "Michiru",
+            "cardname": "Beginning☆Legend",
+            "unit": "Unichord",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 8142,
+            "technical": 15450,
+            "physical": 20494,
+            "skill": .6,
+            "icon": "card_icon_040810003_1.5460a052",
+            "passive": "Groovy Solo 20-60%"
+        },
+        "578": {
+            "id": 578,
+            "character": "Lumina",
+            "cardname": "Cosmic☆Idol",
+            "unit": "Unichord",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 15241,
+            "technical": 8457,
+            "physical": 20293,
+            "skill": .6,
+            "icon": "card_icon_040820001_1.bff2f2f4",
+            "passive": "Life Boost 2.5-7.5%"
+        },
+        "579": {
+            "id": 579,
+            "character": "Hayate",
+            "cardname": "True☆Love's Kiss",
+            "unit": "Unichord",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 8131,
+            "technical": 15253,
+            "physical": 20698,
+            "skill": .6,
+            "icon": "card_icon_040840001_1.129829b6",
+            "passive": "Groovy Bonus 10-30%"
+        },
+        "580": {
+            "id": 580,
+            "character": "Kokoa",
+            "cardname": "True☆Heart",
+            "unit": "Unichord",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 15831,
+            "technical": 7963,
+            "physical": 20309,
+            "skill": .6,
+            "icon": "card_icon_040830001_1.a92dcc61",
             "passive": "Auto Boost 2.5-8%"
         }
     }
@@ -8166,7 +8222,7 @@ function setUnit(name) {
         case "Lumina":
         case "Kokoa":
         case "Hayate":
-            return "Common";
+            return "Unichord";
         case "Shano":
         case "Toka":
         case "Airi":

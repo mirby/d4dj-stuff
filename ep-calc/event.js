@@ -38,7 +38,7 @@ function fillEventDisplay() {
     document.getElementById("eventid").innerHTML = eventId;
 
     var img = document.createElement('img');
-    img.src = "https://raw.githubusercontent.com/mirby/d4dj-stuff/main/screenshots/" + eventId + "_event.png";
+    img.src = "../screenshots/" + eventId + "_event.png";
     img.onerror = function(){handle404(this, eventId)};
     if (document.getElementById("eventimg_wrapper").hasChildNodes()) {
         document.getElementById("eventimg_wrapper").removeChild(document.getElementById("eventimg_wrapper").firstChild);
@@ -80,7 +80,7 @@ function fillEventDisplay() {
 
 // A 404 can occur if the event notice is there but not the event image yet, so display the event notice image instead
 function handle404(source, id) {
-    source.src = "https://raw.githubusercontent.com/mirby/d4dj-stuff/main/screenshots/" + id + "_eventNotice.png";
+    source.src = "../screenshots/" + id + "_eventNotice.png";
     source.onerror = "";
 }
 
@@ -893,6 +893,16 @@ var eventList = {
         "type":"Slots",
         "style":"Cool",
         "parameter":"Technical",
+        "bonus":true,
+        "addition":""
+    },
+    "91": {
+        "id":91,
+        "name":"side:nova Season 3 -UniChØrd-",
+        "characters":"Michiru,Lumina,Kokoa,Hayate",
+        "type":"Bingo",
+        "style":"Cool",
+        "parameter":"Physical",
         "bonus":true,
         "addition":""
     },

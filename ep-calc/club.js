@@ -214,6 +214,12 @@ var clubItems1 = {
         "type":"unit",
         "bonus":.03
     },
+    "unichord": {
+        "name":"unichord",
+        "displayname":"UniChØrd",
+        "type":"unit",
+        "bonus":.03
+    },
     "callofartemis": {
         "name":"callofartemis",
         "displayname":"Call of Artemis",
@@ -376,6 +382,24 @@ var clubItems1 = {
         "type":"character",
         "bonus":.12
     },
+    "lumina": {
+        "name":"lumina",
+        "displayname":"Lumina",
+        "type":"character",
+        "bonus":.12
+    },
+    "kokoa": {
+        "name":"kokoa",
+        "displayname":"Kokoa",
+        "type":"character",
+        "bonus":.12
+    },
+    "hayate": {
+        "name":"hayate",
+        "displayname":"Hayate",
+        "type":"character",
+        "bonus":.12
+    },
     "toka": {
         "name":"toka",
         "displayname":"Toka",
@@ -436,6 +460,12 @@ var clubItems2 = {
     "lyrilily": {
         "name":"lyrilily",
         "displayname":"Lyrical Lily",
+        "type":"unit",
+        "bonus":.03
+    },
+    "unichord": {
+        "name":"unichord",
+        "displayname":"UniChØrd",
         "type":"unit",
         "bonus":.03
     },
