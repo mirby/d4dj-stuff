@@ -8164,6 +8164,62 @@ var cards = {
             "skill": .6,
             "icon": "card_icon_040830001_1.a92dcc61",
             "passive": "Auto Boost 2.5-8%"
+        },
+        "581": {
+            "id": 581,
+            "character": "Hayate",
+            "cardname": "DJ-LIVE!",
+            "unit": "Unichord",
+            "type": "Street",
+            "rarity": 2,
+            "heart": 3824,
+            "technical": 3621,
+            "physical": 3110,
+            "skill": .1,
+            "icon": "card_icon_020840001_0.46f637d6",
+            "passive": "None"
+        },
+        "582": {
+            "id": 582,
+            "character": "Lumina",
+            "cardname": "DJ-LIVE!",
+            "unit": "Unichord",
+            "type": "Party",
+            "rarity": 2,
+            "heart": 3566,
+            "technical": 3882,
+            "physical": 3129,
+            "skill": .1,
+            "icon": "card_icon_020820001_0.671ef94e",
+            "passive": "None"
+        },
+        "583": {
+            "id": 583,
+            "character": "Michiru",
+            "cardname": "DJ-LIVE!",
+            "unit": "Unichord",
+            "type": "Elegant",
+            "rarity": 2,
+            "heart": 3194,
+            "technical": 3428,
+            "physical": 3381,
+            "skill": .1,
+            "icon": "card_icon_020810001_0.3d10270c",
+            "passive": "None"
+        },
+        "584": {
+            "id": 584,
+            "character": "Kokoa",
+            "cardname": "DJ-LIVE!",
+            "unit": "Unichord",
+            "type": "Elegant",
+            "rarity": 2,
+            "heart": 4247,
+            "technical": 3474,
+            "physical": 2922,
+            "skill": .1,
+            "icon": "card_icon_020830001_0.e9425226",
+            "passive": "None"
         }
     }
 
