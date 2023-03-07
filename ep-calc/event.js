@@ -906,6 +906,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "92": {
+        "id":92,
+        "name":"Mutual Feelings, Conveys Emotions -Rika & Tsubaki-",
+        "characters":"Rika,Tsubaki",
+        "type":"Slots",
+        "style":"Party",
+        "parameter":"Physical",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*

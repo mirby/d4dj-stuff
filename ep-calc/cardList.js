@@ -8220,6 +8220,62 @@ var cards = {
             "skill": .1,
             "icon": "card_icon_020830001_0.e9425226",
             "passive": "None"
+        },
+        "585": {
+            "id": 585,
+            "character": "Muni",
+            "cardname": "Navigation",
+            "unit": "HapiAra",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 14944,
+            "technical": 14449,
+            "physical": 14791,
+            "skill": .45,
+            "icon": "card_icon_060130001_1.9d90053b",
+            "passive": "Groovy Bonus 10-31.5%"
+        },
+        "586": {
+            "id": 586,
+            "character": "Hiiro",
+            "cardname": "Navigation",
+            "unit": "Rondo",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 14496,
+            "technical": 15144,
+            "physical": 15252,
+            "skill": .45,
+            "icon": "card_icon_060530001_1.55900420",
+            "passive": "Life Boost 2.5-7.75%"
+        },
+        "587": {
+            "id": 587,
+            "character": "Rika",
+            "cardname": "Chocolate Kingdom-Strawberry-",
+            "unit": "Mermaid",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 15498,
+            "technical": 7955,
+            "physical": 19067,
+            "skill": .5,
+            "icon": "card_icon_040410013_1.e8cd2dd9",
+            "passive": "Groovy Solo 20-60%"
+        },
+        "588": {
+            "id": 588,
+            "character": "Tsubaki",
+            "cardname": "Chocolate Kingdom-Mint-",
+            "unit": "Rondo",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 7872,
+            "technical": 15378,
+            "physical": 19795,
+            "skill": .5,
+            "icon": "card_icon_040510014_1.25dde154",
+            "passive": "Life Boost 2.5-7.5%"
         }
     }
 
