@@ -946,6 +946,12 @@ function calcClubPower() {
 
     for (let i = 1; i <= 4; i++) {
         var clubPercGain = 0;
+
+        for (let type0 of clubTypesDisplay) {
+            clubPercGain += getClubPerc(type0, i);
+            clubPercGain = Math.round((clubPercGain + Number.EPSILON) * 100) / 100
+        }
+
         for (let type1 of clubTypes1) {
             clubPercGain += getClubPerc(type1, i);
             clubPercGain = Math.round((clubPercGain + Number.EPSILON) * 100) / 100
@@ -982,6 +988,8 @@ function getClubPerc(selectId, charId) {
     var clubItemCheck = {};
     switch (selectId) {
         case "display":
+            clubItemCheck = clubItemsDisplay;
+            break;
         case "djbooth":
         case "discl":
         case "discr":
