@@ -804,6 +804,7 @@ function getMedleyPower() {
     // Medley event cards 
     var cardSet = {
         "86":["Disciple playing and Master conducting", "Hyped and hyped", "Illumination and Illusion", "Pretty meets Mysterious"],
+        "93":["Dusk", "Street color", "Madder red sky", "Encounter"],
     };
 
     var charList = [];
@@ -1032,24 +1033,7 @@ function getClubPerc(selectId, charId) {
 function calcEventPower() {
     var type = document.getElementById("eventtype").innerHTML;
     // For now, just assume all raids the same for Dengeki. Will need to tweak further for 1st Anni or possibly old D4FES type again
-    if (type !== "Raid") {
-        for (let i = 1; i <= 4; i++) {
-            var eventPercGain = getEventPerc(i);
-            document.getElementById("m" + i + "_eventperc").innerHTML = eventPercGain;
-    
-            var heartMod = parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) || 0;
-            var techMod = parseInt(document.getElementById("m" + i + "_techmod").innerHTML) || 0;
-            var physMod = parseInt(document.getElementById("m" + i + "_physmod").innerHTML) || 0;
-    
-            var heart = Math.floor(parseInt(heartMod) * eventPercGain);
-            var tech = Math.floor(parseInt(techMod) * eventPercGain);
-            var phys = Math.floor(parseInt(physMod) * eventPercGain);
-            var eventTotal = heart + tech + phys;
-    
-            document.getElementById("m" + i + "_eventbonus").innerHTML = eventTotal;
-            document.getElementById("m" + i + "_eventbonus2").innerHTML = 0;
-        }
-    } else {
+    if (type === "Raid") {
         // Power for newer special raids (dengeki, precure, quint2, etc)
         // +50% for matching char, +50% for collab
 
@@ -1100,6 +1084,23 @@ function calcEventPower() {
                 document.getElementById("m" + i + "_eventbonus").innerHTML = 0;
                 document.getElementById("m" + i + "_eventbonus2").innerHTML = 0;
             }
+        }
+    } else {
+        for (let i = 1; i <= 4; i++) {
+            var eventPercGain = getEventPerc(i);
+            document.getElementById("m" + i + "_eventperc").innerHTML = eventPercGain;
+    
+            var heartMod = parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) || 0;
+            var techMod = parseInt(document.getElementById("m" + i + "_techmod").innerHTML) || 0;
+            var physMod = parseInt(document.getElementById("m" + i + "_physmod").innerHTML) || 0;
+    
+            var heart = Math.floor(parseInt(heartMod) * eventPercGain);
+            var tech = Math.floor(parseInt(techMod) * eventPercGain);
+            var phys = Math.floor(parseInt(physMod) * eventPercGain);
+            var eventTotal = heart + tech + phys;
+    
+            document.getElementById("m" + i + "_eventbonus").innerHTML = eventTotal;
+            document.getElementById("m" + i + "_eventbonus2").innerHTML = 0;
         }
     }
 }
