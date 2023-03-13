@@ -8276,6 +8276,62 @@ var cards = {
             "skill": .5,
             "icon": "card_icon_040510014_1.25dde154",
             "passive": "Life Boost 2.5-7.5%"
+        },
+        "589": {
+            "id": 589,
+            "character": "Miyu",
+            "cardname": "Dusk",
+            "unit": "LyriLily",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 20650,
+            "technical": 8057,
+            "physical": 14657,
+            "skill": .8,
+            "icon": "card_icon_070610003_1.c62a9205",
+            "passive": "Auto Boost 2.5-8%"
+        },
+        "590": {
+            "id": 590,
+            "character": "Haruna",
+            "cardname": "Street color",
+            "unit": "LyriLily",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 19776,
+            "technical": 15022,
+            "physical": 8513,
+            "skill": .8,
+            "icon": "card_icon_070620003_1.0371430f",
+            "passive": "Life Boost 2.5-7.5%"
+        },
+        "591": {
+            "id": 591,
+            "character": "Kurumi",
+            "cardname": "Madder red sky",
+            "unit": "LyriLily",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 19496,
+            "technical": 14537,
+            "physical": 8481,
+            "skill": .8,
+            "icon": "card_icon_070630003_1.4986c400",
+            "passive": "Groovy Bonus 10-30%"
+        },
+        "592": {
+            "id": 592,
+            "character": "Miiko",
+            "cardname": "Encounter",
+            "unit": "LyriLily",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 20463,
+            "technical": 8110,
+            "physical": 15446,
+            "skill": .8,
+            "icon": "card_icon_070640003_1.2a58f829",
+            "passive": "Groovy Solo 20-60%"
         }
     }
 

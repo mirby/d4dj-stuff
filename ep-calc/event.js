@@ -916,6 +916,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "93": {
+        "id":93,
+        "name":"side : origin -Lyrical Lily-",
+        "characters":"Miyu,Haruna,Kurumi,Miiko",
+        "type":"Medley",
+        "style":"Party",
+        "parameter":"Heart",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*
