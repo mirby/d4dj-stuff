@@ -802,10 +802,7 @@ function calcDisplayPower() {
 function getMedleyPower() {
 
     // Medley event cards 
-    var cardSet = {
-        "86":["Disciple playing and Master conducting", "Hyped and hyped", "Illumination and Illusion", "Pretty meets Mysterious"],
-        "93":["Dusk", "Street color", "Madder red sky", "Encounter"],
-    };
+    var cardSet = getCardSet("medley");
 
     var charList = [];
     var eventId = document.getElementById("eventid").innerHTML;
@@ -1038,13 +1035,7 @@ function calcEventPower() {
         // +50% for matching char, +50% for collab
 
         // Really bad hack to detect if a card is collab type, basically just map the card names to the event ID
-        var collabSet = {
-            "59":["Motorrad Rider Traveler", "Dichotomy of Bludgeoning and Resurrection", "Red-Eyed Rabbit's Tenchu Kick", "Railgun Exploding in the Dark of Night"],
-            "60":["With You Sleeping Peacefully", "Shana and the Blue Flame Hunter", "Proudly Sparkle Rod", "Naughty Sister"],
-            "68":["I Wonder Why It's You", "You Can't Veto It", "You're Responsible For It", "Please Make My Dream Come True", "Beautiful Full Moon"],
-            "79":["Pursue The Path Of Darkness-pyo!", "Reiwa's Most Powerful Idol!", "Puchiko Will Dance Too-nyu", "Dejiko Is The Lead-nyo!"],
-            "89":["Anthem of Dawn", "Do You Even DJ?", "CHAMPION GIRL", "Summit Of Babel"],
-        };
+        var collabSet = getCardSet("raid");
 
         var charList = [];
         var eventId = document.getElementById("eventid").innerHTML;

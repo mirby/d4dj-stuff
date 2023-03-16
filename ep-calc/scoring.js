@@ -362,6 +362,9 @@ function calculateScore(type) {
     });
     skillsList.push(highest);
 
+    // TODO: Replace all instances of 80 with 60. 80 skills have a different duration and I can't fix it easily, so treat it as a 60 value
+    skillsList.forEach(function(item, i) { if (item == 80) skillsList[i] = 60; });
+
     // Get event bonus power if raid for the target Support Live room
     var bonusPower = getBonusPower(type);
     power2 = parseInt(power2) + parseInt(bonusPower);
