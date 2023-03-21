@@ -8472,6 +8472,34 @@ var cards = {
             "skill": .6,
             "icon": "card_icon_040340014_1.ae422aa5",
             "passive": "Groovy Bonus 10-30%"
+        },
+        "603": {
+            "id": 603,
+            "character": "Dalia",
+            "cardname": "Birthday -Fountain-",
+            "unit": "Mermaid",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 12662,
+            "technical": 12468,
+            "physical": 11837,
+            "skill": .55,
+            "icon": "card_icon_040440011_1.642103a9",
+            "passive": "Groovy Solo 20-60%"
+        },
+        "604": {
+            "id": 604,
+            "character": "Esora",
+            "cardname": "Birthday -Thrones-",
+            "unit": "Peaky",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 12338,
+            "technical": 11870,
+            "physical": 12680,
+            "skill": .55,
+            "icon": "card_icon_040240009_1.3d8c2750",
+            "passive": "Auto Boost 2.5-8%"
         }
     }
 
