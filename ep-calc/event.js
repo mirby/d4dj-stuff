@@ -948,6 +948,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "94": {
+        "id":94,
+        "name":"side : nova Season 4 -Finding Neo-",
+        "characters":"Yuka,Noa,Saori,Tsubaki",
+        "type":"Poker",
+        "style":"Cute",
+        "parameter":"Technical",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*
