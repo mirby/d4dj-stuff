@@ -3284,7 +3284,7 @@ var cards = {
         "233": {
             "id": 233,
             "character": "Shinobu",
-            "cardname": "Birthday Thrones",
+            "cardname": "Birthday -Thrones-",
             "unit": "Peaky",
             "type": "Elegant",
             "rarity": 4,
