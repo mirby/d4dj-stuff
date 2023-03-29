@@ -130,6 +130,7 @@ function getCardSet(type) {
     var medSet = {
         "86":["Disciple playing and Master conducting", "Hyped and hyped", "Illumination and Illusion", "Pretty meets Mysterious"],
         "93":["Dusk", "Street color", "Madder red sky", "Encounter"],
+        "95":["Scenery", "Afterglow", "Phosphorescence", "Luminous"],
     };
 
     var raidSet = {
@@ -954,6 +955,16 @@ var eventList = {
         "characters":"Yuka,Noa,Saori,Tsubaki",
         "type":"Poker",
         "style":"Cute",
+        "parameter":"Technical",
+        "bonus":true,
+        "addition":""
+    },
+    "95": {
+        "id":95,
+        "name":"side : origin -Happy Around!-",
+        "characters":"Rinku,Maho,Muni,Rei",
+        "type":"Medley",
+        "style":"Elegant",
         "parameter":"Technical",
         "bonus":true,
         "addition":""

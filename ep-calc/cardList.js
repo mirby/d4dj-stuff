@@ -8500,7 +8500,64 @@ var cards = {
             "skill": .55,
             "icon": "card_icon_040240009_1.3d8c2750",
             "passive": "Auto Boost 2.5-8%"
+        },
+        "605": {
+            "id": 605,
+            "character": "Rinku",
+            "cardname": "Scenery",
+            "unit": "HapiAra",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 7724,
+            "technical": 20283,
+            "physical": 14860,
+            "skill": .8,
+            "icon": "card_icon_070110004_1.bae98eef",
+            "passive": "Groovy Bonus 10-30%"
+        },
+        "606": {
+            "id": 606,
+            "character": "Maho",
+            "cardname": "Afterglow",
+            "unit": "HapiAra",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 7941,
+            "technical": 19990,
+            "physical": 15218,
+            "skill": .8,
+            "icon": "card_icon_070120003_1.5ee66633",
+            "passive": "Groovy Solo 20-60%"
+        },
+        "607": {
+            "id": 607,
+            "character": "Muni",
+            "cardname": "Phosphorescence",
+            "unit": "HapiAra",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 14689,
+            "technical": 20445,
+            "physical": 7415,
+            "skill": .8,
+            "icon": "card_icon_070130004_1.e099f99c",
+            "passive": "Life Boost 2.5-7.5%"
+        },
+        "608": {
+            "id": 608,
+            "character": "Rei",
+            "cardname": "Luminous",
+            "unit": "HapiAra",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 15516,
+            "technical": 20129,
+            "physical": 7441,
+            "skill": .8,
+            "icon": "card_icon_070140003_1.3aaf004c",
+            "passive": "Auto Boost 2.5-8%"
         }
+        
     }
 
 /*
