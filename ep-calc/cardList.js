@@ -8556,8 +8556,77 @@ var cards = {
             "skill": .8,
             "icon": "card_icon_070140003_1.3aaf004c",
             "passive": "Auto Boost 2.5-8%"
-        }
-        
+        },
+        "609": {
+            "id": 609,
+            "character": "Hayate",
+            "cardname": "Navigation",
+            "unit": "Unichord",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 15968,
+            "technical": 13888,
+            "physical": 14971,
+            "skill": .45,
+            "icon": "card_icon_060840001_1.960b82bf",
+            "passive": "Life Boost 2.5-7.75%"
+        },
+        "610": {
+            "id": 610,
+            "character": "Kokoa",
+            "cardname": "Navigation",
+            "unit": "Unichord",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 14312,
+            "technical": 15775,
+            "physical": 15168,
+            "skill": .45,
+            "icon": "card_icon_060830001_1.1904c826",
+            "passive": "Life Boost 2.5-7.75%"
+        },
+        "611": {
+            "id": 611,
+            "character": "Michiru",
+            "cardname": "Navigation",
+            "unit": "Unichord",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 13613,
+            "technical": 15062,
+            "physical": 14949,
+            "skill": .45,
+            "icon": "card_icon_060810001_1.41118ef6",
+            "passive": "Life Boost 2.5-7.75%"
+        },
+        "612": {
+            "id": 612,
+            "character": "Ibuki",
+            "cardname": "Navigation",
+            "unit": "Photon",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 14879,
+            "technical": 15051,
+            "physical": 14215,
+            "skill": .45,
+            "icon": "",
+            "passive": "Life Boost 2.5-7.75%"
+        },
+        "613": {
+            "id": 613,
+            "character": "Kyoko",
+            "cardname": "Navigation",
+            "unit": "Peaky",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 14346,
+            "technical": 15103,
+            "physical": 14642,
+            "skill": .45,
+            "icon": "",
+            "passive": "Groovy Bonus 10-31.5%"
+        }        
     }
 
 /*
