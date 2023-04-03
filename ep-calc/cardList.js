@@ -8610,7 +8610,7 @@ var cards = {
             "technical": 15051,
             "physical": 14215,
             "skill": .45,
-            "icon": "",
+            "icon": "card_icon_060320001_1.fccb2958",
             "passive": "Life Boost 2.5-7.75%"
         },
         "613": {
@@ -8624,7 +8624,7 @@ var cards = {
             "technical": 15103,
             "physical": 14642,
             "skill": .45,
-            "icon": "",
+            "icon": "card_icon_060210001_1.78f5364d",
             "passive": "Groovy Bonus 10-31.5%"
         }        
     }
