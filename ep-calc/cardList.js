@@ -8626,7 +8626,63 @@ var cards = {
             "skill": .45,
             "icon": "card_icon_060210001_1.78f5364d",
             "passive": "Groovy Bonus 10-31.5%"
-        }        
+        },
+        "614": {
+            "id": 614,
+            "character": "Marika",
+            "cardname": "Lovely Encounter",
+            "unit": "Mermaid",
+            "type": "Street",
+            "rarity": 3,
+            "heart": 6673,
+            "technical": 7765,
+            "physical": 17223,
+            "skill": .3,
+            "icon": "card_icon_030420007_1.960b6098",
+            "passive": "Groovy Bonus 5-10%"
+        },
+        "615": {
+            "id": 615,
+            "character": "Muni",
+            "cardname": "Beyond the Dimensional Wall",
+            "unit": "HapiAra",
+            "type": "Street",
+            "rarity": 3,
+            "heart": 7917,
+            "technical": 6594,
+            "physical": 16889,
+            "skill": .3,
+            "icon": "card_icon_030130009_1.e3818144",
+            "passive": "Life Boost 1-2.5%"
+        },
+        "616": {
+            "id": 616,
+            "character": "Kurumi",
+            "cardname": "Two-faced Twin tail",
+            "unit": "LyriLily",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 7612,
+            "technical": 15250,
+            "physical": 20637,
+            "skill": .6,
+            "icon": "card_icon_040630013_1.27f7aa85",
+            "passive": "Groovy Solo 20-60%"
+        },
+        "617": {
+            "id": 617,
+            "character": "Ibuki",
+            "cardname": "To the Next Generation",
+            "unit": "Photon",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 14858,
+            "technical": 7534,
+            "physical": 20979,
+            "skill": .6,
+            "icon": "card_icon_040320013_1.4afa221f",
+            "passive": "Auto Boost 2.5-8%"
+        }
     }
 
 /*

@@ -969,6 +969,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "96": {
+        "id":96,
+        "name":"side : nova Season 5 -Leader-",
+        "characters":"Muni,Ibuki,Marika,Kurumi",
+        "type":"Bingo",
+        "style":"Street",
+        "parameter":"Physical",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*
