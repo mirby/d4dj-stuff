@@ -979,6 +979,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "97": {
+        "id":97,
+        "name":"What is 'Love'? -Rinku & Kyoko-",
+        "characters":"Rinku,Kyoko",
+        "type":"Slots",
+        "style":"Party",
+        "parameter":"Heart",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*

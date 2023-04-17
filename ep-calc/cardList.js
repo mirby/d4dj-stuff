@@ -8682,6 +8682,34 @@ var cards = {
             "skill": .6,
             "icon": "card_icon_040320013_1.4afa221f",
             "passive": "Auto Boost 2.5-8%"
+        },
+        "618": {
+            "id": 618,
+            "character": "Rinku",
+            "cardname": "Echoing Love, Diva Of Rose -Pure White-",
+            "unit": "HapiAra",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 20895,
+            "technical": 7997,
+            "physical": 14454,
+            "skill": .5,
+            "icon": "card_icon_040110013_1.5b4acaec",
+            "passive": "Groovy Solo 20-60%"
+        },
+        "619": {
+            "id": 619,
+            "character": "Kyoko",
+            "cardname": "Echoing Love, Diva Of Rose -Pure Black-",
+            "unit": "Peaky",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 19736,
+            "technical": 15195,
+            "physical": 8152,
+            "skill": .5,
+            "icon": "card_icon_040210012_1.6b69639c",
+            "passive": "Groovy Bonus 10-30%"
         }
     }
 
