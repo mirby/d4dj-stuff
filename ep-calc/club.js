@@ -239,6 +239,12 @@ var clubItemsDisplay = {
     //     "type":"unit",
     //     "bonus":.03
     // },
+    // "abyssmare": {
+    //     "name":"abyssmare",
+    //     "displayname":"Abyssmare",
+    //     "type":"unit",
+    //     "bonus":.03
+    // },
     "callofartemis": {
         "name":"callofartemis",
         "displayname":"Call of Artemis",
@@ -449,6 +455,30 @@ var clubItemsDisplay = {
         "type":"character",
         "bonus":.12
     },
+    "neo": {
+        "name":"neo",
+        "displayname":"Neo",
+        "type":"character",
+        "bonus":.12
+    },
+    "sophia": {
+        "name":"sophia",
+        "displayname":"Sophia",
+        "type":"character",
+        "bonus":.12
+    },
+    "elsie": {
+        "name":"elsie",
+        "displayname":"Elsie",
+        "type":"character",
+        "bonus":.12
+    },
+    "weronika": {
+        "name":"weronika",
+        "displayname":"Weronika",
+        "type":"character",
+        "bonus":.12
+    },
     "toka": {
         "name":"toka",
         "displayname":"Toka",
@@ -515,6 +545,12 @@ var clubItems1 = {
     // "unichord": {
     //     "name":"unichord",
     //     "displayname":"UniChØrd",
+    //     "type":"unit",
+    //     "bonus":.03
+    // },
+    // "abyssmare": {
+    //     "name":"abyssmare",
+    //     "displayname":"Abyssmare",
     //     "type":"unit",
     //     "bonus":.03
     // },
@@ -698,6 +734,30 @@ var clubItems1 = {
         "type":"character",
         "bonus":.12
     },
+    "neo": {
+        "name":"neo",
+        "displayname":"Neo",
+        "type":"character",
+        "bonus":.12
+    },
+    "sophia": {
+        "name":"sophia",
+        "displayname":"Sophia",
+        "type":"character",
+        "bonus":.12
+    },
+    "elsie": {
+        "name":"elsie",
+        "displayname":"Elsie",
+        "type":"character",
+        "bonus":.12
+    },
+    "weronika": {
+        "name":"weronika",
+        "displayname":"Weronika",
+        "type":"character",
+        "bonus":.12
+    },
     "toka": {
         "name":"toka",
         "displayname":"Toka",
@@ -764,6 +824,12 @@ var clubItems2 = {
     // "unichord": {
     //     "name":"unichord",
     //     "displayname":"UniChØrd",
+    //     "type":"unit",
+    //     "bonus":.03
+    // },
+    // "abyssmare": {
+    //     "name":"abyssmare",
+    //     "displayname":"Abyssmare",
     //     "type":"unit",
     //     "bonus":.03
     // },

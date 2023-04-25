@@ -8825,6 +8825,11 @@ function setUnit(name) {
         case "Kokoa":
         case "Hayate":
             return "Unichord";
+        case "Neo":
+        case "Sophia":
+        case "Elsie":
+        case "Weronika":
+            return "Abyssmare";
         case "Shano":
         case "Toka":
         case "Airi":

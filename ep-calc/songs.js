@@ -74,6 +74,10 @@ function generateSongArray() {
                 unit = "UniChØrd";
                 unitIcon = "unichord";
                 break;
+            case 9:
+                unit = "Abyssmare";
+                unitIcon = "abyssmare";
+                break;
             default:
                 unit = "Other";
                 unitIcon = "none";
