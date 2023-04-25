@@ -989,6 +989,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "98": {
+        "id":98,
+        "name":"side : origin -Merm4id-",
+        "characters":"Rika,Marika,Saori,Dalia",
+        "type":"Poker",
+        "style":"Elegant",
+        "parameter":"Technical",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*

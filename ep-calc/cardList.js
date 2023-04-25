@@ -8710,6 +8710,62 @@ var cards = {
             "skill": .5,
             "icon": "card_icon_040210012_1.6b69639c",
             "passive": "Groovy Bonus 10-30%"
+        },
+        "620": {
+            "id": 620,
+            "character": "Rika",
+            "cardname": "Boredome",
+            "unit": "Mermaid",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 8404,
+            "technical": 19472,
+            "physical": 14887,
+            "skill": .8,
+            "icon": "card_icon_070410003_1.c93edad7",
+            "passive": "Auto Boost 2.5-8%"
+        },
+        "621": {
+            "id": 621,
+            "character": "Marika",
+            "cardname": "Commute",
+            "unit": "Mermaid",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 8017,
+            "technical": 19556,
+            "physical": 15891,
+            "skill": .8,
+            "icon": "card_icon_070420003_1.5d237799",
+            "passive": "Groovy Bonus 10-30%"
+        },
+        "622": {
+            "id": 622,
+            "character": "Saori",
+            "cardname": "Spring Night",
+            "unit": "Mermaid",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 13827,
+            "technical": 20536,
+            "physical": 8376,
+            "skill": .8,
+            "icon": "card_icon_070430003_1.725818e4",
+            "passive": "Life Boost 2.5-7.5%"
+        },
+        "623": {
+            "id": 623,
+            "character": "Dalia",
+            "cardname": "Sobering Up",
+            "unit": "Mermaid",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 7861,
+            "technical": 19752,
+            "physical": 15213,
+            "skill": .8,
+            "icon": "card_icon_070440003_1.96a0efc2",
+            "passive": "Groovy Solo 20-60%"
         }
     }
 
