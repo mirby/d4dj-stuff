@@ -8766,6 +8766,62 @@ var cards = {
             "skill": .8,
             "icon": "card_icon_070440003_1.96a0efc2",
             "passive": "Groovy Solo 20-60%"
+        },
+        "624": {
+            "id": 624,
+            "character": "Towa",
+            "cardname": "Let's Go Fighting!",
+            "unit": "Photon",
+            "type": "Street",
+            "rarity": 3,
+            "heart": 8022,
+            "technical": 6176,
+            "physical": 17157,
+            "skill": .3,
+            "icon": "card_icon_030330006_1.f5615693",
+            "passive": "Groovy Solo 10-20%"
+        },
+        "625": {
+            "id": 625,
+            "character": "Saki",
+            "cardname": "Think Beyond The Universe",
+            "unit": "Photon",
+            "type": "Street",
+            "rarity": 3,
+            "heart": 6655,
+            "technical": 8313,
+            "physical": 16782,
+            "skill": .3,
+            "icon": "card_icon_030310007_1.7ad2ba6c",
+            "passive": "Auto Boost 1.5-2.5%"
+        },
+        "626": {
+            "id": 626,
+            "character": "Nagisa",
+            "cardname": "Blue Rose Duo",
+            "unit": "Rondo",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 15334,
+            "technical": 8104,
+            "physical": 20086,
+            "skill": .6,
+            "icon": "card_icon_040520013_1.06b96211",
+            "passive": "Life Boost 2.5-7.5%"
+        },
+        "627": {
+            "id": 627,
+            "character": "Shinobu",
+            "cardname": "Rival x Rival = The Strongest",
+            "unit": "Peaky",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 7872,
+            "technical": 14163,
+            "physical": 21044,
+            "skill": .6,
+            "icon": "card_icon_040220014_1.e7e7737b",
+            "passive": "Groovy Bonus 10-30%"
         }
     }
 

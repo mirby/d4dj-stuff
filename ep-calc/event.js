@@ -999,6 +999,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "99": {
+        "id":99,
+        "name":"side : nova Season 6 -Unison-",
+        "characters":"Shinobu,Saki,Towa,Nagisa",
+        "type":"Bingo",
+        "style":"Street",
+        "parameter":"Physical",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*
