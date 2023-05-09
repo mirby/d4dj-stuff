@@ -8864,6 +8864,34 @@ var cards = {
             "skill": .45,
             "icon": "card_icon_060310001_1.01404459",
             "passive": "Groovy Bonus 10-31.5%"
+        },
+        "631": {
+            "id": 631,
+            "character": "Rei",
+            "cardname": "Playing As A Pair -risoluto",
+            "unit": "HapiAra",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 19619,
+            "technical": 8239,
+            "physical": 15103,
+            "skill": .5,
+            "icon": "card_icon_040140014_1.cba14c2c",
+            "passive": "Auto Boost 2.5-8%"
+        },
+        "632": {
+            "id": 632,
+            "character": "Esora",
+            "cardname": "Playing As A Pair -marcato-",
+            "unit": "Peaky",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 20466,
+            "technical": 14070,
+            "physical": 8263,
+            "skill": .5,
+            "icon": "card_icon_040240013_1.f8897cc2",
+            "passive": "Life Boost 2.5-7.5%"
         }
     }
 

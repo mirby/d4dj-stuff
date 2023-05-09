@@ -1009,6 +1009,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "100": {
+        "id":100,
+        "name":"Suite 'Time Drifts Lazily' -Rei & Esora-",
+        "characters":"Rei,Esora",
+        "type":"Slots",
+        "style":"Cool",
+        "parameter":"Heart",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*
