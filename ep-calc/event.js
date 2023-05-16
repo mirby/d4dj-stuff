@@ -131,6 +131,7 @@ function getCardSet(type) {
         "86":["Disciple playing and Master conducting", "Hyped and hyped", "Illumination and Illusion", "Pretty meets Mysterious"],
         "93":["Dusk", "Street color", "Madder red sky", "Encounter"],
         "95":["Scenery", "Afterglow", "Phosphorescence", "Luminous"],
+        "101":["Wanderer", "Tuning", "Transience", "Heartbeat"],
     };
 
     var raidSet = {
@@ -1016,6 +1017,16 @@ var eventList = {
         "type":"Slots",
         "style":"Cool",
         "parameter":"Heart",
+        "bonus":true,
+        "addition":""
+    },
+    "101": {
+        "id":101,
+        "name":"side : origin -Rondo-",
+        "characters":"Tsubaki,Nagisa,Hiiro,Aoi",
+        "type":"Medley",
+        "style":"Elegant",
+        "parameter":"Technical",
         "bonus":true,
         "addition":""
     },

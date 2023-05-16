@@ -8892,6 +8892,62 @@ var cards = {
             "skill": .5,
             "icon": "card_icon_040240013_1.f8897cc2",
             "passive": "Life Boost 2.5-7.5%"
+        },
+        "633": {
+            "id": 633,
+            "character": "Tsubaki",
+            "cardname": "Wanderer",
+            "unit": "Rondo",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 14601,
+            "technical": 19983,
+            "physical": 7985,
+            "skill": .8,
+            "icon": "card_icon_070510003_1.0f55bbe3",
+            "passive": "Auto Boost 2.5-8%"
+        },
+        "634": {
+            "id": 634,
+            "character": "Nagisa",
+            "cardname": "Tuning",
+            "unit": "Rondo",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 8016,
+            "technical": 20413,
+            "physical": 14602,
+            "skill": .8,
+            "icon": "card_icon_070520004_1.60860db2",
+            "passive": "Life Boost 2.5-7.5%"
+        },
+        "635": {
+            "id": 635,
+            "character": "Hiiro",
+            "cardname": "Transience",
+            "unit": "Rondo",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 15722,
+            "technical": 19748,
+            "physical": 8532,
+            "skill": .8,
+            "icon": "card_icon_070530003_1.1646c2ca",
+            "passive": "Groovy Bonus 10-30%"
+        },
+        "636": {
+            "id": 636,
+            "character": "Aoi",
+            "cardname": "Heartbeat",
+            "unit": "Rondo",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 7481,
+            "technical": 20840,
+            "physical": 14641,
+            "skill": .8,
+            "icon": "card_icon_070540004_1.89d63c0e",
+            "passive": "Groovy Solo 20-60%"
         }
     }
 
