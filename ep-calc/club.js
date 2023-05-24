@@ -134,8 +134,8 @@ function autoClub() {
             }            
         }
 
-        // Unichord club items don't yet exist
-        if (unitNum >= styleNum && unitUse !== "unichord") {
+        // Unichord and Abyssmare club items don't yet exist
+        if (unitNum >= styleNum && unitUse !== "unichord" && unitUse !== "abyssmare") {
             if (unitUse !== "") {
                 clubUse = unitUse;
             } else {

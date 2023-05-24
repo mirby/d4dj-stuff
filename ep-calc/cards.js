@@ -1357,10 +1357,15 @@ var units = [
         "display":"UniChØrd"
     },
     {
+        "unit":"Abyssmare",
+        "display":"Abyssmare"
+    },
+    {
         "unit":"Common",
         "display":"Other"
     }
 ];
 
 var characters = ["Rinku", "Maho", "Muni", "Rei", "Kyoko", "Shinobu", "Yuka", "Esora", "Saki", "Ibuki", "Towa", "Noa", "Rika", "Marika", "Saori", "Dalia", 
-                    "Tsubaki", "Nagisa", "Hiiro", "Aoi", "Miyu", "Haruna", "Kurumi", "Miiko", "Michiru", "Lumina", "Kokoa", "Hayate", "Toka", "Shano", "Mana", "Airi"];
+                    "Tsubaki", "Nagisa", "Hiiro", "Aoi", "Miyu", "Haruna", "Kurumi", "Miiko", "Michiru", "Lumina", "Kokoa", "Hayate", "Neo", "Sophia", "Elsie", "Weronika",
+                     "Toka", "Shano", "Mana", "Airi"];
