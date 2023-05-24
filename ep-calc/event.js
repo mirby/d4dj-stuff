@@ -140,6 +140,7 @@ function getCardSet(type) {
         "68":["I Wonder Why It's You", "You Can't Veto It", "You're Responsible For It", "Please Make My Dream Come True", "Beautiful Full Moon"],
         "79":["Pursue The Path Of Darkness-pyo!", "Reiwa's Most Powerful Idol!", "Puchiko Will Dance Too-nyu", "Dejiko Is The Lead-nyo!"],
         "89":["Anthem of Dawn", "Do You Even DJ?", "CHAMPION GIRL", "Summit Of Babel"],
+        "102":["Abyss's Queen", "As You Wish", "Break the World", "Road to the No.1"],
     };
 
     if (type === "medley") {
@@ -1029,6 +1030,16 @@ var eventList = {
         "parameter":"Technical",
         "bonus":true,
         "addition":""
+    },
+    "102": {
+        "id":102,
+        "name":"side : nova Season 7 -Abyssmare-",
+        "characters":"Neo,Sophia,Elsie,Weronika",
+        "type":"Raid",
+        "style":"None",
+        "parameter":"None",
+        "bonus":false,
+        "addition":"50% power boost for Abyssmare 4 star. 25% power boost for Abyssmare 2 star. 10% power boost for side:origin SP and side:nova UniChord."
     },
 }
 
