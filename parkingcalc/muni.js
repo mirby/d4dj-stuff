@@ -98,7 +98,7 @@ const MAXSTEPS= 10000
 		var originalTarget=start
 		document.getElementById("console").value=""
 
-		var interval = (type=="Medley")?15000:(type=="Poker/Slots")?4000:(type=="RaidAnni")?4000:8000
+		var interval = (type=="Medley")?15000:(type=="Poker/Slots")?4000:(type=="RaidAnni")?6000:8000
 		
 		var special = (type=="RaidAnni");
 		if (special) {
@@ -124,7 +124,7 @@ const MAXSTEPS= 10000
 						return voltage * Math.floor((1 + bonus) * (50 + Math.floor(score/interval) + Math.floor(parameter/600)))
 					}
 					case "RaidAnni":{
-						return voltage * (100 + Math.floor(score/interval))
+						return voltage * (300 + Math.floor(score/interval))
 					}
 				}
 			} else {
