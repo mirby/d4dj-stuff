@@ -240,9 +240,35 @@ function setMax(num) {
     }
 }
 
+var enList2 = [];
+var jpList2 = [];
+var max2 = 0;
+
+function generateFullTimelines() {
+    Object.keys(enTimelineFull).forEach(function(key) {
+        enList2.push({
+            x : new Date(key),
+            y : enTimelineFull[key]
+        });
+    });
+
+    Object.keys(jpTimelineFull).forEach(function(key) {
+        setMax2(jpTimelineFull[key]);
+        jpList2.push({
+            x : new Date(key),
+            y : jpTimelineFull[key]
+        });
+    });
+}
+
+function setMax2(num) {
+    if (num > max2) {
+        max2 = num;
+    }
+}
+
 function test() {
     var key = Object.keys(jpTimeline)[0];
     console.log(key);
     console.log(jpTimeline[key]);
-
 }

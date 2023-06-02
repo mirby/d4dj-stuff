@@ -13,15 +13,56 @@
     <script src="songs.js"></script>
     <script src="jptimeline.js"></script>
     <script src="entimeline.js"></script>
+    <script src="jptimelineFull.js"></script>
+    <script src="entimelineFull.js"></script>
   </head>
   <body>
       <a href="index.html">Return to team builder</a>
       <p style="font-size:large;"><b>Last Updated: <span id="updated"></span></b></p>
-      <div id="chartContainer" class="container" style="height: 370px; width: 100%;"></div>
-      <div id="chartContainer2" class="container" style="height: 370px; width: 100%;"></div><hr>
+      <div class="container">
+        <div class="accordion" id="accordionExample">
+          <p class="text-center" style="font-size:25px; font-weight: bold;">Song Addition Charts</p>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                      <b>Songs Added In Last 365 Days - JP</b>
+                  </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body" style="height: 370px">
+                      <div id="chartContainer" style="height: 95%; width: 95%;"></div>
+                    </div>
+              </div>
+          </div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      <b>Songs Added In Last 365 Days - EN</b>
+                  </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <div id="chartContainer2" class="container" style="height: 370px; width: 95%;"></div>
+                  </div>
+              </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <b>Song Additions Over Time - JP & EN</b>
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <div id="chartContainer3" class="container" style="height: 370px; width: 100%;"></div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <hr>
       <div class="container">
         <p class="text-center" style="font-size:25px; font-weight: bold;">EN Song Gap List</p>
-        <p style="font-size:large;"><b>Songs not in EN: <span id="songCount"></span></b><span style="font-size: small";>   (List does not include songs in EN but not in JP)</span></p>
+        <p style="font-size:large;"><b>Active songs not in EN: <span id="songCount"></span></b><span style="font-size: small";>   (Does not include songs in EN but not in JP)</span></p>
         <div class="sortsection">
           <span><b>Sort By:     </b></span>
           <div class="form-check form-check-inline">
@@ -42,78 +83,141 @@
           </div>
       </div>
       <div id="songTableWrapper"></div>
-      
+
       <script>
         generateSongArray();
         songArray.sort(songDefaultSort());
         displaySongList(songArray);
         generateTimelines();
+        generateFullTimelines();
 
-        // Render songs charts
-        window.onload = function () {
+        let chartCollapse1 = document.getElementById("collapseOne");
+        chartCollapse1.addEventListener('shown.bs.collapse', function renderChart() {
           var chart = new CanvasJS.Chart("chartContainer", {
             theme: "light2",
             animationEnabled: true,
             title: {
-              text: "Songs added last 365 days (JP) - " + jptotal
+                text: "Songs added last 365 days (JP) - " + jptotal
             },
             axisX: {
-              interval: 1,
-              intervalType: "month",
-              valueFormatString: "MMM"
+                interval: 1,
+                intervalType: "month",
+                valueFormatString: "MMM"
             },
             axisY: {
-              minimum: 0,
-              maximum: max + 2,
-              interval:2,
-              title: "Count",
+                minimum: 0,
+                maximum: max + 2,
+                interval:2,
+                title: "Count",
             },
             toolTip: {
-              contentFormatter: function(e) {
+            contentFormatter: function(e) {
                 let date = new Date(e.entries[0].dataPoint.x);
                 let content = date.toLocaleString("en-US", { month: "short", year: "numeric", timeZone: "JST" });
                 return content + ": " + e.entries[0].dataPoint.y;
-              }
+            }
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false
             },
             data: [{
-              type: "line",
-              dataPoints: jpList
+                type: "line",
+                dataPoints: jpList
             }]
-          })
+          });
           chart.render();
+          chartCollapse1.removeEventListener('shown.bs.collapse', renderChart);
+        });
 
+        let chartCollapse2 = document.getElementById("collapseTwo");
+        chartCollapse2.addEventListener('shown.bs.collapse', function renderChart() {
           var chart2 = new CanvasJS.Chart("chartContainer2", {
             theme: "light2",
             animationEnabled: true,
             title: {
-              text: "Songs added last 365 days (EN) - " + entotal
+                text: "Songs added last 365 days (EN) - " + entotal
             },
             axisX: {
-              interval: 1,
-              intervalType: "month",
-              valueFormatString: "MMM"
+                interval: 1,
+                intervalType: "month",
+                valueFormatString: "MMM"
             },
             axisY: {
-              minimum: 0,
-              maximum: max + 2,
-              interval: 2,
-              title: "Count",
+                minimum: 0,
+                maximum: max + 2,
+                interval: 2,
+                title: "Count",
             },
             toolTip: {
-              contentFormatter: function(e) {
+                contentFormatter: function(e) {
                 let date = new Date(e.entries[0].dataPoint.x);
                 let content = date.toLocaleString("en-US", { month: "short", year: "numeric", timeZone: "UTC" });
                 return content + ": " + e.entries[0].dataPoint.y;
-              }
+                }
             },
             data: [{
-              type: "line",
-              dataPoints: enList
+                type: "line",
+                dataPoints: enList
             }]
-          })
+          });
           chart2.render();
-        }
-        //test();
+          chartCollapse2.removeEventListener('shown.bs.collapse', renderChart);
+        });
+
+        let chartCollapse3 = document.getElementById("collapseThree");
+        chartCollapse3.addEventListener('shown.bs.collapse', function renderChart() {
+          var chart3 = new CanvasJS.Chart("chartContainer3", {
+            theme: "light2",
+            animationEnabled: true,
+            title: {
+                text: "EN and JP Song Gap (Includes Removed Songs)"
+            },
+            axisX: {
+                // interval: 3,
+                // intervalType: "month",
+                valueFormatString: "MMM"
+            },
+            axisY: {
+                // minimum: 0,
+                // maximum: max2 + 2,
+                // interval: 20,
+                title: "Count",
+            },
+            toolTip: {
+                shared: true,
+                // contentFormatter: function(e) {
+                //   let date = new Date(e.entries[0].dataPoint.x);
+                //   let content = date.toLocaleString("en-US", { month: "short", year: "numeric", timeZone: "UTC" });
+                //   return content + ": " + e.entries[0].dataPoint.y;
+                // }
+            },
+            legend: {
+                cursor: "pointer",
+                verticalAlign: "top",
+                horizontalAlign: "center",
+                dockInsidePlotArea: true,
+            },
+            data: [
+            {
+                type: "line",
+                name: "JP",
+                showInLegend: true,
+                markerSize: 0,
+                dataPoints: jpList2
+            },
+            {
+                type: "line",
+                name: "EN",
+                showInLegend: true,
+                markerSize: 0,
+                dataPoints: enList2
+            }
+            ]
+          });
+          chart3.render();
+          chartCollapse3.removeEventListener('shown.bs.collapse', renderChart);
+        });
       </script>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
