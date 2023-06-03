@@ -119,29 +119,29 @@ const MAXSTEPS= 10000
 		
 		var maxscore = Math.floor(Math.abs(Math.min(5000000,Math.max(0,Number(document.getElementById("maxscore").value))))/interval)*interval
 
-		function EPCalc(voltage,score,bonus) {
-			if (voltage>0) {
+		function EPCalc(voltage, score, teamBonus) {
+			if (voltage > 0) {
 				switch (type) {
 					case "Bingo":{
-						return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + bonus) * Math.max(10, Math.floor(score/interval))))
+						return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + teamBonus) * Math.max(10, Math.floor(score/interval))));
 					}
 					case "Medley":{
-						return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + bonus) * (10 + Math.floor(score/interval))))
+						return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + teamBonus) * (10 + Math.floor(score/interval))));
 					}
 					case "Poker/Slots":{
-						return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + bonus) * (50 + Math.floor(score/interval))))
+						return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + teamBonus) * (50 + Math.floor(score/interval))));
 					}
 					case "Raid":{
-						return voltage * (100 + Math.floor(score/interval))
+						return voltage * (100 + Math.floor(score/interval));
 						// Old D4FES Raid formula
-						// return voltage * Math.floor((1 + bonus) * (50 + Math.floor(score/interval) + Math.floor(parameter/600)))
+						// return voltage * Math.floor((1 + teamBonus) * (50 + Math.floor(score/interval) + Math.floor(parameter/600)))
 					}
 					case "RaidAnni":{
-						return voltage * (300 + Math.floor(score/interval))
+						return voltage * (300 + Math.floor(score/interval));
 					}
 				}
 			} else {
-				return Math.round(bonus*10)+10
+				return Math.round(teamBonus * 10) + 10;
 			}
 		}
 
@@ -178,36 +178,64 @@ const MAXSTEPS= 10000
 		var bonusRange = GenerateBonusRange(bonus, isBonus)
 
 		function EvenOdd(val) {
-			return val%2==0?"even":"odd"
+			return val % 2 == 0 ? "even" : "odd";
 		}
 
 		function TryBiggestGain(tbonus) {
-			var voltage=5
-			for (var i=maxscore;i>=maxscore*0.8;i-=interval) {
-				if (start+EPCalc(voltage,i,tbonus)<end-10||((start+EPCalc(voltage,i,tbonus)==end)&&((end-start)%2==1||(end-start)>26))) {
+
+			var voltage = 5;
+			var epDifference = end - start;
+			if (epDifference == 0) {
+				return false;
+			}
+
+			for (var i = maxscore; i >= maxscore*0.8; i -= interval) {
+				var calculatedEP = EPCalc(voltage, i, tbonus);
+
+				if (start + calculatedEP <= end - 10 || start + calculatedEP == end) {
 					//document.getElementById("console").value+="Ending value needs to be "+EvenOdd(end-10)+"\n"
-					if (EvenOdd(start+EPCalc(voltage,i,tbonus))==EvenOdd(end-10)) {
+					if (EvenOdd(start + calculatedEP) == EvenOdd(end - 10)) {
+
+						// For Raid types, can only rehearsal in groups of 10
+						if (special && (end - (start + calculatedEP)) % 10 != 0) {
+							continue;
+						}
+
 						//document.getElementById("console").value+=EvenOdd(start+EPCalc(voltage,i,tbonus))+"/"+EvenOdd(end-10)+"\n"
-						start+=EPCalc(voltage,i,tbonus)
-						flameCount+=voltage
-						document.getElementById("console").value+=ConvertVariables(LANGUAGE("%STEP%"),{step:step++,voltage:voltage,percent:Math.round(tbonus*100),lowscore:i,highscore:(i+interval-1),epgain:EPCalc(voltage,i,tbonus),remaining:end-start})+"\n"
-						/*"Step "+(step++)+") Using "+voltage+" voltage w/"+Math.round(tbonus*100)+"% team, score between "+i+"~"+(i+interval-1)+" pts. EP +"+EPCalc(voltage,i,tbonus)+". Remaining:"+(end-start)+" EP \n"*/
-						return true
+						start += calculatedEP;
+						flameCount += voltage;
+						document.getElementById("console").value += ConvertVariables(LANGUAGE("%STEP%"),{step:step++,voltage:voltage,percent:Math.round(tbonus*100),lowscore:i,highscore:(i+interval-1),epgain:calculatedEP,remaining:end-start})+"\n"
+						/*"Step "+(step++)+") Using "+voltage+" voltage w/"+Math.round(tbonus*100)+"% team, score between "+i+"~"+(i+interval-1)+" pts. EP +"+calculatedEP+". Remaining:"+(end-start)+" EP \n"*/
+						return true;
 					}
 				}
 			}
-			return false
+			return false;
 		}
 
 		function TrySmallerGain(voltage,tbonus) {
-			for (var i=maxscore;i>=maxscore*0.8;i-=interval) {
-				if (start+EPCalc(voltage,i,tbonus)<end-10||((start+EPCalc(voltage,i,tbonus)==end)&&((end-start)%2==1||(end-start)>26))) {
+
+			var epDifference = end - start;
+			if (epDifference == 0) {
+				return false;
+			}
+
+			for (var i = maxscore; i >= maxscore*0.8; i -= interval) {
+				var calculatedEP = EPCalc(voltage, i, tbonus);
+
+				if (start + calculatedEP <= end - 10 || start + calculatedEP == end) {
 					//document.getElementById("console").value+="Ending value needs to be "+EvenOdd(end-10)+"\n"
-					if (EvenOdd(start+EPCalc(voltage,i,tbonus))==EvenOdd(end-10)||start+EPCalc(voltage,i,tbonus)==end) {
+					if (EvenOdd(start + calculatedEP) == EvenOdd(end - 10) || start + calculatedEP == end) {
+
+						// For Raid types, can only rehearsal in groups of 10
+						if (special && (end - (start + calculatedEP)) % 10 != 0) {
+							continue;
+						}
+
 						//document.getElementById("console").value+=EvenOdd(start+EPCalc(voltage,i,tbonus))+"/"+EvenOdd(end-10)+"\n"
-						start+=EPCalc(voltage,i,tbonus)
-						flameCount+=voltage
-						document.getElementById("console").value+=ConvertVariables(LANGUAGE("%STEP%"),{step:step++,voltage:voltage,percent:Math.round(tbonus*100),lowscore:i,highscore:(i+interval-1),epgain:EPCalc(voltage,i,tbonus),remaining:end-start})+"\n"
+						start += calculatedEP;
+						flameCount += voltage;
+						document.getElementById("console").value+=ConvertVariables(LANGUAGE("%STEP%"),{step:step++,voltage:voltage,percent:Math.round(tbonus*100),lowscore:i,highscore:(i+interval-1),epgain:calculatedEP,remaining:end-start})+"\n"
 						/*"Step "+(step++)+") Using "+voltage+" voltage w/"+Math.round(tbonus*100)+"% team, score between "+i+"~"+(i+interval-1)+" pts. EP +"+EPCalc(voltage,i,tbonus)+". Remaining:"+(end-start)+" EP \n"*/
 						return true
 					}
@@ -216,64 +244,85 @@ const MAXSTEPS= 10000
 			return false
 		}
 
-		function TrySmolGain(voltage,tbonus) {
-			for (var i=maxscore;i>=0;i-=interval) {
-				if ((EPCalc(voltage,i,tbonus)>=(10+Math.round(bonus*10))&&(start+EPCalc(voltage,i,tbonus)<=end-(10+Math.round(bonus*10))))||((start+EPCalc(voltage,i,tbonus)==end)&&((end-start)%2==1||(end-start)>26))) {
+		function TrySmolGain(voltage, tbonus) {
+
+			var epDifference = end - start;
+			if (epDifference == 0) {
+				return false;
+			}
+
+			for (var i = maxscore; i >= 0; i -= interval) {
+				var calculatedEP = EPCalc(voltage, i, tbonus);
+
+				if ((calculatedEP >= (10 + Math.round(bonus * 10)) && (start + calculatedEP <= end - (10 + Math.round(bonus * 10)))) || start + calculatedEP == end) {
 					//document.getElementById("console").value+="Ending value needs to be "+EvenOdd(end-10)+"\n"
-					if (EvenOdd(start+EPCalc(voltage,i,tbonus))==EvenOdd(end-10)||start+EPCalc(voltage,i,tbonus)==end) {
+
+					if (EvenOdd(start + calculatedEP) == EvenOdd(end - 10) || start + calculatedEP == end) {
+
+						// For Raid types, can only rehearsal in groups of 10
+						if (special && (end - (start + calculatedEP)) % 10 != 0) {
+							continue;
+						}
+
 						//document.getElementById("console").value+=EvenOdd(start+EPCalc(voltage,i,tbonus))+"/"+EvenOdd(end-10)+"\n"
-						start+=EPCalc(voltage,i,tbonus)
-						flameCount+=voltage
-						document.getElementById("console").value+=ConvertVariables(LANGUAGE("%STEP%"),{step:step++,voltage:voltage,percent:Math.round(tbonus*100),lowscore:i,highscore:(i+interval-1),epgain:EPCalc(voltage,i,tbonus),remaining:end-start})+"\n"
+						start += calculatedEP;
+						flameCount += voltage;
+						document.getElementById("console").value+=ConvertVariables(LANGUAGE("%STEP%"),{step:step++,voltage:voltage,percent:Math.round(tbonus*100),lowscore:i,highscore:(i+interval-1),epgain:calculatedEP,remaining:end-start})+"\n"
 						/*"Step "+(step++)+") Using "+voltage+" voltage w/"+Math.round(tbonus*100)+"% team, score between "+i+"~"+(i+interval-1)+" pts. EP +"+EPCalc(voltage,i,tbonus)+". Remaining:"+(end-start)+" EP \n"*/
 						return true
 					}
 				}
 			}
-			for (var i=maxscore;i>=0;i-=interval) {
-				if (EvenOdd(start+EPCalc(voltage,i,tbonus))!=EvenOdd(end-10)&&(((start+EPCalc(voltage,i,tbonus))==end)&&((end-start)%2==1||(end-start)>26))) {
+			for (var i = maxscore; i >= 0; i -= interval) {
+				var calculatedEP = EPCalc(voltage, i, tbonus);
+
+				if (EvenOdd(start + calculatedEP) != EvenOdd(end - 10) && (((start + calculatedEP) == end) && (epDifference % 2 == 1 || epDifference > 26))) {
+
+					// For Raid types, can only rehearsal in groups of 10
+					if (special && (end - (start + calculatedEP)) % 10 != 0) {
+						continue;
+					}
+
 					//document.getElementById("console").value+="Ending value needs to be "+EvenOdd(end-10)+"\n"
 					//document.getElementById("console").value+=EvenOdd(start+EPCalc(voltage,i,tbonus))+"/"+EvenOdd(end-10)+"\n"
-					start+=EPCalc(voltage,i,tbonus)
-					flameCount+=voltage
-					document.getElementById("console").value+=ConvertVariables(LANGUAGE("%STEP%"),{step:step++,voltage:voltage,percent:Math.round(tbonus*100),lowscore:i,highscore:(i+interval-1),epgain:EPCalc(voltage,i,tbonus),remaining:end-start})+"\n"
+					start += calculatedEP;
+					flameCount += voltage;
+					document.getElementById("console").value+=ConvertVariables(LANGUAGE("%STEP%"),{step:step++,voltage:voltage,percent:Math.round(tbonus*100),lowscore:i,highscore:(i+interval-1),epgain:calculatedEP,remaining:end-start})+"\n"
 					/*"Step "+(step++)+") Using "+voltage+" voltage w/"+Math.round(tbonus*100)+"% team, score between "+i+"~"+(i+interval-1)+" pts. EP +"+EPCalc(voltage,i,tbonus)+". Remaining:"+(end-start)+" EP \n"*/
 					return true
 				}
 			}
-			/*for (var i=maxscore;i>=0;i-=interval) {
-				if ((start+EPCalc(voltage,i,tbonus))==end) {
-					//document.getElementById("console").value+="Ending value needs to be "+EvenOdd(end-10)+"\n"
-					//document.getElementById("console").value+=EvenOdd(start+EPCalc(voltage,i,tbonus))+"/"+EvenOdd(end-10)+"\n"
-					start+=EPCalc(voltage,i,tbonus)
-					flameCount+=voltage
-					document.getElementById("console").value+="Step "+(step++)+") Using "+voltage+" voltage w/"+Math.round(tbonus*100)+"% team, score between "+i+"~"+(i+interval-1)+" pts. EP +"+EPCalc(voltage,i,tbonus)+". Remaining:"+(end-start)+" EP \n"
-					return true
-				}
-			}*/
-			for (var i=maxscore;i>=0;i-=interval) {
-				if (EvenOdd(start+EPCalc(voltage,i,tbonus))!=EvenOdd(end-10)&&(((start+EPCalc(voltage,i,tbonus))==end)&&((end-start)%2==1||(end-start)>26))) {
-					//document.getElementById("console").value+="Ending value needs to be "+EvenOdd(end-10)+"\n"
-					//document.getElementById("console").value+=EvenOdd(start+EPCalc(voltage,i,tbonus))+"/"+EvenOdd(end-10)+"\n"
-					start+=EPCalc(voltage,i,tbonus)
-					flameCount+=voltage
-					document.getElementById("console").value+=ConvertVariables(LANGUAGE("%STEP%"),{step:step++,voltage:voltage,percent:Math.round(tbonus*100),lowscore:i,highscore:(i+interval-1),epgain:EPCalc(voltage,i,tbonus),remaining:end-start})+"\n"
-					/*"Step "+(step++)+") Using "+voltage+" voltage w/"+Math.round(tbonus*100)+"% team, score between "+i+"~"+(i+interval-1)+" pts. EP +"+EPCalc(voltage,i,tbonus)+". Remaining:"+(end-start)+" EP \n"*/
-					return true
-				}
-			}
+			// for (var i=maxscore;i>=0;i-=interval) {
+			// 	if (EvenOdd(start+EPCalc(voltage,i,tbonus))!=EvenOdd(end-10)&&(((start+EPCalc(voltage,i,tbonus))==end)&&((end-start)%2==1||(end-start)>26))) {
+			// 		//document.getElementById("console").value+="Ending value needs to be "+EvenOdd(end-10)+"\n"
+			// 		//document.getElementById("console").value+=EvenOdd(start+EPCalc(voltage,i,tbonus))+"/"+EvenOdd(end-10)+"\n"
+			// 		start+=EPCalc(voltage,i,tbonus)
+			// 		flameCount+=voltage
+			// 		document.getElementById("console").value+=ConvertVariables(LANGUAGE("%STEP%"),{step:step++,voltage:voltage,percent:Math.round(tbonus*100),lowscore:i,highscore:(i+interval-1),epgain:EPCalc(voltage,i,tbonus),remaining:end-start})+"\n"
+			// 		/*"Step "+(step++)+") Using "+voltage+" voltage w/"+Math.round(tbonus*100)+"% team, score between "+i+"~"+(i+interval-1)+" pts. EP +"+EPCalc(voltage,i,tbonus)+". Remaining:"+(end-start)+" EP \n"*/
+			// 		return true
+			// 	}
+			// }
 			return false
 		}
 
 		function TryEqualGain(voltage,tbonus) {
-			for (var i=maxscore;i>=0;i-=interval) {
-			//document.getElementById("console").value+=(start+EPCalc(voltage,i,tbonus))+"/"+end+"\n"
-				if (((start+EPCalc(voltage,i,tbonus))==end)&&((end-start)%2==1||(end-start)>26)) {
+
+			var epDifference = end - start;
+			if (epDifference == 0) {
+				return false;
+			}
+
+			for (var i = maxscore; i >= 0; i -= interval) {
+				var calculatedEP = EPCalc(voltage, i, tbonus);
+
+				//document.getElementById("console").value+=(start+EPCalc(voltage,i,tbonus))+"/"+end+"\n"
+				if ((start + calculatedEP) == end) {
 					//document.getElementById("console").value+="Ending value needs to be "+EvenOdd(end-10)+"\n"
 					//document.getElementById("console").value+=EvenOdd(start+EPCalc(voltage,i,tbonus))+"/"+EvenOdd(end-10)+"\n"
-					start+=EPCalc(voltage,i,tbonus)
-					flameCount+=voltage
-					document.getElementById("console").value+=ConvertVariables(LANGUAGE("%STEP%"),{step:step++,voltage:voltage,percent:Math.round(tbonus*100),lowscore:i,highscore:(i+interval-1),epgain:EPCalc(voltage,i,tbonus),remaining:end-start})+"\n"
+					start += calculatedEP
+					flameCount += voltage
+					document.getElementById("console").value+=ConvertVariables(LANGUAGE("%STEP%"),{step:step++,voltage:voltage,percent:Math.round(tbonus*100),lowscore:i,highscore:(i+interval-1),epgain:calculatedEP,remaining:end-start})+"\n"
 					/*"Step "+(step++)+") Using "+voltage+" voltage w/"+Math.round(tbonus*100)+"% team, score between "+i+"~"+(i+interval-1)+" pts. EP +"+EPCalc(voltage,i,tbonus)+". Remaining:"+(end-start)+" EP \n"*/
 					return true
 				}
@@ -407,8 +456,20 @@ const MAXSTEPS= 10000
 			//"Get closer to target score before using parking calculator!"
 		}
 		 else {
+			
+			// For Raid events, if the difference is odd, need to do an extra one to "flip" to even
+			if (special && (end - start) % 2 != 0) {
+				for (var i = 5; i > 0; i--) {
+					if ((end - start) % 2 != 0) {
+						TrySmolGain(i, bonus);
+					} else {
+						break;
+					}
+				}
+			}			
+			
 			var result=true
-			if (maxscore>0) {
+			if (maxscore > 0) {
 				if (flexible) {
 					for (var j of bonusRange) {
 						while (TryBiggestGain(j)) {
