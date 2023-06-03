@@ -86,21 +86,32 @@ const MAXSTEPS= 10000
 		var parameter = Math.abs(Math.max(0,Number(document.getElementById("parameter").value)))
 		var type = (document.getElementById("Bingo").checked?"Bingo":
 		document.getElementById("Poker/Slots").checked?"Poker/Slots":
-		// document.getElementById("Raid").checked?"Raid":
+		document.getElementById("Raid").checked?"Raid":
 		document.getElementById("RaidAnni").checked?"RaidAnni":
 		"Medley")
 		//var flexible = document.getElementById("flexible").checked
 		var flexible = false
-		var isEN = document.getElementById('ServerEN').checked
+		//var isEN = document.getElementById('ServerEN').checked
 		//document.getElementById("console").value=flexible+"...\n\n"
 		var step=1
 		var flameCount=0
 		var originalTarget=start
 		document.getElementById("console").value=""
 
-		var interval = (type=="Medley")?15000:(type=="Poker/Slots")?4000:(type=="RaidAnni")?6000:8000
-		
-		var special = (type=="RaidAnni");
+		var interval = 0
+		if (type == "Medley") {
+			interval = 15000;
+		} else if (type == "Poker/Slots") {
+			interval = 4000;
+		} else if (type == "Raid") {
+			interval = 4000;
+		} else if (type == "RaidAnni") {
+			interval = 6000;
+		} else { // Bingo
+			interval = 8000;
+		}
+				
+		var special = (type=="Raid") || (type=="RaidAnni");
 		if (special) {
 			bonus = 0;
 			isBonus = false;
@@ -121,7 +132,9 @@ const MAXSTEPS= 10000
 						return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + bonus) * (50 + Math.floor(score/interval))))
 					}
 					case "Raid":{
-						return voltage * Math.floor((1 + bonus) * (50 + Math.floor(score/interval) + Math.floor(parameter/600)))
+						return voltage * (100 + Math.floor(score/interval))
+						// Old D4FES Raid formula
+						// return voltage * Math.floor((1 + bonus) * (50 + Math.floor(score/interval) + Math.floor(parameter/600)))
 					}
 					case "RaidAnni":{
 						return voltage * (300 + Math.floor(score/interval))
