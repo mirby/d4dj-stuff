@@ -9060,6 +9060,62 @@ var cards = {
             "skill": .1,
             "icon": "card_icon_020940001_0.d7aa0ea6",
             "passive": "None"
+        },
+        "645": {
+            "id": 645,
+            "character": "Dalia",
+            "cardname": "Navigation",
+            "unit": "Mermaid",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 14066,
+            "technical": 14584,
+            "physical": 15137,
+            "skill": .45,
+            "icon": "card_icon_060440001_1.7c3a95ee",
+            "passive": "Groovy Bonus 10-31.5%"
+        },
+        "646": {
+            "id": 646,
+            "character": "Sophia",
+            "cardname": "Navigation",
+            "unit": "Abyssmare",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 15027,
+            "technical": 13953,
+            "physical": 14807,
+            "skill": .45,
+            "icon": "card_icon_060920001_1.a3992aa9",
+            "passive": "Groovy Bonus 10-31.5%"
+        },
+        "647": {
+            "id": 647,
+            "character": "Neo",
+            "cardname": "Navigation",
+            "unit": "Abyssmare",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 14738,
+            "technical": 14471,
+            "physical": 15747,
+            "skill": .45,
+            "icon": "card_icon_060910001_1.cb9f2276",
+            "passive": "Groovy Bonus 10-31.5%"
+        },
+        "648": {
+            "id": 648,
+            "character": "Rinku",
+            "cardname": "Navigation",
+            "unit": "HapiAra",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 14751,
+            "technical": 14625,
+            "physical": 15312,
+            "skill": .45,
+            "icon": "card_icon_060110001_1.c39a2849",
+            "passive": "Groovy Bonus 10-31.5%"
         }
     }
 
