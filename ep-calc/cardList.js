@@ -9116,6 +9116,62 @@ var cards = {
             "skill": .45,
             "icon": "card_icon_060110001_1.c39a2849",
             "passive": "Groovy Bonus 10-31.5%"
+        },
+        "649": {
+            "id": 649,
+            "character": "Ibuki",
+            "cardname": "President, Or Not.",
+            "unit": "Photon",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 20304,
+            "technical": 15140,
+            "physical": 7965,
+            "skill": .6,
+            "icon": "card_icon_040320014_1.acafaac3",
+            "passive": "Groovy Bonus 10-30%"
+        },
+        "650": {
+            "id": 650,
+            "character": "Dalia",
+            "cardname": "This Way Of Life, It's The BEST.",
+            "unit": "Mermaid",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 20206,
+            "technical": 8177,
+            "physical": 14890,
+            "skill": .6,
+            "icon": "card_icon_040440014_1.c1d8e1c9",
+            "passive": "Life Boost 2.5-7.5%"
+        },
+        "651": {
+            "id": 651,
+            "character": "Kyoko",
+            "cardname": "For My Princess, The Utmost Love.",
+            "unit": "Peaky",
+            "type": "Party",
+            "rarity": 3,
+            "heart": 17149,
+            "technical": 6515,
+            "physical": 8269,
+            "skill": .3,
+            "icon": "card_icon_030210008_1.48f67ba1",
+            "passive": "Groovy Bonus 5-10%"
+        },
+        "652": {
+            "id": 652,
+            "character": "Aoi",
+            "cardname": "Occupation, DJ.",
+            "unit": "Rondo",
+            "type": "Party",
+            "rarity": 3,
+            "heart": 17467,
+            "technical": 8015,
+            "physical": 6907,
+            "skill": .3,
+            "icon": "card_icon_030540006_1.fce1ca06",
+            "passive": "Life Boost 1-2.5%"
         }
     }
 

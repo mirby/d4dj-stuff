@@ -1041,6 +1041,16 @@ var eventList = {
         "bonus":false,
         "addition":"50% power boost for Abyssmare 4 star. 25% power boost for Abyssmare 2 star. 10% power boost for side:origin SP and side:nova UniChord."
     },
+    "103": {
+        "id":103,
+        "name":"Doki Dokiss -Fall into Love's Dream, Tonight-",
+        "characters":"Kyoko,Ibuki,Dalia,Aoi",
+        "type":"Poker",
+        "style":"Party",
+        "parameter":"Heart",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*
