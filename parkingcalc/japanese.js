@@ -19,10 +19,10 @@ function Japanese(str) {
 				return "Medley"
 			}break;
 			case 24:{ //Selection for event type: Raid
-				return "Raid"
+				return "Raid (Collab)"
 			}break;
 			case 25:{ //Selection for event type: RaidAnni
-				return "Raid(Special)"
+				return "Raid (Anniversary)"
 			}break;
 			case 7:{ //Label for team % selector (Include ":")
 				return "Event Team Bonus:"
