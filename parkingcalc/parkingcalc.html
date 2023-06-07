@@ -23,7 +23,7 @@
       <input type="radio" id="ServerEN" name="serverType" value="ServerEN" />
       <label for="ServerEN">EN</label>
       <br /><br /> --> 
-      <label for="type">Event Type:</label>
+      <span>Event Type:</span>
       <input type="radio" id="Poker/Slots" name="type" value="Poker/Slots" checked />
       <label for="Poker/Slots">Poker/Slots</label>
       &nbsp;&nbsp;&nbsp;
@@ -39,25 +39,34 @@
       <input type="radio" id="RaidAnni" name="type" value="RaidAnni" />
       <label for="RaidAnni">Raid (Anniversary)</label>
       <hr />
-      <div id="teamBonusSection" name="hideSection">
-        <label for="team"><b>Event Team Bonus:</b></label>
-        &nbsp;&nbsp;
-        <span onclick="toggleBonus()" class="tooltip">
+      <div id="teamBonusSection" name="hideSection" style="padding-bottom: 15px;">
+        <span><b>Event Team Bonus:</b></span>
+        <!-- <span onclick="toggleBonus()" class="tooltip">
           <label for="teambonus">Matching Bonus?</label>
           <input id="teambonus" type="checkbox">
           <span class="tooltiptext">Check this box if event gives extra 10% for matching both char and style.</span>
-        </span>
+        </span> -->
         <select id="bonus">
           <option value="0">0%</option>
           <option value="0.2">20%</option>
           <option value="0.4">40%</option>
+          <option value="0.5">50%</option>
           <option value="0.6">60%</option>
+          <option value="0.7">70%</option>
           <option value="0.8">80%</option>
+          <option value="0.9">90%</option>
           <option value="1.0">100%</option>
+          <option value="1.1">110%</option>
           <option value="1.2">120%</option>
           <option value="1.4">140%</option>
-          <option value="1.6" selected>160%</option>
+          <option value="1.5">150%</option>
+          <option value="1.7">170%</option>
+          <option value="2.0" selected>200%</option>
         </select>
+      </div>
+      <div id="parameterSection" name="hideSection" style="padding-bottom: 15px;">
+        <label for="parameter"><b>Parameter: </b></label><input id="parameter" style="width:50px" min="0" type="number" value="40" />% 
+        <span><i>To calculate parameter value, see bottom of page</i></span>
       </div>
       <!-- <span onClick="toggleWarning()" class="tooltip">
         <label for="flexible" alt="Yes"><b>Flexible Team?</b></label>
@@ -65,7 +74,6 @@
         <span class="tooltiptext">If turned on, calculates scoring options using lower % teams also.</span>
 	      </span> 
 	      <span id="warningparktext" style="visibility:hidden;"><font color="red"><b>WARNING!</b> If your team% changes as you are parking you will have to recalculate the <font color="black"><b><u>PARAMETER</u></b></font> value in the middle of parking!</font></span> -->
-      <br />
       <div>
         <span class="tooltip"><label for="maxscore"><b>Max Free Live Score: </b></label><input id="maxscore" min="0" type="number" value="620000" /> 
           <span class="tooltiptext translate22">
@@ -74,11 +82,7 @@
           </span>
         </span>
       </div>
-      <br>
-      <div id="parameterSection" name="hideSection">
-        <label for="parameter"><b>Parameter: </b></label><input id="parameter" style="width:50px" min="0" type="number" value="40" />% 
-        <span><i><b>NEW</b> To get parameter value, see bottom of page</i></span>
-      </div>
+
       <hr />
       <label for="starting"><b>Starting EP: </b></label><input id="starting" min="0" type="number" value="100000" />
       <span style="font-size: 32px; padding: 0px 10px 0px 10px">➔</span>

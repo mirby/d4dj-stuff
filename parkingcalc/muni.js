@@ -111,7 +111,8 @@ const MAXSTEPS= 10000
 		var start = Math.abs(Math.max(0,Number(document.getElementById("starting").value)))
 		var end = Math.abs(Math.max(0,Number(document.getElementById("ending").value)))
 		var bonus = Number(document.getElementById("bonus").value)
-		var isBonus = document.getElementById("teambonus").checked
+		//var isBonus = document.getElementById("teambonus").checked
+		var isBonus = true;
 		var parameter = Math.abs(Math.max(0,Number(document.getElementById("parameter").value)))
 		var type = (document.getElementById("Bingo").checked?"Bingo":
 		document.getElementById("Poker/Slots").checked?"Poker/Slots":
