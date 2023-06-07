@@ -39,39 +39,46 @@
       <input type="radio" id="RaidAnni" name="type" value="RaidAnni" />
       <label for="RaidAnni">Raid (Anniversary)</label>
       <hr />
-      <label for="team">Event Team Bonus:</label>
-      &nbsp;&nbsp;
-      <span onclick="toggleBonus()" class="tooltip">
-        <label for="teambonus">Matching Bonus?</label>
-        <input id="teambonus" type="checkbox">
-        <span class="tooltiptext">Check this box if event gives extra 10% for matching both char and style.</span>
-      </span>
-      <select id="bonus">
-        <option value="0">0%</option>
-        <option value="0.2">20%</option>
-        <option value="0.4">40%</option>
-        <option value="0.6">60%</option>
-        <option value="0.8">80%</option>
-        <option value="1.0">100%</option>
-        <option value="1.2">120%</option>
-        <option value="1.4">140%</option>
-        <option value="1.6" selected>160%</option>
-      </select>
-      &nbsp;&nbsp;&nbsp;&nbsp;
+      <div id="teamBonusSection" name="hideSection">
+        <label for="team"><b>Event Team Bonus:</b></label>
+        &nbsp;&nbsp;
+        <span onclick="toggleBonus()" class="tooltip">
+          <label for="teambonus">Matching Bonus?</label>
+          <input id="teambonus" type="checkbox">
+          <span class="tooltiptext">Check this box if event gives extra 10% for matching both char and style.</span>
+        </span>
+        <select id="bonus">
+          <option value="0">0%</option>
+          <option value="0.2">20%</option>
+          <option value="0.4">40%</option>
+          <option value="0.6">60%</option>
+          <option value="0.8">80%</option>
+          <option value="1.0">100%</option>
+          <option value="1.2">120%</option>
+          <option value="1.4">140%</option>
+          <option value="1.6" selected>160%</option>
+        </select>
+      </div>
       <!-- <span onClick="toggleWarning()" class="tooltip">
         <label for="flexible" alt="Yes"><b>Flexible Team?</b></label>
         <input id="flexible" type="checkbox" />
         <span class="tooltiptext">If turned on, calculates scoring options using lower % teams also.</span>
-	    </span> -->
-	  <span id="warningparktext" style="visibility:hidden;"><font color="red"><b>WARNING!</b> If your team% changes as you are parking you will have to recalculate the <font color="black"><b><u>PARAMETER</u></b></font> value in the middle of parking!</font></span>
+	      </span> 
+	      <span id="warningparktext" style="visibility:hidden;"><font color="red"><b>WARNING!</b> If your team% changes as you are parking you will have to recalculate the <font color="black"><b><u>PARAMETER</u></b></font> value in the middle of parking!</font></span> -->
       <br />
-      <br />
-      <span class="tooltip"><label for="maxscore"><b>Max Free Live Score: </b></label><input id="maxscore" min="0" type="number" value="620000" /> <span class="tooltiptext translate22">
-	  The maximum score you can get from playing a song using <font color="aqua">Free Live</font>.<br>(Tip: Subtract 50-100k from the score to give you more wiggle room)<br>
-	  <sub>(Use 0 for Rehearsals Only)</sub></span></span>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <label for="parameter"><b>Parameter: </b></label><input id="parameter" style="width:100px" min="0" type="number" value="40" />% 
-      <span><i><b>NEW</b> To get parameter value, see bottom of page</i></span>
+      <div>
+        <span class="tooltip"><label for="maxscore"><b>Max Free Live Score: </b></label><input id="maxscore" min="0" type="number" value="620000" /> 
+          <span class="tooltiptext translate22">
+	          The maximum score you can get from playing a song using <font color="aqua">Free Live</font>.<br>(Tip: Subtract 50-100k from the score to give you more wiggle room)<br>
+	          <sub>(Use 0 for Rehearsals Only)</sub>
+          </span>
+        </span>
+      </div>
+      <br>
+      <div id="parameterSection" name="hideSection">
+        <label for="parameter"><b>Parameter: </b></label><input id="parameter" style="width:50px" min="0" type="number" value="40" />% 
+        <span><i><b>NEW</b> To get parameter value, see bottom of page</i></span>
+      </div>
       <hr />
       <label for="starting"><b>Starting EP: </b></label><input id="starting" min="0" type="number" value="100000" />
       <span style="font-size: 32px; padding: 0px 10px 0px 10px">➔</span>
@@ -91,25 +98,28 @@
     <div style="display: flex; justify-content: stretch; align-items: center">
       <textarea rows="20" cols="160" id="console" disabled> </textarea>
     </div>
-  <p><b>How To Get Parameter Value</b></p>
-  <ul>
-    <li>For each card on your <b>main</b> team, you get 10% if that card's highest parameter is the event target parameter</li>
-    <li>For example, if the event target parameter is Technical, if 3 out of 4 cards on your <b>main</b> team have technical as their highest param, you will have 30%</li>
-    <li>If any cards on main team has the event target parameter over 20k, you get an additional 1% for every 1000. (i.e. if the target param is Technical and one of your main team cards has 21400 tech, this card would give 11%)</li>
-    <li>Enter the value directly in the parameter box (no need to add % symbol)</li>
-    <li><a href="parambonus_new.png" target="_blank">Example</a></li>
-  </ul>
-	<sub><u>Tips</u></sub>
-	<ul>
-    <li class="translate19">Here's the Light on EX or Synchrogazer on Hard/EX difficulty are some of the highest scoring songs you can pick.</li>
-    <li class="translate24">When doing rehearsals, do them in reverse order so it's easier to fix if you make a mistake.</li>
-    <li class="translate20">When you get close to the score you need in Free Live, purposely fail the song. Notes are worth 10% their normal value when you have 0 health so you can finish easily.</li>
-    <li class="translate23">See any issues? Contact Mirby#5516 on D4DJ discord. Republished with permission from sigonasr</li>
-	</ul>
+    <p><b>How To Get Parameter Value</b></p>
+    <ul>
+      <li>For each card on your <b>main</b> team, you get 10% if that card's highest parameter is the event target parameter</li>
+      <li>For example, if the event target parameter is Technical, if 3 out of 4 cards on your <b>main</b> team have technical as their highest param, you will have 30%</li>
+      <li>If any cards on main team has the event target parameter over 20k, you get an additional 1% for every 1000. (i.e. if the target param is Technical and one of your main team cards has 21400 tech, this card would give 11%)</li>
+      <li>Enter the value directly in the parameter box (no need to add % symbol)</li>
+      <li><a href="parambonus_new.png" target="_blank">Example</a></li>
+    </ul>
+	  <sub><u>Tips</u></sub>
+    <ul>
+      <li class="translate19">Here's the Light on EX or Synchrogazer on Hard/EX difficulty are some of the highest scoring songs you can pick.</li>
+      <li class="translate24">When doing rehearsals, do them in reverse order so it's easier to fix if you make a mistake.</li>
+      <li class="translate20">When you get close to the score you need in Free Live, purposely fail the song. Notes are worth 10% their normal value when you have 0 health so you can finish easily.</li>
+      <li class="translate23">See any issues? Contact Mirby#5516 on D4DJ discord. Republished with permission from sigonasr</li>
+    </ul>
 
-    <!-- <script>
-      document.getElementById("ips").value = ""; //Muni??
-    </script> -->
+    <script>
+      const radioButtons = document.querySelectorAll('input[name="type"]');
+      radioButtons.forEach(radio => {
+        radio.addEventListener('click', hideSection);
+      });
+    </script>
   </body>
 </html>
  

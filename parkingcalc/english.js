@@ -105,10 +105,10 @@ function English(str) {
 				/*
 					Step %STEP%) Using %VOLTAGE% voltage w/%PERCENT%% team, score between %LOWSCORE%~%HIGHSCORE% pts. EP +%EPGAIN%. Remaining:%REMAINING% EP 
 				*/
-				return "Step %STEP%) Using %VOLTAGE% voltage w/%PERCENT%% team, score between %LOWSCORE%~%HIGHSCORE% pts. EP +%EPGAIN%. Remaining:%REMAINING% EP"
+				return "Step %STEP%) Using %VOLTAGE% voltage %PERCENT% team, score between %LOWSCORE%~%HIGHSCORE% pts. EP +%EPGAIN%. Remaining:%REMAINING% EP"
 			}break;
 			case "%REHEARSAL%":{ //Similar to above, but for a rehearsal step instead.
-				return "Step %STEP%) Use Rehearsal w/%PERCENT%% team. EP +%EPGAIN%. Remaining:%REMAINING% EP"
+				return "Step %STEP%) Use Rehearsal %PERCENT% team. EP +%EPGAIN%. Remaining:%REMAINING% EP"
 			}break;
 			case "%LARGEGAP%":{ //This message is displayed if the Starting EP and Final EP gap is too big for reasonable calculations.
 				return "Get closer to target score before using parking calculator!";

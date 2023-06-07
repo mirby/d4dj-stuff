@@ -1,7 +1,21 @@
 const MAXSTEPS= 10000
+
+	function hideSection() {
+		var section1 = document.getElementById('teamBonusSection');
+		var section2 = document.getElementById('parameterSection');
+		if (document.getElementById('Raid').checked || document.getElementById('RaidAnni').checked) {
+			section1.style.display = 'none';
+			section2.style.display = 'none';
+		} else {
+			section1.style.display = 'block';
+			section2.style.display = 'block';
+		}
+	}
 	
 	function ConvertVariables(str,data) {
-		return str
+		var checked = document.getElementById("Raid").checked || document.getElementById("RaidAnni").checked;
+		if (data.percent == 0 && checked) {
+			return str
 			.replaceAll("%START%",data.start)
 			.replaceAll("%TARGET%",data.target)
 			.replaceAll("%EVENT%",data.event)
@@ -9,11 +23,26 @@ const MAXSTEPS= 10000
 			.replaceAll("%PLURAL_STEPS%",Plural(data.steps))
 			.replaceAll("%VOLTAGE%",data.voltage)
 			.replaceAll("%STEP%",data.step)
-			.replaceAll("%PERCENT%",data.percent)
+			.replaceAll("%PERCENT%","w/ any")
 			.replaceAll("%LOWSCORE%",data.lowscore)
 			.replaceAll("%HIGHSCORE%",data.highscore)
 			.replaceAll("%EPGAIN%",data.epgain)
 			.replaceAll("%REMAINING%",data.remaining)
+		} else {
+			return str
+			.replaceAll("%START%",data.start)
+			.replaceAll("%TARGET%",data.target)
+			.replaceAll("%EVENT%",data.event)
+			.replaceAll("%STEPS%",data.steps)
+			.replaceAll("%PLURAL_STEPS%",Plural(data.steps))
+			.replaceAll("%VOLTAGE%",data.voltage)
+			.replaceAll("%STEP%",data.step)
+			.replaceAll("%PERCENT%","w/ " + data.percent + "%")
+			.replaceAll("%LOWSCORE%",data.lowscore)
+			.replaceAll("%HIGHSCORE%",data.highscore)
+			.replaceAll("%EPGAIN%",data.epgain)
+			.replaceAll("%REMAINING%",data.remaining)
+		}
 	}
 	
 	var LANGUAGE=English
