@@ -362,7 +362,7 @@ function calculateScore(type) {
     });
     skillsList.push(highest);
 
-    // TODO: Replace all instances of 80 with 60. 80 skills have a different duration and I can't fix it easily, so treat it as a 60 value
+    // FIXME: Replaces all instances of 80 with 60. 80 skills have a different duration and I can't fix it easily, so treat it as a 60 value
     skillsList.forEach(function(item, i) { if (item == 80) skillsList[i] = 60; });
 
     // Get event bonus power if raid for the target Support Live room
@@ -378,6 +378,7 @@ function calculateScore(type) {
         skillDuration = 0;
     }
     var autoboost = ((parseFloat(document.getElementById("pass_auto").value) / 100) || 0) + 1;
+    var manualBoost = ((parseFloat(document.getElementById("pass_manual").value) / 100) || 0) + 1;
     lifeboost = lifeboost + scoreupboost + 1;
 
     var scoreMap = new Map();
@@ -413,9 +414,9 @@ function calculateScore(type) {
     var level = chart.level;
 
     var levelConstant = (95 + level) / 100;
-    var baseNoteScore = (levelConstant * power * 3 * lifeboost) / totalNotes;
-    var baseNoteScore2 = (levelConstant * power2 * 3 * lifeboost) / totalNotes;
-    var baseNoteScore3 = (levelConstant * power3 * 3 * lifeboost) / totalNotes;
+    var baseNoteScore = (levelConstant * power * 3 * lifeboost * manualBoost) / totalNotes;
+    var baseNoteScore2 = (levelConstant * power2 * 3 * lifeboost * manualBoost) / totalNotes;
+    var baseNoteScore3 = (levelConstant * power3 * 3 * lifeboost * manualBoost) / totalNotes;
     var autoNoteScore = (levelConstant * power * 3 * .85 * lifeboost * autoboost) / totalNotes;
     var autoNoteScore2 = (levelConstant * power2 * 3 * .85 * lifeboost * autoboost) / totalNotes;
     var autoNoteScore3 = (levelConstant * power3 * 3 * .85 * lifeboost * autoboost) / totalNotes;
@@ -639,6 +640,7 @@ function importTeam() {
     var lifeBoost = 0;
     var scoreUp = 0;
     var autoBoost = 0;
+    var manualBoost = 0;
     var skillDuration = 0;
 
     var hasShano = false;
@@ -680,6 +682,12 @@ function importTeam() {
             var autoBoostTemp = getPassiveValue(pskillString, "Auto Boost", et);
             if (autoBoostTemp > autoBoost) {
                 autoBoost = autoBoostTemp;
+            }
+        } else if (pskillString.startsWith("Manual Up")) {
+            var et = document.getElementById("m" + i + "_et").value;
+            var manualBoostTemp = getPassiveValue(pskillString, "Manual Up", et);
+            if (manualBoostTemp > manualBoost) {
+                manualBoost = manualBoostTemp;
             }
         } else if (pskillString.startsWith("Groovy Bonus")) {
             var et = document.getElementById("m" + i + "_et").value;
@@ -769,6 +777,7 @@ function importTeam() {
     document.getElementById("pass_scoreup").value = scoreUp;
     document.getElementById("pass_skilldur").value = skillDuration;
     document.getElementById("pass_auto").value = autoBoost;
+    document.getElementById("pass_manual").value = manualBoost;
 }
 
 function getPassiveValue(pString, type,  et) {
