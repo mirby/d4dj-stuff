@@ -1053,7 +1053,7 @@ var eventList = {
     },
     "104": {
         "id":104,
-        "name":"Nano of the Dead",
+        "name":"Nano of the Dead -Nagisa & Miiko-",
         "characters":"Nagisa,Miiko",
         "type":"Slots",
         "style":"Cute",
