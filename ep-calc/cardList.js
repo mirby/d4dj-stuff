@@ -9172,7 +9172,50 @@ var cards = {
             "skill": .3,
             "icon": "card_icon_030540006_1.fce1ca06",
             "passive": "Life Boost 1-2.5%"
+        },
+        "653": {
+            "id": 653,
+            "character": "Kyoko",
+            "cardname": "Imagination",
+            "unit": "Peaky",
+            "type": "Street",
+            "rarity": 3,
+            "heart": 10401,
+            "technical": 10951,
+            "physical": 10494,
+            "skill": .25,
+            "icon": "card_icon_050210001_1.ef401544",
+            "passive": "Auto Boost 1.5-2.5%"
+        },
+        "654": {
+            "id": 654,
+            "character": "Nagisa",
+            "cardname": "ZOMBIE STRIKE!!-Guitar-",
+            "unit": "Rondo",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 20556,
+            "technical": 14997,
+            "physical": 7734,
+            "skill": .5,
+            "icon": "card_icon_040520014_1.cce13464",
+            "passive": "Groovy Bonus 10-30%"
+        },
+        "655": {
+            "id": 655,
+            "character": "Miiko",
+            "cardname": "ZOMBIE STRIKE!!-Chainsaw-",
+            "unit": "LyriLily",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 20607,
+            "technical": 7836,
+            "physical": 15105,
+            "skill": .5,
+            "icon": "card_icon_040640013_1.30cac308",
+            "passive": "Life Boost 2.5-7.5%"
         }
+
     }
 
 /*

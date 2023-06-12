@@ -1051,6 +1051,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "104": {
+        "id":104,
+        "name":"Nano of the Dead",
+        "characters":"Nagisa,Miiko",
+        "type":"Slots",
+        "style":"Cute",
+        "parameter":"Heart",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*
