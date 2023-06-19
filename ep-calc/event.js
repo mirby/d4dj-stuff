@@ -1061,6 +1061,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "105": {
+        "id":105,
+        "name":"side : nova Season 8 -Breakthrough-",
+        "characters":"Rinku,Dalia,Aoi,Miyu",
+        "type":"Bingo",
+        "style":"Cool",
+        "parameter":"Physical",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*

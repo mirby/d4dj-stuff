@@ -9298,6 +9298,62 @@ var cards = {
             "skill": .6,
             "icon": "card_icon_070530004_1.ec4c1a4b",
             "passive": "Groovy Solo 20-60%"
+        },
+        "662": {
+            "id": 662,
+            "character": "Aoi",
+            "cardname": "Romantic Street Corner",
+            "unit": "Rondo",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 15153,
+            "technical": 8706,
+            "physical": 19057,
+            "skill": .5,
+            "icon": "card_icon_040540015_1.b7740577",
+            "passive": "Life Boost 2.5-7.5%"
+        },
+        "663": {
+            "id": 663,
+            "character": "Miyu",
+            "cardname": "Noble Smile",
+            "unit": "LyriLily",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 8235,
+            "technical": 15436,
+            "physical": 19693,
+            "skill": .5,
+            "icon": "card_icon_040610013_1.6333b86d",
+            "passive": "Groovy Solo 20-60%"
+        },
+        "664": {
+            "id": 664,
+            "character": "Rinku",
+            "cardname": "Listen to My Music!",
+            "unit": "HapiAra",
+            "type": "Cool",
+            "rarity": 3,
+            "heart": 7714,
+            "technical": 6924,
+            "physical": 17362,
+            "skill": .25,
+            "icon": "card_icon_030110009_1.68bc9324",
+            "passive": "Groovy Solo 10-20%"
+        },
+        "665": {
+            "id": 665,
+            "character": "Dalia",
+            "cardname": "Girl Meets the Beast...?",
+            "unit": "Mermaid",
+            "type": "Cool",
+            "rarity": 3,
+            "heart": 6536,
+            "technical": 8585,
+            "physical": 16444,
+            "skill": .25,
+            "icon": "card_icon_030440006_1.d767cb66",
+            "passive": "Groovy Bonus 5-10%"
         }
 
     }
