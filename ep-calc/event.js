@@ -1071,6 +1071,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "106": {
+        "id":106,
+        "name":"Welcome back! M4id, Br!de or Me!?",
+        "characters":"Rika,Marika,Saori,Dalia",
+        "type":"Medley",
+        "style":"Elegant",
+        "parameter":"Physical",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*
