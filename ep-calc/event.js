@@ -132,6 +132,7 @@ function getCardSet(type) {
         "93":["Dusk", "Street color", "Madder red sky", "Encounter"],
         "95":["Scenery", "Afterglow", "Phosphorescence", "Luminous"],
         "101":["Wanderer", "Tuning", "Transience", "Heartbeat"],
+        "106":["On This Fine Day", "Heavenly Stairway", "In This Shining World", "Dazzling Bravery"],
     };
 
     var raidSet = {
