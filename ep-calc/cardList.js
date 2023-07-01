@@ -9354,6 +9354,48 @@ var cards = {
             "skill": .25,
             "icon": "card_icon_030440006_1.d767cb66",
             "passive": "Groovy Bonus 5-10%"
+        },
+        "666": {
+            "id": 666,
+            "character": "Aoi",
+            "cardname": "Navigation",
+            "unit": "Rondo",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 14370,
+            "technical": 15318,
+            "physical": 15084,
+            "skill": .45,
+            "icon": "card_icon_060540001_1.9cf6cfa1",
+            "passive": "Groovy Bonus 10-31.5%"
+        },
+        "667": {
+            "id": 667,
+            "character": "Toka",
+            "cardname": "Navigation",
+            "unit": "CallofArtemis",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 15252,
+            "technical": 13776,
+            "physical": 15784,
+            "skill": .45,
+            "icon": "card_icon_060740001_1.aaaa370b",
+            "passive": "Life Boost 2.5-7.75%"
+        },
+        "668": {
+            "id": 668,
+            "character": "Marika",
+            "cardname": "Navigation",
+            "unit": "Mermaid",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 15345,
+            "technical": 13548,
+            "physical": 15078,
+            "skill": .45,
+            "icon": "card_icon_060420001_1.dda0b020",
+            "passive": "Life Boost 2.5-7.75%"
         }
 
     }
