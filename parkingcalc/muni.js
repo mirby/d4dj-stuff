@@ -3,12 +3,15 @@ const MAXSTEPS= 10000
 	function hideSection() {
 		var section1 = document.getElementById('teamBonusSection');
 		var section2 = document.getElementById('parameterSection');
+		var section3 = document.getElementById('raidWarningSection');
 		if (document.getElementById('Raid').checked || document.getElementById('RaidAnni').checked) {
 			section1.style.display = 'none';
 			section2.style.display = 'none';
+			section3.style.display = 'block';
 		} else {
 			section1.style.display = 'block';
 			section2.style.display = 'block';
+			section3.style.display = 'none';
 		}
 	}
 	
