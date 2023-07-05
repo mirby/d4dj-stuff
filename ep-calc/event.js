@@ -1082,6 +1082,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "107": {
+        "id":107,
+        "name":"side : nova Season 9 -SUPERNOVA-",
+        "characters":"Maho,Kyoko,Esora,Haruna",
+        "type":"Poker",
+        "style":"Elegant",
+        "parameter":"Heart",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*

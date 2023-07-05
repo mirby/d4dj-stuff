@@ -9396,6 +9396,62 @@ var cards = {
             "skill": .45,
             "icon": "card_icon_060420001_1.dda0b020",
             "passive": "Life Boost 2.5-7.75%"
+        },
+        "669": {
+            "id": 669,
+            "character": "Maho",
+            "cardname": "Interaction of Happiness",
+            "unit": "HapiAra",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 20008,
+            "technical": 15794,
+            "physical": 7926,
+            "skill": .6,
+            "icon": "card_icon_040120015_1.25fdd1de",
+            "passive": "Groovy Bonus 10-30%"
+        },
+        "670": {
+            "id": 670,
+            "character": "Esora",
+            "cardname": "Mistaking an Eggplant for a Frog",
+            "unit": "Peaky",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 20790,
+            "technical": 7808,
+            "physical": 14394,
+            "skill": .6,
+            "icon": "card_icon_040240014_1.a67644eb",
+            "passive": "Life Boost 2.5-7.5%"
+        },
+        "671": {
+            "id": 671,
+            "character": "Haruna",
+            "cardname": "Water, Oil, and Harmony",
+            "unit": "LyriLily",
+            "type": "Elegant",
+            "rarity": 3,
+            "heart": 16748,
+            "technical": 6359,
+            "physical": 8209,
+            "skill": .3,
+            "icon": "card_icon_030620008_1.d496891e",
+            "passive": "Groovy Bonus 5-10%"
+        },
+        "672": {
+            "id": 672,
+            "character": "Kyoko",
+            "cardname": "Charismatic Aura",
+            "unit": "Peaky",
+            "type": "Elegant",
+            "rarity": 3,
+            "heart": 17158,
+            "technical": 8173,
+            "physical": 6253,
+            "skill": .3,
+            "icon": "card_icon_030210009_1.8129fa20",
+            "passive": "Groovy Solo 10-20%"
         }
 
     }
