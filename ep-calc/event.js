@@ -1092,6 +1092,16 @@ var eventList = {
         "bonus":true,
         "addition":""
     },
+    "108": {
+        "id":108,
+        "name":"Return of the RAVE",
+        "characters":"Michiru,Lumina,Neo,Sophia",
+        "type":"Rave",
+        "style":"None",
+        "parameter":"None",
+        "bonus":false,
+        "addition":""
+    },
 }
 
 /*

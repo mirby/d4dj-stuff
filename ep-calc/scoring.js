@@ -699,14 +699,14 @@ function importTeam() {
             var et = document.getElementById("m" + i + "_et").value;
             var char = document.getElementById("m" + i + "_char").innerHTML;
             var bonus = 0;
-            if (char === "shano") {
-                if (hasToka) {
-                    bonus += 1.5;
-                }
-            } else if (char === "airi") {
-                if (hasMana) {
-                    bonus += 1.5;
-                }
+            if (char === "shano" && hasToka) {
+                bonus += 1.5;
+            } else if (char === "airi" && hasMana) {
+                bonus += 1.5;
+            } else if (char === "mana" && hasAiri) {
+                bonus += 1.5;
+            } else if (char === "toka" && hasShano) {
+                bonus += 1.5;
             }
             var scoreUpTemp = getPassiveValue(pskillString, "Score Up", et) + bonus;
             if (scoreUpTemp > scoreUp) {
@@ -739,14 +739,14 @@ function importTeam() {
             var et = document.getElementById("s" + i + "_et").value;
             var char = document.getElementById("s" + i + "_char").innerHTML;
             var bonus = 0;
-            if (char === "shano") {
-                if (hasToka) {
-                    bonus += 1.5;
-                }
-            } else if (char === "airi") {
-                if (hasMana) {
-                    bonus += 1.5;
-                }
+            if (char === "shano" && hasToka) {
+                bonus += 1.5;
+            } else if (char === "airi" && hasMana) {
+                bonus += 1.5;
+            } else if (char === "mana" && hasAiri) {
+                bonus += 1.5;
+            } else if (char === "toka" && hasShano) {
+                bonus += 1.5;
             }
             var scoreUpTemp = getPassiveValue(pskillStringSupp, "Score Up", et) + bonus;
             if (scoreUpTemp > scoreUp) {

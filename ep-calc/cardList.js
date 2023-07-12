@@ -9452,6 +9452,76 @@ var cards = {
             "skill": .3,
             "icon": "card_icon_030210009_1.8129fa20",
             "passive": "Groovy Solo 10-20%"
+        },
+        "673": {
+            "id": 673,
+            "character": "Neo",
+            "cardname": "RAVE 2023 1st half",
+            "unit": "Abyssmare",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 14717,
+            "technical": 15281,
+            "physical": 13195,
+            "skill": .6,
+            "icon": "card_icon_040910002_1.89cf7ccd",
+            "passive": "Groovy Bonus 10-30%"
+        },
+        "674": {
+            "id": 674,
+            "character": "Lumina",
+            "cardname": "RAVE 2023 1st half",
+            "unit": "Unichord",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 15023,
+            "technical": 14287,
+            "physical": 13796,
+            "skill": .6,
+            "icon": "card_icon_040820002_1.01f969cc",
+            "passive": "Groovy Solo 20-60%"
+        },
+        "675": {
+            "id": 675,
+            "character": "Sophia",
+            "cardname": "RAVE 2023 1st half",
+            "unit": "Abyssmare",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 14634,
+            "technical": 13242,
+            "physical": 15048,
+            "skill": .6,
+            "icon": "card_icon_040920002_1.8869e5d3",
+            "passive": "Groovy Solo 20-60%"
+        },
+        "676": {
+            "id": 676,
+            "character": "Michiru",
+            "cardname": "RAVE 2023 1st half",
+            "unit": "Unichord",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 13452,
+            "technical": 15105,
+            "physical": 14800,
+            "skill": .6,
+            "icon": "card_icon_040810004_1.b6de3d7c",
+            "passive": "Groovy Bonus 10-30%"
+        },
+        "677": {
+            "id": 677,
+            "character": "Shano",
+            "cardname": "The RAVE",
+            "unit": "CallofArtemis",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 16846,
+            "technical": 15349,
+            "physical": 15231,
+            "skill": .5,
+            "icon": "card_icon_040730002_1.239567a9",
+            "passive": "Skill Duration 10-30%"
         }
 
     }
