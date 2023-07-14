@@ -3,7 +3,8 @@ var enTags = [
         "name": "Dig Delight!",
         "tags": [
             "Happy Around!",
-            "Original Category"
+            "Original Category",
+            "Song with !"
         ]
     },
     {
@@ -11,7 +12,8 @@ var enTags = [
         "tags": [
             "Happy Around!",
             "Original Category",
-            "Spring 23 Dan"
+            "Spring 23 Dan",
+            "Song with !"
         ]
     },
     {
@@ -27,7 +29,8 @@ var enTags = [
         "tags": [
             "Peaky P-key",
             "Original Category",
-            "Autumn 22 Dan"
+            "Autumn 22 Dan",
+            "First Mix"
         ]
     },
     {
@@ -35,7 +38,9 @@ var enTags = [
         "tags": [
             "Peaky P-key",
             "Original Category",
-            "Summer 22 Dan"
+            "Summer 22 Dan",
+            "First Mix",
+            "Song with !"
         ]
     },
     {
@@ -50,7 +55,8 @@ var enTags = [
         "name": "Photon Melodies",
         "tags": [
             "Photon Maiden",
-            "Original Category"
+            "Original Category",
+            "First Mix"
         ]
     },
     {
@@ -82,7 +88,9 @@ var enTags = [
         "name": "Floor Killer",
         "tags": [
             "Merm4id",
-            "Original Category"
+            "Original Category",
+            "First Mix",
+            "Groovy Festival"
         ]
     },
     {
@@ -90,7 +98,8 @@ var enTags = [
         "tags": [
             "Merm4id",
             "Cover Category",
-            "Cover Tracks Vol 3"
+            "Cover Tracks Vol 3",
+            "Cat Songs"
         ]
     },
     {
@@ -114,7 +123,8 @@ var enTags = [
         "name": "Movement",
         "tags": [
             "RONDO",
-            "Original Category"
+            "Original Category",
+            "First Mix"
         ]
     },
     {
@@ -141,7 +151,8 @@ var enTags = [
             "Original Category",
             "Summer 22 Dan",
             "Autumn 22 Dan",
-            "Spring 23 Dan"
+            "Spring 23 Dan",
+            "First Mix"
         ]
     },
     {
@@ -217,7 +228,8 @@ var enTags = [
         "tags": [
             "Happy Around!",
             "Original Category",
-            "Spring 23 Dan"
+            "Spring 23 Dan",
+            "First Mix"
         ]
     },
     {
@@ -225,7 +237,8 @@ var enTags = [
         "tags": [
             "Merm4id",
             "Original Category",
-            "Summer 22 Dan"
+            "Summer 22 Dan",
+            "First Mix"
         ]
     },
     {
@@ -242,7 +255,8 @@ var enTags = [
             "Photon Maiden",
             "Cover Category",
             "Winter 23 Dan",
-            "Cover Tracks Vol 3"
+            "Cover Tracks Vol 3",
+            "BLACK or WHITE"
         ]
     },
     {
@@ -288,7 +302,8 @@ var enTags = [
     {
         "name": "FURUHATA'S THEME",
         "tags": [
-            "Instrumental Category"
+            "Instrumental Category",
+            "Theme of..."
         ]
     },
     {
@@ -301,19 +316,22 @@ var enTags = [
     {
         "name": "RAINMAKER",
         "tags": [
-            "Instrumental Category"
+            "Instrumental Category",
+            "Wrestling"
         ]
     },
     {
         "name": "SUNRISE",
         "tags": [
-            "Instrumental Category"
+            "Instrumental Category",
+            "Wrestling"
         ]
     },
     {
         "name": "OPA-OPA!",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Song with !"
         ]
     },
     {
@@ -342,7 +360,8 @@ var enTags = [
     {
         "name": "JINGINAKI TATAKAINO THEME",
         "tags": [
-            "Instrumental Category"
+            "Instrumental Category",
+            "Theme of..."
         ]
     },
     {
@@ -355,7 +374,8 @@ var enTags = [
     {
         "name": "LOVE & ENERGY",
         "tags": [
-            "Instrumental Category"
+            "Instrumental Category",
+            "Wrestling"
         ]
     },
     {
@@ -428,20 +448,24 @@ var enTags = [
     {
         "name": "Tetsuko's Room Theme",
         "tags": [
-            "Instrumental Category"
+            "Instrumental Category",
+            "Theme of..."
         ]
     },
     {
         "name": "Golden Star",
         "tags": [
-            "Instrumental Category"
+            "Instrumental Category",
+            "Wrestling"
         ]
     },
     {
         "name": "Peak Peaky&Peaky!!",
         "tags": [
             "Peaky P-key",
-            "Original Category"
+            "Original Category",
+            "Groovy Festival",
+            "Song with !"
         ]
     },
     {
@@ -508,14 +532,16 @@ var enTags = [
         "name": "Yes! BanG_Dream!",
         "tags": [
             "Happy Around!",
-            "Cover Category"
+            "Cover Category",
+            "Song with !"
         ]
     },
     {
         "name": "Make some noise!",
         "tags": [
             "Merm4id",
-            "Original Category"
+            "Original Category",
+            "Song with !"
         ]
     },
     {
@@ -615,7 +641,8 @@ var enTags = [
             "Lyrical Lily",
             "Original Category",
             "Summer 22 Dan",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "Cat Songs"
         ]
     },
     {
@@ -631,7 +658,8 @@ var enTags = [
     {
         "name": "TAIYO NI HOERO THEME",
         "tags": [
-            "Instrumental Category"
+            "Instrumental Category",
+            "Theme of..."
         ]
     },
     {
@@ -652,7 +680,8 @@ var enTags = [
         "name": "Wish You Luck",
         "tags": [
             "Peaky P-key",
-            "Original Category"
+            "Original Category",
+            "First Mix"
         ]
     },
     {
@@ -669,7 +698,8 @@ var enTags = [
         "tags": [
             "Merm4id",
             "Original Category",
-            "Summer 22 Dan"
+            "Summer 22 Dan",
+            "Song with !"
         ]
     },
     {
@@ -685,7 +715,8 @@ var enTags = [
             "Photon Maiden",
             "Original Category",
             "Autumn 22 Dan",
-            "Winter 23 Dan"
+            "Winter 23 Dan",
+            "First Mix"
         ]
     },
     {
@@ -710,35 +741,40 @@ var enTags = [
         "name": "Petit Prince",
         "tags": [
             "Lyrical Lily",
-            "Original Category"
+            "Original Category",
+            "Groovy Festival"
         ]
     },
     {
         "name": "LOVE!HUG!GROOVY!! Type:L",
         "tags": [
             "Special (unit)",
-            "Original Category"
+            "Original Category",
+            "Song with !"
         ]
     },
     {
         "name": "LOVE!HUG!GROOVY!! Type:H",
         "tags": [
             "Special (unit)",
-            "Original Category"
+            "Original Category",
+            "Song with !"
         ]
     },
     {
         "name": "LOVE!HUG!GROOVY!! Type:G",
         "tags": [
             "Special (unit)",
-            "Original Category"
+            "Original Category",
+            "Song with !"
         ]
     },
     {
         "name": "WOW WAR TONIGHT",
         "tags": [
             "Special (unit)",
-            "Cover Category"
+            "Cover Category",
+            "First Mix"
         ]
     },
     {
@@ -766,7 +802,8 @@ var enTags = [
         "name": "Happy Around Days",
         "tags": [
             "Happy Around!",
-            "Original Category"
+            "Original Category",
+            "First Mix"
         ]
     },
     {
@@ -799,7 +836,9 @@ var enTags = [
         "tags": [
             "Special (unit)",
             "Original Category",
-            "Winter 23 Dan"
+            "Winter 23 Dan",
+            "First Mix",
+            "Song with !"
         ]
     },
     {
@@ -807,7 +846,8 @@ var enTags = [
         "tags": [
             "Peaky P-key",
             "Original Category",
-            "Autumn 22 Dan"
+            "Autumn 22 Dan",
+            "Groovy Festival"
         ]
     },
     {
@@ -821,7 +861,8 @@ var enTags = [
         "name": "Seikai wa Hitotsu! Ja Nai!!",
         "tags": [
             "Happy Around!",
-            "Cover Category"
+            "Cover Category",
+            "Song with !"
         ]
     },
     {
@@ -838,7 +879,8 @@ var enTags = [
     {
         "name": "Power Hall",
         "tags": [
-            "Instrumental Category"
+            "Instrumental Category",
+            "Wrestling"
         ]
     },
     {
@@ -846,7 +888,8 @@ var enTags = [
         "tags": [
             "Peaky P-key",
             "Cover Category",
-            "Cover Tracks Vol 1"
+            "Cover Tracks Vol 1",
+            "Cat Songs"
         ]
     },
     {
@@ -870,14 +913,16 @@ var enTags = [
         "name": "Feeling Good ↑↑",
         "tags": [
             "Happy Around!",
-            "Cover Category"
+            "Cover Category",
+            "First Mix"
         ]
     },
     {
         "name": "Certified Human!!!!",
         "tags": [
             "Lyrical Lily",
-            "Original Category"
+            "Original Category",
+            "Song with !"
         ]
     },
     {
@@ -893,7 +938,9 @@ var enTags = [
         "tags": [
             "Happy Around!",
             "Original Category",
-            "Spring 23 Dan"
+            "Spring 23 Dan",
+            "First Mix",
+            "Song with !"
         ]
     },
     {
@@ -902,7 +949,8 @@ var enTags = [
             "Happy Around!",
             "Original Category",
             "Summer 22 Dan",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "First Mix"
         ]
     },
     {
@@ -910,7 +958,8 @@ var enTags = [
         "tags": [
             "Happy Around!",
             "Original Category",
-            "Autumn 22 Dan"
+            "Autumn 22 Dan",
+            "First Mix"
         ]
     },
     {
@@ -932,14 +981,16 @@ var enTags = [
         "name": "EXPOSE 'Burn out!!!'",
         "tags": [
             "Merm4id",
-            "Cover Category"
+            "Cover Category",
+            "Song with !"
         ]
     },
     {
         "name": "Galaxy☆Babanga Bang!",
         "tags": [
             "Lyrical Lily",
-            "Cover Category"
+            "Cover Category",
+            "Song with !"
         ]
     },
     {
@@ -956,7 +1007,8 @@ var enTags = [
             "Happy Around!",
             "Original Category",
             "Spring 23 Dan",
-            "Event Song"
+            "Event Song",
+            "Song with !"
         ]
     },
     {
@@ -972,7 +1024,8 @@ var enTags = [
         "tags": [
             "Happy Around!",
             "Cover Category",
-            "Cover Tracks Vol 6"
+            "Cover Tracks Vol 6",
+            "Song with !"
         ]
     },
     {
@@ -1002,7 +1055,8 @@ var enTags = [
     {
         "name": "Bloom Nobly, Ink-Black Cherry Blossom ~ Border of Life (REDALiCE Remix)",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "BLACK or WHITE"
         ]
     },
     {
@@ -1017,7 +1071,8 @@ var enTags = [
         "name": "Let you DIVE!",
         "tags": [
             "Game Category",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "Song with !"
         ]
     },
     {
@@ -1048,7 +1103,8 @@ var enTags = [
         "tags": [
             "Peaky P-key",
             "Original Category",
-            "Summer 22 Dan"
+            "Summer 22 Dan",
+            "First Mix"
         ]
     },
     {
@@ -1057,7 +1113,8 @@ var enTags = [
             "Photon Maiden",
             "Original Category",
             "Summer 22 Dan",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "First Mix"
         ]
     },
     {
@@ -1065,7 +1122,8 @@ var enTags = [
         "tags": [
             "Photon Maiden",
             "Cover Category",
-            "Cover Tracks Vol 8"
+            "Cover Tracks Vol 8",
+            "Song with !"
         ]
     },
     {
@@ -1080,13 +1138,17 @@ var enTags = [
     {
         "name": "NEXT COLOR PLANET",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Vtubers",
+            "Hololive"
         ]
     },
     {
         "name": "aqua iro palette",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Vtubers",
+            "Hololive"
         ]
     },
     {
@@ -1094,7 +1156,8 @@ var enTags = [
         "tags": [
             "Happy Around!",
             "Original Category",
-            "Summer 22 Dan"
+            "Summer 22 Dan",
+            "First Mix"
         ]
     },
     {
@@ -1138,7 +1201,9 @@ var enTags = [
     {
         "name": "PEKORANDOMBRAIN",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Vtubers",
+            "Hololive"
         ]
     },
     {
@@ -1167,28 +1232,33 @@ var enTags = [
         "name": "Akatsuki (Fruits Mix)",
         "tags": [
             "Photon Maiden",
-            "Original Category"
+            "Original Category",
+            "First Mix"
         ]
     },
     {
         "name": "Petit Mix Party Night! Anime Ver.",
         "tags": [
             "Special (unit)",
-            "Original Category"
+            "Original Category",
+            "Song with !"
         ]
     },
     {
         "name": "Hey! Be Ambitious!",
         "tags": [
             "Happy Around!",
-            "Original Category"
+            "Original Category",
+            "Groovy Festival",
+            "Song with !"
         ]
     },
     {
         "name": "Hey! Be Ambitious! (Another Ver.)",
         "tags": [
             "Happy Around!",
-            "Original Category"
+            "Original Category",
+            "Song with !"
         ]
     },
     {
@@ -1207,7 +1277,8 @@ var enTags = [
             "RONDO",
             "Original Category",
             "Summer 22 Dan",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "Groovy Festival"
         ]
     },
     {
@@ -1247,7 +1318,8 @@ var enTags = [
         "tags": [
             "Happy Around!",
             "Original Category",
-            "Summer 22 Dan"
+            "Summer 22 Dan",
+            "Song with !"
         ]
     },
     {
@@ -1261,13 +1333,16 @@ var enTags = [
     {
         "name": "ONOMATO Pairing!!!",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Song with !"
         ]
     },
     {
         "name": "Suspect",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Vtubers",
+            "Hololive"
         ]
     },
     {
@@ -1275,7 +1350,8 @@ var enTags = [
         "tags": [
             "Happy Around!",
             "Cover Category",
-            "Cover Tracks Vol 4"
+            "Cover Tracks Vol 4",
+            "Song with !"
         ]
     },
     {
@@ -1364,13 +1440,16 @@ var enTags = [
         "tags": [
             "Merm4id",
             "Original Category",
-            "Event Song"
+            "Event Song",
+            "Song with !"
         ]
     },
     {
         "name": "Dreaming Days",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Vtubers",
+            "Hololive"
         ]
     },
     {
@@ -1387,7 +1466,9 @@ var enTags = [
         "tags": [
             "Lyrical Lily",
             "Original Category",
-            "Summer 22 Dan"
+            "Summer 22 Dan",
+            "Groovy Festival",
+            "Song with !"
         ]
     },
     {
@@ -1395,7 +1476,8 @@ var enTags = [
         "tags": [
             "Peaky P-key",
             "Cover Category",
-            "Cover Tracks Vol 8"
+            "Cover Tracks Vol 8",
+            "BLACK or WHITE"
         ]
     },
     {
@@ -1403,7 +1485,8 @@ var enTags = [
         "tags": [
             "Peaky P-key",
             "Original Category",
-            "Summer 22 Dan"
+            "Summer 22 Dan",
+            "Song with !"
         ]
     },
     {
@@ -1412,7 +1495,8 @@ var enTags = [
             "Happy Around!",
             "Original Category",
             "Summer 22 Dan",
-            "Event Song"
+            "Event Song",
+            "Song with !"
         ]
     },
     {
@@ -1428,21 +1512,24 @@ var enTags = [
         "name": "LOVE!HUG!GROOVY!! Type:L (KO3 Remix)",
         "tags": [
             "Special (unit)",
-            "Original Category"
+            "Original Category",
+            "Song with !"
         ]
     },
     {
         "name": "LOVE!HUG!GROOVY!! Type:H (KO3 Remix)",
         "tags": [
             "Special (unit)",
-            "Original Category"
+            "Original Category",
+            "Song with !"
         ]
     },
     {
         "name": "LOVE!HUG!GROOVY!! Type:G (KO3 Remix)",
         "tags": [
             "Special (unit)",
-            "Original Category"
+            "Original Category",
+            "Song with !"
         ]
     },
     {
@@ -1477,7 +1564,8 @@ var enTags = [
             "Photon Maiden",
             "Original Category",
             "Winter 23 Dan",
-            "Event Song"
+            "Event Song",
+            "Groovy Festival"
         ]
     },
     {
@@ -1531,7 +1619,8 @@ var enTags = [
             "Happy Around!",
             "Cover Category",
             "Summer 22 Dan",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "Song with !"
         ]
     },
     {
@@ -1570,7 +1659,8 @@ var enTags = [
             "Lyrical Lily",
             "Original Category",
             "Summer 22 Dan",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "Song with !"
         ]
     },
     {
@@ -1598,7 +1688,8 @@ var enTags = [
             "Merm4id",
             "Cover Category",
             "Winter 23 Dan",
-            "Cover Tracks Vol 6"
+            "Cover Tracks Vol 6",
+            "Song with !"
         ]
     },
     {
@@ -1660,7 +1751,8 @@ var enTags = [
         "name": "BLACK LOTUS",
         "tags": [
             "RONDO",
-            "Original Category"
+            "Original Category",
+            "BLACK or WHITE"
         ]
     },
     {
@@ -1693,19 +1785,24 @@ var enTags = [
             "Lyrical Lily",
             "Cover Category",
             "Spring 23 Dan",
-            "Cover Tracks Vol 8"
+            "Cover Tracks Vol 8",
+            "Cat Songs"
         ]
     },
     {
         "name": "Stellar Stellar",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Vtubers",
+            "Hololive"
         ]
     },
     {
         "name": "Everlasting Soul",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Vtubers",
+            "Hololive"
         ]
     },
     {
@@ -1777,7 +1874,9 @@ var enTags = [
         "tags": [
             "Base Category",
             "Autumn 22 Dan",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "Vtubers",
+            "Hololive"
         ]
     },
     {
@@ -1830,7 +1929,8 @@ var enTags = [
     {
         "name": "BANZAI RIZING!!!",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Song with !"
         ]
     },
     {
@@ -1851,7 +1951,8 @@ var enTags = [
     {
         "name": "START!! True dreams",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Song with !"
         ]
     },
     {
@@ -1892,7 +1993,8 @@ var enTags = [
         "tags": [
             "Lyrical Lily",
             "Original Category",
-            "Event Song"
+            "Event Song",
+            "BLACK or WHITE"
         ]
     },
     {
@@ -1901,7 +2003,8 @@ var enTags = [
             "Photon Maiden",
             "Cover Category",
             "Summer 23 Dan",
-            "Cover Tracks Vol 5"
+            "Cover Tracks Vol 5",
+            "Angel and Demon"
         ]
     },
     {
@@ -1943,7 +2046,8 @@ var enTags = [
         "name": "Bad Apple!! feat. nomico (D.watt Remix)",
         "tags": [
             "Game Category",
-            "Autumn 22 Dan"
+            "Autumn 22 Dan",
+            "Song with !"
         ]
     },
     {
@@ -1958,7 +2062,8 @@ var enTags = [
             "Peaky P-key",
             "Cover Category",
             "Winter 23 Dan",
-            "Cover Tracks Vol 6"
+            "Cover Tracks Vol 6",
+            "Song with !"
         ]
     },
     {
@@ -2117,7 +2222,8 @@ var enTags = [
             "Lyrical Lily",
             "Cover Category",
             "Autumn 22 Dan",
-            "Cover Tracks Vol 8"
+            "Cover Tracks Vol 8",
+            "Angel and Demon"
         ]
     },
     {
@@ -2157,7 +2263,8 @@ var enTags = [
             "RONDO",
             "Original Category",
             "Autumn 22 Dan",
-            "Event Song"
+            "Event Song",
+            "Groovy Festival"
         ]
     },
     {
@@ -2177,7 +2284,8 @@ var enTags = [
         "name": "I don't wanna lose!",
         "tags": [
             "Special (unit)",
-            "Original Category"
+            "Original Category",
+            "Song with !"
         ]
     },
     {
@@ -2216,7 +2324,9 @@ var enTags = [
         "tags": [
             "RONDO",
             "Original Category",
-            "Autumn 22 Dan"
+            "Autumn 22 Dan",
+            "Angel and Demon",
+            "Groovy Festival"
         ]
     },
     {
@@ -2224,7 +2334,8 @@ var enTags = [
         "tags": [
             "Happy Around!",
             "Original Category",
-            "Autumn 22 Dan"
+            "Autumn 22 Dan",
+            "Groovy Festival"
         ]
     },
     {
@@ -2232,7 +2343,8 @@ var enTags = [
         "tags": [
             "Lyrical Lily",
             "Original Category",
-            "Autumn 22 Dan"
+            "Autumn 22 Dan",
+            "Cat Songs"
         ]
     },
     {
@@ -2294,7 +2406,8 @@ var enTags = [
     {
         "name": "Geki! Teikoku Kagekidan",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Song with !"
         ]
     },
     {
@@ -2316,14 +2429,16 @@ var enTags = [
         "name": "What a Colorful World!! [D4DJ Remix] Type 1",
         "tags": [
             "Special (unit)",
-            "Cover Category"
+            "Cover Category",
+            "Song with !"
         ]
     },
     {
         "name": "What a Colorful World!! [D4DJ Remix] Type 2",
         "tags": [
             "Special (unit)",
-            "Cover Category"
+            "Cover Category",
+            "Song with !"
         ]
     },
     {
@@ -2350,7 +2465,8 @@ var enTags = [
             "Autumn 22 Dan",
             "Winter 23 Dan",
             "Spring 23 Dan",
-            "Cover Tracks Vol 8"
+            "Cover Tracks Vol 8",
+            "Song with !"
         ]
     },
     {
@@ -2373,7 +2489,8 @@ var enTags = [
         "name": "LOVE AND DEVIL",
         "tags": [
             "Game Category",
-            "Autumn 22 Dan"
+            "Autumn 22 Dan",
+            "Angel and Demon"
         ]
     },
     {
@@ -2450,7 +2567,8 @@ var enTags = [
             "Lyrical Lily",
             "Original Category",
             "Autumn 22 Dan",
-            "Spring 23 Dan"
+            "Spring 23 Dan",
+            "Cat Songs"
         ]
     },
     {
@@ -2464,19 +2582,22 @@ var enTags = [
     {
         "name": "Kitare Amaigumi",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Vtubers"
         ]
     },
     {
         "name": "Kirameki Sprinkles",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Vtubers"
         ]
     },
     {
         "name": "Sinsoukaiten HoneyStrap",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Vtubers"
         ]
     },
     {
@@ -2484,7 +2605,8 @@ var enTags = [
         "tags": [
             "Photon Maiden",
             "Cover Category",
-            "Cover Tracks Vol 7"
+            "Cover Tracks Vol 7",
+            "Song with !"
         ]
     },
     {
@@ -2539,14 +2661,16 @@ var enTags = [
     {
         "name": "Welcome! (D-POP version) ～D.U.P.～",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Song with !"
         ]
     },
     {
         "name": "Singalong, Please!",
         "tags": [
             "Happy Around!",
-            "Original Category"
+            "Original Category",
+            "Song with !"
         ]
     },
     {
@@ -2579,7 +2703,8 @@ var enTags = [
         "tags": [
             "Special (unit)",
             "Original Category",
-            "Winter 23 Dan"
+            "Winter 23 Dan",
+            "Angel and Demon"
         ]
     },
     {
@@ -2612,7 +2737,8 @@ var enTags = [
             "Happy Around!",
             "Original Category",
             "Spring 23 Dan",
-            "Event Song"
+            "Event Song",
+            "Song with !"
         ]
     },
     {
@@ -2702,7 +2828,8 @@ var enTags = [
         "name": "OVERWHELM!",
         "tags": [
             "Peaky P-key",
-            "Original Category"
+            "Original Category",
+            "Song with !"
         ]
     },
     {
@@ -2828,7 +2955,8 @@ var enTags = [
         "name": "Snow Black",
         "tags": [
             "Lyrical Lily",
-            "Original Category"
+            "Original Category",
+            "BLACK or WHITE"
         ]
     },
     {
@@ -2865,7 +2993,8 @@ var enTags = [
             "Lyrical Lily",
             "Cover Category",
             "Spring 23 Dan",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "Song with !"
         ]
     },
     {
@@ -2885,7 +3014,8 @@ var enTags = [
         "name": "Peaky Around!!",
         "tags": [
             "Special (unit)",
-            "Original Category"
+            "Original Category",
+            "Song with !"
         ]
     },
     {
@@ -2922,7 +3052,8 @@ var enTags = [
         "name": "Spring Letter(s)!",
         "tags": [
             "Base Category",
-            "Spring 23 Dan"
+            "Spring 23 Dan",
+            "Song with !"
         ]
     },
     {
@@ -2937,7 +3068,8 @@ var enTags = [
         "name": "Shakkiiin!!",
         "tags": [
             "Game Category",
-            "Spring 23 Dan"
+            "Spring 23 Dan",
+            "Song with !"
         ]
     },
     {
@@ -2967,7 +3099,8 @@ var enTags = [
         "tags": [
             "Special (unit)",
             "Original Category",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "BLACK or WHITE"
         ]
     },
     {
@@ -2979,7 +3112,10 @@ var enTags = [
     {
         "name": "ZenjinruiUsagikakeikaku!",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Vtubers",
+            "Hololive",
+            "Song with !"
         ]
     },
     {
@@ -2991,14 +3127,17 @@ var enTags = [
     {
         "name": "Stay Blue",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Vtubers",
+            "Hololive"
         ]
     },
     {
         "name": "lovely!!!!",
         "tags": [
             "Merm4id",
-            "Original Category"
+            "Original Category",
+            "Song with !"
         ]
     },
     {
@@ -3010,7 +3149,9 @@ var enTags = [
     {
         "name": "Excuse My Rudeness, But Could You Please RIP?",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Vtubers",
+            "Hololive"
         ]
     },
     {
@@ -3022,13 +3163,17 @@ var enTags = [
     {
         "name": "Jouya Repaint",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Vtubers",
+            "Hololive"
         ]
     },
     {
         "name": "Sparklers",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Vtubers",
+            "Hololive"
         ]
     },
     {
@@ -3114,7 +3259,8 @@ var enTags = [
     {
         "name": "Victory Road",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Wrestling"
         ]
     },
     {
@@ -3126,7 +3272,8 @@ var enTags = [
     {
         "name": "TAIYAKI IDOL ☆ TAYORIN SANJOU! (feat.Hige Driver)",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Song with !"
         ]
     },
     {
@@ -3152,7 +3299,8 @@ var enTags = [
     {
         "name": "Oshama Scramble!",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Song with !"
         ]
     },
     {
@@ -3164,7 +3312,8 @@ var enTags = [
     {
         "name": "Trrricksters!!",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Song with !"
         ]
     },
     {
@@ -3199,7 +3348,8 @@ var enTags = [
             "Peaky P-key",
             "Original Category",
             "Autumn 22 Dan",
-            "Spring 23 Dan"
+            "Spring 23 Dan",
+            "Song with !"
         ]
     },
     {
@@ -3207,7 +3357,8 @@ var enTags = [
         "tags": [
             "Happy Around!",
             "Original Category",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "Song with !"
         ]
     }
 ]

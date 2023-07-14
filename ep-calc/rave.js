@@ -8,7 +8,7 @@ function filterByTag(objects, value) {
 
 function applyFilter(objects) {
     // Get active filters
-    var checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+    var checkboxes = document.querySelectorAll('input[type="radio"]:checked');
     var checkedValues = Array.from(checkboxes).map(function(checkbox) {
         return checkbox.value;
     });
@@ -35,10 +35,15 @@ function displaySongList(arr) {
     var text = document.createTextNode("Name");
     th.appendChild(text);
     row.appendChild(th);
+    th = document.createElement("th");
+    text = document.createTextNode("Tags");
+    th.appendChild(text);
+    row.appendChild(th);
 
     for (let x of arr) {
-        var charRow = table.insertRow();
-        charRow.insertCell().appendChild(document.createTextNode(x.name));
+        var songRow = table.insertRow();
+        songRow.insertCell().appendChild(document.createTextNode(x.name));
+        songRow.insertCell().appendChild(document.createTextNode(x.tags));
     }
 
     document.getElementById("songTableWrapper").appendChild(table);
