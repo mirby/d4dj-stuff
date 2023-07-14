@@ -965,7 +965,8 @@ var enTags = [
     {
         "name": "Shanghai Scarlet Teahouse (siromaru d'n'b remix)",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Touhou"
         ]
     },
     {
@@ -1049,14 +1050,16 @@ var enTags = [
         "name": "Love-Colored Master Spark (DJ Genki Remix)",
         "tags": [
             "Game Category",
-            "Summer 22 Dan"
+            "Summer 22 Dan",
+            "Touhou"
         ]
     },
     {
         "name": "Bloom Nobly, Ink-Black Cherry Blossom ~ Border of Life (REDALiCE Remix)",
         "tags": [
             "Game Category",
-            "BLACK or WHITE"
+            "BLACK or WHITE",
+            "Touhou"
         ]
     },
     {
@@ -1064,7 +1067,8 @@ var enTags = [
         "tags": [
             "Game Category",
             "Summer 22 Dan",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "Touhou"
         ]
     },
     {
@@ -1095,7 +1099,8 @@ var enTags = [
     {
         "name": "U.N. Owen was her?*(USAO Euphoric Frenchcore Remix)",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Touhou"
         ]
     },
     {
@@ -1225,7 +1230,8 @@ var enTags = [
     {
         "name": "Pure Furies (DJ_WILDPARTY_remix)",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Touhou"
         ]
     },
     {
@@ -1250,7 +1256,8 @@ var enTags = [
             "Happy Around!",
             "Original Category",
             "Groovy Festival",
-            "Song with !"
+            "Song with !",
+            "D4FES Songs"
         ]
     },
     {
@@ -1278,7 +1285,8 @@ var enTags = [
             "Original Category",
             "Summer 22 Dan",
             "Summer 23 Dan",
-            "Groovy Festival"
+            "Groovy Festival",
+            "D4FES Songs"
         ]
     },
     {
@@ -1374,7 +1382,8 @@ var enTags = [
         "tags": [
             "Merm4id",
             "Original Category",
-            "Autumn 22 Dan"
+            "Autumn 22 Dan",
+            "D4FES Songs"
         ]
     },
     {
@@ -1403,7 +1412,8 @@ var enTags = [
             "Photon Maiden",
             "Original Category",
             "Summer 22 Dan",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "D4FES Songs"
         ]
     },
     {
@@ -1468,7 +1478,8 @@ var enTags = [
             "Original Category",
             "Summer 22 Dan",
             "Groovy Festival",
-            "Song with !"
+            "Song with !",
+            "D4FES Songs"
         ]
     },
     {
@@ -1486,7 +1497,8 @@ var enTags = [
             "Peaky P-key",
             "Original Category",
             "Summer 22 Dan",
-            "Song with !"
+            "Song with !",
+            "D4FES Songs"
         ]
     },
     {
@@ -2047,7 +2059,8 @@ var enTags = [
         "tags": [
             "Game Category",
             "Autumn 22 Dan",
-            "Song with !"
+            "Song with !",
+            "Touhou"
         ]
     },
     {
@@ -2086,7 +2099,8 @@ var enTags = [
             "Photon Maiden",
             "Original Category",
             "Autumn 22 Dan",
-            "Winter 23 Dan"
+            "Winter 23 Dan",
+            "D4FES Songs"
         ]
     },
     {
@@ -2116,7 +2130,8 @@ var enTags = [
             "Lyrical Lily",
             "Original Category",
             "Summer 22 Dan",
-            "Autumn 22 Dan"
+            "Autumn 22 Dan",
+            "D4FES Songs"
         ]
     },
     {
@@ -2301,7 +2316,8 @@ var enTags = [
         "tags": [
             "Merm4id",
             "Original Category",
-            "Autumn 22 Dan"
+            "Autumn 22 Dan",
+            "D4FES Songs"
         ]
     },
     {
@@ -2326,7 +2342,8 @@ var enTags = [
             "Original Category",
             "Autumn 22 Dan",
             "Angel and Demon",
-            "Groovy Festival"
+            "Groovy Festival",
+            "D4FES Songs"
         ]
     },
     {
@@ -2335,7 +2352,8 @@ var enTags = [
             "Happy Around!",
             "Original Category",
             "Autumn 22 Dan",
-            "Groovy Festival"
+            "Groovy Festival",
+            "D4FES Songs"
         ]
     },
     {
@@ -2352,7 +2370,8 @@ var enTags = [
         "tags": [
             "Peaky P-key",
             "Original Category",
-            "Winter 23 Dan"
+            "Winter 23 Dan",
+            "D4FES Songs"
         ]
     },
     {
@@ -2400,7 +2419,8 @@ var enTags = [
         "name": "Cirno's Perfect Math Class (Camellia's ⑨⑨⑨ Remix）",
         "tags": [
             "Game Category",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "Touhou"
         ]
     },
     {
@@ -3069,7 +3089,8 @@ var enTags = [
         "tags": [
             "Game Category",
             "Spring 23 Dan",
-            "Song with !"
+            "Song with !",
+            "GekiChuMai"
         ]
     },
     {
@@ -3300,26 +3321,30 @@ var enTags = [
         "name": "Oshama Scramble!",
         "tags": [
             "Game Category",
-            "Song with !"
+            "Song with !",
+            "GekiChuMai"
         ]
     },
     {
         "name": "Titania",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "GekiChuMai"
         ]
     },
     {
         "name": "Trrricksters!!",
         "tags": [
             "Game Category",
-            "Song with !"
+            "Song with !",
+            "GekiChuMai"
         ]
     },
     {
         "name": "Falsum Atlantis.",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "GekiChuMai"
         ]
     },
     {
