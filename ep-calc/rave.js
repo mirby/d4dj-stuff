@@ -8,7 +8,7 @@ function filterByTag(objects, value) {
 
 function applyFilter(objects) {
     // Get active filters
-    var checkboxes = document.querySelectorAll('input[type="radio"]:checked');
+    var checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
     var checkedValues = Array.from(checkboxes).map(function(checkbox) {
         return checkbox.value;
     });
