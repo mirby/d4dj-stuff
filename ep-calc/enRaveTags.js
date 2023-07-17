@@ -54,7 +54,8 @@ var enTags = [
         "tags": [
             "Peaky P-key",
             "Cover Category",
-            "Cover Tracks Vol 3"
+            "Cover Tracks Vol 3",
+            "Songs with Dream"
         ],
         "id": 220001
     },
@@ -619,7 +620,8 @@ var enTags = [
         "tags": [
             "Happy Around!",
             "Cover Category",
-            "Song with !"
+            "Song with !",
+            "Songs with Dream"
         ],
         "id": 120006
     },
@@ -777,7 +779,8 @@ var enTags = [
         "name": "SHUFFLE HEART BEAT",
         "tags": [
             "Happy Around!",
-            "Original Category"
+            "Original Category",
+            "Songs with Heart (spelled)"
         ],
         "id": 110006
     },
@@ -1077,6 +1080,18 @@ var enTags = [
             "Autumn 22 Dan"
         ],
         "id": 610006
+    },
+    {
+        "id": 3010005,
+        "name": "Let's do the 'Big-Bang!'",
+        "tags": [
+            "Special (unit)",
+            "Original Category",
+            "First Mix",
+            "Summer 22 Dan",
+            "Song with !",
+            "D4DJ Anime"
+        ]
     },
     {
         "name": "Give Me Awesome!!!!",
@@ -1446,6 +1461,13 @@ var enTags = [
         "id": 3010007
     },
     {
+        "name": "SE・SA・ME",
+        "tags": [
+            "Base Category"
+        ],
+        "id": 5050044
+    },
+    {
         "name": "Hey! Be Ambitious!",
         "tags": [
             "Happy Around!",
@@ -1685,7 +1707,8 @@ var enTags = [
         "tags": [
             "Base Category",
             "Vtubers",
-            "Hololive"
+            "Hololive",
+            "Songs with Dream"
         ],
         "id": 5050052
     },
@@ -1799,7 +1822,8 @@ var enTags = [
             "Happy Around!",
             "Cover Category",
             "Summer 22 Dan",
-            "Cover Tracks Vol 5"
+            "Cover Tracks Vol 5",
+            "Songs with Dream"
         ],
         "id": 120018
     },
@@ -1928,7 +1952,8 @@ var enTags = [
             "Summer 22 Dan",
             "Summer 23 Dan",
             "Song with !",
-            "Numbers Spelled Out"
+            "Numbers Spelled Out",
+            "Songs with Dream"
         ],
         "id": 610011
     },
@@ -1950,7 +1975,8 @@ var enTags = [
     {
         "name": "Exitium",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "BPM over 250"
         ],
         "id": 5030038
     },
@@ -2099,7 +2125,8 @@ var enTags = [
             "Happy Around!",
             "Original Category",
             "Summer 22 Dan",
-            "Winter 23 Dan"
+            "Winter 23 Dan",
+            "Songs with Dream"
         ],
         "id": 110021
     },
@@ -2262,7 +2289,8 @@ var enTags = [
         "name": "START!! True dreams",
         "tags": [
             "Base Category",
-            "Song with !"
+            "Song with !",
+            "Songs with Dream"
         ],
         "id": 5050099
     },
@@ -2273,7 +2301,8 @@ var enTags = [
             "Original Category",
             "Spring 23 Dan",
             "Event Song",
-            "♡ Songs"
+            "♡ Songs",
+            "Songs with Heart (spelled)"
         ],
         "id": 110023
     },
@@ -2285,7 +2314,8 @@ var enTags = [
             "Autumn 22 Dan",
             "Winter 23 Dan",
             "Event Song",
-            "Numbers Spelled Out"
+            "Numbers Spelled Out",
+            "BPM over 250"
         ],
         "id": 510016
     },
@@ -2558,7 +2588,8 @@ var enTags = [
         "tags": [
             "Game Category",
             "Autumn 22 Dan",
-            "Fighting Game"
+            "Fighting Game",
+            "BPM over 250"
         ],
         "id": 5030078
     },
@@ -2575,6 +2606,29 @@ var enTags = [
             "Base Category"
         ],
         "id": 5050108
+    },
+    {
+        "name": "Let's do the 'Big-Bang!' EG NURemix",
+        "tags": [
+            "Peaky P-key",
+            "Original Category",
+            "Autumn 22 Dan",
+            "Spring 23 Dan",
+            "Song with !"
+        ],
+        "id": 210014
+    },
+    {
+        "name": "Guru Guru DJ TURN!! (14 Routine Remix)",
+        "tags": [
+            "Happy Around!",
+            "Original Category",
+            "Summer 23 Dan",
+            "Song with !",
+            "1, 2, 3...",
+            "Songs with DJ"
+        ],
+        "id": 110025
     },
     {
         "name": "Bludgeoning Angel Dokuro-Chan",
@@ -2795,7 +2849,8 @@ var enTags = [
             "Game Category",
             "Summer 23 Dan",
             "Touhou",
-            "1, 2, 3..."
+            "1, 2, 3...",
+            "BPM over 250"
         ],
         "id": 5030061
     },
@@ -2932,7 +2987,8 @@ var enTags = [
             "Winter 23 Dan",
             "Spring 23 Dan",
             "Summer 23 Dan",
-            "Cover Tracks Vol 8"
+            "Cover Tracks Vol 8",
+            "Songs with Dream"
         ],
         "id": 120022
     },
@@ -2981,7 +3037,8 @@ var enTags = [
             "Cover Category",
             "Autumn 22 Dan",
             "Cover Tracks Vol 7",
-            "Songs with Go"
+            "Songs with Go",
+            "BPM over 250"
         ],
         "id": 520016
     },
@@ -3054,7 +3111,8 @@ var enTags = [
     {
         "name": "GROOVE THE HEART",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Songs with Heart (spelled)"
         ],
         "id": 5030049
     },
@@ -3154,6 +3212,15 @@ var enTags = [
         "id": 610021
     },
     {
+        "id": 910001,
+        "name": "Get into the Abyssmare",
+        "tags": [
+            "Abyssmare",
+            "Original Category",
+            "Side Nova"
+        ]
+    },
+    {
         "name": "Deja Boon",
         "tags": [
             "Peaky P-key",
@@ -3197,7 +3264,8 @@ var enTags = [
             "Original Category",
             "Spring 23 Dan",
             "Summer 23 Dan",
-            "1, 2, 3..."
+            "1, 2, 3...",
+            "Side Origin"
         ],
         "id": 310020
     },
@@ -3250,7 +3318,8 @@ var enTags = [
         "name": "Hajimetetayori (feat.Camellia)",
         "tags": [
             "Base Category",
-            "Winter 23 Dan"
+            "Winter 23 Dan",
+            "BPM over 250"
         ],
         "id": 5050146
     },
@@ -3316,7 +3385,8 @@ var enTags = [
             "Original Category",
             "Spring 23 Dan",
             "Event Song",
-            "Numbers Spelled Out"
+            "Numbers Spelled Out",
+            "Side Origin"
         ],
         "id": 210020
     },
@@ -3335,7 +3405,8 @@ var enTags = [
         "tags": [
             "RONDO",
             "Original Category",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "BPM over 250"
         ],
         "id": 510021
     },
@@ -3377,7 +3448,8 @@ var enTags = [
         "tags": [
             "Merm4id",
             "Original Category",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "BPM over 250"
         ],
         "id": 410018
     },
@@ -3411,6 +3483,17 @@ var enTags = [
         "id": 310021
     },
     {
+        "id": 810001,
+        "name": "Synchronicity",
+        "tags": [
+            "UniChØrd",
+            "Original Category",
+            "Spring 23 Dan",
+            "Event Song",
+            "Side Nova"
+        ]
+    },
+    {
         "name": "Melodious Stars",
         "tags": [
             "Special (unit)",
@@ -3424,7 +3507,8 @@ var enTags = [
         "tags": [
             "Lyrical Lily",
             "Original Category",
-            "BLACK or WHITE"
+            "BLACK or WHITE",
+            "Side Origin"
         ],
         "id": 610022
     },
@@ -3467,7 +3551,8 @@ var enTags = [
             "Cover Category",
             "Spring 23 Dan",
             "Summer 23 Dan",
-            "Song with !"
+            "Song with !",
+            "BPM over 250"
         ],
         "id": 620019
     },
@@ -3500,7 +3585,8 @@ var enTags = [
         "name": "Atmosphereround",
         "tags": [
             "Happy Around!",
-            "Original Category"
+            "Original Category",
+            "Side Origin"
         ],
         "id": 110031
     },
@@ -3572,7 +3658,8 @@ var enTags = [
         "name": "WINNER",
         "tags": [
             "Abyssmare",
-            "Original Category"
+            "Original Category",
+            "Side Nova"
         ],
         "id": 910002
     },
@@ -3582,7 +3669,8 @@ var enTags = [
             "UniChØrd",
             "Original Category",
             "Summer 23 Dan",
-            "Songs with DJ"
+            "Songs with DJ",
+            "Side Nova"
         ],
         "id": 810002
     },
@@ -3634,7 +3722,8 @@ var enTags = [
         "tags": [
             "Merm4id",
             "Original Category",
-            "Song with !"
+            "Song with !",
+            "Side Origin"
         ],
         "id": 410020
     },
@@ -3672,6 +3761,13 @@ var enTags = [
         "id": 5050213
     },
     {
+        "id": 5050219,
+        "name": "START",
+        "tags": [
+            "Base Category"
+        ]
+    },
+    {
         "name": "Sparklers",
         "tags": [
             "Base Category",
@@ -3684,7 +3780,8 @@ var enTags = [
         "name": "-World Etude-",
         "tags": [
             "RONDO",
-            "Original Category"
+            "Original Category",
+            "Side Origin"
         ],
         "id": 510022
     },
@@ -3705,6 +3802,25 @@ var enTags = [
             "Side Nova"
         ],
         "id": 810003
+    },
+    {
+        "id": 910003,
+        "name": "I AM THE BEST",
+        "tags": [
+            "Abyssmare",
+            "Original Category",
+            "Side Nova"
+        ]
+    },
+    {
+        "id": 3010026,
+        "name": "SUPERSTAR",
+        "tags": [
+            "Special (unit)",
+            "Original Category",
+            "Summer 23 Dan",
+            "Side Nova"
+        ]
     },
     {
         "name": "Red fraction",
@@ -3731,6 +3847,14 @@ var enTags = [
             "Cover Category"
         ],
         "id": 3020014
+    },
+    {
+        "id": 820001,
+        "name": "INTERNET OVERDOSE",
+        "tags": [
+            "UniChØrd",
+            "Cover Category"
+        ]
     },
     {
         "name": "Choose me Choose love",
@@ -3853,101 +3977,5 @@ var enTags = [
             "Side Nova"
         ],
         "id": 910004
-    },
-    {
-        "name": "SE・SA・ME",
-        "tags": [
-            "Base Category"
-        ],
-        "id": 5050044
-    },
-    {
-        "name": "Let's do the 'Big-Bang!' EG NURemix",
-        "tags": [
-            "Peaky P-key",
-            "Original Category",
-            "Autumn 22 Dan",
-            "Spring 23 Dan",
-            "Song with !"
-        ],
-        "id": 210014
-    },
-    {
-        "name": "Guru Guru DJ TURN!! (14 Routine Remix)",
-        "tags": [
-            "Happy Around!",
-            "Original Category",
-            "Summer 23 Dan",
-            "Song with !",
-            "1, 2, 3...",
-            "Songs with DJ"
-        ],
-        "id": 110025
-    },
-    {
-        "id": 3010005,
-        "name": "Let's do the 'Big-Bang!'",
-        "tags": [
-            "Special (unit)",
-            "Original Category",
-            "First Mix",
-            "Summer 22 Dan",
-            "Song with !",
-            "D4DJ Anime"
-        ]
-    },
-    {
-        "id": 910001,
-        "name": "Get into the Abyssmare",
-        "tags": [
-            "Abyssmare",
-            "Original Category",
-            "Side Nova"
-        ]
-    },
-    {
-        "id": 810001,
-        "name": "Synchronicity",
-        "tags": [
-            "UniChØrd",
-            "Original Category",
-            "Spring 23 Dan",
-            "Event Song",
-            "Side Nova"
-        ]
-    },
-    {
-        "id": 5050219,
-        "name": "START",
-        "tags": [
-            "Base Category"
-        ]
-    },
-    {
-        "id": 910003,
-        "name": "I AM THE BEST",
-        "tags": [
-            "Abyssmare",
-            "Original Category",
-            "Side Nova"
-        ]
-    },
-    {
-        "id": 3010026,
-        "name": "SUPERSTAR",
-        "tags": [
-            "Special (unit)",
-            "Original Category",
-            "Summer 23 Dan",
-            "Side Nova"
-        ]
-    },
-    {
-        "id": 820001,
-        "name": "INTERNET OVERDOSE",
-        "tags": [
-            "UniChØrd",
-            "Cover Category"
-        ]
     }
 ]
