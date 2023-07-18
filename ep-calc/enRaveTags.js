@@ -308,7 +308,8 @@ var enTags = [
             "Cover Category",
             "Summer 22 Dan",
             "Cover Tracks Vol 2",
-            "Songs with Go"
+            "Songs with Go",
+            "Song with Go"
         ],
         "id": 320006
     },
@@ -326,7 +327,8 @@ var enTags = [
         "name": "Ninja JaJaMaru-kun Medley",
         "tags": [
             "Game Category",
-            "Winter 23 Dan"
+            "Winter 23 Dan",
+            "Retro Games"
         ],
         "id": 5030001
     },
@@ -383,7 +385,8 @@ var enTags = [
         "name": "OPA-OPA!",
         "tags": [
             "Game Category",
-            "Song with !"
+            "Song with !",
+            "Retro Games"
         ],
         "id": 5030002
     },
@@ -394,7 +397,8 @@ var enTags = [
             "Original Category",
             "Summer 22 Dan",
             "Summer 23 Dan",
-            "Songs with Go"
+            "Songs with Go",
+            "Song with Go"
         ],
         "id": 210003
     },
@@ -402,7 +406,8 @@ var enTags = [
         "name": "Space Harrier",
         "tags": [
             "Game Category",
-            "Spring 23 Dan"
+            "Spring 23 Dan",
+            "Retro Games"
         ],
         "id": 5030003
     },
@@ -411,7 +416,8 @@ var enTags = [
         "tags": [
             "Game Category",
             "Summer 22 Dan",
-            "1, 2, 3..."
+            "1, 2, 3...",
+            "Retro Games"
         ],
         "id": 5030004
     },
@@ -435,7 +441,8 @@ var enTags = [
         "name": "LOVE & ENERGY",
         "tags": [
             "Instrumental Category",
-            "Wrestling"
+            "Wrestling",
+            "Song with Love"
         ],
         "id": 5040015
     },
@@ -481,7 +488,8 @@ var enTags = [
     {
         "name": "The Legend of Kage Medley",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Retro Games"
         ],
         "id": 5030005
     },
@@ -489,14 +497,16 @@ var enTags = [
         "name": "Bubble Bobble Medley",
         "tags": [
             "Game Category",
-            "Autumn 22 Dan"
+            "Autumn 22 Dan",
+            "Retro Games"
         ],
         "id": 5030006
     },
     {
         "name": "URBAN TRAIL",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Retro Games"
         ],
         "id": 5030007
     },
@@ -504,7 +514,8 @@ var enTags = [
         "name": "Bases Loaded",
         "tags": [
             "Game Category",
-            "Autumn 22 Dan"
+            "Autumn 22 Dan",
+            "Retro Games"
         ],
         "id": 5030008
     },
@@ -513,7 +524,8 @@ var enTags = [
         "tags": [
             "Game Category",
             "Summer 22 Dan",
-            "1, 2, 3..."
+            "1, 2, 3...",
+            "Retro Games"
         ],
         "id": 5030009
     },
@@ -530,7 +542,8 @@ var enTags = [
         "tags": [
             "Instrumental Category",
             "Wrestling",
-            "Songs with Go"
+            "Songs with Go",
+            "Song with Go"
         ],
         "id": 5040016
     },
@@ -558,21 +571,24 @@ var enTags = [
         "name": "City Connection Medley",
         "tags": [
             "Game Category",
-            "Winter 23 Dan"
+            "Winter 23 Dan",
+            "Retro Games"
         ],
         "id": 5030010
     },
     {
         "name": "Magical Sound Shower",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Retro Games"
         ],
         "id": 5030011
     },
     {
         "name": "Final Take Off",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Retro Games"
         ],
         "id": 5030012
     },
@@ -580,7 +596,8 @@ var enTags = [
         "name": "DADDY MULK",
         "tags": [
             "Game Category",
-            "Summer 22 Dan"
+            "Summer 22 Dan",
+            "Retro Games"
         ],
         "id": 5030013
     },
@@ -588,7 +605,8 @@ var enTags = [
         "name": "CHAOS～BOSS SCENE7",
         "tags": [
             "Game Category",
-            "1, 2, 3..."
+            "1, 2, 3...",
+            "Retro Games"
         ],
         "id": 5030014
     },
@@ -868,7 +886,8 @@ var enTags = [
         "tags": [
             "Special (unit)",
             "Original Category",
-            "Song with !"
+            "Song with !",
+            "Song with Love"
         ],
         "id": 3010001
     },
@@ -877,7 +896,8 @@ var enTags = [
         "tags": [
             "Special (unit)",
             "Original Category",
-            "Song with !"
+            "Song with !",
+            "Song with Love"
         ],
         "id": 3010002
     },
@@ -886,7 +906,8 @@ var enTags = [
         "tags": [
             "Special (unit)",
             "Original Category",
-            "Song with !"
+            "Song with !",
+            "Song with Love"
         ],
         "id": 3010003
     },
@@ -1038,7 +1059,8 @@ var enTags = [
             "Peaky P-key",
             "Cover Category",
             "Cover Tracks Vol 1",
-            "1, 2, 3..."
+            "1, 2, 3...",
+            "Song with Love"
         ],
         "id": 220008
     },
@@ -1059,7 +1081,8 @@ var enTags = [
             "Cover Category",
             "First Mix",
             "D4DJ Anime",
-            "Songs with Go"
+            "Songs with Go",
+            "Song with Go"
         ],
         "id": 120011
     },
@@ -1228,7 +1251,8 @@ var enTags = [
             "Game Category",
             "Summer 22 Dan",
             "Touhou",
-            "Songs with DJ"
+            "Songs with DJ",
+            "Song with Love"
         ],
         "id": 5030019
     },
@@ -1256,14 +1280,16 @@ var enTags = [
         "tags": [
             "Game Category",
             "Summer 23 Dan",
-            "Song with !"
+            "Song with !",
+            "WACCA"
         ],
         "id": 5030023
     },
     {
         "name": "Knight Rider",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "WACCA"
         ],
         "id": 5030024
     },
@@ -1374,7 +1400,8 @@ var enTags = [
         "tags": [
             "Game Category",
             "Autumn 22 Dan",
-            "1, 2, 3..."
+            "1, 2, 3...",
+            "Retro Games"
         ],
         "id": 5030032
     },
@@ -1401,7 +1428,8 @@ var enTags = [
             "Game Category",
             "Autumn 22 Dan",
             "Winter 23 Dan",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "Retro Games"
         ],
         "id": 5030033
     },
@@ -1514,7 +1542,8 @@ var enTags = [
         "name": "God knows...",
         "tags": [
             "Base Category",
-            "Songs with Go"
+            "Songs with Go",
+            "Song with Go"
         ],
         "id": 5050028
     },
@@ -1571,7 +1600,8 @@ var enTags = [
         "name": "ONOMATO Pairing!!!",
         "tags": [
             "Game Category",
-            "Song with !"
+            "Song with !",
+            "WACCA"
         ],
         "id": 5030040
     },
@@ -1634,7 +1664,8 @@ var enTags = [
     {
         "name": "This Is How To Be In Love With You",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Song with Love"
         ],
         "id": 5050039
     },
@@ -1763,7 +1794,8 @@ var enTags = [
             "Summer 22 Dan",
             "Event Song",
             "Song with !",
-            "Songs with Go"
+            "Songs with Go",
+            "Song with Go"
         ],
         "id": 110018
     },
@@ -1783,7 +1815,8 @@ var enTags = [
             "Special (unit)",
             "Original Category",
             "Song with !",
-            "1, 2, 3..."
+            "1, 2, 3...",
+            "Song with Love"
         ],
         "id": 3010008
     },
@@ -1793,7 +1826,8 @@ var enTags = [
             "Special (unit)",
             "Original Category",
             "Song with !",
-            "1, 2, 3..."
+            "1, 2, 3...",
+            "Song with Love"
         ],
         "id": 3010009
     },
@@ -1803,7 +1837,8 @@ var enTags = [
             "Special (unit)",
             "Original Category",
             "Song with !",
-            "1, 2, 3..."
+            "1, 2, 3...",
+            "Song with Love"
         ],
         "id": 3010010
     },
@@ -1862,7 +1897,8 @@ var enTags = [
         "name": "Love again",
         "tags": [
             "Special (unit)",
-            "Cover Category"
+            "Cover Category",
+            "Song with Love"
         ],
         "id": 3020004
     },
@@ -1895,7 +1931,8 @@ var enTags = [
     {
         "name": "ADAM",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "WACCA"
         ],
         "id": 5030037
     },
@@ -1914,7 +1951,8 @@ var enTags = [
         "name": "From Yoshino Kariya",
         "tags": [
             "Base Category",
-            "Spring 23 Dan"
+            "Spring 23 Dan",
+            "Princess Letters"
         ],
         "id": 5050075
     },
@@ -1922,7 +1960,8 @@ var enTags = [
         "name": "From Ayame Mizukuki",
         "tags": [
             "Base Category",
-            "Spring 23 Dan"
+            "Spring 23 Dan",
+            "Princess Letters"
         ],
         "id": 5050076
     },
@@ -1930,7 +1969,8 @@ var enTags = [
         "name": "From Tayori Kingyobachi",
         "tags": [
             "Base Category",
-            "Spring 23 Dan"
+            "Spring 23 Dan",
+            "Princess Letters"
         ],
         "id": 5050077
     },
@@ -1961,14 +2001,16 @@ var enTags = [
         "name": "Quon",
         "tags": [
             "Game Category",
-            "Spring 23 Dan"
+            "Spring 23 Dan",
+            "WACCA"
         ],
         "id": 5030041
     },
     {
         "name": "Invisible Frenzy",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "WACCA"
         ],
         "id": 5030039
     },
@@ -1976,7 +2018,8 @@ var enTags = [
         "name": "Exitium",
         "tags": [
             "Game Category",
-            "BPM over 250"
+            "BPM over 250",
+            "WACCA"
         ],
         "id": 5030038
     },
@@ -2025,7 +2068,8 @@ var enTags = [
             "Autumn 22 Dan",
             "Summer 23 Dan",
             "Event Song",
-            "♡ Songs"
+            "♡ Songs",
+            "Song with Love"
         ],
         "id": 3010012
     },
@@ -2039,7 +2083,8 @@ var enTags = [
     {
         "name": "MANIFESTO",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "from ARGONAVIS"
         ],
         "id": 5050080
     },
@@ -2178,7 +2223,8 @@ var enTags = [
     {
         "name": "BUCHiGiRE Berserker",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Groove Coaster"
         ],
         "id": 5030044
     },
@@ -2212,7 +2258,8 @@ var enTags = [
             "Spring 23 Dan",
             "Summer 23 Dan",
             "Event Song",
-            "Songs with Go"
+            "Songs with Go",
+            "Song with Go"
         ],
         "id": 210013
     },
@@ -2241,7 +2288,9 @@ var enTags = [
         "name": "Goalline",
         "tags": [
             "Base Category",
-            "Songs with Go"
+            "Songs with Go",
+            "Song with Go",
+            "from ARGONAVIS"
         ],
         "id": 5050126
     },
@@ -2249,14 +2298,17 @@ var enTags = [
         "name": "EGOIST",
         "tags": [
             "Base Category",
-            "Songs with Go"
+            "Songs with Go",
+            "Song with Go",
+            "from ARGONAVIS"
         ],
         "id": 5050127
     },
     {
         "name": "Zakuro",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "from ARGONAVIS"
         ],
         "id": 5050128
     },
@@ -2264,14 +2316,16 @@ var enTags = [
         "name": "BANZAI RIZING!!!",
         "tags": [
             "Base Category",
-            "Song with !"
+            "Song with !",
+            "from ARGONAVIS"
         ],
         "id": 5050129
     },
     {
         "name": "Cynicaltic Fakestar",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "from ARGONAVIS"
         ],
         "id": 5050130
     },
@@ -2366,7 +2420,8 @@ var enTags = [
     {
         "name": "Hoshi ga hajimaru",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "from ARGONAVIS"
         ],
         "id": 5050079
     },
@@ -2422,7 +2477,8 @@ var enTags = [
             "Winter 23 Dan",
             "Cover Tracks Vol 6",
             "Song with !",
-            "Songs with Go"
+            "Songs with Go",
+            "Song with Go"
         ],
         "id": 220020
     },
@@ -2515,7 +2571,8 @@ var enTags = [
             "Peaky P-key",
             "Cover Category",
             "Summer 23 Dan",
-            "Songs with Go"
+            "Songs with Go",
+            "Song with Go"
         ],
         "id": 220014
     },
@@ -2565,21 +2622,24 @@ var enTags = [
     {
         "name": "DX Choseinou Full Metal Shojo",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Groove Coaster"
         ],
         "id": 5030046
     },
     {
         "name": "Solar Storm",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Groove Coaster"
         ],
         "id": 5030045
     },
     {
         "name": "It's a pit world",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Groove Coaster"
         ],
         "id": 5030048
     },
@@ -2589,14 +2649,16 @@ var enTags = [
             "Game Category",
             "Autumn 22 Dan",
             "Fighting Game",
-            "BPM over 250"
+            "BPM over 250",
+            "Song with Love"
         ],
         "id": 5030078
     },
     {
         "name": "Little Higher",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Groove Coaster"
         ],
         "id": 5030047
     },
@@ -2731,7 +2793,8 @@ var enTags = [
             "Merm4id",
             "Original Category",
             "Autumn 22 Dan",
-            "D4FES Songs"
+            "D4FES Songs",
+            "Song with Love"
         ],
         "id": 410015
     },
@@ -2739,7 +2802,8 @@ var enTags = [
         "name": "SEVENTH HAVEN",
         "tags": [
             "Game Category",
-            "Numbers Spelled Out"
+            "Numbers Spelled Out",
+            "Tokyo 7th Sisters"
         ],
         "id": 5030055
     },
@@ -2839,7 +2903,8 @@ var enTags = [
         "name": "Gotoubun no Kiseki",
         "tags": [
             "Base Category",
-            "Songs with Go"
+            "Songs with Go",
+            "Song with Go"
         ],
         "id": 5050150
     },
@@ -2858,7 +2923,8 @@ var enTags = [
         "name": "Geki! Teikoku Kagekidan",
         "tags": [
             "Game Category",
-            "Song with !"
+            "Song with !",
+            "Sakura Wars"
         ],
         "id": 5030073
     },
@@ -2875,7 +2941,8 @@ var enTags = [
     {
         "name": "HEAVEN'S RAVE",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Tokyo 7th Sisters"
         ],
         "id": 5030051
     },
@@ -2929,7 +2996,8 @@ var enTags = [
             "Spring 23 Dan",
             "Cover Tracks Vol 8",
             "Song with !",
-            "Songs with Go"
+            "Songs with Go",
+            "Song with Go"
         ],
         "id": 420018
     },
@@ -2956,7 +3024,9 @@ var enTags = [
         "tags": [
             "Game Category",
             "Autumn 22 Dan",
-            "Angel and Demon"
+            "Angel and Demon",
+            "Tokyo 7th Sisters",
+            "Song with Love"
         ],
         "id": 5030054
     },
@@ -3038,7 +3108,8 @@ var enTags = [
             "Autumn 22 Dan",
             "Cover Tracks Vol 7",
             "Songs with Go",
-            "BPM over 250"
+            "BPM over 250",
+            "Song with Go"
         ],
         "id": 520016
     },
@@ -3104,7 +3175,8 @@ var enTags = [
         "name": "R-TYPE BGM",
         "tags": [
             "Game Category",
-            "Spring 23 Dan"
+            "Spring 23 Dan",
+            "Retro Games"
         ],
         "id": 5030043
     },
@@ -3112,21 +3184,24 @@ var enTags = [
         "name": "GROOVE THE HEART",
         "tags": [
             "Game Category",
-            "Songs with Heart (spelled)"
+            "Songs with Heart (spelled)",
+            "Groove Coaster"
         ],
         "id": 5030049
     },
     {
         "name": "Hanasaku Otome",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Sakura Wars"
         ],
         "id": 5030070
     },
     {
         "name": "Mihata no Moto ni",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Sakura Wars"
         ],
         "id": 5030071
     },
@@ -3136,7 +3211,8 @@ var enTags = [
             "Lyrical Lily",
             "Cover Category",
             "Spring 23 Dan",
-            "Cover Tracks Vol 7"
+            "Cover Tracks Vol 7",
+            "Song with Love"
         ],
         "id": 620017
     },
@@ -3239,7 +3315,8 @@ var enTags = [
             "Event Song",
             "Song with !",
             "♡ Songs",
-            "Songs with Go"
+            "Songs with Go",
+            "Song with Go"
         ],
         "id": 110030
     },
@@ -3302,7 +3379,8 @@ var enTags = [
         "name": "Little Secret (feat.Taku Inoue)",
         "tags": [
             "Base Category",
-            "Winter 23 Dan"
+            "Winter 23 Dan",
+            "Princess Letters"
         ],
         "id": 5050145
     },
@@ -3310,7 +3388,8 @@ var enTags = [
         "name": "Sprout（feat.KOTONOHOUSE）",
         "tags": [
             "Base Category",
-            "Winter 23 Dan"
+            "Winter 23 Dan",
+            "Princess Letters"
         ],
         "id": 5050155
     },
@@ -3319,7 +3398,8 @@ var enTags = [
         "tags": [
             "Base Category",
             "Winter 23 Dan",
-            "BPM over 250"
+            "BPM over 250",
+            "Princess Letters"
         ],
         "id": 5050146
     },
@@ -3327,7 +3407,8 @@ var enTags = [
         "name": "with U",
         "tags": [
             "Game Category",
-            "Winter 23 Dan"
+            "Winter 23 Dan",
+            "WACCA"
         ],
         "id": 5030094
     },
@@ -3337,7 +3418,8 @@ var enTags = [
             "Game Category",
             "Winter 23 Dan",
             "Summer 23 Dan",
-            "Songs with Go"
+            "Songs with Go",
+            "Song with Go"
         ],
         "id": 5030096
     },
@@ -3422,7 +3504,8 @@ var enTags = [
         "name": "IAM (feat. Shogo, Tsubasa)",
         "tags": [
             "Base Category",
-            "Songs with Go"
+            "Songs with Go",
+            "Song with Go"
         ],
         "id": 5050188
     },
@@ -3516,7 +3599,8 @@ var enTags = [
         "name": "Plastic Love",
         "tags": [
             "Special (unit)",
-            "Cover Category"
+            "Cover Category",
+            "Song with Love"
         ],
         "id": 3020018
     },
@@ -3567,7 +3651,8 @@ var enTags = [
     {
         "name": "Reversal",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "from ARGONAVIS"
         ],
         "id": 5050152
     },
@@ -3622,7 +3707,8 @@ var enTags = [
         "tags": [
             "Base Category",
             "Spring 23 Dan",
-            "Song with !"
+            "Song with !",
+            "Princess Letters"
         ],
         "id": 5050106
     },
@@ -3687,7 +3773,8 @@ var enTags = [
     {
         "name": "Love Love Alien (Suki Suki Seijin)",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Song with Love"
         ],
         "id": 5050220
     },
@@ -3723,7 +3810,8 @@ var enTags = [
             "Merm4id",
             "Original Category",
             "Song with !",
-            "Side Origin"
+            "Side Origin",
+            "Song with Love"
         ],
         "id": 410020
     },
@@ -3861,7 +3949,8 @@ var enTags = [
         "tags": [
             "Special (unit)",
             "Original Category",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "Song with Love"
         ],
         "id": 3010027
     },
@@ -3891,7 +3980,8 @@ var enTags = [
     {
         "name": "Mienai Tsubasa (feat.bassy)",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Princess Letters"
         ],
         "id": 5050156
     },
@@ -3899,14 +3989,16 @@ var enTags = [
         "name": "TAIYAKI IDOL ☆ TAYORIN SANJOU! (feat.Hige Driver)",
         "tags": [
             "Base Category",
-            "Song with !"
+            "Song with !",
+            "Princess Letters"
         ],
         "id": 5050157
     },
     {
         "name": "Chijou no Senshi",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Sakura Wars"
         ],
         "id": 5030072
     },
