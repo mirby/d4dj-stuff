@@ -1232,7 +1232,8 @@ var enTags = [
             "Lyrical Lily",
             "Original Category",
             "Winter 23 Dan",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "Event Song"
         ],
         "id": 610007
     },
@@ -1709,7 +1710,8 @@ var enTags = [
             "RONDO",
             "Original Category",
             "Summer 22 Dan",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "Event Song"
         ],
         "id": 510012
     },
@@ -1889,7 +1891,8 @@ var enTags = [
             "Happy Around!",
             "Original Category",
             "Summer 22 Dan",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "Event Song"
         ],
         "id": 110019
     },
@@ -1991,6 +1994,7 @@ var enTags = [
             "Original Category",
             "Summer 22 Dan",
             "Summer 23 Dan",
+            "Event Song",
             "Song with !",
             "Numbers Spelled Out",
             "Songs with Dream"
@@ -2895,7 +2899,8 @@ var enTags = [
         "tags": [
             "Lyrical Lily",
             "Original Category",
-            "Autumn 22 Dan"
+            "Autumn 22 Dan",
+            "Event Song"
         ],
         "id": 610019
     },
@@ -3466,7 +3471,6 @@ var enTags = [
             "Peaky P-key",
             "Original Category",
             "Spring 23 Dan",
-            "Event Song",
             "Numbers Spelled Out",
             "Side Origin"
         ],
@@ -3572,7 +3576,6 @@ var enTags = [
             "UniChØrd",
             "Original Category",
             "Spring 23 Dan",
-            "Event Song",
             "Side Nova"
         ]
     },
