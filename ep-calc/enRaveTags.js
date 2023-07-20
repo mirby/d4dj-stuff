@@ -34,7 +34,8 @@ var enTags = [
             "Original Category",
             "Autumn 22 Dan",
             "First Mix",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "Song with ☆"
         ],
         "id": 210001
     },
@@ -714,7 +715,10 @@ var enTags = [
         "tags": [
             "Happy Around!",
             "Cover Category",
-            "Cover Tracks Vol 6"
+            "Cover Tracks Vol 6",
+            "Song with ☆",
+            "Song with Party",
+            "Song with Night"
         ],
         "id": 120009
     },
@@ -836,7 +840,8 @@ var enTags = [
         "name": "At Night on the Galactic Railroad",
         "tags": [
             "Lyrical Lily",
-            "Original Category"
+            "Original Category",
+            "Song with Night"
         ],
         "id": 610003
     },
@@ -917,7 +922,8 @@ var enTags = [
             "Special (unit)",
             "Cover Category",
             "First Mix",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "Song with Night"
         ],
         "id": 3020001
     },
@@ -1002,7 +1008,8 @@ var enTags = [
             "Peaky P-key",
             "Original Category",
             "Autumn 22 Dan",
-            "Groovy Festival"
+            "Groovy Festival",
+            "Song with ☆"
         ],
         "id": 210006
     },
@@ -1183,7 +1190,8 @@ var enTags = [
         "tags": [
             "Lyrical Lily",
             "Cover Category",
-            "Song with !"
+            "Song with !",
+            "Song with ☆"
         ],
         "id": 620010
     },
@@ -1203,7 +1211,8 @@ var enTags = [
             "Original Category",
             "Spring 23 Dan",
             "Event Song",
-            "Song with !"
+            "Song with !",
+            "Song with ☆"
         ],
         "id": 110012
     },
@@ -1290,7 +1299,8 @@ var enTags = [
         "name": "Knight Rider",
         "tags": [
             "Game Category",
-            "WACCA"
+            "WACCA",
+            "Song with Night"
         ],
         "id": 5030024
     },
@@ -1466,7 +1476,8 @@ var enTags = [
         "tags": [
             "Game Category",
             "Touhou",
-            "Songs with DJ"
+            "Songs with DJ",
+            "Song with Party"
         ],
         "id": 5030034
     },
@@ -1485,7 +1496,9 @@ var enTags = [
         "tags": [
             "Special (unit)",
             "Original Category",
-            "Song with !"
+            "Song with !",
+            "Song with Party",
+            "Song with Night"
         ],
         "id": 3010007
     },
@@ -1629,7 +1642,8 @@ var enTags = [
         "name": "Floor Killer (After Party Mix)",
         "tags": [
             "Merm4id",
-            "Original Category"
+            "Original Category",
+            "Song with Party"
         ],
         "id": 410008
     },
@@ -1700,7 +1714,8 @@ var enTags = [
         "name": "Six Trillion Years and One Night Story",
         "tags": [
             "Base Category",
-            "Numbers Spelled Out"
+            "Numbers Spelled Out",
+            "Song with Night"
         ],
         "id": 5050012
     },
@@ -1721,7 +1736,8 @@ var enTags = [
             "Peaky P-key",
             "Original Category",
             "Summer 22 Dan",
-            "Songs with DJ"
+            "Songs with DJ",
+            "Song with ☆"
         ],
         "id": 210009
     },
@@ -1797,7 +1813,8 @@ var enTags = [
             "Event Song",
             "Song with !",
             "Songs with Go",
-            "Song with Go"
+            "Song with Go",
+            "Song with ☆"
         ],
         "id": 110018
     },
@@ -1946,7 +1963,8 @@ var enTags = [
             "Cover Category",
             "Summer 22 Dan",
             "Summer 23 Dan",
-            "Song with !"
+            "Song with !",
+            "Song with ☆"
         ],
         "id": 120019
     },
@@ -1997,7 +2015,8 @@ var enTags = [
             "Event Song",
             "Song with !",
             "Numbers Spelled Out",
-            "Songs with Dream"
+            "Songs with Dream",
+            "Song with Night"
         ],
         "id": 610011
     },
@@ -2175,7 +2194,8 @@ var enTags = [
             "Original Category",
             "Summer 22 Dan",
             "Winter 23 Dan",
-            "Songs with Dream"
+            "Songs with Dream",
+            "Song with ☆"
         ],
         "id": 110021
     },
@@ -2939,7 +2959,8 @@ var enTags = [
             "Happy Around!",
             "Cover Category",
             "Summer 23 Dan",
-            "Cover Tracks Vol 7"
+            "Cover Tracks Vol 7",
+            "Song with ☆"
         ],
         "id": 120021
     },
@@ -3250,7 +3271,8 @@ var enTags = [
         "tags": [
             "Peaky P-key",
             "Original Category",
-            "Spring 23 Dan"
+            "Spring 23 Dan",
+            "Song with ☆"
         ],
         "id": 210019
     },
@@ -3692,7 +3714,8 @@ var enTags = [
         "tags": [
             "Special (unit)",
             "Original Category",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "Song with Party"
         ],
         "id": 3010023
     },
@@ -3701,7 +3724,8 @@ var enTags = [
         "tags": [
             "Special (unit)",
             "Original Category",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "Song with ☆"
         ],
         "id": 3010025
     },
@@ -3993,7 +4017,8 @@ var enTags = [
         "tags": [
             "Base Category",
             "Song with !",
-            "Princess Letters"
+            "Princess Letters",
+            "Song with ☆"
         ],
         "id": 5050157
     },
