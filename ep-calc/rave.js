@@ -1,6 +1,8 @@
+var songArray = [];
+var tagMap = new Map();
+
 const tags = [
     "A:First Mix",
-    "A:D4FES Songs",
     "A:Side Origin",
     "A:Groovy Festival",
     "A:Touhou",
@@ -11,6 +13,7 @@ const tags = [
     "A:WACCA",
     "A:Groove Coaster",
     "A:GekiChuMai",
+    "A:Song with ☆",
     "A:♡ Songs",
     "A:Songs with Heart (spelled)",
     "A:Songs with DJ",
@@ -33,14 +36,18 @@ const tags = [
     "A:Cover Tracks Vol 6",
     "A:Cover Tracks Vol 7",
     "A:Cover Tracks Vol 8",
+    "A:UniChØrd",
+    "A:Abyssmare",
     "B:D4DJ Anime",
     "B:Event Song",
+    "B:D4FES Songs",
     "B:Side Nova",
+    "B:Bushiroad",
     "B:1, 2, 3...",
     "B:Song with Go",
     "B:Song with !",
     "B:Song with Love",
-    "B:Song with ☆",
+    "B:Songs with MV",
     "B:Vtubers",
     "B:Hololive",
     "B:Retro Games",
@@ -50,8 +57,6 @@ const tags = [
     "B:Merm4id",
     "B:RONDO",
     "B:Lyrical Lily",
-    "B:UniChØrd",
-    "B:Abyssmare",
     "B:Special (unit)",
     "B:Summer 22 Dan",
     "B:Autumn 22 Dan",
@@ -64,6 +69,10 @@ const tags = [
     "C:Game Category",
     "C:Base Category"
 ];
+
+$(document).on('changed.bs.select', 'select', function(event) {
+    displaySongsByHint();
+});
 
 function generateFilterBoxes() {
     for (let tagStr of tags) {
@@ -89,7 +98,155 @@ function generateFilterBoxes() {
         document.getElementById(parts[0] + "Tags").appendChild(newDiv);
         newDiv.appendChild(newInput);
         newDiv.appendChild(newLabel);
+
+        tagMap.set(parts[1], parts[0]);
     }
+}
+
+function generateSongDropdowns(trend) {
+    var label = document.createElement("label");
+    label.innerHTML = "Song hint for Trend " + trend.toUpperCase() + ":";
+    label.htmlFor = trend + "songs";
+    label.style.paddingRight = "15px";
+    label.style.paddingBottom = "15px";
+
+    var select = document.createElement("select");
+    select.name = trend + "songs";
+    select.id = trend + "songs";
+    select.classList.add("selectpicker");
+    select.setAttribute("data-live-search","true");
+    select.setAttribute("data-width","fit");
+    select.setAttribute("data-size","10");
+
+    for (let id in songArray) {
+        option = document.createElement("option");
+        option.value = songArray[id].name;
+        option.text = songArray[id].name;
+
+        select.appendChild(option);
+    }
+
+    document.getElementById(trend + "TrendHint").appendChild(label);
+    document.getElementById(trend + "TrendHint").appendChild(select);
+}
+
+function getRelatedTags(songTitles) {
+    const tagsSets = songTitles.map(title => new Set(songArray.find(song => song.name === title)?.tags));
+    const intersection = [...tagsSets.reduce((acc, set) => new Set([...acc].filter(tag => set.has(tag))))];
+    return intersection;
+}
+
+function displaySongsByHint() {
+
+    createSongHintTable();
+
+    // Get the 3 hint songs
+    var songA = document.getElementById("asongs").value;
+    var songB = document.getElementById("bsongs").value;
+    var songC = document.getElementById("csongs").value;
+
+    var aTrends = getTrendTagsBySong(songA, "A");
+    var bTrends = getTrendTagsBySong(songB, "B");
+    var cTrends = getTrendTagsBySong(songC, "C");
+    var cTrend = "";
+
+    for (let tag of cTrends) {
+        var trendLetter = tagMap.get(tag);
+        if (trendLetter === "C") {
+            cTrend = tag;
+        }
+    }
+
+    while (document.getElementById("relatedTags").hasChildNodes()) {
+        document.getElementById("relatedTags").removeChild(document.getElementById("relatedTags").firstChild);
+    } 
+
+    const parent = document.getElementById("relatedTags");
+    parent.appendChild(document.createTextNode("A: " + aTrends));
+    parent.appendChild(document.createElement("br"));
+    parent.appendChild(document.createTextNode("B: " + bTrends));
+    parent.appendChild(document.createElement("br"));
+    parent.appendChild(document.createTextNode("C: " + cTrend));
+
+    var idCounter = 1;
+    for (let aTrend of aTrends) {
+        for (let bTrend of bTrends) {
+
+            if (idCounter != 1) {
+                document.getElementById("songHints").appendChild(document.createElement("br"));
+            }
+
+            var songCounter = 0;
+            var title = "If A: " + aTrend + " and B: " + bTrend + " and C: " + cTrend;
+            createSongHintTitleRow(title, "trendRow" + idCounter);
+
+            // Get any ABC
+            var matchingSongsABC = getSongsByTags([aTrend, bTrend, cTrend]);
+            if (matchingSongsABC.length != 0) {
+                songCounter += matchingSongsABC.length;
+                createSongHintRow("(ABC): " + matchingSongsABC.join(", "), "trendRow" + idCounter);
+            }
+
+            // Get any AB
+            var matchingSongsAB = getSongsByTags([aTrend, bTrend]).filter(entry => !matchingSongsABC.includes(entry));
+            if (matchingSongsAB.length != 0) {
+                songCounter += matchingSongsAB.length;
+                createSongHintRow("(AB): " + matchingSongsAB.join(", "), "trendRow" + idCounter);
+            }
+
+            // If total so far is less than 4, get AC
+            if (songCounter < 4) {
+                var matchingSongsAC = getSongsByTags([aTrend, cTrend]).filter(entry => !matchingSongsABC.includes(entry));
+                if (matchingSongsAC.length != 0) {
+                    songCounter += matchingSongsAC.length;
+                    createSongHintRow("(AC): " + matchingSongsAC.join(", "), "trendRow" + idCounter);
+                }
+            }
+
+            // If total so far is less than 4, get BC
+            if (songCounter < 4) {
+                var matchingSongsBC = getSongsByTags([bTrend, cTrend]).filter(entry => !matchingSongsABC.includes(entry));
+                if (matchingSongsBC.length != 0) {
+                    songCounter += matchingSongsBC.length;
+                    createSongHintRow("(BC): " + matchingSongsBC.join(", "), "trendRow" + idCounter);
+                }
+            }
+
+            // If total so far is less than 4, get A
+            if (songCounter < 4) {
+                var matchingSongsA = getSongsByTags([aTrend]).filter(entry => !matchingSongsABC.includes(entry));
+                if (matchingSongsA.length != 0) {
+                    songCounter += matchingSongsA.length;
+                    createSongHintRow("(A): " + matchingSongsA.join(", "), "trendRow" + idCounter);
+                }
+            }
+
+            idCounter += 1;
+        }
+    }
+}
+
+function getTagsBySongName(name) {
+    return songArray.find(item => item.name === name)?.tags;
+}
+
+function getTrendTagsBySong(name, trendLetter) {
+    var tagList = songArray.find(item => item.name === name)?.tags;
+    var tagListByTrend = [];
+    for (let tag of tagList) {
+        if (tagMap.get(tag) === trendLetter) {
+            tagListByTrend.push(tag);
+        }
+    }
+
+    return tagListByTrend;
+}
+
+function getSongsByTags(tagsToMatch) {
+    return songArray.filter(item => {
+        const matchedTags = item.tags.filter(tag => tagsToMatch.includes(tag));
+        return matchedTags.length === tagsToMatch.length;
+    }).map(item => item.name);
 }
 
 function filterByTag(objects, value) {
@@ -144,7 +301,36 @@ function displaySongList(arr) {
     document.getElementById("songTableWrapper").appendChild(table);
 }
 
-var songArray = [];
+function createSongHintTable() {
+    if (document.getElementById("songHintWrapper").hasChildNodes()) {
+        document.getElementById("songHintWrapper").removeChild(document.getElementById("songHintWrapper").firstChild);
+    }
+
+    var div = document.createElement("div");
+    div.id = "songHints";
+
+    document.getElementById("songHintWrapper").appendChild(div);
+}
+
+function createSongHintTitleRow(title, id) {
+    var parent = document.getElementById("songHints");
+    var div = document.createElement("div");
+    div.id = id;
+    var boldEle = document.createElement("b");
+    var textEle = document.createTextNode(title);
+    boldEle.appendChild(textEle);
+    div.appendChild(boldEle);
+    parent.appendChild(div);
+}
+
+function createSongHintRow(text, id) {
+    var parent = document.getElementById(id);
+    var div = document.createElement("div");
+    var textEle = document.createTextNode(text);
+
+    div.appendChild(textEle);
+    parent.appendChild(div);
+}
 
 function generateSongArray() {
     songArray = [...enTags];

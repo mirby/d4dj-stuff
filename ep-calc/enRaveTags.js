@@ -76,7 +76,8 @@ var enTags = [
             "Photon Maiden",
             "Cover Category",
             "Cover Tracks Vol 3",
-            "1, 2, 3..."
+            "1, 2, 3...",
+            "Songs with MV"
         ],
         "id": 320001
     },
@@ -370,7 +371,8 @@ var enTags = [
         "name": "RAINMAKER",
         "tags": [
             "Instrumental Category",
-            "Wrestling"
+            "Wrestling",
+            "Bushiroad"
         ],
         "id": 5040014
     },
@@ -378,7 +380,8 @@ var enTags = [
         "name": "SUNRISE",
         "tags": [
             "Instrumental Category",
-            "Wrestling"
+            "Wrestling",
+            "Bushiroad"
         ],
         "id": 5040018
     },
@@ -443,7 +446,8 @@ var enTags = [
         "tags": [
             "Instrumental Category",
             "Wrestling",
-            "Song with Love"
+            "Song with Love",
+            "Bushiroad"
         ],
         "id": 5040015
     },
@@ -544,7 +548,8 @@ var enTags = [
             "Instrumental Category",
             "Wrestling",
             "Songs with Go",
-            "Song with Go"
+            "Song with Go",
+            "Bushiroad"
         ],
         "id": 5040016
     },
@@ -718,7 +723,8 @@ var enTags = [
             "Cover Tracks Vol 6",
             "Song with ☆",
             "Song with Party",
-            "Song with Night"
+            "Song with Night",
+            "Songs with MV"
         ],
         "id": 120009
     },
@@ -812,7 +818,8 @@ var enTags = [
             "Peaky P-key",
             "Original Category",
             "First Mix",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "Songs with MV"
         ],
         "id": 210005
     },
@@ -853,7 +860,8 @@ var enTags = [
             "Autumn 22 Dan",
             "Winter 23 Dan",
             "First Mix",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "Songs with MV"
         ],
         "id": 310005
     },
@@ -873,7 +881,8 @@ var enTags = [
             "RONDO",
             "Cover Category",
             "Summer 22 Dan",
-            "Cover Tracks Vol 6"
+            "Cover Tracks Vol 6",
+            "Songs with MV"
         ],
         "id": 520009
     },
@@ -892,7 +901,8 @@ var enTags = [
             "Special (unit)",
             "Original Category",
             "Song with !",
-            "Song with Love"
+            "Song with Love",
+            "Songs with MV"
         ],
         "id": 3010001
     },
@@ -902,7 +912,8 @@ var enTags = [
             "Special (unit)",
             "Original Category",
             "Song with !",
-            "Song with Love"
+            "Song with Love",
+            "Songs with MV"
         ],
         "id": 3010002
     },
@@ -912,7 +923,8 @@ var enTags = [
             "Special (unit)",
             "Original Category",
             "Song with !",
-            "Song with Love"
+            "Song with Love",
+            "Songs with MV"
         ],
         "id": 3010003
     },
@@ -1026,7 +1038,8 @@ var enTags = [
         "tags": [
             "Happy Around!",
             "Cover Category",
-            "Song with !"
+            "Song with !",
+            "Bushiroad"
         ],
         "id": 120010
     },
@@ -1046,7 +1059,8 @@ var enTags = [
         "name": "Power Hall",
         "tags": [
             "Instrumental Category",
-            "Wrestling"
+            "Wrestling",
+            "Bushiroad"
         ],
         "id": 5040022
     },
@@ -1067,7 +1081,8 @@ var enTags = [
             "Cover Category",
             "Cover Tracks Vol 1",
             "1, 2, 3...",
-            "Song with Love"
+            "Song with Love",
+            "Songs with MV"
         ],
         "id": 220008
     },
@@ -1354,7 +1369,8 @@ var enTags = [
             "Cover Category",
             "Cover Tracks Vol 8",
             "Song with !",
-            "1, 2, 3..."
+            "1, 2, 3...",
+            "Bushiroad"
         ],
         "id": 320012
     },
@@ -1402,7 +1418,8 @@ var enTags = [
         "name": "Blazing Continent Bushilord ~Passionate Roar~",
         "tags": [
             "Happy Around!",
-            "Cover Category"
+            "Cover Category",
+            "Bushiroad"
         ],
         "id": 120014
     },
@@ -1525,7 +1542,8 @@ var enTags = [
         "tags": [
             "Happy Around!",
             "Original Category",
-            "Song with !"
+            "Song with !",
+            "Songs with MV"
         ],
         "id": 110015
     },
@@ -1548,7 +1566,8 @@ var enTags = [
             "Summer 22 Dan",
             "Summer 23 Dan",
             "Groovy Festival",
-            "D4FES Songs"
+            "D4FES Songs",
+            "Songs with MV"
         ],
         "id": 510010
     },
@@ -1663,7 +1682,8 @@ var enTags = [
             "Original Category",
             "Autumn 22 Dan",
             "D4FES Songs",
-            "Numbers Spelled Out"
+            "Numbers Spelled Out",
+            "Songs with MV"
         ],
         "id": 410009
     },
@@ -1687,7 +1707,8 @@ var enTags = [
     {
         "name": "Y",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Bushiroad"
         ],
         "id": 5050061
     },
@@ -1699,7 +1720,8 @@ var enTags = [
             "Summer 22 Dan",
             "Summer 23 Dan",
             "D4FES Songs",
-            "1, 2, 3..."
+            "1, 2, 3...",
+            "Songs with MV"
         ],
         "id": 310011
     },
@@ -1779,7 +1801,8 @@ var enTags = [
             "Summer 22 Dan",
             "Groovy Festival",
             "Song with !",
-            "D4FES Songs"
+            "D4FES Songs",
+            "Songs with MV"
         ],
         "id": 610009
     },
@@ -1800,7 +1823,8 @@ var enTags = [
             "Original Category",
             "Summer 22 Dan",
             "Song with !",
-            "D4FES Songs"
+            "D4FES Songs",
+            "Songs with MV"
         ],
         "id": 210010
     },
@@ -2001,7 +2025,8 @@ var enTags = [
             "Special (unit)",
             "Original Category",
             "Summer 22 Dan",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "Songs with MV"
         ],
         "id": 3010014
     },
@@ -2107,7 +2132,8 @@ var enTags = [
         "name": "MANIFESTO",
         "tags": [
             "Base Category",
-            "from ARGONAVIS"
+            "from ARGONAVIS",
+            "Bushiroad"
         ],
         "id": 5050080
     },
@@ -2137,14 +2163,16 @@ var enTags = [
         "tags": [
             "RONDO",
             "Cover Category",
-            "Cover Tracks Vol 3"
+            "Cover Tracks Vol 3",
+            "Bushiroad"
         ],
         "id": 520013
     },
     {
         "name": "R·I·O·T",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Bushiroad"
         ],
         "id": 5050086
     },
@@ -2314,7 +2342,8 @@ var enTags = [
             "Base Category",
             "Songs with Go",
             "Song with Go",
-            "from ARGONAVIS"
+            "from ARGONAVIS",
+            "Bushiroad"
         ],
         "id": 5050126
     },
@@ -2324,7 +2353,8 @@ var enTags = [
             "Base Category",
             "Songs with Go",
             "Song with Go",
-            "from ARGONAVIS"
+            "from ARGONAVIS",
+            "Bushiroad"
         ],
         "id": 5050127
     },
@@ -2332,7 +2362,8 @@ var enTags = [
         "name": "Zakuro",
         "tags": [
             "Base Category",
-            "from ARGONAVIS"
+            "from ARGONAVIS",
+            "Bushiroad"
         ],
         "id": 5050128
     },
@@ -2341,7 +2372,8 @@ var enTags = [
         "tags": [
             "Base Category",
             "Song with !",
-            "from ARGONAVIS"
+            "from ARGONAVIS",
+            "Bushiroad"
         ],
         "id": 5050129
     },
@@ -2349,7 +2381,8 @@ var enTags = [
         "name": "Cynicaltic Fakestar",
         "tags": [
             "Base Category",
-            "from ARGONAVIS"
+            "from ARGONAVIS",
+            "Bushiroad"
         ],
         "id": 5050130
     },
@@ -2445,7 +2478,8 @@ var enTags = [
         "name": "Hoshi ga hajimaru",
         "tags": [
             "Base Category",
-            "from ARGONAVIS"
+            "from ARGONAVIS",
+            "Bushiroad"
         ],
         "id": 5050079
     },
@@ -2689,7 +2723,8 @@ var enTags = [
     {
         "name": "EXIST",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Bushiroad"
         ],
         "id": 5050108
     },
@@ -2818,7 +2853,8 @@ var enTags = [
             "Original Category",
             "Autumn 22 Dan",
             "D4FES Songs",
-            "Song with Love"
+            "Song with Love",
+            "Songs with MV"
         ],
         "id": 410015
     },
@@ -2849,7 +2885,8 @@ var enTags = [
             "Autumn 22 Dan",
             "Angel and Demon",
             "Groovy Festival",
-            "D4FES Songs"
+            "D4FES Songs",
+            "Songs with MV"
         ],
         "id": 510018
     },
@@ -2860,7 +2897,8 @@ var enTags = [
             "Original Category",
             "Autumn 22 Dan",
             "Groovy Festival",
-            "D4FES Songs"
+            "D4FES Songs",
+            "Songs with MV"
         ],
         "id": 110024
     },
@@ -2880,7 +2918,8 @@ var enTags = [
             "Peaky P-key",
             "Original Category",
             "Winter 23 Dan",
-            "D4FES Songs"
+            "D4FES Songs",
+            "Songs with MV"
         ],
         "id": 210015
     },
@@ -3071,7 +3110,8 @@ var enTags = [
         "name": "UNSTOPPABLE",
         "tags": [
             "Base Category",
-            "Winter 23 Dan"
+            "Winter 23 Dan",
+            "Bushiroad"
         ],
         "id": 5050168
     },
@@ -3115,7 +3155,8 @@ var enTags = [
     {
         "name": "Afuregu ～Aufregendes Leben～",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Bushiroad"
         ],
         "id": 5050186
     },
@@ -3369,7 +3410,8 @@ var enTags = [
             "Spring 23 Dan",
             "Summer 23 Dan",
             "1, 2, 3...",
-            "Side Origin"
+            "Side Origin",
+            "Songs with MV"
         ],
         "id": 310020
     },
@@ -3456,7 +3498,8 @@ var enTags = [
             "Peaky P-key",
             "Original Category",
             "Song with !",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "Songs with MV"
         ],
         "id": 210018
     },
@@ -3494,7 +3537,8 @@ var enTags = [
             "Original Category",
             "Spring 23 Dan",
             "Numbers Spelled Out",
-            "Side Origin"
+            "Side Origin",
+            "Songs with MV"
         ],
         "id": 210020
     },
@@ -3504,7 +3548,8 @@ var enTags = [
             "Lyrical Lily",
             "Original Category",
             "Summer 23 Dan",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "Songs with MV"
         ],
         "id": 610020
     },
@@ -3514,7 +3559,8 @@ var enTags = [
             "RONDO",
             "Original Category",
             "D4DJ Anime",
-            "BPM over 250"
+            "BPM over 250",
+            "Songs with MV"
         ],
         "id": 510021
     },
@@ -3558,7 +3604,8 @@ var enTags = [
             "Merm4id",
             "Original Category",
             "D4DJ Anime",
-            "BPM over 250"
+            "BPM over 250",
+            "Songs with MV"
         ],
         "id": 410018
     },
@@ -3568,7 +3615,8 @@ var enTags = [
             "Happy Around!",
             "Original Category",
             "D4DJ Anime",
-            "♡ Songs"
+            "♡ Songs",
+            "Songs with MV"
         ],
         "id": 110032
     },
@@ -3587,7 +3635,8 @@ var enTags = [
             "Original Category",
             "Summer 23 Dan",
             "D4DJ Anime",
-            "1, 2, 3..."
+            "1, 2, 3...",
+            "Songs with MV"
         ],
         "id": 310021
     },
@@ -3598,7 +3647,8 @@ var enTags = [
             "UniChØrd",
             "Original Category",
             "Spring 23 Dan",
-            "Side Nova"
+            "Side Nova",
+            "Songs with MV"
         ]
     },
     {
@@ -3606,7 +3656,8 @@ var enTags = [
         "tags": [
             "Special (unit)",
             "Original Category",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "Songs with MV"
         ],
         "id": 3010020
     },
@@ -3616,7 +3667,8 @@ var enTags = [
             "Lyrical Lily",
             "Original Category",
             "BLACK or WHITE",
-            "Side Origin"
+            "Side Origin",
+            "Songs with MV"
         ],
         "id": 610022
     },
@@ -3640,7 +3692,8 @@ var enTags = [
         "name": "Träumerei",
         "tags": [
             "RONDO",
-            "Original Category"
+            "Original Category",
+            "Songs with MV"
         ],
         "id": 510020
     },
@@ -3677,7 +3730,8 @@ var enTags = [
         "name": "Reversal",
         "tags": [
             "Base Category",
-            "from ARGONAVIS"
+            "from ARGONAVIS",
+            "Bushiroad"
         ],
         "id": 5050152
     },
@@ -3687,7 +3741,8 @@ var enTags = [
             "Special (unit)",
             "Original Category",
             "Song with !",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "Songs with MV"
         ],
         "id": 3010019
     },
@@ -3696,7 +3751,8 @@ var enTags = [
         "tags": [
             "Happy Around!",
             "Original Category",
-            "Side Origin"
+            "Side Origin",
+            "Songs with MV"
         ],
         "id": 110031
     },
@@ -3715,7 +3771,8 @@ var enTags = [
             "Special (unit)",
             "Original Category",
             "D4DJ Anime",
-            "Song with Party"
+            "Song with Party",
+            "Songs with MV"
         ],
         "id": 3010023
     },
@@ -3725,7 +3782,8 @@ var enTags = [
             "Special (unit)",
             "Original Category",
             "Summer 23 Dan",
-            "Song with ☆"
+            "Song with ☆",
+            "Songs with MV"
         ],
         "id": 3010025
     },
@@ -3838,7 +3896,8 @@ var enTags = [
             "Original Category",
             "Song with !",
             "Side Origin",
-            "Song with Love"
+            "Song with Love",
+            "Songs with MV"
         ],
         "id": 410020
     },
@@ -3896,7 +3955,8 @@ var enTags = [
         "tags": [
             "RONDO",
             "Original Category",
-            "Side Origin"
+            "Side Origin",
+            "Songs with MV"
         ],
         "id": 510022
     },
@@ -3914,7 +3974,8 @@ var enTags = [
             "UniChØrd",
             "Original Category",
             "Summer 23 Dan",
-            "Side Nova"
+            "Side Nova",
+            "Songs with MV"
         ],
         "id": 810003
     },
@@ -3924,7 +3985,8 @@ var enTags = [
         "tags": [
             "Abyssmare",
             "Original Category",
-            "Side Nova"
+            "Side Nova",
+            "Songs with MV"
         ]
     },
     {
@@ -4000,7 +4062,8 @@ var enTags = [
         "name": "Victory Road",
         "tags": [
             "Base Category",
-            "Wrestling"
+            "Wrestling",
+            "Bushiroad"
         ],
         "id": 5050163
     },

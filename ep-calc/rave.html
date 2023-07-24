@@ -14,28 +14,81 @@
 </head>
 <body>
     <a href="index.html">Return to team builder</a>
-    <div class="container">
-        <div class="filterSection">
-            <div id="ATags">
-                <h5>A Trend</h5>
-            </div><br>
-            <div id="BTags">
-                <h5>B Trend</h5>
-            </div><br>
-            <div id="CTags">
-                <h5>C Trend</h5>
+    <div id="raveTabHeaders" class="container">
+        <ul class="nav nav-pills" id="raveTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="btn btn-outline-info active" id="songFilterTab" data-bs-toggle="tab" data-bs-target="#songFilter" type="button" role="tab" aria-controls="songFilter" aria-selected="true">Find Songs by Tags</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="btn btn-outline-info" id="songHintTab" data-bs-toggle="tab" data-bs-target="#songHint" type="button" role="tab" aria-controls="songHint" aria-selected="false">Find Songs by Hints</button>
+            </li>
+        </ul>
+    </div>
+    <div class="tab-content">
+        <div class="tab-pane fade show active container" id="songFilter" role="tabpabel" aria-labelledby="songFilterTab">
+            <br>
+            <div>
+                Work in progress. Extra tags to be added over time. 
+            </div>
+            <br>
+            <div class="filterSection">
+                <div id="ATags">
+                    <h5>A Trend</h5>
+                </div><br>
+                <div id="BTags">
+                    <h5>B Trend</h5>
+                </div><br>
+                <div id="CTags">
+                    <h5>C Trend</h5>
+                </div>
+            </div>
+            <br>
+            <div class="container" id="songTableWrapper">
+            
             </div>
         </div>
-        <br>
-    </div>
-    <div class="container" id="songTableWrapper">
-        
+        <div class="tab-pane fade container" id="songHint" role="tabpabel" aria-labelledby="songHintTab">
+            <br>
+            <div>
+                <b>WARNING:</b> Use with caution. Results will be inconsistent if there are missing tags or the tags are in the wrong trend section. 
+            </div>
+            <br>
+            <div class="hintSection">
+                <div id="aTrendHint">
+    
+                </div>
+                <div id="bTrendHint">
+                    
+                </div>
+                <div id="cTrendHint">
+                    
+                </div>
+            </div>
+            <hr>
+            <div>
+                <p><b>Potential Tags:</b></p>
+                <div id="relatedTags">
+
+                </div>
+            </div>
+            <hr>
+            <div>
+                <p><b>Potential Songs:</b></p>
+                <div class="border" id="songHintWrapper">
+            
+                </div>
+            </div>
+
+        </div>
     </div>
 
     <script>
         generateSongArray();
         generateFilterBoxes();
         displaySongList(songArray);
+        generateSongDropdowns("a");
+        generateSongDropdowns("b");
+        generateSongDropdowns("c");
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
