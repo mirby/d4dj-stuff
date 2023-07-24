@@ -142,6 +142,7 @@ function getCardSet(type) {
         "79":["Pursue The Path Of Darkness-pyo!", "Reiwa's Most Powerful Idol!", "Puchiko Will Dance Too-nyu", "Dejiko Is The Lead-nyo!"],
         "89":["Anthem of Dawn", "Do You Even DJ?", "CHAMPION GIRL", "Summit Of Babel"],
         "102":["Abyss's Queen", "As You Wish", "Break the World", "Road to the No.1"],
+        "109":["Carpet of Sunflowers", "The One and Only Tulip", "Brilliant Hydrangea", "Four-Leaf Clover", "The Witness Carnation"],
     };
 
     if (type === "medley") {
@@ -1098,6 +1099,16 @@ var eventList = {
         "characters":"Michiru,Lumina,Neo,Sophia",
         "type":"Rave",
         "style":"None",
+        "parameter":"None",
+        "bonus":false,
+        "addition":""
+    },
+    "109": {
+        "id":109,
+        "name":"Limited Time Revival! The Reason for Quintuplets",
+        "characters":"Muni,Towa,Noa,Hiiro,Haruna",
+        "type":"Raid",
+        "style":"Elegant",
         "parameter":"None",
         "bonus":false,
         "addition":""
