@@ -222,30 +222,46 @@ function calculateEp(type, scoreMap, bonus, param, volts, roomscore) {
 
             break;
         case "raid":
-            result = 7 * (300 + Math.floor(scoreAutoSolo3 / 2000));
-            valueMap.set("Special Solo Live EP - Auto", result);
+            var eventId = document.getElementById("eventid").innerHTML;
+            if (eventId == 109) {
+                result = volts * Math.floor(bonus * (50 + Math.floor(scoreAuto2 / 10000)));
+                valueMap.set("Multi Live EP - Auto", result);
+                valueMap.set("Multi Live Score - Auto (Estimated)", scoreAuto);
 
-            valueMap.set("Special Solo Live Score - Auto (Estimated)", scoreAutoSolo3);
+                result = volts * Math.floor(bonus * (50 + Math.floor(score2 / 10000)));
+                valueMap.set("Multi Live EP", result);
+                valueMap.set("Multi Live Score (Estimated)", score);
 
-            result = 7 * (300 + Math.floor(scoreSolo3 / 2000));
-            valueMap.set("Special Solo Live EP", result);
+                result = volts * Math.floor(bonus * (50 + Math.floor(scoreSolo2 / 10000)));
+                valueMap.set("Free Live EP", result);
+                valueMap.set("Free Live Score (Estimated)", scoreSolo);
+            } else {
+                result = 7 * (300 + Math.floor(scoreAutoSolo3 / 2000));
+                valueMap.set("Special Solo Live EP - Auto", result);
+    
+                valueMap.set("Special Solo Live Score - Auto (Estimated)", scoreAutoSolo3);
+    
+                result = 7 * (300 + Math.floor(scoreSolo3 / 2000));
+                valueMap.set("Special Solo Live EP", result);
+    
+                valueMap.set("Special Solo Live Score (Estimated)", scoreSolo3);
+    
+                result = volts * (100 + Math.floor(scoreAuto2 / 4000));
+                valueMap.set("(Raid) Multi Live EP - Auto", result);
+    
+                valueMap.set("(Raid) Multi Live Score - Auto (Estimated)", scoreAuto2);
+    
+                result = volts * (100 + Math.floor(score2 / 4000));
+                valueMap.set("(Raid) Multi Live EP", result);
+    
+                valueMap.set("(Raid) Multi Live Score (Estimated)", score2);
+    
+                result = volts * (100 + Math.floor(scoreSolo2 / 4000));
+                valueMap.set("(Raid) Free Live EP", result);
+    
+                valueMap.set("(Raid) Free Live Score (Estimated)", scoreSolo2);
+            }
 
-            valueMap.set("Special Solo Live Score (Estimated)", scoreSolo3);
-
-            result = volts * (100 + Math.floor(scoreAuto2 / 4000));
-            valueMap.set("(Raid) Multi Live EP - Auto", result);
-
-            valueMap.set("(Raid) Multi Live Score - Auto (Estimated)", scoreAuto2);
-
-            result = volts * (100 + Math.floor(score2 / 4000));
-            valueMap.set("(Raid) Multi Live EP", result);
-
-            valueMap.set("(Raid) Multi Live Score (Estimated)", score2);
-
-            result = volts * (100 + Math.floor(scoreSolo2 / 4000));
-            valueMap.set("(Raid) Free Live EP", result);
-
-            valueMap.set("(Raid) Free Live Score (Estimated)", scoreSolo2);
 
             // result = volts * Math.floor(bonus * (50 + Math.floor(scoreAuto / 10000) + param));
             // valueMap.set("D4FES - Multi Live EP - Auto", result);
@@ -322,15 +338,20 @@ function calculateEpScore(type, score, bonus, param, volts, roomscore) {
 
                 break;
             case "raid":
-                result = 7 * (300 + Math.floor(score / 2000));
-                valueMap.set("Special Solo Live EP", result);
-
-                result = volts * (100 + Math.floor(score / 4000));
-                valueMap.set("(Raid) Free Live/Multi Live EP", result);
-
-                // result = volts * Math.floor(bonus * (50 + Math.floor(score / 10000) + param));
-                // valueMap.set("Free Live/Multi Live EP (D4FES)", result);
-
+                var eventId = document.getElementById("eventid").innerHTML;
+                if (eventId == 109) {
+                    // Quints re-run
+                    result = volts * Math.floor(bonus * (50 + Math.floor(score / 10000)));
+                    valueMap.set("(Raid) Free Live/Multi Live EP", result);
+                    // result = volts * Math.floor(bonus * (50 + Math.floor(score / 10000) + param));
+                    // valueMap.set("Free Live/Multi Live EP (D4FES)", result);
+                } else {
+                    result = 7 * (300 + Math.floor(score / 2000));
+                    valueMap.set("Special Solo Live EP", result);
+    
+                    result = volts * (100 + Math.floor(score / 4000));
+                    valueMap.set("(Raid) Free Live/Multi Live EP", result);
+                }
                 break;
         }
         
@@ -364,7 +385,6 @@ function calculateScore(type) {
 
     // FIXME: Replaces all instances of 80 with 60. 80 skills have a different duration and I can't fix it easily, so treat it as a 60 value
     skillsList.forEach(function(item, i) { if (item == 80) skillsList[i] = 60; });
-
     // Get event bonus power if raid for the target Support Live room
     var bonusPower = getBonusPower(type);
     power2 = parseInt(power2) + parseInt(bonusPower);
@@ -476,17 +496,13 @@ function calculateScore(type) {
 
 // Get bonus power for Raid bonus room
 function getBonusPower(eventType) {
-    var bonusPower = 0;
     if (eventType === "raid") {
         var character = document.getElementById("eventchars").value.toLowerCase();
         for (let i = 1; i <= 4; i++) {
             var char = document.getElementById("m" + i + "_char").innerHTML;
             if (char === character) {
-                var cardpower = document.getElementById("m" + i + "_cardpower").innerHTML;
-                var eventbonus = document.getElementById("m" + i + "_eventbonus").innerHTML;
-
-                // If the card power matches the event bonus, it means it's a collab card, and gets an extra 50% bonus for playing in the support room
-                if (cardpower == eventbonus) {
+                // If playing in char support room and card is event card, additional bonus added
+                if (isEventCard(eventType, "m" + i)) {
                     var eventPerc = .5;
                     var heartMod = parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) || 0;
                     var techMod = parseInt(document.getElementById("m" + i + "_techmod").innerHTML) || 0;
@@ -495,13 +511,13 @@ function getBonusPower(eventType) {
                     var heart = Math.floor(parseInt(heartMod) * eventPerc);
                     var tech = Math.floor(parseInt(techMod) * eventPerc);
                     var phys = Math.floor(parseInt(physMod) * eventPerc);
-                    bonusPower = heart + tech + phys;
+                    return heart + tech + phys;
                 }
             }
         }
     }
 
-    return bonusPower;
+    return 0;
 }
 
 function getComboMult(num) {

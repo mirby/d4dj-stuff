@@ -806,7 +806,7 @@ function getMedleyPower() {
 
     var charList = [];
     var eventId = document.getElementById("eventid").innerHTML;
-    var cardList = cardSet[eventId];
+    var type = document.getElementById("eventtype").innerHTML;
     for (let x of eventList[eventId].characters.split(",")) {
         charList.push(x.toLowerCase());
     }
@@ -817,20 +817,16 @@ function getMedleyPower() {
     }
 
     // Medley power
-    var totalMedleyPower = 0;
     if (document.getElementById("eventtype").innerHTML === "Medley") {
         var medleyChar = document.getElementById("medleychars").value.toLowerCase();
         if (isNewType) { // New medleys give +50% to specific card per medley
             for (let i = 1; i <= 4; i++) {
                 if ((document.getElementById("m" + i + "_char").innerHTML.toLowerCase()) === medleyChar) {
-                    var cardNameFull = document.getElementById("m" + i + "_charfull").innerHTML;
-                    var cardName = cardNameFull.slice(cardNameFull.indexOf("-") + 1).substring(1);
-                    if (cardList.includes(cardName)) {
+                    if (isEventCard(type, "m" + i)) {
                         var heart = Math.floor(parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) * .5);
                         var tech = Math.floor(parseInt(document.getElementById("m" + i + "_techmod").innerHTML) * .5);
                         var phys = Math.floor(parseInt(document.getElementById("m" + i + "_physmod").innerHTML) * .5);
-                        totalMedleyPower = heart + tech + phys;
-                        return totalMedleyPower;
+                        return heart + tech + phys;
                     }
                 }
             }
@@ -841,15 +837,14 @@ function getMedleyPower() {
                         var heart = Math.floor(parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) * .1);
                         var tech = Math.floor(parseInt(document.getElementById("m" + i + "_techmod").innerHTML) * .1);
                         var phys = Math.floor(parseInt(document.getElementById("m" + i + "_physmod").innerHTML) * .1);
-                        totalMedleyPower = heart + tech + phys;
-                        return totalMedleyPower;
+                        return heart + tech + phys;
                     }
                 }
             }
         }
     }
 
-    return totalMedleyPower;
+    return 0;
 }
 
 /*
@@ -1034,24 +1029,27 @@ function calcEventPower() {
         // Power for newer special raids (dengeki, precure, quint2, etc)
         // +50% for matching char, +50% for collab
 
-        // Really bad hack to detect if a card is collab type, basically just map the card names to the event ID
-        var collabSet = getCardSet("raid");
-
         var charList = [];
         var eventId = document.getElementById("eventid").innerHTML;
-        var collabList = collabSet[eventId];
         for (let x of eventList[eventId].characters.split(",")) {
             charList.push(x.toLowerCase());
         }
 
         for (let i = 1; i <= 4; i++) {
+            setEventPerc("m" + i);
+
             var char = document.getElementById("m" + i + "_char").innerHTML;
             if (charList.includes(char)) {
-                var cardNameFull = document.getElementById("m" + i + "_charfull").innerHTML;
-                var cardName = cardNameFull.slice(cardNameFull.indexOf("-") + 1).substring(1);
+
                 var eventPerc = .5;
-                if (collabList.includes(cardName)) {
+                if (isEventCard(type, "m" + i)) {
                     eventPerc = 1;
+                }
+
+                // Re-run of old quints event. No power bonus except for matching card to support live room
+                // which is handled in scoring section
+                if (eventId == 109) {
+                    eventPerc = 0;    
                 }
 
                 var heartMod = parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) || 0;
@@ -1078,30 +1076,42 @@ function calcEventPower() {
         }
     } else {
         for (let i = 1; i <= 4; i++) {
-            var eventPercGain = getEventPerc(i);
-            document.getElementById("m" + i + "_eventperc").innerHTML = eventPercGain;
-    
+            var eventPercGain = setEventPerc("m" + i);
+
             var heartMod = parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) || 0;
             var techMod = parseInt(document.getElementById("m" + i + "_techmod").innerHTML) || 0;
             var physMod = parseInt(document.getElementById("m" + i + "_physmod").innerHTML) || 0;
-    
+        
             var heart = Math.floor(parseInt(heartMod) * eventPercGain);
             var tech = Math.floor(parseInt(techMod) * eventPercGain);
             var phys = Math.floor(parseInt(physMod) * eventPercGain);
             var eventTotal = heart + tech + phys;
-    
+        
             document.getElementById("m" + i + "_eventbonus").innerHTML = eventTotal;
             document.getElementById("m" + i + "_eventbonus2").innerHTML = 0;
         }
     }
 }
 
-function getEventPerc(charId) {
+// Function to determine if card at specified identifier is an event card
+function isEventCard(type, identifier) {
+    var eventId = document.getElementById("eventid").innerHTML;
+    var cardSet = getCardSet(type.toLowerCase());
+    var cardList = cardSet[eventId];
+    var cardNameFull = document.getElementById(identifier + "_charfull").innerHTML;
+    var cardName = cardNameFull.slice(cardNameFull.indexOf("-") + 1).substring(1);
+    if (cardList.includes(cardName)) {
+        return true;
+    }
+    return false;
+}
+
+function setEventPerc(identifier) {
     
     var eventId = document.getElementById("eventid").innerHTML;
 
     // For each char bonus, check if char matches
-    var character = document.getElementById("m" + charId + "_char").innerText.toLowerCase();
+    var character = document.getElementById(identifier + "_char").innerText.toLowerCase();
     var charBonus = false;
     if (eventList[eventId].characters !== "None") {
         var charArray = eventList[eventId].characters.split(",");
@@ -1112,7 +1122,7 @@ function getEventPerc(charId) {
         }
     }
 
-    var style = document.getElementById("m" + charId + "_type").innerText.toLowerCase();
+    var style = document.getElementById(identifier + "_type").innerText.toLowerCase();
     var styleBonus = (style === document.getElementById("eventstyleval").innerHTML.toLowerCase());
 
     var eventPerc = 0;
@@ -1127,6 +1137,8 @@ function getEventPerc(charId) {
     if ("Yes" === document.getElementById("eventbonus").innerHTML && (eventPerc == .4)) {
         eventPerc += .1;
     }
+
+    document.getElementById(identifier + "_eventperc").innerHTML = eventPerc;
 
     return eventPerc;
 }
