@@ -2,32 +2,6 @@ var songArray = [];
 var tagMap = new Map();
 
 const tags = [
-    "A:First Mix",
-    "A:Side Origin",
-    "A:Groovy Festival",
-    "A:Touhou",
-    "A:from ARGONAVIS",
-    "A:Princess Letters",
-    "A:Tokyo 7th Sisters",
-    "A:Sakura Wars",
-    "A:WACCA",
-    "A:Groove Coaster",
-    "A:GekiChuMai",
-    "A:Song with ☆",
-    "A:♡ Songs",
-    "A:Songs with Heart (spelled)",
-    "A:Songs with DJ",
-    "A:Song with Party",
-    "A:Song with Night",
-    "A:Numbers Spelled Out",
-    "A:Angel and Demon",
-    "A:Theme of...",
-    "A:Cat Songs",
-    "A:BLACK or WHITE",
-    "A:Songs with Dream",
-    "A:Fighting Game",
-    "A:Wrestling",
-    "A:BPM over 250",
     "A:Cover Tracks Vol 1",
     "A:Cover Tracks Vol 2",
     "A:Cover Tracks Vol 3",
@@ -38,19 +12,6 @@ const tags = [
     "A:Cover Tracks Vol 8",
     "A:UniChØrd",
     "A:Abyssmare",
-    "B:D4DJ Anime",
-    "B:Event Song",
-    "B:D4FES Songs",
-    "B:Side Nova",
-    "B:Bushiroad",
-    "B:1, 2, 3...",
-    "B:Song with Go",
-    "B:Song with !",
-    "B:Song with Love",
-    "B:Songs with MV",
-    "B:Vtubers",
-    "B:Hololive",
-    "B:Retro Games",
     "B:Happy Around!",
     "B:Peaky P-key",
     "B:Photon Maiden",
@@ -335,6 +296,6 @@ function createSongHintRow(text, id) {
 }
 
 function generateSongArray() {
-    songArray = [...enTags];
+    songArray = [...jpTags];
     //console.log(cardArray);
 }

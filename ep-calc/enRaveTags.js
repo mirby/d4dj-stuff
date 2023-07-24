@@ -1128,7 +1128,7 @@ var enTags = [
     },
     {
         "id": 3010005,
-        "name": "Let's do the 'Big-Bang!'",
+        "name": "Let's do the 'Big-Bang!' (ft. Rinku)",
         "tags": [
             "Special (unit)",
             "Original Category",
@@ -1695,14 +1695,6 @@ var enTags = [
             "Summer 22 Dan"
         ],
         "id": 510011
-    },
-    {
-        "name": "This Is How To Be In Love With You",
-        "tags": [
-            "Base Category",
-            "Song with Love"
-        ],
-        "id": 5050039
     },
     {
         "name": "Y",
@@ -3202,14 +3194,6 @@ var enTags = [
         "id": 3010017
     },
     {
-        "name": "Kitare Amaigumi",
-        "tags": [
-            "Base Category",
-            "Vtubers"
-        ],
-        "id": 5050158
-    },
-    {
         "name": "Sinsoukaiten HoneyStrap",
         "tags": [
             "Base Category",
@@ -3416,7 +3400,7 @@ var enTags = [
         "id": 310020
     },
     {
-        "name": "START",
+        "name": "START (Merm4id)",
         "tags": [
             "Merm4id",
             "Original Category"
@@ -4027,7 +4011,7 @@ var enTags = [
     },
     {
         "id": 820001,
-        "name": "INTERNET OVERDOSE",
+        "name": "INTERNET OVERDOSE (UniChØrd)",
         "tags": [
             "UniChØrd",
             "Cover Category"
