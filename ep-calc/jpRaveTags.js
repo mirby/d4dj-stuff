@@ -3507,14 +3507,6 @@ var jpTags = [
         ]
     },
     {
-        "id": 5050161,
-        "name": "新装開店ハニーストラップ",
-        "tags": [
-            "Base Category",
-            "Vtuber"
-        ]
-    },
-    {
         "id": 110027,
         "name": "Summer Wonder",
         "tags": [
@@ -4987,6 +4979,50 @@ var jpTags = [
         "name": "楽園",
         "tags": [
             "Base Category"
+        ]
+    },
+    {
+        "id": 5050172,
+        "name": "Re：End of a Dream",
+        "tags": [
+            "Base Category"
+        ]
+    },
+    {
+        "id": 5050173,
+        "name": "enchanted love",
+        "tags": [
+            "Base Category"
+        ]
+    },
+    {
+        "id": 5050174,
+        "name": "Vallista",
+        "tags": [
+            "Base Category"
+        ]
+    },
+    {
+        "id": 5050175,
+        "name": "ENERGY SYNERGY MATRIX",
+        "tags": [
+            "Base Category"
+        ]
+    },
+    {
+        "id": 410022,
+        "name": "MAX!!!!",
+        "tags": [
+            "Merm4id",
+            "Original Category"
+        ]
+    },
+    {
+        "id": 810005,
+        "name": "ピコピコ音頭",
+        "tags": [
+            "UniChØrd",
+            "Original Category"
         ]
     }
 ]

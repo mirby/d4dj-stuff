@@ -3194,15 +3194,6 @@ var enTags = [
         "id": 3010017
     },
     {
-        "name": "Sinsoukaiten HoneyStrap",
-        "tags": [
-            "Base Category",
-            "Vtubers",
-            "Numbers Spelled Out"
-        ],
-        "id": 5050161
-    },
-    {
         "name": "GETCHA!",
         "tags": [
             "Photon Maiden",
@@ -4144,5 +4135,13 @@ var enTags = [
             "Side Nova"
         ],
         "id": 910004
+    },
+    {
+        "id": 3020026,
+        "name": "Romeo & Cinderella",
+        "tags": [
+            "Special (unit)",
+            "Cover Category"
+        ]
     }
 ]
