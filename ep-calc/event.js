@@ -1113,6 +1113,16 @@ var eventList = {
         "bonus":false,
         "addition":""
     },
+    "110": {
+        "id":110,
+        "name":"Our Summer Vacation",
+        "characters":"Miyu,Haruna,Kurumi,Miiko",
+        "type":"Medley",
+        "style":"Cute",
+        "parameter":"Technical",
+        "bonus":true,
+        "addition":""
+    },
 }
 
 /*
