@@ -819,13 +819,18 @@ function getMedleyPower() {
     // Medley power
     if (document.getElementById("eventtype").innerHTML === "Medley") {
         var medleyChar = document.getElementById("medleychars").value.toLowerCase();
-        if (isNewType) { // New medleys give +50% to specific card per medley
+        // New medleys give bonus power to specific card per medley
+        // After combo changes, bonus power increases based on ETs (+50% base)
+        if (isNewType) {
             for (let i = 1; i <= 4; i++) {
-                if ((document.getElementById("m" + i + "_char").innerHTML.toLowerCase()) === medleyChar) {
-                    if (isEventCard(type, "m" + i)) {
-                        var heart = Math.floor(parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) * .5);
-                        var tech = Math.floor(parseInt(document.getElementById("m" + i + "_techmod").innerHTML) * .5);
-                        var phys = Math.floor(parseInt(document.getElementById("m" + i + "_physmod").innerHTML) * .5);
+                var identifier = "m" + i;
+                if ((document.getElementById(identifier + "_char").innerHTML.toLowerCase()) === medleyChar) {
+                    if (isEventCard(type, identifier)) {
+                        var bonus = getMedleyBonus(identifier);
+
+                        var heart = Math.floor(parseInt(document.getElementById(identifier + "_heartmod").innerHTML) * bonus);
+                        var tech = Math.floor(parseInt(document.getElementById(identifier + "_techmod").innerHTML) * bonus);
+                        var phys = Math.floor(parseInt(document.getElementById(identifier + "_physmod").innerHTML) * bonus);
                         return heart + tech + phys;
                     }
                 }
@@ -845,6 +850,46 @@ function getMedleyPower() {
     }
 
     return 0;
+}
+
+// Return medley bonus power based on the card's ET
+function getMedleyBonus(identifier) {
+    var et = document.getElementById(identifier + "_et").value;
+    var id = document.getElementById(identifier + "_id").innerHTML;
+    var rarity = standardArray[id].rarity;
+    var bonus = .5;
+
+    if (!isComboBonus()) {
+        return bonus;
+    }
+
+    if (rarity == 3) {
+        if (et == 0) {
+            bonus = .5;
+        } else if (et == 1) {
+            bonus = .52;
+        } else if (et == 2) {
+            bonus = .54;
+        } else if (et == 3) {
+            bonus = .57;
+        } else if (et == 4) {
+            bonus = .6;
+        }
+    } else if (rarity == 4) {
+        if (et == 0) {
+            bonus = .5;
+        } else if (et == 1) {
+            bonus = .55;
+        } else if (et == 2) {
+            bonus = .6;
+        } else if (et == 3) {
+            bonus = .65;
+        } else if (et == 4) {
+            bonus = .75;
+        }
+    }
+
+    return bonus;
 }
 
 /*
@@ -1126,23 +1171,66 @@ function setEventPerc(identifier) {
 
     var style = document.getElementById(identifier + "_type").innerText.toLowerCase();
     var styleBonus = (style === document.getElementById("eventstyleval").innerHTML.toLowerCase());
+    var charMatch = false;
+    var styleMatch = false;
 
     var eventPerc = 0;
     if (charBonus) {
-        eventPerc += .2;
+        eventPerc += getEventPercBonus(identifier);
+        charMatch = true;
     }
 
     if (styleBonus) {
-        eventPerc += .2;
+        eventPerc += getEventPercBonus(identifier);
+        styleMatch = true;
     }
 
-    if ("Yes" === document.getElementById("eventbonus").innerHTML && (eventPerc == .4)) {
+    if ("Yes" === document.getElementById("eventbonus").innerHTML && (charMatch && styleMatch)) {
         eventPerc += .1;
     }
 
     document.getElementById(identifier + "_eventperc").innerHTML = eventPerc;
 
     return eventPerc;
+}
+
+function getEventPercBonus(identifier) {
+    var et = document.getElementById(identifier + "_et").value;
+    var id = document.getElementById(identifier + "_id").innerHTML;
+    var rarity = standardArray[id].rarity;
+    var bonus = .2;
+
+    if (!isComboBonus()) {
+        return bonus;
+    }
+
+    if (rarity == 3) {
+        if (et == 0) {
+            bonus = .2;
+        } else if (et == 1) {
+            bonus = .22;
+        } else if (et == 2) {
+            bonus = .24;
+        } else if (et == 3) {
+            bonus = .27;
+        } else if (et == 4) {
+            bonus = .3;
+        }
+    } else if (rarity == 4) {
+        if (et == 0) {
+            bonus = .2;
+        } else if (et == 1) {
+            bonus = .25;
+        } else if (et == 2) {
+            bonus = .3;
+        } else if (et == 3) {
+            bonus = .35;
+        } else if (et == 4) {
+            bonus = .45;
+        }
+    }
+
+    return bonus;
 }
 
 function calcDisplayParams() {

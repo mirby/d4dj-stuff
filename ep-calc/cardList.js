@@ -1866,7 +1866,7 @@ var cards = {
             "type": "Cute",
             "rarity": 4,
             "heart": 11736,
-            "technical": 16378,
+            "technical": 16278,
             "physical": 6732,
             "skill": 0.4,
             "icon": "card_icon_040610005_1.0db05e4c",
