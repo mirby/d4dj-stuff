@@ -1100,8 +1100,10 @@ function isEventCard(type, identifier) {
     var cardList = cardSet[eventId];
     var cardNameFull = document.getElementById(identifier + "_charfull").innerHTML;
     var cardName = cardNameFull.slice(cardNameFull.indexOf("-") + 1).substring(1);
-    if (cardList.includes(cardName)) {
-        return true;
+    for (let card of cardList) {
+        if (cardName.includes(card)) {
+            return true;
+        }
     }
     return false;
 }
