@@ -133,6 +133,7 @@ function getCardSet(type) {
         "95":["Scenery", "Afterglow", "Phosphorescence", "Luminous"],
         "101":["Wanderer", "Tuning", "Transience", "Heartbeat"],
         "106":["On This Fine Day", "Heavenly Stairway", "In This Shining World", "Dazzling Bravery"],
+        "110":["Tiny Light", "Overflowing Splendor", "Girl Spinning", "Brilliant Flowers"],
     };
 
     var raidSet = {
