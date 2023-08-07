@@ -1228,6 +1228,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "111": {
+        "id":111,
+        "name":"Cloyingly Sweet Cocktail -Dalia & Hiiro-",
+        "characters":"Dalia,Hiiro",
+        "type":"Slots",
+        "style":"Cool",
+        "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*

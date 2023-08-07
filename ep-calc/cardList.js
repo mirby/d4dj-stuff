@@ -9634,8 +9634,35 @@ var cards = {
             "skill": .5,
             "icon": "card_icon_040620014_1.06fa46e0",
             "passive": "Life Boost 2.5-7.5%"
+        },
+        "686": {
+            "id": 686,
+            "character": "Hiiro",
+            "cardname": "An Exceptional Drink for You -Affection-",
+            "unit": "Rondo",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 20309,
+            "technical": 15005,
+            "physical": 8036,
+            "skill": .5,
+            "icon": "card_icon_040530014_1.11c768d2",
+            "passive": "Groovy Bonus 10-30%"
+        },
+        "687": {
+            "id": 687,
+            "character": "Dalia",
+            "cardname": "An Exceptional Drink for You -Passion-",
+            "unit": "Mermaid",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 20552,
+            "technical": 8238,
+            "physical": 14601,
+            "skill": .5,
+            "icon": "card_icon_040440015_1.7fa6871d",
+            "passive": "Life Boost 2.5-7.5%"
         }
-
     }
 
 /*
