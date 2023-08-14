@@ -9662,6 +9662,62 @@ var cards = {
             "skill": .5,
             "icon": "card_icon_040440015_1.7fa6871d",
             "passive": "Life Boost 2.5-7.5%"
+        },
+        "688": {
+            "id": 688,
+            "character": "Michiru",
+            "cardname": "Grasping The Vast Ocean",
+            "unit": "Unichord",
+            "type": "Party",
+            "rarity": 3,
+            "heart": 7364,
+            "technical": 17938,
+            "physical": 6231,
+            "skill": .3,
+            "icon": "card_icon_030810001_1.91eef769",
+            "passive": "Manual Up 1.5-3.5%"
+        },
+        "689": {
+            "id": 689,
+            "character": "Kokoa",
+            "cardname": "Gently Wrapped In Bubbles",
+            "unit": "Unichord",
+            "type": "Party",
+            "rarity": 3,
+            "heart": 6140,
+            "technical": 17446,
+            "physical": 8206,
+            "skill": .3,
+            "icon": "card_icon_030830001_1.5b09456d",
+            "passive": "Groovy Solo 10-20%"
+        },
+        "690": {
+            "id": 690,
+            "character": "Hayate",
+            "cardname": "Um, Breathing Underwater",
+            "unit": "Unichord",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 7585,
+            "technical": 20487,
+            "physical": 15042,
+            "skill": .5,
+            "icon": "card_icon_040840003_1.6bff888c",
+            "passive": "Groovy Solo 20-60%"
+        },
+        "691": {
+            "id": 691,
+            "character": "Lumina",
+            "cardname": "Swimming In The Digital Sea",
+            "unit": "Unichord",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 14716,
+            "technical": 21267,
+            "physical": 7977,
+            "skill": .5,
+            "icon": "card_icon_040820003_1.ac25dfd4",
+            "passive": "Manual Up 2.5-9%"
         }
     }
 

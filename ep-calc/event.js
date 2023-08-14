@@ -1239,6 +1239,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "112": {
+        "id":112,
+        "name":"Summer ChØrd & Four Secrets",
+        "characters":"Michiru,Lumina,Kokoa,Hayate",
+        "type":"Bingo",
+        "style":"Party",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
