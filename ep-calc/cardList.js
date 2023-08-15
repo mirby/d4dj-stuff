@@ -9718,6 +9718,20 @@ var cards = {
             "skill": .5,
             "icon": "card_icon_040820003_1.ac25dfd4",
             "passive": "Manual Up 2.5-9%"
+        },
+        "692": {
+            "id": 692,
+            "character": "Rinku",
+            "cardname": "Imagination",
+            "unit": "HapiAra",
+            "type": "Street",
+            "rarity": 3,
+            "heart": 10262,
+            "technical": 10759,
+            "physical": 10608,
+            "skill": .25,
+            "icon": "card_icon_050110001_1.2c434877",
+            "passive": "Auto Boost 1.5-2.5%"
         }
     }
 
