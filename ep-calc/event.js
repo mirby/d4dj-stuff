@@ -11,6 +11,12 @@ $(document).ready(function() {
     };
 });
 
+// Return if the current selected event features combo bonus update or not
+function isComboBonus() {
+    var eventId = document.getElementById("eventid").innerHTML;
+    return eventList[eventId].comboBonus;
+}
+
 function createEventSelects() {
     var select = document.createElement("select");
     select.name = "eventselector";
@@ -63,6 +69,7 @@ function fillEventDisplay() {
     document.getElementById("eventparamval").innerHTML = eventList[eventId].parameter;
     document.getElementById("eventparam").innerHTML = (eventList[eventId].parameter !== "None") ? "<img src='../icons/param_" + eventList[eventId].parameter.toLowerCase() + ".png' width='30' height='30'></img>" + ' ' + eventList[eventId].parameter : "None";
     document.getElementById("eventbonus").innerHTML = (eventList[eventId].bonus) ? "Yes" : "No";
+    document.getElementById("combobonus").innerHTML = (eventList[eventId].comboBonus) ? "Yes" : "No";
     document.getElementById("eventdetails").innerHTML = eventList[eventId].addition;
 
     // Display medley bonus char selector
@@ -133,6 +140,7 @@ function getCardSet(type) {
         "95":["Scenery", "Afterglow", "Phosphorescence", "Luminous"],
         "101":["Wanderer", "Tuning", "Transience", "Heartbeat"],
         "106":["On This Fine Day", "Heavenly Stairway", "In This Shining World", "Dazzling Bravery"],
+        "110":["Tiny Light", "Overflowing Splendor", "Girl Spinning", "Brilliant Flowers"],
     };
 
     var raidSet = {
@@ -161,6 +169,7 @@ var eventList = {
         "style":"Cute",
         "parameter":"None",
         "bonus":false,
+        "comboBonus":false,
         "addition":""
     },
     "15": {
@@ -171,6 +180,7 @@ var eventList = {
         "style":"Cool",
         "parameter":"None",
         "bonus":false,
+        "comboBonus":false,
         "addition":""
     },
     "16": {
@@ -181,6 +191,7 @@ var eventList = {
         "style":"Elegant",
         "parameter":"None",
         "bonus":false,
+        "comboBonus":false,
         "addition":""
     },
     "17": {
@@ -191,6 +202,7 @@ var eventList = {
         "style":"Party",
         "parameter":"None",
         "bonus":false,
+        "comboBonus":false,
         "addition":""
     },
     "18": {
@@ -201,6 +213,7 @@ var eventList = {
         "style":"Cute",
         "parameter":"None",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "19": {
@@ -211,6 +224,7 @@ var eventList = {
         "style":"Party",
         "parameter":"None",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "20": {
@@ -221,6 +235,7 @@ var eventList = {
         "style":"Street",
         "parameter":"None",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "21": {
@@ -231,6 +246,7 @@ var eventList = {
         "style":"Party",
         "parameter":"Technical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "22": {
@@ -241,6 +257,7 @@ var eventList = {
         "style":"Street",
         "parameter":"Technical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "23": {
@@ -251,6 +268,7 @@ var eventList = {
         "style":"Elegant",
         "parameter":"Technical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "24": {
@@ -261,6 +279,7 @@ var eventList = {
         "style":"Street",
         "parameter":"Heart",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "25": {
@@ -271,6 +290,7 @@ var eventList = {
         "style":"Street",
         "parameter":"Physical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "26": {
@@ -281,6 +301,7 @@ var eventList = {
         "style":"Cute",
         "parameter":"Heart",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "27": {
@@ -291,6 +312,7 @@ var eventList = {
         "style":"Elegant",
         "parameter":"Physical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "28": {
@@ -301,6 +323,7 @@ var eventList = {
         "style":"Elegant",
         "parameter":"Heart",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "29": {
@@ -311,6 +334,7 @@ var eventList = {
         "style":"Party",
         "parameter":"Heart",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "30": {
@@ -321,6 +345,7 @@ var eventList = {
         "style":"Cool",
         "parameter":"Technical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "31": {
@@ -331,6 +356,7 @@ var eventList = {
         "style":"Cool",
         "parameter":"Heart",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "32": {
@@ -341,6 +367,7 @@ var eventList = {
         "style":"Party",
         "parameter":"Physical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "33": {
@@ -351,6 +378,7 @@ var eventList = {
         "style":"None",
         "parameter":"None",
         "bonus":false,
+        "comboBonus":false,
         "addition":""
     },
     "34": {
@@ -361,6 +389,7 @@ var eventList = {
         "style":"Cute",
         "parameter":"Technical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "35": {
@@ -371,6 +400,7 @@ var eventList = {
         "style":"Cool",
         "parameter":"Technical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "36": {
@@ -381,6 +411,7 @@ var eventList = {
         "style":"Party",
         "parameter":"Physical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "37": {
@@ -391,6 +422,7 @@ var eventList = {
         "style":"Elegant",
         "parameter":"Heart",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "38": {
@@ -401,6 +433,7 @@ var eventList = {
         "style":"Party",
         "parameter":"Physical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "39": {
@@ -411,6 +444,7 @@ var eventList = {
         "style":"Cute",
         "parameter":"Heart",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "40": {
@@ -421,6 +455,7 @@ var eventList = {
         "style":"Cool",
         "parameter":"Heart",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "41": {
@@ -431,6 +466,7 @@ var eventList = {
         "style":"Street",
         "parameter":"Technical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "42": {
@@ -441,6 +477,7 @@ var eventList = {
         "style":"Elegant",
         "parameter":"Physical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "43": {
@@ -451,6 +488,7 @@ var eventList = {
         "style":"Elegant",
         "parameter":"Physical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "44": {
@@ -461,6 +499,7 @@ var eventList = {
         "style":"Street",
         "parameter":"Technical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "45": {
@@ -471,6 +510,7 @@ var eventList = {
         "style":"Cute",
         "parameter":"Technical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "46": {
@@ -481,6 +521,7 @@ var eventList = {
         "style":"Street",
         "parameter":"Heart",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "47": {
@@ -491,6 +532,7 @@ var eventList = {
         "style":"Cute",
         "parameter":"Heart",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "48": {
@@ -501,6 +543,7 @@ var eventList = {
         "style":"Cool",
         "parameter":"Physical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "49": {
@@ -511,6 +554,7 @@ var eventList = {
         "style":"Cool",
         "parameter":"Physical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "50": {
@@ -521,6 +565,7 @@ var eventList = {
         "style":"Cool",
         "parameter":"Physical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "51": {
@@ -531,6 +576,7 @@ var eventList = {
         "style":"Cool",
         "parameter":"Heart",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "52": {
@@ -541,6 +587,7 @@ var eventList = {
         "style":"Street",
         "parameter":"Heart",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "53": {
@@ -551,6 +598,7 @@ var eventList = {
         "style":"Party",
         "parameter":"Physical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "54": {
@@ -561,6 +609,7 @@ var eventList = {
         "style":"Elegant",
         "parameter":"Heart",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "55": {
@@ -571,6 +620,7 @@ var eventList = {
         "style":"Party",
         "parameter":"Technical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "56": {
@@ -581,6 +631,7 @@ var eventList = {
         "style":"Cute",
         "parameter":"Physical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "57": {
@@ -591,6 +642,7 @@ var eventList = {
         "style":"Party",
         "parameter":"Heart",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "58": {
@@ -601,6 +653,7 @@ var eventList = {
         "style":"Cute",
         "parameter":"Heart",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "59": {
@@ -611,6 +664,7 @@ var eventList = {
         "style":"None",
         "parameter":"None",
         "bonus":false,
+        "comboBonus":false,
         "addition":"50% power boost to matching character. 50% power boost to matching collab card. 50% power boost to matching Support Live room."
     },
     "60": {
@@ -621,6 +675,7 @@ var eventList = {
         "style":"None",
         "parameter":"None",
         "bonus":false,
+        "comboBonus":false,
         "addition":"50% power boost to matching character. 50% power boost to matching collab card. 50% power boost to matching Support Live room."
     },
     "61": {
@@ -631,6 +686,7 @@ var eventList = {
         "style":"Party",
         "parameter":"Technical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "62": {
@@ -641,6 +697,7 @@ var eventList = {
         "style":"Cool",
         "parameter":"Physical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "63": {
@@ -651,6 +708,7 @@ var eventList = {
         "style":"Cool",
         "parameter":"Physical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "64": {
@@ -661,6 +719,7 @@ var eventList = {
         "style":"Elegant",
         "parameter":"Physical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "65": {
@@ -671,6 +730,7 @@ var eventList = {
         "style":"Cool",
         "parameter":"Physical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "66": {
@@ -681,6 +741,7 @@ var eventList = {
         "style":"Street",
         "parameter":"Technical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "67": {
@@ -691,6 +752,7 @@ var eventList = {
         "style":"Cute",
         "parameter":"Physical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "68": {
@@ -701,6 +763,7 @@ var eventList = {
         "style":"None",
         "parameter":"None",
         "bonus":false,
+        "comboBonus":false,
         "addition":"50% power boost to matching character. 50% power boost to matching collab card. 50% power boost to matching Support Live room."
     },
     "69": {
@@ -711,6 +774,7 @@ var eventList = {
         "style":"Elegant",
         "parameter":"Technical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "70": {
@@ -721,6 +785,7 @@ var eventList = {
         "style":"Cute",
         "parameter":"Technical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "71": {
@@ -731,6 +796,7 @@ var eventList = {
         "style":"Cute",
         "parameter":"Physical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "72": {
@@ -741,6 +807,7 @@ var eventList = {
         "style":"Cool",
         "parameter":"Heart",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "73": {
@@ -751,6 +818,7 @@ var eventList = {
         "style":"Elegant",
         "parameter":"Heart",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "74": {
@@ -761,6 +829,7 @@ var eventList = {
         "style":"Party",
         "parameter":"Technical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "75": {
@@ -771,6 +840,7 @@ var eventList = {
         "style":"Cute",
         "parameter":"Physical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "76": {
@@ -781,6 +851,7 @@ var eventList = {
         "style":"Cool",
         "parameter":"Physical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "77": {
@@ -791,6 +862,7 @@ var eventList = {
         "style":"Street",
         "parameter":"Technical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "78": {
@@ -801,6 +873,7 @@ var eventList = {
         "style":"Party",
         "parameter":"Technical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "79": {
@@ -811,6 +884,7 @@ var eventList = {
         "style":"None",
         "parameter":"None",
         "bonus":true,
+        "comboBonus":false,
         "addition":"100% power boost to matching character. 100% power boost to matching collab card."
     },
     "80": {
@@ -821,6 +895,7 @@ var eventList = {
         "style":"None",
         "parameter":"None",
         "bonus":true,
+        "comboBonus":false,
         "addition":"During specific periods, 50% power boost for matching unit. Additional 50% boost if 2nd Anniversary card."
     },
     "81": {
@@ -831,6 +906,7 @@ var eventList = {
         "style":"Party",
         "parameter":"Technical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "82": {
@@ -841,6 +917,7 @@ var eventList = {
         "style":"None",
         "parameter":"None",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "83": {
@@ -851,6 +928,7 @@ var eventList = {
         "style":"Elegant",
         "parameter":"Technical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "84": {
@@ -861,6 +939,7 @@ var eventList = {
         "style":"None",
         "parameter":"None",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "85": {
@@ -871,6 +950,7 @@ var eventList = {
         "style":"Street",
         "parameter":"Physical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "86": {
@@ -881,6 +961,7 @@ var eventList = {
         "style":"Street",
         "parameter":"Heart",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "87": {
@@ -891,6 +972,7 @@ var eventList = {
         "style":"Party",
         "parameter":"Technical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "88": {
@@ -901,6 +983,7 @@ var eventList = {
         "style":"Elegant",
         "parameter":"Physical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "89": {
@@ -911,6 +994,7 @@ var eventList = {
         "style":"None",
         "parameter":"None",
         "bonus":false,
+        "comboBonus":false,
         "addition":"50% power boost to matching character. 50% power boost to matching collab card. 50% power boost to matching Support Live room."
     },
     "90": {
@@ -921,6 +1005,7 @@ var eventList = {
         "style":"Cool",
         "parameter":"Technical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "91": {
@@ -931,6 +1016,7 @@ var eventList = {
         "style":"Cool",
         "parameter":"Physical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "92": {
@@ -941,6 +1027,7 @@ var eventList = {
         "style":"Party",
         "parameter":"Physical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "93": {
@@ -951,6 +1038,7 @@ var eventList = {
         "style":"Party",
         "parameter":"Heart",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "94": {
@@ -961,6 +1049,7 @@ var eventList = {
         "style":"Cute",
         "parameter":"Technical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "95": {
@@ -971,6 +1060,7 @@ var eventList = {
         "style":"Elegant",
         "parameter":"Technical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "96": {
@@ -981,6 +1071,7 @@ var eventList = {
         "style":"Street",
         "parameter":"Physical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "97": {
@@ -991,6 +1082,7 @@ var eventList = {
         "style":"Party",
         "parameter":"Heart",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "98": {
@@ -1001,6 +1093,7 @@ var eventList = {
         "style":"Elegant",
         "parameter":"Technical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "99": {
@@ -1011,6 +1104,7 @@ var eventList = {
         "style":"Street",
         "parameter":"Physical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "100": {
@@ -1021,6 +1115,7 @@ var eventList = {
         "style":"Cool",
         "parameter":"Heart",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "101": {
@@ -1031,6 +1126,7 @@ var eventList = {
         "style":"Elegant",
         "parameter":"Technical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "102": {
@@ -1041,6 +1137,7 @@ var eventList = {
         "style":"None",
         "parameter":"None",
         "bonus":false,
+        "comboBonus":false,
         "addition":"50% power boost for Abyssmare 4 star. 25% power boost for Abyssmare 2 star. 10% power boost for side:origin SP and side:nova UniChord."
     },
     "103": {
@@ -1051,6 +1148,7 @@ var eventList = {
         "style":"Party",
         "parameter":"Heart",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "104": {
@@ -1061,6 +1159,7 @@ var eventList = {
         "style":"Cute",
         "parameter":"Heart",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "105": {
@@ -1071,6 +1170,7 @@ var eventList = {
         "style":"Cool",
         "parameter":"Physical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "106": {
@@ -1081,6 +1181,7 @@ var eventList = {
         "style":"Elegant",
         "parameter":"Physical",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "107": {
@@ -1091,6 +1192,7 @@ var eventList = {
         "style":"Elegant",
         "parameter":"Heart",
         "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
     "108": {
@@ -1101,6 +1203,7 @@ var eventList = {
         "style":"None",
         "parameter":"None",
         "bonus":false,
+        "comboBonus":false,
         "addition":""
     },
     "109": {
@@ -1111,6 +1214,7 @@ var eventList = {
         "style":"Elegant",
         "parameter":"None",
         "bonus":false,
+        "comboBonus":false,
         "addition":""
     },
     "110": {
@@ -1121,6 +1225,29 @@ var eventList = {
         "style":"Cute",
         "parameter":"Technical",
         "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
+    "111": {
+        "id":111,
+        "name":"Cloyingly Sweet Cocktail -Dalia & Hiiro-",
+        "characters":"Dalia,Hiiro",
+        "type":"Slots",
+        "style":"Cool",
+        "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
+    "112": {
+        "id":112,
+        "name":"Summer ChØrd & Four Secrets",
+        "characters":"Michiru,Lumina,Kokoa,Hayate",
+        "type":"Bingo",
+        "style":"Party",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
         "addition":""
     },
 }
@@ -1134,6 +1261,7 @@ var eventList = {
         "style":"",
         "parameter":"",
         "bonus":true,
+        "comboBonus":true,
         "addition":""
     },
 */

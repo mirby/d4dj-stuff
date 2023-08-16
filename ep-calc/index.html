@@ -696,7 +696,7 @@
                             <div class="col-auto">
                                 <div>
                                     <div class="sectionHeader">
-                                        <p>Inputs</p>
+                                        <p><b>Inputs</b></p>
                                     </div>
                                     <label style="margin-top:15px;width:150px" for="powerin">Power</label>
                                     <input style="text-align:right;width:150px" type="text" class="form-control" id="powerin" placeholder="250000" value="250000"><br>
@@ -736,7 +736,14 @@
                                         </span>
                                     </span>
                                     <input style="text-align:right;width:150px" type="text" class="form-control" id="skillin" placeholder="50,50,50,50" value="50,50,50,50"><br>
-                                    <label style="margin-top:15px;width:150px" for="teambonus">Bonus %</label>
+                                    <span style="margin-top:15px;display:inline-block;width:150px">
+                                        <span class="paramtip">
+                                            <label for="teambonus">Bonus % <i class="fa fa-info-circle"></i></label>
+                                            <span class="paramoptiontip">
+                                                See image for calculating Team Bonus % (Additional 10% for double matching) <a href="../ep-calc/teambonus.JPG" target="_blank">Example</a>
+                                            </span>
+                                        </span>
+                                    </span>
                                     <input style="text-align:right;width:150px" type="text" class="form-control" id="teambonus" name="teambonus" placeholder="200" value="200"><br>
                                     <span style="margin-top:15px;display:inline-block;width:150px">
                                         <span class="paramtip">
@@ -747,6 +754,15 @@
                                         </span>
                                     </span>
                                     <input style="text-align:right;width:150px" type="text" class="form-control" id="paramselout" placeholder="40" value="40"><br>
+                                    <span style="margin-top:15px;display:inline-block;width:150px">
+                                        <span class="skilltip">
+                                            <label for="combobonus">Combo Bonus <i class="fa fa-info-circle"></i></label>
+                                            <span class="skillintip">
+                                                Bonus EP based on max combo. 200 for EX, 160 for Hard, 100 for Normal, 40 for Easy
+                                            </span>
+                                        </span>
+                                    </span>
+                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="combobonus" name="combobonus" placeholder="200" value="200"><br>
                                     <label style="margin-top:15px;width:150px" for="voltsel">Volts</label>
                                     <select class="selectpicker voltselect" name="voltsel" id="voltsel" data-width="fit">
                                         <option value="1" data-content="1">1</option>
@@ -768,7 +784,7 @@
                                         <span id="eventraidchar"></span>
                                     </div>
                                     <div class="sectionHeader">
-                                        <p>Passive Skills</p>
+                                        <p><b>Passive Skills</b></p>
                                     </div>
                                     <label style="margin-top:15px;width:150px" for="pass_gt">Groovy Score %</label>
                                     <input style="text-align:right;width:150px" type="text" class="form-control" id="pass_gt" placeholder="0" value="0"><br>
@@ -835,8 +851,24 @@
                                         </span>
                                     </span>
                                     <input style="text-align:right;width:150px" type="text" class="form-control" id="paramselout2" placeholder="40" value="40"><br>
-                                    <label style="margin-top:15px;width:150px" for="teambonus2">Bonus %</label>
+                                    <span style="margin-top:15px;display:inline-block;width:150px">
+                                        <span class="paramtip">
+                                            <label for="teambonus2">Bonus % <i class="fa fa-info-circle"></i></label>
+                                            <span class="paramoptiontip">
+                                                See image for calculating Team Bonus % (Additional 10% for double matching) <a href="../ep-calc/teambonus.JPG" target="_blank">Example</a>
+                                            </span>
+                                        </span>
+                                    </span>
                                     <input style="text-align:right;width:150px" type="text" class="form-control" id="teambonus2" name="teambonus2" placeholder="200" value="200"><br>
+                                    <span style="margin-top:15px;display:inline-block;width:150px">
+                                        <span class="skilltip">
+                                            <label for="combobonus2">Combo Bonus <i class="fa fa-info-circle"></i></label>
+                                            <span class="skillintip">
+                                                Bonus EP based on max combo. 200 for EX, 160 for Hard, 100 for Normal, 40 for Easy
+                                            </span>
+                                        </span>
+                                    </span>
+                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="combobonus2" name="combobonus2" placeholder="200" value="200"><br>
                                     <label style="margin-top:15px;width:150px" for="voltsel2">Volts</label>
                                     <select class="selectpicker voltselect" name="voltsel2" id="voltsel2" data-width="fit">
                                         <option value="1" data-content="1">1</option>
@@ -999,6 +1031,12 @@
                                     <td style="padding-top:5px;padding-bottom:5px;">Extra Matching Bonus?</td>
                                     <td style="padding-top:5px;padding-bottom:5px;text-align:right;" colspan="2">
                                         <div id="eventbonus"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-top:5px;padding-bottom:5px;">Combo Bonus?</td>
+                                    <td style="padding-top:5px;padding-bottom:5px;text-align:right;" colspan="2">
+                                        <div id="combobonus"></div>
                                     </td>
                                 </tr>
                                 <tr style="display:none" id="medleycharselect">
