@@ -134,8 +134,8 @@ function autoClub() {
             }            
         }
 
-        // Unichord and Abyssmare club items don't yet exist
-        if (unitNum >= styleNum && unitUse !== "unichord" && unitUse !== "abyssmare") {
+        // Unichord and Abyssmare club items exist now
+        if (unitNum >= styleNum) {
             if (unitUse !== "") {
                 clubUse = unitUse;
             } else {
@@ -233,18 +233,18 @@ var clubItemsDisplay = {
         "type":"unit",
         "bonus":.03
     },
-    // "unichord": {
-    //     "name":"unichord",
-    //     "displayname":"UniChØrd",
-    //     "type":"unit",
-    //     "bonus":.03
-    // },
-    // "abyssmare": {
-    //     "name":"abyssmare",
-    //     "displayname":"Abyssmare",
-    //     "type":"unit",
-    //     "bonus":.03
-    // },
+    "unichord": {
+        "name":"unichord",
+        "displayname":"UniChØrd",
+        "type":"unit",
+        "bonus":.03
+    },
+    "abyssmare": {
+        "name":"abyssmare",
+        "displayname":"Abyssmare",
+        "type":"unit",
+        "bonus":.03
+    },
     "callofartemis": {
         "name":"callofartemis",
         "displayname":"Call of Artemis",
@@ -542,18 +542,18 @@ var clubItems1 = {
         "type":"unit",
         "bonus":.03
     },
-    // "unichord": {
-    //     "name":"unichord",
-    //     "displayname":"UniChØrd",
-    //     "type":"unit",
-    //     "bonus":.03
-    // },
-    // "abyssmare": {
-    //     "name":"abyssmare",
-    //     "displayname":"Abyssmare",
-    //     "type":"unit",
-    //     "bonus":.03
-    // },
+    "unichord": {
+        "name":"unichord",
+        "displayname":"UniChØrd",
+        "type":"unit",
+        "bonus":.03
+    },
+    "abyssmare": {
+        "name":"abyssmare",
+        "displayname":"Abyssmare",
+        "type":"unit",
+        "bonus":.03
+    },
     "callofartemis": {
         "name":"callofartemis",
         "displayname":"Call of Artemis",
@@ -821,18 +821,18 @@ var clubItems2 = {
         "type":"unit",
         "bonus":.03
     },
-    // "unichord": {
-    //     "name":"unichord",
-    //     "displayname":"UniChØrd",
-    //     "type":"unit",
-    //     "bonus":.03
-    // },
-    // "abyssmare": {
-    //     "name":"abyssmare",
-    //     "displayname":"Abyssmare",
-    //     "type":"unit",
-    //     "bonus":.03
-    // },
+    "unichord": {
+        "name":"unichord",
+        "displayname":"UniChØrd",
+        "type":"unit",
+        "bonus":.03
+    },
+    "abyssmare": {
+        "name":"abyssmare",
+        "displayname":"Abyssmare",
+        "type":"unit",
+        "bonus":.03
+    },
     "callofartemis": {
         "name":"callofartemis",
         "displayname":"Call of Artemis",
