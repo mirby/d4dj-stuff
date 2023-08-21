@@ -69,19 +69,72 @@ function fillEventDisplay() {
     document.getElementById("eventparamval").innerHTML = eventList[eventId].parameter;
     document.getElementById("eventparam").innerHTML = (eventList[eventId].parameter !== "None") ? "<img src='../icons/param_" + eventList[eventId].parameter.toLowerCase() + ".png' width='30' height='30'></img>" + ' ' + eventList[eventId].parameter : "None";
     document.getElementById("eventbonus").innerHTML = (eventList[eventId].bonus) ? "Yes" : "No";
-    document.getElementById("combobonus").innerHTML = (eventList[eventId].comboBonus) ? "Yes" : "No";
+    document.getElementById("eventcombobonus").innerHTML = (eventList[eventId].comboBonus) ? "Yes" : "No";
     document.getElementById("eventdetails").innerHTML = eventList[eventId].addition;
 
-    // Display medley bonus char selector
+    // Display certain UI elements based on the event type
     if (eventList[eventId].type.toLowerCase() === "medley") {
-        document.getElementById("medleycharselect").style.display = "table-row";
-        document.getElementById("medley_color").style.display = "table-cell";
-        document.getElementById("power_medley").style.display = "table-cell";
+        showMedleyElements();
+        hideRaidElements();
+
         populateCharSelectMed();
+    } else if (eventList[eventId].type.toLowerCase() === "raid") {
+        hideMedleyElements();
+        showRaidElements();
     } else {
-        document.getElementById("medleycharselect").style.display = "none";
-        document.getElementById("medley_color").style.display = "none";
-        document.getElementById("power_medley").style.display = "none";
+        hideMedleyElements();
+        hideRaidElements();
+    }
+}
+
+function showMedleyElements() {
+    document.getElementById("medleycharselect").style.display = "table-row";
+    document.getElementById("medley_color").style.display = "table-cell";
+    document.getElementById("power_medley").style.display = "table-cell";
+    document.getElementById("roomscoreinlabel").style.display = "inline-block";
+    document.getElementById("roomscorein").style.display = "inline-block";
+    document.getElementById("roomscorein2label").style.display = "inline-block";
+    document.getElementById("roomscorein2").style.display = "inline-block";
+
+    var br = document.createElement("br");
+    br.classList.add("medleyBreak");
+    document.getElementById("roomscorein").insertAdjacentElement("afterend", br);
+    br = document.createElement("br");
+    br.classList.add("medleyBreak");
+    document.getElementById("roomscorein2").insertAdjacentElement("afterend", br);
+}
+
+function hideMedleyElements() {
+    document.getElementById("medleycharselect").style.display = "none";
+    document.getElementById("medley_color").style.display = "none";
+    document.getElementById("power_medley").style.display = "none";
+    document.getElementById("roomscoreinlabel").style.display = "none";
+    document.getElementById("roomscorein").style.display = "none";
+    document.getElementById("roomscorein2label").style.display = "none";
+    document.getElementById("roomscorein2").style.display = "none";
+
+    var brs = document.getElementsByClassName("medleyBreak");
+    while (brs.length) {
+        brs[0].parentNode.removeChild(brs[0]);
+    }
+}
+
+function showRaidElements() {
+    document.getElementById("powerin3label").style.display = "inline-block";
+    document.getElementById("powerin3").style.display = "inline-block";
+
+    var br = document.createElement("br");
+    br.classList.add("raidBreak");
+    document.getElementById("powerin3").insertAdjacentElement("afterend", br);
+}
+
+function hideRaidElements() {
+    document.getElementById("powerin3label").style.display = "none";
+    document.getElementById("powerin3").style.display = "none";
+
+    var brs = document.getElementsByClassName("raidBreak");
+    while (brs.length) {
+        brs[0].parentNode.removeChild(brs[0]);
     }
 }
 

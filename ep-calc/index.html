@@ -709,16 +709,16 @@
                                         </span>
                                     </span>
                                     <input style="text-align:right;width:150px" type="text" class="form-control" id="powerin2" placeholder="300000" value="300000"><br>
-                                    <span style="margin-top:15px;display:inline-block;width:150px">
+                                    <span style="margin-top:15px;display:inline-block;width:150px" id="powerin3label">
                                         <span class="power3tip">
                                             <label for="power3in">Power (Special Battle) <i class="fa fa-info-circle"></i></label>
                                             <span class="power3intip">
-                                                Only used for Special Stack Battle (Denonbu Raid)
+                                                Only used for Special Raid Lives (Solo)
                                             </span>
                                         </span>
                                     </span>
-                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="powerin3" placeholder="400000" value="400000"><br>
-                                    <span style="margin-top:15px;display:inline-block;width:150px">
+                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="powerin3" placeholder="400000" value="400000">
+                                    <span style="margin-top:15px;display:inline-block;width:150px" id="roomscoreinlabel">
                                         <span class="roomtip">
                                             <label for="roomscorein">Room Score <i class="fa fa-info-circle"></i></label>
                                             <span class="roomscoretip">
@@ -726,7 +726,7 @@
                                             </span>
                                         </span>
                                     </span>
-                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="roomscorein" placeholder="4000000"><br>
+                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="roomscorein" placeholder="4000000">
                                     <span style="margin-top:15px;display:inline-block;width:150px">
                                         <span class="skilltip">
                                             <label for="skillin">Skills <i class="fa fa-info-circle"></i></label>
@@ -833,7 +833,7 @@
                                     </div>
                                     <label style="margin-top:15px;width:150px" for="scorein">Score</label>
                                     <input style="text-align:right;width:150px" type="text" class="form-control" id="scorein" placeholder="1000000" value="1000000"><br>
-                                    <span style="margin-top:15px;display:inline-block;width:150px">
+                                    <span style="margin-top:15px;display:inline-block;width:150px" id="roomscorein2label">
                                         <span class="roomtip">
                                             <label for="roomscorein2">Room Score <i class="fa fa-info-circle"></i></label>
                                             <span class="roomscoretip">
@@ -841,7 +841,7 @@
                                             </span>
                                         </span>
                                     </span>
-                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="roomscorein2" placeholder="4000000"><br>
+                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="roomscorein2" placeholder="4000000">
                                     <span style="margin-top:15px;display:inline-block;width:150px">
                                         <span class="paramtip">
                                             <label for="paramselout2">Parameter % <i class="fa fa-info-circle"></i></label>
@@ -1036,7 +1036,7 @@
                                 <tr>
                                     <td style="padding-top:5px;padding-bottom:5px;">Combo Bonus?</td>
                                     <td style="padding-top:5px;padding-bottom:5px;text-align:right;" colspan="2">
-                                        <div id="combobonus"></div>
+                                        <div id="eventcombobonus"></div>
                                     </td>
                                 </tr>
                                 <tr style="display:none" id="medleycharselect">

@@ -243,9 +243,7 @@ function fillStat(cardId) {
         return;
     }
 
-    var cardIdString = cardId.toString();
-
-    var obj = standardArray[cardIdString];
+    var obj = standardArray.find(item => item.id === parseInt(cardId));
     document.querySelector('input[name="cardField"]').value = obj.cardname;
     document.querySelector('input[name="heartField"]').value = obj.heart;
     document.getElementById("addnew_heart").innerHTML = obj.heart;
@@ -258,6 +256,7 @@ function fillStat(cardId) {
     var skill = Math.round(obj.skill * 100);
     document.querySelector('input[name="skillField"]').value = skill.toString() + "%";
     document.querySelector('input[name="pskillField"]').value = obj.passive;
+    var cardIdString = cardId.toString();
     var et = localEt.get(cardIdString) || 0;
 
     document.querySelector('input[name="etField"]').value = et;
@@ -855,8 +854,8 @@ function getMedleyPower() {
 // Return medley bonus power based on the card's ET
 function getMedleyBonus(identifier) {
     var et = document.getElementById(identifier + "_et").value;
-    var id = document.getElementById(identifier + "_id").innerHTML;
-    var rarity = standardArray[id].rarity;
+    var id = parseInt(document.getElementById(identifier + "_id").innerHTML);
+    var rarity = standardArray.find(item => item.id === id).rarity;
     var bonus = .5;
 
     if (!isComboBonus()) {
@@ -1196,8 +1195,8 @@ function setEventPerc(identifier) {
 
 function getEventPercBonus(identifier) {
     var et = document.getElementById(identifier + "_et").value;
-    var id = document.getElementById(identifier + "_id").innerHTML;
-    var rarity = standardArray[id].rarity;
+    var id = parseInt(document.getElementById(identifier + "_id").innerHTML);
+    var rarity = standardArray.find(item => item.id === id).rarity;
     var bonus = .2;
 
     if (!isComboBonus()) {
