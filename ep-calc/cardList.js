@@ -9866,6 +9866,9 @@ var standardArray = [];
 
 function generateCardArray() {
 
+    cardArray = [];
+    cardArray2 = [];
+
     var tempStats = new Map();
     var tempEt = new Map();
     var tempParam = new Map();
