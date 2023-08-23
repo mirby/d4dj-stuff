@@ -9732,6 +9732,62 @@ var cards = {
             "skill": .25,
             "icon": "card_icon_050110001_1.2c434877",
             "passive": "Auto Boost 1.5-2.5%"
+        },
+        "693": {
+            "id": 693,
+            "character": "Saki",
+            "cardname": "Tropical＊eyes",
+            "unit": "Photon",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 19449,
+            "technical": 15259,
+            "physical": 7747,
+            "skill": .5,
+            "icon": "card_icon_040310014_1.9aacdb68",
+            "passive": "Auto Boost 2.5-8%"
+        },
+        "694": {
+            "id": 694,
+            "character": "Ibuki",
+            "cardname": "Sweet×waterside",
+            "unit": "Photon",
+            "type": "Elegant",
+            "rarity": 3,
+            "heart": 16643,
+            "technical": 7915,
+            "physical": 6695,
+            "skill": .3,
+            "icon": "card_icon_030320007_1.2427adc6",
+            "passive": "Groovy Bonus 5-10%"
+        },
+        "695": {
+            "id": 695,
+            "character": "Towa",
+            "cardname": "Hungry♡pool",
+            "unit": "Photon",
+            "type": "Elegant",
+            "rarity": 3,
+            "heart": 17247,
+            "technical": 6147,
+            "physical": 7985,
+            "skill": .3,
+            "icon": "card_icon_030330007_1.02ad0023",
+            "passive": "Life Boost 1-2.5%"
+        },
+        "696": {
+            "id": 696,
+            "character": "Noa",
+            "cardname": "Splash＋reading",
+            "unit": "Photon",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 20579,
+            "technical": 7911,
+            "physical": 14631,
+            "skill": .5,
+            "icon": "card_icon_040340015_1.db4e3ec0",
+            "passive": "Groovy Solo 20-60%"
         }
     }
 

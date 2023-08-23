@@ -194,6 +194,7 @@ function getCardSet(type) {
         "101":["Wanderer", "Tuning", "Transience", "Heartbeat"],
         "106":["On This Fine Day", "Heavenly Stairway", "In This Shining World", "Dazzling Bravery"],
         "110":["Tiny Light", "Overflowing Splendor", "Girl Spinning", "Brilliant Flowers"],
+        "113":["Sweet×waterside", "Tropical＊eyes", "Hungry♡pool", "Splash＋reading"],
     };
 
     var raidSet = {
@@ -1299,6 +1300,17 @@ var eventList = {
         "type":"Bingo",
         "style":"Party",
         "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
+    "113": {
+        "id":113,
+        "name":"This Summer=My KAWAII",
+        "characters":"Saki,Ibuki,Towa,Noa",
+        "type":"Medley",
+        "style":"Elegant",
+        "parameter":"Heart",
         "bonus":true,
         "comboBonus":true,
         "addition":""
