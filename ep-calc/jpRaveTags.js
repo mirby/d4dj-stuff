@@ -1457,14 +1457,16 @@ var jpTags = [
         "name": "Let you DIVE!",
         "tags": [
             "Game Category",
-            "Songs with !"
+            "Songs with !",
+            "WACCA"
         ]
     },
     {
         "id": 5030024,
         "name": "Knight Rider",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "WACCA"
         ]
     },
     {
@@ -1925,7 +1927,8 @@ var jpTags = [
         "id": 5030037,
         "name": "ADAM",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "WACCA"
         ]
     },
     {
@@ -1933,14 +1936,17 @@ var jpTags = [
         "name": "Exitium",
         "tags": [
             "Game Category",
-            "Spring 23 Dan"
+            "Spring 23 Dan",
+            "BPM over 250",
+            "WACCA"
         ]
     },
     {
         "id": 5030039,
         "name": "Invisible Frenzy",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "WACCA"
         ]
     },
     {
@@ -1948,7 +1954,8 @@ var jpTags = [
         "name": "ONOMATO Pairing!!!",
         "tags": [
             "Game Category",
-            "Songs with !"
+            "Songs with !",
+            "WACCA"
         ]
     },
     {
@@ -1956,7 +1963,8 @@ var jpTags = [
         "name": "Quon",
         "tags": [
             "Game Category",
-            "Spring 23 Dan"
+            "Spring 23 Dan",
+            "WACCA"
         ]
     },
     {
@@ -2384,7 +2392,8 @@ var jpTags = [
         "name": "雁矢よしのの話",
         "tags": [
             "Base Category",
-            "Spring 23 Dan"
+            "Spring 23 Dan",
+            "Princess Letters"
         ]
     },
     {
@@ -2392,7 +2401,8 @@ var jpTags = [
         "name": "水茎あやめの話",
         "tags": [
             "Base Category",
-            "Spring 23 Dan"
+            "Spring 23 Dan",
+            "Princess Letters"
         ]
     },
     {
@@ -2400,7 +2410,8 @@ var jpTags = [
         "name": "金魚鉢たよりの話",
         "tags": [
             "Base Category",
-            "Spring 23 Dan"
+            "Spring 23 Dan",
+            "Princess Letters"
         ]
     },
     {
@@ -2507,14 +2518,16 @@ var jpTags = [
         "name": "BUCHiGiRE Berserker",
         "tags": [
             "Game Category",
-            "Summer 22 Dan"
+            "Summer 22 Dan",
+            "Groove Coaster"
         ]
     },
     {
         "id": 5030045,
         "name": "Solar Storm",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Groove Coaster"
         ]
     },
     {
@@ -2522,28 +2535,32 @@ var jpTags = [
         "name": "DX超性能フルメタル少女",
         "tags": [
             "Game Category",
-            "Songs starting with D"
+            "Songs starting with D",
+            "Groove Coaster"
         ]
     },
     {
         "id": 5030047,
         "name": "Little Higher",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Groove Coaster"
         ]
     },
     {
         "id": 5030048,
         "name": "It's a pit world",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Groove Coaster"
         ]
     },
     {
         "id": 5030049,
         "name": "グルーヴ・ザ・ハート",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Groove Coaster"
         ]
     },
     {
@@ -2754,7 +2771,8 @@ var jpTags = [
             "Game Category",
             "Summer 23 Dan",
             "Touhou",
-            "Songs with Numerals"
+            "Songs with Numerals",
+            "BPM over 250"
         ]
     },
     {
@@ -2809,7 +2827,8 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Spring 23 Dan",
-            "Songs with !"
+            "Songs with !",
+            "Princess Letters"
         ]
     },
     {
@@ -3027,7 +3046,8 @@ var jpTags = [
             "Autumn 22 Dan",
             "Winter 23 Dan",
             "Numbers Spelled Out",
-            "Event Songs"
+            "Event Songs",
+            "BPM over 250"
         ]
     },
     {
@@ -3070,7 +3090,8 @@ var jpTags = [
         "name": "Floating Flower(s)!",
         "tags": [
             "Base Category",
-            "Songs with !"
+            "Songs with !",
+            "Princess Letters"
         ]
     },
     {
@@ -3176,7 +3197,8 @@ var jpTags = [
             "RONDO",
             "Cover Category",
             "Autumn 22 Dan",
-            "Cover Tracks Vol 7"
+            "Cover Tracks Vol 7",
+            "BPM over 250"
         ]
     },
     {
@@ -3283,7 +3305,8 @@ var jpTags = [
         "name": "リトル・シークレット（feat.TAKU INOUE）",
         "tags": [
             "Base Category",
-            "Winter 23 Dan"
+            "Winter 23 Dan",
+            "Princess Letters"
         ]
     },
     {
@@ -3291,14 +3314,17 @@ var jpTags = [
         "name": "ハジメテタヨリ☆（feat.かめりあ）",
         "tags": [
             "Base Category",
-            "Winter 23 Dan"
+            "Winter 23 Dan",
+            "BPM over 250",
+            "Princess Letters"
         ]
     },
     {
         "id": 5050147,
         "name": "よあけのあやめ（feat.Tomggg）",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Princess Letters"
         ]
     },
     {
@@ -3446,7 +3472,8 @@ var jpTags = [
         "name": "Love the Subhuman Self",
         "tags": [
             "Game Category",
-            "Songs with Love (愛,恋)"
+            "Songs with Love (愛,恋)",
+            "BPM over 250"
         ]
     },
     {
@@ -3487,7 +3514,8 @@ var jpTags = [
         "name": "Sprout（feat.KOTONOHOUSE）",
         "tags": [
             "Base Category",
-            "Winter 23 Dan"
+            "Winter 23 Dan",
+            "Princess Letters"
         ]
     },
     {
@@ -3495,7 +3523,8 @@ var jpTags = [
         "name": "見えない翼（feat.bassy）",
         "tags": [
             "Base Category",
-            "Songs with Wings"
+            "Songs with Wings",
+            "Princess Letters"
         ]
     },
     {
@@ -3503,7 +3532,8 @@ var jpTags = [
         "name": "タイヤキアイドル☆たよりん参上！（feat.ヒゲドライバー）",
         "tags": [
             "Base Category",
-            "Songs with !"
+            "Songs with !",
+            "Princess Letters"
         ]
     },
     {
@@ -3765,7 +3795,8 @@ var jpTags = [
         "name": "with U",
         "tags": [
             "Game Category",
-            "Winter 23 Dan"
+            "Winter 23 Dan",
+            "WACCA"
         ]
     },
     {
@@ -3773,7 +3804,8 @@ var jpTags = [
         "name": "Ouvertüre",
         "tags": [
             "Game Category",
-            "Winter 23 Dan"
+            "Winter 23 Dan",
+            "WACCA"
         ]
     },
     {
@@ -3785,20 +3817,6 @@ var jpTags = [
             "Spring 23 Dan",
             "Summer 23 Dan",
             "Songs starting with D"
-        ]
-    },
-    {
-        "id": 5050164,
-        "name": "頭ん中DEAD END",
-        "tags": [
-            "Base Category"
-        ]
-    },
-    {
-        "id": 5050165,
-        "name": "Wherever",
-        "tags": [
-            "Base Category"
         ]
     },
     {
@@ -3818,7 +3836,8 @@ var jpTags = [
             "Merm4id",
             "Original Category",
             "Songs starting with D",
-            "Songs with MV"
+            "Songs with MV",
+            "BPM over 250"
         ]
     },
     {
@@ -3899,7 +3918,8 @@ var jpTags = [
             "Autumn 22 Dan",
             "Spring 23 Dan",
             "Summer 23 Dan",
-            "Songs with !"
+            "Songs with !",
+            "BPM over 250"
         ]
     },
     {
@@ -4088,7 +4108,8 @@ var jpTags = [
         "name": "Utauyo!!MIRACLE",
         "tags": [
             "Base Category",
-            "Songs with !"
+            "Songs with !",
+            "BPM over 250"
         ]
     },
     {
@@ -4104,7 +4125,8 @@ var jpTags = [
         "name": "Get into the Abyssmare",
         "tags": [
             "Abyssmare",
-            "Original Category"
+            "Original Category",
+            "Side Nova"
         ]
     },
     {
@@ -4346,7 +4368,8 @@ var jpTags = [
             "UniChØrd",
             "Original Category",
             "Spring 23 Dan",
-            "Songs with MV"
+            "Songs with MV",
+            "Side Nova"
         ]
     },
     {
@@ -4435,7 +4458,8 @@ var jpTags = [
             "RONDO",
             "Original Category",
             "Spring 23 Dan",
-            "Songs with MV"
+            "Songs with MV",
+            "BPM over 250"
         ]
     },
     {
@@ -4508,7 +4532,8 @@ var jpTags = [
         "name": "WINNER",
         "tags": [
             "Abyssmare",
-            "Original Category"
+            "Original Category",
+            "Side Nova"
         ]
     },
     {
@@ -4538,7 +4563,8 @@ var jpTags = [
             "UniChØrd",
             "Original Category",
             "Summer 23 Dan",
-            "Songs starting with D"
+            "Songs starting with D",
+            "Side Nova"
         ]
     },
     {
@@ -4723,7 +4749,8 @@ var jpTags = [
             "UniChØrd",
             "Original Category",
             "Summer 23 Dan",
-            "Songs with MV"
+            "Songs with MV",
+            "Side Nova"
         ]
     },
     {
@@ -4732,7 +4759,8 @@ var jpTags = [
         "tags": [
             "Abyssmare",
             "Original Category",
-            "Songs with MV"
+            "Songs with MV",
+            "Side Nova"
         ]
     },
     {
@@ -4741,7 +4769,8 @@ var jpTags = [
         "tags": [
             "Special (unit)",
             "Original Category",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "Side Nova"
         ]
     },
     {
@@ -4883,7 +4912,8 @@ var jpTags = [
         "name": "ユメみロ",
         "tags": [
             "Base Category",
-            "Bushiroad"
+            "Bushiroad",
+            "BPM over 250"
         ]
     },
     {
@@ -4899,7 +4929,8 @@ var jpTags = [
         "name": "クリカエステップ",
         "tags": [
             "UniChØrd",
-            "Original Category"
+            "Original Category",
+            "Side Nova"
         ]
     },
     {
@@ -4907,7 +4938,8 @@ var jpTags = [
         "name": "STORY",
         "tags": [
             "Abyssmare",
-            "Original Category"
+            "Original Category",
+            "Side Nova"
         ]
     },
     {
@@ -4936,11 +4968,76 @@ var jpTags = [
         ]
     },
     {
+        "id": 5050172,
+        "name": "Re：End of a Dream",
+        "tags": [
+            "Base Category",
+            "Songs with MV"
+        ]
+    },
+    {
+        "id": 5050173,
+        "name": "enchanted love",
+        "tags": [
+            "Base Category",
+            "Songs with Love (愛,恋)"
+        ]
+    },
+    {
+        "id": 5050174,
+        "name": "Vallista",
+        "tags": [
+            "Base Category",
+            "Songs with MV"
+        ]
+    },
+    {
+        "id": 5050175,
+        "name": "ENERGY SYNERGY MATRIX",
+        "tags": [
+            "Base Category",
+            "Songs with MV"
+        ]
+    },
+    {
+        "id": 3020029,
+        "name": "青と夏",
+        "tags": [
+            "Special (unit)",
+            "Cover Category"
+        ]
+    },
+    {
         "id": 110033,
         "name": "アバンチューールなサマーデーーイズ",
         "tags": [
             "Happy Around!",
             "Original Category"
+        ]
+    },
+    {
+        "id": 210022,
+        "name": "真夏のInstant",
+        "tags": [
+            "Peaky P-key",
+            "Original Category"
+        ]
+    },
+    {
+        "id": 310022,
+        "name": "FriendShip",
+        "tags": [
+            "Photon Maiden",
+            "Original Category"
+        ]
+    },
+    {
+        "id": 410022,
+        "name": "MAX!!!!",
+        "tags": [
+            "Merm4id",
+            "Original Category",
+            "Songs with !"
         ]
     },
     {
@@ -4956,6 +5053,14 @@ var jpTags = [
         "name": "真夏の朝の夢",
         "tags": [
             "Lyrical Lily",
+            "Original Category"
+        ]
+    },
+    {
+        "id": 810005,
+        "name": "ピコピコ音頭",
+        "tags": [
+            "UniChØrd",
             "Original Category"
         ]
     },
@@ -4982,47 +5087,28 @@ var jpTags = [
         ]
     },
     {
-        "id": 5050172,
-        "name": "Re：End of a Dream",
-        "tags": [
-            "Base Category"
-        ]
-    },
-    {
-        "id": 5050173,
-        "name": "enchanted love",
-        "tags": [
-            "Base Category"
-        ]
-    },
-    {
-        "id": 5050174,
-        "name": "Vallista",
-        "tags": [
-            "Base Category"
-        ]
-    },
-    {
-        "id": 5050175,
-        "name": "ENERGY SYNERGY MATRIX",
-        "tags": [
-            "Base Category"
-        ]
-    },
-    {
-        "id": 410022,
-        "name": "MAX!!!!",
+        "id": 420019,
+        "name": "君のせい",
         "tags": [
             "Merm4id",
-            "Original Category"
+            "Cover Category"
         ]
     },
     {
-        "id": 810005,
-        "name": "ピコピコ音頭",
+        "id": 120023,
+        "name": "ヒャダインのじょーじょーゆーじょー",
         "tags": [
-            "UniChØrd",
-            "Original Category"
+            "Happy Around!",
+            "Cover Category",
+            "Cover Tracks Vol 8"
+        ]
+    },
+    {
+        "id": 5050251,
+        "name": "追想のラグナロク",
+        "tags": [
+            "Base Category",
+            "Vtuber"
         ]
     }
 ]
