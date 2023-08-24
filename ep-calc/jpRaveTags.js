@@ -45,7 +45,8 @@ var jpTags = [
             "Peaky P-key",
             "Original Category",
             "Autumn 22 Dan",
-            "First Mix"
+            "First Mix",
+            "D4DJ Anime"
         ]
     },
     {
@@ -57,7 +58,8 @@ var jpTags = [
             "Summer 22 Dan",
             "First Mix",
             "Groovy Fes",
-            "Songs with !"
+            "Songs with !",
+            "D4DJ Anime"
         ]
     },
     {
@@ -75,7 +77,8 @@ var jpTags = [
         "tags": [
             "Photon Maiden",
             "Original Category",
-            "First Mix"
+            "First Mix",
+            "D4DJ Anime"
         ]
     },
     {
@@ -115,7 +118,8 @@ var jpTags = [
             "Merm4id",
             "Original Category",
             "First Mix",
-            "Groovy Fes"
+            "Groovy Fes",
+            "D4DJ Anime"
         ]
     },
     {
@@ -153,7 +157,8 @@ var jpTags = [
         "tags": [
             "RONDO",
             "Original Category",
-            "First Mix"
+            "First Mix",
+            "D4DJ Anime"
         ]
     },
     {
@@ -214,7 +219,8 @@ var jpTags = [
             "Original Category",
             "Summer 22 Dan",
             "Autumn 22 Dan",
-            "First Mix"
+            "First Mix",
+            "D4DJ Anime"
         ]
     },
     {
@@ -302,7 +308,8 @@ var jpTags = [
         "tags": [
             "Happy Around!",
             "Original Category",
-            "First Mix"
+            "First Mix",
+            "D4DJ Anime"
         ]
     },
     {
@@ -312,7 +319,8 @@ var jpTags = [
             "Merm4id",
             "Original Category",
             "Summer 22 Dan",
-            "First Mix"
+            "First Mix",
+            "D4DJ Anime"
         ]
     },
     {
@@ -954,7 +962,8 @@ var jpTags = [
             "Original Category",
             "First Mix",
             "Groovy Fes",
-            "Songs with MV"
+            "Songs with MV",
+            "D4DJ Anime"
         ]
     },
     {
@@ -994,7 +1003,8 @@ var jpTags = [
             "Winter 23 Dan",
             "Summer 23 Dan",
             "First Mix",
-            "Songs with MV"
+            "Songs with MV",
+            "D4DJ Anime"
         ]
     },
     {
@@ -1077,7 +1087,8 @@ var jpTags = [
         "tags": [
             "Special (unit)",
             "Cover Category",
-            "First Mix"
+            "First Mix",
+            "D4DJ Anime"
         ]
     },
     {
@@ -1111,7 +1122,8 @@ var jpTags = [
         "tags": [
             "Happy Around!",
             "Original Category",
-            "First Mix"
+            "First Mix",
+            "D4DJ Anime"
         ]
     },
     {
@@ -1171,7 +1183,8 @@ var jpTags = [
             "Original Category",
             "Winter 23 Dan",
             "First Mix",
-            "Songs with !"
+            "Songs with !",
+            "D4DJ Anime"
         ]
     },
     {
@@ -1259,7 +1272,8 @@ var jpTags = [
         "tags": [
             "Happy Around!",
             "Cover Category",
-            "First Mix"
+            "First Mix",
+            "D4DJ Anime"
         ]
     },
     {
@@ -1288,7 +1302,8 @@ var jpTags = [
             "Original Category",
             "Summer 22 Dan",
             "First Mix",
-            "Songs with !"
+            "Songs with !",
+            "D4DJ Anime"
         ]
     },
     {
@@ -1299,7 +1314,8 @@ var jpTags = [
             "Original Category",
             "Spring 23 Dan",
             "First Mix",
-            "Songs with !"
+            "Songs with !",
+            "D4DJ Anime"
         ]
     },
     {
@@ -1310,7 +1326,8 @@ var jpTags = [
             "Original Category",
             "Summer 22 Dan",
             "Summer 23 Dan",
-            "First Mix"
+            "First Mix",
+            "D4DJ Anime"
         ]
     },
     {
@@ -1320,7 +1337,8 @@ var jpTags = [
             "Happy Around!",
             "Original Category",
             "Autumn 22 Dan",
-            "First Mix"
+            "First Mix",
+            "D4DJ Anime"
         ]
     },
     {
@@ -1496,7 +1514,8 @@ var jpTags = [
             "Peaky P-key",
             "Original Category",
             "Summer 22 Dan",
-            "First Mix"
+            "First Mix",
+            "D4DJ Anime"
         ]
     },
     {
@@ -1516,7 +1535,8 @@ var jpTags = [
             "Original Category",
             "Summer 22 Dan",
             "Summer 23 Dan",
-            "First Mix"
+            "First Mix",
+            "D4DJ Anime"
         ]
     },
     {
@@ -1587,7 +1607,8 @@ var jpTags = [
         "name": "NEXT COLOR PLANET",
         "tags": [
             "Base Category",
-            "Vtuber"
+            "Vtuber",
+            "Hololive"
         ]
     },
     {
@@ -1620,7 +1641,8 @@ var jpTags = [
         "name": "#あくあ色ぱれっと",
         "tags": [
             "Base Category",
-            "Vtuber"
+            "Vtuber",
+            "Hololive"
         ]
     },
     {
@@ -1630,7 +1652,8 @@ var jpTags = [
             "Happy Around!",
             "Original Category",
             "First Mix",
-            "Numbers Spelled Out"
+            "Numbers Spelled Out",
+            "D4DJ Anime"
         ]
     },
     {
@@ -1685,7 +1708,8 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Vtuber",
-            "Songs with !"
+            "Songs with !",
+            "Hololive"
         ]
     },
     {
@@ -1758,7 +1782,8 @@ var jpTags = [
         "tags": [
             "Photon Maiden",
             "Original Category",
-            "First Mix"
+            "First Mix",
+            "D4DJ Anime"
         ]
     },
     {
@@ -2733,7 +2758,8 @@ var jpTags = [
         "name": "Stellar Stellar",
         "tags": [
             "Base Category",
-            "Vtuber"
+            "Vtuber",
+            "Hololive"
         ]
     },
     {
@@ -3770,7 +3796,8 @@ var jpTags = [
         "tags": [
             "Lyrical Lily",
             "Original Category",
-            "Songs with MV"
+            "Songs with MV",
+            "D4DJ Anime"
         ]
     },
     {
@@ -3837,7 +3864,8 @@ var jpTags = [
             "Original Category",
             "Songs starting with D",
             "Songs with MV",
-            "BPM over 250"
+            "BPM over 250",
+            "D4DJ Anime"
         ]
     },
     {
@@ -3847,7 +3875,8 @@ var jpTags = [
             "Peaky P-key",
             "Original Category",
             "Songs with !",
-            "Songs with MV"
+            "Songs with MV",
+            "D4DJ Anime"
         ]
     },
     {
@@ -3856,7 +3885,8 @@ var jpTags = [
         "tags": [
             "Special (unit)",
             "Original Category",
-            "Autumn 22 Dan"
+            "Autumn 22 Dan",
+            "D4DJ Anime"
         ]
     },
     {
@@ -4437,7 +4467,8 @@ var jpTags = [
             "Happy Around!",
             "Original Category",
             "Songs with ♡",
-            "Songs with MV"
+            "Songs with MV",
+            "D4DJ Anime"
         ]
     },
     {
@@ -4448,7 +4479,8 @@ var jpTags = [
             "Original Category",
             "Summer 23 Dan",
             "Songs with Numerals",
-            "Songs with MV"
+            "Songs with MV",
+            "D4DJ Anime"
         ]
     },
     {
@@ -4459,7 +4491,8 @@ var jpTags = [
             "Original Category",
             "Spring 23 Dan",
             "Songs with MV",
-            "BPM over 250"
+            "BPM over 250",
+            "D4DJ Anime"
         ]
     },
     {
@@ -4469,7 +4502,8 @@ var jpTags = [
             "Special (unit)",
             "Original Category",
             "Songs with !",
-            "Songs with MV"
+            "Songs with MV",
+            "D4DJ Anime"
         ]
     },
     {
@@ -4478,7 +4512,8 @@ var jpTags = [
         "tags": [
             "Special (unit)",
             "Original Category",
-            "Songs with MV"
+            "Songs with MV",
+            "D4DJ Anime"
         ]
     },
     {
@@ -4487,7 +4522,8 @@ var jpTags = [
         "tags": [
             "Special (unit)",
             "Original Category",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "D4DJ Anime"
         ]
     },
     {
@@ -4495,7 +4531,8 @@ var jpTags = [
         "name": "Around and Around",
         "tags": [
             "Special (unit)",
-            "Original Category"
+            "Original Category",
+            "D4DJ Anime"
         ]
     },
     {
@@ -4505,7 +4542,8 @@ var jpTags = [
             "Special (unit)",
             "Original Category",
             "Songs starting with D",
-            "Songs with MV"
+            "Songs with MV",
+            "D4DJ Anime"
         ]
     },
     {
@@ -4671,7 +4709,8 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Songs with ♡",
-            "Vtuber"
+            "Vtuber",
+            "Hololive"
         ]
     },
     {
@@ -4679,7 +4718,8 @@ var jpTags = [
         "name": "常夜リペイント",
         "tags": [
             "Base Category",
-            "Vtuber"
+            "Vtuber",
+            "Hololive"
         ]
     },
     {
@@ -4688,7 +4728,8 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Vtuber",
-            "Songs with !"
+            "Songs with !",
+            "Hololive"
         ]
     },
     {
@@ -4696,7 +4737,8 @@ var jpTags = [
         "name": "未だ、青い",
         "tags": [
             "Base Category",
-            "Vtuber"
+            "Vtuber",
+            "Hololive"
         ]
     },
     {
@@ -4704,7 +4746,8 @@ var jpTags = [
         "name": "Sparklers",
         "tags": [
             "Base Category",
-            "Vtuber"
+            "Vtuber",
+            "Hololive"
         ]
     },
     {
