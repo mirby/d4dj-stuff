@@ -1580,14 +1580,16 @@ var jpTags = [
         "id": 5030025,
         "name": "星に駆られて（Masayoshi Iimori × DJ Genki REMIX）",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Monster Hunter"
         ]
     },
     {
         "id": 5030026,
         "name": "英雄の証 MonsterHunter：World version（TeddyLoid × BUGLOUD REMIX）",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Monster Hunter"
         ]
     },
     {
@@ -1595,7 +1597,8 @@ var jpTags = [
         "name": "禁断の地へと誘う獣らの囁き（kors k × sky_delta REMIX）",
         "tags": [
             "Game Category",
-            "Summer 22 Dan"
+            "Summer 22 Dan",
+            "Monster Hunter"
         ]
     },
     {
@@ -1604,7 +1607,8 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Songs with Numerals",
-            "Songs with Medley"
+            "Songs with Medley",
+            "Monster Hunter"
         ]
     },
     {
@@ -1620,7 +1624,8 @@ var jpTags = [
         "id": 5030027,
         "name": "継がれる光（Rasmus Faber × fu_mou REMIX）",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Monster Hunter"
         ]
     },
     {
@@ -1629,7 +1634,8 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Songs with Numerals",
-            "Songs with Medley"
+            "Songs with Medley",
+            "Monster Hunter"
         ]
     },
     {
@@ -1638,7 +1644,8 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Songs with Numerals",
-            "Songs with Medley"
+            "Songs with Medley",
+            "Monster Hunter"
         ]
     },
     {
@@ -3803,7 +3810,8 @@ var jpTags = [
             "Lyrical Lily",
             "Original Category",
             "Songs with MV",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "All Mix"
         ]
     },
     {
@@ -3871,7 +3879,8 @@ var jpTags = [
             "Songs starting with D",
             "Songs with MV",
             "BPM over 250",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "All Mix"
         ]
     },
     {
@@ -3882,7 +3891,8 @@ var jpTags = [
             "Original Category",
             "Songs with !",
             "Songs with MV",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "All Mix"
         ]
     },
     {
@@ -4474,7 +4484,8 @@ var jpTags = [
             "Original Category",
             "Songs with ♡",
             "Songs with MV",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "All Mix"
         ]
     },
     {
@@ -4486,7 +4497,8 @@ var jpTags = [
             "Summer 23 Dan",
             "Songs with Numerals",
             "Songs with MV",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "All Mix"
         ]
     },
     {
@@ -4498,7 +4510,8 @@ var jpTags = [
             "Spring 23 Dan",
             "Songs with MV",
             "BPM over 250",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "All Mix"
         ]
     },
     {
@@ -4509,7 +4522,8 @@ var jpTags = [
             "Original Category",
             "Songs with !",
             "Songs with MV",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "All Mix"
         ]
     },
     {
@@ -4519,7 +4533,8 @@ var jpTags = [
             "Special (unit)",
             "Original Category",
             "Songs with MV",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "All Mix"
         ]
     },
     {
@@ -4529,7 +4544,8 @@ var jpTags = [
             "Special (unit)",
             "Original Category",
             "Summer 23 Dan",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "All Mix"
         ]
     },
     {
@@ -4538,7 +4554,8 @@ var jpTags = [
         "tags": [
             "Special (unit)",
             "Original Category",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "All Mix"
         ]
     },
     {
@@ -4549,7 +4566,8 @@ var jpTags = [
             "Original Category",
             "Songs starting with D",
             "Songs with MV",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "All Mix"
         ]
     },
     {

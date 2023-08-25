@@ -3,6 +3,8 @@ var tagMap = new Map();
 
 const tags = [
     "A:First Mix",
+    "A:All Mix",
+    "A:D4FES Songs",
     "A:Side Origin",
     "A:Groovy Fes",
     "A:August",
@@ -15,6 +17,7 @@ const tags = [
     "A:WACCA",
     "A:Groove Coaster",
     "A:Wrestling",
+    "A:Monster Hunter",
     "A:Numbers Spelled Out",
     "A:BPM over 250",
     "A:Songs with Black or White",
@@ -38,7 +41,6 @@ const tags = [
     "A:UniChØrd",
     "A:Abyssmare",
     "B:D4DJ Anime",
-    "B:D4FES Songs",
     "B:Event Songs",
     "B:Side Nova",
     "B:Bushiroad",
