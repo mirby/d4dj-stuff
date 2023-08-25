@@ -25,6 +25,7 @@ const tags = [
     "A:Songs with Sakura",
     "A:Songs with Wings",
     "A:Songs with ♡",
+    "A:Songs with Theme (テーマ)",
     "A:Songs starting with D",
     "A:Cover Tracks Vol 1",
     "A:Cover Tracks Vol 2",

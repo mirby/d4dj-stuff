@@ -402,7 +402,8 @@ var jpTags = [
         "id": 5040008,
         "name": "「警部補・古畑任三郎」のテーマ",
         "tags": [
-            "Instrumental Category"
+            "Instrumental Category",
+            "Songs with Theme (テーマ)"
         ]
     },
     {
@@ -480,7 +481,8 @@ var jpTags = [
         "id": 5040003,
         "name": "仁義なき戦いのテーマ",
         "tags": [
-            "Instrumental Category"
+            "Instrumental Category",
+            "Songs with Theme (テーマ)"
         ]
     },
     {
@@ -599,7 +601,8 @@ var jpTags = [
         "id": 5040006,
         "name": "徹子の部屋のテーマ",
         "tags": [
-            "Instrumental Category"
+            "Instrumental Category",
+            "Songs with Theme (テーマ)"
         ]
     },
     {
@@ -674,7 +677,8 @@ var jpTags = [
         "id": 5040002,
         "name": "ルパン三世のテーマ",
         "tags": [
-            "Instrumental Category"
+            "Instrumental Category",
+            "Songs with Theme (テーマ)"
         ]
     },
     {
@@ -934,7 +938,8 @@ var jpTags = [
         "id": 5040009,
         "name": "太陽にほえろのテーマ",
         "tags": [
-            "Instrumental Category"
+            "Instrumental Category",
+            "Songs with Theme (テーマ)"
         ]
     },
     {
@@ -2935,7 +2940,8 @@ var jpTags = [
         "id": 5050122,
         "name": "コミブシWEBのテーマ",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Songs with Theme (テーマ)"
         ]
     },
     {
@@ -4873,7 +4879,6 @@ var jpTags = [
         "name": "ティアーズテイル",
         "tags": [
             "Base Category",
-            "Wrestling",
             "Bushiroad"
         ]
     },
