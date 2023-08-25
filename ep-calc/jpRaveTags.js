@@ -4622,7 +4622,8 @@ var jpTags = [
             "Special (unit)",
             "Original Category",
             "Summer 23 Dan",
-            "Songs with MV"
+            "Songs with MV",
+            "Songs with Cat"
         ]
     },
     {
