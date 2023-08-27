@@ -30,6 +30,7 @@ const tags = [
     "A:Songs with ♡",
     "A:Songs with Theme (テーマ)",
     "A:Songs starting with D",
+    "A:Songs with 女",
     "A:Cover Tracks Vol 1",
     "A:Cover Tracks Vol 2",
     "A:Cover Tracks Vol 3",

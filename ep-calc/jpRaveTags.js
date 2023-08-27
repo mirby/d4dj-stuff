@@ -68,7 +68,8 @@ var jpTags = [
         "tags": [
             "Peaky P-key",
             "Cover Category",
-            "Cover Tracks Vol 3"
+            "Cover Tracks Vol 3",
+            "Songs with 女"
         ]
     },
     {
@@ -773,7 +774,8 @@ var jpTags = [
             "Happy Around!",
             "Cover Category",
             "Cover Tracks Vol 2",
-            "Songs with !"
+            "Songs with !",
+            "Songs with 女"
         ]
     },
     {
@@ -1474,7 +1476,8 @@ var jpTags = [
             "Game Category",
             "Summer 22 Dan",
             "Summer 23 Dan",
-            "Touhou"
+            "Touhou",
+            "Songs with 女"
         ]
     },
     {
@@ -1511,7 +1514,8 @@ var jpTags = [
         "name": "U.N.オーエンは彼女なのか？ (USAO Euphoric Frenchcore Remix)",
         "tags": [
             "Game Category",
-            "Touhou"
+            "Touhou",
+            "Songs with 女"
         ]
     },
     {
@@ -2578,7 +2582,8 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Songs starting with D",
-            "Groove Coaster"
+            "Groove Coaster",
+            "Songs with 女"
         ]
     },
     {
@@ -3319,7 +3324,8 @@ var jpTags = [
         "id": 5030070,
         "name": "花咲く乙女",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Songs with 女"
         ]
     },
     {
