@@ -309,7 +309,8 @@ var jpTags = [
             "Happy Around!",
             "Original Category",
             "First Mix",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "All Mix"
         ]
     },
     {
@@ -1320,7 +1321,8 @@ var jpTags = [
             "Spring 23 Dan",
             "First Mix",
             "Songs with !",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "All Mix"
         ]
     },
     {
@@ -2112,7 +2114,8 @@ var jpTags = [
             "Original Category",
             "Summer 22 Dan",
             "Summer 23 Dan",
-            "Event Songs"
+            "Event Songs",
+            "All Mix"
         ]
     },
     {
@@ -2140,7 +2143,8 @@ var jpTags = [
             "Merm4id",
             "Original Category",
             "Event Songs",
-            "Songs with !"
+            "Songs with !",
+            "All Mix"
         ]
     },
     {
@@ -2538,7 +2542,8 @@ var jpTags = [
         "tags": [
             "RONDO",
             "Original Category",
-            "Songs with Black or White"
+            "Songs with Black or White",
+            "All Mix"
         ]
     },
     {
