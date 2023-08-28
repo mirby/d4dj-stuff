@@ -14,6 +14,9 @@ jQuery(function($) {
             storage.setItem("firstTime", "false");
         }
 
+        // Set mode theme
+        setInitialTheme();
+
         // Initialize growth updates
         var obj = JSON.parse(storage.getItem("growth"));
         if (obj) {
@@ -512,4 +515,27 @@ function patchParam(obj) {
         }
     });
     storage.setItem("param",JSON.stringify([...localParam]));
+}
+
+function setInitialTheme() {
+    document.getElementById("darkModeToggle").addEventListener("click", () => {
+        const currentMode = document.body.classList.contains("dark-mode") ? "light" : "dark";
+        setMode(currentMode);
+    });
+
+    const userMode = window.localStorage.getItem("mode");
+    if (userMode) {
+        setMode(userMode);
+    }
+}
+
+function setMode(mode) {
+    document.body.classList.toggle("dark-mode", mode === "dark");
+    document.body.classList.toggle("light-mode", mode === "light");
+    document.getElementById("darkModeToggle").textContent = mode === "dark" ? "Dark Mode" : "Light Mode";
+
+    window.localStorage.setItem("mode", mode);
+
+    document.documentElement.setAttribute('data-bs-theme', mode);
+    
 }
