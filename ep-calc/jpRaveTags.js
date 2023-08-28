@@ -1231,7 +1231,8 @@ var jpTags = [
             "Cover Category",
             "Autumn 22 Dan",
             "Winter 23 Dan",
-            "Cover Tracks Vol 4"
+            "Cover Tracks Vol 4",
+            "Songs with 女"
         ]
     },
     {
@@ -1443,7 +1444,9 @@ var jpTags = [
             "Lyrical Lily",
             "Cover Category",
             "Cover Tracks Vol 2",
-            "Event Songs"
+            "Event Songs",
+            "Vtuber",
+            "Hololive"
         ]
     },
     {
@@ -4442,7 +4445,8 @@ var jpTags = [
         "id": 5050201,
         "name": "ロボティックガール",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Songs with 女"
         ]
     },
     {
