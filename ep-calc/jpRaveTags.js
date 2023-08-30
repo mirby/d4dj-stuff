@@ -7,7 +7,10 @@ var jpTags = [
             "Original Category",
             "Songs starting with D",
             "Songs with !"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "92.6%",
+        "date": "2020-10-18"
     },
     {
         "id": 110002,
@@ -18,7 +21,10 @@ var jpTags = [
             "Spring 23 Dan",
             "Songs starting with D",
             "Songs with !"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "91.4%",
+        "date": "2020-10-18"
     },
     {
         "id": 120001,
@@ -27,7 +33,10 @@ var jpTags = [
             "Happy Around!",
             "Cover Category",
             "Autumn 22 Dan"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "93.9%",
+        "date": "2020-10-18"
     },
     {
         "id": 120002,
@@ -36,7 +45,10 @@ var jpTags = [
             "Happy Around!",
             "Cover Category",
             "Cover Tracks Vol 2"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.9%",
+        "date": "2020-10-24"
     },
     {
         "id": 210001,
@@ -47,7 +59,10 @@ var jpTags = [
             "Autumn 22 Dan",
             "First Mix",
             "D4DJ Anime"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "91.3%",
+        "date": "2020-10-18"
     },
     {
         "id": 210002,
@@ -60,7 +75,10 @@ var jpTags = [
             "Groovy Fes",
             "Songs with !",
             "D4DJ Anime"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "94.1%",
+        "date": "2020-10-18"
     },
     {
         "id": 220001,
@@ -70,7 +88,10 @@ var jpTags = [
             "Cover Category",
             "Cover Tracks Vol 3",
             "Songs with 女"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "93.6%",
+        "date": "2020-10-28"
     },
     {
         "id": 310001,
@@ -80,7 +101,10 @@ var jpTags = [
             "Original Category",
             "First Mix",
             "D4DJ Anime"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "93.0%",
+        "date": "2020-10-18"
     },
     {
         "id": 320001,
@@ -91,7 +115,10 @@ var jpTags = [
             "Cover Tracks Vol 3",
             "Songs with Numerals",
             "Songs with MV"
-        ]
+        ],
+        "level": "11+",
+        "scorePerc": "91.1%",
+        "date": "2020-10-18"
     },
     {
         "id": 320002,
@@ -101,7 +128,10 @@ var jpTags = [
             "Cover Category",
             "Spring 23 Dan",
             "Cover Tracks Vol 5"
-        ]
+        ],
+        "level": "10+",
+        "scorePerc": "89.6%",
+        "date": "2020-10-18"
     },
     {
         "id": 320003,
@@ -110,7 +140,10 @@ var jpTags = [
             "Photon Maiden",
             "Cover Category",
             "Cover Tracks Vol 2"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "91.5%",
+        "date": "2020-10-24"
     },
     {
         "id": 410001,
@@ -121,7 +154,10 @@ var jpTags = [
             "First Mix",
             "Groovy Fes",
             "D4DJ Anime"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "95.8%",
+        "date": "2020-10-18"
     },
     {
         "id": 420001,
@@ -131,7 +167,10 @@ var jpTags = [
             "Cover Category",
             "Cover Tracks Vol 3",
             "Songs with Cat"
-        ]
+        ],
+        "level": "11+",
+        "scorePerc": "96.0%",
+        "date": "2020-10-28"
     },
     {
         "id": 420002,
@@ -140,7 +179,10 @@ var jpTags = [
             "Merm4id",
             "Cover Category",
             "Cover Tracks Vol 1"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "96.1%",
+        "date": "2020-10-18"
     },
     {
         "id": 420003,
@@ -150,7 +192,10 @@ var jpTags = [
             "Cover Category",
             "Autumn 22 Dan",
             "Cover Tracks Vol 3"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "95.7%",
+        "date": "2020-10-24"
     },
     {
         "id": 510001,
@@ -160,7 +205,10 @@ var jpTags = [
             "Original Category",
             "First Mix",
             "D4DJ Anime"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "93.5%",
+        "date": "2020-10-18"
     },
     {
         "id": 520001,
@@ -171,7 +219,10 @@ var jpTags = [
             "Winter 23 Dan",
             "Cover Tracks Vol 1",
             "Songs starting with D"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "94.8%",
+        "date": "2020-10-28"
     },
     {
         "id": 520002,
@@ -181,7 +232,10 @@ var jpTags = [
             "Cover Category",
             "Autumn 22 Dan",
             "Cover Tracks Vol 5"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "93.1%",
+        "date": "2020-10-18"
     },
     {
         "id": 520003,
@@ -190,7 +244,10 @@ var jpTags = [
             "RONDO",
             "Cover Category",
             "Cover Tracks Vol 1"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "96.2%",
+        "date": "2020-10-18"
     },
     {
         "id": 120003,
@@ -201,7 +258,10 @@ var jpTags = [
             "Cover Tracks Vol 1",
             "Songs with Numerals",
             "Songs with Love (愛,恋)"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "92.5%",
+        "date": "2020-10-18"
     },
     {
         "id": 220003,
@@ -210,7 +270,10 @@ var jpTags = [
             "Peaky P-key",
             "Cover Category",
             "Cover Tracks Vol 2"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.0%",
+        "date": "2020-10-24"
     },
     {
         "id": 310002,
@@ -222,7 +285,10 @@ var jpTags = [
             "Autumn 22 Dan",
             "First Mix",
             "D4DJ Anime"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "95.7%",
+        "date": "2020-10-18"
     },
     {
         "id": 310003,
@@ -231,7 +297,10 @@ var jpTags = [
             "Photon Maiden",
             "Original Category",
             "Groovy Fes"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "96.1%",
+        "date": "2020-10-18"
     },
     {
         "id": 320004,
@@ -241,7 +310,10 @@ var jpTags = [
             "Cover Category",
             "Summer 22 Dan",
             "Cover Tracks Vol 1"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "93.3%",
+        "date": "2020-10-24"
     },
     {
         "id": 410002,
@@ -249,7 +321,10 @@ var jpTags = [
         "tags": [
             "Merm4id",
             "Original Category"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "94.2%",
+        "date": "2020-10-18"
     },
     {
         "id": 420004,
@@ -259,7 +334,10 @@ var jpTags = [
             "Cover Category",
             "Cover Tracks Vol 6",
             "Numbers Spelled Out"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "95.1%",
+        "date": "2020-10-24"
     },
     {
         "id": 510002,
@@ -273,7 +351,10 @@ var jpTags = [
             "Spring 23 Dan",
             "Summer 23 Dan",
             "Groovy Fes"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "97.3%",
+        "date": "2020-10-18"
     },
     {
         "id": 520005,
@@ -283,7 +364,10 @@ var jpTags = [
             "Cover Category",
             "Summer 23 Dan",
             "Cover Tracks Vol 4"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "92.9%",
+        "date": "2020-10-18"
     },
     {
         "id": 520004,
@@ -293,7 +377,10 @@ var jpTags = [
             "Cover Category",
             "Cover Tracks Vol 7",
             "Songs starting with D"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.1%",
+        "date": "2020-10-24"
     },
     {
         "id": 510003,
@@ -301,7 +388,10 @@ var jpTags = [
         "tags": [
             "RONDO",
             "Original Category"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "94.2%",
+        "date": "2020-10-24"
     },
     {
         "id": 110003,
@@ -312,7 +402,10 @@ var jpTags = [
             "First Mix",
             "D4DJ Anime",
             "All Mix"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "93.4%",
+        "date": "2020-10-18"
     },
     {
         "id": 410003,
@@ -323,7 +416,10 @@ var jpTags = [
             "Summer 22 Dan",
             "First Mix",
             "D4DJ Anime"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "93.2%",
+        "date": "2020-10-18"
     },
     {
         "id": 420005,
@@ -332,7 +428,10 @@ var jpTags = [
             "Merm4id",
             "Cover Category",
             "Cover Tracks Vol 2"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.7%",
+        "date": "2020-10-18"
     },
     {
         "id": 320005,
@@ -343,7 +442,10 @@ var jpTags = [
             "Winter 23 Dan",
             "Cover Tracks Vol 3",
             "Songs with Black or White"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "95.6%",
+        "date": "2020-10-28"
     },
     {
         "id": 320006,
@@ -354,7 +456,10 @@ var jpTags = [
             "Summer 22 Dan",
             "Cover Tracks Vol 2",
             "Songs with Go"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "93.4%",
+        "date": "2020-10-24"
     },
     {
         "id": 120004,
@@ -364,7 +469,10 @@ var jpTags = [
             "Cover Category",
             "Cover Tracks Vol 1",
             "Songs starting with D"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "91.1%",
+        "date": "2020-10-20"
     },
     {
         "id": 220004,
@@ -373,7 +481,10 @@ var jpTags = [
             "Peaky P-key",
             "Cover Category",
             "Cover Tracks Vol 7"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "95.1%",
+        "date": "2020-10-20"
     },
     {
         "id": 5030001,
@@ -382,7 +493,10 @@ var jpTags = [
             "Game Category",
             "Winter 23 Dan",
             "Songs with Medley"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.2%",
+        "date": "2020-10-18"
     },
     {
         "id": 110004,
@@ -391,14 +505,20 @@ var jpTags = [
             "Happy Around!",
             "Original Category",
             "Summer 22 Dan"
-        ]
+        ],
+        "level": "11",
+        "scorePerc": "92.5%",
+        "date": "2020-10-18"
     },
     {
         "id": 5040001,
         "name": "Rhythm And Police",
         "tags": [
             "Instrumental Category"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "91.9%",
+        "date": "2020-10-18"
     },
     {
         "id": 5040008,
@@ -406,7 +526,10 @@ var jpTags = [
         "tags": [
             "Instrumental Category",
             "Songs with Theme (テーマ)"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.6%",
+        "date": "2020-10-18"
     },
     {
         "id": 5040011,
@@ -414,7 +537,10 @@ var jpTags = [
         "tags": [
             "Instrumental Category",
             "Winter 23 Dan"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "93.1%",
+        "date": "2020-10-20"
     },
     {
         "id": 5040014,
@@ -423,7 +549,10 @@ var jpTags = [
             "Instrumental Category",
             "Wrestling",
             "Bushiroad"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.1%",
+        "date": "2020-10-18"
     },
     {
         "id": 5040018,
@@ -432,7 +561,10 @@ var jpTags = [
             "Instrumental Category",
             "Wrestling",
             "Bushiroad"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "89.1%",
+        "date": "2020-10-21"
     },
     {
         "id": 5030002,
@@ -440,7 +572,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Songs with !"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "91.2%",
+        "date": "2020-10-24"
     },
     {
         "id": 210003,
@@ -450,7 +585,10 @@ var jpTags = [
             "Original Category",
             "Summer 22 Dan",
             "Summer 23 Dan"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "94.2%",
+        "date": "2020-10-24"
     },
     {
         "id": 520006,
@@ -460,7 +598,10 @@ var jpTags = [
             "Cover Category",
             "Winter 23 Dan",
             "Summer 23 Dan"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "95.2%",
+        "date": "2020-10-24"
     },
     {
         "id": 5030003,
@@ -468,7 +609,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Spring 23 Dan"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "90.3%",
+        "date": "2020-10-24"
     },
     {
         "id": 5030004,
@@ -477,7 +621,10 @@ var jpTags = [
             "Game Category",
             "Summer 22 Dan",
             "Songs with Numerals"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "89.2%",
+        "date": "2020-10-24"
     },
     {
         "id": 5040003,
@@ -485,7 +632,10 @@ var jpTags = [
         "tags": [
             "Instrumental Category",
             "Songs with Theme (テーマ)"
-        ]
+        ],
+        "level": "11+",
+        "scorePerc": "89.2%",
+        "date": "2020-10-20"
     },
     {
         "id": 5040010,
@@ -493,7 +643,10 @@ var jpTags = [
         "tags": [
             "Instrumental Category",
             "Winter 23 Dan"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "89.5%",
+        "date": "2020-10-24"
     },
     {
         "id": 5040015,
@@ -503,7 +656,10 @@ var jpTags = [
             "Wrestling",
             "Bushiroad",
             "Songs with Love (愛,恋)"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "91.7%",
+        "date": "2020-10-24"
     },
     {
         "id": 520007,
@@ -512,7 +668,10 @@ var jpTags = [
             "RONDO",
             "Cover Category",
             "Cover Tracks Vol 2"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "95.3%",
+        "date": "2020-10-24"
     },
     {
         "id": 120005,
@@ -522,7 +681,10 @@ var jpTags = [
             "Cover Category",
             "Cover Tracks Vol 5",
             "Songs starting with D"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "94.3%",
+        "date": "2020-10-24"
     },
     {
         "id": 310004,
@@ -533,7 +695,10 @@ var jpTags = [
             "Autumn 22 Dan",
             "Groovy Fes",
             "Songs starting with D"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "94.4%",
+        "date": "2020-10-18"
     },
     {
         "id": 320007,
@@ -545,7 +710,10 @@ var jpTags = [
             "Summer 23 Dan",
             "Cover Tracks Vol 1",
             "Songs with Sakura"
-        ]
+        ],
+        "level": "11",
+        "scorePerc": "88.1%",
+        "date": "2020-10-24"
     },
     {
         "id": 410004,
@@ -555,7 +723,10 @@ var jpTags = [
             "Original Category",
             "Autumn 22 Dan",
             "Songs with Numerals"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "90.7%",
+        "date": "2020-10-20"
     },
     {
         "id": 5030005,
@@ -563,7 +734,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Songs with Medley"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "95.0%",
+        "date": "2020-10-24"
     },
     {
         "id": 5030006,
@@ -572,14 +746,20 @@ var jpTags = [
             "Game Category",
             "Autumn 22 Dan",
             "Songs with Medley"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "93.4%",
+        "date": "2020-10-19"
     },
     {
         "id": 5030007,
         "name": "URBAN TRAIL",
         "tags": [
             "Game Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "94.1%",
+        "date": "2020-10-24"
     },
     {
         "id": 5030008,
@@ -588,7 +768,10 @@ var jpTags = [
             "Game Category",
             "Autumn 22 Dan",
             "Songs with !"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "92.5%",
+        "date": "2020-10-24"
     },
     {
         "id": 5030009,
@@ -597,7 +780,10 @@ var jpTags = [
             "Game Category",
             "Summer 22 Dan",
             "Songs with Numerals"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "95.9%",
+        "date": "2020-10-24"
     },
     {
         "id": 5040006,
@@ -605,7 +791,10 @@ var jpTags = [
         "tags": [
             "Instrumental Category",
             "Songs with Theme (テーマ)"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "92.9%",
+        "date": "2020-10-18"
     },
     {
         "id": 5040016,
@@ -614,7 +803,10 @@ var jpTags = [
             "Instrumental Category",
             "Wrestling",
             "Bushiroad"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "93.2%",
+        "date": "2020-10-24"
     },
     {
         "id": 210004,
@@ -624,7 +816,10 @@ var jpTags = [
             "Original Category",
             "Groovy Fes",
             "Songs with !"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "92.6%",
+        "date": "2020-10-18"
     },
     {
         "id": 520008,
@@ -634,7 +829,10 @@ var jpTags = [
             "Cover Category",
             "Autumn 22 Dan",
             "Cover Tracks Vol 8"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "93.9%",
+        "date": "2020-10-24"
     },
     {
         "id": 5030010,
@@ -643,21 +841,30 @@ var jpTags = [
             "Game Category",
             "Winter 23 Dan",
             "Songs with Medley"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "91.2%",
+        "date": "2020-10-24"
     },
     {
         "id": 5030011,
         "name": "Magical Sound Shower",
         "tags": [
             "Game Category"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "92.8%",
+        "date": "2020-10-24"
     },
     {
         "id": 5030012,
         "name": "Final Take Off",
         "tags": [
             "Game Category"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "92.4%",
+        "date": "2020-10-24"
     },
     {
         "id": 5030013,
@@ -665,7 +872,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Songs starting with D"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "94.8%",
+        "date": "2020-10-19"
     },
     {
         "id": 5030014,
@@ -673,7 +883,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Songs with Numerals"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "98.1%",
+        "date": "2020-10-24"
     },
     {
         "id": 5040002,
@@ -681,21 +894,30 @@ var jpTags = [
         "tags": [
             "Instrumental Category",
             "Songs with Theme (テーマ)"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "90.3%",
+        "date": "2020-10-18"
     },
     {
         "id": 5040004,
         "name": "Inscrutable Battle",
         "tags": [
             "Instrumental Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.5%",
+        "date": "2020-10-24"
     },
     {
         "id": 5040007,
         "name": "TRUTH",
         "tags": [
             "Instrumental Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "94.9%",
+        "date": "2020-10-24"
     },
     {
         "id": 5040013,
@@ -704,7 +926,10 @@ var jpTags = [
             "Instrumental Category",
             "Winter 23 Dan",
             "Songs with Numerals"
-        ]
+        ],
+        "level": "11+",
+        "scorePerc": "91.5%",
+        "date": "2020-10-31"
     },
     {
         "id": 610001,
@@ -712,7 +937,10 @@ var jpTags = [
         "tags": [
             "Lyrical Lily",
             "Original Category"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "91.0%",
+        "date": "2020-10-18"
     },
     {
         "id": 620001,
@@ -722,7 +950,10 @@ var jpTags = [
             "Cover Category",
             "Cover Tracks Vol 1",
             "Songs with MV"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "92.4%",
+        "date": "2020-10-24"
     },
     {
         "id": 120006,
@@ -731,7 +962,10 @@ var jpTags = [
             "Happy Around!",
             "Cover Category",
             "Songs with !"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.0%",
+        "date": "2020-10-26"
     },
     {
         "id": 410005,
@@ -740,7 +974,10 @@ var jpTags = [
             "Merm4id",
             "Original Category",
             "Songs with !"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "96.4%",
+        "date": "2020-10-18"
     },
     {
         "id": 420006,
@@ -749,14 +986,20 @@ var jpTags = [
             "Merm4id",
             "Cover Category",
             "Cover Tracks Vol 7"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "92.8%",
+        "date": "2020-10-18"
     },
     {
         "id": 5040005,
         "name": "情熱大陸",
         "tags": [
             "Instrumental Category"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "88.0%",
+        "date": "2020-11-03"
     },
     {
         "id": 120007,
@@ -765,7 +1008,10 @@ var jpTags = [
             "Happy Around!",
             "Cover Category",
             "Cover Tracks Vol 4"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "95.4%",
+        "date": "2020-10-22"
     },
     {
         "id": 120008,
@@ -776,7 +1022,10 @@ var jpTags = [
             "Cover Tracks Vol 2",
             "Songs with !",
             "Songs with 女"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "92.1%",
+        "date": "2020-11-06"
     },
     {
         "id": 110005,
@@ -784,7 +1033,10 @@ var jpTags = [
         "tags": [
             "Happy Around!",
             "Original Category"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "91.1%",
+        "date": "2020-11-04"
     },
     {
         "id": 220005,
@@ -794,7 +1046,10 @@ var jpTags = [
             "Cover Category",
             "Summer 22 Dan",
             "Cover Tracks Vol 5"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "93.1%",
+        "date": "2020-10-24"
     },
     {
         "id": 510008,
@@ -802,7 +1057,10 @@ var jpTags = [
         "tags": [
             "RONDO",
             "Original Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "91.3%",
+        "date": "2020-10-20"
     },
     {
         "id": 620002,
@@ -811,7 +1069,10 @@ var jpTags = [
             "Lyrical Lily",
             "Cover Category",
             "Cover Tracks Vol 6"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "90.8%",
+        "date": "2020-10-18"
     },
     {
         "id": 620003,
@@ -820,7 +1081,10 @@ var jpTags = [
             "Lyrical Lily",
             "Cover Category",
             "Cover Tracks Vol 2"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "90.7%",
+        "date": "2020-10-18"
     },
     {
         "id": 620004,
@@ -830,7 +1094,10 @@ var jpTags = [
             "Cover Category",
             "Winter 23 Dan",
             "Cover Tracks Vol 1"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "89.9%",
+        "date": "2020-10-24"
     },
     {
         "id": 120009,
@@ -840,7 +1107,10 @@ var jpTags = [
             "Cover Category",
             "Cover Tracks Vol 6",
             "Songs with MV"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.1%",
+        "date": "2020-10-24"
     },
     {
         "id": 620005,
@@ -849,7 +1119,10 @@ var jpTags = [
             "Lyrical Lily",
             "Cover Category",
             "Summer 22 Dan"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.2%",
+        "date": "2020-10-24"
     },
     {
         "id": 620008,
@@ -858,7 +1131,10 @@ var jpTags = [
             "Lyrical Lily",
             "Cover Category",
             "Cover Tracks Vol 4"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "93.6%",
+        "date": "2020-10-18"
     },
     {
         "id": 620009,
@@ -868,7 +1144,10 @@ var jpTags = [
             "Cover Category",
             "Summer 22 Dan",
             "Cover Tracks Vol 3"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "91.0%",
+        "date": "2020-10-28"
     },
     {
         "id": 5030015,
@@ -877,7 +1156,10 @@ var jpTags = [
             "Game Category",
             "Songs with Numerals",
             "Songs with Medley"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "92.2%",
+        "date": "2020-10-18"
     },
     {
         "id": 5030016,
@@ -887,7 +1169,10 @@ var jpTags = [
             "Spring 23 Dan",
             "Songs with Numerals",
             "Songs with Medley"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "89.8%",
+        "date": "2020-10-18"
     },
     {
         "id": 510004,
@@ -896,7 +1181,10 @@ var jpTags = [
             "RONDO",
             "Original Category",
             "Winter 23 Dan"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "91.7%",
+        "date": "2020-10-18"
     },
     {
         "id": 510005,
@@ -904,7 +1192,10 @@ var jpTags = [
         "tags": [
             "RONDO",
             "Original Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.2%",
+        "date": "2020-10-18"
     },
     {
         "id": 610002,
@@ -915,7 +1206,10 @@ var jpTags = [
             "Summer 22 Dan",
             "Summer 23 Dan",
             "Songs with Cat"
-        ]
+        ],
+        "level": "11+",
+        "scorePerc": "89.8%",
+        "date": "2020-10-18"
     },
     {
         "id": 620006,
@@ -927,7 +1221,10 @@ var jpTags = [
             "Spring 23 Dan",
             "Cover Tracks Vol 4",
             "Songs with Sakura"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.8%",
+        "date": "2020-10-20"
     },
     {
         "id": 5030017,
@@ -935,7 +1232,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Songs with Medley"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.1%",
+        "date": "2020-10-24"
     },
     {
         "id": 5040009,
@@ -943,7 +1243,10 @@ var jpTags = [
         "tags": [
             "Instrumental Category",
             "Songs with Theme (テーマ)"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "91.2%",
+        "date": "2020-10-24"
     },
     {
         "id": 5040020,
@@ -952,7 +1255,10 @@ var jpTags = [
             "Instrumental Category",
             "Spring 23 Dan",
             "Songs with Numerals"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "92.6%",
+        "date": "2020-10-24"
     },
     {
         "id": 110006,
@@ -960,7 +1266,10 @@ var jpTags = [
         "tags": [
             "Happy Around!",
             "Original Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.4%",
+        "date": "2020-10-24"
     },
     {
         "id": 210005,
@@ -972,7 +1281,10 @@ var jpTags = [
             "Groovy Fes",
             "Songs with MV",
             "D4DJ Anime"
-        ]
+        ],
+        "level": "11+",
+        "scorePerc": "92.1%",
+        "date": "2020-10-18"
     },
     {
         "id": 220006,
@@ -982,7 +1294,10 @@ var jpTags = [
             "Cover Category",
             "Winter 23 Dan",
             "Cover Tracks Vol 5"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "91.9%",
+        "date": "2020-10-18"
     },
     {
         "id": 410006,
@@ -991,7 +1306,10 @@ var jpTags = [
             "Merm4id",
             "Original Category",
             "Songs with !"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "91.5%",
+        "date": "2020-10-18"
     },
     {
         "id": 610003,
@@ -999,7 +1317,10 @@ var jpTags = [
         "tags": [
             "Lyrical Lily",
             "Original Category"
-        ]
+        ],
+        "level": "11+",
+        "scorePerc": "90.5%",
+        "date": "2020-10-24"
     },
     {
         "id": 310005,
@@ -1013,7 +1334,10 @@ var jpTags = [
             "First Mix",
             "Songs with MV",
             "D4DJ Anime"
-        ]
+        ],
+        "level": "10+",
+        "scorePerc": "92.8%",
+        "date": "2020-10-20"
     },
     {
         "id": 420007,
@@ -1024,7 +1348,10 @@ var jpTags = [
             "Autumn 22 Dan",
             "Cover Tracks Vol 4",
             "Songs with MV"
-        ]
+        ],
+        "level": "11+",
+        "scorePerc": "94.7%",
+        "date": "2020-11-05"
     },
     {
         "id": 420009,
@@ -1034,7 +1361,10 @@ var jpTags = [
             "Cover Category",
             "Summer 22 Dan",
             "Cover Tracks Vol 5"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "97.3%",
+        "date": "2020-11-13"
     },
     {
         "id": 520009,
@@ -1045,7 +1375,10 @@ var jpTags = [
             "Summer 22 Dan",
             "Cover Tracks Vol 6",
             "Songs with MV"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.8%",
+        "date": "2020-11-20"
     },
     {
         "id": 610004,
@@ -1054,7 +1387,10 @@ var jpTags = [
             "Lyrical Lily",
             "Original Category",
             "Groovy Fes"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "90.3%",
+        "date": "2020-10-18"
     },
     {
         "id": 3010001,
@@ -1065,7 +1401,10 @@ var jpTags = [
             "Songs with Love (愛,恋)",
             "Songs with !",
             "Songs with MV"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "92.0%",
+        "date": "2020-10-18"
     },
     {
         "id": 3010002,
@@ -1076,7 +1415,10 @@ var jpTags = [
             "Songs with Love (愛,恋)",
             "Songs with !",
             "Songs with MV"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "92.0%",
+        "date": "2020-10-24"
     },
     {
         "id": 3010003,
@@ -1087,7 +1429,10 @@ var jpTags = [
             "Songs with Love (愛,恋)",
             "Songs with !",
             "Songs with MV"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "91.3%",
+        "date": "2020-10-24"
     },
     {
         "id": 3020001,
@@ -1097,7 +1442,10 @@ var jpTags = [
             "Cover Category",
             "First Mix",
             "D4DJ Anime"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "94.9%",
+        "date": "2020-10-28"
     },
     {
         "id": 5040012,
@@ -1105,14 +1453,20 @@ var jpTags = [
         "tags": [
             "Instrumental Category",
             "Summer 23 Dan"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "92.4%",
+        "date": "2020-10-24"
     },
     {
         "id": 5040021,
         "name": "暗雲うずまくナメック星",
         "tags": [
             "Instrumental Category"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "92.3%",
+        "date": "2020-10-20"
     },
     {
         "id": 420008,
@@ -1122,7 +1476,10 @@ var jpTags = [
             "Cover Category",
             "Cover Tracks Vol 1",
             "Songs starting with D"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "92.0%",
+        "date": "2020-10-24"
     },
     {
         "id": 110008,
@@ -1132,7 +1489,10 @@ var jpTags = [
             "Original Category",
             "First Mix",
             "D4DJ Anime"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "91.7%",
+        "date": "2020-12-25"
     },
     {
         "id": 320008,
@@ -1143,7 +1503,10 @@ var jpTags = [
             "Summer 22 Dan",
             "Cover Tracks Vol 6",
             "Songs with Love (愛,恋)"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "93.5%",
+        "date": "2020-10-24"
     },
     {
         "id": 320009,
@@ -1152,7 +1515,10 @@ var jpTags = [
             "Photon Maiden",
             "Cover Category",
             "Cover Tracks Vol 4"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "99.4%",
+        "date": "2020-10-29"
     },
     {
         "id": 510006,
@@ -1161,7 +1527,10 @@ var jpTags = [
             "RONDO",
             "Original Category",
             "Winter 23 Dan"
-        ]
+        ],
+        "level": "10",
+        "scorePerc": "88.7%",
+        "date": "2020-10-24"
     },
     {
         "id": 510007,
@@ -1171,7 +1540,10 @@ var jpTags = [
             "Original Category",
             "Summer 22 Dan",
             "Summer 23 Dan"
-        ]
+        ],
+        "level": "10",
+        "scorePerc": "88.8%",
+        "date": "2021-01-07"
     },
     {
         "id": 620007,
@@ -1181,7 +1553,10 @@ var jpTags = [
             "Cover Category",
             "Cover Tracks Vol 5",
             "Songs with !"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "91.5%",
+        "date": "2020-11-02"
     },
     {
         "id": 3010004,
@@ -1193,7 +1568,10 @@ var jpTags = [
             "First Mix",
             "Songs with !",
             "D4DJ Anime"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "91.6%",
+        "date": "2020-10-30"
     },
     {
         "id": 210006,
@@ -1203,7 +1581,10 @@ var jpTags = [
             "Original Category",
             "Autumn 22 Dan",
             "Groovy Fes"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.4%",
+        "date": "2020-10-24"
     },
     {
         "id": 310006,
@@ -1211,7 +1592,10 @@ var jpTags = [
         "tags": [
             "Photon Maiden",
             "Original Category"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "91.8%",
+        "date": "2020-10-18"
     },
     {
         "id": 120010,
@@ -1221,7 +1605,10 @@ var jpTags = [
             "Cover Category",
             "Bushiroad",
             "Songs with !"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "92.4%",
+        "date": "2021-02-06"
     },
     {
         "id": 320010,
@@ -1233,7 +1620,10 @@ var jpTags = [
             "Winter 23 Dan",
             "Cover Tracks Vol 4",
             "Songs with 女"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "94.9%",
+        "date": "2020-12-16"
     },
     {
         "id": 5040022,
@@ -1242,7 +1632,10 @@ var jpTags = [
             "Instrumental Category",
             "Wrestling",
             "Bushiroad"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.6%",
+        "date": "2020-10-20"
     },
     {
         "id": 220007,
@@ -1251,7 +1644,10 @@ var jpTags = [
             "Peaky P-key",
             "Cover Category",
             "Cover Tracks Vol 1"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "90.5%",
+        "date": "2020-10-27"
     },
     {
         "id": 220008,
@@ -1263,7 +1659,10 @@ var jpTags = [
             "Songs with Numerals",
             "Songs with Love (愛,恋)",
             "Songs with MV"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "90.7%",
+        "date": "2020-10-23"
     },
     {
         "id": 520010,
@@ -1273,7 +1672,10 @@ var jpTags = [
             "Cover Category",
             "Summer 22 Dan",
             "Cover Tracks Vol 2"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "98.4%",
+        "date": "2021-01-19"
     },
     {
         "id": 120011,
@@ -1283,7 +1685,10 @@ var jpTags = [
             "Cover Category",
             "First Mix",
             "D4DJ Anime"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "96.6%",
+        "date": "2020-10-28"
     },
     {
         "id": 610005,
@@ -1292,7 +1697,10 @@ var jpTags = [
             "Lyrical Lily",
             "Original Category",
             "Songs with !"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.3%",
+        "date": "2021-03-03"
     },
     {
         "id": 610006,
@@ -1301,7 +1709,10 @@ var jpTags = [
             "Lyrical Lily",
             "Original Category",
             "Autumn 22 Dan"
-        ]
+        ],
+        "level": "11",
+        "scorePerc": "91.5%",
+        "date": "2021-02-01"
     },
     {
         "id": 3010005,
@@ -1313,7 +1724,10 @@ var jpTags = [
             "First Mix",
             "Songs with !",
             "D4DJ Anime"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.3%",
+        "date": "2020-12-18"
     },
     {
         "id": 110009,
@@ -1326,7 +1740,10 @@ var jpTags = [
             "Songs with !",
             "D4DJ Anime",
             "All Mix"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "91.3%",
+        "date": "2020-11-27"
     },
     {
         "id": 110010,
@@ -1338,7 +1755,10 @@ var jpTags = [
             "Summer 23 Dan",
             "First Mix",
             "D4DJ Anime"
-        ]
+        ],
+        "level": "11+",
+        "scorePerc": "92.9%",
+        "date": "2020-12-04"
     },
     {
         "id": 110011,
@@ -1349,7 +1769,10 @@ var jpTags = [
             "Autumn 22 Dan",
             "First Mix",
             "D4DJ Anime"
-        ]
+        ],
+        "level": "10+",
+        "scorePerc": "93.0%",
+        "date": "2021-01-08"
     },
     {
         "id": 5030018,
@@ -1357,7 +1780,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Touhou"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "93.5%",
+        "date": "2020-12-09"
     },
     {
         "id": 220009,
@@ -1367,7 +1793,10 @@ var jpTags = [
             "Cover Category",
             "Autumn 22 Dan",
             "Cover Tracks Vol 2"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.5%",
+        "date": "2021-02-24"
     },
     {
         "id": 420010,
@@ -1376,7 +1805,10 @@ var jpTags = [
             "Merm4id",
             "Cover Category",
             "Songs with !"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "95.5%",
+        "date": "2021-02-27"
     },
     {
         "id": 620010,
@@ -1385,7 +1817,10 @@ var jpTags = [
             "Lyrical Lily",
             "Cover Category",
             "Songs with !"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "92.9%",
+        "date": "2021-02-12"
     },
     {
         "id": 520011,
@@ -1394,7 +1829,10 @@ var jpTags = [
             "RONDO",
             "Cover Category",
             "Cover Tracks Vol 4"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "93.9%",
+        "date": "2020-11-28"
     },
     {
         "id": 110012,
@@ -1405,7 +1843,10 @@ var jpTags = [
             "Spring 23 Dan",
             "Event Songs",
             "Songs with !"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "94.1%",
+        "date": "2021-01-01"
     },
     {
         "id": 120012,
@@ -1414,7 +1855,10 @@ var jpTags = [
             "Happy Around!",
             "Cover Category",
             "Cover Tracks Vol 3"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "91.1%",
+        "date": "2021-01-02"
     },
     {
         "id": 120013,
@@ -1424,7 +1868,10 @@ var jpTags = [
             "Cover Category",
             "Cover Tracks Vol 6",
             "Songs with !"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "93.2%",
+        "date": "2020-12-17"
     },
     {
         "id": 610007,
@@ -1435,7 +1882,10 @@ var jpTags = [
             "Winter 23 Dan",
             "Summer 23 Dan",
             "Event Songs"
-        ]
+        ],
+        "level": "11",
+        "scorePerc": "91.9%",
+        "date": "2020-12-15"
     },
     {
         "id": 620011,
@@ -1447,7 +1897,10 @@ var jpTags = [
             "Event Songs",
             "Vtuber",
             "Hololive"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.0%",
+        "date": "2021-02-14"
     },
     {
         "id": 5030019,
@@ -1461,7 +1914,10 @@ var jpTags = [
             "Summer 23 Dan",
             "Touhou",
             "Songs with Love (愛,恋)"
-        ]
+        ],
+        "level": "15",
+        "scorePerc": "95.8%",
+        "date": "2020-12-13"
     },
     {
         "id": 5030020,
@@ -1470,7 +1926,10 @@ var jpTags = [
             "Game Category",
             "Touhou",
             "Songs with Sakura"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "93.3%",
+        "date": "2020-12-10"
     },
     {
         "id": 5030022,
@@ -1481,7 +1940,10 @@ var jpTags = [
             "Summer 23 Dan",
             "Touhou",
             "Songs with 女"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "92.4%",
+        "date": "2020-12-11"
     },
     {
         "id": 5030023,
@@ -1490,7 +1952,10 @@ var jpTags = [
             "Game Category",
             "Songs with !",
             "WACCA"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "94.1%",
+        "date": "2020-12-19"
     },
     {
         "id": 5030024,
@@ -1498,7 +1963,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "WACCA"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "93.9%",
+        "date": "2020-12-20"
     },
     {
         "id": 210007,
@@ -1510,7 +1978,10 @@ var jpTags = [
             "Winter 23 Dan",
             "Summer 23 Dan",
             "Event Songs"
-        ]
+        ],
+        "level": "10+",
+        "scorePerc": "91.6%",
+        "date": "2020-11-24"
     },
     {
         "id": 5030021,
@@ -1519,7 +1990,10 @@ var jpTags = [
             "Game Category",
             "Touhou",
             "Songs with 女"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "91.4%",
+        "date": "2020-12-12"
     },
     {
         "id": 210008,
@@ -1530,7 +2004,10 @@ var jpTags = [
             "Summer 22 Dan",
             "First Mix",
             "D4DJ Anime"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "93.1%",
+        "date": "2021-01-29"
     },
     {
         "id": 220012,
@@ -1539,7 +2016,10 @@ var jpTags = [
             "Peaky P-key",
             "Cover Category",
             "Autumn 22 Dan"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "96.0%",
+        "date": "2021-02-08"
     },
     {
         "id": 310007,
@@ -1551,7 +2031,10 @@ var jpTags = [
             "Summer 23 Dan",
             "First Mix",
             "D4DJ Anime"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.3%",
+        "date": "2021-01-08"
     },
     {
         "id": 320012,
@@ -1563,7 +2046,10 @@ var jpTags = [
             "Bushiroad",
             "Songs with Numerals",
             "Songs with !"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "95.0%",
+        "date": "2021-02-12"
     },
     {
         "id": 410007,
@@ -1573,7 +2059,10 @@ var jpTags = [
             "Original Category",
             "Summer 22 Dan",
             "Event Songs"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "95.8%",
+        "date": "2020-12-04"
     },
     {
         "id": 220010,
@@ -1583,7 +2072,10 @@ var jpTags = [
             "Cover Category",
             "Cover Tracks Vol 4",
             "Songs with Black or White"
-        ]
+        ],
+        "level": "11+",
+        "scorePerc": "94.5%",
+        "date": "2020-11-29"
     },
     {
         "id": 5030025,
@@ -1591,7 +2083,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Monster Hunter"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.9%",
+        "date": "2021-01-13"
     },
     {
         "id": 5030026,
@@ -1599,7 +2094,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Monster Hunter"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.0%",
+        "date": "2021-01-12"
     },
     {
         "id": 5030028,
@@ -1608,7 +2106,10 @@ var jpTags = [
             "Game Category",
             "Summer 22 Dan",
             "Monster Hunter"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "96.5%",
+        "date": "2021-01-25"
     },
     {
         "id": 5030031,
@@ -1618,7 +2119,10 @@ var jpTags = [
             "Songs with Numerals",
             "Songs with Medley",
             "Monster Hunter"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.0%",
+        "date": "2021-01-24"
     },
     {
         "id": 5050007,
@@ -1627,7 +2131,10 @@ var jpTags = [
             "Base Category",
             "Vtuber",
             "Hololive"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "91.5%",
+        "date": "2020-12-22"
     },
     {
         "id": 5030027,
@@ -1635,7 +2142,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Monster Hunter"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.3%",
+        "date": "2021-01-26"
     },
     {
         "id": 5030029,
@@ -1645,7 +2155,10 @@ var jpTags = [
             "Songs with Numerals",
             "Songs with Medley",
             "Monster Hunter"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "95.2%",
+        "date": "2021-01-14"
     },
     {
         "id": 5030030,
@@ -1655,7 +2168,10 @@ var jpTags = [
             "Songs with Numerals",
             "Songs with Medley",
             "Monster Hunter"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "90.8%",
+        "date": "2021-01-15"
     },
     {
         "id": 5050008,
@@ -1664,7 +2180,10 @@ var jpTags = [
             "Base Category",
             "Vtuber",
             "Hololive"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "92.8%",
+        "date": "2020-12-22"
     },
     {
         "id": 110013,
@@ -1675,7 +2194,10 @@ var jpTags = [
             "First Mix",
             "Numbers Spelled Out",
             "D4DJ Anime"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "91.1%",
+        "date": "2021-01-29"
     },
     {
         "id": 120014,
@@ -1684,7 +2206,10 @@ var jpTags = [
             "Happy Around!",
             "Cover Category",
             "Bushiroad"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "94.7%",
+        "date": "2021-03-24"
     },
     {
         "id": 5030032,
@@ -1693,14 +2218,20 @@ var jpTags = [
             "Game Category",
             "Autumn 22 Dan",
             "Songs with Numerals"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.3%",
+        "date": "2021-07-18"
     },
     {
         "id": 5040023,
         "name": "Mystic Antique",
         "tags": [
             "Instrumental Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "90.6%",
+        "date": "2021-03-06"
     },
     {
         "id": 620012,
@@ -1709,7 +2240,10 @@ var jpTags = [
             "Lyrical Lily",
             "Cover Category",
             "Cover Tracks Vol 3"
-        ]
+        ],
+        "level": "11",
+        "scorePerc": "89.7%",
+        "date": "2021-06-01"
     },
     {
         "id": 5030033,
@@ -1721,7 +2255,10 @@ var jpTags = [
             "Winter 23 Dan",
             "Spring 23 Dan",
             "Summer 23 Dan"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "93.2%",
+        "date": "2021-07-28"
     },
     {
         "id": 5050032,
@@ -1731,7 +2268,10 @@ var jpTags = [
             "Vtuber",
             "Songs with !",
             "Hololive"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "94.7%",
+        "date": "2021-01-13"
     },
     {
         "id": 510009,
@@ -1741,7 +2281,10 @@ var jpTags = [
             "Original Category",
             "Summer 23 Dan",
             "Event Songs"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "94.6%",
+        "date": "2021-02-05"
     },
     {
         "id": 220011,
@@ -1749,7 +2292,10 @@ var jpTags = [
         "tags": [
             "Peaky P-key",
             "Cover Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.3%",
+        "date": "2021-03-13"
     },
     {
         "id": 320011,
@@ -1759,7 +2305,10 @@ var jpTags = [
             "Cover Category",
             "Summer 22 Dan",
             "Cover Tracks Vol 7"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "94.6%",
+        "date": "2021-03-02"
     },
     {
         "id": 420012,
@@ -1769,7 +2318,10 @@ var jpTags = [
             "Cover Category",
             "Summer 22 Dan",
             "Cover Tracks Vol 5"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "92.0%",
+        "date": "2021-05-15"
     },
     {
         "id": 5030034,
@@ -1777,7 +2329,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Touhou"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "94.3%",
+        "date": "2021-03-10"
     },
     {
         "id": 5030035,
@@ -1786,7 +2341,10 @@ var jpTags = [
             "Game Category",
             "Songs with Numerals",
             "Songs with Medley"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.2%",
+        "date": "2021-03-19"
     },
     {
         "id": 5030036,
@@ -1795,7 +2353,10 @@ var jpTags = [
             "Game Category",
             "Songs with Numerals",
             "Songs with Medley"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "92.4%",
+        "date": "2021-04-13"
     },
     {
         "id": 310009,
@@ -1805,7 +2366,10 @@ var jpTags = [
             "Original Category",
             "First Mix",
             "D4DJ Anime"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "89.4%",
+        "date": "2021-03-12"
     },
     {
         "id": 3010007,
@@ -1814,14 +2378,20 @@ var jpTags = [
             "Special (unit)",
             "Original Category",
             "Songs with !"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "94.9%",
+        "date": "2021-02-05"
     },
     {
         "id": 5050044,
         "name": "SE・SA・ME",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "94.8%",
+        "date": "2021-04-04"
     },
     {
         "id": 110014,
@@ -1832,7 +2402,10 @@ var jpTags = [
             "Groovy Fes",
             "D4FES Songs",
             "Songs with !"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "95.1%",
+        "date": "2021-02-23"
     },
     {
         "id": 110015,
@@ -1842,7 +2415,10 @@ var jpTags = [
             "Original Category",
             "Songs with !",
             "Songs with MV"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "95.4%",
+        "date": "2021-05-28"
     },
     {
         "id": 310008,
@@ -1853,7 +2429,10 @@ var jpTags = [
             "Winter 23 Dan",
             "Spring 23 Dan",
             "Event Songs"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "94.9%",
+        "date": "2021-03-07"
     },
     {
         "id": 510010,
@@ -1866,7 +2445,10 @@ var jpTags = [
             "Groovy Fes",
             "D4FES Songs",
             "Songs with MV"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "90.6%",
+        "date": "2021-04-30"
     },
     {
         "id": 520012,
@@ -1875,14 +2457,20 @@ var jpTags = [
             "RONDO",
             "Cover Category",
             "Cover Tracks Vol 6"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "93.7%",
+        "date": "2021-03-08"
     },
     {
         "id": 5050028,
         "name": "God knows...",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.9%",
+        "date": "2021-05-03"
     },
     {
         "id": 220013,
@@ -1891,7 +2479,10 @@ var jpTags = [
             "Peaky P-key",
             "Cover Category",
             "Cover Tracks Vol 3"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "94.8%",
+        "date": "2021-06-14"
     },
     {
         "id": 3020002,
@@ -1900,7 +2491,10 @@ var jpTags = [
             "Special (unit)",
             "Cover Category",
             "Cover Tracks Vol 4"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "95.1%",
+        "date": "2021-03-01"
     },
     {
         "id": 5050025,
@@ -1908,14 +2502,20 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Songs with !"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "94.1%",
+        "date": "2021-04-26"
     },
     {
         "id": 5050029,
         "name": "ハレ晴レユカイ",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "91.2%",
+        "date": "2021-03-05"
     },
     {
         "id": 220015,
@@ -1925,7 +2525,10 @@ var jpTags = [
             "Cover Category",
             "Autumn 22 Dan",
             "Cover Tracks Vol 4"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "94.9%",
+        "date": "2021-02-23"
     },
     {
         "id": 420013,
@@ -1935,7 +2538,10 @@ var jpTags = [
             "Cover Category",
             "Winter 23 Dan",
             "Cover Tracks Vol 2"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.2%",
+        "date": "2021-02-23"
     },
     {
         "id": 110016,
@@ -1948,7 +2554,10 @@ var jpTags = [
             "Songs with Numerals",
             "Songs starting with D",
             "Songs with !"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "93.2%",
+        "date": "2021-03-20"
     },
     {
         "id": 220014,
@@ -1958,7 +2567,10 @@ var jpTags = [
             "Cover Category",
             "Summer 23 Dan",
             "Songs with Love (愛,恋)"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.5%",
+        "date": "2021-07-26"
     },
     {
         "id": 310010,
@@ -1967,7 +2579,10 @@ var jpTags = [
             "Photon Maiden",
             "Original Category",
             "Summer 23 Dan"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "95.3%",
+        "date": "2021-03-21"
     },
     {
         "id": 5030037,
@@ -1975,7 +2590,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "WACCA"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "97.3%",
+        "date": "2021-05-27"
     },
     {
         "id": 5030038,
@@ -1985,7 +2603,10 @@ var jpTags = [
             "Spring 23 Dan",
             "BPM over 250",
             "WACCA"
-        ]
+        ],
+        "level": "15",
+        "scorePerc": "94.8%",
+        "date": "2021-06-25"
     },
     {
         "id": 5030039,
@@ -1993,7 +2614,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "WACCA"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "93.1%",
+        "date": "2021-06-16"
     },
     {
         "id": 5030040,
@@ -2002,7 +2626,10 @@ var jpTags = [
             "Game Category",
             "Songs with !",
             "WACCA"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "93.7%",
+        "date": "2021-06-04"
     },
     {
         "id": 5030041,
@@ -2011,7 +2638,10 @@ var jpTags = [
             "Game Category",
             "Spring 23 Dan",
             "WACCA"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "93.6%",
+        "date": "2021-06-11"
     },
     {
         "id": 120015,
@@ -2021,7 +2651,10 @@ var jpTags = [
             "Cover Category",
             "Cover Tracks Vol 4",
             "Songs with !"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "93.4%",
+        "date": "2021-04-25"
     },
     {
         "id": 410008,
@@ -2029,7 +2662,10 @@ var jpTags = [
         "tags": [
             "Merm4id",
             "Original Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.1%",
+        "date": "2021-03-22"
     },
     {
         "id": 610008,
@@ -2038,14 +2674,20 @@ var jpTags = [
             "Lyrical Lily",
             "Original Category",
             "Summer 22 Dan"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "94.7%",
+        "date": "2021-05-10"
     },
     {
         "id": 5050056,
         "name": "ヒバナ -Reloaded-",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "92.5%",
+        "date": "2021-03-09"
     },
     {
         "id": 410009,
@@ -2057,7 +2699,10 @@ var jpTags = [
             "Numbers Spelled Out",
             "D4FES Songs",
             "Songs with MV"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.6%",
+        "date": "2021-03-27"
     },
     {
         "id": 420014,
@@ -2068,7 +2713,10 @@ var jpTags = [
             "Winter 23 Dan",
             "Cover Tracks Vol 6",
             "Songs with !"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "98.0%",
+        "date": "2021-07-05"
     },
     {
         "id": 510011,
@@ -2076,14 +2724,20 @@ var jpTags = [
         "tags": [
             "RONDO",
             "Original Category"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "91.7%",
+        "date": "2021-05-24"
     },
     {
         "id": 5050011,
         "name": "インビジブル",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "97.7%",
+        "date": "2021-03-16"
     },
     {
         "id": 310011,
@@ -2096,14 +2750,20 @@ var jpTags = [
             "D4FES Songs",
             "Songs with Numerals",
             "Songs with MV"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "91.3%",
+        "date": "2021-03-28"
     },
     {
         "id": 5050010,
         "name": "人生リセットボタン",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "93.7%",
+        "date": "2021-03-30"
     },
     {
         "id": 5050012,
@@ -2111,7 +2771,10 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Autumn 22 Dan"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "95.7%",
+        "date": "2021-05-13"
     },
     {
         "id": 510012,
@@ -2123,7 +2786,10 @@ var jpTags = [
             "Summer 23 Dan",
             "Event Songs",
             "All Mix"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "92.2%",
+        "date": "2021-03-17"
     },
     {
         "id": 3020003,
@@ -2132,7 +2798,10 @@ var jpTags = [
             "Special (unit)",
             "Cover Category",
             "Cover Tracks Vol 5"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "93.8%",
+        "date": "2021-04-07"
     },
     {
         "id": 210009,
@@ -2141,7 +2810,10 @@ var jpTags = [
             "Peaky P-key",
             "Original Category",
             "Summer 22 Dan"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "95.9%",
+        "date": "2021-05-20"
     },
     {
         "id": 410010,
@@ -2152,7 +2824,10 @@ var jpTags = [
             "Event Songs",
             "Songs with !",
             "All Mix"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.5%",
+        "date": "2021-04-17"
     },
     {
         "id": 5030043,
@@ -2161,21 +2836,30 @@ var jpTags = [
             "Game Category",
             "Spring 23 Dan",
             "Songs with Medley"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "92.8%",
+        "date": "2021-09-27"
     },
     {
         "id": 5050057,
         "name": "ゴーストルール",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "93.8%",
+        "date": "2021-04-20"
     },
     {
         "id": 5050058,
         "name": "妄想感傷代償連盟",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "11+",
+        "scorePerc": "87.5%",
+        "date": "2021-06-07"
     },
     {
         "id": 320013,
@@ -2185,7 +2869,10 @@ var jpTags = [
             "Cover Category",
             "Cover Tracks Vol 6",
             "Songs with Wings"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "94.7%",
+        "date": "2021-04-27"
     },
     {
         "id": 610009,
@@ -2197,7 +2884,10 @@ var jpTags = [
             "D4FES Songs",
             "Songs with !",
             "Songs with MV"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.2%",
+        "date": "2021-04-28"
     },
     {
         "id": 620013,
@@ -2206,7 +2896,10 @@ var jpTags = [
             "Lyrical Lily",
             "Cover Category",
             "Cover Tracks Vol 7"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "94.3%",
+        "date": "2021-05-02"
     },
     {
         "id": 220017,
@@ -2216,7 +2909,10 @@ var jpTags = [
             "Cover Category",
             "Cover Tracks Vol 8",
             "Songs with Black or White"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "94.4%",
+        "date": "2021-04-23"
     },
     {
         "id": 120016,
@@ -2225,7 +2921,10 @@ var jpTags = [
             "Happy Around!",
             "Cover Category",
             "Cover Tracks Vol 7"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "95.1%",
+        "date": "2021-08-02"
     },
     {
         "id": 120017,
@@ -2234,7 +2933,10 @@ var jpTags = [
             "Happy Around!",
             "Cover Category",
             "Cover Tracks Vol 3"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "94.7%",
+        "date": "2021-11-05"
     },
     {
         "id": 210010,
@@ -2246,7 +2948,10 @@ var jpTags = [
             "D4FES Songs",
             "Songs with !",
             "Songs with MV"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "93.3%",
+        "date": "2021-05-28"
     },
     {
         "id": 110018,
@@ -2258,7 +2963,10 @@ var jpTags = [
             "Event Songs",
             "Songs with !",
             "Songs with Go"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.6%",
+        "date": "2021-05-08"
     },
     {
         "id": 3010010,
@@ -2269,7 +2977,10 @@ var jpTags = [
             "Songs with Numerals",
             "Songs with Love (愛,恋)",
             "Songs with !"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "93.9%",
+        "date": "2021-05-31"
     },
     {
         "id": 610010,
@@ -2279,7 +2990,10 @@ var jpTags = [
             "Original Category",
             "Summer 22 Dan",
             "Event Songs"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "94.2%",
+        "date": "2021-05-18"
     },
     {
         "id": 3010008,
@@ -2290,7 +3004,10 @@ var jpTags = [
             "Songs with Numerals",
             "Songs with Love (愛,恋)",
             "Songs with !"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "93.6%",
+        "date": "2021-05-29"
     },
     {
         "id": 3010009,
@@ -2301,7 +3018,10 @@ var jpTags = [
             "Songs with Numerals",
             "Songs with Love (愛,恋)",
             "Songs with !"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "93.8%",
+        "date": "2021-05-30"
     },
     {
         "id": 3020004,
@@ -2310,7 +3030,10 @@ var jpTags = [
             "Special (unit)",
             "Cover Category",
             "Songs with Love (愛,恋)"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "92.0%",
+        "date": "2021-05-29"
     },
     {
         "id": 3020005,
@@ -2318,7 +3041,10 @@ var jpTags = [
         "tags": [
             "Special (unit)",
             "Cover Category"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "94.8%",
+        "date": "2021-05-29"
     },
     {
         "id": 410011,
@@ -2327,7 +3053,10 @@ var jpTags = [
             "Merm4id",
             "Original Category",
             "Event Songs"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "91.3%",
+        "date": "2021-06-08"
     },
     {
         "id": 420015,
@@ -2336,7 +3065,10 @@ var jpTags = [
             "Merm4id",
             "Cover Category",
             "Cover Tracks Vol 4"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.0%",
+        "date": "2021-08-22"
     },
     {
         "id": 610011,
@@ -2348,7 +3080,10 @@ var jpTags = [
             "Summer 23 Dan",
             "Event Songs",
             "Songs with !"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "90.3%",
+        "date": "2021-07-06"
     },
     {
         "id": 3010014,
@@ -2359,7 +3094,10 @@ var jpTags = [
             "Summer 22 Dan",
             "Summer 23 Dan",
             "Songs with MV"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "89.7%",
+        "date": "2021-07-30"
     },
     {
         "id": 510013,
@@ -2368,7 +3106,10 @@ var jpTags = [
             "RONDO",
             "Original Category",
             "Event Songs"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.1%",
+        "date": "2021-06-18"
     },
     {
         "id": 120018,
@@ -2379,7 +3120,10 @@ var jpTags = [
             "Summer 22 Dan",
             "Cover Tracks Vol 5",
             "Songs starting with D"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "94.3%",
+        "date": "2021-06-21"
     },
     {
         "id": 320014,
@@ -2389,7 +3133,10 @@ var jpTags = [
             "Cover Category",
             "Autumn 22 Dan",
             "Summer 23 Dan"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.0%",
+        "date": "2021-06-30"
     },
     {
         "id": 620014,
@@ -2400,7 +3147,10 @@ var jpTags = [
             "Summer 23 Dan",
             "Cover Tracks Vol 5",
             "Songs with Numerals"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "90.7%",
+        "date": "2021-08-24"
     },
     {
         "id": 3010012,
@@ -2413,7 +3163,10 @@ var jpTags = [
             "Summer 23 Dan",
             "Event Songs",
             "Songs with ♡"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "92.9%",
+        "date": "2021-06-28"
     },
     {
         "id": 3020006,
@@ -2423,7 +3176,10 @@ var jpTags = [
             "Cover Category",
             "Songs with Numerals",
             "Songs with !"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "90.2%",
+        "date": "2021-08-27"
     },
     {
         "id": 3020007,
@@ -2433,7 +3189,10 @@ var jpTags = [
             "Cover Category",
             "Songs with Numerals",
             "Songs with !"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "90.5%",
+        "date": "2021-09-03"
     },
     {
         "id": 5050075,
@@ -2442,7 +3201,10 @@ var jpTags = [
             "Base Category",
             "Spring 23 Dan",
             "Princess Letters"
-        ]
+        ],
+        "level": "10+",
+        "scorePerc": "91.3%",
+        "date": "2021-08-04"
     },
     {
         "id": 5050076,
@@ -2451,7 +3213,10 @@ var jpTags = [
             "Base Category",
             "Spring 23 Dan",
             "Princess Letters"
-        ]
+        ],
+        "level": "11+",
+        "scorePerc": "93.2%",
+        "date": "2021-08-11"
     },
     {
         "id": 5050077,
@@ -2460,7 +3225,10 @@ var jpTags = [
             "Base Category",
             "Spring 23 Dan",
             "Princess Letters"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "92.9%",
+        "date": "2021-08-18"
     },
     {
         "id": 310012,
@@ -2471,7 +3239,10 @@ var jpTags = [
             "Winter 23 Dan",
             "Groovy Fes",
             "Event Songs"
-        ]
+        ],
+        "level": "10+",
+        "scorePerc": "88.8%",
+        "date": "2021-07-08"
     },
     {
         "id": 620015,
@@ -2483,7 +3254,10 @@ var jpTags = [
             "Winter 23 Dan",
             "Cover Tracks Vol 6",
             "Songs with ♡"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "90.2%",
+        "date": "2022-01-12"
     },
     {
         "id": 5050074,
@@ -2492,7 +3266,10 @@ var jpTags = [
             "Base Category",
             "Songs with Love (愛,恋)",
             "Songs with !"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "95.4%",
+        "date": "2021-07-08"
     },
     {
         "id": 110019,
@@ -2503,7 +3280,10 @@ var jpTags = [
             "Summer 22 Dan",
             "Summer 23 Dan",
             "Event Songs"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "91.3%",
+        "date": "2021-07-16"
     },
     {
         "id": 120019,
@@ -2514,7 +3294,10 @@ var jpTags = [
             "Summer 22 Dan",
             "Summer 23 Dan",
             "Songs with !"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "94.2%",
+        "date": "2021-09-01"
     },
     {
         "id": 210011,
@@ -2523,7 +3306,10 @@ var jpTags = [
             "Peaky P-key",
             "Original Category",
             "Event Songs"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "94.3%",
+        "date": "2021-08-09"
     },
     {
         "id": 220018,
@@ -2533,7 +3319,10 @@ var jpTags = [
             "Cover Category",
             "Cover Tracks Vol 6",
             "Numbers Spelled Out"
-        ]
+        ],
+        "level": "11+",
+        "scorePerc": "90.0%",
+        "date": "2021-11-03"
     },
     {
         "id": 320015,
@@ -2541,7 +3330,10 @@ var jpTags = [
         "tags": [
             "Photon Maiden",
             "Cover Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "97.1%",
+        "date": "2021-11-26"
     },
     {
         "id": 510014,
@@ -2551,7 +3343,10 @@ var jpTags = [
             "Original Category",
             "Songs with Black or White",
             "All Mix"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "97.9%",
+        "date": "2021-08-13"
     },
     {
         "id": 520014,
@@ -2560,7 +3355,10 @@ var jpTags = [
             "RONDO",
             "Cover Category",
             "Cover Tracks Vol 3"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "92.7%",
+        "date": "2021-12-13"
     },
     {
         "id": 5030044,
@@ -2569,7 +3367,10 @@ var jpTags = [
             "Game Category",
             "Summer 22 Dan",
             "Groove Coaster"
-        ]
+        ],
+        "level": "15",
+        "scorePerc": "92.7%",
+        "date": "2021-11-11"
     },
     {
         "id": 5030045,
@@ -2577,7 +3378,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Groove Coaster"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "95.2%",
+        "date": "2021-10-06"
     },
     {
         "id": 5030046,
@@ -2587,7 +3391,10 @@ var jpTags = [
             "Songs starting with D",
             "Groove Coaster",
             "Songs with 女"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "96.2%",
+        "date": "2021-11-09"
     },
     {
         "id": 5030047,
@@ -2595,7 +3402,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Groove Coaster"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.5%",
+        "date": "2021-11-07"
     },
     {
         "id": 5030048,
@@ -2603,7 +3413,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Groove Coaster"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "88.2%",
+        "date": "2021-10-04"
     },
     {
         "id": 5030049,
@@ -2611,7 +3424,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Groove Coaster"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "96.5%",
+        "date": "2021-10-02"
     },
     {
         "id": 5030042,
@@ -2621,7 +3437,10 @@ var jpTags = [
             "Summer 22 Dan",
             "Summer 23 Dan",
             "Songs with Wings"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "94.1%",
+        "date": "2021-08-15"
     },
     {
         "id": 5050059,
@@ -2629,7 +3448,10 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Songs with Love (愛,恋)"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.8%",
+        "date": "2021-08-01"
     },
     {
         "id": 3020009,
@@ -2638,7 +3460,10 @@ var jpTags = [
             "Special (unit)",
             "Cover Category",
             "Cover Tracks Vol 3"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "94.3%",
+        "date": "2021-09-11"
     },
     {
         "id": 120021,
@@ -2648,7 +3473,10 @@ var jpTags = [
             "Cover Category",
             "Summer 23 Dan",
             "Cover Tracks Vol 7"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "94.5%",
+        "date": "2022-01-01"
     },
     {
         "id": 520013,
@@ -2657,7 +3485,10 @@ var jpTags = [
             "RONDO",
             "Cover Category",
             "Cover Tracks Vol 3"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "89.8%",
+        "date": "2021-10-11"
     },
     {
         "id": 5030050,
@@ -2665,7 +3496,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Songs with Love (愛,恋)"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "92.8%",
+        "date": "2021-08-16"
     },
     {
         "id": 5050086,
@@ -2673,7 +3507,10 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Bushiroad"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "94.1%",
+        "date": "2021-08-29"
     },
     {
         "id": 5030054,
@@ -2683,7 +3520,10 @@ var jpTags = [
             "Autumn 22 Dan",
             "Songs with Love (愛,恋)",
             "Tokyo 7th Sisters"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "99.2%",
+        "date": "2021-08-17"
     },
     {
         "id": 220019,
@@ -2693,7 +3533,10 @@ var jpTags = [
             "Cover Category",
             "Summer 22 Dan",
             "Cover Tracks Vol 8"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "97.2%",
+        "date": "2021-09-05"
     },
     {
         "id": 620016,
@@ -2704,7 +3547,10 @@ var jpTags = [
             "Spring 23 Dan",
             "Cover Tracks Vol 8",
             "Songs with Cat"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "91.4%",
+        "date": "2021-09-18"
     },
     {
         "id": 320016,
@@ -2713,7 +3559,10 @@ var jpTags = [
             "Photon Maiden",
             "Cover Category",
             "Cover Tracks Vol 5"
-        ]
+        ],
+        "level": "11+",
+        "scorePerc": "93.5%",
+        "date": "2021-09-08"
     },
     {
         "id": 420016,
@@ -2724,14 +3573,20 @@ var jpTags = [
             "Cover Tracks Vol 7",
             "Songs with ♡",
             "Songs with Love (愛,恋)"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "94.0%",
+        "date": "2021-09-14"
     },
     {
         "id": 5050091,
         "name": "Redo",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "89.1%",
+        "date": "2021-09-15"
     },
     {
         "id": 520015,
@@ -2741,7 +3596,10 @@ var jpTags = [
             "Cover Category",
             "Autumn 22 Dan",
             "Cover Tracks Vol 5"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "95.2%",
+        "date": "2021-09-17"
     },
     {
         "id": 5030055,
@@ -2750,7 +3608,10 @@ var jpTags = [
             "Game Category",
             "Numbers Spelled Out",
             "Tokyo 7th Sisters"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "94.3%",
+        "date": "2021-10-17"
     },
     {
         "id": 5050099,
@@ -2758,7 +3619,10 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Songs with !"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "92.8%",
+        "date": "2021-10-23"
     },
     {
         "id": 5030062,
@@ -2768,7 +3632,10 @@ var jpTags = [
             "Autumn 22 Dan",
             "Touhou",
             "Songs with !"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "93.3%",
+        "date": "2021-10-19"
     },
     {
         "id": 5030063,
@@ -2776,7 +3643,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Touhou"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "94.7%",
+        "date": "2021-10-20"
     },
     {
         "id": 5050097,
@@ -2785,7 +3655,10 @@ var jpTags = [
             "Base Category",
             "Vtuber",
             "Hololive"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "93.0%",
+        "date": "2021-10-21"
     },
     {
         "id": 110021,
@@ -2795,7 +3668,10 @@ var jpTags = [
             "Original Category",
             "Summer 22 Dan",
             "Winter 23 Dan"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "92.4%",
+        "date": "2021-10-25"
     },
     {
         "id": 410012,
@@ -2805,7 +3681,10 @@ var jpTags = [
             "Original Category",
             "Summer 22 Dan",
             "Summer 23 Dan"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "92.0%",
+        "date": "2021-10-28"
     },
     {
         "id": 210012,
@@ -2813,7 +3692,10 @@ var jpTags = [
         "tags": [
             "Peaky P-key",
             "Original Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.7%",
+        "date": "2021-10-26"
     },
     {
         "id": 5030061,
@@ -2824,7 +3706,10 @@ var jpTags = [
             "Touhou",
             "Songs with Numerals",
             "BPM over 250"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "96.4%",
+        "date": "2021-10-18"
     },
     {
         "id": 310013,
@@ -2833,7 +3718,10 @@ var jpTags = [
             "Photon Maiden",
             "Original Category",
             "Spring 23 Dan"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "92.2%",
+        "date": "2021-10-27"
     },
     {
         "id": 510015,
@@ -2841,7 +3729,10 @@ var jpTags = [
         "tags": [
             "RONDO",
             "Original Category"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "92.5%",
+        "date": "2021-10-29"
     },
     {
         "id": 610012,
@@ -2849,28 +3740,40 @@ var jpTags = [
         "tags": [
             "Lyrical Lily",
             "Original Category"
-        ]
+        ],
+        "level": "11+",
+        "scorePerc": "91.9%",
+        "date": "2021-10-30"
     },
     {
         "id": 5050103,
         "name": "神奏曲:インフェルノ",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "92.8%",
+        "date": "2021-11-16"
     },
     {
         "id": 5050104,
         "name": "生まれ変わっても自分になりたい",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "91.3%",
+        "date": "2021-11-23"
     },
     {
         "id": 5050105,
         "name": "Across The Horizon",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "91.3%",
+        "date": "2021-11-01"
     },
     {
         "id": 5050106,
@@ -2880,7 +3783,10 @@ var jpTags = [
             "Spring 23 Dan",
             "Songs with !",
             "Princess Letters"
-        ]
+        ],
+        "level": "11",
+        "scorePerc": "95.5%",
+        "date": "2021-12-30"
     },
     {
         "id": 610013,
@@ -2890,7 +3796,10 @@ var jpTags = [
             "Original Category",
             "Autumn 22 Dan",
             "Event Songs"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.5%",
+        "date": "2021-11-17"
     },
     {
         "id": 310014,
@@ -2900,14 +3809,20 @@ var jpTags = [
             "Original Category",
             "Summer 22 Dan",
             "Event Songs"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "93.0%",
+        "date": "2021-11-25"
     },
     {
         "id": 5050107,
         "name": "合法トリップ:ボイルハザード",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "90.5%",
+        "date": "2021-11-30"
     },
     {
         "id": 5050109,
@@ -2915,7 +3830,10 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Spring 23 Dan"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.5%",
+        "date": "2021-12-02"
     },
     {
         "id": 410013,
@@ -2925,7 +3843,10 @@ var jpTags = [
             "Original Category",
             "Winter 23 Dan",
             "Event Songs"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "94.3%",
+        "date": "2021-12-18"
     },
     {
         "id": 5050110,
@@ -2933,28 +3854,40 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Songs with !"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "94.4%",
+        "date": "2021-12-24"
     },
     {
         "id": 5050111,
         "name": "マジカル☆ぬこレンレン",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "91.2%",
+        "date": "2021-12-25"
     },
     {
         "id": 5050120,
         "name": "パラジクロロベンゼン",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "94.5%",
+        "date": "2022-02-14"
     },
     {
         "id": 5050121,
         "name": "アンチクロロベンゼン",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.5%",
+        "date": "2022-02-15"
     },
     {
         "id": 5050122,
@@ -2962,7 +3895,10 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Songs with Theme (テーマ)"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "93.8%",
+        "date": "2022-01-21"
     },
     {
         "id": 3010015,
@@ -2972,7 +3908,10 @@ var jpTags = [
             "Original Category",
             "Autumn 22 Dan",
             "Songs starting with D"
-        ]
+        ],
+        "level": "11+",
+        "scorePerc": "89.9%",
+        "date": "2022-01-07"
     },
     {
         "id": 5030064,
@@ -2984,7 +3923,10 @@ var jpTags = [
             "Summer 23 Dan",
             "GekiChuMai",
             "Songs with !"
-        ]
+        ],
+        "level": "15",
+        "scorePerc": "90.6%",
+        "date": "2022-03-26"
     },
     {
         "id": 5030065,
@@ -2994,7 +3936,10 @@ var jpTags = [
             "Spring 23 Dan",
             "GekiChuMai",
             "Songs with !"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "89.8%",
+        "date": "2022-03-18"
     },
     {
         "id": 5030066,
@@ -3002,7 +3947,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "GekiChuMai"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "94.3%",
+        "date": "2022-03-25"
     },
     {
         "id": 5030067,
@@ -3012,7 +3960,10 @@ var jpTags = [
             "Summer 23 Dan",
             "GekiChuMai",
             "Songs with !"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "96.6%",
+        "date": "2022-03-17"
     },
     {
         "id": 5030068,
@@ -3021,7 +3972,10 @@ var jpTags = [
             "Game Category",
             "Autumn 22 Dan",
             "GekiChuMai"
-        ]
+        ],
+        "level": "15",
+        "scorePerc": "92.9%",
+        "date": "2022-03-27"
     },
     {
         "id": 5030069,
@@ -3030,7 +3984,10 @@ var jpTags = [
             "Game Category",
             "Spring 23 Dan",
             "GekiChuMai"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "95.0%",
+        "date": "2022-03-19"
     },
     {
         "id": 220020,
@@ -3041,7 +3998,10 @@ var jpTags = [
             "Winter 23 Dan",
             "Cover Tracks Vol 6",
             "Songs with !"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "95.4%",
+        "date": "2021-12-31"
     },
     {
         "id": 3020010,
@@ -3049,7 +4009,10 @@ var jpTags = [
         "tags": [
             "Special (unit)",
             "Cover Category"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "91.3%",
+        "date": "2022-01-07"
     },
     {
         "id": 5050123,
@@ -3057,7 +4020,10 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Songs with Sakura"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "97.4%",
+        "date": "2022-01-03"
     },
     {
         "id": 210013,
@@ -3068,7 +4034,10 @@ var jpTags = [
             "Winter 23 Dan",
             "Summer 23 Dan",
             "Event Songs"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "95.8%",
+        "date": "2022-01-02"
     },
     {
         "id": 5050127,
@@ -3077,7 +4046,10 @@ var jpTags = [
             "Base Category",
             "Bushiroad",
             "from ARGONAVIS"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "97.4%",
+        "date": "2022-02-01"
     },
     {
         "id": 5050129,
@@ -3087,7 +4059,10 @@ var jpTags = [
             "Bushiroad",
             "from ARGONAVIS",
             "Songs with !"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "90.8%",
+        "date": "2022-02-01"
     },
     {
         "id": 510016,
@@ -3100,7 +4075,10 @@ var jpTags = [
             "Numbers Spelled Out",
             "Event Songs",
             "BPM over 250"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "93.3%",
+        "date": "2022-01-18"
     },
     {
         "id": 5050126,
@@ -3109,7 +4087,10 @@ var jpTags = [
             "Base Category",
             "Bushiroad",
             "from ARGONAVIS"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.4%",
+        "date": "2022-02-01"
     },
     {
         "id": 5050128,
@@ -3118,7 +4099,10 @@ var jpTags = [
             "Base Category",
             "Bushiroad",
             "from ARGONAVIS"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "95.1%",
+        "date": "2022-02-01"
     },
     {
         "id": 5050130,
@@ -3127,7 +4111,10 @@ var jpTags = [
             "Base Category",
             "Bushiroad",
             "from ARGONAVIS"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "96.2%",
+        "date": "2022-02-01"
     },
     {
         "id": 5030051,
@@ -3135,7 +4122,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Tokyo 7th Sisters"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "98.2%",
+        "date": "2022-02-27"
     },
     {
         "id": 5050125,
@@ -3144,14 +4134,20 @@ var jpTags = [
             "Base Category",
             "Songs with !",
             "Princess Letters"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "91.3%",
+        "date": "2022-01-30"
     },
     {
         "id": 5050131,
         "name": "B.B.K.K.B.K.K.",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "93.6%",
+        "date": "2022-02-23"
     },
     {
         "id": 5050132,
@@ -3162,7 +4158,10 @@ var jpTags = [
             "Winter 23 Dan",
             "Spring 23 Dan",
             "Summer 23 Dan"
-        ]
+        ],
+        "level": "15",
+        "scorePerc": "92.1%",
+        "date": "2022-03-07"
     },
     {
         "id": 5050134,
@@ -3171,7 +4170,10 @@ var jpTags = [
             "Base Category",
             "Spring 23 Dan",
             "Songs with Numerals"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "94.3%",
+        "date": "2022-02-26"
     },
     {
         "id": 110023,
@@ -3182,7 +4184,10 @@ var jpTags = [
             "Spring 23 Dan",
             "Event Songs",
             "Songs with ♡"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "93.0%",
+        "date": "2022-02-11"
     },
     {
         "id": 610014,
@@ -3192,21 +4197,30 @@ var jpTags = [
             "Original Category",
             "Event Songs",
             "Songs with Black or White"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "91.5%",
+        "date": "2022-03-05"
     },
     {
         "id": 5050133,
         "name": "GOODTEK",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "95.0%",
+        "date": "2022-03-02"
     },
     {
         "id": 5050136,
         "name": "神奏曲:ライトニング",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "90.2%",
+        "date": "2022-03-10"
     },
     {
         "id": 320017,
@@ -3217,7 +4231,10 @@ var jpTags = [
             "Autumn 22 Dan",
             "Cover Tracks Vol 7",
             "Songs with !"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "93.4%",
+        "date": "2022-02-25"
     },
     {
         "id": 110025,
@@ -3228,7 +4245,10 @@ var jpTags = [
             "Summer 23 Dan",
             "Songs with Numerals",
             "Songs with !"
-        ]
+        ],
+        "level": "15",
+        "scorePerc": "95.7%",
+        "date": "2022-05-29"
     },
     {
         "id": 310016,
@@ -3240,7 +4260,10 @@ var jpTags = [
             "Groovy Fes",
             "D4FES Songs",
             "Songs with MV"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "91.7%",
+        "date": "2022-03-27"
     },
     {
         "id": 520016,
@@ -3251,14 +4274,20 @@ var jpTags = [
             "Autumn 22 Dan",
             "Cover Tracks Vol 7",
             "BPM over 250"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "93.7%",
+        "date": "2022-03-21"
     },
     {
         "id": 5050137,
         "name": "only my railgun",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "89.3%",
+        "date": "2022-04-04"
     },
     {
         "id": 210014,
@@ -3269,7 +4298,10 @@ var jpTags = [
             "Autumn 22 Dan",
             "Winter 23 Dan",
             "Songs with !"
-        ]
+        ],
+        "level": "15",
+        "scorePerc": "95.5%",
+        "date": "2022-05-29"
     },
     {
         "id": 310015,
@@ -3279,7 +4311,10 @@ var jpTags = [
             "Original Category",
             "Autumn 22 Dan",
             "Event Songs"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.8%",
+        "date": "2022-03-13"
     },
     {
         "id": 610015,
@@ -3291,7 +4326,10 @@ var jpTags = [
             "Autumn 22 Dan",
             "D4FES Songs",
             "Songs with MV"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "90.0%",
+        "date": "2022-04-26"
     },
     {
         "id": 410014,
@@ -3300,7 +4338,10 @@ var jpTags = [
             "Merm4id",
             "Original Category",
             "Autumn 22 Dan"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "90.3%",
+        "date": "2022-04-27"
     },
     {
         "id": 620017,
@@ -3311,7 +4352,10 @@ var jpTags = [
             "Autumn 22 Dan",
             "Spring 23 Dan",
             "Cover Tracks Vol 7"
-        ]
+        ],
+        "level": "11+",
+        "scorePerc": "90.6%",
+        "date": "2022-03-31"
     },
     {
         "id": 620018,
@@ -3321,7 +4365,10 @@ var jpTags = [
             "Cover Category",
             "Autumn 22 Dan",
             "Cover Tracks Vol 8"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.4%",
+        "date": "2022-04-07"
     },
     {
         "id": 5030070,
@@ -3329,21 +4376,30 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Songs with 女"
-        ]
+        ],
+        "level": "10+",
+        "scorePerc": "89.3%",
+        "date": "2022-05-01"
     },
     {
         "id": 5030071,
         "name": "御旗のもとに",
         "tags": [
             "Game Category"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "92.6%",
+        "date": "2022-05-02"
     },
     {
         "id": 5030072,
         "name": "地上の戦士",
         "tags": [
             "Game Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "88.4%",
+        "date": "2022-05-03"
     },
     {
         "id": 5030073,
@@ -3351,7 +4407,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Songs with !"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "91.0%",
+        "date": "2022-04-30"
     },
     {
         "id": 5050145,
@@ -3360,7 +4419,10 @@ var jpTags = [
             "Base Category",
             "Winter 23 Dan",
             "Princess Letters"
-        ]
+        ],
+        "level": "11",
+        "scorePerc": "93.2%",
+        "date": "2022-04-20"
     },
     {
         "id": 5050146,
@@ -3370,7 +4432,10 @@ var jpTags = [
             "Winter 23 Dan",
             "BPM over 250",
             "Princess Letters"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "96.9%",
+        "date": "2022-04-21"
     },
     {
         "id": 5050147,
@@ -3378,7 +4443,10 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Princess Letters"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "92.1%",
+        "date": "2022-04-22"
     },
     {
         "id": 410015,
@@ -3390,7 +4458,10 @@ var jpTags = [
             "D4FES Songs",
             "Songs with Love (愛,恋)",
             "Songs with MV"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "95.6%",
+        "date": "2022-06-25"
     },
     {
         "id": 420017,
@@ -3400,7 +4471,10 @@ var jpTags = [
             "Cover Category",
             "Winter 23 Dan",
             "Cover Tracks Vol 8"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "94.0%",
+        "date": "2022-05-04"
     },
     {
         "id": 510017,
@@ -3413,7 +4487,10 @@ var jpTags = [
             "Winter 23 Dan",
             "Spring 23 Dan",
             "Summer 23 Dan"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "99.1%",
+        "date": "2022-05-25"
     },
     {
         "id": 5030058,
@@ -3421,7 +4498,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Tokyo 7th Sisters"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.2%",
+        "date": "2022-07-07"
     },
     {
         "id": 510018,
@@ -3433,14 +4513,20 @@ var jpTags = [
             "Groovy Fes",
             "D4FES Songs",
             "Songs with MV"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "90.9%",
+        "date": "2022-05-26"
     },
     {
         "id": 5030074,
         "name": "Smell of the Game",
         "tags": [
             "Game Category"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "92.4%",
+        "date": "2022-05-14"
     },
     {
         "id": 110026,
@@ -3450,7 +4536,10 @@ var jpTags = [
             "Original Category",
             "Winter 23 Dan",
             "Event Songs"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "91.4%",
+        "date": "2022-05-12"
     },
     {
         "id": 5050151,
@@ -3459,7 +4548,10 @@ var jpTags = [
             "Base Category",
             "Bushiroad",
             "from ARGONAVIS"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "91.7%",
+        "date": "2022-06-12"
     },
     {
         "id": 5050152,
@@ -3468,7 +4560,10 @@ var jpTags = [
             "Base Category",
             "Bushiroad",
             "from ARGONAVIS"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "88.7%",
+        "date": "2022-06-12"
     },
     {
         "id": 5030075,
@@ -3476,7 +4571,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Numbers Spelled Out"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "89.3%",
+        "date": "2022-05-21"
     },
     {
         "id": 110024,
@@ -3488,7 +4586,10 @@ var jpTags = [
             "Groovy Fes",
             "D4FES Songs",
             "Songs with MV"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "91.8%",
+        "date": "2022-05-27"
     },
     {
         "id": 3010016,
@@ -3497,28 +4598,40 @@ var jpTags = [
             "Special (unit)",
             "Original Category",
             "Songs with !"
-        ]
+        ],
+        "level": "11+",
+        "scorePerc": "90.4%",
+        "date": "2022-05-28"
     },
     {
         "id": 5050150,
         "name": "五等分の軌跡",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "88.7%",
+        "date": "2022-06-03"
     },
     {
         "id": 5030076,
         "name": "The Roar of the Spark",
         "tags": [
             "Game Category"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "90.9%",
+        "date": "2022-06-04"
     },
     {
         "id": 5030077,
         "name": "The Disaster of Passion",
         "tags": [
             "Game Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.5%",
+        "date": "2022-06-11"
     },
     {
         "id": 5030078,
@@ -3527,7 +4640,10 @@ var jpTags = [
             "Game Category",
             "Songs with Love (愛,恋)",
             "BPM over 250"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.9%",
+        "date": "2022-06-18"
     },
     {
         "id": 220021,
@@ -3536,7 +4652,10 @@ var jpTags = [
             "Peaky P-key",
             "Cover Category",
             "Spring 23 Dan"
-        ]
+        ],
+        "level": "11",
+        "scorePerc": "90.1%",
+        "date": "2022-06-13"
     },
     {
         "id": 610016,
@@ -3545,7 +4664,10 @@ var jpTags = [
             "Lyrical Lily",
             "Original Category",
             "Autumn 22 Dan"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "92.6%",
+        "date": "2022-06-29"
     },
     {
         "id": 5050153,
@@ -3553,14 +4675,20 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Songs with !"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "93.4%",
+        "date": "2022-07-02"
     },
     {
         "id": 5050154,
         "name": "あはっててっぺんっ",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "89.9%",
+        "date": "2022-07-02"
     },
     {
         "id": 5050155,
@@ -3569,7 +4697,10 @@ var jpTags = [
             "Base Category",
             "Winter 23 Dan",
             "Princess Letters"
-        ]
+        ],
+        "level": "11+",
+        "scorePerc": "91.8%",
+        "date": "2022-08-05"
     },
     {
         "id": 5050156,
@@ -3578,7 +4709,10 @@ var jpTags = [
             "Base Category",
             "Songs with Wings",
             "Princess Letters"
-        ]
+        ],
+        "level": "11",
+        "scorePerc": "94.0%",
+        "date": "2022-08-17"
     },
     {
         "id": 5050157,
@@ -3587,7 +4721,10 @@ var jpTags = [
             "Base Category",
             "Songs with !",
             "Princess Letters"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "94.8%",
+        "date": "2022-08-24"
     },
     {
         "id": 110027,
@@ -3596,7 +4733,10 @@ var jpTags = [
             "Happy Around!",
             "Original Category",
             "Event Songs"
-        ]
+        ],
+        "level": "11+",
+        "scorePerc": "91.0%",
+        "date": "2022-07-11"
     },
     {
         "id": 210016,
@@ -3607,7 +4747,10 @@ var jpTags = [
             "Autumn 22 Dan",
             "Summer 23 Dan",
             "Event Songs"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "90.4%",
+        "date": "2022-07-31"
     },
     {
         "id": 310017,
@@ -3617,7 +4760,10 @@ var jpTags = [
             "Original Category",
             "Autumn 22 Dan",
             "Event Songs"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "91.0%",
+        "date": "2022-07-03"
     },
     {
         "id": 510019,
@@ -3628,7 +4774,10 @@ var jpTags = [
             "Autumn 22 Dan",
             "Groovy Fes",
             "Event Songs"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "90.7%",
+        "date": "2022-06-11"
     },
     {
         "id": 210015,
@@ -3640,7 +4789,10 @@ var jpTags = [
             "D4FES Songs",
             "Songs with !",
             "Songs with MV"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.6%",
+        "date": "2022-07-24"
     },
     {
         "id": 110028,
@@ -3650,7 +4802,10 @@ var jpTags = [
             "Original Category",
             "Summer 22 Dan",
             "Groovy Fes"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "100.1%",
+        "date": "2022-07-20"
     },
     {
         "id": 5030079,
@@ -3658,21 +4813,30 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Winter 23 Dan"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "90.0%",
+        "date": "2022-06-25"
     },
     {
         "id": 5030080,
         "name": "What do you fight for",
         "tags": [
             "Game Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "94.0%",
+        "date": "2022-07-02"
     },
     {
         "id": 5030081,
         "name": "Perfection Can't Please Me",
         "tags": [
             "Game Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "90.1%",
+        "date": "2022-07-09"
     },
     {
         "id": 5030082,
@@ -3680,7 +4844,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Winter 23 Dan"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "92.5%",
+        "date": "2022-07-16"
     },
     {
         "id": 5030083,
@@ -3689,7 +4856,10 @@ var jpTags = [
             "Game Category",
             "Spring 23 Dan",
             "Songs starting with D"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "92.9%",
+        "date": "2022-07-23"
     },
     {
         "id": 610017,
@@ -3699,7 +4869,10 @@ var jpTags = [
             "Original Category",
             "Autumn 22 Dan",
             "Spring 23 Dan"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "92.4%",
+        "date": "2022-07-03"
     },
     {
         "id": 410016,
@@ -3710,7 +4883,10 @@ var jpTags = [
             "Winter 23 Dan",
             "Spring 23 Dan",
             "Event Songs"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "91.9%",
+        "date": "2022-09-14"
     },
     {
         "id": 5030084,
@@ -3719,7 +4895,10 @@ var jpTags = [
             "Game Category",
             "August",
             "Songs with MV"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "87.7%",
+        "date": "2022-08-11"
     },
     {
         "id": 5030085,
@@ -3728,7 +4907,10 @@ var jpTags = [
             "Game Category",
             "August",
             "Songs with !"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "90.9%",
+        "date": "2022-08-12"
     },
     {
         "id": 5030086,
@@ -3736,7 +4918,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "August"
-        ]
+        ],
+        "level": "11",
+        "scorePerc": "89.3%",
+        "date": "2022-08-13"
     },
     {
         "id": 5030087,
@@ -3744,7 +4929,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "August"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "95.2%",
+        "date": "2022-08-14"
     },
     {
         "id": 5030088,
@@ -3752,7 +4940,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "August"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "89.5%",
+        "date": "2022-08-14"
     },
     {
         "id": 5030089,
@@ -3760,7 +4951,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "August"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "89.9%",
+        "date": "2022-08-14"
     },
     {
         "id": 5030090,
@@ -3768,7 +4962,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "August"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "91.5%",
+        "date": "2022-08-15"
     },
     {
         "id": 5030091,
@@ -3776,7 +4973,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "August"
-        ]
+        ],
+        "level": "11+",
+        "scorePerc": "91.2%",
+        "date": "2022-08-16"
     },
     {
         "id": 5050163,
@@ -3785,7 +4985,10 @@ var jpTags = [
             "Base Category",
             "Wrestling",
             "Bushiroad"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "91.1%",
+        "date": "2022-07-30"
     },
     {
         "id": 610018,
@@ -3796,7 +4999,10 @@ var jpTags = [
             "Autumn 22 Dan",
             "Spring 23 Dan",
             "Songs with Cat"
-        ]
+        ],
+        "level": "15",
+        "scorePerc": "97.2%",
+        "date": "2022-08-06"
     },
     {
         "id": 610019,
@@ -3805,7 +5011,10 @@ var jpTags = [
             "Lyrical Lily",
             "Original Category",
             "Event Songs"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "91.4%",
+        "date": "2022-08-08"
     },
     {
         "id": 310018,
@@ -3815,7 +5024,10 @@ var jpTags = [
             "Original Category",
             "Winter 23 Dan",
             "Spring 23 Dan"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "92.3%",
+        "date": "2022-08-10"
     },
     {
         "id": 610020,
@@ -3826,7 +5038,10 @@ var jpTags = [
             "Songs with MV",
             "D4DJ Anime",
             "All Mix"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "92.0%",
+        "date": "2023-01-27"
     },
     {
         "id": 5030092,
@@ -3835,7 +5050,10 @@ var jpTags = [
             "Game Category",
             "Spring 23 Dan",
             "Songs with Medley"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "85.3%",
+        "date": "2022-09-22"
     },
     {
         "id": 5030093,
@@ -3843,7 +5061,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Songs with Medley"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "86.3%",
+        "date": "2022-09-23"
     },
     {
         "id": 5030094,
@@ -3852,7 +5073,10 @@ var jpTags = [
             "Game Category",
             "Winter 23 Dan",
             "WACCA"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "90.7%",
+        "date": "2022-09-12"
     },
     {
         "id": 5030095,
@@ -3861,7 +5085,10 @@ var jpTags = [
             "Game Category",
             "Winter 23 Dan",
             "WACCA"
-        ]
+        ],
+        "level": "15",
+        "scorePerc": "94.6%",
+        "date": "2022-09-13"
     },
     {
         "id": 210017,
@@ -3872,7 +5099,10 @@ var jpTags = [
             "Spring 23 Dan",
             "Summer 23 Dan",
             "Songs starting with D"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "92.0%",
+        "date": "2022-09-07"
     },
     {
         "id": 410017,
@@ -3882,7 +5112,10 @@ var jpTags = [
             "Original Category",
             "Winter 23 Dan",
             "Spring 23 Dan"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "93.6%",
+        "date": "2022-10-28"
     },
     {
         "id": 410018,
@@ -3895,7 +5128,10 @@ var jpTags = [
             "BPM over 250",
             "D4DJ Anime",
             "All Mix"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "91.1%",
+        "date": "2023-02-10"
     },
     {
         "id": 210018,
@@ -3907,7 +5143,10 @@ var jpTags = [
             "Songs with MV",
             "D4DJ Anime",
             "All Mix"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "96.9%",
+        "date": "2023-01-13"
     },
     {
         "id": 3010017,
@@ -3917,7 +5156,10 @@ var jpTags = [
             "Original Category",
             "Autumn 22 Dan",
             "D4DJ Anime"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "91.0%",
+        "date": "2022-08-19"
     },
     {
         "id": 320019,
@@ -3928,7 +5170,10 @@ var jpTags = [
             "Autumn 22 Dan",
             "Summer 23 Dan",
             "Cover Tracks Vol 8"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "95.3%",
+        "date": "2022-08-26"
     },
     {
         "id": 420018,
@@ -3942,14 +5187,20 @@ var jpTags = [
             "Cover Tracks Vol 8",
             "Songs with !",
             "Songs with Go"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "92.0%",
+        "date": "2022-08-27"
     },
     {
         "id": 5050171,
         "name": "マツケンサンバII",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "89.2%",
+        "date": "2022-08-28"
     },
     {
         "id": 520019,
@@ -3960,14 +5211,10 @@ var jpTags = [
             "Winter 23 Dan",
             "Spring 23 Dan",
             "Cover Tracks Vol 8"
-        ]
-    },
-    {
-        "id": 5050169,
-        "name": "MIRACLE RUSH",
-        "tags": [
-            "Base Category"
-        ]
+        ],
+        "level": "10",
+        "scorePerc": "88.0%",
+        "date": "2022-08-29"
     },
     {
         "id": 620019,
@@ -3980,14 +5227,20 @@ var jpTags = [
             "Summer 23 Dan",
             "Songs with !",
             "BPM over 250"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.5%",
+        "date": "2022-08-31"
     },
     {
         "id": 5050167,
         "name": "ドリームパレード",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "88.5%",
+        "date": "2022-09-01"
     },
     {
         "id": 220022,
@@ -3998,7 +5251,10 @@ var jpTags = [
             "Winter 23 Dan",
             "Spring 23 Dan",
             "Cover Tracks Vol 7"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.4%",
+        "date": "2022-09-02"
     },
     {
         "id": 5050168,
@@ -4007,7 +5263,10 @@ var jpTags = [
             "Base Category",
             "Winter 23 Dan",
             "Bushiroad"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "93.9%",
+        "date": "2022-09-03"
     },
     {
         "id": 120022,
@@ -4019,14 +5278,20 @@ var jpTags = [
             "Spring 23 Dan",
             "Summer 23 Dan",
             "Cover Tracks Vol 8"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "94.0%",
+        "date": "2022-09-04"
     },
     {
         "id": 5050170,
         "name": "Can Do",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "87.0%",
+        "date": "2022-09-05"
     },
     {
         "id": 3020012,
@@ -4035,7 +5300,10 @@ var jpTags = [
             "Special (unit)",
             "Cover Category",
             "Songs with Numerals"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "90.5%",
+        "date": "2022-09-06"
     },
     {
         "id": 5030096,
@@ -4043,7 +5311,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Winter 23 Dan"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "94.1%",
+        "date": "2022-09-17"
     },
     {
         "id": 5030097,
@@ -4051,7 +5322,10 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Winter 23 Dan"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "98.1%",
+        "date": "2022-09-17"
     },
     {
         "id": 5030098,
@@ -4060,7 +5334,10 @@ var jpTags = [
             "Game Category",
             "Winter 23 Dan",
             "Cover Tracks Vol 8"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.9%",
+        "date": "2022-09-30"
     },
     {
         "id": 5030099,
@@ -4069,7 +5346,10 @@ var jpTags = [
             "Game Category",
             "Summer 23 Dan",
             "Touhou"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "94.6%",
+        "date": "2022-10-18"
     },
     {
         "id": 3020013,
@@ -4080,7 +5360,10 @@ var jpTags = [
             "Winter 23 Dan",
             "Spring 23 Dan",
             "Summer 23 Dan"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "94.0%",
+        "date": "2022-10-10"
     },
     {
         "id": 3020014,
@@ -4091,7 +5374,10 @@ var jpTags = [
             "Winter 23 Dan",
             "Songs with Wings",
             "Songs with Black or White"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "91.3%",
+        "date": "2022-10-13"
     },
     {
         "id": 3020015,
@@ -4100,7 +5386,10 @@ var jpTags = [
             "Special (unit)",
             "Cover Category",
             "Spring 23 Dan"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "94.2%",
+        "date": "2022-10-07"
     },
     {
         "id": 3020016,
@@ -4108,7 +5397,10 @@ var jpTags = [
         "tags": [
             "Special (unit)",
             "Cover Category"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "91.7%",
+        "date": "2023-02-20"
     },
     {
         "id": 3020017,
@@ -4116,7 +5408,10 @@ var jpTags = [
         "tags": [
             "Special (unit)",
             "Cover Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.9%",
+        "date": "2023-05-06"
     },
     {
         "id": 3020018,
@@ -4124,21 +5419,30 @@ var jpTags = [
         "tags": [
             "Special (unit)",
             "Cover Category"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "89.0%",
+        "date": "2022-12-30"
     },
     {
         "id": 5050176,
         "name": "曖昧さ、幸福論",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "89.9%",
+        "date": "2022-10-15"
     },
     {
         "id": 5050177,
         "name": "PARTY☆NIGHT (D-POP version)",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "93.6%",
+        "date": "2023-01-03"
     },
     {
         "id": 5050178,
@@ -4146,14 +5450,20 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Songs with !"
-        ]
+        ],
+        "level": "11+",
+        "scorePerc": "91.9%",
+        "date": "2022-10-16"
     },
     {
         "id": 5050179,
         "name": "青空Jumping Heart",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "94.2%",
+        "date": "2022-10-19"
     },
     {
         "id": 5050181,
@@ -4161,7 +5471,10 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Songs with !"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "89.0%",
+        "date": "2022-10-21"
     },
     {
         "id": 5050183,
@@ -4170,7 +5483,10 @@ var jpTags = [
             "Base Category",
             "Songs with !",
             "BPM over 250"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "89.7%",
+        "date": "2022-10-23"
     },
     {
         "id": 5050184,
@@ -4178,7 +5494,10 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Songs with !"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "89.0%",
+        "date": "2022-10-24"
     },
     {
         "id": 910001,
@@ -4187,7 +5506,10 @@ var jpTags = [
             "Abyssmare",
             "Original Category",
             "Side Nova"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "93.4%",
+        "date": "2022-10-25"
     },
     {
         "id": 110029,
@@ -4196,7 +5518,10 @@ var jpTags = [
             "Happy Around!",
             "Original Category",
             "Songs with !"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.2%",
+        "date": "2022-10-25"
     },
     {
         "id": 210019,
@@ -4205,7 +5530,10 @@ var jpTags = [
             "Peaky P-key",
             "Original Category",
             "Spring 23 Dan"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.4%",
+        "date": "2022-10-26"
     },
     {
         "id": 310019,
@@ -4214,7 +5542,10 @@ var jpTags = [
             "Photon Maiden",
             "Original Category",
             "Spring 23 Dan"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "91.7%",
+        "date": "2022-10-27"
     },
     {
         "id": 510020,
@@ -4223,7 +5554,10 @@ var jpTags = [
             "RONDO",
             "Original Category",
             "Songs with MV"
-        ]
+        ],
+        "level": "15",
+        "scorePerc": "93.0%",
+        "date": "2022-12-09"
     },
     {
         "id": 610021,
@@ -4232,7 +5566,10 @@ var jpTags = [
             "Lyrical Lily",
             "Original Category",
             "Spring 23 Dan"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "91.3%",
+        "date": "2022-10-30"
     },
     {
         "id": 5050185,
@@ -4240,7 +5577,10 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Bushiroad"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "88.7%",
+        "date": "2022-09-30"
     },
     {
         "id": 5050186,
@@ -4249,7 +5589,10 @@ var jpTags = [
             "Base Category",
             "Bushiroad",
             "Songs with !"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "89.7%",
+        "date": "2022-10-03"
     },
     {
         "id": 5050187,
@@ -4257,14 +5600,20 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Spring 23 Dan"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "91.4%",
+        "date": "2022-11-03"
     },
     {
         "id": 5050188,
         "name": "IAM",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.0%",
+        "date": "2022-11-04"
     },
     {
         "id": 5050189,
@@ -4272,7 +5621,10 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Spring 23 Dan"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "91.4%",
+        "date": "2022-11-05"
     },
     {
         "id": 320020,
@@ -4281,35 +5633,50 @@ var jpTags = [
             "Photon Maiden",
             "Cover Category",
             "Spring 23 Dan"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.5%",
+        "date": "2022-11-06"
     },
     {
         "id": 5050190,
         "name": "Just the truth",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "92.1%",
+        "date": "2023-01-31"
     },
     {
         "id": 5050191,
         "name": "kaleidoscope",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "94.2%",
+        "date": "2023-02-01"
     },
     {
         "id": 5050192,
         "name": "starlog",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "91.7%",
+        "date": "2023-02-03"
     },
     {
         "id": 5050193,
         "name": "ワンダーステラ",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.8%",
+        "date": "2023-02-02"
     },
     {
         "id": 3010018,
@@ -4318,14 +5685,20 @@ var jpTags = [
             "Special (unit)",
             "Original Category",
             "Winter 23 Dan"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "91.9%",
+        "date": "2022-10-29"
     },
     {
         "id": 5050194,
         "name": "Pixel Galaxy",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "88.7%",
+        "date": "2022-12-20"
     },
     {
         "id": 5050195,
@@ -4333,21 +5706,30 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Songs with !"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "91.4%",
+        "date": "2023-01-21"
     },
     {
         "id": 5050196,
         "name": "幸せになれる隠しコマンドがあるらしい",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "91.9%",
+        "date": "2023-01-22"
     },
     {
         "id": 5050197,
         "name": "Notice (w/ TORIENA)",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "89.4%",
+        "date": "2022-12-25"
     },
     {
         "id": 5050198,
@@ -4355,7 +5737,10 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Vtuber"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "90.8%",
+        "date": "2022-11-17"
     },
     {
         "id": 5050199,
@@ -4363,7 +5748,10 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Vtuber"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "91.2%",
+        "date": "2022-11-21"
     },
     {
         "id": 5050200,
@@ -4371,7 +5759,10 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Vtuber"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "90.4%",
+        "date": "2022-11-25"
     },
     {
         "id": 110030,
@@ -4384,7 +5775,10 @@ var jpTags = [
             "Songs with ♡",
             "Songs with !",
             "Songs with Go"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "92.6%",
+        "date": "2022-12-03"
     },
     {
         "id": 110031,
@@ -4394,7 +5788,10 @@ var jpTags = [
             "Original Category",
             "Side Origin",
             "Songs with MV"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "91.5%",
+        "date": "2023-02-08"
     },
     {
         "id": 210020,
@@ -4406,7 +5803,10 @@ var jpTags = [
             "Side Origin",
             "Numbers Spelled Out",
             "Songs with MV"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "96.0%",
+        "date": "2022-12-17"
     },
     {
         "id": 310020,
@@ -4419,7 +5819,10 @@ var jpTags = [
             "Side Origin",
             "Songs with Numerals",
             "Songs with MV"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "90.2%",
+        "date": "2022-11-11"
     },
     {
         "id": 810001,
@@ -4430,7 +5833,10 @@ var jpTags = [
             "Spring 23 Dan",
             "Songs with MV",
             "Side Nova"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.9%",
+        "date": "2022-12-25"
     },
     {
         "id": 3020019,
@@ -4439,7 +5845,10 @@ var jpTags = [
             "Special (unit)",
             "Cover Category",
             "Spring 23 Dan"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.2%",
+        "date": "2022-11-29"
     },
     {
         "id": 5050201,
@@ -4447,7 +5856,10 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Songs with 女"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.4%",
+        "date": "2022-12-31"
     },
     {
         "id": 5050202,
@@ -4455,7 +5867,10 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Vtuber"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.1%",
+        "date": "2022-12-03"
     },
     {
         "id": 5050203,
@@ -4463,7 +5878,10 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Vtuber"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "89.0%",
+        "date": "2022-12-03"
     },
     {
         "id": 410019,
@@ -4471,7 +5889,10 @@ var jpTags = [
         "tags": [
             "Merm4id",
             "Original Category"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "90.2%",
+        "date": "2023-01-01"
     },
     {
         "id": 820001,
@@ -4481,7 +5902,10 @@ var jpTags = [
             "Cover Category",
             "Winter 23 Dan",
             "Cover Tracks Vol 8"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.9%",
+        "date": "2023-01-25"
     },
     {
         "id": 820002,
@@ -4489,7 +5913,10 @@ var jpTags = [
         "tags": [
             "UniChØrd",
             "Cover Category"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "93.2%",
+        "date": "2023-02-15"
     },
     {
         "id": 110032,
@@ -4501,7 +5928,10 @@ var jpTags = [
             "Songs with MV",
             "D4DJ Anime",
             "All Mix"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "94.6%",
+        "date": "2023-02-17"
     },
     {
         "id": 310021,
@@ -4514,7 +5944,10 @@ var jpTags = [
             "Songs with MV",
             "D4DJ Anime",
             "All Mix"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "90.7%",
+        "date": "2023-02-24"
     },
     {
         "id": 510021,
@@ -4527,7 +5960,10 @@ var jpTags = [
             "BPM over 250",
             "D4DJ Anime",
             "All Mix"
-        ]
+        ],
+        "level": "15",
+        "scorePerc": "93.9%",
+        "date": "2023-02-03"
     },
     {
         "id": 3010019,
@@ -4539,7 +5975,10 @@ var jpTags = [
             "Songs with MV",
             "D4DJ Anime",
             "All Mix"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "94.1%",
+        "date": "2023-03-24"
     },
     {
         "id": 3010020,
@@ -4550,7 +5989,10 @@ var jpTags = [
             "Songs with MV",
             "D4DJ Anime",
             "All Mix"
-        ]
+        ],
+        "level": "10",
+        "scorePerc": "88.7%",
+        "date": "2023-03-10"
     },
     {
         "id": 3010021,
@@ -4561,7 +6003,10 @@ var jpTags = [
             "Summer 23 Dan",
             "D4DJ Anime",
             "All Mix"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.5%",
+        "date": "2023-01-13"
     },
     {
         "id": 3010022,
@@ -4571,7 +6016,10 @@ var jpTags = [
             "Original Category",
             "D4DJ Anime",
             "All Mix"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.0%",
+        "date": "2023-01-13"
     },
     {
         "id": 3010023,
@@ -4583,7 +6031,10 @@ var jpTags = [
             "Songs with MV",
             "D4DJ Anime",
             "All Mix"
-        ]
+        ],
+        "level": "12",
+        "scorePerc": "90.5%",
+        "date": "2023-03-31"
     },
     {
         "id": 610022,
@@ -4593,7 +6044,10 @@ var jpTags = [
             "Original Category",
             "Side Origin",
             "Songs with MV"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "91.6%",
+        "date": "2023-01-10"
     },
     {
         "id": 3020020,
@@ -4602,7 +6056,10 @@ var jpTags = [
             "Special (unit)",
             "Cover Category",
             "Summer 23 Dan"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "90.5%",
+        "date": "2023-02-19"
     },
     {
         "id": 910002,
@@ -4611,7 +6068,10 @@ var jpTags = [
             "Abyssmare",
             "Original Category",
             "Side Nova"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "95.3%",
+        "date": "2023-01-24"
     },
     {
         "id": 410020,
@@ -4623,7 +6083,10 @@ var jpTags = [
             "Songs with Love (愛,恋)",
             "Songs with !",
             "Songs with MV"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "91.5%",
+        "date": "2023-03-03"
     },
     {
         "id": 3020022,
@@ -4631,7 +6094,10 @@ var jpTags = [
         "tags": [
             "Special (unit)",
             "Cover Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "91.5%",
+        "date": "2023-02-28"
     },
     {
         "id": 810002,
@@ -4642,7 +6108,10 @@ var jpTags = [
             "Summer 23 Dan",
             "Songs starting with D",
             "Side Nova"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "92.5%",
+        "date": "2023-02-23"
     },
     {
         "id": 3010024,
@@ -4652,7 +6121,10 @@ var jpTags = [
             "Original Category",
             "Summer 23 Dan",
             "Songs with Black or White"
-        ]
+        ],
+        "level": "11+",
+        "scorePerc": "91.4%",
+        "date": "2023-03-12"
     },
     {
         "id": 3010025,
@@ -4663,7 +6135,10 @@ var jpTags = [
             "Summer 23 Dan",
             "Songs with MV",
             "Songs with Cat"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "94.8%",
+        "date": "2023-04-01"
     },
     {
         "id": 610023,
@@ -4671,7 +6146,10 @@ var jpTags = [
         "tags": [
             "Lyrical Lily",
             "Original Category"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "92.9%",
+        "date": "2023-02-14"
     },
     {
         "id": 920001,
@@ -4680,7 +6158,10 @@ var jpTags = [
             "Abyssmare",
             "Cover Category",
             "Cover Tracks Vol 8"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "95.6%",
+        "date": "2023-02-24"
     },
     {
         "id": 820003,
@@ -4691,7 +6172,10 @@ var jpTags = [
             "Summer 23 Dan",
             "Cover Tracks Vol 8",
             "Songs with !"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "94.3%",
+        "date": "2023-02-05"
     },
     {
         "id": 920002,
@@ -4700,7 +6184,10 @@ var jpTags = [
             "Abyssmare",
             "Cover Category",
             "Cover Tracks Vol 8"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "93.1%",
+        "date": "2023-03-04"
     },
     {
         "id": 5050206,
@@ -4709,7 +6196,10 @@ var jpTags = [
             "Base Category",
             "Songs starting with D",
             "Vtuber"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "92.6%",
+        "date": "2023-03-01"
     },
     {
         "id": 5050207,
@@ -4717,7 +6207,10 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Vtuber"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "91.0%",
+        "date": "2023-03-08"
     },
     {
         "id": 5050208,
@@ -4725,7 +6218,10 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Vtuber"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "95.5%",
+        "date": "2023-03-15"
     },
     {
         "id": 5050209,
@@ -4733,7 +6229,10 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Vtuber"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "95.1%",
+        "date": "2023-04-06"
     },
     {
         "id": 5050210,
@@ -4741,7 +6240,10 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Vtuber"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "92.7%",
+        "date": "2023-04-13"
     },
     {
         "id": 5050212,
@@ -4751,7 +6253,10 @@ var jpTags = [
             "Songs with ♡",
             "Vtuber",
             "Hololive"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "89.4%",
+        "date": "2023-03-23"
     },
     {
         "id": 5050213,
@@ -4760,7 +6265,10 @@ var jpTags = [
             "Base Category",
             "Vtuber",
             "Hololive"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "89.6%",
+        "date": "2023-03-25"
     },
     {
         "id": 5050214,
@@ -4770,7 +6278,10 @@ var jpTags = [
             "Vtuber",
             "Songs with !",
             "Hololive"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "90.6%",
+        "date": "2023-03-19"
     },
     {
         "id": 5050215,
@@ -4779,7 +6290,10 @@ var jpTags = [
             "Base Category",
             "Vtuber",
             "Hololive"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "90.2%",
+        "date": "2023-03-21"
     },
     {
         "id": 5050216,
@@ -4788,42 +6302,60 @@ var jpTags = [
             "Base Category",
             "Vtuber",
             "Hololive"
-        ]
+        ],
+        "level": "11",
+        "scorePerc": "89.7%",
+        "date": "2023-03-27"
     },
     {
         "id": 5050217,
         "name": "Accelerate",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "90.9%",
+        "date": "2023-03-20"
     },
     {
         "id": 5050218,
         "name": "青春チョコレート（Christmas Version）",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "92.6%",
+        "date": "2023-03-22"
     },
     {
         "id": 5050219,
         "name": "START",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "90.2%",
+        "date": "2023-03-26"
     },
     {
         "id": 5050220,
         "name": "スキスキ星人",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.2%",
+        "date": "2023-03-18"
     },
     {
         "id": 5050221,
         "name": "僕らだけのシャングリラ",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "94.9%",
+        "date": "2023-03-24"
     },
     {
         "id": 810003,
@@ -4834,7 +6366,10 @@ var jpTags = [
             "Summer 23 Dan",
             "Songs with MV",
             "Side Nova"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "94.7%",
+        "date": "2023-04-25"
     },
     {
         "id": 910003,
@@ -4844,7 +6379,10 @@ var jpTags = [
             "Original Category",
             "Songs with MV",
             "Side Nova"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "94.3%",
+        "date": "2023-04-25"
     },
     {
         "id": 3010026,
@@ -4854,7 +6392,10 @@ var jpTags = [
             "Original Category",
             "Summer 23 Dan",
             "Side Nova"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "91.9%",
+        "date": "2023-04-29"
     },
     {
         "id": 510022,
@@ -4864,7 +6405,10 @@ var jpTags = [
             "Original Category",
             "Side Origin",
             "Songs with MV"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "92.6%",
+        "date": "2023-04-17"
     },
     {
         "id": 920003,
@@ -4872,7 +6416,10 @@ var jpTags = [
         "tags": [
             "Abyssmare",
             "Cover Category"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "92.9%",
+        "date": "2023-03-28"
     },
     {
         "id": 3020024,
@@ -4880,7 +6427,10 @@ var jpTags = [
         "tags": [
             "Special (unit)",
             "Cover Category"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "91.8%",
+        "date": "2023-04-22"
     },
     {
         "id": 5050222,
@@ -4888,7 +6438,10 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Vtuber"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "91.1%",
+        "date": "2023-03-29"
     },
     {
         "id": 3020025,
@@ -4896,7 +6449,10 @@ var jpTags = [
         "tags": [
             "Special (unit)",
             "Cover Category"
-        ]
+        ],
+        "level": "11+",
+        "scorePerc": "90.7%",
+        "date": "2023-04-09"
     },
     {
         "id": 210021,
@@ -4905,7 +6461,10 @@ var jpTags = [
             "Peaky P-key",
             "Original Category",
             "Summer 23 Dan"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "94.2%",
+        "date": "2023-04-19"
     },
     {
         "id": 5050223,
@@ -4913,14 +6472,20 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Bushiroad"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.0%",
+        "date": "2023-04-15"
     },
     {
         "id": 5050224,
         "name": "HIGHEST",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "91.2%",
+        "date": "2023-05-03"
     },
     {
         "id": 3020026,
@@ -4928,7 +6493,10 @@ var jpTags = [
         "tags": [
             "Special (unit)",
             "Cover Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "96.5%",
+        "date": "2023-05-07"
     },
     {
         "id": 3020028,
@@ -4936,7 +6504,10 @@ var jpTags = [
         "tags": [
             "Special (unit)",
             "Cover Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.4%",
+        "date": "2023-05-22"
     },
     {
         "id": 610024,
@@ -4944,7 +6515,10 @@ var jpTags = [
         "tags": [
             "Lyrical Lily",
             "Original Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "91.6%",
+        "date": "2023-04-30"
     },
     {
         "id": 410021,
@@ -4952,7 +6526,10 @@ var jpTags = [
         "tags": [
             "Merm4id",
             "Original Category"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "93.2%",
+        "date": "2023-05-01"
     },
     {
         "id": 3010027,
@@ -4962,7 +6539,10 @@ var jpTags = [
             "Original Category",
             "Summer 23 Dan",
             "Songs with Love (愛,恋)"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "96.4%",
+        "date": "2023-05-11"
     },
     {
         "id": 3010028,
@@ -4971,7 +6551,10 @@ var jpTags = [
             "Special (unit)",
             "Original Category",
             "Songs starting with D"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "91.3%",
+        "date": "2023-05-14"
     },
     {
         "id": 3020023,
@@ -4979,7 +6562,10 @@ var jpTags = [
         "tags": [
             "Special (unit)",
             "Cover Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.7%",
+        "date": "2023-03-14"
     },
     {
         "id": 5050226,
@@ -4987,7 +6573,10 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Bushiroad"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "91.9%",
+        "date": "2023-05-31"
     },
     {
         "id": 5050227,
@@ -4996,7 +6585,10 @@ var jpTags = [
             "Base Category",
             "Bushiroad",
             "BPM over 250"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "91.1%",
+        "date": "2023-06-01"
     },
     {
         "id": 3020030,
@@ -5004,7 +6596,10 @@ var jpTags = [
         "tags": [
             "Special (unit)",
             "Cover Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.4%",
+        "date": "2023-06-03"
     },
     {
         "id": 810004,
@@ -5013,7 +6608,10 @@ var jpTags = [
             "UniChØrd",
             "Original Category",
             "Side Nova"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "92.1%",
+        "date": "2023-06-25"
     },
     {
         "id": 910004,
@@ -5022,7 +6620,10 @@ var jpTags = [
             "Abyssmare",
             "Original Category",
             "Side Nova"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "91.0%",
+        "date": "2023-06-25"
     },
     {
         "id": 5050228,
@@ -5030,7 +6631,10 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Songs with !"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "89.8%",
+        "date": "2023-06-11"
     },
     {
         "id": 5050229,
@@ -5038,7 +6642,10 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Songs with ♡"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "89.6%",
+        "date": "2023-06-29"
     },
     {
         "id": 3020031,
@@ -5047,7 +6654,10 @@ var jpTags = [
             "Special (unit)",
             "Cover Category",
             "Songs with Love (愛,恋)"
-        ]
+        ],
+        "level": "11",
+        "scorePerc": "89.4%",
+        "date": "2023-07-14"
     },
     {
         "id": 5050172,
@@ -5055,7 +6665,10 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Songs with MV"
-        ]
+        ],
+        "level": "15",
+        "scorePerc": "92.3%",
+        "date": "2023-08-04"
     },
     {
         "id": 5050173,
@@ -5063,7 +6676,10 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Songs with Love (愛,恋)"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "92.9%",
+        "date": "2023-07-26"
     },
     {
         "id": 5050174,
@@ -5071,7 +6687,10 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Songs with MV"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "95.2%",
+        "date": "2023-07-30"
     },
     {
         "id": 5050175,
@@ -5079,7 +6698,10 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Songs with MV"
-        ]
+        ],
+        "level": "14",
+        "scorePerc": "93.2%",
+        "date": "2023-07-23"
     },
     {
         "id": 3020029,
@@ -5087,7 +6709,10 @@ var jpTags = [
         "tags": [
             "Special (unit)",
             "Cover Category"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "93.4%",
+        "date": "2023-08-08"
     },
     {
         "id": 110033,
@@ -5095,7 +6720,10 @@ var jpTags = [
         "tags": [
             "Happy Around!",
             "Original Category"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "94.3%",
+        "date": "2023-06-30"
     },
     {
         "id": 210022,
@@ -5103,7 +6731,10 @@ var jpTags = [
         "tags": [
             "Peaky P-key",
             "Original Category"
-        ]
+        ],
+        "level": "11",
+        "scorePerc": "92.7%",
+        "date": "2023-08-18"
     },
     {
         "id": 310022,
@@ -5111,7 +6742,10 @@ var jpTags = [
         "tags": [
             "Photon Maiden",
             "Original Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.4%",
+        "date": "2023-08-11"
     },
     {
         "id": 410022,
@@ -5120,7 +6754,10 @@ var jpTags = [
             "Merm4id",
             "Original Category",
             "Songs with !"
-        ]
+        ],
+        "level": "15",
+        "scorePerc": "96.2%",
+        "date": "2023-07-29"
     },
     {
         "id": 510023,
@@ -5128,7 +6765,10 @@ var jpTags = [
         "tags": [
             "RONDO",
             "Original Category"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "90.0%",
+        "date": "2023-07-05"
     },
     {
         "id": 610025,
@@ -5136,7 +6776,10 @@ var jpTags = [
         "tags": [
             "Lyrical Lily",
             "Original Category"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "90.4%",
+        "date": "2023-07-11"
     },
     {
         "id": 810005,
@@ -5144,7 +6787,10 @@ var jpTags = [
         "tags": [
             "UniChØrd",
             "Original Category"
-        ]
+        ],
+        "level": "12+",
+        "scorePerc": "91.5%",
+        "date": "2023-07-25"
     },
     {
         "id": 910005,
@@ -5152,21 +6798,30 @@ var jpTags = [
         "tags": [
             "Abyssmare",
             "Original Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "94.0%",
+        "date": "2023-07-08"
     },
     {
         "id": 5050230,
         "name": "灯火",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "89.9%",
+        "date": "2023-07-03"
     },
     {
         "id": 5050231,
         "name": "楽園",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "89.3%",
+        "date": "2023-07-14"
     },
     {
         "id": 420019,
@@ -5174,7 +6829,10 @@ var jpTags = [
         "tags": [
             "Merm4id",
             "Cover Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "94.7%",
+        "date": "2023-08-03"
     },
     {
         "id": 120023,
@@ -5183,7 +6841,10 @@ var jpTags = [
             "Happy Around!",
             "Cover Category",
             "Cover Tracks Vol 8"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "95.3%",
+        "date": "2023-08-19"
     },
     {
         "id": 5050251,
@@ -5191,6 +6852,9 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Vtuber"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "93.1%",
+        "date": "2023-08-13"
     }
 ]

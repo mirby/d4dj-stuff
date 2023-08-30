@@ -1,4 +1,5 @@
 var songArray = [];
+var hintArray = [];
 var tagMap = new Map();
 
 const tags = [
@@ -71,6 +72,37 @@ const tags = [
 $(document).on('changed.bs.select', 'select', function(event) {
     displaySongsByHint();
 });
+
+const sortDate = () => {
+    return function(a, b) {
+        const dateA = new Date(a.date);
+        const dateB = new Date(b.date);
+        return dateA - dateB;
+    }
+}
+
+// const sortDateRev = () => {
+//     return function(a, b) {
+//         const dateA = new Date(a.date);
+//         const dateB = new Date(b.date);
+//         return dateB - dateA;
+//     }
+// }
+
+const sort_by = (field, reverse, primer) => {
+    const key = primer ?
+        function(x) {
+            return primer(x[field])
+        } :
+        function(x) {
+            return x[field]
+        };
+    reverse = !reverse ? 1 : -1;
+  
+    return function(a, b) {
+        return a = key(a), b = key(b), reverse * ((a > b) - (b > a));
+    }
+}
 
 function setInitialTheme() {
     document.getElementById("darkModeToggle").addEventListener("click", () => {
@@ -150,11 +182,79 @@ function generateSongDropdowns(trend) {
     document.getElementById(trend + "TrendHint").appendChild(select);
 }
 
-function getRelatedTags(songTitles) {
-    const tagsSets = songTitles.map(title => new Set(songArray.find(song => song.name === title)?.tags));
-    const intersection = [...tagsSets.reduce((acc, set) => new Set([...acc].filter(tag => set.has(tag))))];
-    return intersection;
+function filterByTag(objects, value) {
+    var filteredObjects = objects.filter(function(obj) {
+        return obj["tags"] && obj ["tags"].includes(value);
+    });
+
+    return filteredObjects;
 }
+
+function applyFilter() {
+
+    // Get active filters
+    var checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+    var checkedValues = Array.from(checkboxes).map(function(checkbox) {
+        return checkbox.value;
+    });
+
+    filteredSongs = songArray;
+    for (let value of checkedValues) {
+        filteredSongs = filterByTag(filteredSongs, value);
+    }
+
+    var sort = document.querySelector('input[name="sortOptions"]:checked').value;
+    if (!sort || sort === "None" || sort === 'null' || sort === 'undefined' || sort === "") {
+        filteredSongs.sort(sortDate());
+    } else if (sort === "scorePerc") {
+        filteredSongs.sort(sort_by(sort, true, parseFloat));
+    }
+
+    displaySongList(filteredSongs);
+}
+
+function displaySongList(arr) {
+
+    if (document.getElementById("songTableWrapper").hasChildNodes()) {
+        document.getElementById("songTableWrapper").removeChild(document.getElementById("songTableWrapper").firstChild);
+    }    
+
+    var table = document.createElement("table");
+    table.classList.add("table");
+    table.classList.add("table-bordered");
+    let thead = table.createTHead();
+    let row = thead.insertRow();
+    var th = document.createElement("th");
+    var text = document.createTextNode("Name");
+    th.appendChild(text);
+    row.appendChild(th);
+    th = document.createElement("th");
+    text = document.createTextNode("Tags");
+    th.appendChild(text);
+    row.appendChild(th);
+    th = document.createElement("th");
+    text = document.createTextNode("Score Potential");
+    th.appendChild(text);
+    row.appendChild(th);
+
+    for (let x of arr) {
+        var songRow = table.insertRow();
+        songRow.insertCell().appendChild(document.createTextNode(x.name));
+        songRow.insertCell().appendChild(document.createTextNode(x.tags));
+        songRow.insertCell().appendChild(document.createTextNode(x.scorePerc));
+    }
+
+    document.getElementById("songTableWrapper").appendChild(table);
+}
+
+function generateSongArray() {
+    songArray = [...jpTags];
+    hintArray = [...jpTags];
+    songArray.sort(sort_by("scorePerc", true, parseFloat));
+    hintArray.sort(sort_by("scorePerc", true, parseFloat));
+}
+
+// Search songs by hints
 
 function displaySongsByHint() {
 
@@ -248,12 +348,18 @@ function displaySongsByHint() {
     }
 }
 
-function getTagsBySongName(name) {
-    return songArray.find(item => item.name === name)?.tags;
-}
+// function getRelatedTags(songTitles) {
+//     const tagsSets = songTitles.map(title => new Set(songArray.find(song => song.name === title)?.tags));
+//     const intersection = [...tagsSets.reduce((acc, set) => new Set([...acc].filter(tag => set.has(tag))))];
+//     return intersection;
+// }
+
+// function getTagsBySongName(name) {
+//     return songArray.find(item => item.name === name)?.tags;
+// }
 
 function getTrendTagsBySong(name, trendLetter) {
-    var tagList = songArray.find(item => item.name === name)?.tags;
+    var tagList = hintArray.find(item => item.name === name)?.tags;
     var tagListByTrend = [];
     for (let tag of tagList) {
         if (tagMap.get(tag) === trendLetter) {
@@ -265,62 +371,10 @@ function getTrendTagsBySong(name, trendLetter) {
 }
 
 function getSongsByTags(tagsToMatch) {
-    return songArray.filter(item => {
+    return hintArray.filter(item => {
         const matchedTags = item.tags.filter(tag => tagsToMatch.includes(tag));
         return matchedTags.length === tagsToMatch.length;
     }).map(item => item.name);
-}
-
-function filterByTag(objects, value) {
-    var filteredObjects = objects.filter(function(obj) {
-        return obj["tags"] && obj ["tags"].includes(value);
-    });
-
-    return filteredObjects;
-}
-
-function applyFilter() {
-
-    // Get active filters
-    var checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
-    var checkedValues = Array.from(checkboxes).map(function(checkbox) {
-        return checkbox.value;
-    });
-
-    filteredSongs = songArray;
-    for (let value of checkedValues) {
-        filteredSongs = filterByTag(filteredSongs, value);
-    }
-    displaySongList(filteredSongs);
-}
-
-function displaySongList(arr) {
-
-    if (document.getElementById("songTableWrapper").hasChildNodes()) {
-        document.getElementById("songTableWrapper").removeChild(document.getElementById("songTableWrapper").firstChild);
-    }    
-
-    var table = document.createElement("table");
-    table.classList.add("table");
-    table.classList.add("table-bordered");
-    let thead = table.createTHead();
-    let row = thead.insertRow();
-    var th = document.createElement("th");
-    var text = document.createTextNode("Name");
-    th.appendChild(text);
-    row.appendChild(th);
-    th = document.createElement("th");
-    text = document.createTextNode("Tags");
-    th.appendChild(text);
-    row.appendChild(th);
-
-    for (let x of arr) {
-        var songRow = table.insertRow();
-        songRow.insertCell().appendChild(document.createTextNode(x.name));
-        songRow.insertCell().appendChild(document.createTextNode(x.tags));
-    }
-
-    document.getElementById("songTableWrapper").appendChild(table);
 }
 
 function createSongHintTable() {
@@ -352,9 +406,4 @@ function createSongHintRow(text, id) {
 
     div.appendChild(textEle);
     parent.appendChild(div);
-}
-
-function generateSongArray() {
-    songArray = [...jpTags];
-    //console.log(cardArray);
 }
