@@ -6,7 +6,10 @@ var enTags = [
             "Original Category",
             "Song with !"
         ],
-        "id": 110001
+        "id": 110001,
+        "level": "12",
+        "scorePerc": "92.6%",
+        "date": "2021-05-27"
     },
     {
         "name": "Direct Drive!",
@@ -16,7 +19,10 @@ var enTags = [
             "Spring 23 Dan",
             "Song with !"
         ],
-        "id": 110002
+        "id": 110002,
+        "level": "12",
+        "scorePerc": "91.4%",
+        "date": "2021-05-27"
     },
     {
         "name": "Moonlight Legend",
@@ -25,7 +31,10 @@ var enTags = [
             "Cover Category",
             "Autumn 22 Dan"
         ],
-        "id": 120001
+        "id": 120001,
+        "level": "12+",
+        "scorePerc": "93.9%",
+        "date": "2021-05-27"
     },
     {
         "name": "Electric Chaos★Countdown",
@@ -37,7 +46,10 @@ var enTags = [
             "D4DJ Anime",
             "Song with ☆"
         ],
-        "id": 210001
+        "id": 210001,
+        "level": "12",
+        "scorePerc": "91.3%",
+        "date": "2021-05-27"
     },
     {
         "name": "Let's do the 'Big-Bang!'",
@@ -48,7 +60,10 @@ var enTags = [
             "Song with !",
             "D4DJ Anime"
         ],
-        "id": 210002
+        "id": 210002,
+        "level": "13",
+        "scorePerc": "94.1%",
+        "date": "2021-05-27"
     },
     {
         "name": "Can't Stay a Dreamy Girl",
@@ -58,7 +73,10 @@ var enTags = [
             "Cover Tracks Vol 3",
             "Songs with Dream"
         ],
-        "id": 220001
+        "id": 220001,
+        "level": "12",
+        "scorePerc": "93.6%",
+        "date": "2021-05-27"
     },
     {
         "name": "Photon Melodies",
@@ -68,7 +86,10 @@ var enTags = [
             "First Mix",
             "D4DJ Anime"
         ],
-        "id": 310001
+        "id": 310001,
+        "level": "12",
+        "scorePerc": "93.0%",
+        "date": "2021-05-27"
     },
     {
         "name": "The Galaxy Express 999",
@@ -79,7 +100,10 @@ var enTags = [
             "1, 2, 3...",
             "Songs with MV"
         ],
-        "id": 320001
+        "id": 320001,
+        "level": "11+",
+        "scorePerc": "91.1%",
+        "date": "2021-05-27"
     },
     {
         "name": "Blue Field",
@@ -89,7 +113,10 @@ var enTags = [
             "Spring 23 Dan",
             "Cover Tracks Vol 5"
         ],
-        "id": 320002
+        "id": 320002,
+        "level": "10+",
+        "scorePerc": "89.6%",
+        "date": "2021-05-27"
     },
     {
         "name": "HOT LIMIT",
@@ -98,7 +125,10 @@ var enTags = [
             "Cover Category",
             "Cover Tracks Vol 2"
         ],
-        "id": 320003
+        "id": 320003,
+        "level": "12",
+        "scorePerc": "91.5%",
+        "date": "2021-05-27"
     },
     {
         "name": "Floor Killer",
@@ -109,7 +139,10 @@ var enTags = [
             "Groovy Festival",
             "D4DJ Anime"
         ],
-        "id": 410001
+        "id": 410001,
+        "level": "13",
+        "scorePerc": "95.8%",
+        "date": "2021-05-27"
     },
     {
         "name": "CAT'S EYE",
@@ -119,7 +152,10 @@ var enTags = [
             "Cover Tracks Vol 3",
             "Cat Songs"
         ],
-        "id": 420001
+        "id": 420001,
+        "level": "11+",
+        "scorePerc": "96.0%",
+        "date": "2021-05-27"
     },
     {
         "name": "Cutie Honey",
@@ -129,7 +165,10 @@ var enTags = [
             "Cover Tracks Vol 1",
             "Numbers Spelled Out"
         ],
-        "id": 420002
+        "id": 420002,
+        "level": "12+",
+        "scorePerc": "96.1%",
+        "date": "2021-05-27"
     },
     {
         "name": "Dounimo Tomaranai",
@@ -139,7 +178,10 @@ var enTags = [
             "Autumn 22 Dan",
             "Cover Tracks Vol 3"
         ],
-        "id": 420003
+        "id": 420003,
+        "level": "13+",
+        "scorePerc": "95.7%",
+        "date": "2021-05-27"
     },
     {
         "name": "Movement",
@@ -149,7 +191,10 @@ var enTags = [
             "First Mix",
             "D4DJ Anime"
         ],
-        "id": 510001
+        "id": 510001,
+        "level": "13+",
+        "scorePerc": "93.5%",
+        "date": "2021-05-27"
     },
     {
         "name": "DESIRE -JOUNETSU-",
@@ -159,7 +204,10 @@ var enTags = [
             "Winter 23 Dan",
             "Cover Tracks Vol 1"
         ],
-        "id": 520001
+        "id": 520001,
+        "level": "14",
+        "scorePerc": "94.8%",
+        "date": "2021-05-27"
     },
     {
         "name": "Namaenonai Kaibutsu",
@@ -168,7 +216,10 @@ var enTags = [
             "Cover Category",
             "Cover Tracks Vol 1"
         ],
-        "id": 520003
+        "id": 520003,
+        "level": "13+",
+        "scorePerc": "96.2%",
+        "date": "2021-05-27"
     },
     {
         "name": "Here's the light",
@@ -181,7 +232,10 @@ var enTags = [
             "First Mix",
             "D4DJ Anime"
         ],
-        "id": 310002
+        "id": 310002,
+        "level": "12+",
+        "scorePerc": "95.7%",
+        "date": "2021-05-27"
     },
     {
         "name": "\"What\" are you?",
@@ -191,7 +245,10 @@ var enTags = [
             "Spring 23 Dan",
             "Groovy Festival"
         ],
-        "id": 310003
+        "id": 310003,
+        "level": "13",
+        "scorePerc": "96.1%",
+        "date": "2021-05-27"
     },
     {
         "name": "Sidonia",
@@ -201,7 +258,10 @@ var enTags = [
             "Summer 22 Dan",
             "Cover Tracks Vol 1"
         ],
-        "id": 320004
+        "id": 320004,
+        "level": "13+",
+        "scorePerc": "93.3%",
+        "date": "2021-05-27"
     },
     {
         "name": "ING",
@@ -209,7 +269,10 @@ var enTags = [
             "Merm4id",
             "Original Category"
         ],
-        "id": 410002
+        "id": 410002,
+        "level": "13+",
+        "scorePerc": "94.2%",
+        "date": "2021-05-27"
     },
     {
         "name": "HONEY",
@@ -219,7 +282,10 @@ var enTags = [
             "Cover Tracks Vol 6",
             "Numbers Spelled Out"
         ],
-        "id": 420004
+        "id": 420004,
+        "level": "14",
+        "scorePerc": "95.1%",
+        "date": "2021-05-27"
     },
     {
         "name": "Calendula",
@@ -232,7 +298,10 @@ var enTags = [
             "Spring 23 Dan",
             "Summer 23 Dan"
         ],
-        "id": 510002
+        "id": 510002,
+        "level": "14+",
+        "scorePerc": "97.3%",
+        "date": "2021-05-27"
     },
     {
         "name": "Leia",
@@ -242,7 +311,10 @@ var enTags = [
             "Summer 23 Dan",
             "Cover Tracks Vol 4"
         ],
-        "id": 520005
+        "id": 520005,
+        "level": "13+",
+        "scorePerc": "92.9%",
+        "date": "2021-05-27"
     },
     {
         "name": "DAYBREAK'S BELL",
@@ -251,7 +323,10 @@ var enTags = [
             "Cover Category",
             "Cover Tracks Vol 7"
         ],
-        "id": 520004
+        "id": 520004,
+        "level": "13",
+        "scorePerc": "93.1%",
+        "date": "2021-05-27"
     },
     {
         "name": "Horizontal Oath",
@@ -259,7 +334,10 @@ var enTags = [
             "RONDO",
             "Original Category"
         ],
-        "id": 510003
+        "id": 510003,
+        "level": "14+",
+        "scorePerc": "94.2%",
+        "date": "2021-05-27"
     },
     {
         "name": "Happy Music♪",
@@ -270,7 +348,10 @@ var enTags = [
             "First Mix",
             "D4DJ Anime"
         ],
-        "id": 110003
+        "id": 110003,
+        "level": "14",
+        "scorePerc": "93.4%",
+        "date": "2021-05-27"
     },
     {
         "name": "round and round",
@@ -281,7 +362,10 @@ var enTags = [
             "First Mix",
             "D4DJ Anime"
         ],
-        "id": 410003
+        "id": 410003,
+        "level": "12+",
+        "scorePerc": "93.2%",
+        "date": "2021-05-27"
     },
     {
         "name": "Gamble Rumble",
@@ -290,7 +374,10 @@ var enTags = [
             "Cover Category",
             "Cover Tracks Vol 2"
         ],
-        "id": 420005
+        "id": 420005,
+        "level": "13",
+        "scorePerc": "92.7%",
+        "date": "2021-05-27"
     },
     {
         "name": "WHITE BREATH",
@@ -301,7 +388,10 @@ var enTags = [
             "Cover Tracks Vol 3",
             "BLACK or WHITE"
         ],
-        "id": 320005
+        "id": 320005,
+        "level": "14",
+        "scorePerc": "95.6%",
+        "date": "2021-05-27"
     },
     {
         "name": "READY STEADY GO",
@@ -313,7 +403,10 @@ var enTags = [
             "Songs with Go",
             "Song with Go"
         ],
-        "id": 320006
+        "id": 320006,
+        "level": "12+",
+        "scorePerc": "93.4%",
+        "date": "2021-05-27"
     },
     {
         "name": "DAYS",
@@ -323,7 +416,10 @@ var enTags = [
             "Spring 23 Dan",
             "Cover Tracks Vol 1"
         ],
-        "id": 120004
+        "id": 120004,
+        "level": "12",
+        "scorePerc": "91.1%",
+        "date": "2021-05-27"
     },
     {
         "name": "Ninja JaJaMaru-kun Medley",
@@ -332,7 +428,10 @@ var enTags = [
             "Winter 23 Dan",
             "Retro Games"
         ],
-        "id": 5030001
+        "id": 5030001,
+        "level": "13",
+        "scorePerc": "92.2%",
+        "date": "2021-05-27"
     },
     {
         "name": "Cosmic CoaSTAR",
@@ -341,7 +440,10 @@ var enTags = [
             "Original Category",
             "Summer 22 Dan"
         ],
-        "id": 110004
+        "id": 110004,
+        "level": "11",
+        "scorePerc": "92.5%",
+        "date": "2021-05-27"
     },
     {
         "name": "Rhythm And Police",
@@ -349,7 +451,10 @@ var enTags = [
             "Instrumental Category",
             "Winter 23 Dan"
         ],
-        "id": 5040001
+        "id": 5040001,
+        "level": "12+",
+        "scorePerc": "91.9%",
+        "date": "2021-05-27"
     },
     {
         "name": "FURUHATA'S THEME",
@@ -357,7 +462,10 @@ var enTags = [
             "Instrumental Category",
             "Theme of..."
         ],
-        "id": 5040008
+        "id": 5040008,
+        "level": "13",
+        "scorePerc": "93.6%",
+        "date": "2021-05-27"
     },
     {
         "name": "YONIMO KIMYOUNA MONOGATARI BGM",
@@ -365,7 +473,10 @@ var enTags = [
             "Instrumental Category",
             "Winter 23 Dan"
         ],
-        "id": 5040011
+        "id": 5040011,
+        "level": "12+",
+        "scorePerc": "93.1%",
+        "date": "2021-05-27"
     },
     {
         "name": "RAINMAKER",
@@ -374,7 +485,10 @@ var enTags = [
             "Wrestling",
             "Bushiroad"
         ],
-        "id": 5040014
+        "id": 5040014,
+        "level": "13",
+        "scorePerc": "92.1%",
+        "date": "2021-05-27"
     },
     {
         "name": "SUNRISE",
@@ -383,7 +497,10 @@ var enTags = [
             "Wrestling",
             "Bushiroad"
         ],
-        "id": 5040018
+        "id": 5040018,
+        "level": "12",
+        "scorePerc": "89.1%",
+        "date": "2021-05-27"
     },
     {
         "name": "OPA-OPA!",
@@ -392,7 +509,10 @@ var enTags = [
             "Song with !",
             "Retro Games"
         ],
-        "id": 5030002
+        "id": 5030002,
+        "level": "13",
+        "scorePerc": "91.2%",
+        "date": "2021-05-27"
     },
     {
         "name": "Gonna be right",
@@ -404,7 +524,10 @@ var enTags = [
             "Songs with Go",
             "Song with Go"
         ],
-        "id": 210003
+        "id": 210003,
+        "level": "13",
+        "scorePerc": "94.2%",
+        "date": "2021-05-27"
     },
     {
         "name": "Space Harrier",
@@ -413,7 +536,10 @@ var enTags = [
             "Spring 23 Dan",
             "Retro Games"
         ],
-        "id": 5030003
+        "id": 5030003,
+        "level": "12+",
+        "scorePerc": "90.3%",
+        "date": "2021-05-27"
     },
     {
         "name": "Argus (BGM1)",
@@ -423,7 +549,10 @@ var enTags = [
             "1, 2, 3...",
             "Retro Games"
         ],
-        "id": 5030004
+        "id": 5030004,
+        "level": "13",
+        "scorePerc": "89.2%",
+        "date": "2021-05-27"
     },
     {
         "name": "JINGINAKI TATAKAINO THEME",
@@ -431,7 +560,10 @@ var enTags = [
             "Instrumental Category",
             "Theme of..."
         ],
-        "id": 5040003
+        "id": 5040003,
+        "level": "11+",
+        "scorePerc": "89.2%",
+        "date": "2021-05-27"
     },
     {
         "name": "KOROBUSHKA",
@@ -439,7 +571,10 @@ var enTags = [
             "Instrumental Category",
             "Winter 23 Dan"
         ],
-        "id": 5040010
+        "id": 5040010,
+        "level": "12",
+        "scorePerc": "89.5%",
+        "date": "2021-05-27"
     },
     {
         "name": "LOVE & ENERGY",
@@ -449,7 +584,10 @@ var enTags = [
             "Song with Love",
             "Bushiroad"
         ],
-        "id": 5040015
+        "id": 5040015,
+        "level": "13",
+        "scorePerc": "91.7%",
+        "date": "2021-05-27"
     },
     {
         "name": "Tokyo Teddy Bear",
@@ -458,7 +596,10 @@ var enTags = [
             "Cover Category",
             "Cover Tracks Vol 2"
         ],
-        "id": 520007
+        "id": 520007,
+        "level": "14+",
+        "scorePerc": "95.3%",
+        "date": "2021-07-20"
     },
     {
         "name": "DIVE TO WORLD",
@@ -467,7 +608,10 @@ var enTags = [
             "Cover Category",
             "Cover Tracks Vol 5"
         ],
-        "id": 120005
+        "id": 120005,
+        "level": "12",
+        "scorePerc": "94.3%",
+        "date": "2021-05-27"
     },
     {
         "name": "Discover Universe",
@@ -476,7 +620,10 @@ var enTags = [
             "Original Category",
             "Autumn 22 Dan"
         ],
-        "id": 310004
+        "id": 310004,
+        "level": "13+",
+        "scorePerc": "94.4%",
+        "date": "2021-05-27"
     },
     {
         "name": "4U",
@@ -488,7 +635,10 @@ var enTags = [
             "Summer 23 Dan",
             "1, 2, 3..."
         ],
-        "id": 410004
+        "id": 410004,
+        "level": "12+",
+        "scorePerc": "90.7%",
+        "date": "2021-05-27"
     },
     {
         "name": "The Legend of Kage Medley",
@@ -496,7 +646,10 @@ var enTags = [
             "Game Category",
             "Retro Games"
         ],
-        "id": 5030005
+        "id": 5030005,
+        "level": "13+",
+        "scorePerc": "95.0%",
+        "date": "2021-05-27"
     },
     {
         "name": "Bubble Bobble Medley",
@@ -505,7 +658,10 @@ var enTags = [
             "Autumn 22 Dan",
             "Retro Games"
         ],
-        "id": 5030006
+        "id": 5030006,
+        "level": "14",
+        "scorePerc": "93.4%",
+        "date": "2021-05-27"
     },
     {
         "name": "URBAN TRAIL",
@@ -513,7 +669,10 @@ var enTags = [
             "Game Category",
             "Retro Games"
         ],
-        "id": 5030007
+        "id": 5030007,
+        "level": "13",
+        "scorePerc": "94.1%",
+        "date": "2021-05-27"
     },
     {
         "name": "Bases Loaded",
@@ -522,7 +681,10 @@ var enTags = [
             "Autumn 22 Dan",
             "Retro Games"
         ],
-        "id": 5030008
+        "id": 5030008,
+        "level": "12+",
+        "scorePerc": "92.5%",
+        "date": "2021-05-27"
     },
     {
         "name": "CAPTAIN NEO～BOSS SCENE1",
@@ -532,7 +694,10 @@ var enTags = [
             "1, 2, 3...",
             "Retro Games"
         ],
-        "id": 5030009
+        "id": 5030009,
+        "level": "14",
+        "scorePerc": "95.9%",
+        "date": "2021-05-27"
     },
     {
         "name": "Tetsuko's Room Theme",
@@ -540,7 +705,10 @@ var enTags = [
             "Instrumental Category",
             "Theme of..."
         ],
-        "id": 5040006
+        "id": 5040006,
+        "level": "12+",
+        "scorePerc": "92.9%",
+        "date": "2021-05-27"
     },
     {
         "name": "Golden Star",
@@ -551,7 +719,10 @@ var enTags = [
             "Song with Go",
             "Bushiroad"
         ],
-        "id": 5040016
+        "id": 5040016,
+        "level": "13+",
+        "scorePerc": "93.2%",
+        "date": "2021-05-27"
     },
     {
         "name": "Peak Peaky&Peaky!!",
@@ -561,7 +732,10 @@ var enTags = [
             "Groovy Festival",
             "Song with !"
         ],
-        "id": 210004
+        "id": 210004,
+        "level": "13+",
+        "scorePerc": "92.6%",
+        "date": "2021-05-27"
     },
     {
         "name": "KiLLiNG ME",
@@ -571,7 +745,10 @@ var enTags = [
             "Autumn 22 Dan",
             "Cover Tracks Vol 8"
         ],
-        "id": 520008
+        "id": 520008,
+        "level": "14",
+        "scorePerc": "93.9%",
+        "date": "2021-05-27"
     },
     {
         "name": "City Connection Medley",
@@ -580,7 +757,10 @@ var enTags = [
             "Winter 23 Dan",
             "Retro Games"
         ],
-        "id": 5030010
+        "id": 5030010,
+        "level": "12+",
+        "scorePerc": "91.2%",
+        "date": "2021-05-27"
     },
     {
         "name": "Magical Sound Shower",
@@ -588,7 +768,10 @@ var enTags = [
             "Game Category",
             "Retro Games"
         ],
-        "id": 5030011
+        "id": 5030011,
+        "level": "13+",
+        "scorePerc": "92.8%",
+        "date": "2021-05-27"
     },
     {
         "name": "Final Take Off",
@@ -596,7 +779,10 @@ var enTags = [
             "Game Category",
             "Retro Games"
         ],
-        "id": 5030012
+        "id": 5030012,
+        "level": "13+",
+        "scorePerc": "92.4%",
+        "date": "2021-05-27"
     },
     {
         "name": "DADDY MULK",
@@ -605,7 +791,10 @@ var enTags = [
             "Summer 22 Dan",
             "Retro Games"
         ],
-        "id": 5030013
+        "id": 5030013,
+        "level": "14+",
+        "scorePerc": "94.8%",
+        "date": "2021-05-27"
     },
     {
         "name": "CHAOS～BOSS SCENE7",
@@ -614,7 +803,10 @@ var enTags = [
             "1, 2, 3...",
             "Retro Games"
         ],
-        "id": 5030014
+        "id": 5030014,
+        "level": "14+",
+        "scorePerc": "98.1%",
+        "date": "2021-05-27"
     },
     {
         "name": "LUPIN THE THIRD",
@@ -622,14 +814,20 @@ var enTags = [
             "Instrumental Category",
             "Numbers Spelled Out"
         ],
-        "id": 5040002
+        "id": 5040002,
+        "level": "12+",
+        "scorePerc": "90.3%",
+        "date": "2021-05-27"
     },
     {
         "name": "Inscrutable Battle",
         "tags": [
             "Instrumental Category"
         ],
-        "id": 5040004
+        "id": 5040004,
+        "level": "13",
+        "scorePerc": "93.5%",
+        "date": "2021-05-27"
     },
     {
         "name": "The Color of Tainted Sorrow",
@@ -637,7 +835,10 @@ var enTags = [
             "Lyrical Lily",
             "Original Category"
         ],
-        "id": 610001
+        "id": 610001,
+        "level": "12",
+        "scorePerc": "91.0%",
+        "date": "2021-05-27"
     },
     {
         "name": "Yes! BanG_Dream!",
@@ -647,7 +848,10 @@ var enTags = [
             "Song with !",
             "Songs with Dream"
         ],
-        "id": 120006
+        "id": 120006,
+        "level": "13",
+        "scorePerc": "93.0%",
+        "date": "2021-05-27"
     },
     {
         "name": "Make some noise!",
@@ -656,7 +860,10 @@ var enTags = [
             "Original Category",
             "Song with !"
         ],
-        "id": 410005
+        "id": 410005,
+        "level": "13+",
+        "scorePerc": "96.4%",
+        "date": "2021-05-27"
     },
     {
         "name": "real Emotion",
@@ -666,7 +873,10 @@ var enTags = [
             "Summer 23 Dan",
             "Cover Tracks Vol 7"
         ],
-        "id": 420006
+        "id": 420006,
+        "level": "12",
+        "scorePerc": "92.8%",
+        "date": "2021-05-27"
     },
     {
         "name": "Happiness to you♪",
@@ -675,7 +885,10 @@ var enTags = [
             "Original Category",
             "Spring 23 Dan"
         ],
-        "id": 110005
+        "id": 110005,
+        "level": "13+",
+        "scorePerc": "91.1%",
+        "date": "2021-05-27"
     },
     {
         "name": "Crinoid",
@@ -683,7 +896,10 @@ var enTags = [
             "RONDO",
             "Original Category"
         ],
-        "id": 510008
+        "id": 510008,
+        "level": "13",
+        "scorePerc": "91.3%",
+        "date": "2021-05-27"
     },
     {
         "name": "Agapё",
@@ -693,7 +909,10 @@ var enTags = [
             "Summer 22 Dan",
             "Cover Tracks Vol 6"
         ],
-        "id": 620002
+        "id": 620002,
+        "level": "12+",
+        "scorePerc": "90.8%",
+        "date": "2021-05-27"
     },
     {
         "name": "Wounded Innocence",
@@ -703,7 +922,10 @@ var enTags = [
             "Winter 23 Dan",
             "Cover Tracks Vol 2"
         ],
-        "id": 620003
+        "id": 620003,
+        "level": "14",
+        "scorePerc": "90.7%",
+        "date": "2021-05-27"
     },
     {
         "name": "Touch",
@@ -713,7 +935,10 @@ var enTags = [
             "Winter 23 Dan",
             "Cover Tracks Vol 1"
         ],
-        "id": 620004
+        "id": 620004,
+        "level": "12",
+        "scorePerc": "89.9%",
+        "date": "2021-05-27"
     },
     {
         "name": "PARTY☆NIGHT",
@@ -726,7 +951,10 @@ var enTags = [
             "Song with Night",
             "Songs with MV"
         ],
-        "id": 120009
+        "id": 120009,
+        "level": "13",
+        "scorePerc": "92.1%",
+        "date": "2021-05-27"
     },
     {
         "name": "Sun Flare Sherbet",
@@ -735,7 +963,10 @@ var enTags = [
             "Cover Category",
             "Cover Tracks Vol 4"
         ],
-        "id": 620008
+        "id": 620008,
+        "level": "12",
+        "scorePerc": "93.6%",
+        "date": "2021-05-27"
     },
     {
         "name": "Otokono Kunsho",
@@ -745,7 +976,10 @@ var enTags = [
             "Summer 22 Dan",
             "Cover Tracks Vol 3"
         ],
-        "id": 620009
+        "id": 620009,
+        "level": "13",
+        "scorePerc": "91.0%",
+        "date": "2021-05-27"
     },
     {
         "name": "Nirvana",
@@ -754,7 +988,10 @@ var enTags = [
             "Original Category",
             "Winter 23 Dan"
         ],
-        "id": 510004
+        "id": 510004,
+        "level": "14",
+        "scorePerc": "91.7%",
+        "date": "2021-05-27"
     },
     {
         "name": "prayer[s]",
@@ -762,7 +999,10 @@ var enTags = [
             "RONDO",
             "Original Category"
         ],
-        "id": 510005
+        "id": 510005,
+        "level": "13",
+        "scorePerc": "93.2%",
+        "date": "2021-05-27"
     },
     {
         "name": "I Shall Be a Cat",
@@ -773,7 +1013,10 @@ var enTags = [
             "Summer 23 Dan",
             "Cat Songs"
         ],
-        "id": 610002
+        "id": 610002,
+        "level": "11+",
+        "scorePerc": "89.8%",
+        "date": "2021-05-27"
     },
     {
         "name": "Sakura Saku",
@@ -784,7 +1027,10 @@ var enTags = [
             "Spring 23 Dan",
             "Cover Tracks Vol 4"
         ],
-        "id": 620006
+        "id": 620006,
+        "level": "13",
+        "scorePerc": "92.8%",
+        "date": "2021-05-27"
     },
     {
         "name": "TAIYO NI HOERO THEME",
@@ -792,7 +1038,10 @@ var enTags = [
             "Instrumental Category",
             "Theme of..."
         ],
-        "id": 5040009
+        "id": 5040009,
+        "level": "13",
+        "scorePerc": "91.2%",
+        "date": "2021-05-27"
     },
     {
         "name": "JAGUAR '13",
@@ -801,7 +1050,10 @@ var enTags = [
             "Spring 23 Dan",
             "1, 2, 3..."
         ],
-        "id": 5040020
+        "id": 5040020,
+        "level": "13+",
+        "scorePerc": "92.6%",
+        "date": "2021-05-27"
     },
     {
         "name": "SHUFFLE HEART BEAT",
@@ -810,7 +1062,10 @@ var enTags = [
             "Original Category",
             "Songs with Heart (spelled)"
         ],
-        "id": 110006
+        "id": 110006,
+        "level": "13",
+        "scorePerc": "93.4%",
+        "date": "2021-05-27"
     },
     {
         "name": "Wish You Luck",
@@ -821,7 +1076,10 @@ var enTags = [
             "D4DJ Anime",
             "Songs with MV"
         ],
-        "id": 210005
+        "id": 210005,
+        "level": "11+",
+        "scorePerc": "92.1%",
+        "date": "2021-05-27"
     },
     {
         "name": "Over Soul",
@@ -831,7 +1089,10 @@ var enTags = [
             "Winter 23 Dan",
             "Cover Tracks Vol 5"
         ],
-        "id": 220006
+        "id": 220006,
+        "level": "13",
+        "scorePerc": "91.9%",
+        "date": "2021-05-27"
     },
     {
         "name": "BOOM-BOOM SHAKE!",
@@ -841,7 +1102,10 @@ var enTags = [
             "Summer 22 Dan",
             "Song with !"
         ],
-        "id": 410006
+        "id": 410006,
+        "level": "14",
+        "scorePerc": "91.5%",
+        "date": "2021-05-27"
     },
     {
         "name": "At Night on the Galactic Railroad",
@@ -850,7 +1114,10 @@ var enTags = [
             "Original Category",
             "Song with Night"
         ],
-        "id": 610003
+        "id": 610003,
+        "level": "11+",
+        "scorePerc": "90.5%",
+        "date": "2021-05-27"
     },
     {
         "name": "A lot of life",
@@ -863,7 +1130,10 @@ var enTags = [
             "D4DJ Anime",
             "Songs with MV"
         ],
-        "id": 310005
+        "id": 310005,
+        "level": "10+",
+        "scorePerc": "92.8%",
+        "date": "2021-05-27"
     },
     {
         "name": "Blazin' Beat",
@@ -873,7 +1143,10 @@ var enTags = [
             "Summer 22 Dan",
             "Cover Tracks Vol 5"
         ],
-        "id": 420009
+        "id": 420009,
+        "level": "12+",
+        "scorePerc": "97.3%",
+        "date": "2021-05-27"
     },
     {
         "name": "Fukai Mori",
@@ -884,7 +1157,10 @@ var enTags = [
             "Cover Tracks Vol 6",
             "Songs with MV"
         ],
-        "id": 520009
+        "id": 520009,
+        "level": "13",
+        "scorePerc": "92.8%",
+        "date": "2021-05-27"
     },
     {
         "name": "Petit Prince",
@@ -893,7 +1169,10 @@ var enTags = [
             "Original Category",
             "Groovy Festival"
         ],
-        "id": 610004
+        "id": 610004,
+        "level": "12",
+        "scorePerc": "90.3%",
+        "date": "2021-05-27"
     },
     {
         "name": "LOVE!HUG!GROOVY!! Type:L",
@@ -904,7 +1183,10 @@ var enTags = [
             "Song with Love",
             "Songs with MV"
         ],
-        "id": 3010001
+        "id": 3010001,
+        "level": "13+",
+        "scorePerc": "92.0%",
+        "date": "2021-05-27"
     },
     {
         "name": "LOVE!HUG!GROOVY!! Type:H",
@@ -915,7 +1197,10 @@ var enTags = [
             "Song with Love",
             "Songs with MV"
         ],
-        "id": 3010002
+        "id": 3010002,
+        "level": "13+",
+        "scorePerc": "92.0%",
+        "date": "2021-05-27"
     },
     {
         "name": "LOVE!HUG!GROOVY!! Type:G",
@@ -926,7 +1211,10 @@ var enTags = [
             "Song with Love",
             "Songs with MV"
         ],
-        "id": 3010003
+        "id": 3010003,
+        "level": "13+",
+        "scorePerc": "91.3%",
+        "date": "2021-05-27"
     },
     {
         "name": "WOW WAR TONIGHT",
@@ -937,7 +1225,10 @@ var enTags = [
             "D4DJ Anime",
             "Song with Night"
         ],
-        "id": 3020001
+        "id": 3020001,
+        "level": "12",
+        "scorePerc": "94.9%",
+        "date": "2021-05-27"
     },
     {
         "name": "Rag Time On The Rag",
@@ -945,14 +1236,20 @@ var enTags = [
             "Instrumental Category",
             "Summer 23 Dan"
         ],
-        "id": 5040012
+        "id": 5040012,
+        "level": "13+",
+        "scorePerc": "92.4%",
+        "date": "2021-05-27"
     },
     {
         "name": "ANUN UZUMAKU NAMEKKUSEI",
         "tags": [
             "Instrumental Category"
         ],
-        "id": 5040021
+        "id": 5040021,
+        "level": "13+",
+        "scorePerc": "92.3%",
+        "date": "2021-05-27"
     },
     {
         "name": "DISCOTHEQUE",
@@ -961,7 +1258,10 @@ var enTags = [
             "Cover Category",
             "Cover Tracks Vol 1"
         ],
-        "id": 420008
+        "id": 420008,
+        "level": "12",
+        "scorePerc": "92.0%",
+        "date": "2021-05-27"
     },
     {
         "name": "Happy Around Days",
@@ -971,7 +1271,10 @@ var enTags = [
             "First Mix",
             "D4DJ Anime"
         ],
-        "id": 110008
+        "id": 110008,
+        "level": "12",
+        "scorePerc": "91.7%",
+        "date": "2021-05-27"
     },
     {
         "name": "Synchrogazer",
@@ -980,7 +1283,10 @@ var enTags = [
             "Cover Category",
             "Cover Tracks Vol 4"
         ],
-        "id": 320009
+        "id": 320009,
+        "level": "14+",
+        "scorePerc": "99.4%",
+        "date": "2021-05-27"
     },
     {
         "name": "prayer",
@@ -989,7 +1295,10 @@ var enTags = [
             "Original Category",
             "Winter 23 Dan"
         ],
-        "id": 510006
+        "id": 510006,
+        "level": "10",
+        "scorePerc": "88.7%",
+        "date": "2021-05-27"
     },
     {
         "name": "prayer (Aoi Ver.)",
@@ -999,7 +1308,10 @@ var enTags = [
             "Summer 22 Dan",
             "Summer 23 Dan"
         ],
-        "id": 510007
+        "id": 510007,
+        "level": "10",
+        "scorePerc": "88.8%",
+        "date": "2021-05-27"
     },
     {
         "name": "Guru Guru DJ TURN!! Anime OP Ver.",
@@ -1012,7 +1324,10 @@ var enTags = [
             "D4DJ Anime",
             "Songs with DJ"
         ],
-        "id": 3010004
+        "id": 3010004,
+        "level": "13+",
+        "scorePerc": "91.6%",
+        "date": "2021-05-27"
     },
     {
         "name": "INVINCIBLE☆moment",
@@ -1023,7 +1338,10 @@ var enTags = [
             "Groovy Festival",
             "Song with ☆"
         ],
-        "id": 210006
+        "id": 210006,
+        "level": "13",
+        "scorePerc": "92.4%",
+        "date": "2021-05-27"
     },
     {
         "name": "Be with the world",
@@ -1031,7 +1349,10 @@ var enTags = [
             "Photon Maiden",
             "Original Category"
         ],
-        "id": 310006
+        "id": 310006,
+        "level": "12+",
+        "scorePerc": "91.8%",
+        "date": "2021-05-27"
     },
     {
         "name": "Seikai wa Hitotsu! Ja Nai!!",
@@ -1041,7 +1362,10 @@ var enTags = [
             "Song with !",
             "Bushiroad"
         ],
-        "id": 120010
+        "id": 120010,
+        "level": "13+",
+        "scorePerc": "92.4%",
+        "date": "2021-06-07"
     },
     {
         "name": "Android Girl",
@@ -1053,7 +1377,10 @@ var enTags = [
             "Summer 23 Dan",
             "Cover Tracks Vol 4"
         ],
-        "id": 320010
+        "id": 320010,
+        "level": "14",
+        "scorePerc": "94.9%",
+        "date": "2021-05-27"
     },
     {
         "name": "Power Hall",
@@ -1062,7 +1389,10 @@ var enTags = [
             "Wrestling",
             "Bushiroad"
         ],
-        "id": 5040022
+        "id": 5040022,
+        "level": "13",
+        "scorePerc": "92.6%",
+        "date": "2021-05-27"
     },
     {
         "name": "JUST COMMUNICATION",
@@ -1072,7 +1402,10 @@ var enTags = [
             "Cover Tracks Vol 1",
             "Cat Songs"
         ],
-        "id": 220007
+        "id": 220007,
+        "level": "12",
+        "scorePerc": "90.5%",
+        "date": "2021-05-27"
     },
     {
         "name": "MAJI LOVE 1000%",
@@ -1084,7 +1417,10 @@ var enTags = [
             "Song with Love",
             "Songs with MV"
         ],
-        "id": 220008
+        "id": 220008,
+        "level": "12",
+        "scorePerc": "90.7%",
+        "date": "2021-05-27"
     },
     {
         "name": "無限∞REBIRTH (Infinite∞REBIRTH)",
@@ -1094,7 +1430,10 @@ var enTags = [
             "Summer 22 Dan",
             "Cover Tracks Vol 2"
         ],
-        "id": 520010
+        "id": 520010,
+        "level": "13+",
+        "scorePerc": "98.4%",
+        "date": "2021-05-27"
     },
     {
         "name": "Feeling Good ↑↑",
@@ -1106,7 +1445,10 @@ var enTags = [
             "Songs with Go",
             "Song with Go"
         ],
-        "id": 120011
+        "id": 120011,
+        "level": "14",
+        "scorePerc": "96.6%",
+        "date": "2021-05-27"
     },
     {
         "name": "Certified Human!!!!",
@@ -1115,7 +1457,10 @@ var enTags = [
             "Original Category",
             "Song with !"
         ],
-        "id": 610005
+        "id": 610005,
+        "level": "13",
+        "scorePerc": "93.3%",
+        "date": "2021-06-15"
     },
     {
         "name": "Pining For The Moon",
@@ -1124,7 +1469,10 @@ var enTags = [
             "Original Category",
             "Autumn 22 Dan"
         ],
-        "id": 610006
+        "id": 610006,
+        "level": "11",
+        "scorePerc": "91.5%",
+        "date": "2021-06-01"
     },
     {
         "id": 3010005,
@@ -1136,7 +1484,10 @@ var enTags = [
             "Summer 22 Dan",
             "Song with !",
             "D4DJ Anime"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "93.3%",
+        "date": "2021-05-27"
     },
     {
         "name": "Give Me Awesome!!!!",
@@ -1148,7 +1499,10 @@ var enTags = [
             "Song with !",
             "D4DJ Anime"
         ],
-        "id": 110009
+        "id": 110009,
+        "level": "13+",
+        "scorePerc": "91.3%",
+        "date": "2021-05-27"
     },
     {
         "name": "Make My Style",
@@ -1160,7 +1514,10 @@ var enTags = [
             "First Mix",
             "D4DJ Anime"
         ],
-        "id": 110010
+        "id": 110010,
+        "level": "11+",
+        "scorePerc": "92.9%",
+        "date": "2021-05-27"
     },
     {
         "name": "Brand New World",
@@ -1171,7 +1528,10 @@ var enTags = [
             "First Mix",
             "D4DJ Anime"
         ],
-        "id": 110011
+        "id": 110011,
+        "level": "10+",
+        "scorePerc": "93.0%",
+        "date": "2021-05-27"
     },
     {
         "name": "Shanghai Scarlet Teahouse (siromaru d'n'b remix)",
@@ -1179,7 +1539,10 @@ var enTags = [
             "Game Category",
             "Touhou"
         ],
-        "id": 5030018
+        "id": 5030018,
+        "level": "13+",
+        "scorePerc": "93.5%",
+        "date": "2021-05-27"
     },
     {
         "name": "Backlit Wings",
@@ -1189,7 +1552,10 @@ var enTags = [
             "Autumn 22 Dan",
             "Cover Tracks Vol 2"
         ],
-        "id": 220009
+        "id": 220009,
+        "level": "13",
+        "scorePerc": "92.5%",
+        "date": "2021-06-11"
     },
     {
         "name": "EXPOSE 'Burn out!!!'",
@@ -1198,7 +1564,10 @@ var enTags = [
             "Cover Category",
             "Song with !"
         ],
-        "id": 420010
+        "id": 420010,
+        "level": "14+",
+        "scorePerc": "95.5%",
+        "date": "2021-06-11"
     },
     {
         "name": "Galaxy☆Babanga Bang!",
@@ -1208,7 +1577,10 @@ var enTags = [
             "Song with !",
             "Song with ☆"
         ],
-        "id": 620010
+        "id": 620010,
+        "level": "12+",
+        "scorePerc": "92.9%",
+        "date": "2021-06-07"
     },
     {
         "name": "Journey through the Decade",
@@ -1217,7 +1589,10 @@ var enTags = [
             "Cover Category",
             "Cover Tracks Vol 4"
         ],
-        "id": 520011
+        "id": 520011,
+        "level": "14",
+        "scorePerc": "93.9%",
+        "date": "2021-05-27"
     },
     {
         "name": "Yes☆FORTUNE!",
@@ -1229,7 +1604,10 @@ var enTags = [
             "Song with !",
             "Song with ☆"
         ],
-        "id": 110012
+        "id": 110012,
+        "level": "13",
+        "scorePerc": "94.1%",
+        "date": "2021-05-27"
     },
     {
         "name": "Aim to Be a Pokémon Master",
@@ -1238,7 +1616,10 @@ var enTags = [
             "Cover Category",
             "Cover Tracks Vol 3"
         ],
-        "id": 120012
+        "id": 120012,
+        "level": "12+",
+        "scorePerc": "91.1%",
+        "date": "2021-05-27"
     },
     {
         "name": "H-A-J-I-M-A-R-I-U-T-A-!!",
@@ -1248,7 +1629,10 @@ var enTags = [
             "Cover Tracks Vol 6",
             "Song with !"
         ],
-        "id": 120013
+        "id": 120013,
+        "level": "12",
+        "scorePerc": "93.2%",
+        "date": "2021-05-27"
     },
     {
         "name": "Magi's Gift",
@@ -1259,7 +1643,10 @@ var enTags = [
             "Summer 23 Dan",
             "Event Song"
         ],
-        "id": 610007
+        "id": 610007,
+        "level": "11",
+        "scorePerc": "91.9%",
+        "date": "2021-05-27"
     },
     {
         "name": "Shiny Smily Story",
@@ -1268,7 +1655,10 @@ var enTags = [
             "Cover Category",
             "Cover Tracks Vol 2"
         ],
-        "id": 620011
+        "id": 620011,
+        "level": "13",
+        "scorePerc": "92.0%",
+        "date": "2021-06-07"
     },
     {
         "name": "Love-Colored Master Spark (DJ Genki Remix)",
@@ -1279,7 +1669,10 @@ var enTags = [
             "Songs with DJ",
             "Song with Love"
         ],
-        "id": 5030019
+        "id": 5030019,
+        "level": "15",
+        "scorePerc": "95.8%",
+        "date": "2021-05-27"
     },
     {
         "name": "Bloom Nobly, Ink-Black Cherry Blossom ~ Border of Life (REDALiCE Remix)",
@@ -1288,7 +1681,10 @@ var enTags = [
             "BLACK or WHITE",
             "Touhou"
         ],
-        "id": 5030020
+        "id": 5030020,
+        "level": "13+",
+        "scorePerc": "93.3%",
+        "date": "2021-05-27"
     },
     {
         "name": "Septette for a Dead Princess (Massive New Krew Remix)",
@@ -1298,7 +1694,10 @@ var enTags = [
             "Summer 23 Dan",
             "Touhou"
         ],
-        "id": 5030022
+        "id": 5030022,
+        "level": "13+",
+        "scorePerc": "92.4%",
+        "date": "2021-05-27"
     },
     {
         "name": "Let you DIVE!",
@@ -1308,7 +1707,10 @@ var enTags = [
             "Song with !",
             "WACCA"
         ],
-        "id": 5030023
+        "id": 5030023,
+        "level": "13+",
+        "scorePerc": "94.1%",
+        "date": "2021-05-27"
     },
     {
         "name": "Knight Rider",
@@ -1317,7 +1719,10 @@ var enTags = [
             "WACCA",
             "Song with Night"
         ],
-        "id": 5030024
+        "id": 5030024,
+        "level": "14",
+        "scorePerc": "93.9%",
+        "date": "2021-05-27"
     },
     {
         "name": "Ultimate Vista",
@@ -1329,7 +1734,10 @@ var enTags = [
             "Summer 23 Dan",
             "Event Song"
         ],
-        "id": 210007
+        "id": 210007,
+        "level": "10+",
+        "scorePerc": "91.6%",
+        "date": "2021-05-27"
     },
     {
         "name": "U.N. Owen was her?*(USAO Euphoric Frenchcore Remix)",
@@ -1337,7 +1745,10 @@ var enTags = [
             "Game Category",
             "Touhou"
         ],
-        "id": 5030021
+        "id": 5030021,
+        "level": "14+",
+        "scorePerc": "91.4%",
+        "date": "2021-05-27"
     },
     {
         "name": "ABSOLUTE",
@@ -1348,7 +1759,10 @@ var enTags = [
             "First Mix",
             "D4DJ Anime"
         ],
-        "id": 210008
+        "id": 210008,
+        "level": "12",
+        "scorePerc": "93.1%",
+        "date": "2021-06-01"
     },
     {
         "name": "Akatsuki",
@@ -1360,7 +1774,10 @@ var enTags = [
             "First Mix",
             "D4DJ Anime"
         ],
-        "id": 310007
+        "id": 310007,
+        "level": "13",
+        "scorePerc": "93.3%",
+        "date": "2021-05-27"
     },
     {
         "name": "99 ILLUSION!",
@@ -1372,7 +1789,10 @@ var enTags = [
             "1, 2, 3...",
             "Bushiroad"
         ],
-        "id": 320012
+        "id": 320012,
+        "level": "13",
+        "scorePerc": "95.0%",
+        "date": "2021-06-07"
     },
     {
         "name": "Princess advent",
@@ -1382,7 +1802,10 @@ var enTags = [
             "Summer 22 Dan",
             "Event Song"
         ],
-        "id": 410007
+        "id": 410007,
+        "level": "13",
+        "scorePerc": "95.8%",
+        "date": "2021-05-27"
     },
     {
         "name": "NEXT COLOR PLANET",
@@ -1391,7 +1814,10 @@ var enTags = [
             "Vtubers",
             "Hololive"
         ],
-        "id": 5050007
+        "id": 5050007,
+        "level": "12+",
+        "scorePerc": "91.5%",
+        "date": "2021-05-27"
     },
     {
         "name": "aqua iro palette",
@@ -1400,7 +1826,10 @@ var enTags = [
             "Vtubers",
             "Hololive"
         ],
-        "id": 5050008
+        "id": 5050008,
+        "level": "12",
+        "scorePerc": "92.8%",
+        "date": "2021-05-27"
     },
     {
         "name": "HONEST -happy a word-",
@@ -1412,7 +1841,10 @@ var enTags = [
             "D4DJ Anime",
             "Numbers Spelled Out"
         ],
-        "id": 110013
+        "id": 110013,
+        "level": "12",
+        "scorePerc": "91.1%",
+        "date": "2021-06-01"
     },
     {
         "name": "Blazing Continent Bushilord ~Passionate Roar~",
@@ -1421,7 +1853,10 @@ var enTags = [
             "Cover Category",
             "Bushiroad"
         ],
-        "id": 120014
+        "id": 120014,
+        "level": "13+",
+        "scorePerc": "94.7%",
+        "date": "2021-06-23"
     },
     {
         "name": "Monster Land RND.1",
@@ -1431,14 +1866,20 @@ var enTags = [
             "1, 2, 3...",
             "Retro Games"
         ],
-        "id": 5030032
+        "id": 5030032,
+        "level": "13",
+        "scorePerc": "92.3%",
+        "date": "2021-08-25"
     },
     {
         "name": "Mystic Antique",
         "tags": [
             "Instrumental Category"
         ],
-        "id": 5040023
+        "id": 5040023,
+        "level": "13",
+        "scorePerc": "90.6%",
+        "date": "2021-06-15"
     },
     {
         "name": "Red Sweet Pea",
@@ -1448,7 +1889,10 @@ var enTags = [
             "Spring 23 Dan",
             "Cover Tracks Vol 3"
         ],
-        "id": 620012
+        "id": 620012,
+        "level": "11",
+        "scorePerc": "89.7%",
+        "date": "2021-07-16"
     },
     {
         "name": "FAKE",
@@ -1459,7 +1903,10 @@ var enTags = [
             "Summer 23 Dan",
             "Retro Games"
         ],
-        "id": 5030033
+        "id": 5030033,
+        "level": "14+",
+        "scorePerc": "93.2%",
+        "date": "2021-08-31"
     },
     {
         "name": "PEKORANDOMBRAIN",
@@ -1468,7 +1915,10 @@ var enTags = [
             "Vtubers",
             "Hololive"
         ],
-        "id": 5050032
+        "id": 5050032,
+        "level": "14",
+        "scorePerc": "94.7%",
+        "date": "2021-05-27"
     },
     {
         "name": "Ultramarino Flor Seca",
@@ -1478,7 +1928,10 @@ var enTags = [
             "Summer 23 Dan",
             "Event Song"
         ],
-        "id": 510009
+        "id": 510009,
+        "level": "13",
+        "scorePerc": "94.6%",
+        "date": "2021-06-01"
     },
     {
         "name": "Give a reason",
@@ -1486,7 +1939,10 @@ var enTags = [
             "Peaky P-key",
             "Cover Category"
         ],
-        "id": 220011
+        "id": 220011,
+        "level": "13",
+        "scorePerc": "92.3%",
+        "date": "2021-06-19"
     },
     {
         "name": "Pure Furies (DJ_WILDPARTY_remix)",
@@ -1496,7 +1952,10 @@ var enTags = [
             "Songs with DJ",
             "Song with Party"
         ],
-        "id": 5030034
+        "id": 5030034,
+        "level": "14",
+        "scorePerc": "94.3%",
+        "date": "2021-06-19"
     },
     {
         "name": "Akatsuki (Fruits Mix)",
@@ -1506,7 +1965,10 @@ var enTags = [
             "First Mix",
             "D4DJ Anime"
         ],
-        "id": 310009
+        "id": 310009,
+        "level": "13",
+        "scorePerc": "89.4%",
+        "date": "2021-06-19"
     },
     {
         "name": "Petit Mix Party Night! Anime Ver.",
@@ -1517,14 +1979,20 @@ var enTags = [
             "Song with Party",
             "Song with Night"
         ],
-        "id": 3010007
+        "id": 3010007,
+        "level": "13+",
+        "scorePerc": "94.9%",
+        "date": "2021-06-01"
     },
     {
         "name": "SE・SA・ME",
         "tags": [
             "Base Category"
         ],
-        "id": 5050044
+        "id": 5050044,
+        "level": "13+",
+        "scorePerc": "94.8%",
+        "date": "2021-06-29"
     },
     {
         "name": "Hey! Be Ambitious!",
@@ -1535,7 +2003,10 @@ var enTags = [
             "Song with !",
             "D4FES Songs"
         ],
-        "id": 110014
+        "id": 110014,
+        "level": "13+",
+        "scorePerc": "95.1%",
+        "date": "2021-06-07"
     },
     {
         "name": "Hey! Be Ambitious! (Another Ver.)",
@@ -1545,7 +2016,10 @@ var enTags = [
             "Song with !",
             "Songs with MV"
         ],
-        "id": 110015
+        "id": 110015,
+        "level": "13",
+        "scorePerc": "95.4%",
+        "date": "2021-07-10"
     },
     {
         "name": "Wonder Wonder Trip",
@@ -1556,7 +2030,10 @@ var enTags = [
             "Spring 23 Dan",
             "Event Song"
         ],
-        "id": 310008
+        "id": 310008,
+        "level": "12+",
+        "scorePerc": "94.9%",
+        "date": "2021-06-15"
     },
     {
         "name": "[Re] termination",
@@ -1569,7 +2046,10 @@ var enTags = [
             "D4FES Songs",
             "Songs with MV"
         ],
-        "id": 510010
+        "id": 510010,
+        "level": "14",
+        "scorePerc": "90.6%",
+        "date": "2021-07-16"
     },
     {
         "name": "God knows...",
@@ -1578,7 +2058,10 @@ var enTags = [
             "Songs with Go",
             "Song with Go"
         ],
-        "id": 5050028
+        "id": 5050028,
+        "level": "13",
+        "scorePerc": "92.9%",
+        "date": "2021-07-10"
     },
     {
         "name": "POP TEAM EPIC",
@@ -1587,7 +2070,10 @@ var enTags = [
             "Cover Category",
             "Cover Tracks Vol 4"
         ],
-        "id": 3020002
+        "id": 3020002,
+        "level": "12+",
+        "scorePerc": "95.1%",
+        "date": "2021-06-15"
     },
     {
         "name": "Agehachou",
@@ -1597,7 +2083,10 @@ var enTags = [
             "Autumn 22 Dan",
             "Cover Tracks Vol 4"
         ],
-        "id": 220015
+        "id": 220015,
+        "level": "13+",
+        "scorePerc": "94.9%",
+        "date": "2021-06-11"
     },
     {
         "name": "Climax Jump",
@@ -1607,7 +2096,10 @@ var enTags = [
             "Winter 23 Dan",
             "Cover Tracks Vol 2"
         ],
-        "id": 420013
+        "id": 420013,
+        "level": "13",
+        "scorePerc": "92.2%",
+        "date": "2021-06-11"
     },
     {
         "name": "Dig Delight! (4sk Remix)",
@@ -1618,7 +2110,10 @@ var enTags = [
             "Song with !",
             "1, 2, 3..."
         ],
-        "id": 110016
+        "id": 110016,
+        "level": "13+",
+        "scorePerc": "93.2%",
+        "date": "2021-06-23"
     },
     {
         "name": "Photon Melodies (TAKU INOUE Remix)",
@@ -1627,7 +2122,10 @@ var enTags = [
             "Original Category",
             "Summer 23 Dan"
         ],
-        "id": 310010
+        "id": 310010,
+        "level": "13+",
+        "scorePerc": "95.3%",
+        "date": "2021-06-23"
     },
     {
         "name": "ONOMATO Pairing!!!",
@@ -1636,7 +2134,10 @@ var enTags = [
             "Song with !",
             "WACCA"
         ],
-        "id": 5030040
+        "id": 5030040,
+        "level": "13+",
+        "scorePerc": "93.7%",
+        "date": "2021-10-28"
     },
     {
         "name": "Suspect",
@@ -1645,7 +2146,10 @@ var enTags = [
             "Vtubers",
             "Hololive"
         ],
-        "id": 5050050
+        "id": 5050050,
+        "level": "13",
+        "scorePerc": "94.3%",
+        "date": "2021-05-27"
     },
     {
         "name": "Help me, ERINNNNNN!!",
@@ -1655,7 +2159,10 @@ var enTags = [
             "Cover Tracks Vol 4",
             "Song with !"
         ],
-        "id": 120015
+        "id": 120015,
+        "level": "13+",
+        "scorePerc": "93.4%",
+        "date": "2021-06-29"
     },
     {
         "name": "Floor Killer (After Party Mix)",
@@ -1664,7 +2171,10 @@ var enTags = [
             "Original Category",
             "Song with Party"
         ],
-        "id": 410008
+        "id": 410008,
+        "level": "13",
+        "scorePerc": "92.1%",
+        "date": "2021-06-23"
     },
     {
         "name": "The Color of Tainted Sorrow (t+pazolite Remix)",
@@ -1673,7 +2183,10 @@ var enTags = [
             "Original Category",
             "Summer 22 Dan"
         ],
-        "id": 610008
+        "id": 610008,
+        "level": "14",
+        "scorePerc": "94.7%",
+        "date": "2021-07-16"
     },
     {
         "name": "High tension BPM",
@@ -1685,7 +2198,10 @@ var enTags = [
             "Numbers Spelled Out",
             "Songs with MV"
         ],
-        "id": 410009
+        "id": 410009,
+        "level": "13",
+        "scorePerc": "92.6%",
+        "date": "2021-06-23"
     },
     {
         "name": "Movement (Maozon Remix)",
@@ -1694,7 +2210,10 @@ var enTags = [
             "Original Category",
             "Summer 22 Dan"
         ],
-        "id": 510011
+        "id": 510011,
+        "level": "13+",
+        "scorePerc": "91.7%",
+        "date": "2021-07-10"
     },
     {
         "name": "Y",
@@ -1702,7 +2221,10 @@ var enTags = [
             "Base Category",
             "Bushiroad"
         ],
-        "id": 5050061
+        "id": 5050061,
+        "level": "11",
+        "scorePerc": "90.8%",
+        "date": "2021-06-29"
     },
     {
         "name": "4 Challenges",
@@ -1715,14 +2237,20 @@ var enTags = [
             "1, 2, 3...",
             "Songs with MV"
         ],
-        "id": 310011
+        "id": 310011,
+        "level": "13",
+        "scorePerc": "91.3%",
+        "date": "2021-06-23"
     },
     {
         "name": "Life Reset Button",
         "tags": [
             "Base Category"
         ],
-        "id": 5050010
+        "id": 5050010,
+        "level": "14",
+        "scorePerc": "93.7%",
+        "date": "2021-06-29"
     },
     {
         "name": "Six Trillion Years and One Night Story",
@@ -1731,7 +2259,10 @@ var enTags = [
             "Numbers Spelled Out",
             "Song with Night"
         ],
-        "id": 5050012
+        "id": 5050012,
+        "level": "14+",
+        "scorePerc": "95.7%",
+        "date": "2021-07-30"
     },
     {
         "name": "Celsius",
@@ -1742,7 +2273,10 @@ var enTags = [
             "Summer 23 Dan",
             "Event Song"
         ],
-        "id": 510012
+        "id": 510012,
+        "level": "12+",
+        "scorePerc": "92.2%",
+        "date": "2021-06-19"
     },
     {
         "name": "Electric Chaos★Countdown (DJ Genki Remix)",
@@ -1753,7 +2287,10 @@ var enTags = [
             "Songs with DJ",
             "Song with ☆"
         ],
-        "id": 210009
+        "id": 210009,
+        "level": "14",
+        "scorePerc": "95.9%",
+        "date": "2021-08-12"
     },
     {
         "name": "S.T.O.P.!",
@@ -1763,7 +2300,10 @@ var enTags = [
             "Event Song",
             "Song with !"
         ],
-        "id": 410010
+        "id": 410010,
+        "level": "13",
+        "scorePerc": "92.5%",
+        "date": "2021-05-27"
     },
     {
         "name": "Dreaming Days",
@@ -1773,7 +2313,10 @@ var enTags = [
             "Hololive",
             "Songs with Dream"
         ],
-        "id": 5050052
+        "id": 5050052,
+        "level": "12+",
+        "scorePerc": "90.2%",
+        "date": "2021-05-27"
     },
     {
         "name": "Bluebird",
@@ -1783,7 +2326,10 @@ var enTags = [
             "Autumn 22 Dan",
             "Cover Tracks Vol 6"
         ],
-        "id": 320013
+        "id": 320013,
+        "level": "12+",
+        "scorePerc": "94.7%",
+        "date": "2021-06-29"
     },
     {
         "name": "Adventure King!",
@@ -1796,7 +2342,10 @@ var enTags = [
             "D4FES Songs",
             "Songs with MV"
         ],
-        "id": 610009
+        "id": 610009,
+        "level": "13",
+        "scorePerc": "92.2%",
+        "date": "2021-07-20"
     },
     {
         "name": "BLACK SHOUT",
@@ -1806,7 +2355,10 @@ var enTags = [
             "Cover Tracks Vol 8",
             "BLACK or WHITE"
         ],
-        "id": 220017
+        "id": 220017,
+        "level": "14+",
+        "scorePerc": "94.4%",
+        "date": "2021-06-29"
     },
     {
         "name": "Let us sing “Peaky!!”",
@@ -1818,7 +2370,10 @@ var enTags = [
             "D4FES Songs",
             "Songs with MV"
         ],
-        "id": 210010
+        "id": 210010,
+        "level": "12",
+        "scorePerc": "93.3%",
+        "date": "2021-09-17"
     },
     {
         "name": "Open! GO MY WAY★",
@@ -1832,7 +2387,10 @@ var enTags = [
             "Song with Go",
             "Song with ☆"
         ],
-        "id": 110018
+        "id": 110018,
+        "level": "13",
+        "scorePerc": "93.6%",
+        "date": "2021-08-12"
     },
     {
         "name": "Sleeping Beauty",
@@ -1842,7 +2400,10 @@ var enTags = [
             "Summer 22 Dan",
             "Event Song"
         ],
-        "id": 610010
+        "id": 610010,
+        "level": "13+",
+        "scorePerc": "94.2%",
+        "date": "2021-07-26"
     },
     {
         "name": "LOVE!HUG!GROOVY!! Type:L (KO3 Remix)",
@@ -1853,7 +2414,10 @@ var enTags = [
             "1, 2, 3...",
             "Song with Love"
         ],
-        "id": 3010008
+        "id": 3010008,
+        "level": "13+",
+        "scorePerc": "93.6%",
+        "date": "2021-08-12"
     },
     {
         "name": "LOVE!HUG!GROOVY!! Type:H (KO3 Remix)",
@@ -1864,7 +2428,10 @@ var enTags = [
             "1, 2, 3...",
             "Song with Love"
         ],
-        "id": 3010009
+        "id": 3010009,
+        "level": "13+",
+        "scorePerc": "93.8%",
+        "date": "2021-07-30"
     },
     {
         "name": "LOVE!HUG!GROOVY!! Type:G (KO3 Remix)",
@@ -1875,7 +2442,10 @@ var enTags = [
             "1, 2, 3...",
             "Song with Love"
         ],
-        "id": 3010010
+        "id": 3010010,
+        "level": "14",
+        "scorePerc": "93.9%",
+        "date": "2021-07-20"
     },
     {
         "name": "ReTINA",
@@ -1884,7 +2454,10 @@ var enTags = [
             "Original Category",
             "Event Song"
         ],
-        "id": 510013
+        "id": 510013,
+        "level": "13",
+        "scorePerc": "93.1%",
+        "date": "2021-07-30"
     },
     {
         "name": "Daydream café",
@@ -1895,7 +2468,10 @@ var enTags = [
             "Cover Tracks Vol 5",
             "Songs with Dream"
         ],
-        "id": 120018
+        "id": 120018,
+        "level": "12",
+        "scorePerc": "94.3%",
+        "date": "2021-08-31"
     },
     {
         "name": "Sirius",
@@ -1905,7 +2481,10 @@ var enTags = [
             "Autumn 22 Dan",
             "Summer 23 Dan"
         ],
-        "id": 320014
+        "id": 320014,
+        "level": "13",
+        "scorePerc": "92.0%",
+        "date": "2021-07-26"
     },
     {
         "name": "Hikari",
@@ -1916,7 +2495,10 @@ var enTags = [
             "Event Song",
             "Groovy Festival"
         ],
-        "id": 310012
+        "id": 310012,
+        "level": "10+",
+        "scorePerc": "88.8%",
+        "date": "2021-07-26"
     },
     {
         "name": "Panoramarium",
@@ -1927,7 +2509,10 @@ var enTags = [
             "Summer 23 Dan",
             "Event Song"
         ],
-        "id": 110019
+        "id": 110019,
+        "level": "13",
+        "scorePerc": "91.3%",
+        "date": "2021-08-25"
     },
     {
         "name": "Love again",
@@ -1936,7 +2521,10 @@ var enTags = [
             "Cover Category",
             "Song with Love"
         ],
-        "id": 3020004
+        "id": 3020004,
+        "level": "12+",
+        "scorePerc": "92.0%",
+        "date": "2021-09-07"
     },
     {
         "name": "EZ DO DANCE",
@@ -1944,7 +2532,10 @@ var enTags = [
             "Special (unit)",
             "Cover Category"
         ],
-        "id": 3020005
+        "id": 3020005,
+        "level": "12",
+        "scorePerc": "94.8%",
+        "date": "2021-09-07"
     },
     {
         "name": "Stormy link",
@@ -1953,7 +2544,10 @@ var enTags = [
             "Original Category",
             "Event Song"
         ],
-        "id": 210011
+        "id": 210011,
+        "level": "13",
+        "scorePerc": "94.3%",
+        "date": "2021-09-17"
     },
     {
         "name": "Undercover (TeddyLoid Remix)",
@@ -1962,7 +2556,10 @@ var enTags = [
             "Cover Category",
             "Cover Tracks Vol 7"
         ],
-        "id": 620013
+        "id": 620013,
+        "level": "13",
+        "scorePerc": "94.3%",
+        "date": "2021-09-28"
     },
     {
         "name": "ADAM",
@@ -1970,7 +2567,10 @@ var enTags = [
             "Game Category",
             "WACCA"
         ],
-        "id": 5030037
+        "id": 5030037,
+        "level": "14",
+        "scorePerc": "97.3%",
+        "date": "2021-09-28"
     },
     {
         "name": "Zenryoku ☆Summer！",
@@ -1982,7 +2582,10 @@ var enTags = [
             "Song with !",
             "Song with ☆"
         ],
-        "id": 120019
+        "id": 120019,
+        "level": "13",
+        "scorePerc": "94.2%",
+        "date": "2021-09-28"
     },
     {
         "name": "From Yoshino Kariya",
@@ -1991,7 +2594,10 @@ var enTags = [
             "Spring 23 Dan",
             "Princess Letters"
         ],
-        "id": 5050075
+        "id": 5050075,
+        "level": "10+",
+        "scorePerc": "91.3%",
+        "date": "2021-10-01"
     },
     {
         "name": "From Ayame Mizukuki",
@@ -2000,7 +2606,10 @@ var enTags = [
             "Spring 23 Dan",
             "Princess Letters"
         ],
-        "id": 5050076
+        "id": 5050076,
+        "level": "11+",
+        "scorePerc": "93.2%",
+        "date": "2021-10-05"
     },
     {
         "name": "From Tayori Kingyobachi",
@@ -2009,7 +2618,10 @@ var enTags = [
             "Spring 23 Dan",
             "Princess Letters"
         ],
-        "id": 5050077
+        "id": 5050077,
+        "level": "12",
+        "scorePerc": "92.9%",
+        "date": "2021-10-08"
     },
     {
         "name": "#ALL FRIENDS",
@@ -2020,7 +2632,10 @@ var enTags = [
             "Summer 23 Dan",
             "Songs with MV"
         ],
-        "id": 3010014
+        "id": 3010014,
+        "level": "12+",
+        "scorePerc": "89.7%",
+        "date": "2021-10-07"
     },
     {
         "name": "Ten Nights' Dreams!",
@@ -2035,7 +2650,10 @@ var enTags = [
             "Songs with Dream",
             "Song with Night"
         ],
-        "id": 610011
+        "id": 610011,
+        "level": "12",
+        "scorePerc": "90.3%",
+        "date": "2021-10-28"
     },
     {
         "name": "Quon",
@@ -2044,7 +2662,10 @@ var enTags = [
             "Spring 23 Dan",
             "WACCA"
         ],
-        "id": 5030041
+        "id": 5030041,
+        "level": "13+",
+        "scorePerc": "93.6%",
+        "date": "2021-11-07"
     },
     {
         "name": "Invisible Frenzy",
@@ -2052,7 +2673,10 @@ var enTags = [
             "Game Category",
             "WACCA"
         ],
-        "id": 5030039
+        "id": 5030039,
+        "level": "14+",
+        "scorePerc": "93.1%",
+        "date": "2021-11-14"
     },
     {
         "name": "Exitium",
@@ -2061,7 +2685,10 @@ var enTags = [
             "BPM over 250",
             "WACCA"
         ],
-        "id": 5030038
+        "id": 5030038,
+        "level": "15",
+        "scorePerc": "94.8%",
+        "date": "2021-11-21"
     },
     {
         "name": "Bomb A Head!",
@@ -2072,14 +2699,20 @@ var enTags = [
             "Cover Tracks Vol 6",
             "Song with !"
         ],
-        "id": 420014
+        "id": 420014,
+        "level": "13+",
+        "scorePerc": "98.0%",
+        "date": "2021-11-28"
     },
     {
         "name": "Embrace of light",
         "tags": [
             "Base Category"
         ],
-        "id": 5050055
+        "id": 5050055,
+        "level": "11",
+        "scorePerc": "91.6%",
+        "date": "2021-11-27"
     },
     {
         "name": "OMG",
@@ -2088,7 +2721,10 @@ var enTags = [
             "Original Category",
             "Event Song"
         ],
-        "id": 410011
+        "id": 410011,
+        "level": "13",
+        "scorePerc": "91.3%",
+        "date": "2021-11-28"
     },
     {
         "name": "＊ ～Asterisk～",
@@ -2097,7 +2733,10 @@ var enTags = [
             "Cover Category",
             "Cover Tracks Vol 4"
         ],
-        "id": 420015
+        "id": 420015,
+        "level": "13",
+        "scorePerc": "93.0%",
+        "date": "2021-11-14"
     },
     {
         "name": "Your Love♡",
@@ -2111,14 +2750,20 @@ var enTags = [
             "♡ Songs",
             "Song with Love"
         ],
-        "id": 3010012
+        "id": 3010012,
+        "level": "13+",
+        "scorePerc": "92.9%",
+        "date": "2021-12-01"
     },
     {
         "name": "No Continue",
         "tags": [
             "Base Category"
         ],
-        "id": 5050072
+        "id": 5050072,
+        "level": "13",
+        "scorePerc": "92.7%",
+        "date": "2021-11-14"
     },
     {
         "name": "MANIFESTO",
@@ -2127,7 +2772,10 @@ var enTags = [
             "from ARGONAVIS",
             "Bushiroad"
         ],
-        "id": 5050080
+        "id": 5050080,
+        "level": "13+",
+        "scorePerc": "90.3%",
+        "date": "2021-11-29"
     },
     {
         "name": "Pretender",
@@ -2139,7 +2787,10 @@ var enTags = [
             "Cover Tracks Vol 6",
             "Numbers Spelled Out"
         ],
-        "id": 220018
+        "id": 220018,
+        "level": "11+",
+        "scorePerc": "90.0%",
+        "date": "2021-11-21"
     },
     {
         "name": "BLACK LOTUS",
@@ -2148,7 +2799,10 @@ var enTags = [
             "Original Category",
             "BLACK or WHITE"
         ],
-        "id": 510014
+        "id": 510014,
+        "level": "14",
+        "scorePerc": "97.9%",
+        "date": "2021-11-29"
     },
     {
         "name": "Onaji Hoshi",
@@ -2158,7 +2812,10 @@ var enTags = [
             "Cover Tracks Vol 3",
             "Bushiroad"
         ],
-        "id": 520013
+        "id": 520013,
+        "level": "13",
+        "scorePerc": "89.8%",
+        "date": "2021-11-07"
     },
     {
         "name": "R·I·O·T",
@@ -2166,7 +2823,10 @@ var enTags = [
             "Base Category",
             "Bushiroad"
         ],
-        "id": 5050086
+        "id": 5050086,
+        "level": "12+",
+        "scorePerc": "94.1%",
+        "date": "2021-11-27"
     },
     {
         "name": "Storyteller",
@@ -2177,7 +2837,10 @@ var enTags = [
             "Autumn 22 Dan",
             "Cover Tracks Vol 8"
         ],
-        "id": 220019
+        "id": 220019,
+        "level": "13+",
+        "scorePerc": "97.2%",
+        "date": "2021-11-29"
     },
     {
         "name": "NYANDAA WANDAA DEIZU",
@@ -2187,7 +2850,10 @@ var enTags = [
             "Spring 23 Dan",
             "Cover Tracks Vol 8"
         ],
-        "id": 620016
+        "id": 620016,
+        "level": "12",
+        "scorePerc": "91.4%",
+        "date": "2021-11-30"
     },
     {
         "name": "Stellar Stellar",
@@ -2196,7 +2862,10 @@ var enTags = [
             "Vtubers",
             "Hololive"
         ],
-        "id": 5050097
+        "id": 5050097,
+        "level": "13+",
+        "scorePerc": "93.0%",
+        "date": "2021-11-25"
     },
     {
         "name": "Everlasting Soul",
@@ -2205,7 +2874,10 @@ var enTags = [
             "Vtubers",
             "Hololive"
         ],
-        "id": 5050098
+        "id": 5050098,
+        "level": "13",
+        "scorePerc": "89.8%",
+        "date": "2021-11-25"
     },
     {
         "name": "HAPPIEST☆DREAM",
@@ -2217,7 +2889,10 @@ var enTags = [
             "Songs with Dream",
             "Song with ☆"
         ],
-        "id": 110021
+        "id": 110021,
+        "level": "12+",
+        "scorePerc": "92.4%",
+        "date": "2021-11-25"
     },
     {
         "name": "Aspiring Supreme",
@@ -2225,7 +2900,10 @@ var enTags = [
             "Peaky P-key",
             "Original Category"
         ],
-        "id": 210012
+        "id": 210012,
+        "level": "13",
+        "scorePerc": "92.7%",
+        "date": "2021-11-26"
     },
     {
         "name": "Into the storm",
@@ -2234,7 +2912,10 @@ var enTags = [
             "Original Category",
             "Spring 23 Dan"
         ],
-        "id": 310013
+        "id": 310013,
+        "level": "13+",
+        "scorePerc": "92.2%",
+        "date": "2021-11-27"
     },
     {
         "name": "Happy Prince",
@@ -2243,7 +2924,10 @@ var enTags = [
             "Original Category",
             "Winter 23 Dan"
         ],
-        "id": 610012
+        "id": 610012,
+        "level": "11+",
+        "scorePerc": "91.9%",
+        "date": "2021-11-30"
     },
     {
         "name": "NO-NO",
@@ -2253,7 +2937,10 @@ var enTags = [
             "Summer 22 Dan",
             "Summer 23 Dan"
         ],
-        "id": 410012
+        "id": 410012,
+        "level": "13+",
+        "scorePerc": "92.0%",
+        "date": "2021-12-07"
     },
     {
         "name": "Nocturne",
@@ -2262,7 +2949,10 @@ var enTags = [
             "Original Category",
             "Summer 23 Dan"
         ],
-        "id": 510015
+        "id": 510015,
+        "level": "14",
+        "scorePerc": "92.5%",
+        "date": "2021-12-07"
     },
     {
         "name": "BUCHiGiRE Berserker",
@@ -2270,7 +2960,10 @@ var enTags = [
             "Game Category",
             "Groove Coaster"
         ],
-        "id": 5030044
+        "id": 5030044,
+        "level": "15",
+        "scorePerc": "92.7%",
+        "date": "2021-12-21"
     },
     {
         "name": "HOLY WORRY",
@@ -2280,7 +2973,10 @@ var enTags = [
             "Winter 23 Dan",
             "Event Song"
         ],
-        "id": 410013
+        "id": 410013,
+        "level": "14+",
+        "scorePerc": "94.3%",
+        "date": "2021-12-21"
     },
     {
         "name": "HERE COMES HOPE",
@@ -2291,7 +2987,10 @@ var enTags = [
             "Vtubers",
             "Hololive"
         ],
-        "id": 5050124
+        "id": 5050124,
+        "level": "13+",
+        "scorePerc": "94.5%",
+        "date": "2021-12-26"
     },
     {
         "name": "Symphonic Merry-Go-Round",
@@ -2305,7 +3004,10 @@ var enTags = [
             "Songs with Go",
             "Song with Go"
         ],
-        "id": 210013
+        "id": 210013,
+        "level": "12+",
+        "scorePerc": "95.8%",
+        "date": "2022-01-07"
     },
     {
         "name": "1st Priority",
@@ -2316,7 +3018,10 @@ var enTags = [
             "Cover Tracks Vol 5",
             "1, 2, 3..."
         ],
-        "id": 620014
+        "id": 620014,
+        "level": "12+",
+        "scorePerc": "90.7%",
+        "date": "2022-01-21"
     },
     {
         "name": "We never stop",
@@ -2326,7 +3031,10 @@ var enTags = [
             "Summer 22 Dan",
             "Event Song"
         ],
-        "id": 310014
+        "id": 310014,
+        "level": "13+",
+        "scorePerc": "93.0%",
+        "date": "2022-01-21"
     },
     {
         "name": "Goalline",
@@ -2337,7 +3045,10 @@ var enTags = [
             "from ARGONAVIS",
             "Bushiroad"
         ],
-        "id": 5050126
+        "id": 5050126,
+        "level": "13",
+        "scorePerc": "92.4%",
+        "date": "2022-02-01"
     },
     {
         "name": "EGOIST",
@@ -2348,7 +3059,10 @@ var enTags = [
             "from ARGONAVIS",
             "Bushiroad"
         ],
-        "id": 5050127
+        "id": 5050127,
+        "level": "13",
+        "scorePerc": "97.4%",
+        "date": "2022-02-01"
     },
     {
         "name": "Zakuro",
@@ -2357,7 +3071,10 @@ var enTags = [
             "from ARGONAVIS",
             "Bushiroad"
         ],
-        "id": 5050128
+        "id": 5050128,
+        "level": "13",
+        "scorePerc": "95.1%",
+        "date": "2022-02-01"
     },
     {
         "name": "BANZAI RIZING!!!",
@@ -2367,7 +3084,10 @@ var enTags = [
             "from ARGONAVIS",
             "Bushiroad"
         ],
-        "id": 5050129
+        "id": 5050129,
+        "level": "13+",
+        "scorePerc": "90.8%",
+        "date": "2022-02-01"
     },
     {
         "name": "Cynicaltic Fakestar",
@@ -2376,7 +3096,10 @@ var enTags = [
             "from ARGONAVIS",
             "Bushiroad"
         ],
-        "id": 5050130
+        "id": 5050130,
+        "level": "14",
+        "scorePerc": "96.2%",
+        "date": "2022-02-01"
     },
     {
         "name": "Journey to the West",
@@ -2386,7 +3109,10 @@ var enTags = [
             "Autumn 22 Dan",
             "Event Song"
         ],
-        "id": 610013
+        "id": 610013,
+        "level": "13",
+        "scorePerc": "92.5%",
+        "date": "2022-02-03"
     },
     {
         "name": "START!! True dreams",
@@ -2395,7 +3121,10 @@ var enTags = [
             "Song with !",
             "Songs with Dream"
         ],
-        "id": 5050099
+        "id": 5050099,
+        "level": "12",
+        "scorePerc": "92.8%",
+        "date": "2022-02-19"
     },
     {
         "name": "Full Full♡Heartful",
@@ -2407,7 +3136,10 @@ var enTags = [
             "♡ Songs",
             "Songs with Heart (spelled)"
         ],
-        "id": 110023
+        "id": 110023,
+        "level": "12+",
+        "scorePerc": "93.0%",
+        "date": "2022-02-16"
     },
     {
         "name": "Koten",
@@ -2420,7 +3152,10 @@ var enTags = [
             "Numbers Spelled Out",
             "BPM over 250"
         ],
-        "id": 510016
+        "id": 510016,
+        "level": "13+",
+        "scorePerc": "93.3%",
+        "date": "2022-03-02"
     },
     {
         "name": "Insomnia",
@@ -2428,7 +3163,10 @@ var enTags = [
             "Base Category",
             "Winter 23 Dan"
         ],
-        "id": 5050148
+        "id": 5050148,
+        "level": "12",
+        "scorePerc": "86.9%",
+        "date": "2022-03-18"
     },
     {
         "name": "Loving you",
@@ -2436,7 +3174,10 @@ var enTags = [
             "Base Category",
             "Winter 23 Dan"
         ],
-        "id": 5050149
+        "id": 5050149,
+        "level": "11",
+        "scorePerc": "88.0%",
+        "date": "2022-03-18"
     },
     {
         "name": "White Margaret",
@@ -2446,7 +3187,10 @@ var enTags = [
             "Event Song",
             "BLACK or WHITE"
         ],
-        "id": 610014
+        "id": 610014,
+        "level": "13",
+        "scorePerc": "91.5%",
+        "date": "2022-03-18"
     },
     {
         "name": "A Cruel Angel's Thesis",
@@ -2457,14 +3201,20 @@ var enTags = [
             "Cover Tracks Vol 5",
             "Angel and Demon"
         ],
-        "id": 320016
+        "id": 320016,
+        "level": "11+",
+        "scorePerc": "93.5%",
+        "date": "2022-03-29"
     },
     {
         "name": "Shangri-La",
         "tags": [
             "Base Category"
         ],
-        "id": 5050083
+        "id": 5050083,
+        "level": "11",
+        "scorePerc": "96.0%",
+        "date": "2022-03-30"
     },
     {
         "name": "Hoshi ga hajimaru",
@@ -2473,7 +3223,10 @@ var enTags = [
             "from ARGONAVIS",
             "Bushiroad"
         ],
-        "id": 5050079
+        "id": 5050079,
+        "level": "12+",
+        "scorePerc": "94.9%",
+        "date": "2022-04-01"
     },
     {
         "name": "Renai♥Rider",
@@ -2483,7 +3236,10 @@ var enTags = [
             "Cover Tracks Vol 7",
             "♡ Songs"
         ],
-        "id": 420016
+        "id": 420016,
+        "level": "13",
+        "scorePerc": "94.0%",
+        "date": "2022-04-02"
     },
     {
         "name": "I believe what you said",
@@ -2493,14 +3249,20 @@ var enTags = [
             "Autumn 22 Dan",
             "Cover Tracks Vol 5"
         ],
-        "id": 520015
+        "id": 520015,
+        "level": "14",
+        "scorePerc": "95.2%",
+        "date": "2022-04-03"
     },
     {
         "name": "Soul's Refrain",
         "tags": [
             "Base Category"
         ],
-        "id": 5050094
+        "id": 5050094,
+        "level": "12",
+        "scorePerc": "87.3%",
+        "date": "2022-04-04"
     },
     {
         "name": "Bad Apple!! feat. nomico (D.watt Remix)",
@@ -2510,14 +3272,20 @@ var enTags = [
             "Song with !",
             "Touhou"
         ],
-        "id": 5030062
+        "id": 5030062,
+        "level": "13+",
+        "scorePerc": "93.3%",
+        "date": "2022-04-05"
     },
     {
         "name": "Redo",
         "tags": [
             "Base Category"
         ],
-        "id": 5050091
+        "id": 5050091,
+        "level": "13+",
+        "scorePerc": "89.1%",
+        "date": "2022-04-06"
     },
     {
         "name": "Goshouwa kudasai Wareno Nao!",
@@ -2530,7 +3298,10 @@ var enTags = [
             "Songs with Go",
             "Song with Go"
         ],
-        "id": 220020
+        "id": 220020,
+        "level": "14+",
+        "scorePerc": "95.4%",
+        "date": "2022-04-02"
     },
     {
         "name": "Shinsoukyoku:inferno",
@@ -2539,14 +3310,20 @@ var enTags = [
             "Spring 23 Dan",
             "Summer 23 Dan"
         ],
-        "id": 5050103
+        "id": 5050103,
+        "level": "14+",
+        "scorePerc": "92.8%",
+        "date": "2022-04-02"
     },
     {
         "name": "Chiisana Kiseki",
         "tags": [
             "Base Category"
         ],
-        "id": 5050101
+        "id": 5050101,
+        "level": "12",
+        "scorePerc": "93.7%",
+        "date": "2022-04-18"
     },
     {
         "name": "Linked Ring",
@@ -2557,7 +3334,10 @@ var enTags = [
             "Winter 23 Dan",
             "D4FES Songs"
         ],
-        "id": 310016
+        "id": 310016,
+        "level": "12",
+        "scorePerc": "91.7%",
+        "date": "2022-05-02"
     },
     {
         "name": "OVERCOME",
@@ -2567,7 +3347,10 @@ var enTags = [
             "Autumn 22 Dan",
             "Event Song"
         ],
-        "id": 310015
+        "id": 310015,
+        "level": "13",
+        "scorePerc": "93.8%",
+        "date": "2022-05-11"
     },
     {
         "name": "Smell of the Game",
@@ -2575,7 +3358,10 @@ var enTags = [
             "Game Category",
             "Fighting Game"
         ],
-        "id": 5030074
+        "id": 5030074,
+        "level": "14",
+        "scorePerc": "92.4%",
+        "date": "2022-05-14"
     },
     {
         "name": "Find Your One Way",
@@ -2584,7 +3370,10 @@ var enTags = [
             "Numbers Spelled Out",
             "Fighting Game"
         ],
-        "id": 5030075
+        "id": 5030075,
+        "level": "13",
+        "scorePerc": "89.3%",
+        "date": "2022-05-21"
     },
     {
         "name": "The IF Dancer",
@@ -2595,7 +3384,10 @@ var enTags = [
             "Autumn 22 Dan",
             "D4FES Songs"
         ],
-        "id": 610015
+        "id": 610015,
+        "level": "12+",
+        "scorePerc": "90.0%",
+        "date": "2022-05-25"
     },
     {
         "name": "I will never die",
@@ -2604,7 +3396,10 @@ var enTags = [
             "Original Category",
             "Autumn 22 Dan"
         ],
-        "id": 410014
+        "id": 410014,
+        "level": "12+",
+        "scorePerc": "90.3%",
+        "date": "2022-05-27"
     },
     {
         "name": "Do the Dive",
@@ -2613,7 +3408,10 @@ var enTags = [
             "Original Category",
             "Autumn 22 Dan"
         ],
-        "id": 3010015
+        "id": 3010015,
+        "level": "11+",
+        "scorePerc": "89.9%",
+        "date": "2022-05-27"
     },
     {
         "name": "Koigokoro",
@@ -2624,7 +3422,10 @@ var enTags = [
             "Songs with Go",
             "Song with Go"
         ],
-        "id": 220014
+        "id": 220014,
+        "level": "13",
+        "scorePerc": "92.5%",
+        "date": "2022-06-03"
     },
     {
         "name": "The Roar of the Spark",
@@ -2632,7 +3433,10 @@ var enTags = [
             "Game Category",
             "Fighting Game"
         ],
-        "id": 5030076
+        "id": 5030076,
+        "level": "13+",
+        "scorePerc": "90.9%",
+        "date": "2022-06-04"
     },
     {
         "name": "TRANCE TOURS",
@@ -2642,7 +3446,10 @@ var enTags = [
             "Winter 23 Dan",
             "Event Song"
         ],
-        "id": 110026
+        "id": 110026,
+        "level": "13",
+        "scorePerc": "91.4%",
+        "date": "2022-06-10"
     },
     {
         "name": "The Disaster of Passion",
@@ -2650,7 +3457,10 @@ var enTags = [
             "Game Category",
             "Fighting Game"
         ],
-        "id": 5030077
+        "id": 5030077,
+        "level": "13",
+        "scorePerc": "93.5%",
+        "date": "2022-06-11"
     },
     {
         "name": "Uninstall",
@@ -2658,7 +3468,10 @@ var enTags = [
             "Photon Maiden",
             "Cover Category"
         ],
-        "id": 320015
+        "id": 320015,
+        "level": "13",
+        "scorePerc": "97.1%",
+        "date": "2022-06-13"
     },
     {
         "name": "Rondo-revolution",
@@ -2667,7 +3480,10 @@ var enTags = [
             "Cover Category",
             "Cover Tracks Vol 3"
         ],
-        "id": 520014
+        "id": 520014,
+        "level": "14",
+        "scorePerc": "92.7%",
+        "date": "2022-06-14"
     },
     {
         "name": "DX Choseinou Full Metal Shojo",
@@ -2675,7 +3491,10 @@ var enTags = [
             "Game Category",
             "Groove Coaster"
         ],
-        "id": 5030046
+        "id": 5030046,
+        "level": "14",
+        "scorePerc": "96.2%",
+        "date": "2022-06-15"
     },
     {
         "name": "Solar Storm",
@@ -2683,7 +3502,10 @@ var enTags = [
             "Game Category",
             "Groove Coaster"
         ],
-        "id": 5030045
+        "id": 5030045,
+        "level": "14+",
+        "scorePerc": "95.2%",
+        "date": "2022-06-16"
     },
     {
         "name": "It's a pit world",
@@ -2691,7 +3513,10 @@ var enTags = [
             "Game Category",
             "Groove Coaster"
         ],
-        "id": 5030048
+        "id": 5030048,
+        "level": "12+",
+        "scorePerc": "88.2%",
+        "date": "2022-06-17"
     },
     {
         "name": "Love the Subhuman Self",
@@ -2702,7 +3527,10 @@ var enTags = [
             "BPM over 250",
             "Song with Love"
         ],
-        "id": 5030078
+        "id": 5030078,
+        "level": "13",
+        "scorePerc": "93.9%",
+        "date": "2022-06-18"
     },
     {
         "name": "Little Higher",
@@ -2710,7 +3538,10 @@ var enTags = [
             "Game Category",
             "Groove Coaster"
         ],
-        "id": 5030047
+        "id": 5030047,
+        "level": "13",
+        "scorePerc": "92.5%",
+        "date": "2022-06-18"
     },
     {
         "name": "EXIST",
@@ -2718,7 +3549,10 @@ var enTags = [
             "Base Category",
             "Bushiroad"
         ],
-        "id": 5050108
+        "id": 5050108,
+        "level": "12+",
+        "scorePerc": "92.8%",
+        "date": "2022-06-19"
     },
     {
         "name": "Let's do the 'Big-Bang!' EG NURemix",
@@ -2729,7 +3563,10 @@ var enTags = [
             "Spring 23 Dan",
             "Song with !"
         ],
-        "id": 210014
+        "id": 210014,
+        "level": "15",
+        "scorePerc": "95.5%",
+        "date": "2022-06-20"
     },
     {
         "name": "Guru Guru DJ TURN!! (14 Routine Remix)",
@@ -2741,7 +3578,10 @@ var enTags = [
             "1, 2, 3...",
             "Songs with DJ"
         ],
-        "id": 110025
+        "id": 110025,
+        "level": "15",
+        "scorePerc": "95.7%",
+        "date": "2022-06-20"
     },
     {
         "name": "Bludgeoning Angel Dokuro-Chan",
@@ -2752,14 +3592,20 @@ var enTags = [
             "Cover Tracks Vol 8",
             "Angel and Demon"
         ],
-        "id": 620018
+        "id": 620018,
+        "level": "13",
+        "scorePerc": "93.4%",
+        "date": "2022-06-21"
     },
     {
         "name": "only my railgun",
         "tags": [
             "Base Category"
         ],
-        "id": 5050137
+        "id": 5050137,
+        "level": "13",
+        "scorePerc": "89.3%",
+        "date": "2022-06-24"
     },
     {
         "name": "Necessary Discrepancy",
@@ -2768,7 +3614,10 @@ var enTags = [
             "Winter 23 Dan",
             "Fighting Game"
         ],
-        "id": 5030079
+        "id": 5030079,
+        "level": "13",
+        "scorePerc": "90.0%",
+        "date": "2022-06-25"
     },
     {
         "name": "What do you fight for",
@@ -2776,7 +3625,10 @@ var enTags = [
             "Game Category",
             "Fighting Game"
         ],
-        "id": 5030080
+        "id": 5030080,
+        "level": "13",
+        "scorePerc": "94.0%",
+        "date": "2022-07-02"
     },
     {
         "name": "SHIN-RAI",
@@ -2789,7 +3641,10 @@ var enTags = [
             "Spring 23 Dan",
             "Summer 23 Dan"
         ],
-        "id": 510017
+        "id": 510017,
+        "level": "14+",
+        "scorePerc": "99.1%",
+        "date": "2022-07-07"
     },
     {
         "name": "\"Blooming rose in the other world\"",
@@ -2800,7 +3655,10 @@ var enTags = [
             "Event Song",
             "Groovy Festival"
         ],
-        "id": 510019
+        "id": 510019,
+        "level": "13",
+        "scorePerc": "90.7%",
+        "date": "2022-07-07"
     },
     {
         "name": "Perfection Can't Please Me",
@@ -2808,7 +3666,10 @@ var enTags = [
             "Game Category",
             "Fighting Game"
         ],
-        "id": 5030081
+        "id": 5030081,
+        "level": "13",
+        "scorePerc": "90.1%",
+        "date": "2022-07-09"
     },
     {
         "name": "Mirror of the World",
@@ -2817,7 +3678,10 @@ var enTags = [
             "Winter 23 Dan",
             "Fighting Game"
         ],
-        "id": 5030082
+        "id": 5030082,
+        "level": "13+",
+        "scorePerc": "92.5%",
+        "date": "2022-07-16"
     },
     {
         "name": "I don't wanna lose!",
@@ -2826,7 +3690,10 @@ var enTags = [
             "Original Category",
             "Song with !"
         ],
-        "id": 3010016
+        "id": 3010016,
+        "level": "11+",
+        "scorePerc": "90.4%",
+        "date": "2022-07-22"
     },
     {
         "name": "Drift",
@@ -2836,7 +3703,10 @@ var enTags = [
             "Spring 23 Dan",
             "Fighting Game"
         ],
-        "id": 5030083
+        "id": 5030083,
+        "level": "14+",
+        "scorePerc": "92.9%",
+        "date": "2022-07-23"
     },
     {
         "name": "LOVE BITE",
@@ -2848,7 +3718,10 @@ var enTags = [
             "Song with Love",
             "Songs with MV"
         ],
-        "id": 410015
+        "id": 410015,
+        "level": "13",
+        "scorePerc": "95.6%",
+        "date": "2022-07-29"
     },
     {
         "name": "SEVENTH HAVEN",
@@ -2857,7 +3730,10 @@ var enTags = [
             "Numbers Spelled Out",
             "Tokyo 7th Sisters"
         ],
-        "id": 5030055
+        "id": 5030055,
+        "level": "12",
+        "scorePerc": "94.3%",
+        "date": "2022-07-29"
     },
     {
         "name": "Collector",
@@ -2867,7 +3743,10 @@ var enTags = [
             "Autumn 22 Dan",
             "Event Song"
         ],
-        "id": 310017
+        "id": 310017,
+        "level": "12+",
+        "scorePerc": "91.0%",
+        "date": "2022-07-30"
     },
     {
         "name": "\"Flower Limitation and Demon's Miniascape\"",
@@ -2880,7 +3759,10 @@ var enTags = [
             "D4FES Songs",
             "Songs with MV"
         ],
-        "id": 510018
+        "id": 510018,
+        "level": "14",
+        "scorePerc": "90.9%",
+        "date": "2022-07-31"
     },
     {
         "name": "More Doki",
@@ -2892,7 +3774,10 @@ var enTags = [
             "D4FES Songs",
             "Songs with MV"
         ],
-        "id": 110024
+        "id": 110024,
+        "level": "12+",
+        "scorePerc": "91.8%",
+        "date": "2022-08-01"
     },
     {
         "name": "The Catcher in the Rhyme",
@@ -2902,7 +3787,10 @@ var enTags = [
             "Autumn 22 Dan",
             "Cat Songs"
         ],
-        "id": 610016
+        "id": 610016,
+        "level": "12+",
+        "scorePerc": "92.6%",
+        "date": "2022-08-02"
     },
     {
         "name": "Let's do it",
@@ -2913,16 +3801,22 @@ var enTags = [
             "D4FES Songs",
             "Songs with MV"
         ],
-        "id": 210015
+        "id": 210015,
+        "level": "13",
+        "scorePerc": "92.6%",
+        "date": "2022-08-03"
     },
     {
-        "name": "Laugh Diamond Magic ",
+        "name": "Laugh Diamond Magic",
         "tags": [
             "Happy Around!",
             "Original Category",
             "Summer 22 Dan"
         ],
-        "id": 110028
+        "id": 110028,
+        "level": "14+",
+        "scorePerc": "100.1%",
+        "date": "2022-08-12"
     },
     {
         "name": "Summer Wonder",
@@ -2932,7 +3826,10 @@ var enTags = [
             "Autumn 22 Dan",
             "Event Song"
         ],
-        "id": 110027
+        "id": 110027,
+        "level": "11+",
+        "scorePerc": "91.0%",
+        "date": "2022-08-15"
     },
     {
         "name": "Keep it up",
@@ -2943,7 +3840,10 @@ var enTags = [
             "Summer 23 Dan",
             "Event Song"
         ],
-        "id": 210016
+        "id": 210016,
+        "level": "12",
+        "scorePerc": "90.4%",
+        "date": "2022-08-15"
     },
     {
         "name": "Summer Break",
@@ -2953,7 +3853,10 @@ var enTags = [
             "Autumn 22 Dan",
             "Event Song"
         ],
-        "id": 610019
+        "id": 610019,
+        "level": "12",
+        "scorePerc": "91.4%",
+        "date": "2022-08-22"
     },
     {
         "name": "Gotoubun no Kiseki",
@@ -2962,7 +3865,10 @@ var enTags = [
             "Songs with Go",
             "Song with Go"
         ],
-        "id": 5050150
+        "id": 5050150,
+        "level": "12",
+        "scorePerc": "88.7%",
+        "date": "2022-08-29"
     },
     {
         "name": "Cirno's Perfect Math Class (Camellia's ⑨⑨⑨ Remix）",
@@ -2973,7 +3879,10 @@ var enTags = [
             "1, 2, 3...",
             "BPM over 250"
         ],
-        "id": 5030061
+        "id": 5030061,
+        "level": "14+",
+        "scorePerc": "96.4%",
+        "date": "2022-09-10"
     },
     {
         "name": "Geki! Teikoku Kagekidan",
@@ -2982,7 +3891,10 @@ var enTags = [
             "Song with !",
             "Sakura Wars"
         ],
-        "id": 5030073
+        "id": 5030073,
+        "level": "12",
+        "scorePerc": "91.0%",
+        "date": "2022-09-12"
     },
     {
         "name": "Happy☆Material",
@@ -2993,7 +3905,10 @@ var enTags = [
             "Cover Tracks Vol 7",
             "Song with ☆"
         ],
-        "id": 120021
+        "id": 120021,
+        "level": "12",
+        "scorePerc": "94.5%",
+        "date": "2022-09-12"
     },
     {
         "name": "HEAVEN'S RAVE",
@@ -3001,7 +3916,10 @@ var enTags = [
             "Game Category",
             "Tokyo 7th Sisters"
         ],
-        "id": 5030051
+        "id": 5030051,
+        "level": "14+",
+        "scorePerc": "98.2%",
+        "date": "2022-09-17"
     },
     {
         "name": "What a Colorful World!! [D4DJ Remix] Type 1",
@@ -3012,7 +3930,10 @@ var enTags = [
             "1, 2, 3...",
             "Songs with DJ"
         ],
-        "id": 3020006
+        "id": 3020006,
+        "level": "13",
+        "scorePerc": "90.2%",
+        "date": "2022-09-29"
     },
     {
         "name": "What a Colorful World!! [D4DJ Remix] Type 2",
@@ -3023,7 +3944,10 @@ var enTags = [
             "1, 2, 3...",
             "Songs with DJ"
         ],
-        "id": 3020007
+        "id": 3020007,
+        "level": "13",
+        "scorePerc": "90.5%",
+        "date": "2022-09-29"
     },
     {
         "name": "INTERNET OVERDOSE",
@@ -3031,7 +3955,10 @@ var enTags = [
             "Game Category",
             "Winter 23 Dan"
         ],
-        "id": 5030098
+        "id": 5030098,
+        "level": "13",
+        "scorePerc": "92.9%",
+        "date": "2022-09-30"
     },
     {
         "name": "This game",
@@ -3041,7 +3968,10 @@ var enTags = [
             "Summer 23 Dan",
             "Cover Tracks Vol 8"
         ],
-        "id": 320019
+        "id": 320019,
+        "level": "14+",
+        "scorePerc": "95.3%",
+        "date": "2022-10-01"
     },
     {
         "name": "GO!!!",
@@ -3056,7 +3986,10 @@ var enTags = [
             "Songs with Go",
             "Song with Go"
         ],
-        "id": 420018
+        "id": 420018,
+        "level": "12+",
+        "scorePerc": "92.0%",
+        "date": "2022-10-02"
     },
     {
         "name": "Kanade",
@@ -3067,14 +4000,20 @@ var enTags = [
             "Spring 23 Dan",
             "Cover Tracks Vol 8"
         ],
-        "id": 520019
+        "id": 520019,
+        "level": "10",
+        "scorePerc": "88.0%",
+        "date": "2022-10-04"
     },
     {
         "name": "MIRACLE RUSH",
         "tags": [
             "Base Category"
         ],
-        "id": 5050169
+        "id": 5050169,
+        "level": "12",
+        "scorePerc": "94.0%",
+        "date": "2022-10-05"
     },
     {
         "name": "LOVE AND DEVIL",
@@ -3085,7 +4024,10 @@ var enTags = [
             "Tokyo 7th Sisters",
             "Song with Love"
         ],
-        "id": 5030054
+        "id": 5030054,
+        "level": "14",
+        "scorePerc": "99.2%",
+        "date": "2022-10-06"
     },
     {
         "name": "UNION",
@@ -3096,7 +4038,10 @@ var enTags = [
             "Spring 23 Dan",
             "Cover Tracks Vol 7"
         ],
-        "id": 220022
+        "id": 220022,
+        "level": "13",
+        "scorePerc": "92.4%",
+        "date": "2022-10-07"
     },
     {
         "name": "UNSTOPPABLE",
@@ -3105,7 +4050,10 @@ var enTags = [
             "Winter 23 Dan",
             "Bushiroad"
         ],
-        "id": 5050168
+        "id": 5050168,
+        "level": "13+",
+        "scorePerc": "93.9%",
+        "date": "2022-10-08"
     },
     {
         "name": "Sparkling Daydream",
@@ -3118,14 +4066,20 @@ var enTags = [
             "Cover Tracks Vol 8",
             "Songs with Dream"
         ],
-        "id": 120022
+        "id": 120022,
+        "level": "13",
+        "scorePerc": "94.0%",
+        "date": "2022-10-09"
     },
     {
         "name": "Can Do",
         "tags": [
             "Base Category"
         ],
-        "id": 5050170
+        "id": 5050170,
+        "level": "12+",
+        "scorePerc": "87.0%",
+        "date": "2022-10-10"
     },
     {
         "name": "Sparkle [D4DJ Remix]",
@@ -3135,14 +4089,20 @@ var enTags = [
             "1, 2, 3...",
             "Songs with DJ"
         ],
-        "id": 3020012
+        "id": 3020012,
+        "level": "12+",
+        "scorePerc": "90.5%",
+        "date": "2022-10-11"
     },
     {
         "name": "Regalia - Keishou",
         "tags": [
             "Base Category"
         ],
-        "id": 5050185
+        "id": 5050185,
+        "level": "13+",
+        "scorePerc": "88.7%",
+        "date": "2022-10-21"
     },
     {
         "name": "Afuregu ～Aufregendes Leben～",
@@ -3150,14 +4110,20 @@ var enTags = [
             "Base Category",
             "Bushiroad"
         ],
-        "id": 5050186
+        "id": 5050186,
+        "level": "13+",
+        "scorePerc": "89.7%",
+        "date": "2022-10-24"
     },
     {
         "name": "Umarekawattemo jibun ni naritai",
         "tags": [
             "Base Category"
         ],
-        "id": 5050104
+        "id": 5050104,
+        "level": "13",
+        "scorePerc": "91.3%",
+        "date": "2022-10-28"
     },
     {
         "name": "Wind-Up God",
@@ -3170,7 +4136,10 @@ var enTags = [
             "BPM over 250",
             "Song with Go"
         ],
-        "id": 520016
+        "id": 520016,
+        "level": "14",
+        "scorePerc": "93.7%",
+        "date": "2022-11-01"
     },
     {
         "name": "I Shall Be a Cat (Kawaii×Future×Hard Mix)",
@@ -3181,7 +4150,10 @@ var enTags = [
             "Spring 23 Dan",
             "Cat Songs"
         ],
-        "id": 610018
+        "id": 610018,
+        "level": "15",
+        "scorePerc": "97.2%",
+        "date": "2022-11-01"
     },
     {
         "name": "FAKE OFF",
@@ -3191,7 +4163,10 @@ var enTags = [
             "Autumn 22 Dan",
             "D4DJ Anime"
         ],
-        "id": 3010017
+        "id": 3010017,
+        "level": "13+",
+        "scorePerc": "91.0%",
+        "date": "2022-11-01"
     },
     {
         "name": "GETCHA!",
@@ -3201,7 +4176,10 @@ var enTags = [
             "Cover Tracks Vol 7",
             "Song with !"
         ],
-        "id": 320017
+        "id": 320017,
+        "level": "12",
+        "scorePerc": "93.4%",
+        "date": "2022-11-11"
     },
     {
         "name": "Timing",
@@ -3211,7 +4189,10 @@ var enTags = [
             "Winter 23 Dan",
             "Cover Tracks Vol 8"
         ],
-        "id": 420017
+        "id": 420017,
+        "level": "12+",
+        "scorePerc": "94.0%",
+        "date": "2022-11-11"
     },
     {
         "name": "R-TYPE BGM",
@@ -3220,7 +4201,10 @@ var enTags = [
             "Spring 23 Dan",
             "Retro Games"
         ],
-        "id": 5030043
+        "id": 5030043,
+        "level": "14",
+        "scorePerc": "92.8%",
+        "date": "2022-11-11"
     },
     {
         "name": "GROOVE THE HEART",
@@ -3229,7 +4213,10 @@ var enTags = [
             "Songs with Heart (spelled)",
             "Groove Coaster"
         ],
-        "id": 5030049
+        "id": 5030049,
+        "level": "13+",
+        "scorePerc": "96.5%",
+        "date": "2022-11-11"
     },
     {
         "name": "Hanasaku Otome",
@@ -3237,7 +4224,10 @@ var enTags = [
             "Game Category",
             "Sakura Wars"
         ],
-        "id": 5030070
+        "id": 5030070,
+        "level": "10+",
+        "scorePerc": "89.3%",
+        "date": "2022-11-11"
     },
     {
         "name": "Mihata no Moto ni",
@@ -3245,7 +4235,10 @@ var enTags = [
             "Game Category",
             "Sakura Wars"
         ],
-        "id": 5030071
+        "id": 5030071,
+        "level": "12+",
+        "scorePerc": "92.6%",
+        "date": "2022-11-11"
     },
     {
         "name": "Love Story Wa Totsuzenni",
@@ -3256,14 +4249,20 @@ var enTags = [
             "Cover Tracks Vol 7",
             "Song with Love"
         ],
-        "id": 620017
+        "id": 620017,
+        "level": "11+",
+        "scorePerc": "90.6%",
+        "date": "2022-11-12"
     },
     {
         "name": "Aimaisa, Kofukuron",
         "tags": [
             "Base Category"
         ],
-        "id": 5050176
+        "id": 5050176,
+        "level": "12",
+        "scorePerc": "89.9%",
+        "date": "2022-11-22"
     },
     {
         "name": "Welcome! (D-POP version) ～D.U.P.～",
@@ -3271,7 +4270,10 @@ var enTags = [
             "Base Category",
             "Song with !"
         ],
-        "id": 5050178
+        "id": 5050178,
+        "level": "11+",
+        "scorePerc": "91.9%",
+        "date": "2022-11-22"
     },
     {
         "name": "Singalong, Please!",
@@ -3280,7 +4282,10 @@ var enTags = [
             "Original Category",
             "Song with !"
         ],
-        "id": 110029
+        "id": 110029,
+        "level": "13",
+        "scorePerc": "92.2%",
+        "date": "2022-11-24"
     },
     {
         "name": "Echoing Chaos☆Countdown",
@@ -3290,7 +4295,10 @@ var enTags = [
             "Spring 23 Dan",
             "Song with ☆"
         ],
-        "id": 210019
+        "id": 210019,
+        "level": "13",
+        "scorePerc": "93.4%",
+        "date": "2022-11-25"
     },
     {
         "name": "Photon Tale",
@@ -3299,7 +4307,10 @@ var enTags = [
             "Original Category",
             "Spring 23 Dan"
         ],
-        "id": 310019
+        "id": 310019,
+        "level": "13",
+        "scorePerc": "91.7%",
+        "date": "2022-11-26"
     },
     {
         "name": "G.O.A.T",
@@ -3309,7 +4320,10 @@ var enTags = [
             "Winter 23 Dan",
             "Spring 23 Dan"
         ],
-        "id": 410017
+        "id": 410017,
+        "level": "12+",
+        "scorePerc": "93.6%",
+        "date": "2022-11-27"
     },
     {
         "name": "Angels and Devils",
@@ -3319,7 +4333,10 @@ var enTags = [
             "Winter 23 Dan",
             "Angel and Demon"
         ],
-        "id": 3010018
+        "id": 3010018,
+        "level": "14+",
+        "scorePerc": "91.9%",
+        "date": "2022-11-28"
     },
     {
         "name": "Welcome to the Circus",
@@ -3328,7 +4345,10 @@ var enTags = [
             "Original Category",
             "Spring 23 Dan"
         ],
-        "id": 610021
+        "id": 610021,
+        "level": "12",
+        "scorePerc": "91.3%",
+        "date": "2022-11-29"
     },
     {
         "id": 910001,
@@ -3337,7 +4357,10 @@ var enTags = [
             "Abyssmare",
             "Original Category",
             "Side Nova"
-        ]
+        ],
+        "level": "14+",
+        "scorePerc": "93.4%",
+        "date": "2022-11-30"
     },
     {
         "name": "Deja Boon",
@@ -3347,7 +4370,10 @@ var enTags = [
             "Spring 23 Dan",
             "Summer 23 Dan"
         ],
-        "id": 210017
+        "id": 210017,
+        "level": "12+",
+        "scorePerc": "92.0%",
+        "date": "2022-12-05"
     },
     {
         "name": "Merry-Go-Around!♡",
@@ -3361,21 +4387,30 @@ var enTags = [
             "Songs with Go",
             "Song with Go"
         ],
-        "id": 110030
+        "id": 110030,
+        "level": "12",
+        "scorePerc": "92.6%",
+        "date": "2022-12-20"
     },
     {
         "name": "Super Battleworn Insomniac",
         "tags": [
             "Game Category"
         ],
-        "id": 5030101
+        "id": 5030101,
+        "level": "14+",
+        "scorePerc": "96.1%",
+        "date": "2022-12-20"
     },
     {
         "name": "wish i could care less",
         "tags": [
             "Game Category"
         ],
-        "id": 5030102
+        "id": 5030102,
+        "level": "11+",
+        "scorePerc": "92.9%",
+        "date": "2022-12-20"
     },
     {
         "name": "24",
@@ -3388,7 +4423,10 @@ var enTags = [
             "Side Origin",
             "Songs with MV"
         ],
-        "id": 310020
+        "id": 310020,
+        "level": "12",
+        "scorePerc": "90.2%",
+        "date": "2022-12-28"
     },
     {
         "name": "START (Merm4id)",
@@ -3396,7 +4434,10 @@ var enTags = [
             "Merm4id",
             "Original Category"
         ],
-        "id": 410019
+        "id": 410019,
+        "level": "13+",
+        "scorePerc": "90.2%",
+        "date": "2023-01-05"
     },
     {
         "name": "Live Life",
@@ -3407,7 +4448,10 @@ var enTags = [
             "Spring 23 Dan",
             "Event Song"
         ],
-        "id": 410016
+        "id": 410016,
+        "level": "12+",
+        "scorePerc": "91.9%",
+        "date": "2023-01-06"
     },
     {
         "name": "G.A.M.E.",
@@ -3417,7 +4461,10 @@ var enTags = [
             "Winter 23 Dan",
             "Spring 23 Dan"
         ],
-        "id": 310018
+        "id": 310018,
+        "level": "12+",
+        "scorePerc": "92.3%",
+        "date": "2023-01-08"
     },
     {
         "name": "Little Secret (feat.Taku Inoue)",
@@ -3426,7 +4473,10 @@ var enTags = [
             "Winter 23 Dan",
             "Princess Letters"
         ],
-        "id": 5050145
+        "id": 5050145,
+        "level": "11",
+        "scorePerc": "93.2%",
+        "date": "2023-01-09"
     },
     {
         "name": "Sprout（feat.KOTONOHOUSE）",
@@ -3435,7 +4485,10 @@ var enTags = [
             "Winter 23 Dan",
             "Princess Letters"
         ],
-        "id": 5050155
+        "id": 5050155,
+        "level": "11+",
+        "scorePerc": "91.8%",
+        "date": "2023-01-10"
     },
     {
         "name": "Hajimetetayori (feat.Camellia)",
@@ -3445,7 +4498,10 @@ var enTags = [
             "BPM over 250",
             "Princess Letters"
         ],
-        "id": 5050146
+        "id": 5050146,
+        "level": "14",
+        "scorePerc": "96.9%",
+        "date": "2023-01-11"
     },
     {
         "name": "with U",
@@ -3454,7 +4510,10 @@ var enTags = [
             "Winter 23 Dan",
             "WACCA"
         ],
-        "id": 5030094
+        "id": 5030094,
+        "level": "14",
+        "scorePerc": "90.7%",
+        "date": "2023-01-12"
     },
     {
         "name": "Pledge of Gold",
@@ -3465,7 +4524,10 @@ var enTags = [
             "Songs with Go",
             "Song with Go"
         ],
-        "id": 5030096
+        "id": 5030096,
+        "level": "12+",
+        "scorePerc": "94.1%",
+        "date": "2023-01-13"
     },
     {
         "name": "OVERWHELM!",
@@ -3476,7 +4538,10 @@ var enTags = [
             "D4DJ Anime",
             "Songs with MV"
         ],
-        "id": 210018
+        "id": 210018,
+        "level": "14",
+        "scorePerc": "96.9%",
+        "date": "2023-01-13"
     },
     {
         "name": "Maihime",
@@ -3486,7 +4551,10 @@ var enTags = [
             "Summer 23 Dan",
             "D4DJ Anime"
         ],
-        "id": 3010021
+        "id": 3010021,
+        "level": "13",
+        "scorePerc": "93.5%",
+        "date": "2023-01-13"
     },
     {
         "name": "Around and Around",
@@ -3495,7 +4563,10 @@ var enTags = [
             "Original Category",
             "D4DJ Anime"
         ],
-        "id": 3010022
+        "id": 3010022,
+        "level": "13",
+        "scorePerc": "93.0%",
+        "date": "2023-01-13"
     },
     {
         "name": "Obey the Majesty",
@@ -3503,7 +4574,10 @@ var enTags = [
             "Game Category",
             "Winter 23 Dan"
         ],
-        "id": 5030097
+        "id": 5030097,
+        "level": "14",
+        "scorePerc": "98.1%",
+        "date": "2023-01-14"
     },
     {
         "name": "One's Believing",
@@ -3515,7 +4589,10 @@ var enTags = [
             "Side Origin",
             "Songs with MV"
         ],
-        "id": 210020
+        "id": 210020,
+        "level": "13",
+        "scorePerc": "96.0%",
+        "date": "2023-01-27"
     },
     {
         "name": "Spring and Chocolat",
@@ -3526,7 +4603,10 @@ var enTags = [
             "D4DJ Anime",
             "Songs with MV"
         ],
-        "id": 610020
+        "id": 610020,
+        "level": "12+",
+        "scorePerc": "92.0%",
+        "date": "2023-01-27"
     },
     {
         "name": "ARCANA",
@@ -3537,7 +4617,10 @@ var enTags = [
             "BPM over 250",
             "Songs with MV"
         ],
-        "id": 510021
+        "id": 510021,
+        "level": "15",
+        "scorePerc": "93.9%",
+        "date": "2023-02-03"
     },
     {
         "name": "Bakuretsu Thaumazein (Prod. ChibaNyan)",
@@ -3545,7 +4628,10 @@ var enTags = [
             "Base Category",
             "Spring 23 Dan"
         ],
-        "id": 5050187
+        "id": 5050187,
+        "level": "14",
+        "scorePerc": "91.4%",
+        "date": "2023-02-10"
     },
     {
         "name": "IAM (feat. Shogo, Tsubasa)",
@@ -3554,7 +4640,10 @@ var enTags = [
             "Songs with Go",
             "Song with Go"
         ],
-        "id": 5050188
+        "id": 5050188,
+        "level": "13",
+        "scorePerc": "92.0%",
+        "date": "2023-02-10"
     },
     {
         "name": "Hyper Bass (feat. Yunomi)",
@@ -3562,7 +4651,10 @@ var enTags = [
             "Base Category",
             "Spring 23 Dan"
         ],
-        "id": 5050189
+        "id": 5050189,
+        "level": "13+",
+        "scorePerc": "91.4%",
+        "date": "2023-02-10"
     },
     {
         "name": "pop enemy (feat. Shinpei Nasuno)",
@@ -3571,7 +4663,10 @@ var enTags = [
             "Cover Category",
             "Spring 23 Dan"
         ],
-        "id": 320020
+        "id": 320020,
+        "level": "13",
+        "scorePerc": "93.5%",
+        "date": "2023-02-10"
     },
     {
         "name": "D.M.F",
@@ -3582,7 +4677,10 @@ var enTags = [
             "BPM over 250",
             "Songs with MV"
         ],
-        "id": 410018
+        "id": 410018,
+        "level": "12+",
+        "scorePerc": "91.1%",
+        "date": "2023-02-10"
     },
     {
         "name": "Look at me♡",
@@ -3593,7 +4691,10 @@ var enTags = [
             "♡ Songs",
             "Songs with MV"
         ],
-        "id": 110032
+        "id": 110032,
+        "level": "12+",
+        "scorePerc": "94.6%",
+        "date": "2023-02-17"
     },
     {
         "name": "Barkley and the Chocolate Factory",
@@ -3601,7 +4702,10 @@ var enTags = [
             "Lyrical Lily",
             "Original Category"
         ],
-        "id": 610023
+        "id": 610023,
+        "level": "13+",
+        "scorePerc": "92.9%",
+        "date": "2023-02-22"
     },
     {
         "name": "4 many colors",
@@ -3613,7 +4717,10 @@ var enTags = [
             "1, 2, 3...",
             "Songs with MV"
         ],
-        "id": 310021
+        "id": 310021,
+        "level": "12+",
+        "scorePerc": "90.7%",
+        "date": "2023-02-24"
     },
     {
         "id": 810001,
@@ -3624,7 +4731,10 @@ var enTags = [
             "Spring 23 Dan",
             "Side Nova",
             "Songs with MV"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.9%",
+        "date": "2023-02-27"
     },
     {
         "name": "Melodious Stars",
@@ -3634,7 +4744,10 @@ var enTags = [
             "D4DJ Anime",
             "Songs with MV"
         ],
-        "id": 3010020
+        "id": 3010020,
+        "level": "10",
+        "scorePerc": "88.7%",
+        "date": "2023-03-10"
     },
     {
         "name": "Snow Black",
@@ -3645,7 +4758,10 @@ var enTags = [
             "Side Origin",
             "Songs with MV"
         ],
-        "id": 610022
+        "id": 610022,
+        "level": "13",
+        "scorePerc": "91.6%",
+        "date": "2023-03-15"
     },
     {
         "name": "Plastic Love",
@@ -3654,14 +4770,20 @@ var enTags = [
             "Cover Category",
             "Song with Love"
         ],
-        "id": 3020018
+        "id": 3020018,
+        "level": "12",
+        "scorePerc": "89.0%",
+        "date": "2023-03-15"
     },
     {
         "name": "Pixel Galaxy",
         "tags": [
             "Base Category"
         ],
-        "id": 5050194
+        "id": 5050194,
+        "level": "12+",
+        "scorePerc": "88.7%",
+        "date": "2023-03-15"
     },
     {
         "name": "Träumerei",
@@ -3670,7 +4792,10 @@ var enTags = [
             "Original Category",
             "Songs with MV"
         ],
-        "id": 510020
+        "id": 510020,
+        "level": "15",
+        "scorePerc": "93.0%",
+        "date": "2023-03-23"
     },
     {
         "name": "Sen-Li Ichi-Li Monogatari",
@@ -3679,7 +4804,10 @@ var enTags = [
             "Original Category",
             "Spring 23 Dan"
         ],
-        "id": 610017
+        "id": 610017,
+        "level": "12",
+        "scorePerc": "92.4%",
+        "date": "2023-03-22"
     },
     {
         "name": "adrenaline!!!",
@@ -3691,7 +4819,10 @@ var enTags = [
             "Song with !",
             "BPM over 250"
         ],
-        "id": 620019
+        "id": 620019,
+        "level": "13",
+        "scorePerc": "93.5%",
+        "date": "2023-03-22"
     },
     {
         "name": "I'm proud",
@@ -3699,7 +4830,10 @@ var enTags = [
             "Special (unit)",
             "Cover Category"
         ],
-        "id": 3020010
+        "id": 3020010,
+        "level": "12",
+        "scorePerc": "91.3%",
+        "date": "2023-03-22"
     },
     {
         "name": "Reversal",
@@ -3708,7 +4842,10 @@ var enTags = [
             "from ARGONAVIS",
             "Bushiroad"
         ],
-        "id": 5050152
+        "id": 5050152,
+        "level": "13+",
+        "scorePerc": "88.7%",
+        "date": "2023-03-22"
     },
     {
         "name": "Peaky Around!!",
@@ -3719,7 +4856,10 @@ var enTags = [
             "D4DJ Anime",
             "Songs with MV"
         ],
-        "id": 3010019
+        "id": 3010019,
+        "level": "13",
+        "scorePerc": "94.1%",
+        "date": "2023-03-24"
     },
     {
         "name": "Atmosphereround",
@@ -3729,7 +4869,10 @@ var enTags = [
             "Side Origin",
             "Songs with MV"
         ],
-        "id": 110031
+        "id": 110031,
+        "level": "12+",
+        "scorePerc": "91.5%",
+        "date": "2023-03-31"
     },
     {
         "name": "Fantastic future",
@@ -3738,7 +4881,10 @@ var enTags = [
             "Cover Category",
             "Spring 23 Dan"
         ],
-        "id": 3020019
+        "id": 3020019,
+        "level": "13",
+        "scorePerc": "92.2%",
+        "date": "2023-03-31"
     },
     {
         "name": "Delightful Party",
@@ -3749,7 +4895,10 @@ var enTags = [
             "Song with Party",
             "Songs with MV"
         ],
-        "id": 3010023
+        "id": 3010023,
+        "level": "12",
+        "scorePerc": "90.5%",
+        "date": "2023-03-31"
     },
     {
         "name": "Nyochio Is Coming☆Yay☆Yay☆Yay☆",
@@ -3760,7 +4909,10 @@ var enTags = [
             "Song with ☆",
             "Songs with MV"
         ],
-        "id": 3010025
+        "id": 3010025,
+        "level": "14+",
+        "scorePerc": "94.8%",
+        "date": "2023-04-01"
     },
     {
         "name": "Spring Letter(s)!",
@@ -3770,7 +4922,10 @@ var enTags = [
             "Song with !",
             "Princess Letters"
         ],
-        "id": 5050106
+        "id": 5050106,
+        "level": "11",
+        "scorePerc": "95.5%",
+        "date": "2023-04-02"
     },
     {
         "name": "NO MORE CRY",
@@ -3779,7 +4934,10 @@ var enTags = [
             "Cover Category",
             "Spring 23 Dan"
         ],
-        "id": 220021
+        "id": 220021,
+        "level": "11",
+        "scorePerc": "90.1%",
+        "date": "2023-04-02"
     },
     {
         "name": "Shakkiiin!!",
@@ -3789,7 +4947,10 @@ var enTags = [
             "Song with !",
             "GekiChuMai"
         ],
-        "id": 5030065
+        "id": 5030065,
+        "level": "13+",
+        "scorePerc": "89.8%",
+        "date": "2023-04-02"
     },
     {
         "name": "CO5M1C R4ILR0AD",
@@ -3798,7 +4959,10 @@ var enTags = [
             "Spring 23 Dan",
             "1, 2, 3..."
         ],
-        "id": 5050134
+        "id": 5050134,
+        "level": "14",
+        "scorePerc": "94.3%",
+        "date": "2023-04-02"
     },
     {
         "name": "WINNER",
@@ -3807,7 +4971,10 @@ var enTags = [
             "Original Category",
             "Side Nova"
         ],
-        "id": 910002
+        "id": 910002,
+        "level": "13+",
+        "scorePerc": "95.3%",
+        "date": "2023-03-23"
     },
     {
         "name": "DJ NANMO WAKARAN",
@@ -3818,7 +4985,10 @@ var enTags = [
             "Songs with DJ",
             "Side Nova"
         ],
-        "id": 810002
+        "id": 810002,
+        "level": "14",
+        "scorePerc": "92.5%",
+        "date": "2023-04-10"
     },
     {
         "name": "White Macaron",
@@ -3828,7 +4998,10 @@ var enTags = [
             "Summer 23 Dan",
             "BLACK or WHITE"
         ],
-        "id": 3010024
+        "id": 3010024,
+        "level": "11+",
+        "scorePerc": "91.4%",
+        "date": "2023-04-19"
     },
     {
         "name": "Love Love Alien (Suki Suki Seijin)",
@@ -3836,7 +5009,10 @@ var enTags = [
             "Base Category",
             "Song with Love"
         ],
-        "id": 5050220
+        "id": 5050220,
+        "level": "13",
+        "scorePerc": "92.2%",
+        "date": "2023-04-21"
     },
     {
         "name": "ZenjinruiUsagikakeikaku!",
@@ -3846,14 +5022,20 @@ var enTags = [
             "Hololive",
             "Song with !"
         ],
-        "id": 5050214
+        "id": 5050214,
+        "level": "14",
+        "scorePerc": "90.6%",
+        "date": "2023-04-22"
     },
     {
         "name": "Accelerate",
         "tags": [
             "Base Category"
         ],
-        "id": 5050217
+        "id": 5050217,
+        "level": "12+",
+        "scorePerc": "90.9%",
+        "date": "2023-04-23"
     },
     {
         "name": "Stay Blue",
@@ -3862,7 +5044,10 @@ var enTags = [
             "Vtubers",
             "Hololive"
         ],
-        "id": 5050215
+        "id": 5050215,
+        "level": "13",
+        "scorePerc": "90.2%",
+        "date": "2023-04-24"
     },
     {
         "name": "lovely!!!!",
@@ -3874,14 +5059,20 @@ var enTags = [
             "Song with Love",
             "Songs with MV"
         ],
-        "id": 410020
+        "id": 410020,
+        "level": "13",
+        "scorePerc": "91.5%",
+        "date": "2023-04-25"
     },
     {
         "name": "Teenage Crush Chocolate(Seisyun Chocolate) - Christmas Version",
         "tags": [
             "Base Category"
         ],
-        "id": 5050218
+        "id": 5050218,
+        "level": "13+",
+        "scorePerc": "92.6%",
+        "date": "2023-04-25"
     },
     {
         "name": "Excuse My Rudeness, But Could You Please RIP?",
@@ -3890,7 +5081,10 @@ var enTags = [
             "Vtubers",
             "Hololive"
         ],
-        "id": 5050212
+        "id": 5050212,
+        "level": "13+",
+        "scorePerc": "89.4%",
+        "date": "2023-04-26"
     },
     {
         "name": "Shangri-La For The Two of Us (Bokuradakeno Shangri-La)",
@@ -3898,7 +5092,10 @@ var enTags = [
             "Base Category",
             "Numbers Spelled Out"
         ],
-        "id": 5050221
+        "id": 5050221,
+        "level": "12+",
+        "scorePerc": "94.9%",
+        "date": "2023-04-27"
     },
     {
         "name": "Jouya Repaint",
@@ -3907,14 +5104,20 @@ var enTags = [
             "Vtubers",
             "Hololive"
         ],
-        "id": 5050213
+        "id": 5050213,
+        "level": "13",
+        "scorePerc": "89.6%",
+        "date": "2023-04-28"
     },
     {
         "id": 5050219,
         "name": "START",
         "tags": [
             "Base Category"
-        ]
+        ],
+        "level": "13+",
+        "scorePerc": "90.2%",
+        "date": "2023-04-29"
     },
     {
         "name": "Sparklers",
@@ -3923,7 +5126,10 @@ var enTags = [
             "Vtubers",
             "Hololive"
         ],
-        "id": 5050216
+        "id": 5050216,
+        "level": "11",
+        "scorePerc": "89.7%",
+        "date": "2023-04-30"
     },
     {
         "name": "-World Etude-",
@@ -3933,7 +5139,10 @@ var enTags = [
             "Side Origin",
             "Songs with MV"
         ],
-        "id": 510022
+        "id": 510022,
+        "level": "13+",
+        "scorePerc": "92.6%",
+        "date": "2023-05-18"
     },
     {
         "name": "The Festival of Many Orders",
@@ -3941,7 +5150,10 @@ var enTags = [
             "Lyrical Lily",
             "Original Category"
         ],
-        "id": 610024
+        "id": 610024,
+        "level": "13",
+        "scorePerc": "91.6%",
+        "date": "2023-05-25"
     },
     {
         "name": "Hajimari Beat",
@@ -3952,7 +5164,10 @@ var enTags = [
             "Side Nova",
             "Songs with MV"
         ],
-        "id": 810003
+        "id": 810003,
+        "level": "14+",
+        "scorePerc": "94.7%",
+        "date": "2023-05-26"
     },
     {
         "id": 910003,
@@ -3962,7 +5177,10 @@ var enTags = [
             "Original Category",
             "Side Nova",
             "Songs with MV"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "94.3%",
+        "date": "2023-05-26"
     },
     {
         "id": 3010026,
@@ -3972,7 +5190,10 @@ var enTags = [
             "Original Category",
             "Summer 23 Dan",
             "Side Nova"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "91.9%",
+        "date": "2023-05-30"
     },
     {
         "name": "Red fraction",
@@ -3981,7 +5202,10 @@ var enTags = [
             "Cover Category",
             "Cover Tracks Vol 8"
         ],
-        "id": 920002
+        "id": 920002,
+        "level": "13+",
+        "scorePerc": "93.1%",
+        "date": "2023-05-26"
     },
     {
         "name": "THE SIXTH SENSE",
@@ -3990,7 +5214,10 @@ var enTags = [
             "Cover Category",
             "Numbers Spelled Out"
         ],
-        "id": 920003
+        "id": 920003,
+        "level": "13+",
+        "scorePerc": "92.9%",
+        "date": "2023-05-26"
     },
     {
         "name": "Ankoku no Tsubasa",
@@ -3998,7 +5225,10 @@ var enTags = [
             "Special (unit)",
             "Cover Category"
         ],
-        "id": 3020014
+        "id": 3020014,
+        "level": "13",
+        "scorePerc": "91.3%",
+        "date": "2023-05-31"
     },
     {
         "id": 820001,
@@ -4006,7 +5236,10 @@ var enTags = [
         "tags": [
             "UniChØrd",
             "Cover Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "92.9%",
+        "date": "2023-05-31"
     },
     {
         "name": "Choose me Choose love",
@@ -4016,7 +5249,10 @@ var enTags = [
             "Summer 23 Dan",
             "Song with Love"
         ],
-        "id": 3010027
+        "id": 3010027,
+        "level": "13+",
+        "scorePerc": "96.4%",
+        "date": "2023-06-06"
     },
     {
         "name": "Doki Dokiss",
@@ -4024,14 +5260,20 @@ var enTags = [
             "Special (unit)",
             "Original Category"
         ],
-        "id": 3010028
+        "id": 3010028,
+        "level": "12+",
+        "scorePerc": "91.3%",
+        "date": "2023-06-06"
     },
     {
         "name": "Hare Hare Yukai",
         "tags": [
             "Base Category"
         ],
-        "id": 5050029
+        "id": 5050029,
+        "level": "13+",
+        "scorePerc": "91.2%",
+        "date": "2023-06-10"
     },
     {
         "name": "Victory Road",
@@ -4040,7 +5282,10 @@ var enTags = [
             "Wrestling",
             "Bushiroad"
         ],
-        "id": 5050163
+        "id": 5050163,
+        "level": "13+",
+        "scorePerc": "91.1%",
+        "date": "2023-06-11"
     },
     {
         "name": "Mienai Tsubasa (feat.bassy)",
@@ -4048,7 +5293,10 @@ var enTags = [
             "Base Category",
             "Princess Letters"
         ],
-        "id": 5050156
+        "id": 5050156,
+        "level": "11",
+        "scorePerc": "94.0%",
+        "date": "2023-06-12"
     },
     {
         "name": "TAIYAKI IDOL ☆ TAYORIN SANJOU! (feat.Hige Driver)",
@@ -4058,7 +5306,10 @@ var enTags = [
             "Princess Letters",
             "Song with ☆"
         ],
-        "id": 5050157
+        "id": 5050157,
+        "level": "14+",
+        "scorePerc": "94.8%",
+        "date": "2023-06-13"
     },
     {
         "name": "Chijou no Senshi",
@@ -4066,7 +5317,10 @@ var enTags = [
             "Game Category",
             "Sakura Wars"
         ],
-        "id": 5030072
+        "id": 5030072,
+        "level": "13",
+        "scorePerc": "88.4%",
+        "date": "2023-06-14"
     },
     {
         "name": "Kimagure Mercy",
@@ -4074,7 +5328,10 @@ var enTags = [
             "Special (unit)",
             "Cover Category"
         ],
-        "id": 3020022
+        "id": 3020022,
+        "level": "13",
+        "scorePerc": "91.5%",
+        "date": "2023-07-01"
     },
     {
         "name": "ENDLESS MEMORIES",
@@ -4082,7 +5339,10 @@ var enTags = [
             "Merm4id",
             "Original Category"
         ],
-        "id": 410021
+        "id": 410021,
+        "level": "12+",
+        "scorePerc": "93.2%",
+        "date": "2023-07-02"
     },
     {
         "name": "Oshama Scramble!",
@@ -4091,7 +5351,10 @@ var enTags = [
             "Song with !",
             "GekiChuMai"
         ],
-        "id": 5030067
+        "id": 5030067,
+        "level": "14",
+        "scorePerc": "96.6%",
+        "date": "2023-07-03"
     },
     {
         "name": "Titania",
@@ -4099,7 +5362,10 @@ var enTags = [
             "Game Category",
             "GekiChuMai"
         ],
-        "id": 5030069
+        "id": 5030069,
+        "level": "14+",
+        "scorePerc": "95.0%",
+        "date": "2023-07-04"
     },
     {
         "name": "Trrricksters!!",
@@ -4108,7 +5374,10 @@ var enTags = [
             "Song with !",
             "GekiChuMai"
         ],
-        "id": 5030064
+        "id": 5030064,
+        "level": "15",
+        "scorePerc": "90.6%",
+        "date": "2023-07-05"
     },
     {
         "name": "Falsum Atlantis.",
@@ -4116,7 +5385,10 @@ var enTags = [
             "Game Category",
             "GekiChuMai"
         ],
-        "id": 5030068
+        "id": 5030068,
+        "level": "15",
+        "scorePerc": "92.9%",
+        "date": "2023-07-06"
     },
     {
         "name": "Kurikae Step",
@@ -4125,7 +5397,10 @@ var enTags = [
             "Original Category",
             "Side Nova"
         ],
-        "id": 810004
+        "id": 810004,
+        "level": "12+",
+        "scorePerc": "92.1%",
+        "date": "2023-07-07"
     },
     {
         "name": "STORY",
@@ -4134,7 +5409,10 @@ var enTags = [
             "Original Category",
             "Side Nova"
         ],
-        "id": 910004
+        "id": 910004,
+        "level": "12+",
+        "scorePerc": "91.0%",
+        "date": "2023-07-07"
     },
     {
         "id": 3020026,
@@ -4142,6 +5420,99 @@ var enTags = [
         "tags": [
             "Special (unit)",
             "Cover Category"
-        ]
+        ],
+        "level": "13",
+        "scorePerc": "96.5%",
+        "date": "2023-08-01"
+    },
+    {
+        "id": 110033,
+        "name": "Aventu～re Summer Da～ys",
+        "tags": [
+            "Happy Around!",
+            "Original Category"
+        ],
+        "level": "14+",
+        "scorePerc": "94.3%",
+        "date": "2023-08-15"
+    },
+    {
+        "id": 510023,
+        "name": "Amaoto",
+        "tags": [
+            "RONDO",
+            "Original Category"
+        ],
+        "level": "13+",
+        "scorePerc": "90.0%",
+        "date": "2023-08-15"
+    },
+    {
+        "id": 910005,
+        "name": "Raindrops",
+        "tags": [
+            "Abyssmare",
+            "Original Category"
+        ],
+        "level": "13",
+        "scorePerc": "94.0%",
+        "date": "2023-08-15"
+    },
+    {
+        "id": 810005,
+        "name": "Pico Pico Ondo",
+        "tags": [
+            "UniChØrd",
+            "Original Category"
+        ],
+        "level": "12+",
+        "scorePerc": "91.5%",
+        "date": "2023-08-15"
+    },
+    {
+        "id": 610025,
+        "name": "A Midsummer Morning's Dream",
+        "tags": [
+            "Lyrical Lily",
+            "Original Category",
+            "Songs with Dream"
+        ],
+        "level": "12+",
+        "scorePerc": "90.4%",
+        "date": "2023-08-15"
+    },
+    {
+        "id": 410022,
+        "name": "MAX!!!!",
+        "tags": [
+            "Merm4id",
+            "Original Category",
+            "Song with !"
+        ],
+        "level": "15",
+        "scorePerc": "96.2%",
+        "date": "2023-08-19"
+    },
+    {
+        "id": 310022,
+        "name": "FriendShip",
+        "tags": [
+            "Photon Maiden",
+            "Original Category"
+        ],
+        "level": "13",
+        "scorePerc": "92.4%",
+        "date": "2023-08-19"
+    },
+    {
+        "id": 210022,
+        "name": "Manatsu no Instant",
+        "tags": [
+            "Peaky P-key",
+            "Original Category"
+        ],
+        "level": "11",
+        "scorePerc": "92.7%",
+        "date": "2023-08-19"
     }
 ]
