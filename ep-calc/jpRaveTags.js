@@ -5233,16 +5233,6 @@ var jpTags = [
         "date": "2022-08-31"
     },
     {
-        "id": 5050167,
-        "name": "ドリームパレード",
-        "tags": [
-            "Base Category"
-        ],
-        "level": "12+",
-        "scorePerc": "88.5%",
-        "date": "2022-09-01"
-    },
-    {
         "id": 220022,
         "name": "UNION",
         "tags": [
@@ -6856,5 +6846,49 @@ var jpTags = [
         "level": "13+",
         "scorePerc": "93.1%",
         "date": "2023-08-13"
+    },
+    {
+        "id": 910006,
+        "name": "Take Me On",
+        "tags": [
+            "Abyssmare",
+            "Original Category"
+        ],
+        "level": "13",
+        "scorePerc": "91.5%",
+        "date": "2023-08-25"
+    },
+    {
+        "id": 810006,
+        "name": "空想リーパー",
+        "tags": [
+            "UniChØrd",
+            "Original Category"
+        ],
+        "level": "13+",
+        "scorePerc": "96.1%",
+        "date": "2023-08-26"
+    },
+    {
+        "id": 5050252,
+        "name": "逆沙華",
+        "tags": [
+            "Base Category",
+            "Vtuber"
+        ],
+        "level": "12",
+        "scorePerc": "89.6%",
+        "date": "2023-08-20"
+    },
+    {
+        "id": 5050253,
+        "name": "ANAMNESIS",
+        "tags": [
+            "Base Category",
+            "Vtuber"
+        ],
+        "level": "13",
+        "scorePerc": "92.5%",
+        "date": "2023-08-27"
     }
 ]
