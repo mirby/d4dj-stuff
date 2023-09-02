@@ -1315,6 +1315,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "114": {
+        "id":114,
+        "name":"If It's for The Unknown 'You' -Muni & Shinobu-",
+        "characters":"Muni,Shinobu",
+        "type":"Slots",
+        "style":"Party",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
