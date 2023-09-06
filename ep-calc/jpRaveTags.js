@@ -5247,18 +5247,6 @@ var jpTags = [
         "date": "2022-09-02"
     },
     {
-        "id": 5050168,
-        "name": "UNSTOPPABLE",
-        "tags": [
-            "Base Category",
-            "Winter 23 Dan",
-            "Bushiroad"
-        ],
-        "level": "13+",
-        "scorePerc": "93.9%",
-        "date": "2022-09-03"
-    },
-    {
         "id": 120022,
         "name": "Sparkling Daydream",
         "tags": [
@@ -5272,16 +5260,6 @@ var jpTags = [
         "level": "13",
         "scorePerc": "94.0%",
         "date": "2022-09-04"
-    },
-    {
-        "id": 5050170,
-        "name": "Can Do",
-        "tags": [
-            "Base Category"
-        ],
-        "level": "12+",
-        "scorePerc": "87.0%",
-        "date": "2022-09-05"
     },
     {
         "id": 3020012,
@@ -6890,5 +6868,30 @@ var jpTags = [
         "level": "13",
         "scorePerc": "92.5%",
         "date": "2023-08-27"
+    },
+    {
+        "id": 3020032,
+        "name": "ザ☆ピ～ス！",
+        "tags": [
+            "Special (unit)",
+            "Cover Category",
+            "Songs with !"
+        ],
+        "level": "",
+        "scorePerc": "",
+        "date": "2023-09-03"
+    },
+    {
+        "id": 3010030,
+        "name": "LOVE!HUG!GROOVY!! Type:!",
+        "tags": [
+            "Special (unit)",
+            "Original Category",
+            "Songs with !",
+            "Songs with Love (愛,恋)"
+        ],
+        "level": "",
+        "scorePerc": "",
+        "date": "2023-09-02"
     }
 ]

@@ -4,7 +4,8 @@ var enTags = [
         "tags": [
             "Happy Around!",
             "Original Category",
-            "Song with !"
+            "Songs with !",
+            "Songs starting with D"
         ],
         "id": 110001,
         "level": "12",
@@ -17,7 +18,8 @@ var enTags = [
             "Happy Around!",
             "Original Category",
             "Spring 23 Dan",
-            "Song with !"
+            "Songs with !",
+            "Songs starting with D"
         ],
         "id": 110002,
         "level": "12",
@@ -44,7 +46,7 @@ var enTags = [
             "Autumn 22 Dan",
             "First Mix",
             "D4DJ Anime",
-            "Song with ☆"
+            "Songs with ☆"
         ],
         "id": 210001,
         "level": "12",
@@ -57,8 +59,9 @@ var enTags = [
             "Peaky P-key",
             "Original Category",
             "First Mix",
-            "Song with !",
-            "D4DJ Anime"
+            "Songs with !",
+            "D4DJ Anime",
+            "Groovy Fes"
         ],
         "id": 210002,
         "level": "13",
@@ -97,7 +100,7 @@ var enTags = [
             "Photon Maiden",
             "Cover Category",
             "Cover Tracks Vol 3",
-            "1, 2, 3...",
+            "Songs with Numerals",
             "Songs with MV"
         ],
         "id": 320001,
@@ -136,7 +139,7 @@ var enTags = [
             "Merm4id",
             "Original Category",
             "First Mix",
-            "Groovy Festival",
+            "Groovy Fes",
             "D4DJ Anime"
         ],
         "id": 410001,
@@ -150,7 +153,7 @@ var enTags = [
             "Merm4id",
             "Cover Category",
             "Cover Tracks Vol 3",
-            "Cat Songs"
+            "Songs with Cat"
         ],
         "id": 420001,
         "level": "11+",
@@ -176,7 +179,8 @@ var enTags = [
             "Merm4id",
             "Cover Category",
             "Autumn 22 Dan",
-            "Cover Tracks Vol 3"
+            "Cover Tracks Vol 3",
+            "Songs starting with D"
         ],
         "id": 420003,
         "level": "13+",
@@ -202,7 +206,8 @@ var enTags = [
             "RONDO",
             "Cover Category",
             "Winter 23 Dan",
-            "Cover Tracks Vol 1"
+            "Cover Tracks Vol 1",
+            "Songs starting with D"
         ],
         "id": 520001,
         "level": "14",
@@ -243,7 +248,7 @@ var enTags = [
             "Photon Maiden",
             "Original Category",
             "Spring 23 Dan",
-            "Groovy Festival"
+            "Groovy Fes"
         ],
         "id": 310003,
         "level": "13",
@@ -296,7 +301,8 @@ var enTags = [
             "Autumn 22 Dan",
             "Winter 23 Dan",
             "Spring 23 Dan",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "Groovy Fes"
         ],
         "id": 510002,
         "level": "14+",
@@ -321,7 +327,8 @@ var enTags = [
         "tags": [
             "RONDO",
             "Cover Category",
-            "Cover Tracks Vol 7"
+            "Cover Tracks Vol 7",
+            "Songs starting with D"
         ],
         "id": 520004,
         "level": "13",
@@ -346,7 +353,8 @@ var enTags = [
             "Original Category",
             "Spring 23 Dan",
             "First Mix",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "All Mix"
         ],
         "id": 110003,
         "level": "14",
@@ -386,7 +394,7 @@ var enTags = [
             "Cover Category",
             "Winter 23 Dan",
             "Cover Tracks Vol 3",
-            "BLACK or WHITE"
+            "Songs with Black or White"
         ],
         "id": 320005,
         "level": "14",
@@ -400,8 +408,7 @@ var enTags = [
             "Cover Category",
             "Summer 22 Dan",
             "Cover Tracks Vol 2",
-            "Songs with Go",
-            "Song with Go"
+            "Songs with Go"
         ],
         "id": 320006,
         "level": "12+",
@@ -414,7 +421,8 @@ var enTags = [
             "Happy Around!",
             "Cover Category",
             "Spring 23 Dan",
-            "Cover Tracks Vol 1"
+            "Cover Tracks Vol 1",
+            "Songs starting with D"
         ],
         "id": 120004,
         "level": "12",
@@ -426,7 +434,8 @@ var enTags = [
         "tags": [
             "Game Category",
             "Winter 23 Dan",
-            "Retro Games"
+            "Retro Games",
+            "Songs with Medley"
         ],
         "id": 5030001,
         "level": "13",
@@ -460,7 +469,7 @@ var enTags = [
         "name": "FURUHATA'S THEME",
         "tags": [
             "Instrumental Category",
-            "Theme of..."
+            "Songs with Theme"
         ],
         "id": 5040008,
         "level": "13",
@@ -506,7 +515,7 @@ var enTags = [
         "name": "OPA-OPA!",
         "tags": [
             "Game Category",
-            "Song with !",
+            "Songs with !",
             "Retro Games"
         ],
         "id": 5030002,
@@ -520,9 +529,7 @@ var enTags = [
             "Peaky P-key",
             "Original Category",
             "Summer 22 Dan",
-            "Summer 23 Dan",
-            "Songs with Go",
-            "Song with Go"
+            "Summer 23 Dan"
         ],
         "id": 210003,
         "level": "13",
@@ -546,7 +553,7 @@ var enTags = [
         "tags": [
             "Game Category",
             "Summer 22 Dan",
-            "1, 2, 3...",
+            "Songs with Numerals",
             "Retro Games"
         ],
         "id": 5030004,
@@ -558,7 +565,7 @@ var enTags = [
         "name": "JINGINAKI TATAKAINO THEME",
         "tags": [
             "Instrumental Category",
-            "Theme of..."
+            "Songs with Theme"
         ],
         "id": 5040003,
         "level": "11+",
@@ -581,7 +588,7 @@ var enTags = [
         "tags": [
             "Instrumental Category",
             "Wrestling",
-            "Song with Love",
+            "Songs with Love",
             "Bushiroad"
         ],
         "id": 5040015,
@@ -606,7 +613,8 @@ var enTags = [
         "tags": [
             "Happy Around!",
             "Cover Category",
-            "Cover Tracks Vol 5"
+            "Cover Tracks Vol 5",
+            "Songs starting with D"
         ],
         "id": 120005,
         "level": "12",
@@ -618,7 +626,9 @@ var enTags = [
         "tags": [
             "Photon Maiden",
             "Original Category",
-            "Autumn 22 Dan"
+            "Autumn 22 Dan",
+            "Groovy Fes",
+            "Songs starting with D"
         ],
         "id": 310004,
         "level": "13+",
@@ -633,7 +643,7 @@ var enTags = [
             "Autumn 22 Dan",
             "Spring 23 Dan",
             "Summer 23 Dan",
-            "1, 2, 3..."
+            "Songs with Numerals"
         ],
         "id": 410004,
         "level": "12+",
@@ -644,7 +654,8 @@ var enTags = [
         "name": "The Legend of Kage Medley",
         "tags": [
             "Game Category",
-            "Retro Games"
+            "Retro Games",
+            "Songs with Medley"
         ],
         "id": 5030005,
         "level": "13+",
@@ -656,7 +667,8 @@ var enTags = [
         "tags": [
             "Game Category",
             "Autumn 22 Dan",
-            "Retro Games"
+            "Retro Games",
+            "Songs with Medley"
         ],
         "id": 5030006,
         "level": "14",
@@ -691,7 +703,7 @@ var enTags = [
         "tags": [
             "Game Category",
             "Summer 22 Dan",
-            "1, 2, 3...",
+            "Songs with Numerals",
             "Retro Games"
         ],
         "id": 5030009,
@@ -703,7 +715,7 @@ var enTags = [
         "name": "Tetsuko's Room Theme",
         "tags": [
             "Instrumental Category",
-            "Theme of..."
+            "Songs with Theme"
         ],
         "id": 5040006,
         "level": "12+",
@@ -715,8 +727,6 @@ var enTags = [
         "tags": [
             "Instrumental Category",
             "Wrestling",
-            "Songs with Go",
-            "Song with Go",
             "Bushiroad"
         ],
         "id": 5040016,
@@ -729,8 +739,8 @@ var enTags = [
         "tags": [
             "Peaky P-key",
             "Original Category",
-            "Groovy Festival",
-            "Song with !"
+            "Groovy Fes",
+            "Songs with !"
         ],
         "id": 210004,
         "level": "13+",
@@ -755,7 +765,8 @@ var enTags = [
         "tags": [
             "Game Category",
             "Winter 23 Dan",
-            "Retro Games"
+            "Retro Games",
+            "Songs with Medley"
         ],
         "id": 5030010,
         "level": "12+",
@@ -789,7 +800,8 @@ var enTags = [
         "tags": [
             "Game Category",
             "Summer 22 Dan",
-            "Retro Games"
+            "Retro Games",
+            "Songs starting with D"
         ],
         "id": 5030013,
         "level": "14+",
@@ -800,7 +812,7 @@ var enTags = [
         "name": "CHAOS～BOSS SCENE7",
         "tags": [
             "Game Category",
-            "1, 2, 3...",
+            "Songs with Numerals",
             "Retro Games"
         ],
         "id": 5030014,
@@ -845,7 +857,7 @@ var enTags = [
         "tags": [
             "Happy Around!",
             "Cover Category",
-            "Song with !",
+            "Songs with !",
             "Songs with Dream"
         ],
         "id": 120006,
@@ -858,7 +870,7 @@ var enTags = [
         "tags": [
             "Merm4id",
             "Original Category",
-            "Song with !"
+            "Songs with !"
         ],
         "id": 410005,
         "level": "13+",
@@ -946,9 +958,9 @@ var enTags = [
             "Happy Around!",
             "Cover Category",
             "Cover Tracks Vol 6",
-            "Song with ☆",
-            "Song with Party",
-            "Song with Night",
+            "Songs with ☆",
+            "Songs with Party",
+            "Songs with Night",
             "Songs with MV"
         ],
         "id": 120009,
@@ -1011,7 +1023,7 @@ var enTags = [
             "Original Category",
             "Summer 22 Dan",
             "Summer 23 Dan",
-            "Cat Songs"
+            "Songs with Cat"
         ],
         "id": 610002,
         "level": "11+",
@@ -1036,7 +1048,7 @@ var enTags = [
         "name": "TAIYO NI HOERO THEME",
         "tags": [
             "Instrumental Category",
-            "Theme of..."
+            "Songs with Theme"
         ],
         "id": 5040009,
         "level": "13",
@@ -1048,7 +1060,7 @@ var enTags = [
         "tags": [
             "Instrumental Category",
             "Spring 23 Dan",
-            "1, 2, 3..."
+            "Songs with Numerals"
         ],
         "id": 5040020,
         "level": "13+",
@@ -1074,7 +1086,8 @@ var enTags = [
             "Original Category",
             "First Mix",
             "D4DJ Anime",
-            "Songs with MV"
+            "Songs with MV",
+            "Groovy Fes"
         ],
         "id": 210005,
         "level": "11+",
@@ -1100,7 +1113,7 @@ var enTags = [
             "Merm4id",
             "Original Category",
             "Summer 22 Dan",
-            "Song with !"
+            "Songs with !"
         ],
         "id": 410006,
         "level": "14",
@@ -1112,7 +1125,7 @@ var enTags = [
         "tags": [
             "Lyrical Lily",
             "Original Category",
-            "Song with Night"
+            "Songs with Night"
         ],
         "id": 610003,
         "level": "11+",
@@ -1167,7 +1180,7 @@ var enTags = [
         "tags": [
             "Lyrical Lily",
             "Original Category",
-            "Groovy Festival"
+            "Groovy Fes"
         ],
         "id": 610004,
         "level": "12",
@@ -1179,8 +1192,8 @@ var enTags = [
         "tags": [
             "Special (unit)",
             "Original Category",
-            "Song with !",
-            "Song with Love",
+            "Songs with !",
+            "Songs with Love",
             "Songs with MV"
         ],
         "id": 3010001,
@@ -1193,8 +1206,8 @@ var enTags = [
         "tags": [
             "Special (unit)",
             "Original Category",
-            "Song with !",
-            "Song with Love",
+            "Songs with !",
+            "Songs with Love",
             "Songs with MV"
         ],
         "id": 3010002,
@@ -1207,8 +1220,8 @@ var enTags = [
         "tags": [
             "Special (unit)",
             "Original Category",
-            "Song with !",
-            "Song with Love",
+            "Songs with !",
+            "Songs with Love",
             "Songs with MV"
         ],
         "id": 3010003,
@@ -1223,7 +1236,7 @@ var enTags = [
             "Cover Category",
             "First Mix",
             "D4DJ Anime",
-            "Song with Night"
+            "Songs with Night"
         ],
         "id": 3020001,
         "level": "12",
@@ -1256,7 +1269,8 @@ var enTags = [
         "tags": [
             "Merm4id",
             "Cover Category",
-            "Cover Tracks Vol 1"
+            "Cover Tracks Vol 1",
+            "Songs starting with D"
         ],
         "id": 420008,
         "level": "12",
@@ -1320,7 +1334,7 @@ var enTags = [
             "Original Category",
             "Winter 23 Dan",
             "First Mix",
-            "Song with !",
+            "Songs with !",
             "D4DJ Anime",
             "Songs with DJ"
         ],
@@ -1335,8 +1349,8 @@ var enTags = [
             "Peaky P-key",
             "Original Category",
             "Autumn 22 Dan",
-            "Groovy Festival",
-            "Song with ☆"
+            "Groovy Fes",
+            "Songs with ☆"
         ],
         "id": 210006,
         "level": "13",
@@ -1359,7 +1373,7 @@ var enTags = [
         "tags": [
             "Happy Around!",
             "Cover Category",
-            "Song with !",
+            "Songs with !",
             "Bushiroad"
         ],
         "id": 120010,
@@ -1400,7 +1414,7 @@ var enTags = [
             "Peaky P-key",
             "Cover Category",
             "Cover Tracks Vol 1",
-            "Cat Songs"
+            "Songs with Cat"
         ],
         "id": 220007,
         "level": "12",
@@ -1413,8 +1427,8 @@ var enTags = [
             "Peaky P-key",
             "Cover Category",
             "Cover Tracks Vol 1",
-            "1, 2, 3...",
-            "Song with Love",
+            "Songs with Numerals",
+            "Songs with Love",
             "Songs with MV"
         ],
         "id": 220008,
@@ -1441,9 +1455,7 @@ var enTags = [
             "Happy Around!",
             "Cover Category",
             "First Mix",
-            "D4DJ Anime",
-            "Songs with Go",
-            "Song with Go"
+            "D4DJ Anime"
         ],
         "id": 120011,
         "level": "14",
@@ -1455,7 +1467,7 @@ var enTags = [
         "tags": [
             "Lyrical Lily",
             "Original Category",
-            "Song with !"
+            "Songs with !"
         ],
         "id": 610005,
         "level": "13",
@@ -1482,7 +1494,7 @@ var enTags = [
             "Original Category",
             "First Mix",
             "Summer 22 Dan",
-            "Song with !",
+            "Songs with !",
             "D4DJ Anime"
         ],
         "level": "13",
@@ -1496,8 +1508,9 @@ var enTags = [
             "Original Category",
             "Spring 23 Dan",
             "First Mix",
-            "Song with !",
-            "D4DJ Anime"
+            "Songs with !",
+            "D4DJ Anime",
+            "All Mix"
         ],
         "id": 110009,
         "level": "13+",
@@ -1562,7 +1575,7 @@ var enTags = [
         "tags": [
             "Merm4id",
             "Cover Category",
-            "Song with !"
+            "Songs with !"
         ],
         "id": 420010,
         "level": "14+",
@@ -1574,8 +1587,8 @@ var enTags = [
         "tags": [
             "Lyrical Lily",
             "Cover Category",
-            "Song with !",
-            "Song with ☆"
+            "Songs with !",
+            "Songs with ☆"
         ],
         "id": 620010,
         "level": "12+",
@@ -1600,9 +1613,9 @@ var enTags = [
             "Happy Around!",
             "Original Category",
             "Spring 23 Dan",
-            "Event Song",
-            "Song with !",
-            "Song with ☆"
+            "Event Songs",
+            "Songs with !",
+            "Songs with ☆"
         ],
         "id": 110012,
         "level": "13",
@@ -1627,7 +1640,7 @@ var enTags = [
             "Happy Around!",
             "Cover Category",
             "Cover Tracks Vol 6",
-            "Song with !"
+            "Songs with !"
         ],
         "id": 120013,
         "level": "12",
@@ -1641,7 +1654,7 @@ var enTags = [
             "Original Category",
             "Winter 23 Dan",
             "Summer 23 Dan",
-            "Event Song"
+            "Event Songs"
         ],
         "id": 610007,
         "level": "11",
@@ -1667,7 +1680,7 @@ var enTags = [
             "Summer 22 Dan",
             "Touhou",
             "Songs with DJ",
-            "Song with Love"
+            "Songs with Love"
         ],
         "id": 5030019,
         "level": "15",
@@ -1678,7 +1691,7 @@ var enTags = [
         "name": "Bloom Nobly, Ink-Black Cherry Blossom ~ Border of Life (REDALiCE Remix)",
         "tags": [
             "Game Category",
-            "BLACK or WHITE",
+            "Songs with Black or White",
             "Touhou"
         ],
         "id": 5030020,
@@ -1704,7 +1717,7 @@ var enTags = [
         "tags": [
             "Game Category",
             "Summer 23 Dan",
-            "Song with !",
+            "Songs with !",
             "WACCA"
         ],
         "id": 5030023,
@@ -1717,7 +1730,7 @@ var enTags = [
         "tags": [
             "Game Category",
             "WACCA",
-            "Song with Night"
+            "Songs with Night"
         ],
         "id": 5030024,
         "level": "14",
@@ -1732,7 +1745,7 @@ var enTags = [
             "Summer 22 Dan",
             "Winter 23 Dan",
             "Summer 23 Dan",
-            "Event Song"
+            "Event Songs"
         ],
         "id": 210007,
         "level": "10+",
@@ -1785,8 +1798,8 @@ var enTags = [
             "Photon Maiden",
             "Cover Category",
             "Cover Tracks Vol 8",
-            "Song with !",
-            "1, 2, 3...",
+            "Songs with !",
+            "Songs with Numerals",
             "Bushiroad"
         ],
         "id": 320012,
@@ -1800,7 +1813,7 @@ var enTags = [
             "Merm4id",
             "Original Category",
             "Summer 22 Dan",
-            "Event Song"
+            "Event Songs"
         ],
         "id": 410007,
         "level": "13",
@@ -1811,7 +1824,7 @@ var enTags = [
         "name": "NEXT COLOR PLANET",
         "tags": [
             "Base Category",
-            "Vtubers",
+            "Vtuber",
             "Hololive"
         ],
         "id": 5050007,
@@ -1823,7 +1836,7 @@ var enTags = [
         "name": "aqua iro palette",
         "tags": [
             "Base Category",
-            "Vtubers",
+            "Vtuber",
             "Hololive"
         ],
         "id": 5050008,
@@ -1863,7 +1876,7 @@ var enTags = [
         "tags": [
             "Game Category",
             "Autumn 22 Dan",
-            "1, 2, 3...",
+            "Songs with Numerals",
             "Retro Games"
         ],
         "id": 5030032,
@@ -1912,7 +1925,7 @@ var enTags = [
         "name": "PEKORANDOMBRAIN",
         "tags": [
             "Base Category",
-            "Vtubers",
+            "Vtuber",
             "Hololive"
         ],
         "id": 5050032,
@@ -1926,7 +1939,7 @@ var enTags = [
             "RONDO",
             "Original Category",
             "Summer 23 Dan",
-            "Event Song"
+            "Event Songs"
         ],
         "id": 510009,
         "level": "13",
@@ -1950,7 +1963,7 @@ var enTags = [
             "Game Category",
             "Touhou",
             "Songs with DJ",
-            "Song with Party"
+            "Songs with Party"
         ],
         "id": 5030034,
         "level": "14",
@@ -1975,9 +1988,9 @@ var enTags = [
         "tags": [
             "Special (unit)",
             "Original Category",
-            "Song with !",
-            "Song with Party",
-            "Song with Night"
+            "Songs with !",
+            "Songs with Party",
+            "Songs with Night"
         ],
         "id": 3010007,
         "level": "13+",
@@ -1999,8 +2012,8 @@ var enTags = [
         "tags": [
             "Happy Around!",
             "Original Category",
-            "Groovy Festival",
-            "Song with !",
+            "Groovy Fes",
+            "Songs with !",
             "D4FES Songs"
         ],
         "id": 110014,
@@ -2013,7 +2026,7 @@ var enTags = [
         "tags": [
             "Happy Around!",
             "Original Category",
-            "Song with !",
+            "Songs with !",
             "Songs with MV"
         ],
         "id": 110015,
@@ -2028,7 +2041,7 @@ var enTags = [
             "Original Category",
             "Winter 23 Dan",
             "Spring 23 Dan",
-            "Event Song"
+            "Event Songs"
         ],
         "id": 310008,
         "level": "12+",
@@ -2042,7 +2055,7 @@ var enTags = [
             "Original Category",
             "Summer 22 Dan",
             "Summer 23 Dan",
-            "Groovy Festival",
+            "Groovy Fes",
             "D4FES Songs",
             "Songs with MV"
         ],
@@ -2054,9 +2067,7 @@ var enTags = [
     {
         "name": "God knows...",
         "tags": [
-            "Base Category",
-            "Songs with Go",
-            "Song with Go"
+            "Base Category"
         ],
         "id": 5050028,
         "level": "13",
@@ -2107,8 +2118,9 @@ var enTags = [
             "Happy Around!",
             "Original Category",
             "Summer 22 Dan",
-            "Song with !",
-            "1, 2, 3..."
+            "Songs with !",
+            "Songs with Numerals",
+            "Songs starting with D"
         ],
         "id": 110016,
         "level": "13+",
@@ -2131,7 +2143,7 @@ var enTags = [
         "name": "ONOMATO Pairing!!!",
         "tags": [
             "Game Category",
-            "Song with !",
+            "Songs with !",
             "WACCA"
         ],
         "id": 5030040,
@@ -2143,7 +2155,7 @@ var enTags = [
         "name": "Suspect",
         "tags": [
             "Base Category",
-            "Vtubers",
+            "Vtuber",
             "Hololive"
         ],
         "id": 5050050,
@@ -2157,7 +2169,7 @@ var enTags = [
             "Happy Around!",
             "Cover Category",
             "Cover Tracks Vol 4",
-            "Song with !"
+            "Songs with !"
         ],
         "id": 120015,
         "level": "13+",
@@ -2169,7 +2181,7 @@ var enTags = [
         "tags": [
             "Merm4id",
             "Original Category",
-            "Song with Party"
+            "Songs with Party"
         ],
         "id": 410008,
         "level": "13",
@@ -2234,7 +2246,7 @@ var enTags = [
             "Summer 22 Dan",
             "Summer 23 Dan",
             "D4FES Songs",
-            "1, 2, 3...",
+            "Songs with Numerals",
             "Songs with MV"
         ],
         "id": 310011,
@@ -2257,7 +2269,7 @@ var enTags = [
         "tags": [
             "Base Category",
             "Numbers Spelled Out",
-            "Song with Night"
+            "Songs with Night"
         ],
         "id": 5050012,
         "level": "14+",
@@ -2271,7 +2283,8 @@ var enTags = [
             "Original Category",
             "Summer 22 Dan",
             "Summer 23 Dan",
-            "Event Song"
+            "Event Songs",
+            "All Mix"
         ],
         "id": 510012,
         "level": "12+",
@@ -2285,7 +2298,7 @@ var enTags = [
             "Original Category",
             "Summer 22 Dan",
             "Songs with DJ",
-            "Song with ☆"
+            "Songs with ☆"
         ],
         "id": 210009,
         "level": "14",
@@ -2297,8 +2310,9 @@ var enTags = [
         "tags": [
             "Merm4id",
             "Original Category",
-            "Event Song",
-            "Song with !"
+            "Event Songs",
+            "Songs with !",
+            "All Mix"
         ],
         "id": 410010,
         "level": "13",
@@ -2309,9 +2323,10 @@ var enTags = [
         "name": "Dreaming Days",
         "tags": [
             "Base Category",
-            "Vtubers",
+            "Vtuber",
             "Hololive",
-            "Songs with Dream"
+            "Songs with Dream",
+            "Songs starting with D"
         ],
         "id": 5050052,
         "level": "12+",
@@ -2337,8 +2352,8 @@ var enTags = [
             "Lyrical Lily",
             "Original Category",
             "Summer 22 Dan",
-            "Groovy Festival",
-            "Song with !",
+            "Groovy Fes",
+            "Songs with !",
             "D4FES Songs",
             "Songs with MV"
         ],
@@ -2353,7 +2368,7 @@ var enTags = [
             "Peaky P-key",
             "Cover Category",
             "Cover Tracks Vol 8",
-            "BLACK or WHITE"
+            "Songs with Black or White"
         ],
         "id": 220017,
         "level": "14+",
@@ -2366,7 +2381,7 @@ var enTags = [
             "Peaky P-key",
             "Original Category",
             "Summer 22 Dan",
-            "Song with !",
+            "Songs with !",
             "D4FES Songs",
             "Songs with MV"
         ],
@@ -2381,11 +2396,10 @@ var enTags = [
             "Happy Around!",
             "Original Category",
             "Summer 22 Dan",
-            "Event Song",
-            "Song with !",
+            "Event Songs",
+            "Songs with !",
             "Songs with Go",
-            "Song with Go",
-            "Song with ☆"
+            "Songs with ☆"
         ],
         "id": 110018,
         "level": "13",
@@ -2398,7 +2412,7 @@ var enTags = [
             "Lyrical Lily",
             "Original Category",
             "Summer 22 Dan",
-            "Event Song"
+            "Event Songs"
         ],
         "id": 610010,
         "level": "13+",
@@ -2410,9 +2424,9 @@ var enTags = [
         "tags": [
             "Special (unit)",
             "Original Category",
-            "Song with !",
-            "1, 2, 3...",
-            "Song with Love"
+            "Songs with !",
+            "Songs with Numerals",
+            "Songs with Love"
         ],
         "id": 3010008,
         "level": "13+",
@@ -2424,9 +2438,9 @@ var enTags = [
         "tags": [
             "Special (unit)",
             "Original Category",
-            "Song with !",
-            "1, 2, 3...",
-            "Song with Love"
+            "Songs with !",
+            "Songs with Numerals",
+            "Songs with Love"
         ],
         "id": 3010009,
         "level": "13+",
@@ -2438,9 +2452,9 @@ var enTags = [
         "tags": [
             "Special (unit)",
             "Original Category",
-            "Song with !",
-            "1, 2, 3...",
-            "Song with Love"
+            "Songs with !",
+            "Songs with Numerals",
+            "Songs with Love"
         ],
         "id": 3010010,
         "level": "14",
@@ -2452,7 +2466,7 @@ var enTags = [
         "tags": [
             "RONDO",
             "Original Category",
-            "Event Song"
+            "Event Songs"
         ],
         "id": 510013,
         "level": "13",
@@ -2466,7 +2480,8 @@ var enTags = [
             "Cover Category",
             "Summer 22 Dan",
             "Cover Tracks Vol 5",
-            "Songs with Dream"
+            "Songs with Dream",
+            "Songs starting with D"
         ],
         "id": 120018,
         "level": "12",
@@ -2492,8 +2507,8 @@ var enTags = [
             "Photon Maiden",
             "Original Category",
             "Winter 23 Dan",
-            "Event Song",
-            "Groovy Festival"
+            "Event Songs",
+            "Groovy Fes"
         ],
         "id": 310012,
         "level": "10+",
@@ -2507,7 +2522,7 @@ var enTags = [
             "Original Category",
             "Summer 22 Dan",
             "Summer 23 Dan",
-            "Event Song"
+            "Event Songs"
         ],
         "id": 110019,
         "level": "13",
@@ -2519,7 +2534,7 @@ var enTags = [
         "tags": [
             "Special (unit)",
             "Cover Category",
-            "Song with Love"
+            "Songs with Love"
         ],
         "id": 3020004,
         "level": "12+",
@@ -2542,7 +2557,7 @@ var enTags = [
         "tags": [
             "Peaky P-key",
             "Original Category",
-            "Event Song"
+            "Event Songs"
         ],
         "id": 210011,
         "level": "13",
@@ -2579,8 +2594,8 @@ var enTags = [
             "Cover Category",
             "Summer 22 Dan",
             "Summer 23 Dan",
-            "Song with !",
-            "Song with ☆"
+            "Songs with !",
+            "Songs with ☆"
         ],
         "id": 120019,
         "level": "13",
@@ -2644,11 +2659,11 @@ var enTags = [
             "Original Category",
             "Summer 22 Dan",
             "Summer 23 Dan",
-            "Event Song",
-            "Song with !",
+            "Event Songs",
+            "Songs with !",
             "Numbers Spelled Out",
             "Songs with Dream",
-            "Song with Night"
+            "Songs with Night"
         ],
         "id": 610011,
         "level": "12",
@@ -2697,7 +2712,7 @@ var enTags = [
             "Cover Category",
             "Winter 23 Dan",
             "Cover Tracks Vol 6",
-            "Song with !"
+            "Songs with !"
         ],
         "id": 420014,
         "level": "13+",
@@ -2719,7 +2734,7 @@ var enTags = [
         "tags": [
             "Merm4id",
             "Original Category",
-            "Event Song"
+            "Event Songs"
         ],
         "id": 410011,
         "level": "13",
@@ -2746,9 +2761,9 @@ var enTags = [
             "Summer 22 Dan",
             "Autumn 22 Dan",
             "Summer 23 Dan",
-            "Event Song",
-            "♡ Songs",
-            "Song with Love"
+            "Event Songs",
+            "Songs with ♡",
+            "Songs with Love"
         ],
         "id": 3010012,
         "level": "13+",
@@ -2797,7 +2812,8 @@ var enTags = [
         "tags": [
             "RONDO",
             "Original Category",
-            "BLACK or WHITE"
+            "Songs with Black or White",
+            "All Mix"
         ],
         "id": 510014,
         "level": "14",
@@ -2859,7 +2875,7 @@ var enTags = [
         "name": "Stellar Stellar",
         "tags": [
             "Base Category",
-            "Vtubers",
+            "Vtuber",
             "Hololive"
         ],
         "id": 5050097,
@@ -2871,7 +2887,7 @@ var enTags = [
         "name": "Everlasting Soul",
         "tags": [
             "Base Category",
-            "Vtubers",
+            "Vtuber",
             "Hololive"
         ],
         "id": 5050098,
@@ -2887,7 +2903,7 @@ var enTags = [
             "Summer 22 Dan",
             "Winter 23 Dan",
             "Songs with Dream",
-            "Song with ☆"
+            "Songs with ☆"
         ],
         "id": 110021,
         "level": "12+",
@@ -2971,7 +2987,7 @@ var enTags = [
             "Merm4id",
             "Original Category",
             "Winter 23 Dan",
-            "Event Song"
+            "Event Songs"
         ],
         "id": 410013,
         "level": "14+",
@@ -2984,7 +3000,7 @@ var enTags = [
             "Base Category",
             "Autumn 22 Dan",
             "Summer 23 Dan",
-            "Vtubers",
+            "Vtuber",
             "Hololive"
         ],
         "id": 5050124,
@@ -3000,9 +3016,8 @@ var enTags = [
             "Winter 23 Dan",
             "Spring 23 Dan",
             "Summer 23 Dan",
-            "Event Song",
-            "Songs with Go",
-            "Song with Go"
+            "Event Songs",
+            "Songs with Go"
         ],
         "id": 210013,
         "level": "12+",
@@ -3016,7 +3031,7 @@ var enTags = [
             "Cover Category",
             "Summer 23 Dan",
             "Cover Tracks Vol 5",
-            "1, 2, 3..."
+            "Songs with Numerals"
         ],
         "id": 620014,
         "level": "12+",
@@ -3029,7 +3044,7 @@ var enTags = [
             "Photon Maiden",
             "Original Category",
             "Summer 22 Dan",
-            "Event Song"
+            "Event Songs"
         ],
         "id": 310014,
         "level": "13+",
@@ -3040,8 +3055,6 @@ var enTags = [
         "name": "Goalline",
         "tags": [
             "Base Category",
-            "Songs with Go",
-            "Song with Go",
             "from ARGONAVIS",
             "Bushiroad"
         ],
@@ -3054,8 +3067,6 @@ var enTags = [
         "name": "EGOIST",
         "tags": [
             "Base Category",
-            "Songs with Go",
-            "Song with Go",
             "from ARGONAVIS",
             "Bushiroad"
         ],
@@ -3080,7 +3091,7 @@ var enTags = [
         "name": "BANZAI RIZING!!!",
         "tags": [
             "Base Category",
-            "Song with !",
+            "Songs with !",
             "from ARGONAVIS",
             "Bushiroad"
         ],
@@ -3107,7 +3118,7 @@ var enTags = [
             "Lyrical Lily",
             "Original Category",
             "Autumn 22 Dan",
-            "Event Song"
+            "Event Songs"
         ],
         "id": 610013,
         "level": "13",
@@ -3118,7 +3129,7 @@ var enTags = [
         "name": "START!! True dreams",
         "tags": [
             "Base Category",
-            "Song with !",
+            "Songs with !",
             "Songs with Dream"
         ],
         "id": 5050099,
@@ -3132,8 +3143,8 @@ var enTags = [
             "Happy Around!",
             "Original Category",
             "Spring 23 Dan",
-            "Event Song",
-            "♡ Songs",
+            "Event Songs",
+            "Songs with ♡",
             "Songs with Heart (spelled)"
         ],
         "id": 110023,
@@ -3148,7 +3159,7 @@ var enTags = [
             "Original Category",
             "Autumn 22 Dan",
             "Winter 23 Dan",
-            "Event Song",
+            "Event Songs",
             "Numbers Spelled Out",
             "BPM over 250"
         ],
@@ -3184,8 +3195,8 @@ var enTags = [
         "tags": [
             "Lyrical Lily",
             "Original Category",
-            "Event Song",
-            "BLACK or WHITE"
+            "Event Songs",
+            "Songs with Black or White"
         ],
         "id": 610014,
         "level": "13",
@@ -3234,7 +3245,7 @@ var enTags = [
             "Merm4id",
             "Cover Category",
             "Cover Tracks Vol 7",
-            "♡ Songs"
+            "Songs with ♡"
         ],
         "id": 420016,
         "level": "13",
@@ -3269,7 +3280,7 @@ var enTags = [
         "tags": [
             "Game Category",
             "Autumn 22 Dan",
-            "Song with !",
+            "Songs with !",
             "Touhou"
         ],
         "id": 5030062,
@@ -3294,9 +3305,7 @@ var enTags = [
             "Cover Category",
             "Winter 23 Dan",
             "Cover Tracks Vol 6",
-            "Song with !",
-            "Songs with Go",
-            "Song with Go"
+            "Songs with !"
         ],
         "id": 220020,
         "level": "14+",
@@ -3332,7 +3341,8 @@ var enTags = [
             "Original Category",
             "Autumn 22 Dan",
             "Winter 23 Dan",
-            "D4FES Songs"
+            "D4FES Songs",
+            "Groovy Fes"
         ],
         "id": 310016,
         "level": "12",
@@ -3345,7 +3355,7 @@ var enTags = [
             "Photon Maiden",
             "Original Category",
             "Autumn 22 Dan",
-            "Event Song"
+            "Event Songs"
         ],
         "id": 310015,
         "level": "13",
@@ -3406,7 +3416,8 @@ var enTags = [
         "tags": [
             "Special (unit)",
             "Original Category",
-            "Autumn 22 Dan"
+            "Autumn 22 Dan",
+            "Songs starting with D"
         ],
         "id": 3010015,
         "level": "11+",
@@ -3418,9 +3429,7 @@ var enTags = [
         "tags": [
             "Peaky P-key",
             "Cover Category",
-            "Summer 23 Dan",
-            "Songs with Go",
-            "Song with Go"
+            "Summer 23 Dan"
         ],
         "id": 220014,
         "level": "13",
@@ -3444,7 +3453,7 @@ var enTags = [
             "Happy Around!",
             "Original Category",
             "Winter 23 Dan",
-            "Event Song"
+            "Event Songs"
         ],
         "id": 110026,
         "level": "13",
@@ -3489,7 +3498,8 @@ var enTags = [
         "name": "DX Choseinou Full Metal Shojo",
         "tags": [
             "Game Category",
-            "Groove Coaster"
+            "Groove Coaster",
+            "Songs starting with D"
         ],
         "id": 5030046,
         "level": "14",
@@ -3525,7 +3535,7 @@ var enTags = [
             "Autumn 22 Dan",
             "Fighting Game",
             "BPM over 250",
-            "Song with Love"
+            "Songs with Love"
         ],
         "id": 5030078,
         "level": "13",
@@ -3561,7 +3571,7 @@ var enTags = [
             "Original Category",
             "Autumn 22 Dan",
             "Spring 23 Dan",
-            "Song with !"
+            "Songs with !"
         ],
         "id": 210014,
         "level": "15",
@@ -3574,8 +3584,8 @@ var enTags = [
             "Happy Around!",
             "Original Category",
             "Summer 23 Dan",
-            "Song with !",
-            "1, 2, 3...",
+            "Songs with !",
+            "Songs with Numerals",
             "Songs with DJ"
         ],
         "id": 110025,
@@ -3652,8 +3662,8 @@ var enTags = [
             "RONDO",
             "Original Category",
             "Autumn 22 Dan",
-            "Event Song",
-            "Groovy Festival"
+            "Event Songs",
+            "Groovy Fes"
         ],
         "id": 510019,
         "level": "13",
@@ -3688,7 +3698,7 @@ var enTags = [
         "tags": [
             "Special (unit)",
             "Original Category",
-            "Song with !"
+            "Songs with !"
         ],
         "id": 3010016,
         "level": "11+",
@@ -3701,7 +3711,8 @@ var enTags = [
             "Game Category",
             "Autumn 22 Dan",
             "Spring 23 Dan",
-            "Fighting Game"
+            "Fighting Game",
+            "Songs starting with D"
         ],
         "id": 5030083,
         "level": "14+",
@@ -3715,7 +3726,7 @@ var enTags = [
             "Original Category",
             "Autumn 22 Dan",
             "D4FES Songs",
-            "Song with Love",
+            "Songs with Love",
             "Songs with MV"
         ],
         "id": 410015,
@@ -3741,7 +3752,7 @@ var enTags = [
             "Photon Maiden",
             "Original Category",
             "Autumn 22 Dan",
-            "Event Song"
+            "Event Songs"
         ],
         "id": 310017,
         "level": "12+",
@@ -3755,7 +3766,7 @@ var enTags = [
             "Original Category",
             "Autumn 22 Dan",
             "Angel and Demon",
-            "Groovy Festival",
+            "Groovy Fes",
             "D4FES Songs",
             "Songs with MV"
         ],
@@ -3770,7 +3781,7 @@ var enTags = [
             "Happy Around!",
             "Original Category",
             "Autumn 22 Dan",
-            "Groovy Festival",
+            "Groovy Fes",
             "D4FES Songs",
             "Songs with MV"
         ],
@@ -3785,7 +3796,7 @@ var enTags = [
             "Lyrical Lily",
             "Original Category",
             "Autumn 22 Dan",
-            "Cat Songs"
+            "Songs with Cat"
         ],
         "id": 610016,
         "level": "12+",
@@ -3811,7 +3822,8 @@ var enTags = [
         "tags": [
             "Happy Around!",
             "Original Category",
-            "Summer 22 Dan"
+            "Summer 22 Dan",
+            "Groovy Fes"
         ],
         "id": 110028,
         "level": "14+",
@@ -3824,7 +3836,7 @@ var enTags = [
             "Happy Around!",
             "Original Category",
             "Autumn 22 Dan",
-            "Event Song"
+            "Event Songs"
         ],
         "id": 110027,
         "level": "11+",
@@ -3838,7 +3850,7 @@ var enTags = [
             "Original Category",
             "Autumn 22 Dan",
             "Summer 23 Dan",
-            "Event Song"
+            "Event Songs"
         ],
         "id": 210016,
         "level": "12",
@@ -3851,7 +3863,7 @@ var enTags = [
             "Lyrical Lily",
             "Original Category",
             "Autumn 22 Dan",
-            "Event Song"
+            "Event Songs"
         ],
         "id": 610019,
         "level": "12",
@@ -3861,9 +3873,7 @@ var enTags = [
     {
         "name": "Gotoubun no Kiseki",
         "tags": [
-            "Base Category",
-            "Songs with Go",
-            "Song with Go"
+            "Base Category"
         ],
         "id": 5050150,
         "level": "12",
@@ -3876,7 +3886,7 @@ var enTags = [
             "Game Category",
             "Summer 23 Dan",
             "Touhou",
-            "1, 2, 3...",
+            "Songs with Numerals",
             "BPM over 250"
         ],
         "id": 5030061,
@@ -3888,7 +3898,7 @@ var enTags = [
         "name": "Geki! Teikoku Kagekidan",
         "tags": [
             "Game Category",
-            "Song with !",
+            "Songs with !",
             "Sakura Wars"
         ],
         "id": 5030073,
@@ -3903,7 +3913,7 @@ var enTags = [
             "Cover Category",
             "Summer 23 Dan",
             "Cover Tracks Vol 7",
-            "Song with ☆"
+            "Songs with ☆"
         ],
         "id": 120021,
         "level": "12",
@@ -3926,8 +3936,8 @@ var enTags = [
         "tags": [
             "Special (unit)",
             "Cover Category",
-            "Song with !",
-            "1, 2, 3...",
+            "Songs with !",
+            "Songs with Numerals",
             "Songs with DJ"
         ],
         "id": 3020006,
@@ -3940,8 +3950,8 @@ var enTags = [
         "tags": [
             "Special (unit)",
             "Cover Category",
-            "Song with !",
-            "1, 2, 3...",
+            "Songs with !",
+            "Songs with Numerals",
             "Songs with DJ"
         ],
         "id": 3020007,
@@ -3982,9 +3992,8 @@ var enTags = [
             "Winter 23 Dan",
             "Spring 23 Dan",
             "Cover Tracks Vol 8",
-            "Song with !",
-            "Songs with Go",
-            "Song with Go"
+            "Songs with !",
+            "Songs with Go"
         ],
         "id": 420018,
         "level": "12+",
@@ -4022,7 +4031,7 @@ var enTags = [
             "Autumn 22 Dan",
             "Angel and Demon",
             "Tokyo 7th Sisters",
-            "Song with Love"
+            "Songs with Love"
         ],
         "id": 5030054,
         "level": "14",
@@ -4086,7 +4095,7 @@ var enTags = [
         "tags": [
             "Special (unit)",
             "Cover Category",
-            "1, 2, 3...",
+            "Songs with Numerals",
             "Songs with DJ"
         ],
         "id": 3020012,
@@ -4132,9 +4141,7 @@ var enTags = [
             "Cover Category",
             "Autumn 22 Dan",
             "Cover Tracks Vol 7",
-            "Songs with Go",
-            "BPM over 250",
-            "Song with Go"
+            "BPM over 250"
         ],
         "id": 520016,
         "level": "14",
@@ -4148,7 +4155,7 @@ var enTags = [
             "Original Category",
             "Autumn 22 Dan",
             "Spring 23 Dan",
-            "Cat Songs"
+            "Songs with Cat"
         ],
         "id": 610018,
         "level": "15",
@@ -4174,7 +4181,7 @@ var enTags = [
             "Photon Maiden",
             "Cover Category",
             "Cover Tracks Vol 7",
-            "Song with !"
+            "Songs with !"
         ],
         "id": 320017,
         "level": "12",
@@ -4247,7 +4254,7 @@ var enTags = [
             "Cover Category",
             "Spring 23 Dan",
             "Cover Tracks Vol 7",
-            "Song with Love"
+            "Songs with Love"
         ],
         "id": 620017,
         "level": "11+",
@@ -4268,7 +4275,7 @@ var enTags = [
         "name": "Welcome! (D-POP version) ～D.U.P.～",
         "tags": [
             "Base Category",
-            "Song with !"
+            "Songs with !"
         ],
         "id": 5050178,
         "level": "11+",
@@ -4280,7 +4287,7 @@ var enTags = [
         "tags": [
             "Happy Around!",
             "Original Category",
-            "Song with !"
+            "Songs with !"
         ],
         "id": 110029,
         "level": "13",
@@ -4293,7 +4300,7 @@ var enTags = [
             "Peaky P-key",
             "Original Category",
             "Spring 23 Dan",
-            "Song with ☆"
+            "Songs with ☆"
         ],
         "id": 210019,
         "level": "13",
@@ -4368,7 +4375,8 @@ var enTags = [
             "Peaky P-key",
             "Original Category",
             "Spring 23 Dan",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "Songs starting with D"
         ],
         "id": 210017,
         "level": "12+",
@@ -4381,11 +4389,10 @@ var enTags = [
             "Happy Around!",
             "Original Category",
             "Spring 23 Dan",
-            "Event Song",
-            "Song with !",
-            "♡ Songs",
-            "Songs with Go",
-            "Song with Go"
+            "Event Songs",
+            "Songs with !",
+            "Songs with ♡",
+            "Songs with Go"
         ],
         "id": 110030,
         "level": "12",
@@ -4419,7 +4426,7 @@ var enTags = [
             "Original Category",
             "Spring 23 Dan",
             "Summer 23 Dan",
-            "1, 2, 3...",
+            "Songs with Numerals",
             "Side Origin",
             "Songs with MV"
         ],
@@ -4446,7 +4453,7 @@ var enTags = [
             "Original Category",
             "Winter 23 Dan",
             "Spring 23 Dan",
-            "Event Song"
+            "Event Songs"
         ],
         "id": 410016,
         "level": "12+",
@@ -4520,9 +4527,7 @@ var enTags = [
         "tags": [
             "Game Category",
             "Winter 23 Dan",
-            "Summer 23 Dan",
-            "Songs with Go",
-            "Song with Go"
+            "Summer 23 Dan"
         ],
         "id": 5030096,
         "level": "12+",
@@ -4534,9 +4539,10 @@ var enTags = [
         "tags": [
             "Peaky P-key",
             "Original Category",
-            "Song with !",
+            "Songs with !",
             "D4DJ Anime",
-            "Songs with MV"
+            "Songs with MV",
+            "All Mix"
         ],
         "id": 210018,
         "level": "14",
@@ -4549,7 +4555,8 @@ var enTags = [
             "Special (unit)",
             "Original Category",
             "Summer 23 Dan",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "All Mix"
         ],
         "id": 3010021,
         "level": "13",
@@ -4561,7 +4568,8 @@ var enTags = [
         "tags": [
             "Special (unit)",
             "Original Category",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "All Mix"
         ],
         "id": 3010022,
         "level": "13",
@@ -4601,7 +4609,8 @@ var enTags = [
             "Original Category",
             "Summer 23 Dan",
             "D4DJ Anime",
-            "Songs with MV"
+            "Songs with MV",
+            "All Mix"
         ],
         "id": 610020,
         "level": "12+",
@@ -4615,7 +4624,8 @@ var enTags = [
             "Original Category",
             "D4DJ Anime",
             "BPM over 250",
-            "Songs with MV"
+            "Songs with MV",
+            "All Mix"
         ],
         "id": 510021,
         "level": "15",
@@ -4636,9 +4646,7 @@ var enTags = [
     {
         "name": "IAM (feat. Shogo, Tsubasa)",
         "tags": [
-            "Base Category",
-            "Songs with Go",
-            "Song with Go"
+            "Base Category"
         ],
         "id": 5050188,
         "level": "13",
@@ -4675,7 +4683,9 @@ var enTags = [
             "Original Category",
             "D4DJ Anime",
             "BPM over 250",
-            "Songs with MV"
+            "Songs with MV",
+            "All Mix",
+            "Songs starting with D"
         ],
         "id": 410018,
         "level": "12+",
@@ -4688,8 +4698,9 @@ var enTags = [
             "Happy Around!",
             "Original Category",
             "D4DJ Anime",
-            "♡ Songs",
-            "Songs with MV"
+            "Songs with ♡",
+            "Songs with MV",
+            "All Mix"
         ],
         "id": 110032,
         "level": "12+",
@@ -4714,8 +4725,9 @@ var enTags = [
             "Original Category",
             "Summer 23 Dan",
             "D4DJ Anime",
-            "1, 2, 3...",
-            "Songs with MV"
+            "Songs with Numerals",
+            "Songs with MV",
+            "All Mix"
         ],
         "id": 310021,
         "level": "12+",
@@ -4742,7 +4754,8 @@ var enTags = [
             "Special (unit)",
             "Original Category",
             "D4DJ Anime",
-            "Songs with MV"
+            "Songs with MV",
+            "All Mix"
         ],
         "id": 3010020,
         "level": "10",
@@ -4754,7 +4767,7 @@ var enTags = [
         "tags": [
             "Lyrical Lily",
             "Original Category",
-            "BLACK or WHITE",
+            "Songs with Black or White",
             "Side Origin",
             "Songs with MV"
         ],
@@ -4768,7 +4781,7 @@ var enTags = [
         "tags": [
             "Special (unit)",
             "Cover Category",
-            "Song with Love"
+            "Songs with Love"
         ],
         "id": 3020018,
         "level": "12",
@@ -4816,7 +4829,7 @@ var enTags = [
             "Cover Category",
             "Spring 23 Dan",
             "Summer 23 Dan",
-            "Song with !",
+            "Songs with !",
             "BPM over 250"
         ],
         "id": 620019,
@@ -4852,9 +4865,10 @@ var enTags = [
         "tags": [
             "Special (unit)",
             "Original Category",
-            "Song with !",
+            "Songs with !",
             "D4DJ Anime",
-            "Songs with MV"
+            "Songs with MV",
+            "All Mix"
         ],
         "id": 3010019,
         "level": "13",
@@ -4892,8 +4906,10 @@ var enTags = [
             "Special (unit)",
             "Original Category",
             "D4DJ Anime",
-            "Song with Party",
-            "Songs with MV"
+            "Songs with Party",
+            "Songs with MV",
+            "All Mix",
+            "Songs starting with D"
         ],
         "id": 3010023,
         "level": "12",
@@ -4906,7 +4922,7 @@ var enTags = [
             "Special (unit)",
             "Original Category",
             "Summer 23 Dan",
-            "Song with ☆",
+            "Songs with ☆",
             "Songs with MV"
         ],
         "id": 3010025,
@@ -4919,7 +4935,7 @@ var enTags = [
         "tags": [
             "Base Category",
             "Spring 23 Dan",
-            "Song with !",
+            "Songs with !",
             "Princess Letters"
         ],
         "id": 5050106,
@@ -4944,7 +4960,7 @@ var enTags = [
         "tags": [
             "Game Category",
             "Spring 23 Dan",
-            "Song with !",
+            "Songs with !",
             "GekiChuMai"
         ],
         "id": 5030065,
@@ -4957,7 +4973,7 @@ var enTags = [
         "tags": [
             "Base Category",
             "Spring 23 Dan",
-            "1, 2, 3..."
+            "Songs with Numerals"
         ],
         "id": 5050134,
         "level": "14",
@@ -4983,7 +4999,8 @@ var enTags = [
             "Original Category",
             "Summer 23 Dan",
             "Songs with DJ",
-            "Side Nova"
+            "Side Nova",
+            "Songs starting with D"
         ],
         "id": 810002,
         "level": "14",
@@ -4996,7 +5013,7 @@ var enTags = [
             "Special (unit)",
             "Original Category",
             "Summer 23 Dan",
-            "BLACK or WHITE"
+            "Songs with Black or White"
         ],
         "id": 3010024,
         "level": "11+",
@@ -5007,7 +5024,7 @@ var enTags = [
         "name": "Love Love Alien (Suki Suki Seijin)",
         "tags": [
             "Base Category",
-            "Song with Love"
+            "Songs with Love"
         ],
         "id": 5050220,
         "level": "13",
@@ -5018,9 +5035,9 @@ var enTags = [
         "name": "ZenjinruiUsagikakeikaku!",
         "tags": [
             "Base Category",
-            "Vtubers",
+            "Vtuber",
             "Hololive",
-            "Song with !"
+            "Songs with !"
         ],
         "id": 5050214,
         "level": "14",
@@ -5041,7 +5058,7 @@ var enTags = [
         "name": "Stay Blue",
         "tags": [
             "Base Category",
-            "Vtubers",
+            "Vtuber",
             "Hololive"
         ],
         "id": 5050215,
@@ -5054,9 +5071,9 @@ var enTags = [
         "tags": [
             "Merm4id",
             "Original Category",
-            "Song with !",
+            "Songs with !",
             "Side Origin",
-            "Song with Love",
+            "Songs with Love",
             "Songs with MV"
         ],
         "id": 410020,
@@ -5078,7 +5095,7 @@ var enTags = [
         "name": "Excuse My Rudeness, But Could You Please RIP?",
         "tags": [
             "Base Category",
-            "Vtubers",
+            "Vtuber",
             "Hololive"
         ],
         "id": 5050212,
@@ -5101,7 +5118,7 @@ var enTags = [
         "name": "Jouya Repaint",
         "tags": [
             "Base Category",
-            "Vtubers",
+            "Vtuber",
             "Hololive"
         ],
         "id": 5050213,
@@ -5123,7 +5140,7 @@ var enTags = [
         "name": "Sparklers",
         "tags": [
             "Base Category",
-            "Vtubers",
+            "Vtuber",
             "Hololive"
         ],
         "id": 5050216,
@@ -5247,7 +5264,7 @@ var enTags = [
             "Special (unit)",
             "Original Category",
             "Summer 23 Dan",
-            "Song with Love"
+            "Songs with Love"
         ],
         "id": 3010027,
         "level": "13+",
@@ -5258,7 +5275,8 @@ var enTags = [
         "name": "Doki Dokiss",
         "tags": [
             "Special (unit)",
-            "Original Category"
+            "Original Category",
+            "Songs starting with D"
         ],
         "id": 3010028,
         "level": "12+",
@@ -5302,9 +5320,9 @@ var enTags = [
         "name": "TAIYAKI IDOL ☆ TAYORIN SANJOU! (feat.Hige Driver)",
         "tags": [
             "Base Category",
-            "Song with !",
+            "Songs with !",
             "Princess Letters",
-            "Song with ☆"
+            "Songs with ☆"
         ],
         "id": 5050157,
         "level": "14+",
@@ -5348,7 +5366,7 @@ var enTags = [
         "name": "Oshama Scramble!",
         "tags": [
             "Game Category",
-            "Song with !",
+            "Songs with !",
             "GekiChuMai"
         ],
         "id": 5030067,
@@ -5371,7 +5389,7 @@ var enTags = [
         "name": "Trrricksters!!",
         "tags": [
             "Game Category",
-            "Song with !",
+            "Songs with !",
             "GekiChuMai"
         ],
         "id": 5030064,
@@ -5487,7 +5505,7 @@ var enTags = [
         "tags": [
             "Merm4id",
             "Original Category",
-            "Song with !"
+            "Songs with !"
         ],
         "level": "15",
         "scorePerc": "96.2%",
