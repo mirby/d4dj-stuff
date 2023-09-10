@@ -1326,6 +1326,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "115": {
+        "id":115,
+        "name":"Sparks of Rain, Night of Moonlight",
+        "characters":"Tsubaki,Nagisa,Hiiro,Aoi",
+        "type":"Bingo",
+        "style":"Cute",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
