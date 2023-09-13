@@ -6877,8 +6877,8 @@ var jpTags = [
             "Cover Category",
             "Songs with !"
         ],
-        "level": "",
-        "scorePerc": "",
+        "level": "13",
+        "scorePerc": "91.5%",
         "date": "2023-09-03"
     },
     {
@@ -6890,8 +6890,53 @@ var jpTags = [
             "Songs with !",
             "Songs with Love (愛,恋)"
         ],
-        "level": "",
-        "scorePerc": "",
+        "level": "13+",
+        "scorePerc": "91.0%",
         "date": "2023-09-02"
+    },
+    {
+        "id": 410023,
+        "name": "BOOM-BOOM SHAKE!(Aggressive Mix)",
+        "tags": [
+            "Merm4id",
+            "Original Category",
+            "Songs with !"
+        ],
+        "level": "15",
+        "scorePerc": "96.5",
+        "date": "2023-09-10"
+    },
+    {
+        "id": 310023,
+        "name": "Photon Tale(DJ WILDPARTY remix)",
+        "tags": [
+            "Photon Maiden",
+            "Original Category"
+        ],
+        "level": "15",
+        "scorePerc": "95.1",
+        "date": "2023-09-10"
+    },
+    {
+        "id": 3010034,
+        "name": "孤月",
+        "tags": [
+            "Special (unit)",
+            "Original Category"
+        ],
+        "level": "12+",
+        "scorePerc": "92.8",
+        "date": "2023-09-09"
+    },
+    {
+        "id": 3020011,
+        "name": "conflict feat.出雲咲姫",
+        "tags": [
+            "Special (unit)",
+            "Cover Category"
+        ],
+        "level": "15",
+        "scorePerc": "91.7",
+        "date": "2023-09-10"
     }
 ]

@@ -4053,18 +4053,6 @@ var enTags = [
         "date": "2022-10-07"
     },
     {
-        "name": "UNSTOPPABLE",
-        "tags": [
-            "Base Category",
-            "Winter 23 Dan",
-            "Bushiroad"
-        ],
-        "id": 5050168,
-        "level": "13+",
-        "scorePerc": "93.9%",
-        "date": "2022-10-08"
-    },
-    {
         "name": "Sparkling Daydream",
         "tags": [
             "Happy Around!",
@@ -4079,16 +4067,6 @@ var enTags = [
         "level": "13",
         "scorePerc": "94.0%",
         "date": "2022-10-09"
-    },
-    {
-        "name": "Can Do",
-        "tags": [
-            "Base Category"
-        ],
-        "id": 5050170,
-        "level": "12+",
-        "scorePerc": "87.0%",
-        "date": "2022-10-10"
     },
     {
         "name": "Sparkle [D4DJ Remix]",
