@@ -1337,6 +1337,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "116": {
+        "id":116,
+        "name":"Transmitted Heat,The Heart at 100.4°F",
+        "characters":"Neo,Sophia,Elsie,Weronika",
+        "type":"Rave",
+        "style":"None",
+        "parameter":"None",
+        "bonus":false,
+        "comboBonus":false,
+        "addition":""
+    },
 }
 
 /*
