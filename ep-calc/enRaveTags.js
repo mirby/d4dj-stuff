@@ -193,7 +193,8 @@ var enTags = [
             "RONDO",
             "Original Category",
             "First Mix",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "BPM 120 or less"
         ],
         "id": 510001,
         "level": "13+",
@@ -480,7 +481,8 @@ var enTags = [
         "name": "YONIMO KIMYOUNA MONOGATARI BGM",
         "tags": [
             "Instrumental Category",
-            "Winter 23 Dan"
+            "Winter 23 Dan",
+            "BPM 120 or less"
         ],
         "id": 5040011,
         "level": "12+",
@@ -1087,7 +1089,8 @@ var enTags = [
             "First Mix",
             "D4DJ Anime",
             "Songs with MV",
-            "Groovy Fes"
+            "Groovy Fes",
+            "BPM 120 or less"
         ],
         "id": 210005,
         "level": "11+",
@@ -1141,7 +1144,8 @@ var enTags = [
             "Winter 23 Dan",
             "First Mix",
             "D4DJ Anime",
-            "Songs with MV"
+            "Songs with MV",
+            "BPM 120 or less"
         ],
         "id": 310005,
         "level": "10+",
@@ -1307,7 +1311,8 @@ var enTags = [
         "tags": [
             "RONDO",
             "Original Category",
-            "Winter 23 Dan"
+            "Winter 23 Dan",
+            "BPM 120 or less"
         ],
         "id": 510006,
         "level": "10",
@@ -1320,7 +1325,8 @@ var enTags = [
             "RONDO",
             "Original Category",
             "Summer 22 Dan",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "BPM 120 or less"
         ],
         "id": 510007,
         "level": "10",
@@ -1627,7 +1633,8 @@ var enTags = [
         "tags": [
             "Happy Around!",
             "Cover Category",
-            "Cover Tracks Vol 3"
+            "Cover Tracks Vol 3",
+            "BPM 120 or less"
         ],
         "id": 120012,
         "level": "12+",
@@ -1745,7 +1752,8 @@ var enTags = [
             "Summer 22 Dan",
             "Winter 23 Dan",
             "Summer 23 Dan",
-            "Event Songs"
+            "Event Songs",
+            "BPM 120 or less"
         ],
         "id": 210007,
         "level": "10+",
@@ -1852,7 +1860,8 @@ var enTags = [
             "Summer 22 Dan",
             "First Mix",
             "D4DJ Anime",
-            "Numbers Spelled Out"
+            "Numbers Spelled Out",
+            "BPM 120 or less"
         ],
         "id": 110013,
         "level": "12",
@@ -1900,7 +1909,8 @@ var enTags = [
             "Lyrical Lily",
             "Cover Category",
             "Spring 23 Dan",
-            "Cover Tracks Vol 3"
+            "Cover Tracks Vol 3",
+            "BPM 120 or less"
         ],
         "id": 620012,
         "level": "11",
@@ -2027,7 +2037,8 @@ var enTags = [
             "Happy Around!",
             "Original Category",
             "Songs with !",
-            "Songs with MV"
+            "Songs with MV",
+            "D4FES Songs"
         ],
         "id": 110015,
         "level": "13",
@@ -2120,7 +2131,8 @@ var enTags = [
             "Summer 22 Dan",
             "Songs with !",
             "Songs with Numerals",
-            "Songs starting with D"
+            "Songs starting with D",
+            "D4FES Songs"
         ],
         "id": 110016,
         "level": "13+",
@@ -2132,7 +2144,8 @@ var enTags = [
         "tags": [
             "Photon Maiden",
             "Original Category",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "D4FES Songs"
         ],
         "id": 310010,
         "level": "13+",
@@ -2181,7 +2194,8 @@ var enTags = [
         "tags": [
             "Merm4id",
             "Original Category",
-            "Songs with Party"
+            "Songs with Party",
+            "D4FES Songs"
         ],
         "id": 410008,
         "level": "13",
@@ -2193,7 +2207,8 @@ var enTags = [
         "tags": [
             "Lyrical Lily",
             "Original Category",
-            "Summer 22 Dan"
+            "Summer 22 Dan",
+            "D4FES Songs"
         ],
         "id": 610008,
         "level": "14",
@@ -2220,7 +2235,9 @@ var enTags = [
         "tags": [
             "RONDO",
             "Original Category",
-            "Summer 22 Dan"
+            "Summer 22 Dan",
+            "D4FES Songs",
+            "BPM 120 or less"
         ],
         "id": 510011,
         "level": "13+",
@@ -2231,7 +2248,8 @@ var enTags = [
         "name": "Y",
         "tags": [
             "Base Category",
-            "Bushiroad"
+            "Bushiroad",
+            "BPM 120 or less"
         ],
         "id": 5050061,
         "level": "11",
@@ -2247,7 +2265,8 @@ var enTags = [
             "Summer 23 Dan",
             "D4FES Songs",
             "Songs with Numerals",
-            "Songs with MV"
+            "Songs with MV",
+            "BPM 120 or less"
         ],
         "id": 310011,
         "level": "13",
@@ -2284,7 +2303,8 @@ var enTags = [
             "Summer 22 Dan",
             "Summer 23 Dan",
             "Event Songs",
-            "All Mix"
+            "All Mix",
+            "BPM 120 or less"
         ],
         "id": 510012,
         "level": "12+",
@@ -2298,7 +2318,8 @@ var enTags = [
             "Original Category",
             "Summer 22 Dan",
             "Songs with DJ",
-            "Songs with ☆"
+            "Songs with ☆",
+            "D4FES Songs"
         ],
         "id": 210009,
         "level": "14",
@@ -2508,7 +2529,8 @@ var enTags = [
             "Original Category",
             "Winter 23 Dan",
             "Event Songs",
-            "Groovy Fes"
+            "Groovy Fes",
+            "BPM 120 or less"
         ],
         "id": 310012,
         "level": "10+",
@@ -2722,7 +2744,8 @@ var enTags = [
     {
         "name": "Embrace of light",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "BPM 120 or less"
         ],
         "id": 5050055,
         "level": "11",
@@ -2785,7 +2808,8 @@ var enTags = [
         "tags": [
             "Base Category",
             "from ARGONAVIS",
-            "Bushiroad"
+            "Bushiroad",
+            "BPM 120 or less"
         ],
         "id": 5050080,
         "level": "13+",
@@ -2800,7 +2824,8 @@ var enTags = [
             "Autumn 22 Dan",
             "Summer 23 Dan",
             "Cover Tracks Vol 6",
-            "Numbers Spelled Out"
+            "Numbers Spelled Out",
+            "BPM 120 or less"
         ],
         "id": 220018,
         "level": "11+",
@@ -3172,7 +3197,8 @@ var enTags = [
         "name": "Insomnia",
         "tags": [
             "Base Category",
-            "Winter 23 Dan"
+            "Winter 23 Dan",
+            "BPM 120 or less"
         ],
         "id": 5050148,
         "level": "12",
@@ -3183,7 +3209,8 @@ var enTags = [
         "name": "Loving you",
         "tags": [
             "Base Category",
-            "Winter 23 Dan"
+            "Winter 23 Dan",
+            "BPM 120 or less"
         ],
         "id": 5050149,
         "level": "11",
@@ -3752,7 +3779,8 @@ var enTags = [
             "Photon Maiden",
             "Original Category",
             "Autumn 22 Dan",
-            "Event Songs"
+            "Event Songs",
+            "BPM 120 or less"
         ],
         "id": 310017,
         "level": "12+",
@@ -3768,7 +3796,8 @@ var enTags = [
             "Angel and Demon",
             "Groovy Fes",
             "D4FES Songs",
-            "Songs with MV"
+            "Songs with MV",
+            "BPM 120 or less"
         ],
         "id": 510018,
         "level": "14",
@@ -3796,7 +3825,8 @@ var enTags = [
             "Lyrical Lily",
             "Original Category",
             "Autumn 22 Dan",
-            "Songs with Cat"
+            "Songs with Cat",
+            "BPM 120 or less"
         ],
         "id": 610016,
         "level": "12+",
@@ -3850,7 +3880,8 @@ var enTags = [
             "Original Category",
             "Autumn 22 Dan",
             "Summer 23 Dan",
-            "Event Songs"
+            "Event Songs",
+            "BPM 120 or less"
         ],
         "id": 210016,
         "level": "12",
@@ -4007,7 +4038,8 @@ var enTags = [
             "Cover Category",
             "Winter 23 Dan",
             "Spring 23 Dan",
-            "Cover Tracks Vol 8"
+            "Cover Tracks Vol 8",
+            "BPM 120 or less"
         ],
         "id": 520019,
         "level": "10",
@@ -4253,7 +4285,8 @@ var enTags = [
         "name": "Welcome! (D-POP version) ～D.U.P.～",
         "tags": [
             "Base Category",
-            "Songs with !"
+            "Songs with !",
+            "BPM 120 or less"
         ],
         "id": 5050178,
         "level": "11+",
@@ -4341,7 +4374,8 @@ var enTags = [
         "tags": [
             "Abyssmare",
             "Original Category",
-            "Side Nova"
+            "Side Nova",
+            "BPM 120 or less"
         ],
         "level": "14+",
         "scorePerc": "93.4%",
@@ -4354,7 +4388,8 @@ var enTags = [
             "Original Category",
             "Spring 23 Dan",
             "Summer 23 Dan",
-            "Songs starting with D"
+            "Songs starting with D",
+            "BPM 120 or less"
         ],
         "id": 210017,
         "level": "12+",
@@ -4406,7 +4441,8 @@ var enTags = [
             "Summer 23 Dan",
             "Songs with Numerals",
             "Side Origin",
-            "Songs with MV"
+            "Songs with MV",
+            "BPM 120 or less"
         ],
         "id": 310020,
         "level": "12",
@@ -4733,7 +4769,8 @@ var enTags = [
             "Original Category",
             "D4DJ Anime",
             "Songs with MV",
-            "All Mix"
+            "All Mix",
+            "BPM 120 or less"
         ],
         "id": 3010020,
         "level": "10",
@@ -4759,7 +4796,8 @@ var enTags = [
         "tags": [
             "Special (unit)",
             "Cover Category",
-            "Songs with Love"
+            "Songs with Love",
+            "BPM 120 or less"
         ],
         "id": 3020018,
         "level": "12",
@@ -4991,7 +5029,8 @@ var enTags = [
             "Special (unit)",
             "Original Category",
             "Summer 23 Dan",
-            "Songs with Black or White"
+            "Songs with Black or White",
+            "BPM 120 or less"
         ],
         "id": 3010024,
         "level": "11+",
@@ -5119,7 +5158,8 @@ var enTags = [
         "tags": [
             "Base Category",
             "Vtuber",
-            "Hololive"
+            "Hololive",
+            "BPM 120 or less"
         ],
         "id": 5050216,
         "level": "11",
@@ -5287,7 +5327,8 @@ var enTags = [
         "name": "Mienai Tsubasa (feat.bassy)",
         "tags": [
             "Base Category",
-            "Princess Letters"
+            "Princess Letters",
+            "BPM 120 or less"
         ],
         "id": 5050156,
         "level": "11",
@@ -5448,7 +5489,8 @@ var enTags = [
         "name": "Raindrops",
         "tags": [
             "Abyssmare",
-            "Original Category"
+            "Original Category",
+            "BPM 120 or less"
         ],
         "level": "13",
         "scorePerc": "94.0%",
@@ -5494,7 +5536,8 @@ var enTags = [
         "name": "FriendShip",
         "tags": [
             "Photon Maiden",
-            "Original Category"
+            "Original Category",
+            "BPM 120 or less"
         ],
         "level": "13",
         "scorePerc": "92.4%",
@@ -5505,7 +5548,8 @@ var enTags = [
         "name": "Manatsu no Instant",
         "tags": [
             "Peaky P-key",
-            "Original Category"
+            "Original Category",
+            "BPM 120 or less"
         ],
         "level": "11",
         "scorePerc": "92.7%",
