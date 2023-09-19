@@ -18,6 +18,7 @@ const tags = [
     "A:Wrestling",
     "A:Sakura Wars",
     "A:Numbers Spelled Out",
+    "A:BPM 120 or less",
     "A:BPM over 250",
     "A:Angel and Demon",
     "A:Fighting Game",
