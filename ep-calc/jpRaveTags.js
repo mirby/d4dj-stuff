@@ -44,7 +44,8 @@ var jpTags = [
         "tags": [
             "Happy Around!",
             "Cover Category",
-            "Cover Tracks Vol 2"
+            "Cover Tracks Vol 2",
+            "BPM 120 or less"
         ],
         "level": "13",
         "scorePerc": "92.9%",
@@ -204,7 +205,8 @@ var jpTags = [
             "RONDO",
             "Original Category",
             "First Mix",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "BPM 120 or less"
         ],
         "level": "13+",
         "scorePerc": "93.5%",
@@ -480,7 +482,8 @@ var jpTags = [
         "tags": [
             "Peaky P-key",
             "Cover Category",
-            "Cover Tracks Vol 7"
+            "Cover Tracks Vol 7",
+            "BPM 120 or less"
         ],
         "level": "12+",
         "scorePerc": "95.1%",
@@ -536,7 +539,8 @@ var jpTags = [
         "name": "メイン・タイトル（世にも奇妙な物語）",
         "tags": [
             "Instrumental Category",
-            "Winter 23 Dan"
+            "Winter 23 Dan",
+            "BPM 120 or less"
         ],
         "level": "12+",
         "scorePerc": "93.1%",
@@ -1280,7 +1284,8 @@ var jpTags = [
             "First Mix",
             "Groovy Fes",
             "Songs with MV",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "BPM 120 or less"
         ],
         "level": "11+",
         "scorePerc": "92.1%",
@@ -1333,7 +1338,8 @@ var jpTags = [
             "Summer 23 Dan",
             "First Mix",
             "Songs with MV",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "BPM 120 or less"
         ],
         "level": "10+",
         "scorePerc": "92.8%",
@@ -1526,7 +1532,8 @@ var jpTags = [
         "tags": [
             "RONDO",
             "Original Category",
-            "Winter 23 Dan"
+            "Winter 23 Dan",
+            "BPM 120 or less"
         ],
         "level": "10",
         "scorePerc": "88.7%",
@@ -1539,7 +1546,8 @@ var jpTags = [
             "RONDO",
             "Original Category",
             "Summer 22 Dan",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "BPM 120 or less"
         ],
         "level": "10",
         "scorePerc": "88.8%",
@@ -1854,7 +1862,8 @@ var jpTags = [
         "tags": [
             "Happy Around!",
             "Cover Category",
-            "Cover Tracks Vol 3"
+            "Cover Tracks Vol 3",
+            "BPM 120 or less"
         ],
         "level": "12+",
         "scorePerc": "91.1%",
@@ -1977,7 +1986,8 @@ var jpTags = [
             "Summer 22 Dan",
             "Winter 23 Dan",
             "Summer 23 Dan",
-            "Event Songs"
+            "Event Songs",
+            "BPM 120 or less"
         ],
         "level": "10+",
         "scorePerc": "91.6%",
@@ -2193,7 +2203,8 @@ var jpTags = [
             "Original Category",
             "First Mix",
             "Numbers Spelled Out",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "BPM 120 or less"
         ],
         "level": "12",
         "scorePerc": "91.1%",
@@ -2239,7 +2250,8 @@ var jpTags = [
         "tags": [
             "Lyrical Lily",
             "Cover Category",
-            "Cover Tracks Vol 3"
+            "Cover Tracks Vol 3",
+            "BPM 120 or less"
         ],
         "level": "11",
         "scorePerc": "89.7%",
@@ -2414,7 +2426,8 @@ var jpTags = [
             "Happy Around!",
             "Original Category",
             "Songs with !",
-            "Songs with MV"
+            "Songs with MV",
+            "D4FES Songs"
         ],
         "level": "13",
         "scorePerc": "95.4%",
@@ -2553,7 +2566,8 @@ var jpTags = [
             "Summer 23 Dan",
             "Songs with Numerals",
             "Songs starting with D",
-            "Songs with !"
+            "Songs with !",
+            "D4FES Songs"
         ],
         "level": "13+",
         "scorePerc": "93.2%",
@@ -2578,7 +2592,8 @@ var jpTags = [
         "tags": [
             "Photon Maiden",
             "Original Category",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "D4FES Songs"
         ],
         "level": "13+",
         "scorePerc": "95.3%",
@@ -2661,7 +2676,8 @@ var jpTags = [
         "name": "Floor Killer (After Party Mix)",
         "tags": [
             "Merm4id",
-            "Original Category"
+            "Original Category",
+            "D4FES Songs"
         ],
         "level": "13",
         "scorePerc": "92.1%",
@@ -2673,7 +2689,8 @@ var jpTags = [
         "tags": [
             "Lyrical Lily",
             "Original Category",
-            "Summer 22 Dan"
+            "Summer 22 Dan",
+            "D4FES Songs"
         ],
         "level": "14",
         "scorePerc": "94.7%",
@@ -2723,7 +2740,9 @@ var jpTags = [
         "name": "瞬動-movement- (Maozon Remix)",
         "tags": [
             "RONDO",
-            "Original Category"
+            "Original Category",
+            "D4FES Songs",
+            "BPM 120 or less"
         ],
         "level": "13+",
         "scorePerc": "91.7%",
@@ -2749,7 +2768,8 @@ var jpTags = [
             "Summer 23 Dan",
             "D4FES Songs",
             "Songs with Numerals",
-            "Songs with MV"
+            "Songs with MV",
+            "BPM 120 or less"
         ],
         "level": "13",
         "scorePerc": "91.3%",
@@ -2785,7 +2805,8 @@ var jpTags = [
             "Summer 22 Dan",
             "Summer 23 Dan",
             "Event Songs",
-            "All Mix"
+            "All Mix",
+            "BPM 120 or less"
         ],
         "level": "12+",
         "scorePerc": "92.2%",
@@ -2809,7 +2830,8 @@ var jpTags = [
         "tags": [
             "Peaky P-key",
             "Original Category",
-            "Summer 22 Dan"
+            "Summer 22 Dan",
+            "D4FES Songs"
         ],
         "level": "14",
         "scorePerc": "95.9%",
@@ -2855,7 +2877,8 @@ var jpTags = [
         "id": 5050058,
         "name": "妄想感傷代償連盟",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "BPM 120 or less"
         ],
         "level": "11+",
         "scorePerc": "87.5%",
@@ -3238,7 +3261,8 @@ var jpTags = [
             "Original Category",
             "Winter 23 Dan",
             "Groovy Fes",
-            "Event Songs"
+            "Event Songs",
+            "BPM 120 or less"
         ],
         "level": "10+",
         "scorePerc": "88.8%",
@@ -3318,7 +3342,8 @@ var jpTags = [
             "Peaky P-key",
             "Cover Category",
             "Cover Tracks Vol 6",
-            "Numbers Spelled Out"
+            "Numbers Spelled Out",
+            "BPM 120 or less"
         ],
         "level": "11+",
         "scorePerc": "90.0%",
@@ -3829,7 +3854,8 @@ var jpTags = [
         "name": "トルコ行進曲 - オワタ＼(^o^)／",
         "tags": [
             "Base Category",
-            "Spring 23 Dan"
+            "Spring 23 Dan",
+            "BPM 120 or less"
         ],
         "level": "13",
         "scorePerc": "93.5%",
@@ -3894,7 +3920,8 @@ var jpTags = [
         "name": "コミブシWEBのテーマ",
         "tags": [
             "Base Category",
-            "Songs with Theme (テーマ)"
+            "Songs with Theme (テーマ)",
+            "BPM 120 or less"
         ],
         "level": "12+",
         "scorePerc": "93.8%",
@@ -4512,7 +4539,8 @@ var jpTags = [
             "Autumn 22 Dan",
             "Groovy Fes",
             "D4FES Songs",
-            "Songs with MV"
+            "Songs with MV",
+            "BPM 120 or less"
         ],
         "level": "14",
         "scorePerc": "90.9%",
@@ -4663,7 +4691,8 @@ var jpTags = [
         "tags": [
             "Lyrical Lily",
             "Original Category",
-            "Autumn 22 Dan"
+            "Autumn 22 Dan",
+            "BPM 120 or less"
         ],
         "level": "12+",
         "scorePerc": "92.6%",
@@ -4674,7 +4703,8 @@ var jpTags = [
         "name": "てっぺんっ天国 ～TOP OF THE LAUGH !!!～",
         "tags": [
             "Base Category",
-            "Songs with !"
+            "Songs with !",
+            "BPM 120 or less"
         ],
         "level": "12+",
         "scorePerc": "93.4%",
@@ -4708,7 +4738,8 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Songs with Wings",
-            "Princess Letters"
+            "Princess Letters",
+            "BPM 120 or less"
         ],
         "level": "11",
         "scorePerc": "94.0%",
@@ -4746,7 +4777,8 @@ var jpTags = [
             "Original Category",
             "Autumn 22 Dan",
             "Summer 23 Dan",
-            "Event Songs"
+            "Event Songs",
+            "BPM 120 or less"
         ],
         "level": "12",
         "scorePerc": "90.4%",
@@ -4759,7 +4791,8 @@ var jpTags = [
             "Photon Maiden",
             "Original Category",
             "Autumn 22 Dan",
-            "Event Songs"
+            "Event Songs",
+            "BPM 120 or less"
         ],
         "level": "12+",
         "scorePerc": "91.0%",
@@ -5098,7 +5131,8 @@ var jpTags = [
             "Original Category",
             "Spring 23 Dan",
             "Summer 23 Dan",
-            "Songs starting with D"
+            "Songs starting with D",
+            "BPM 120 or less"
         ],
         "level": "12+",
         "scorePerc": "92.0%",
@@ -5210,7 +5244,8 @@ var jpTags = [
             "Cover Category",
             "Winter 23 Dan",
             "Spring 23 Dan",
-            "Cover Tracks Vol 8"
+            "Cover Tracks Vol 8",
+            "BPM 120 or less"
         ],
         "level": "10",
         "scorePerc": "88.0%",
@@ -5364,7 +5399,8 @@ var jpTags = [
         "name": "Let The Show Begin",
         "tags": [
             "Special (unit)",
-            "Cover Category"
+            "Cover Category",
+            "BPM 120 or less"
         ],
         "level": "12+",
         "scorePerc": "91.7%",
@@ -5386,7 +5422,8 @@ var jpTags = [
         "name": "プラスティック・ラブ",
         "tags": [
             "Special (unit)",
-            "Cover Category"
+            "Cover Category",
+            "BPM 120 or less"
         ],
         "level": "12",
         "scorePerc": "89.0%",
@@ -5417,7 +5454,8 @@ var jpTags = [
         "name": "Welcome! (D-POP version) ～D.U.P.～",
         "tags": [
             "Base Category",
-            "Songs with !"
+            "Songs with !",
+            "BPM 120 or less"
         ],
         "level": "11+",
         "scorePerc": "91.9%",
@@ -5473,7 +5511,8 @@ var jpTags = [
         "tags": [
             "Abyssmare",
             "Original Category",
-            "Side Nova"
+            "Side Nova",
+            "BPM 120 or less"
         ],
         "level": "14+",
         "scorePerc": "93.4%",
@@ -5610,7 +5649,8 @@ var jpTags = [
         "id": 5050190,
         "name": "Just the truth",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "BPM 120 or less"
         ],
         "level": "12",
         "scorePerc": "92.1%",
@@ -5704,7 +5744,8 @@ var jpTags = [
         "name": "GALAXY",
         "tags": [
             "Base Category",
-            "Vtuber"
+            "Vtuber",
+            "BPM 120 or less"
         ],
         "level": "12",
         "scorePerc": "90.8%",
@@ -5786,7 +5827,8 @@ var jpTags = [
             "Summer 23 Dan",
             "Side Origin",
             "Songs with Numerals",
-            "Songs with MV"
+            "Songs with MV",
+            "BPM 120 or less"
         ],
         "level": "12",
         "scorePerc": "90.2%",
@@ -5956,7 +5998,8 @@ var jpTags = [
             "Original Category",
             "Songs with MV",
             "D4DJ Anime",
-            "All Mix"
+            "All Mix",
+            "BPM 120 or less"
         ],
         "level": "10",
         "scorePerc": "88.7%",
@@ -6088,7 +6131,8 @@ var jpTags = [
             "Special (unit)",
             "Original Category",
             "Summer 23 Dan",
-            "Songs with Black or White"
+            "Songs with Black or White",
+            "BPM 120 or less"
         ],
         "level": "11+",
         "scorePerc": "91.4%",
@@ -6269,7 +6313,8 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Vtuber",
-            "Hololive"
+            "Hololive",
+            "BPM 120 or less"
         ],
         "level": "11",
         "scorePerc": "89.7%",
@@ -6416,7 +6461,8 @@ var jpTags = [
         "name": "たぶん",
         "tags": [
             "Special (unit)",
-            "Cover Category"
+            "Cover Category",
+            "BPM 120 or less"
         ],
         "level": "11+",
         "scorePerc": "90.7%",
@@ -6621,7 +6667,8 @@ var jpTags = [
         "tags": [
             "Special (unit)",
             "Cover Category",
-            "Songs with Love (愛,恋)"
+            "Songs with Love (愛,恋)",
+            "BPM 120 or less"
         ],
         "level": "11",
         "scorePerc": "89.4%",
@@ -6698,7 +6745,8 @@ var jpTags = [
         "name": "真夏のInstant",
         "tags": [
             "Peaky P-key",
-            "Original Category"
+            "Original Category",
+            "BPM 120 or less"
         ],
         "level": "11",
         "scorePerc": "92.7%",
@@ -6709,7 +6757,8 @@ var jpTags = [
         "name": "FriendShip",
         "tags": [
             "Photon Maiden",
-            "Original Category"
+            "Original Category",
+            "BPM 120 or less"
         ],
         "level": "13",
         "scorePerc": "92.4%",
@@ -6765,7 +6814,8 @@ var jpTags = [
         "name": "Raindrops",
         "tags": [
             "Abyssmare",
-            "Original Category"
+            "Original Category",
+            "BPM 120 or less"
         ],
         "level": "13",
         "scorePerc": "94.0%",
@@ -6903,7 +6953,7 @@ var jpTags = [
             "Songs with !"
         ],
         "level": "15",
-        "scorePerc": "96.5",
+        "scorePerc": "96.5%",
         "date": "2023-09-10"
     },
     {
@@ -6914,7 +6964,7 @@ var jpTags = [
             "Original Category"
         ],
         "level": "15",
-        "scorePerc": "95.1",
+        "scorePerc": "95.1%",
         "date": "2023-09-10"
     },
     {
@@ -6925,7 +6975,7 @@ var jpTags = [
             "Original Category"
         ],
         "level": "12+",
-        "scorePerc": "92.8",
+        "scorePerc": "92.8%",
         "date": "2023-09-09"
     },
     {
@@ -6936,7 +6986,50 @@ var jpTags = [
             "Cover Category"
         ],
         "level": "15",
-        "scorePerc": "91.7",
+        "scorePerc": "91.7%",
         "date": "2023-09-10"
+    },
+    {
+        "id": 3020021,
+        "name": "カタオモイ",
+        "tags": [
+            "Special (unit)",
+            "Cover Category",
+            "BPM 120 or less"
+        ],
+        "level": "13",
+        "scorePerc": "90.8%",
+        "date": "2023-09-14"
+    },
+    {
+        "id": 5050237,
+        "name": "ALiVE",
+        "tags": [
+            "Base Category"
+        ],
+        "level": "13+",
+        "scorePerc": "93.6%",
+        "date": "2023-09-17"
+    },
+    {
+        "id": 5050239,
+        "name": "T+ VS SHARK",
+        "tags": [
+            "Base Category"
+        ],
+        "level": "14",
+        "scorePerc": "91.4%",
+        "date": "2023-09-17"
+    },
+    {
+        "id": 5050240,
+        "name": "BATTLE NO.1",
+        "tags": [
+            "Base Category",
+            "Songs with Numerals"
+        ],
+        "level": "14+",
+        "scorePerc": "94.1%",
+        "date": "2023-09-17"
     }
 ]

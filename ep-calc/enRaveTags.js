@@ -5554,5 +5554,27 @@ var enTags = [
         "level": "11",
         "scorePerc": "92.7%",
         "date": "2023-08-19"
+    },
+    {
+        "id": 910006,
+        "name": "Take Me On",
+        "tags": [
+            "Abyssmare",
+            "Original Category"
+        ],
+        "level": "13",
+        "scorePerc": "91.5%",
+        "date": "2023-09-19"
+    },
+    {
+        "id": 210021,
+        "name": "Ideal Factor",
+        "tags": [
+            "Peaky P-key",
+            "Original Category"
+        ],
+        "level": "12+",
+        "scorePerc": "94.2%",
+        "date": "2023-09-20"
     }
 ]
