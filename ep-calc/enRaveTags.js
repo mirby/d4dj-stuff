@@ -3117,8 +3117,7 @@ var enTags = [
         "tags": [
             "Base Category",
             "Songs with !",
-            "from ARGONAVIS",
-            "Bushiroad"
+            "from ARGONAVIS"
         ],
         "id": 5050129,
         "level": "13+",
@@ -3793,7 +3792,6 @@ var enTags = [
             "RONDO",
             "Original Category",
             "Autumn 22 Dan",
-            "Angel and Demon",
             "Groovy Fes",
             "D4FES Songs",
             "Songs with MV",
@@ -4116,7 +4114,8 @@ var enTags = [
     {
         "name": "Regalia - Keishou",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Bushiroad"
         ],
         "id": 5050185,
         "level": "13+",
