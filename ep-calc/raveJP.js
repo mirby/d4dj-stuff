@@ -220,6 +220,7 @@ function displaySongList(arr) {
     }    
 
     var table = document.createElement("table");
+    table.id = "songListTable";
     table.classList.add("table");
     table.classList.add("table-bordered");
     let thead = table.createTHead();
@@ -236,9 +237,10 @@ function displaySongList(arr) {
     text = document.createTextNode("Score Potential");
     th.appendChild(text);
     row.appendChild(th);
+    let tbody = table.createTBody();
 
     for (let x of arr) {
-        var songRow = table.insertRow();
+        var songRow = tbody.insertRow();
         songRow.insertCell().appendChild(document.createTextNode(x.name));
         songRow.insertCell().appendChild(document.createTextNode(x.tags));
         songRow.insertCell().appendChild(document.createTextNode(x.scorePerc));
@@ -406,4 +408,37 @@ function createSongHintRow(text, id) {
 
     div.appendChild(textEle);
     parent.appendChild(div);
+}
+
+function exportColumn() {
+    var columnIndex = 0;
+    const table = document.getElementById('songListTable');
+    const rows = table.querySelectorAll('tbody tr');
+    let data = [];
+
+    rows.forEach((row) => {
+        const cells = row.querySelectorAll('td');
+        if (cells.length > columnIndex) {
+            data.push(cells[columnIndex].textContent);
+        }
+    });
+
+    const columnData = data.join('\n');
+    const blob = new Blob([columnData], { type: 'text/plain' });
+    const url = URL.createObjectURL(blob);
+
+    // Prompt the user for download confirmation
+    const downloadConfirmation = confirm('Do you want to download this column data?');
+    if (downloadConfirmation) {
+        const downloadLink = document.createElement('a');
+        downloadLink.href = url;
+        downloadLink.download = `column_${columnIndex + 1}_data.txt`;
+        downloadLink.style.display = 'none';
+
+        document.body.appendChild(downloadLink);
+        downloadLink.click();
+
+        URL.revokeObjectURL(url);
+        document.body.removeChild(downloadLink);
+    }
 }
