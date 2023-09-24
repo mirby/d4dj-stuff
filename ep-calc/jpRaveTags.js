@@ -2918,7 +2918,8 @@ var jpTags = [
         "tags": [
             "Lyrical Lily",
             "Cover Category",
-            "Cover Tracks Vol 7"
+            "Cover Tracks Vol 7",
+            "Songs with MV"
         ],
         "level": "13",
         "scorePerc": "94.3%",
@@ -3223,7 +3224,8 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Spring 23 Dan",
-            "Princess Letters"
+            "Princess Letters",
+            "Songs with MV"
         ],
         "level": "10+",
         "scorePerc": "91.3%",
@@ -3235,7 +3237,8 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Spring 23 Dan",
-            "Princess Letters"
+            "Princess Letters",
+            "Songs with MV"
         ],
         "level": "11+",
         "scorePerc": "93.2%",
@@ -3247,7 +3250,8 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Spring 23 Dan",
-            "Princess Letters"
+            "Princess Letters",
+            "Songs with MV"
         ],
         "level": "12",
         "scorePerc": "92.9%",
@@ -4170,7 +4174,8 @@ var jpTags = [
         "id": 5050131,
         "name": "B.B.K.K.B.K.K.",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Songs with MV"
         ],
         "level": "13+",
         "scorePerc": "93.6%",
@@ -4196,7 +4201,8 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Spring 23 Dan",
-            "Songs with Numerals"
+            "Songs with Numerals",
+            "Songs with MV"
         ],
         "level": "14",
         "scorePerc": "94.3%",
@@ -4233,7 +4239,8 @@ var jpTags = [
         "id": 5050133,
         "name": "GOODTEK",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Songs with MV"
         ],
         "level": "14",
         "scorePerc": "95.0%",
@@ -4550,7 +4557,8 @@ var jpTags = [
         "id": 5030074,
         "name": "Smell of the Game",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Songs with MV"
         ],
         "level": "14",
         "scorePerc": "92.4%",
@@ -4939,7 +4947,8 @@ var jpTags = [
         "tags": [
             "Game Category",
             "August",
-            "Songs with !"
+            "Songs with !",
+            "Songs with MV"
         ],
         "level": "12",
         "scorePerc": "90.9%",
@@ -4950,7 +4959,8 @@ var jpTags = [
         "name": "Asphodelus",
         "tags": [
             "Game Category",
-            "August"
+            "August",
+            "Songs with MV"
         ],
         "level": "11",
         "scorePerc": "89.3%",
@@ -4961,7 +4971,8 @@ var jpTags = [
         "name": "ストレイトシープ",
         "tags": [
             "Game Category",
-            "August"
+            "August",
+            "Songs with MV"
         ],
         "level": "12",
         "scorePerc": "95.2%",
@@ -5005,7 +5016,8 @@ var jpTags = [
         "name": "はじまりの奏",
         "tags": [
             "Game Category",
-            "August"
+            "August",
+            "Songs with MV"
         ],
         "level": "11+",
         "scorePerc": "91.2%",
@@ -5512,7 +5524,8 @@ var jpTags = [
             "Abyssmare",
             "Original Category",
             "Side Nova",
-            "BPM 120 or less"
+            "BPM 120 or less",
+            "Songs with MV"
         ],
         "level": "14+",
         "scorePerc": "93.4%",

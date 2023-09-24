@@ -2591,7 +2591,8 @@ var enTags = [
         "tags": [
             "Lyrical Lily",
             "Cover Category",
-            "Cover Tracks Vol 7"
+            "Cover Tracks Vol 7",
+            "Songs with MV"
         ],
         "id": 620013,
         "level": "13",
@@ -2629,7 +2630,8 @@ var enTags = [
         "tags": [
             "Base Category",
             "Spring 23 Dan",
-            "Princess Letters"
+            "Princess Letters",
+            "Songs with MV"
         ],
         "id": 5050075,
         "level": "10+",
@@ -2641,7 +2643,8 @@ var enTags = [
         "tags": [
             "Base Category",
             "Spring 23 Dan",
-            "Princess Letters"
+            "Princess Letters",
+            "Songs with MV"
         ],
         "id": 5050076,
         "level": "11+",
@@ -2653,7 +2656,8 @@ var enTags = [
         "tags": [
             "Base Category",
             "Spring 23 Dan",
-            "Princess Letters"
+            "Princess Letters",
+            "Songs with MV"
         ],
         "id": 5050077,
         "level": "12",
@@ -3368,7 +3372,8 @@ var enTags = [
             "Autumn 22 Dan",
             "Winter 23 Dan",
             "D4FES Songs",
-            "Groovy Fes"
+            "Groovy Fes",
+            "Songs with MV"
         ],
         "id": 310016,
         "level": "12",
@@ -3392,7 +3397,8 @@ var enTags = [
         "name": "Smell of the Game",
         "tags": [
             "Game Category",
-            "Fighting Game"
+            "Fighting Game",
+            "Songs with MV"
         ],
         "id": 5030074,
         "level": "14",
@@ -3418,7 +3424,8 @@ var enTags = [
             "Original Category",
             "Summer 22 Dan",
             "Autumn 22 Dan",
-            "D4FES Songs"
+            "D4FES Songs",
+            "Songs with MV"
         ],
         "id": 610015,
         "level": "12+",
@@ -4374,7 +4381,8 @@ var enTags = [
             "Abyssmare",
             "Original Category",
             "Side Nova",
-            "BPM 120 or less"
+            "BPM 120 or less",
+            "Songs with MV"
         ],
         "level": "14+",
         "scorePerc": "93.4%",
@@ -4988,7 +4996,8 @@ var enTags = [
         "tags": [
             "Base Category",
             "Spring 23 Dan",
-            "Songs with Numerals"
+            "Songs with Numerals",
+            "Songs with MV"
         ],
         "id": 5050134,
         "level": "14",
@@ -5575,5 +5584,16 @@ var enTags = [
         "level": "12+",
         "scorePerc": "94.2%",
         "date": "2023-09-20"
+    },
+    {
+        "id": 810006,
+        "name": "Kuusou Reaper",
+        "tags": [
+            "UniChØrd",
+            "Original Category"
+        ],
+        "level": "13+",
+        "scorePerc": "96.1%",
+        "date": "2023-09-21"
     }
 ]
