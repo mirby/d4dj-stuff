@@ -1348,6 +1348,17 @@ var eventList = {
         "comboBonus":false,
         "addition":""
     },
+    "117": {
+        "id":117,
+        "name":"PRISMA ☆ MIX",
+        "characters":"Esora,Saki,Nagisa,Miyu",
+        "type":"Growth",
+        "style":"None",
+        "parameter":"None",
+        "bonus":true,
+        "comboBonus":false,
+        "addition":""
+    },
 }
 
 /*
