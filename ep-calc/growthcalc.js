@@ -318,6 +318,28 @@ function performCalc(rarity, et, event, move, multi) {
     return baseVal * etMulti * eventBonus * moveMulti * actMulti;
 }
 
+function setInitialTheme() {
+    document.getElementById("darkModeToggle").addEventListener("click", () => {
+        const currentMode = document.body.classList.contains("dark-mode") ? "light" : "dark";
+        setMode(currentMode);
+    });
+
+    const userMode = window.localStorage.getItem("mode");
+    if (userMode) {
+        setMode(userMode);
+    }
+}
+
+function setMode(mode) {
+    document.body.classList.toggle("dark-mode", mode === "dark");
+    document.body.classList.toggle("light-mode", mode === "light");
+    document.getElementById("darkModeToggle").textContent = mode === "dark" ? "Dark Mode" : "Light Mode";
+
+    window.localStorage.setItem("mode", mode);
+
+    document.documentElement.setAttribute('data-bs-theme', mode);
+}
+
 // Helper functions
 
 // Capitalize the first letter of a string
