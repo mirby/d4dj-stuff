@@ -1673,7 +1673,8 @@ var enTags = [
         "tags": [
             "Lyrical Lily",
             "Cover Category",
-            "Cover Tracks Vol 2"
+            "Cover Tracks Vol 2",
+            "Event Songs"
         ],
         "id": 620011,
         "level": "13",
@@ -3028,9 +3029,7 @@ var enTags = [
         "tags": [
             "Base Category",
             "Autumn 22 Dan",
-            "Summer 23 Dan",
-            "Vtuber",
-            "Hololive"
+            "Summer 23 Dan"
         ],
         "id": 5050124,
         "level": "13+",
@@ -4409,7 +4408,6 @@ var enTags = [
             "Happy Around!",
             "Original Category",
             "Spring 23 Dan",
-            "Event Songs",
             "Songs with !",
             "Songs with ♡",
             "Songs with Go"

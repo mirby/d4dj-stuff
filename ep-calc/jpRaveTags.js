@@ -5793,7 +5793,6 @@ var jpTags = [
             "Happy Around!",
             "Original Category",
             "Spring 23 Dan",
-            "Event Songs",
             "Songs with ♡",
             "Songs with !",
             "Songs with Go"
