@@ -10094,6 +10094,7 @@ var cards = {
             "technical": 15549,
             "physical": 13743,
             "skill": .5,
+            "growth": true,
             "icon": "card_icon_070610004_1.1b0fdeae",
             "passive": "Groovy Bonus 10-30%"
         },
@@ -10108,6 +10109,7 @@ var cards = {
             "technical": 13719,
             "physical": 15699,
             "skill": .5,
+            "growth": true,
             "icon": "card_icon_070310004_1.f9b08528",
             "passive": "Life Boost 2.5-7.5%"
         },
@@ -10122,6 +10124,7 @@ var cards = {
             "technical": 14291,
             "physical": 14100,
             "skill": .5,
+            "growth": true,
             "icon": "card_icon_070520003_1.c068da56",
             "passive": "Auto Boost 2.5-8%"
         },
@@ -10136,6 +10139,7 @@ var cards = {
             "technical": 14298,
             "physical": 13551,
             "skill": .5,
+            "growth": true,
             "icon": "card_icon_070240004_1.20c58b0e",
             "passive": "Groovy Solo 20-60%"
         },
