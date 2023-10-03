@@ -32,7 +32,8 @@ var jpTags = [
         "tags": [
             "Happy Around!",
             "Cover Category",
-            "Autumn 22 Dan"
+            "Autumn 22 Dan",
+            "Autumn 23 Dan"
         ],
         "level": "12+",
         "scorePerc": "93.9%",
@@ -59,7 +60,8 @@ var jpTags = [
             "Original Category",
             "Autumn 22 Dan",
             "First Mix",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "Autumn 23 Dan"
         ],
         "level": "12",
         "scorePerc": "91.3%",
@@ -192,7 +194,8 @@ var jpTags = [
             "Merm4id",
             "Cover Category",
             "Autumn 22 Dan",
-            "Cover Tracks Vol 3"
+            "Cover Tracks Vol 3",
+            "Autumn 23 Dan"
         ],
         "level": "13+",
         "scorePerc": "95.7%",
@@ -220,7 +223,8 @@ var jpTags = [
             "Cover Category",
             "Winter 23 Dan",
             "Cover Tracks Vol 1",
-            "Songs starting with D"
+            "Songs starting with D",
+            "Autumn 23 Dan"
         ],
         "level": "14",
         "scorePerc": "94.8%",
@@ -286,7 +290,8 @@ var jpTags = [
             "Summer 22 Dan",
             "Autumn 22 Dan",
             "First Mix",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "Autumn 23 Dan"
         ],
         "level": "12+",
         "scorePerc": "95.7%",
@@ -352,7 +357,8 @@ var jpTags = [
             "Winter 23 Dan",
             "Spring 23 Dan",
             "Summer 23 Dan",
-            "Groovy Fes"
+            "Groovy Fes",
+            "Autumn 23 Dan"
         ],
         "level": "14+",
         "scorePerc": "97.3%",
@@ -698,7 +704,8 @@ var jpTags = [
             "Original Category",
             "Autumn 22 Dan",
             "Groovy Fes",
-            "Songs starting with D"
+            "Songs starting with D",
+            "Autumn 23 Dan"
         ],
         "level": "13+",
         "scorePerc": "94.4%",
@@ -726,7 +733,8 @@ var jpTags = [
             "Merm4id",
             "Original Category",
             "Autumn 22 Dan",
-            "Songs with Numerals"
+            "Songs with Numerals",
+            "Autumn 23 Dan"
         ],
         "level": "12+",
         "scorePerc": "90.7%",
@@ -771,7 +779,8 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Autumn 22 Dan",
-            "Songs with !"
+            "Songs with !",
+            "Autumn 23 Dan"
         ],
         "level": "12+",
         "scorePerc": "92.5%",
@@ -832,7 +841,8 @@ var jpTags = [
             "RONDO",
             "Cover Category",
             "Autumn 22 Dan",
-            "Cover Tracks Vol 8"
+            "Cover Tracks Vol 8",
+            "Autumn 23 Dan"
         ],
         "level": "14",
         "scorePerc": "93.9%",
@@ -1258,7 +1268,8 @@ var jpTags = [
         "tags": [
             "Instrumental Category",
             "Spring 23 Dan",
-            "Songs with Numerals"
+            "Songs with Numerals",
+            "Autumn 23 Dan"
         ],
         "level": "13+",
         "scorePerc": "92.6%",
@@ -1339,7 +1350,8 @@ var jpTags = [
             "First Mix",
             "Songs with MV",
             "D4DJ Anime",
-            "BPM 120 or less"
+            "BPM 120 or less",
+            "Autumn 23 Dan"
         ],
         "level": "10+",
         "scorePerc": "92.8%",
@@ -1353,7 +1365,8 @@ var jpTags = [
             "Cover Category",
             "Autumn 22 Dan",
             "Cover Tracks Vol 4",
-            "Songs with MV"
+            "Songs with MV",
+            "Autumn 23 Dan"
         ],
         "level": "11+",
         "scorePerc": "94.7%",
@@ -1588,7 +1601,8 @@ var jpTags = [
             "Peaky P-key",
             "Original Category",
             "Autumn 22 Dan",
-            "Groovy Fes"
+            "Groovy Fes",
+            "Autumn 23 Dan"
         ],
         "level": "13",
         "scorePerc": "92.4%",
@@ -1627,7 +1641,8 @@ var jpTags = [
             "Autumn 22 Dan",
             "Winter 23 Dan",
             "Cover Tracks Vol 4",
-            "Songs with 女"
+            "Songs with 女",
+            "Autumn 23 Dan"
         ],
         "level": "14",
         "scorePerc": "94.9%",
@@ -1716,7 +1731,8 @@ var jpTags = [
         "tags": [
             "Lyrical Lily",
             "Original Category",
-            "Autumn 22 Dan"
+            "Autumn 22 Dan",
+            "Autumn 23 Dan"
         ],
         "level": "11",
         "scorePerc": "91.5%",
@@ -1776,7 +1792,8 @@ var jpTags = [
             "Original Category",
             "Autumn 22 Dan",
             "First Mix",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "Autumn 23 Dan"
         ],
         "level": "10+",
         "scorePerc": "93.0%",
@@ -1800,7 +1817,8 @@ var jpTags = [
             "Peaky P-key",
             "Cover Category",
             "Autumn 22 Dan",
-            "Cover Tracks Vol 2"
+            "Cover Tracks Vol 2",
+            "Autumn 23 Dan"
         ],
         "level": "13",
         "scorePerc": "92.5%",
@@ -1922,7 +1940,8 @@ var jpTags = [
             "Spring 23 Dan",
             "Summer 23 Dan",
             "Touhou",
-            "Songs with Love (愛,恋)"
+            "Songs with Love (愛,恋)",
+            "Autumn 23 Dan"
         ],
         "level": "15",
         "scorePerc": "95.8%",
@@ -2025,7 +2044,8 @@ var jpTags = [
         "tags": [
             "Peaky P-key",
             "Cover Category",
-            "Autumn 22 Dan"
+            "Autumn 22 Dan",
+            "Autumn 23 Dan"
         ],
         "level": "13+",
         "scorePerc": "96.0%",
@@ -2266,7 +2286,8 @@ var jpTags = [
             "Autumn 22 Dan",
             "Winter 23 Dan",
             "Spring 23 Dan",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "Autumn 23 Dan"
         ],
         "level": "14+",
         "scorePerc": "93.2%",
@@ -2537,7 +2558,8 @@ var jpTags = [
             "Peaky P-key",
             "Cover Category",
             "Autumn 22 Dan",
-            "Cover Tracks Vol 4"
+            "Cover Tracks Vol 4",
+            "Autumn 23 Dan"
         ],
         "level": "13+",
         "scorePerc": "94.9%",
@@ -2715,7 +2737,8 @@ var jpTags = [
             "Autumn 22 Dan",
             "Numbers Spelled Out",
             "D4FES Songs",
-            "Songs with MV"
+            "Songs with MV",
+            "Autumn 23 Dan"
         ],
         "level": "13",
         "scorePerc": "92.6%",
@@ -2790,7 +2813,8 @@ var jpTags = [
         "name": "六兆年と一夜物語",
         "tags": [
             "Base Category",
-            "Autumn 22 Dan"
+            "Autumn 22 Dan",
+            "Autumn 23 Dan"
         ],
         "level": "14+",
         "scorePerc": "95.7%",
@@ -3156,7 +3180,8 @@ var jpTags = [
             "Photon Maiden",
             "Cover Category",
             "Autumn 22 Dan",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "Autumn 23 Dan"
         ],
         "level": "13",
         "scorePerc": "92.0%",
@@ -3281,7 +3306,8 @@ var jpTags = [
             "Autumn 22 Dan",
             "Winter 23 Dan",
             "Cover Tracks Vol 6",
-            "Songs with ♡"
+            "Songs with ♡",
+            "Autumn 23 Dan"
         ],
         "level": "12",
         "scorePerc": "90.2%",
@@ -3321,7 +3347,8 @@ var jpTags = [
             "Cover Category",
             "Summer 22 Dan",
             "Summer 23 Dan",
-            "Songs with !"
+            "Songs with !",
+            "Autumn 23 Dan"
         ],
         "level": "13",
         "scorePerc": "94.2%",
@@ -3624,7 +3651,8 @@ var jpTags = [
             "RONDO",
             "Cover Category",
             "Autumn 22 Dan",
-            "Cover Tracks Vol 5"
+            "Cover Tracks Vol 5",
+            "Autumn 23 Dan"
         ],
         "level": "14",
         "scorePerc": "95.2%",
@@ -3660,7 +3688,8 @@ var jpTags = [
             "Game Category",
             "Autumn 22 Dan",
             "Touhou",
-            "Songs with !"
+            "Songs with !",
+            "Autumn 23 Dan"
         ],
         "level": "13+",
         "scorePerc": "93.3%",
@@ -3938,7 +3967,8 @@ var jpTags = [
             "Special (unit)",
             "Original Category",
             "Autumn 22 Dan",
-            "Songs starting with D"
+            "Songs starting with D",
+            "Autumn 23 Dan"
         ],
         "level": "11+",
         "scorePerc": "89.9%",
@@ -4002,7 +4032,8 @@ var jpTags = [
         "tags": [
             "Game Category",
             "Autumn 22 Dan",
-            "GekiChuMai"
+            "GekiChuMai",
+            "Autumn 23 Dan"
         ],
         "level": "15",
         "scorePerc": "92.9%",
@@ -4105,7 +4136,8 @@ var jpTags = [
             "Winter 23 Dan",
             "Numbers Spelled Out",
             "Event Songs",
-            "BPM over 250"
+            "BPM over 250",
+            "Autumn 23 Dan"
         ],
         "level": "13+",
         "scorePerc": "93.3%",
@@ -4264,7 +4296,8 @@ var jpTags = [
             "Cover Category",
             "Autumn 22 Dan",
             "Cover Tracks Vol 7",
-            "Songs with !"
+            "Songs with !",
+            "Autumn 23 Dan"
         ],
         "level": "12",
         "scorePerc": "93.4%",
@@ -4307,7 +4340,8 @@ var jpTags = [
             "Cover Category",
             "Autumn 22 Dan",
             "Cover Tracks Vol 7",
-            "BPM over 250"
+            "BPM over 250",
+            "Autumn 23 Dan"
         ],
         "level": "14",
         "scorePerc": "93.7%",
@@ -4331,7 +4365,8 @@ var jpTags = [
             "Original Category",
             "Autumn 22 Dan",
             "Winter 23 Dan",
-            "Songs with !"
+            "Songs with !",
+            "Autumn 23 Dan"
         ],
         "level": "15",
         "scorePerc": "95.5%",
@@ -4344,7 +4379,8 @@ var jpTags = [
             "Photon Maiden",
             "Original Category",
             "Autumn 22 Dan",
-            "Event Songs"
+            "Event Songs",
+            "Autumn 23 Dan"
         ],
         "level": "13",
         "scorePerc": "93.8%",
@@ -4359,7 +4395,8 @@ var jpTags = [
             "Summer 22 Dan",
             "Autumn 22 Dan",
             "D4FES Songs",
-            "Songs with MV"
+            "Songs with MV",
+            "Autumn 23 Dan"
         ],
         "level": "12+",
         "scorePerc": "90.0%",
@@ -4371,7 +4408,8 @@ var jpTags = [
         "tags": [
             "Merm4id",
             "Original Category",
-            "Autumn 22 Dan"
+            "Autumn 22 Dan",
+            "Autumn 23 Dan"
         ],
         "level": "12+",
         "scorePerc": "90.3%",
@@ -4385,7 +4423,8 @@ var jpTags = [
             "Cover Category",
             "Autumn 22 Dan",
             "Spring 23 Dan",
-            "Cover Tracks Vol 7"
+            "Cover Tracks Vol 7",
+            "Autumn 23 Dan"
         ],
         "level": "11+",
         "scorePerc": "90.6%",
@@ -4398,7 +4437,8 @@ var jpTags = [
             "Lyrical Lily",
             "Cover Category",
             "Autumn 22 Dan",
-            "Cover Tracks Vol 8"
+            "Cover Tracks Vol 8",
+            "Autumn 23 Dan"
         ],
         "level": "13",
         "scorePerc": "93.4%",
@@ -4520,7 +4560,8 @@ var jpTags = [
             "Autumn 22 Dan",
             "Winter 23 Dan",
             "Spring 23 Dan",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "Autumn 23 Dan"
         ],
         "level": "14+",
         "scorePerc": "99.1%",
@@ -4621,7 +4662,8 @@ var jpTags = [
             "Autumn 22 Dan",
             "Groovy Fes",
             "D4FES Songs",
-            "Songs with MV"
+            "Songs with MV",
+            "Autumn 23 Dan"
         ],
         "level": "12+",
         "scorePerc": "91.8%",
@@ -4700,7 +4742,8 @@ var jpTags = [
             "Lyrical Lily",
             "Original Category",
             "Autumn 22 Dan",
-            "BPM 120 or less"
+            "BPM 120 or less",
+            "Autumn 23 Dan"
         ],
         "level": "12+",
         "scorePerc": "92.6%",
@@ -4786,7 +4829,8 @@ var jpTags = [
             "Autumn 22 Dan",
             "Summer 23 Dan",
             "Event Songs",
-            "BPM 120 or less"
+            "BPM 120 or less",
+            "Autumn 23 Dan"
         ],
         "level": "12",
         "scorePerc": "90.4%",
@@ -4800,7 +4844,8 @@ var jpTags = [
             "Original Category",
             "Autumn 22 Dan",
             "Event Songs",
-            "BPM 120 or less"
+            "BPM 120 or less",
+            "Autumn 23 Dan"
         ],
         "level": "12+",
         "scorePerc": "91.0%",
@@ -4814,7 +4859,8 @@ var jpTags = [
             "Original Category",
             "Autumn 22 Dan",
             "Groovy Fes",
-            "Event Songs"
+            "Event Songs",
+            "Autumn 23 Dan"
         ],
         "level": "13",
         "scorePerc": "90.7%",
@@ -4909,7 +4955,8 @@ var jpTags = [
             "Lyrical Lily",
             "Original Category",
             "Autumn 22 Dan",
-            "Spring 23 Dan"
+            "Spring 23 Dan",
+            "Autumn 23 Dan"
         ],
         "level": "12",
         "scorePerc": "92.4%",
@@ -5043,7 +5090,8 @@ var jpTags = [
             "Original Category",
             "Autumn 22 Dan",
             "Spring 23 Dan",
-            "Songs with Cat"
+            "Songs with Cat",
+            "Autumn 23 Dan"
         ],
         "level": "15",
         "scorePerc": "97.2%",
@@ -5089,29 +5137,6 @@ var jpTags = [
         "date": "2023-01-27"
     },
     {
-        "id": 5030092,
-        "name": "NieR:Automataメドレー「双極ノ遊園施設ト美シキ異形ノ歌」",
-        "tags": [
-            "Game Category",
-            "Spring 23 Dan",
-            "Songs with Medley"
-        ],
-        "level": "12+",
-        "scorePerc": "85.3%",
-        "date": "2022-09-22"
-    },
-    {
-        "id": 5030093,
-        "name": "NieR:Automataメドレー「イニシエガ終ワリ絶望ガ壊レタ世界」",
-        "tags": [
-            "Game Category",
-            "Songs with Medley"
-        ],
-        "level": "12+",
-        "scorePerc": "86.3%",
-        "date": "2022-09-23"
-    },
-    {
         "id": 5030094,
         "name": "with U",
         "tags": [
@@ -5144,7 +5169,8 @@ var jpTags = [
             "Spring 23 Dan",
             "Summer 23 Dan",
             "Songs starting with D",
-            "BPM 120 or less"
+            "BPM 120 or less",
+            "Autumn 23 Dan"
         ],
         "level": "12+",
         "scorePerc": "92.0%",
@@ -5188,7 +5214,8 @@ var jpTags = [
             "Songs with !",
             "Songs with MV",
             "D4DJ Anime",
-            "All Mix"
+            "All Mix",
+            "Autumn 23 Dan"
         ],
         "level": "14",
         "scorePerc": "96.9%",
@@ -5232,7 +5259,8 @@ var jpTags = [
             "Spring 23 Dan",
             "Cover Tracks Vol 8",
             "Songs with !",
-            "Songs with Go"
+            "Songs with Go",
+            "Autumn 23 Dan"
         ],
         "level": "12+",
         "scorePerc": "92.0%",
@@ -6038,7 +6066,8 @@ var jpTags = [
             "Special (unit)",
             "Original Category",
             "D4DJ Anime",
-            "All Mix"
+            "All Mix",
+            "Autumn 23 Dan"
         ],
         "level": "13",
         "scorePerc": "93.0%",
@@ -6066,7 +6095,8 @@ var jpTags = [
             "Lyrical Lily",
             "Original Category",
             "Side Origin",
-            "Songs with MV"
+            "Songs with MV",
+            "Autumn 23 Dan"
         ],
         "level": "13",
         "scorePerc": "91.6%",
@@ -6130,7 +6160,8 @@ var jpTags = [
             "Original Category",
             "Summer 23 Dan",
             "Songs starting with D",
-            "Side Nova"
+            "Side Nova",
+            "Autumn 23 Dan"
         ],
         "level": "14",
         "scorePerc": "92.5%",
@@ -6169,7 +6200,8 @@ var jpTags = [
         "name": "わんわんとチョコレイト工場",
         "tags": [
             "Lyrical Lily",
-            "Original Category"
+            "Original Category",
+            "Autumn 23 Dan"
         ],
         "level": "13+",
         "scorePerc": "92.9%",
@@ -6440,7 +6472,8 @@ var jpTags = [
         "name": "第六感",
         "tags": [
             "Abyssmare",
-            "Cover Category"
+            "Cover Category",
+            "Autumn 23 Dan"
         ],
         "level": "13+",
         "scorePerc": "92.9%",
@@ -6663,17 +6696,6 @@ var jpTags = [
         "date": "2023-06-11"
     },
     {
-        "id": 5050229,
-        "name": "秘密♡Melody",
-        "tags": [
-            "Base Category",
-            "Songs with ♡"
-        ],
-        "level": "13",
-        "scorePerc": "89.6%",
-        "date": "2023-06-29"
-    },
-    {
         "id": 3020031,
         "name": "恋愛サーキュレーション",
         "tags": [
@@ -6746,7 +6768,8 @@ var jpTags = [
         "name": "アバンチューールなサマーデーーイズ",
         "tags": [
             "Happy Around!",
-            "Original Category"
+            "Original Category",
+            "Autumn 23 Dan"
         ],
         "level": "14+",
         "scorePerc": "94.3%",
@@ -6758,7 +6781,8 @@ var jpTags = [
         "tags": [
             "Peaky P-key",
             "Original Category",
-            "BPM 120 or less"
+            "BPM 120 or less",
+            "Autumn 23 Dan"
         ],
         "level": "11",
         "scorePerc": "92.7%",
@@ -6937,7 +6961,8 @@ var jpTags = [
         "tags": [
             "Special (unit)",
             "Cover Category",
-            "Songs with !"
+            "Songs with !",
+            "Autumn 23 Dan"
         ],
         "level": "13",
         "scorePerc": "91.5%",
@@ -7043,5 +7068,58 @@ var jpTags = [
         "level": "14+",
         "scorePerc": "94.1%",
         "date": "2023-09-17"
+    },
+    {
+        "id": 5050236,
+        "name": "Poppin' Shower",
+        "tags": [
+            "Base Category"
+        ],
+        "level": "14",
+        "scorePerc": "93.5%",
+        "date": "2023-09-22"
+    },
+    {
+        "id": 5050238,
+        "name": "RAV#GIRL",
+        "tags": [
+            "Base Category"
+        ],
+        "level": "14",
+        "scorePerc": "94.6%",
+        "date": "2023-09-29"
+    },
+    {
+        "id": 5050254,
+        "name": "言花 Letter(s)!",
+        "tags": [
+            "Base Category",
+            "Songs with !"
+        ],
+        "level": "12",
+        "scorePerc": "92.7%",
+        "date": "2023-09-30"
+    },
+    {
+        "id": 520020,
+        "name": "デート・ア・ライブ",
+        "tags": [
+            "RONDO",
+            "Cover Category"
+        ],
+        "level": "13+",
+        "scorePerc": "92.0%",
+        "date": "2023-09-25"
+    },
+    {
+        "id": 120024,
+        "name": "エクストラ・マジック・アワー",
+        "tags": [
+            "Happy Around!",
+            "Cover Category"
+        ],
+        "level": "13+",
+        "scorePerc": "92.9%",
+        "date": "2023-10-03"
     }
 ]

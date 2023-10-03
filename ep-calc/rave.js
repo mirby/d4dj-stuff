@@ -62,11 +62,12 @@ const tags = [
     "B:RONDO",
     "B:Lyrical Lily",
     "B:Special (unit)",
-    "B:Summer 22 Dan",
-    "B:Autumn 22 Dan",
-    "B:Winter 23 Dan",
-    "B:Spring 23 Dan",
-    "B:Summer 23 Dan",
+    // "B:Summer 22 Dan",
+    // "B:Autumn 22 Dan",
+    // "B:Winter 23 Dan",
+    // "B:Spring 23 Dan",
+    // "B:Summer 23 Dan",
+    // "B:Autumn 23 Dan",
     "B:Instrumental Category",
     "C:Original Category",
     "C:Cover Category",
@@ -364,11 +365,13 @@ function displaySongsByHint() {
 // function getTagsBySongName(name) {
 //     return songArray.find(item => item.name === name)?.tags;
 // }
+const tagsToRemove = ["Summer 22 Dan", "Autumn 22 Dan", "Winter 23 Dan", "Spring 23 Dan", "Summer 23 Dan", "Autumn 23 Dan"];
 
 function getTrendTagsBySong(name, trendLetter) {
     var tagList = hintArray.find(item => item.name === name)?.tags;
+    var filteredList = tagList.filter(item => !tagsToRemove.includes(item));
     var tagListByTrend = [];
-    for (let tag of tagList) {
+    for (let tag of filteredList) {
         if (tagMap.get(tag) === trendLetter) {
             tagListByTrend.push(tag);
         }

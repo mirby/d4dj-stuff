@@ -31,7 +31,8 @@ var enTags = [
         "tags": [
             "Happy Around!",
             "Cover Category",
-            "Autumn 22 Dan"
+            "Autumn 22 Dan",
+            "Autumn 23 Dan"
         ],
         "id": 120001,
         "level": "12+",
@@ -46,7 +47,8 @@ var enTags = [
             "Autumn 22 Dan",
             "First Mix",
             "D4DJ Anime",
-            "Songs with ☆"
+            "Songs with ☆",
+            "Autumn 23 Dan"
         ],
         "id": 210001,
         "level": "12",
@@ -180,7 +182,8 @@ var enTags = [
             "Cover Category",
             "Autumn 22 Dan",
             "Cover Tracks Vol 3",
-            "Songs starting with D"
+            "Songs starting with D",
+            "Autumn 23 Dan"
         ],
         "id": 420003,
         "level": "13+",
@@ -236,7 +239,8 @@ var enTags = [
             "Autumn 22 Dan",
             "Spring 23 Dan",
             "First Mix",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "Autumn 23 Dan"
         ],
         "id": 310002,
         "level": "12+",
@@ -303,7 +307,8 @@ var enTags = [
             "Winter 23 Dan",
             "Spring 23 Dan",
             "Summer 23 Dan",
-            "Groovy Fes"
+            "Groovy Fes",
+            "Autumn 23 Dan"
         ],
         "id": 510002,
         "level": "14+",
@@ -630,7 +635,8 @@ var enTags = [
             "Original Category",
             "Autumn 22 Dan",
             "Groovy Fes",
-            "Songs starting with D"
+            "Songs starting with D",
+            "Autumn 23 Dan"
         ],
         "id": 310004,
         "level": "13+",
@@ -645,7 +651,8 @@ var enTags = [
             "Autumn 22 Dan",
             "Spring 23 Dan",
             "Summer 23 Dan",
-            "Songs with Numerals"
+            "Songs with Numerals",
+            "Autumn 23 Dan"
         ],
         "id": 410004,
         "level": "12+",
@@ -670,7 +677,8 @@ var enTags = [
             "Game Category",
             "Autumn 22 Dan",
             "Retro Games",
-            "Songs with Medley"
+            "Songs with Medley",
+            "Autumn 23 Dan"
         ],
         "id": 5030006,
         "level": "14",
@@ -693,7 +701,8 @@ var enTags = [
         "tags": [
             "Game Category",
             "Autumn 22 Dan",
-            "Retro Games"
+            "Retro Games",
+            "Autumn 23 Dan"
         ],
         "id": 5030008,
         "level": "12+",
@@ -755,7 +764,8 @@ var enTags = [
             "RONDO",
             "Cover Category",
             "Autumn 22 Dan",
-            "Cover Tracks Vol 8"
+            "Cover Tracks Vol 8",
+            "Autumn 23 Dan"
         ],
         "id": 520008,
         "level": "14",
@@ -885,7 +895,8 @@ var enTags = [
             "Merm4id",
             "Cover Category",
             "Summer 23 Dan",
-            "Cover Tracks Vol 7"
+            "Cover Tracks Vol 7",
+            "Autumn 23 Dan"
         ],
         "id": 420006,
         "level": "12",
@@ -1145,7 +1156,8 @@ var enTags = [
             "First Mix",
             "D4DJ Anime",
             "Songs with MV",
-            "BPM 120 or less"
+            "BPM 120 or less",
+            "Autumn 23 Dan"
         ],
         "id": 310005,
         "level": "10+",
@@ -1356,7 +1368,8 @@ var enTags = [
             "Original Category",
             "Autumn 22 Dan",
             "Groovy Fes",
-            "Songs with ☆"
+            "Songs with ☆",
+            "Autumn 23 Dan"
         ],
         "id": 210006,
         "level": "13",
@@ -1395,7 +1408,8 @@ var enTags = [
             "Autumn 22 Dan",
             "Winter 23 Dan",
             "Summer 23 Dan",
-            "Cover Tracks Vol 4"
+            "Cover Tracks Vol 4",
+            "Autumn 23 Dan"
         ],
         "id": 320010,
         "level": "14",
@@ -1485,7 +1499,8 @@ var enTags = [
         "tags": [
             "Lyrical Lily",
             "Original Category",
-            "Autumn 22 Dan"
+            "Autumn 22 Dan",
+            "Autumn 23 Dan"
         ],
         "id": 610006,
         "level": "11",
@@ -1545,7 +1560,8 @@ var enTags = [
             "Original Category",
             "Autumn 22 Dan",
             "First Mix",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "Autumn 23 Dan"
         ],
         "id": 110011,
         "level": "10+",
@@ -1569,7 +1585,8 @@ var enTags = [
             "Peaky P-key",
             "Cover Category",
             "Autumn 22 Dan",
-            "Cover Tracks Vol 2"
+            "Cover Tracks Vol 2",
+            "Autumn 23 Dan"
         ],
         "id": 220009,
         "level": "13",
@@ -1887,7 +1904,8 @@ var enTags = [
             "Game Category",
             "Autumn 22 Dan",
             "Songs with Numerals",
-            "Retro Games"
+            "Retro Games",
+            "Autumn 23 Dan"
         ],
         "id": 5030032,
         "level": "13",
@@ -1925,7 +1943,8 @@ var enTags = [
             "Autumn 22 Dan",
             "Winter 23 Dan",
             "Summer 23 Dan",
-            "Retro Games"
+            "Retro Games",
+            "Autumn 23 Dan"
         ],
         "id": 5030033,
         "level": "14+",
@@ -2104,7 +2123,8 @@ var enTags = [
             "Peaky P-key",
             "Cover Category",
             "Autumn 22 Dan",
-            "Cover Tracks Vol 4"
+            "Cover Tracks Vol 4",
+            "Autumn 23 Dan"
         ],
         "id": 220015,
         "level": "13+",
@@ -2196,7 +2216,8 @@ var enTags = [
             "Merm4id",
             "Original Category",
             "Songs with Party",
-            "D4FES Songs"
+            "D4FES Songs",
+            "Autumn 23 Dan"
         ],
         "id": 410008,
         "level": "13",
@@ -2224,7 +2245,8 @@ var enTags = [
             "Autumn 22 Dan",
             "D4FES Songs",
             "Numbers Spelled Out",
-            "Songs with MV"
+            "Songs with MV",
+            "Autumn 23 Dan"
         ],
         "id": 410009,
         "level": "13",
@@ -2289,7 +2311,8 @@ var enTags = [
         "tags": [
             "Base Category",
             "Numbers Spelled Out",
-            "Songs with Night"
+            "Songs with Night",
+            "Autumn 23 Dan"
         ],
         "id": 5050012,
         "level": "14+",
@@ -2516,7 +2539,8 @@ var enTags = [
             "Photon Maiden",
             "Cover Category",
             "Autumn 22 Dan",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "Autumn 23 Dan"
         ],
         "id": 320014,
         "level": "13",
@@ -2791,7 +2815,8 @@ var enTags = [
             "Summer 23 Dan",
             "Event Songs",
             "Songs with ♡",
-            "Songs with Love"
+            "Songs with Love",
+            "Autumn 23 Dan"
         ],
         "id": 3010012,
         "level": "13+",
@@ -3145,7 +3170,8 @@ var enTags = [
             "Lyrical Lily",
             "Original Category",
             "Autumn 22 Dan",
-            "Event Songs"
+            "Event Songs",
+            "Autumn 23 Dan"
         ],
         "id": 610013,
         "level": "13",
@@ -3188,7 +3214,8 @@ var enTags = [
             "Winter 23 Dan",
             "Event Songs",
             "Numbers Spelled Out",
-            "BPM over 250"
+            "BPM over 250",
+            "Autumn 23 Dan"
         ],
         "id": 510016,
         "level": "13+",
@@ -3249,7 +3276,8 @@ var enTags = [
     {
         "name": "Shangri-La",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Autumn 23 Dan"
         ],
         "id": 5050083,
         "level": "11",
@@ -3287,7 +3315,8 @@ var enTags = [
             "RONDO",
             "Cover Category",
             "Autumn 22 Dan",
-            "Cover Tracks Vol 5"
+            "Cover Tracks Vol 5",
+            "Autumn 23 Dan"
         ],
         "id": 520015,
         "level": "14",
@@ -3310,7 +3339,8 @@ var enTags = [
             "Game Category",
             "Autumn 22 Dan",
             "Songs with !",
-            "Touhou"
+            "Touhou",
+            "Autumn 23 Dan"
         ],
         "id": 5030062,
         "level": "13+",
@@ -3385,7 +3415,8 @@ var enTags = [
             "Photon Maiden",
             "Original Category",
             "Autumn 22 Dan",
-            "Event Songs"
+            "Event Songs",
+            "Autumn 23 Dan"
         ],
         "id": 310015,
         "level": "13",
@@ -3424,7 +3455,8 @@ var enTags = [
             "Summer 22 Dan",
             "Autumn 22 Dan",
             "D4FES Songs",
-            "Songs with MV"
+            "Songs with MV",
+            "Autumn 23 Dan"
         ],
         "id": 610015,
         "level": "12+",
@@ -3436,7 +3468,8 @@ var enTags = [
         "tags": [
             "Merm4id",
             "Original Category",
-            "Autumn 22 Dan"
+            "Autumn 22 Dan",
+            "Autumn 23 Dan"
         ],
         "id": 410014,
         "level": "12+",
@@ -3449,7 +3482,8 @@ var enTags = [
             "Special (unit)",
             "Original Category",
             "Autumn 22 Dan",
-            "Songs starting with D"
+            "Songs starting with D",
+            "Autumn 23 Dan"
         ],
         "id": 3010015,
         "level": "11+",
@@ -3603,7 +3637,8 @@ var enTags = [
             "Original Category",
             "Autumn 22 Dan",
             "Spring 23 Dan",
-            "Songs with !"
+            "Songs with !",
+            "Autumn 23 Dan"
         ],
         "id": 210014,
         "level": "15",
@@ -3632,7 +3667,8 @@ var enTags = [
             "Cover Category",
             "Autumn 22 Dan",
             "Cover Tracks Vol 8",
-            "Angel and Demon"
+            "Angel and Demon",
+            "Autumn 23 Dan"
         ],
         "id": 620018,
         "level": "13",
@@ -3681,7 +3717,8 @@ var enTags = [
             "Autumn 22 Dan",
             "Winter 23 Dan",
             "Spring 23 Dan",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "Autumn 23 Dan"
         ],
         "id": 510017,
         "level": "14+",
@@ -3695,7 +3732,8 @@ var enTags = [
             "Original Category",
             "Autumn 22 Dan",
             "Event Songs",
-            "Groovy Fes"
+            "Groovy Fes",
+            "Autumn 23 Dan"
         ],
         "id": 510019,
         "level": "13",
@@ -3759,7 +3797,8 @@ var enTags = [
             "Autumn 22 Dan",
             "D4FES Songs",
             "Songs with Love",
-            "Songs with MV"
+            "Songs with MV",
+            "Autumn 23 Dan"
         ],
         "id": 410015,
         "level": "13",
@@ -3785,7 +3824,8 @@ var enTags = [
             "Original Category",
             "Autumn 22 Dan",
             "Event Songs",
-            "BPM 120 or less"
+            "BPM 120 or less",
+            "Autumn 23 Dan"
         ],
         "id": 310017,
         "level": "12+",
@@ -3801,7 +3841,8 @@ var enTags = [
             "Groovy Fes",
             "D4FES Songs",
             "Songs with MV",
-            "BPM 120 or less"
+            "BPM 120 or less",
+            "Autumn 23 Dan"
         ],
         "id": 510018,
         "level": "14",
@@ -3816,7 +3857,8 @@ var enTags = [
             "Autumn 22 Dan",
             "Groovy Fes",
             "D4FES Songs",
-            "Songs with MV"
+            "Songs with MV",
+            "Autumn 23 Dan"
         ],
         "id": 110024,
         "level": "12+",
@@ -3830,7 +3872,8 @@ var enTags = [
             "Original Category",
             "Autumn 22 Dan",
             "Songs with Cat",
-            "BPM 120 or less"
+            "BPM 120 or less",
+            "Autumn 23 Dan"
         ],
         "id": 610016,
         "level": "12+",
@@ -3885,7 +3928,8 @@ var enTags = [
             "Autumn 22 Dan",
             "Summer 23 Dan",
             "Event Songs",
-            "BPM 120 or less"
+            "BPM 120 or less",
+            "Autumn 23 Dan"
         ],
         "id": 210016,
         "level": "12",
@@ -4011,7 +4055,8 @@ var enTags = [
             "Photon Maiden",
             "Cover Category",
             "Summer 23 Dan",
-            "Cover Tracks Vol 8"
+            "Cover Tracks Vol 8",
+            "Autumn 23 Dan"
         ],
         "id": 320019,
         "level": "14+",
@@ -4028,7 +4073,8 @@ var enTags = [
             "Spring 23 Dan",
             "Cover Tracks Vol 8",
             "Songs with !",
-            "Songs with Go"
+            "Songs with Go",
+            "Autumn 23 Dan"
         ],
         "id": 420018,
         "level": "12+",
@@ -4067,7 +4113,8 @@ var enTags = [
             "Autumn 22 Dan",
             "Angel and Demon",
             "Tokyo 7th Sisters",
-            "Songs with Love"
+            "Songs with Love",
+            "Autumn 23 Dan"
         ],
         "id": 5030054,
         "level": "14",
@@ -4156,7 +4203,8 @@ var enTags = [
             "Cover Category",
             "Autumn 22 Dan",
             "Cover Tracks Vol 7",
-            "BPM over 250"
+            "BPM over 250",
+            "Autumn 23 Dan"
         ],
         "id": 520016,
         "level": "14",
@@ -4183,7 +4231,8 @@ var enTags = [
             "Special (unit)",
             "Original Category",
             "Autumn 22 Dan",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "Autumn 23 Dan"
         ],
         "id": 3010017,
         "level": "13+",
@@ -4196,7 +4245,8 @@ var enTags = [
             "Photon Maiden",
             "Cover Category",
             "Cover Tracks Vol 7",
-            "Songs with !"
+            "Songs with !",
+            "Autumn 23 Dan"
         ],
         "id": 320017,
         "level": "12",
@@ -4269,7 +4319,8 @@ var enTags = [
             "Cover Category",
             "Spring 23 Dan",
             "Cover Tracks Vol 7",
-            "Songs with Love"
+            "Songs with Love",
+            "Autumn 23 Dan"
         ],
         "id": 620017,
         "level": "11+",
@@ -4836,7 +4887,8 @@ var enTags = [
         "tags": [
             "Lyrical Lily",
             "Original Category",
-            "Spring 23 Dan"
+            "Spring 23 Dan",
+            "Autumn 23 Dan"
         ],
         "id": 610017,
         "level": "12",
@@ -4851,7 +4903,8 @@ var enTags = [
             "Spring 23 Dan",
             "Summer 23 Dan",
             "Songs with !",
-            "BPM over 250"
+            "BPM over 250",
+            "Autumn 23 Dan"
         ],
         "id": 620019,
         "level": "13",
@@ -4902,7 +4955,8 @@ var enTags = [
             "Happy Around!",
             "Original Category",
             "Side Origin",
-            "Songs with MV"
+            "Songs with MV",
+            "Autumn 23 Dan"
         ],
         "id": 110031,
         "level": "12+",
@@ -5415,7 +5469,8 @@ var enTags = [
         "tags": [
             "Game Category",
             "Songs with !",
-            "GekiChuMai"
+            "GekiChuMai",
+            "Autumn 23 Dan"
         ],
         "id": 5030064,
         "level": "15",
@@ -5593,5 +5648,46 @@ var enTags = [
         "level": "13+",
         "scorePerc": "96.1%",
         "date": "2023-09-21"
+    },
+    {
+        "id": 5050190,
+        "name": "Just the truth",
+        "tags": [
+            "Base Category",
+            "BPM 120 or less"
+        ],
+        "level": "12",
+        "scorePerc": "92.1%",
+        "date": "2023-09-27"
+    },
+    {
+        "id": 5050191,
+        "name": "kaleidoscope",
+        "tags": [
+            "Base Category"
+        ],
+        "level": "13",
+        "scorePerc": "94.2%",
+        "date": "2023-09-28"
+    },
+    {
+        "id": 5050193,
+        "name": "Wonder Stella",
+        "tags": [
+            "Base Category"
+        ],
+        "level": "13",
+        "scorePerc": "92.8%",
+        "date": "2023-09-29"
+    },
+    {
+        "id": 5050192,
+        "name": "starlog",
+        "tags": [
+            "Base Category"
+        ],
+        "level": "12+",
+        "scorePerc": "91.7%",
+        "date": "2023-09-30"
     }
 ]
