@@ -10170,6 +10170,48 @@ var cards = {
             "skill": .25,
             "icon": "card_icon_050529991_1.7a8aee4b",
             "passive": "Groovy Solo 10-20%"
+        },
+        "724": {
+            "id": 724,
+            "character": "Elsie",
+            "cardname": "Navigation",
+            "unit": "Abyssmare",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 13873,
+            "technical": 15749,
+            "physical": 15677,
+            "skill": .45,
+            "icon": "card_icon_060930001_1.9c54df43",
+            "passive": "Life Boost 2.5-7.75%"
+        },
+        "725": {
+            "id": 725,
+            "character": "Noa",
+            "cardname": "Navigation",
+            "unit": "Photon",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 15812,
+            "technical": 15077,
+            "physical": 13786,
+            "skill": .45,
+            "icon": "card_icon_060340001_1.42629409",
+            "passive": "Groovy Bonus 10-31.5%"
+        },
+        "726": {
+            "id": 726,
+            "character": "Rei",
+            "cardname": "Navigation",
+            "unit": "HapiAra",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 14129,
+            "technical": 15464,
+            "physical": 15501,
+            "skill": .45,
+            "icon": "card_icon_060140001_1.1ff6813a",
+            "passive": "Life Boost 2.5-7.75%"
         }
     }
 
