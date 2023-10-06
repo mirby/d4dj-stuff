@@ -10212,6 +10212,34 @@ var cards = {
             "skill": .45,
             "icon": "card_icon_060140001_1.1ff6813a",
             "passive": "Life Boost 2.5-7.75%"
+        },
+        "727": {
+            "id": 727,
+            "character": "Tsubaki",
+            "cardname": "At the Mysterious Great Tree -Boldness-",
+            "unit": "Rondo",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 15372,
+            "technical": 8087,
+            "physical": 20374,
+            "skill": .5,
+            "icon": "card_icon_040510015_1.66bd702a",
+            "passive": "Auto Boost 2.5-8%"
+        },
+        "728": {
+            "id": 728,
+            "character": "Hiiro",
+            "cardname": "At the Mysterious Great Tree -Elegance-",
+            "unit": "Rondo",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 8121,
+            "technical": 15824,
+            "physical": 19263,
+            "skill": .5,
+            "icon": "card_icon_040530015_1.52ad7bd9",
+            "passive": "Groovy Bonus 10-30%"
         }
     }
 

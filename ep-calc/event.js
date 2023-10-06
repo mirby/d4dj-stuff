@@ -1359,6 +1359,17 @@ var eventList = {
         "comboBonus":false,
         "addition":""
     },
+    "118": {
+        "id":118,
+        "name":"The Me Here Now -Tsubaki & Hiiro-",
+        "characters":"Tsubaki,Hiiro",
+        "type":"Slots",
+        "style":"Cute",
+        "parameter":"Physical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
