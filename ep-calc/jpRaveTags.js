@@ -534,7 +534,8 @@ var jpTags = [
         "name": "「警部補・古畑任三郎」のテーマ",
         "tags": [
             "Instrumental Category",
-            "Songs with Theme (テーマ)"
+            "Songs with Theme (テーマ)",
+            "Songs with Kanji Numbers"
         ],
         "level": "13",
         "scorePerc": "93.6%",
@@ -907,7 +908,8 @@ var jpTags = [
         "name": "ルパン三世のテーマ",
         "tags": [
             "Instrumental Category",
-            "Songs with Theme (テーマ)"
+            "Songs with Theme (テーマ)",
+            "Songs with Kanji Numbers"
         ],
         "level": "12+",
         "scorePerc": "90.3%",
@@ -1694,7 +1696,8 @@ var jpTags = [
             "RONDO",
             "Cover Category",
             "Summer 22 Dan",
-            "Cover Tracks Vol 2"
+            "Cover Tracks Vol 2",
+            "Songs with Kanji Numbers"
         ],
         "level": "13+",
         "scorePerc": "98.4%",
@@ -1894,7 +1897,8 @@ var jpTags = [
             "Happy Around!",
             "Cover Category",
             "Cover Tracks Vol 6",
-            "Songs with !"
+            "Songs with !",
+            "Tokyo 7th Sisters"
         ],
         "level": "12",
         "scorePerc": "93.2%",
@@ -2814,7 +2818,8 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Autumn 22 Dan",
-            "Autumn 23 Dan"
+            "Autumn 23 Dan",
+            "Songs with Kanji Numbers"
         ],
         "level": "14+",
         "scorePerc": "95.7%",
@@ -2842,7 +2847,8 @@ var jpTags = [
         "tags": [
             "Special (unit)",
             "Cover Category",
-            "Cover Tracks Vol 5"
+            "Cover Tracks Vol 5",
+            "Songs with Kanji Numbers"
         ],
         "level": "13+",
         "scorePerc": "93.8%",
@@ -3127,7 +3133,8 @@ var jpTags = [
             "Summer 22 Dan",
             "Summer 23 Dan",
             "Event Songs",
-            "Songs with !"
+            "Songs with !",
+            "Songs with Kanji Numbers"
         ],
         "level": "12",
         "scorePerc": "90.3%",
@@ -4081,7 +4088,8 @@ var jpTags = [
         "name": "千本桜",
         "tags": [
             "Base Category",
-            "Songs with Sakura"
+            "Songs with Sakura",
+            "Songs with Kanji Numbers"
         ],
         "level": "13+",
         "scorePerc": "97.4%",
@@ -4685,7 +4693,8 @@ var jpTags = [
         "id": 5050150,
         "name": "五等分の軌跡",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Songs with Kanji Numbers"
         ],
         "level": "12",
         "scorePerc": "88.7%",
@@ -4956,7 +4965,8 @@ var jpTags = [
             "Original Category",
             "Autumn 22 Dan",
             "Spring 23 Dan",
-            "Autumn 23 Dan"
+            "Autumn 23 Dan",
+            "Songs with Kanji Numbers"
         ],
         "level": "12",
         "scorePerc": "92.4%",
@@ -5402,7 +5412,8 @@ var jpTags = [
             "Cover Category",
             "Winter 23 Dan",
             "Spring 23 Dan",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "Songs with Kanji Numbers"
         ],
         "level": "12+",
         "scorePerc": "94.0%",
@@ -5451,7 +5462,8 @@ var jpTags = [
         "name": "一滴の影響",
         "tags": [
             "Special (unit)",
-            "Cover Category"
+            "Cover Category",
+            "Songs with Kanji Numbers"
         ],
         "level": "13",
         "scorePerc": "93.9%",
@@ -6473,7 +6485,8 @@ var jpTags = [
         "tags": [
             "Abyssmare",
             "Cover Category",
-            "Autumn 23 Dan"
+            "Autumn 23 Dan",
+            "Songs with Kanji Numbers"
         ],
         "level": "13+",
         "scorePerc": "92.9%",
@@ -6995,10 +7008,11 @@ var jpTags = [
     },
     {
         "id": 310023,
-        "name": "Photon Tale(DJ WILDPARTY remix)",
+        "name": "Photon Tale(DJ WILDPARTY Remix)",
         "tags": [
             "Photon Maiden",
-            "Original Category"
+            "Original Category",
+            "Autumn 23 Dan"
         ],
         "level": "15",
         "scorePerc": "95.1%",
