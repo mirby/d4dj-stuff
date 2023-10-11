@@ -22,6 +22,7 @@ const tags = [
     "A:Numbers Spelled Out",
     "A:BPM 120 or less",
     "A:BPM over 250",
+    "A:Angel and Demon",
     "A:Songs with Kanji Numbers",
     "A:Songs with Black or White",
     "A:Songs with Cat",

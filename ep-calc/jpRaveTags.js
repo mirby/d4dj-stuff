@@ -3582,7 +3582,8 @@ var jpTags = [
             "Game Category",
             "Autumn 22 Dan",
             "Songs with Love (愛,恋)",
-            "Tokyo 7th Sisters"
+            "Tokyo 7th Sisters",
+            "Angel and Demon"
         ],
         "level": "14",
         "scorePerc": "99.2%",
@@ -3621,7 +3622,8 @@ var jpTags = [
         "tags": [
             "Photon Maiden",
             "Cover Category",
-            "Cover Tracks Vol 5"
+            "Cover Tracks Vol 5",
+            "Angel and Demon"
         ],
         "level": "11+",
         "scorePerc": "93.5%",
@@ -4446,7 +4448,8 @@ var jpTags = [
             "Cover Category",
             "Autumn 22 Dan",
             "Cover Tracks Vol 8",
-            "Autumn 23 Dan"
+            "Autumn 23 Dan",
+            "Angel and Demon"
         ],
         "level": "13",
         "scorePerc": "93.4%",
@@ -5745,7 +5748,8 @@ var jpTags = [
         "tags": [
             "Special (unit)",
             "Original Category",
-            "Winter 23 Dan"
+            "Winter 23 Dan",
+            "Angel and Demon"
         ],
         "level": "14+",
         "scorePerc": "91.9%",
