@@ -3,15 +3,12 @@ const MAXSTEPS= 10000
 	function hideSection() {
 		var section1 = document.getElementById('teamBonusSection');
 		var section2 = document.getElementById('parameterSection');
-		var section3 = document.getElementById('raidWarningSection');
 		if (document.getElementById('Raid').checked || document.getElementById('RaidAnni').checked) {
 			section1.style.display = 'none';
 			section2.style.display = 'none';
-			section3.style.display = 'block';
 		} else {
 			section1.style.display = 'block';
 			section2.style.display = 'block';
-			section3.style.display = 'none';
 		}
 	}
 	
@@ -113,7 +110,7 @@ const MAXSTEPS= 10000
 		
 		var start = Math.abs(Math.max(0,Number(document.getElementById("starting").value)))
 		var end = Math.abs(Math.max(0,Number(document.getElementById("ending").value)))
-		var bonus = Number(document.getElementById("bonus").value)
+		var bonus = Number(document.getElementById("bonus").value) / 100
 		//var isBonus = document.getElementById("teambonus").checked
 		var isBonus = true;
 		var parameter = Math.abs(Math.max(0,Number(document.getElementById("parameter").value)))
@@ -129,6 +126,7 @@ const MAXSTEPS= 10000
 		var step=1
 		var flameCount=0
 		var originalTarget=start
+		var comboBonus = 200
 		document.getElementById("console").value=""
 
 		var interval = 0
@@ -156,21 +154,21 @@ const MAXSTEPS= 10000
 			if (voltage > 0) {
 				switch (type) {
 					case "Bingo":{
-						return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + teamBonus) * Math.max(10, Math.floor(score/interval))));
+						return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + teamBonus) * Math.max(10, Math.floor(score/interval)) + comboBonus));
 					}
 					case "Medley":{
-						return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + teamBonus) * (10 + Math.floor(score/interval))));
+						return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + teamBonus) * (10 + Math.floor(score/interval)) + comboBonus));
 					}
 					case "Poker/Slots":{
-						return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + teamBonus) * (50 + Math.floor(score/interval))));
+						return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + teamBonus) * (50 + Math.floor(score/interval)) + comboBonus));
 					}
 					case "Raid":{
-						return voltage * (100 + Math.floor(score/interval));
+						return voltage * (100 + Math.floor(score/interval) + comboBonus);
 						// Old D4FES Raid formula
 						// return voltage * Math.floor((1 + teamBonus) * (50 + Math.floor(score/interval) + Math.floor(parameter/600)))
 					}
 					case "RaidAnni":{
-						return voltage * (300 + Math.floor(score/interval));
+						return voltage * (300 + Math.floor(score/interval) + comboBonus);
 					}
 				}
 			} else {
@@ -188,6 +186,10 @@ const MAXSTEPS= 10000
 					if (bonusOptions.includes(i)) {
 						array.push(i)
 					}
+				}
+				// If the team bonus is higher than 200%, add on the entered value to the end
+				if (bonusValue > 2) {
+					array.push(bonusValue);
 				}
 			} else {
 				for (var i=bonusValue;i>=0;i-=0.2) {
@@ -543,6 +545,9 @@ const MAXSTEPS= 10000
 			}
 			if (result) {
 				var maxBonus = (isBonus)?2.0:1.6;
+				if (bonus > 2.0) {
+					maxBonus = bonus;
+				}
 				if (special) {
 					maxBonus = 0;
 				}

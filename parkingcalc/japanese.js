@@ -93,7 +93,7 @@ function Japanese(str) {
 
 				Found a park! %STEPS% step%PLURAL_STEPS% and %VOLTAGE% voltage required!
 				*/
-				return "Calculating from %START% to %TARGET% for event type %EVENT%...\n\t(All games are done in Free Live)\n\nFound a park! %STEPS% step%PLURAL_STEPS% and %VOLTAGE% voltage required!"
+				return "Calculating from %START% to %TARGET% for event type %EVENT%...\n\t(All games are done in Free Live AND Full Combo on Manual Mode)\n\nFound a park! %STEPS% step%PLURAL_STEPS% and %VOLTAGE% voltage required!"
 			}break;
 			case "%STEP%":{ //This message is displayed for each normal voltage step in the process.
 				//Sample message:

@@ -12,7 +12,10 @@
   </head>
   <body>
     <h1>D4DJ Event Parking Calculator</h1>
-
+    <h3><b style="color: red;">WARNING:</b> With Combo Bonus changes, parking when using Volts has become unreliable.<br>
+        Rehearsals is still OK. Recommend playing normally and try to reach within a few hundred of desired park, then Rehearse.<br>
+        Entering 0 in Score field will always use Rehearsals.
+    </h3>
     <fieldset>
       <legend>Parking Configuration</legend>
       <!-- Change if JP and EN formulas differ again-->
@@ -39,13 +42,9 @@
       <input type="radio" id="RaidAnni" name="type" value="RaidAnni" />
       <label for="RaidAnni">Raid (Anniversary)</label>
       <hr />
-      <div id="teamBonusSection" name="hideSection" style="padding-bottom: 15px;">
+      <!-- <div id="teamBonusSection" name="hideSection" style="padding-bottom: 15px;">
         <span><b>Event Team Bonus:</b></span>
-        <!-- <span onclick="toggleBonus()" class="tooltip">
-          <label for="teambonus">Matching Bonus?</label>
-          <input id="teambonus" type="checkbox">
-          <span class="tooltiptext">Check this box if event gives extra 10% for matching both char and style.</span>
-        </span> -->
+
         <select id="bonus">
           <option value="0">0%</option>
           <option value="0.2">20%</option>
@@ -63,6 +62,10 @@
           <option value="1.7">170%</option>
           <option value="2.0" selected>200%</option>
         </select>
+      </div> -->
+      <div id="teamBonusSection" name="hideSection" style="padding-bottom: 15px;">
+        <label for="bonus"><b>Team Bonus: </b></label><input id="bonus" style="width:50px" min="0" type="number" value="200" />% 
+        <span><i>To calculate team bonus value, see bottom of page</i></span>
       </div>
       <div id="parameterSection" name="hideSection" style="padding-bottom: 15px;">
         <label for="parameter"><b>Parameter: </b></label><input id="parameter" style="width:50px" min="0" type="number" value="40" />% 
@@ -74,9 +77,6 @@
         <span class="tooltiptext">If turned on, calculates scoring options using lower % teams also.</span>
 	      </span> 
 	      <span id="warningparktext" style="visibility:hidden;"><font color="red"><b>WARNING!</b> If your team% changes as you are parking you will have to recalculate the <font color="black"><b><u>PARAMETER</u></b></font> value in the middle of parking!</font></span> -->
-      <div id="raidWarningSection" style="padding-bottom: 15px; display: none;" >
-        <p><b>WARNING:</b> Extra event points are granted based on Combo for Raid. Parking with calculator is not recommended.</p>
-      </div>
       <div>
         <span class="tooltip"><label for="maxscore"><b>Max Free Live Score: </b></label><input id="maxscore" min="0" type="number" value="620000" /> 
           <span class="tooltiptext translate22">
@@ -84,6 +84,7 @@
 	          <sub>(Use 0 for Rehearsals Only)</sub>
           </span>
         </span>
+        <span><i>(Use 0 for Rehearsal. If not Rehearsing, score assumes Full Combo on Expert difficulty on Manual Mode)</i></span>
       </div>
 
       <hr />
@@ -105,13 +106,21 @@
     <div style="display: flex; justify-content: stretch; align-items: center">
       <textarea rows="20" cols="160" id="console" disabled> </textarea>
     </div>
+    <p><b>How To Get Team Bonus Value</b></p>
+    <ul>
+      <li>For each card on your <b>main</b> team, calculate the Team Bonus % for each card. (Ignore the Parameter)</li>
+      <li>If the card has Extra Trainings applied, the bonus increases (for both Character and Style).</li>
+      <li>If the card matches both Character AND Style, the card gets an additional 10%</li>
+      <li>Add up the total team bonus, and enter the value directly in the team bonus box (no need to add % symbol)</li>
+      <li><a href="teambonus.png" target="_blank">Team Bonus Example</a></li>
+    </ul>
     <p><b>How To Get Parameter Value</b></p>
     <ul>
       <li>For each card on your <b>main</b> team, you get 10% if that card's highest parameter is the event target parameter</li>
       <li>For example, if the event target parameter is Technical, if 3 out of 4 cards on your <b>main</b> team have technical as their highest param, you will have 30%</li>
       <li>If any cards on main team has the event target parameter over 20k, you get an additional 1% for every 1000. (i.e. if the target param is Technical and one of your main team cards has 21400 tech, this card would give 11%)</li>
       <li>Enter the value directly in the parameter box (no need to add % symbol)</li>
-      <li><a href="parambonus_new.png" target="_blank">Example</a></li>
+      <li><a href="parambonus_new.png" target="_blank">Parameter Example</a></li>
     </ul>
 	  <sub><u>Tips</u></sub>
     <ul>
