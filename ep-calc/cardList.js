@@ -10240,6 +10240,62 @@ var cards = {
             "skill": .5,
             "icon": "card_icon_040530015_1.52ad7bd9",
             "passive": "Groovy Bonus 10-30%"
+        },
+        "729": {
+            "id": 729,
+            "character": "Noa",
+            "cardname": "Be Fooled Not By Shallow Dreams",
+            "unit": "Photon",
+            "type": "Cool",
+            "rarity": 3,
+            "heart": 17530,
+            "technical": 7791,
+            "physical": 6145,
+            "skill": .3,
+            "icon": "card_icon_030340007_1.05238e94",
+            "passive": "Groovy Solo 10-20%"
+        },
+        "730": {
+            "id": 730,
+            "character": "Towa",
+            "cardname": "Pristine Blossoms, Pure Elegance",
+            "unit": "Photon",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 19830,
+            "technical": 16360,
+            "physical": 7635,
+            "skill": .5,
+            "icon": "card_icon_040330013_1.b8602592",
+            "passive": "Groovy Bonus 10-30%"
+        },
+        "731": {
+            "id": 731,
+            "character": "Nagisa",
+            "cardname": "Thinking Of The Koto's Melody",
+            "unit": "Rondo",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 20345,
+            "technical": 7840,
+            "physical": 15814,
+            "skill": .5,
+            "icon": "card_icon_040520015_1.38916fba",
+            "passive": "Manual Up 2.5-9%"
+        },
+        "732": {
+            "id": 732,
+            "character": "Shinobu",
+            "cardname": "The Sound Of A Played Flute",
+            "unit": "Peaky",
+            "type": "Cool",
+            "rarity": 3,
+            "heart": 17724,
+            "technical": 6787,
+            "physical": 7694,
+            "skill": .3,
+            "icon": "card_icon_030220007_1.64cfcd1e",
+            "passive": "Groovy Bonus 5-10%"
         }
     }
 

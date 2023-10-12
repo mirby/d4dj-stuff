@@ -1370,6 +1370,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "119": {
+        "id":119,
+        "name":"The Moon Fills the Stage -The Tale of Genji-",
+        "characters":"Shinobu,Towa,Noa,Nagisa",
+        "type":"Bingo",
+        "style":"Cool",
+        "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
