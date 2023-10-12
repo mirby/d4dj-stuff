@@ -7139,5 +7139,35 @@ var jpTags = [
         "level": "13+",
         "scorePerc": "92.9%",
         "date": "2023-10-03"
+    },
+    {
+        "id": 5050232,
+        "name": "BLVST BEVT",
+        "tags": [
+            "Base Category"
+        ],
+        "level": "14",
+        "scorePerc": "92.9%",
+        "date": "2023-10-06"
+    },
+    {
+        "id": 5050235,
+        "name": "Sound Chimera (WACCA Ver.)",
+        "tags": [
+            "Base Category"
+        ],
+        "level": "14+",
+        "scorePerc": "93.2%",
+        "date": "2023-10-12"
+    },
+    {
+        "id": 5050241,
+        "name": "You & DIE",
+        "tags": [
+            "Base Category"
+        ],
+        "level": "14+",
+        "scorePerc": "94.7%",
+        "date": "2023-10-11"
     }
 ]
