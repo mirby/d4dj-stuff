@@ -4328,28 +4328,6 @@ var enTags = [
         "date": "2022-11-12"
     },
     {
-        "name": "Aimaisa, Kofukuron",
-        "tags": [
-            "Base Category"
-        ],
-        "id": 5050176,
-        "level": "12",
-        "scorePerc": "89.9%",
-        "date": "2022-11-22"
-    },
-    {
-        "name": "Welcome! (D-POP version) ～D.U.P.～",
-        "tags": [
-            "Base Category",
-            "Songs with !",
-            "BPM 120 or less"
-        ],
-        "id": 5050178,
-        "level": "11+",
-        "scorePerc": "91.9%",
-        "date": "2022-11-22"
-    },
-    {
         "name": "Singalong, Please!",
         "tags": [
             "Happy Around!",
@@ -5689,5 +5667,18 @@ var enTags = [
         "level": "12+",
         "scorePerc": "91.7%",
         "date": "2023-09-30"
+    },
+    {
+        "id": 3010030,
+        "name": "LOVE!HUG!GROOVY!! Type:!",
+        "tags": [
+            "Special (unit)",
+            "Original Category",
+            "Songs with !",
+            "Songs with Love"
+        ],
+        "level": "13+",
+        "scorePerc": "91.0%",
+        "date": "2023-10-16"
     }
 ]

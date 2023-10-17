@@ -3547,7 +3547,8 @@ var jpTags = [
         "tags": [
             "RONDO",
             "Cover Category",
-            "Cover Tracks Vol 3"
+            "Cover Tracks Vol 3",
+            "Bushiroad"
         ],
         "level": "13",
         "scorePerc": "89.8%",
@@ -3963,7 +3964,8 @@ var jpTags = [
         "tags": [
             "Base Category",
             "Songs with Theme (テーマ)",
-            "BPM 120 or less"
+            "BPM 120 or less",
+            "Bushiroad"
         ],
         "level": "12+",
         "scorePerc": "93.8%",
@@ -4128,7 +4130,6 @@ var jpTags = [
         "name": "バンザイRIZING!!!",
         "tags": [
             "Base Category",
-            "Bushiroad",
             "from ARGONAVIS",
             "Songs with !"
         ],
@@ -5485,16 +5486,6 @@ var jpTags = [
         "date": "2022-12-30"
     },
     {
-        "id": 5050176,
-        "name": "曖昧さ、幸福論",
-        "tags": [
-            "Base Category"
-        ],
-        "level": "12",
-        "scorePerc": "89.9%",
-        "date": "2022-10-15"
-    },
-    {
         "id": 5050177,
         "name": "PARTY☆NIGHT (D-POP version)",
         "tags": [
@@ -5503,18 +5494,6 @@ var jpTags = [
         "level": "12+",
         "scorePerc": "93.6%",
         "date": "2023-01-03"
-    },
-    {
-        "id": 5050178,
-        "name": "Welcome! (D-POP version) ～D.U.P.～",
-        "tags": [
-            "Base Category",
-            "Songs with !",
-            "BPM 120 or less"
-        ],
-        "level": "11+",
-        "scorePerc": "91.9%",
-        "date": "2022-10-16"
     },
     {
         "id": 5050179,
@@ -7169,5 +7148,25 @@ var jpTags = [
         "level": "14+",
         "scorePerc": "94.7%",
         "date": "2023-10-11"
+    },
+    {
+        "id": 5050234,
+        "name": "SUPER EMULATOR",
+        "tags": [
+            "Base Category"
+        ],
+        "level": "15",
+        "scorePerc": "92.2%",
+        "date": "2023-10-13"
+    },
+    {
+        "id": 5050233,
+        "name": "Odin",
+        "tags": [
+            "Base Category"
+        ],
+        "level": "15",
+        "scorePerc": "92.6%",
+        "date": "2023-10-14"
     }
 ]
