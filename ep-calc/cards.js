@@ -44,7 +44,6 @@ $(document).on('changed.bs.select', 'select', function(event) {
     if ($(event.target).is("select#eventselector")) {
         fillEventDisplay();
         $.refreshMedleySelect();
-        populateCharSelect();
         calcEventPower();
         calcDisplayPower();
     } else if ($(event.target).is("select.etselect")) {

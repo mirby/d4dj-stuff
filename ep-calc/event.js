@@ -1,5 +1,6 @@
 var refreshEventSelector;
 var refreshMedleySelect;
+var refreshEventCharSelect;
 
 $(document).ready(function() {
     $.refreshEventSelector = function() {
@@ -8,6 +9,10 @@ $(document).ready(function() {
     
     $.refreshMedleySelect = function() {
         $('.selectpicker#medleychars').selectpicker('refresh');
+    };
+
+    $.refreshEventCharSelect = function() {
+        $('.selectpicker#eventchars').selectpicker('refresh');
     };
 });
 
@@ -74,23 +79,29 @@ function fillEventDisplay() {
 
     // Display certain UI elements based on the event type
     if (eventList[eventId].type.toLowerCase() === "medley") {
-        showMedleyElements();
+        showMedleyPowerElements();
+        showMedleyUIElements();
         hideRaidElements();
 
         populateCharSelectMed();
     } else if (eventList[eventId].type.toLowerCase() === "raid") {
         hideMedleyElements();
         showRaidElements();
+
+        populateCharSelectRaid();
     } else {
         hideMedleyElements();
         hideRaidElements();
     }
 }
 
-function showMedleyElements() {
+function showMedleyPowerElements() {
     document.getElementById("medleycharselect").style.display = "table-row";
     document.getElementById("medley_color").style.display = "table-cell";
     document.getElementById("power_medley").style.display = "table-cell";
+}
+
+function showMedleyUIElements() {
     document.getElementById("roomscoreinlabel").style.display = "inline-block";
     document.getElementById("roomscorein").style.display = "inline-block";
     document.getElementById("roomscorein2label").style.display = "inline-block";
@@ -122,6 +133,7 @@ function hideMedleyElements() {
 function showRaidElements() {
     document.getElementById("powerin3label").style.display = "inline-block";
     document.getElementById("powerin3").style.display = "inline-block";
+    document.getElementById("eventcharselect").style.display = "block";
 
     var br = document.createElement("br");
     br.classList.add("raidBreak");
@@ -131,11 +143,45 @@ function showRaidElements() {
 function hideRaidElements() {
     document.getElementById("powerin3label").style.display = "none";
     document.getElementById("powerin3").style.display = "none";
+    document.getElementById("eventcharselect").style.display = "none";
 
     var brs = document.getElementsByClassName("raidBreak");
     while (brs.length) {
         brs[0].parentNode.removeChild(brs[0]);
     }
+}
+
+// Populate the character select based on current event chars
+function populateCharSelectRaid() {
+    var eventid = document.getElementById("eventid").innerHTML;
+    var charArray = eventList[eventid].characters.split(",");
+    var charSet = new Set();
+    for (let x of charArray) {
+        charSet.add(x);
+    }
+
+    if (document.getElementById("eventraidchar").hasChildNodes()) {
+        document.getElementById("eventraidchar").removeChild(document.getElementById("eventraidchar").firstChild);
+    }
+
+    var select = document.createElement("select");
+    select.name = "eventchars";
+    select.id = "eventchars";
+    select.classList.add("selectpicker");
+    select.classList.add("voltselect");
+    select.setAttribute("data-width","fit");
+    select.setAttribute("data-size","10");
+
+    charSet.forEach(function(x) {
+        var option = document.createElement("option");
+        option.value = x;
+        option.setAttribute("data-tokens", x.toLowerCase());
+        option.setAttribute("data-content","<img src='../icons/icon_" + x.toLowerCase() + ".png' width='30' height='30'></img>" + ' ' + x);
+        select.appendChild(option);        
+    });
+    document.getElementById("eventraidchar").appendChild(select);
+
+    $.refreshEventCharSelect();
 }
 
 // A 404 can occur if the event notice is there but not the event image yet, so display the event notice image instead

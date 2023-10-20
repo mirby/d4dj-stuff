@@ -1,11 +1,3 @@
-var refreshSelect;
-
-$(document).ready(function() {
-    $.refreshSelect = function() {
-        $('.selectpicker#eventchars').selectpicker('refresh');
-    };
-});
-
 jQuery(function($) {
     $('#calculateteam').on('click', function() {
         // TODO add validations for all the input fields
@@ -852,45 +844,18 @@ function insertRow(tableObj, cell1Text, cell2Text) {
     cell2.innerHTML = cell2Text;
 }
 
-// Display extra selector if event type is Raid
+// Display extra selector if event type is Raid or Medley
 function displayEventBonus(eventType) {
     if (eventType === "raid") {
-        document.getElementById("eventcharselect").style.display = "block";
-        populateCharSelect();
+        showRaidElements();
+        hideMedleyElements();
+
+        populateCharSelectRaid();
+    } else if (eventType === "medley") {
+        showMedleyUIElements();
+        hideRaidElements();
     } else {
-        document.getElementById("eventcharselect").style.display = "none";
-    }    
-}
-
-// Populate the character select based on current event chars
-function populateCharSelect() {
-    var eventid = document.getElementById("eventid").innerHTML;
-    var charArray = eventList[eventid].characters.split(",");
-    var charSet = new Set();
-    for (let x of charArray) {
-        charSet.add(x);
+        hideMedleyElements();
+        hideRaidElements();
     }
-
-    if (document.getElementById("eventraidchar").hasChildNodes()) {
-        document.getElementById("eventraidchar").removeChild(document.getElementById("eventraidchar").firstChild);
-    }
-
-    var select = document.createElement("select");
-    select.name = "eventchars";
-    select.id = "eventchars";
-    select.classList.add("selectpicker");
-    select.classList.add("voltselect");
-    select.setAttribute("data-width","fit");
-    select.setAttribute("data-size","10");
-
-    charSet.forEach(function(x) {
-        var option = document.createElement("option");
-        option.value = x;
-        option.setAttribute("data-tokens", x.toLowerCase());
-        option.setAttribute("data-content","<img src='../icons/icon_" + x.toLowerCase() + ".png' width='30' height='30'></img>" + ' ' + x);
-        select.appendChild(option);        
-    });
-    document.getElementById("eventraidchar").appendChild(select);
-
-    $.refreshSelect();
 }
