@@ -10380,6 +10380,62 @@ var cards = {
             "skill": .6,
             "icon": "card_icon_070630005_1.5b2a9b46",
             "passive": "Life Boost 2.5-7.75%"
+        },
+        "739": {
+            "id": 739,
+            "character": "Rei",
+            "cardname": "Hitagi Crab",
+            "unit": "HapiAra",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 14051,
+            "technical": 16217,
+            "physical": 14885,
+            "skill": .6,
+            "icon": "card_icon_070140004_1.4ff6ada1",
+            "passive": "Groovy Solo 20-60%"
+        },
+        "740": {
+            "id": 740,
+            "character": "Maho",
+            "cardname": "Suruga Monkey",
+            "unit": "HapiAra",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 15342,
+            "technical": 14687,
+            "physical": 16393,
+            "skill": .6,
+            "icon": "card_icon_070120004_1.86cc337a",
+            "passive": "Life Boost 2.5-7.5%"
+        },
+        "741": {
+            "id": 741,
+            "character": "Miiko",
+            "cardname": "Mayoi Snail",
+            "unit": "LyriLily",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 14781,
+            "technical": 13866,
+            "physical": 17264,
+            "skill": .6,
+            "icon": "card_icon_070640005_1.399a85e8",
+            "passive": "Auto Boost 2.5-8%"
+        },
+        "742": {
+            "id": 742,
+            "character": "Kokoa",
+            "cardname": "Nadeko Snake",
+            "unit": "Unichord",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 16158,
+            "technical": 14248,
+            "physical": 15698,
+            "skill": .6,
+            "icon": "card_icon_070830001_1.43d43868",
+            "passive": "Groovy Bonus 10-30%"
         }
     }
 

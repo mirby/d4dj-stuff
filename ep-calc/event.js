@@ -251,6 +251,7 @@ function getCardSet(type) {
         "89":["Anthem of Dawn", "Do You Even DJ?", "CHAMPION GIRL", "Summit Of Babel"],
         "102":["Abyss's Queen", "As You Wish", "Break the World", "Road to the No.1"],
         "109":["Carpet of Sunflowers", "The One and Only Tulip", "Brilliant Hydrangea", "Four-Leaf Clover", "The Witness Carnation"],
+        "120":["Hitagi Crab", "Nadeko Snake", "Mayoi Snail", "Suruga Monkey"],
     };
 
     if (type === "medley") {
@@ -1423,6 +1424,17 @@ var eventList = {
         "type":"Bingo",
         "style":"Cool",
         "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
+    "120": {
+        "id":120,
+        "name":"Hakomonogatari",
+        "characters":"Maho,Rei,Miiko,Kokoa",
+        "type":"Raid",
+        "style":"None",
+        "parameter":"None",
         "bonus":true,
         "comboBonus":true,
         "addition":""
