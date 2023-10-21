@@ -154,13 +154,13 @@ const MAXSTEPS= 10000
 			if (voltage > 0) {
 				switch (type) {
 					case "Bingo":{
-						return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + teamBonus) * Math.max(10, Math.floor(score/interval)) + comboBonus));
+						return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + teamBonus) * (Math.max(10, Math.floor(score/interval)) + comboBonus)));
 					}
 					case "Medley":{
-						return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + teamBonus) * (10 + Math.floor(score/interval)) + comboBonus));
+						return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + teamBonus) * (10 + Math.floor(score/interval) + comboBonus)));
 					}
 					case "Poker/Slots":{
-						return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + teamBonus) * (50 + Math.floor(score/interval)) + comboBonus));
+						return voltage * Math.floor((1 + parameter / 100) * Math.floor((1 + teamBonus) * (50 + Math.floor(score/interval) + comboBonus)));
 					}
 					case "Raid":{
 						return voltage * (100 + Math.floor(score/interval) + comboBonus);
