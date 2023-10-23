@@ -851,6 +851,7 @@ function displayEventBonus(eventType) {
         hideMedleyElements();
 
         populateCharSelectRaid();
+        $.refreshEventCharSelect();
     } else if (eventType === "medley") {
         showMedleyUIElements();
         hideRaidElements();

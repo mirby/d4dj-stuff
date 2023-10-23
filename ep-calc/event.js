@@ -180,8 +180,6 @@ function populateCharSelectRaid() {
         select.appendChild(option);        
     });
     document.getElementById("eventraidchar").appendChild(select);
-
-    $.refreshEventCharSelect();
 }
 
 // A 404 can occur if the event notice is there but not the event image yet, so display the event notice image instead
