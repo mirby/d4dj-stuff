@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Discord Timestamp Helper</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css"> -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/css/bootstrap-select.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="../ep-calc/extras.css" />
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js" integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c=" crossorigin="anonymous"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script> -->
+        <script src="timestamp.js"></script>
+    </head>
+    <body>
+
+        <div class="container">
+            <br>
+            <div id="datepicker"></div>
+            <br>
+            <span>Time: <input type="time" id="timeInput" value="12:00"></span>
+            <span>Timezone: (+00:00 is UTC) <input type="text" id="timezoneInput" pattern="^(-\d{2}:\d{2}|\d{2}:\d{2})$" value="+00:00" style="width:70px"></span>
+            <span><a id="setlocal" class="btn btn-secondary btn-sm settimezone" role="button">Set to Local</a></span>
+            <span><a id="setutc" class="btn btn-secondary btn-sm settimezone" role="button">Set to UTC</a></span>
+            <span><a id="setjst" class="btn btn-secondary btn-sm settimezone" role="button">Set to JST</a></span>
+            <hr>
+            
+            <table id="displayTypes" class="table table-sm table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col" class="col-sm-2">Timestamp Style</th>
+                        <th scope="col" class="col-sm-4">Display (How it will appear for you)</th>
+                        <th scope="col" class="col-sm-2">Discord Format</th>
+                        <th scope="col" class="col-sm-2">Copy to clipboard</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Short Time</t>
+                        <td id="stDisp"></td>
+                        <td id="stForm"></td>
+                        <td id="stCopy"><a id="stCopyBtn" class="btn btn-secondary btn-sm copybtn" role="button">Copy</a><span id="stfade" class="fadediv">Copied!</span></td>
+                    </tr>
+                    <tr>
+                        <th>Long Time</th>
+                        <td id="ltDisp"></td>
+                        <td id="ltForm"></td>
+                        <td id="ltCopy"><a id="ltCopyBtn" class="btn btn-secondary btn-sm copybtn" role="button">Copy</a><span id="ltfade" class="fadediv">Copied!</span></td>
+                    </tr>
+                    <tr>
+                        <th>Short Date</th>
+                        <td id="sdDisp"></td>
+                        <td id="sdForm"></td>
+                        <td id="sdCopy"><a id="sdCopyBtn" class="btn btn-secondary btn-sm copybtn" role="button">Copy</a><span id="sdfade" class="fadediv">Copied!</span></td>
+                    </tr>
+                    <tr>
+                        <th>Long Date</th>
+                        <td id="ldDisp"></td>
+                        <td id="ldForm"></td>
+                        <td id="ldCopy"><a id="ldCopyBtn" class="btn btn-secondary btn-sm copybtn" role="button">Copy</a><span id="ldfade" class="fadediv">Copied!</span></td>
+                    </tr>
+                    <tr>
+                        <th>Short Date/Time</th>
+                        <td id="sdtDisp"></td>
+                        <td id="sdtForm"></td>
+                        <td id="sdtCopy"><a id="sdtCopyBtn" class="btn btn-secondary btn-sm copybtn" role="button">Copy</a><span id="sdtfade" class="fadediv">Copied!</span></td>
+                    </tr>
+                    <tr>
+                        <th>Long Date/Time</th>
+                        <td id="ldtDisp"></td>
+                        <td id="ldtForm"></td>
+                        <td id="ldtCopy"><a id="ldtCopyBtn" class="btn btn-secondary btn-sm copybtn" role="button">Copy</a><span id="ldtfade" class="fadediv">Copied!</span></td>
+                    </tr>
+                    <tr>
+                        <th>Relative Time</th>
+                        <td id="rtDisp"></td>
+                        <td id="rtForm"></td>
+                        <td id="rtCopy"><a id="rtCopyBtn" class="btn btn-secondary btn-sm copybtn" role="button">Copy</a><span id="rtfade" class="fadediv">Copied!</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/js/bootstrap-select.min.js"></script>
+    </body>
+</html>
