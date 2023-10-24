@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $("#datepicker").datepicker();
+    $("#datepicker").datepicker({ changeMonth: true, changeYear: true, showButtonPanel: true });
 
     generateTimestamp();
 });
@@ -33,6 +33,27 @@ jQuery(function($) {
             text.classList.remove("fade-in");
         }, 1000);
     });
+
+    // https://stackoverflow.com/questions/1073410/today-button-in-jquery-datepicker-doesnt-work
+    $.datepicker._gotoToday = function(id) {
+        var target = $(id);
+        var inst = this._getInst(target[0]);
+        if (this._get(inst, 'gotoCurrent') && inst.currentDay) {
+                inst.selectedDay = inst.currentDay;
+                inst.drawMonth = inst.selectedMonth = inst.currentMonth;
+                inst.drawYear = inst.selectedYear = inst.currentYear;
+        }
+        else {
+                var date = new Date();
+                inst.selectedDay = date.getDate();
+                inst.drawMonth = inst.selectedMonth = date.getMonth();
+                inst.drawYear = inst.selectedYear = date.getFullYear();
+                this._setDateDatepicker(target, date);
+                this._selectDate(id, this._getDateDatepicker(target));
+        }
+        this._notifyChange(inst);
+        this._adjustDate(target);
+    }
 });
 
 function generateTimestamp() {
@@ -48,19 +69,10 @@ function generateTimestamp() {
     // Combine date and time strings
     var dateTimeString = formattedDate + "T" + timeInput + timezone;
 
-    console.log(dateTimeString);
-
     // Create a Date object based on user input
     var timestamp = new Date(dateTimeString);
 
-    console.log(timestamp);
-
-    // Convert the formatted date to a Unix timestamp in seconds
-    var unixTimestamp = Math.floor(timestamp.getTime() / 1000);
-
-    console.log(unixTimestamp);
-
-    display(unixTimestamp, timestamp);
+    display(timestamp);
 }
 
 function formatDate(date) {
@@ -99,60 +111,61 @@ function getUserLocalTimezoneOffset() {
     return formattedOffset;
 }
 
-// Display the Unix timestamp in various ways
-function display(unixTimestamp, timestamp) {
-    
-	var formatter = new Intl.DateTimeFormat(navigator.language || 'en', { timeStyle: 'short' } || {});
-	document.getElementById("stDisp").textContent = formatter.format(timestamp);
+// Display the timestamp in various ways
+function display(timestamp) {
+    var unixTimestamp = Math.floor(timestamp.getTime() / 1000);
+
+    var formatter = new Intl.DateTimeFormat(navigator.language || 'en', { timeStyle: 'short' } || {});
+    document.getElementById("stDisp").textContent = formatter.format(timestamp);
     document.getElementById("stForm").textContent = `<t:${unixTimestamp}:t>`;
 
     formatter = new Intl.DateTimeFormat(navigator.language || 'en', { timeStyle: 'medium' } || {});
-	document.getElementById("ltDisp").textContent = formatter.format(timestamp);
+    document.getElementById("ltDisp").textContent = formatter.format(timestamp);
     document.getElementById("ltForm").textContent = `<t:${unixTimestamp}:T>`;
 
     formatter = new Intl.DateTimeFormat(navigator.language || 'en', { dateStyle: 'short' } || {});
-	document.getElementById("sdDisp").textContent = formatter.format(timestamp);
+    document.getElementById("sdDisp").textContent = formatter.format(timestamp);
     document.getElementById("sdForm").textContent = `<t:${unixTimestamp}:d>`;
 
     formatter = new Intl.DateTimeFormat(navigator.language || 'en', { dateStyle: 'long' } || {});
-	document.getElementById("ldDisp").textContent = formatter.format(timestamp);
+    document.getElementById("ldDisp").textContent = formatter.format(timestamp);
     document.getElementById("ldForm").textContent = `<t:${unixTimestamp}:D>`;
 
     formatter = new Intl.DateTimeFormat(navigator.language || 'en', { dateStyle: 'long', timeStyle: 'short' } || {});
-	document.getElementById("sdtDisp").textContent = formatter.format(timestamp);
+    document.getElementById("sdtDisp").textContent = formatter.format(timestamp);
     document.getElementById("sdtForm").textContent = `<t:${unixTimestamp}:f>`;
 
     formatter = new Intl.DateTimeFormat(navigator.language || 'en', { dateStyle: 'full', timeStyle: 'short' } || {});
-	document.getElementById("ldtDisp").textContent = formatter.format(timestamp);
+    document.getElementById("ldtDisp").textContent = formatter.format(timestamp);
     document.getElementById("ldtForm").textContent = `<t:${unixTimestamp}:F>`;
 
     formatter = new Intl.RelativeTimeFormat(navigator.language || 'en', { style: 'long', numeric: 'auto' } || {});
-	var format = automaticRelativeDifference(timestamp);
-	document.getElementById("rtDisp").textContent = formatter.format(format.duration, format.unit);
+    var format = automaticRelativeDifference(timestamp);
+    document.getElementById("rtDisp").textContent = formatter.format(format.duration, format.unit);
     document.getElementById("rtForm").textContent = `<t:${unixTimestamp}:R>`;
 }
 
-// From https://r.3v.fi/discord-timestamps/
+// https://r.3v.fi/discord-timestamps/
 function automaticRelativeDifference(d) {
-	const diff = -((new Date().getTime() - d.getTime())/1000)|0;
-	const absDiff = Math.abs(diff);
+    const diff = -((new Date().getTime() - d.getTime())/1000)|0;
+    const absDiff = Math.abs(diff);
 
-	if (absDiff > 86400*30*10) {
-		return { duration: Math.round(diff/(86400*365)), unit: 'years' };
-	}
-	if (absDiff > 86400*25) {
-		return { duration: Math.round(diff/(86400*30)), unit: 'months' };
-	}
-	if (absDiff > 3600*21) {
-		return { duration: Math.round(diff/86400), unit: 'days' };
-	}
-	if (absDiff > 60*44) {
-		return { duration: Math.round(diff/3600), unit: 'hours' };
-	}
-	if (absDiff > 30) {
-		return { duration: Math.round(diff/60), unit: 'minutes' };
-	}
-	return { duration: diff, unit: 'seconds' };
+    if (absDiff > 86400*30*10) {
+        return { duration: Math.round(diff/(86400*365)), unit: 'years' };
+    }
+    if (absDiff > 86400*25) {
+        return { duration: Math.round(diff/(86400*30)), unit: 'months' };
+    }
+    if (absDiff > 3600*21) {
+        return { duration: Math.round(diff/86400), unit: 'days' };
+    }
+    if (absDiff > 60*44) {
+        return { duration: Math.round(diff/3600), unit: 'hours' };
+    }
+    if (absDiff > 30) {
+        return { duration: Math.round(diff/60), unit: 'minutes' };
+    }
+    return { duration: diff, unit: 'seconds' };
 }
 
 function performCopy(id) {
