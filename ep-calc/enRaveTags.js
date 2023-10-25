@@ -3179,18 +3179,6 @@ var enTags = [
         "date": "2022-02-03"
     },
     {
-        "name": "START!! True dreams",
-        "tags": [
-            "Base Category",
-            "Songs with !",
-            "Songs with Dream"
-        ],
-        "id": 5050099,
-        "level": "12",
-        "scorePerc": "92.8%",
-        "date": "2022-02-19"
-    },
-    {
         "name": "Full Full♡Heartful",
         "tags": [
             "Happy Around!",
@@ -5680,5 +5668,16 @@ var enTags = [
         "level": "13+",
         "scorePerc": "91.0%",
         "date": "2023-10-16"
+    },
+    {
+        "id": 3010034,
+        "name": "Kogetsu",
+        "tags": [
+            "Special (unit)",
+            "Original Category"
+        ],
+        "level": "",
+        "scorePerc": "",
+        "date": "2023-10-19"
     }
 ]

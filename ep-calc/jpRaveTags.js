@@ -101,9 +101,7 @@ var jpTags = [
         "name": "Photon Melodies",
         "tags": [
             "Photon Maiden",
-            "Original Category",
-            "First Mix",
-            "D4DJ Anime"
+            "Original Category"
         ],
         "level": "12",
         "scorePerc": "93.0%",
@@ -5143,7 +5141,6 @@ var jpTags = [
             "Lyrical Lily",
             "Original Category",
             "Songs with MV",
-            "D4DJ Anime",
             "All Mix"
         ],
         "level": "12+",
@@ -5515,18 +5512,6 @@ var jpTags = [
         "level": "12+",
         "scorePerc": "89.0%",
         "date": "2022-10-21"
-    },
-    {
-        "id": 5050183,
-        "name": "Utauyo!!MIRACLE",
-        "tags": [
-            "Base Category",
-            "Songs with !",
-            "BPM over 250"
-        ],
-        "level": "13+",
-        "scorePerc": "89.7%",
-        "date": "2022-10-23"
     },
     {
         "id": 5050184,
@@ -7168,5 +7153,83 @@ var jpTags = [
         "level": "15",
         "scorePerc": "92.6%",
         "date": "2023-10-14"
+    },
+    {
+        "id": 3020027,
+        "name": "新宝島",
+        "tags": [
+            "Special (unit)",
+            "Cover Category"
+        ],
+        "level": "11+",
+        "scorePerc": "91.1%",
+        "date": "2023-10-22"
+    },
+    {
+        "id": 3020033,
+        "name": "HELLO",
+        "tags": [
+            "Special (unit)",
+            "Cover Category"
+        ],
+        "level": "12+",
+        "scorePerc": "91.2%",
+        "date": "2023-10-24"
+    },
+    {
+        "id": 3020034,
+        "name": "魔・カ・セ・テ Tonight",
+        "tags": [
+            "Special (unit)",
+            "Cover Category"
+        ],
+        "level": "13",
+        "scorePerc": "94.2%",
+        "date": "2023-10-20"
+    },
+    {
+        "id": 3020037,
+        "name": "航海の唄",
+        "tags": [
+            "Special (unit)",
+            "Cover Category"
+        ],
+        "level": "13",
+        "scorePerc": "94.2%",
+        "date": "2023-10-19"
+    },
+    {
+        "id": 3020038,
+        "name": "ツキミソウ",
+        "tags": [
+            "Special (unit)",
+            "Cover Category"
+        ],
+        "level": "12+",
+        "scorePerc": "89.6%",
+        "date": "2023-10-23"
+    },
+    {
+        "id": 3020039,
+        "name": "Dear My Friend",
+        "tags": [
+            "Special (unit)",
+            "Cover Category",
+            "Songs starting with D"
+        ],
+        "level": "12+",
+        "scorePerc": "90.7%",
+        "date": "2023-10-21"
+    },
+    {
+        "id": 3010031,
+        "name": "世界の夜明けと半熟ワンダーランド",
+        "tags": [
+            "Special (unit)",
+            "Original Category"
+        ],
+        "level": "13+",
+        "scorePerc": "92%",
+        "date": "2023-10-25"
     }
 ]
