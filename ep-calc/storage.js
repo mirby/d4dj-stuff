@@ -47,6 +47,9 @@ jQuery(function($) {
             }
         }
 
+        // Display growth-able cards chart
+        displayGrowthCardChart(cardArray2);
+
         var profile = document.getElementById("profsel").value;
         var obj = storage.getItem(profile);
         if (obj) {
@@ -121,10 +124,12 @@ jQuery(function($) {
 
     $('#updateStats').on('click', function() {
         updateStats();
+        displayGrowthCardChart(cardArray2);
     });
 
     $('#resetStats').on('click', function() {
         resetStats();
+        displayGrowthCardChart(cardArray2);
     });
 });
 

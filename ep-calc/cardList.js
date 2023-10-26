@@ -10652,4 +10652,5 @@ function generateCardArray() {
     });
 
     standardArray = [...cardArray];
+    cardArray2.sort(charSort);
 }

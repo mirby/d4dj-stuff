@@ -16,6 +16,7 @@
     <script src="storage.js"></script>
     <script src="scoring.js"></script>
     <script src="chartData.js"></script>
+    <script src="growthUpgrade.js"></script>
   </head>
   <body>
     <div id="overallSection" class="container">
@@ -1140,6 +1141,28 @@
                     </div>
                 </form>
             </div>
+            <hr>
+            <div>
+                <p><b>Note:</b> This does not take into account groovy disc or extra training bonuses.</p>
+                <table id="growthChart" style="width:100%" class="table table-bordered align-middle" style="margin-bottom:5px">
+                    <thead>
+                        <tr>
+                            <th>Rarity</th>
+                            <th>Card</th>
+                            <th>Character</th>
+                            <th>Card Name</th>
+                            <th>Style</th>
+                            <th>Param Focus</th>
+                            <th><img class="paramimage" src="../icons/param_heart.png" width='30' height='30'></img>Heart</th>
+                            <th><img class="paramimage" src="../icons/param_technical.png" width='30' height='30'></img>Technical</th>
+                            <th><img class="paramimage" src="../icons/param_physical.png" width='30' height='30'></img>Physical</th>
+                            <th>Total Power</th>
+                            <th>Skill</th>
+                        </tr>
+                    </thead>
+                    <tbody id="growthChartTbody"></tbody>
+                </table>
+            </div>
             <br><hr>
         </div>
         <div class="tab-pane tabpane1 fade" id="questionSection" role="tabpabel" aria-labelledby="questionSection-tab">
@@ -1303,7 +1326,6 @@
         createCharacterFilters();
         createEventSelects();
         cardArray.sort(default_sort());
-        cardArray2.sort(default_sort());
         displayCardsDropdown(cardArray);
         displayCardsDropdown2(cardArray2);
         createClubSelects();
