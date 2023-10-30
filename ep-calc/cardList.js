@@ -10436,6 +10436,62 @@ var cards = {
             "skill": .6,
             "icon": "card_icon_070830001_1.43d43868",
             "passive": "Groovy Bonus 10-30%"
+        },
+        "743": {
+            "id": 743,
+            "character": "Towa",
+            "cardname": "Karen Bee",
+            "unit": "Photon",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 17123,
+            "technical": 15207,
+            "physical": 14026,
+            "skill": .6,
+            "icon": "card_icon_070330005_1.a043d05e",
+            "passive": "Groovy Solo 20-60%"
+        },
+        "744": {
+            "id": 744,
+            "character": "Noa",
+            "cardname": "Tsukihi Phoenix",
+            "unit": "Photon",
+            "type": "Cute",
+            "rarity": .6,
+            "heart": 14961,
+            "technical": 16226,
+            "physical": 14714,
+            "skill": .6,
+            "icon": "card_icon_070340004_1.9fe3b3fa",
+            "passive": "Life Boost 2.5-7.5%"
+        },
+        "745": {
+            "id": 745,
+            "character": "Haruna",
+            "cardname": "Tsubasa Cat",
+            "unit": "LyriLily",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 16091,
+            "technical": 14922,
+            "physical": 15505,
+            "skill": .6,
+            "icon": "card_icon_070620005_1.7371e695",
+            "passive": "Auto Boost 2.5-8%"
+        },
+        "746": {
+            "id": 746,
+            "character": "Lumina",
+            "cardname": "Shinobu Time",
+            "unit": "Unichord",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 13829,
+            "technical": 14333,
+            "physical": 16750,
+            "skill": .6,
+            "icon": "card_icon_070820001_1.d21da1bf",
+            "passive": "Groovy Bonus 10-30%"
         }
     }
 

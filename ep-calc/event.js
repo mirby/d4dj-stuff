@@ -250,6 +250,7 @@ function getCardSet(type) {
         "102":["Abyss's Queen", "As You Wish", "Break the World", "Road to the No.1"],
         "109":["Carpet of Sunflowers", "The One and Only Tulip", "Brilliant Hydrangea", "Four-Leaf Clover", "The Witness Carnation"],
         "120":["Hitagi Crab", "Nadeko Snake", "Mayoi Snail", "Suruga Monkey"],
+        "121":["Karen Bee", "Tsukihi Phoenix", "Tsubasa Cat", "Shinobu Time"],
     };
 
     if (type === "medley") {
@@ -1434,7 +1435,18 @@ var eventList = {
         "style":"None",
         "parameter":"None",
         "bonus":true,
-        "comboBonus":true,
+        "comboBonus":false,
+        "addition":""
+    },
+    "121": {
+        "id":121,
+        "name":"Zoku Hakomonogatari",
+        "characters":"Towa,Noa,Haruna,Lumina",
+        "type":"Raid",
+        "style":"None",
+        "parameter":"None",
+        "bonus":true,
+        "comboBonus":false,
         "addition":""
     },
 }
