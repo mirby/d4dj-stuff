@@ -7231,5 +7231,63 @@ var jpTags = [
         "level": "13+",
         "scorePerc": "92%",
         "date": "2023-10-25"
+    },
+    {
+        "id": 5030104,
+        "name": "All is mind!",
+        "tags": [
+            "Game Category",
+            "Songs with !",
+            "Bushiroad"
+        ],
+        "level": "13+",
+        "scorePerc": "89.9%",
+        "date": "2023-10-31"
+    },
+    {
+        "id": 3010032,
+        "name": "Eight Tones",
+        "tags": [
+            "Special (unit)",
+            "Original Category",
+            "Numbers Spelled Out"
+        ],
+        "level": "14",
+        "scorePerc": "93.9%",
+        "date": "2023-10-28"
+    },
+    {
+        "id": 3010033,
+        "name": "Vs or vS",
+        "tags": [
+            "Special (unit)",
+            "Original Category"
+        ],
+        "level": "14",
+        "scorePerc": "94.8%",
+        "date": "2023-10-26"
+    },
+    {
+        "id": 3010035,
+        "name": "CYBERPUNK",
+        "tags": [
+            "Special (unit)",
+            "Original Category"
+        ],
+        "level": "13",
+        "scorePerc": "88.0%",
+        "date": "2023-10-27"
+    },
+    {
+        "id": 5030103,
+        "name": "リアセカイBGM「深淵に棲みし存在（ボス戦１）」",
+        "tags": [
+            "Game Category",
+            "Songs with Numerals",
+            "Bushiroad"
+        ],
+        "level": "13+",
+        "scorePerc": "91.3%",
+        "date": "2023-11-01"
     }
 ]
