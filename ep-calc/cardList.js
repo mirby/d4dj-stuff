@@ -10492,6 +10492,62 @@ var cards = {
             "skill": .6,
             "icon": "card_icon_070820001_1.d21da1bf",
             "passive": "Groovy Bonus 10-30%"
+        },
+        "747": {
+            "id": 747,
+            "character": "Marika",
+            "cardname": "Wine Red Monopoly",
+            "unit": "Mermaid",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 14887,
+            "technical": 8256,
+            "physical": 20891,
+            "skill": .5,
+            "icon": "card_icon_040420014_1.89f5cfcf",
+            "passive": "Manual Up 2.5-9%"
+        },
+        "748": {
+            "id": 748,
+            "character": "Hiiro",
+            "cardname": "Whispering On Sleepless Nights",
+            "unit": "Rondo",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 7696,
+            "technical": 14862,
+            "physical": 21285,
+            "skill": .5,
+            "icon": "card_icon_040530016_1.f8d8ebe9",
+            "passive": "Life Boost 2.5-7.75%"
+        },
+        "749": {
+            "id": 749,
+            "character": "Esora",
+            "cardname": "Lovely Snake Princess",
+            "unit": "Peaky",
+            "type": "Party",
+            "rarity": 3,
+            "heart": 10721,
+            "technical": 6013,
+            "physical": 14737,
+            "skill": .3,
+            "icon": "card_icon_030240007_1.8f9fa2e5",
+            "passive": "Groovy Bonus 5-10%"
+        },
+        "750": {
+            "id": 750,
+            "character": "Maho",
+            "cardname": "Unraveling Dynamite",
+            "unit": "HapiAra",
+            "type": "Party",
+            "rarity": 3,
+            "heart": 6140,
+            "technical": 10781,
+            "physical": 14550,
+            "skill": .3,
+            "icon": "card_icon_030120006_1.21d0018a",
+            "passive": "Life Boost 1-2.5%"
         }
     }
 

@@ -239,6 +239,7 @@ function getCardSet(type) {
         "106":["On This Fine Day", "Heavenly Stairway", "In This Shining World", "Dazzling Bravery"],
         "110":["Tiny Light", "Overflowing Splendor", "Girl Spinning", "Brilliant Flowers"],
         "113":["Sweet×waterside", "Tropical＊eyes", "Hungry♡pool", "Splash＋reading"],
+        "122":["Wine Red Monopoly", "Whispering On Sleepless Nights", "Lovely Snake Princess", "Unraveling Dynamite"]
     };
 
     var raidSet = {
@@ -1447,6 +1448,17 @@ var eventList = {
         "parameter":"None",
         "bonus":true,
         "comboBonus":false,
+        "addition":""
+    },
+    "122": {
+        "id":122,
+        "name":"Trick or Sexy!",
+        "characters":"Maho,Esora,Marika,Hiiro",
+        "type":"Medley",
+        "style":"Party",
+        "parameter":"Physical",
+        "bonus":true,
+        "comboBonus":true,
         "addition":""
     },
 }
