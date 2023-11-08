@@ -5676,8 +5676,19 @@ var enTags = [
             "Special (unit)",
             "Original Category"
         ],
-        "level": "",
-        "scorePerc": "",
+        "level": "12+",
+        "scorePerc": "95.0%",
         "date": "2023-10-19"
+    },
+    {
+        "id": 3020023,
+        "name": "Platinum",
+        "tags": [
+            "Special (unit)",
+            "Cover Category"
+        ],
+        "level": "13",
+        "scorePerc": "93.7%",
+        "date": "2023-11-07"
     }
 ]
