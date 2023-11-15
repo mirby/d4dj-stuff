@@ -5741,5 +5741,15 @@ var enTags = [
         "level": "13",
         "scorePerc": "95.5%",
         "date": "2023-11-14"
+    },
+    {
+        "id": 5050222,
+        "name": "Souen no Frontier",
+        "tags": [
+            "Base Category"
+        ],
+        "level": "13+",
+        "scorePerc": "91.1%",
+        "date": "2023-11-15"
     }
 ]
