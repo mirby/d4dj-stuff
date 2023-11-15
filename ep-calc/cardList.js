@@ -10548,6 +10548,62 @@ var cards = {
             "skill": .3,
             "icon": "card_icon_030120006_1.21d0018a",
             "passive": "Life Boost 1-2.5%"
+        },
+        "751": {
+            "id": 751,
+            "character": "Shano",
+            "cardname": "To Where the Dancing Feathers Guide",
+            "unit": "CallofArtemis",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 20298,
+            "technical": 14239,
+            "physical": 7865,
+            "skill": .5,
+            "icon": "card_icon_040730003_1.0e71003c",
+            "passive": "Manual Up 2.5-9%"
+        },
+        "752": {
+            "id": 752,
+            "character": "Mana",
+            "cardname": "Carrying Twin Wings",
+            "unit": "CallofArtemis",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 19987,
+            "technical": 7432,
+            "physical": 14969,
+            "skill": .5,
+            "icon": "card_icon_040720003_1.da07c35a",
+            "passive": "Groovy Solo 20-60%"
+        },
+        "753": {
+            "id": 753,
+            "character": "Toka",
+            "cardname": "The Fate of the Outstretched Wings",
+            "unit": "CallofArtemis",
+            "type": "Cute",
+            "rarity": 3,
+            "heart": 16673,
+            "technical": 6673,
+            "physical": 8322,
+            "skill": .3,
+            "icon": "card_icon_030740001_1.cdc81cea",
+            "passive": "Life Boost 1-2.5%"
+        },
+        "754": {
+            "id": 754,
+            "character": "Airi",
+            "cardname": "Fluttering Across the Sky",
+            "unit": "CallofArtemis",
+            "type": "Party",
+            "rarity": 3,
+            "heart": 7914,
+            "technical": 17202,
+            "physical": 6718,
+            "skill": .3,
+            "icon": "card_icon_030710001_1.cb69252d",
+            "passive": "Groovy Bonus 5-10%"
         }
     }
 

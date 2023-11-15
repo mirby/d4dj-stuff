@@ -1461,6 +1461,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "123": {
+        "id":123,
+        "name":"Voice of a Goddess -sing for you-",
+        "characters":"Airi,Shano,Mana,Toka",
+        "type":"Rave",
+        "style":"None",
+        "parameter":"None",
+        "bonus":false,
+        "comboBonus":false,
+        "addition":""
+    },
 }
 
 /*
