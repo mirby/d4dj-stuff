@@ -5690,5 +5690,56 @@ var enTags = [
         "level": "13",
         "scorePerc": "93.7%",
         "date": "2023-11-07"
+    },
+    {
+        "id": 5050206,
+        "name": "Domination",
+        "tags": [
+            "Base Category",
+            "Songs starting with D"
+        ],
+        "level": "13+",
+        "scorePerc": "92.6%",
+        "date": "2023-11-10"
+    },
+    {
+        "id": 5050209,
+        "name": "Hangyaku no Castaway",
+        "tags": [
+            "Base Category"
+        ],
+        "level": "14+",
+        "scorePerc": "95.1%",
+        "date": "2023-11-11"
+    },
+    {
+        "id": 5050207,
+        "name": "Killer neuron",
+        "tags": [
+            "Base Category"
+        ],
+        "level": "13+",
+        "scorePerc": "91.1%",
+        "date": "2023-11-12"
+    },
+    {
+        "id": 5050210,
+        "name": "Limitless",
+        "tags": [
+            "Base Category"
+        ],
+        "level": "13+",
+        "scorePerc": "92.7%",
+        "date": "2023-11-13"
+    },
+    {
+        "id": 5050208,
+        "name": "Evil Bubble",
+        "tags": [
+            "Base Category"
+        ],
+        "level": "13",
+        "scorePerc": "95.5%",
+        "date": "2023-11-14"
     }
 ]

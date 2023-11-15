@@ -7289,5 +7289,38 @@ var jpTags = [
         "level": "13+",
         "scorePerc": "91.3%",
         "date": "2023-11-01"
+    },
+    {
+        "id": 5050245,
+        "name": "Stand up! Blaze up!",
+        "tags": [
+            "Base Category",
+            "Songs with !"
+        ],
+        "level": "13",
+        "scorePerc": "92.2%",
+        "date": "2023-11-10"
+    },
+    {
+        "id": 5050246,
+        "name": "The Boon!",
+        "tags": [
+            "Base Category",
+            "Songs with !"
+        ],
+        "level": "12",
+        "scorePerc": "89.6%",
+        "date": "2023-11-13"
+    },
+    {
+        "id": 520021,
+        "name": "火炎",
+        "tags": [
+            "RONDO",
+            "Cover Category"
+        ],
+        "level": "13+",
+        "scorePerc": "90.4%",
+        "date": "2023-11-09"
     }
 ]
