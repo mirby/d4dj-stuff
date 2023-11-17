@@ -3056,7 +3056,8 @@ var enTags = [
         "tags": [
             "Base Category",
             "Autumn 22 Dan",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "Vtuber"
         ],
         "id": 5050124,
         "level": "13+",
