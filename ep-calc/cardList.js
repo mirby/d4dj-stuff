@@ -10604,6 +10604,20 @@ var cards = {
             "skill": .3,
             "icon": "card_icon_030710001_1.cb69252d",
             "passive": "Groovy Bonus 5-10%"
+        },
+        "755": {
+            "id": 755,
+            "character": "Toka",
+            "cardname": "The RAVE",
+            "unit": "CallofArtemis",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 15949,
+            "technical": 16151,
+            "physical": 15647,
+            "skill": .5,
+            "icon": "card_icon_040740002_1.44410417",
+            "passive": "Score Up 4-6%"
         }
     }
 
