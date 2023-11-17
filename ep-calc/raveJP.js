@@ -303,7 +303,7 @@ function displaySongsByHint() {
             }
 
             var songCounter = 0;
-            var title = "If A: " + aTrend + " and B: " + bTrend + " and C: " + cTrend;
+            var title = "If A: " + aTrend + " and B: " + bTrend;
             createSongHintTitleRow(title, "trendRow" + idCounter);
 
             // Get any ABC
