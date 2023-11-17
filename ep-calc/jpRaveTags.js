@@ -7322,5 +7322,15 @@ var jpTags = [
         "level": "13+",
         "scorePerc": "90.4%",
         "date": "2023-11-09"
+    },
+    {
+        "id": 5050247,
+        "name": "Wave the Remember",
+        "tags": [
+            "Base Category"
+        ],
+        "level": "13",
+        "scorePerc": "95.4%",
+        "date": "2023-11-16"
     }
 ]

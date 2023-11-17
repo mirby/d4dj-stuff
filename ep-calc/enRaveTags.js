@@ -1691,7 +1691,9 @@ var enTags = [
             "Lyrical Lily",
             "Cover Category",
             "Cover Tracks Vol 2",
-            "Event Songs"
+            "Event Songs",
+            "Vtuber",
+            "Hololive"
         ],
         "id": 620011,
         "level": "13",
