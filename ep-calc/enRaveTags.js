@@ -4399,7 +4399,6 @@ var enTags = [
         "tags": [
             "Abyssmare",
             "Original Category",
-            "Side Nova",
             "BPM 120 or less",
             "Songs with MV"
         ],
@@ -4440,7 +4439,8 @@ var enTags = [
     {
         "name": "Super Battleworn Insomniac",
         "tags": [
-            "Game Category"
+            "Game Category",
+            "Side Nova (SHOWING BROKEN RESULTS)"
         ],
         "id": 5030101,
         "level": "14+",
@@ -4465,7 +4465,6 @@ var enTags = [
             "Spring 23 Dan",
             "Summer 23 Dan",
             "Songs with Numerals",
-            "Side Origin",
             "Songs with MV",
             "BPM 120 or less"
         ],
@@ -4504,6 +4503,7 @@ var enTags = [
         "tags": [
             "Photon Maiden",
             "Original Category",
+            "Side Origin (SHOWING BROKEN RESULTS)",
             "Winter 23 Dan",
             "Spring 23 Dan"
         ],
@@ -4633,7 +4633,6 @@ var enTags = [
             "Original Category",
             "Spring 23 Dan",
             "Numbers Spelled Out",
-            "Side Origin",
             "Songs with MV"
         ],
         "id": 210020,
@@ -4675,6 +4674,7 @@ var enTags = [
         "name": "Bakuretsu Thaumazein (Prod. ChibaNyan)",
         "tags": [
             "Base Category",
+            "Side Origin (SHOWING BROKEN RESULTS)",
             "Spring 23 Dan"
         ],
         "id": 5050187,
@@ -4780,7 +4780,6 @@ var enTags = [
             "UniChØrd",
             "Original Category",
             "Spring 23 Dan",
-            "Side Nova",
             "Songs with MV"
         ],
         "level": "13",
@@ -4808,7 +4807,6 @@ var enTags = [
             "Lyrical Lily",
             "Original Category",
             "Songs with Black or White",
-            "Side Origin",
             "Songs with MV"
         ],
         "id": 610022,
@@ -4822,6 +4820,7 @@ var enTags = [
             "Special (unit)",
             "Cover Category",
             "Songs with Love",
+            "Side Nova (SHOWING BROKEN RESULTS)",
             "BPM 120 or less"
         ],
         "id": 3020018,
@@ -4844,6 +4843,7 @@ var enTags = [
         "tags": [
             "RONDO",
             "Original Category",
+            "Side Origin (SHOWING BROKEN RESULTS)",
             "Songs with MV"
         ],
         "id": 510020,
@@ -4923,7 +4923,6 @@ var enTags = [
         "tags": [
             "Happy Around!",
             "Original Category",
-            "Side Origin",
             "Songs with MV",
             "Autumn 23 Dan"
         ],
@@ -4966,6 +4965,7 @@ var enTags = [
             "Special (unit)",
             "Original Category",
             "Summer 23 Dan",
+            "Side Origin (SHOWING BROKEN RESULTS)",
             "Songs with ☆",
             "Songs with MV"
         ],
@@ -5029,8 +5029,7 @@ var enTags = [
         "name": "WINNER",
         "tags": [
             "Abyssmare",
-            "Original Category",
-            "Side Nova"
+            "Original Category"
         ],
         "id": 910002,
         "level": "13+",
@@ -5044,7 +5043,6 @@ var enTags = [
             "Original Category",
             "Summer 23 Dan",
             "Songs with DJ",
-            "Side Nova",
             "Songs starting with D"
         ],
         "id": 810002,
@@ -5070,6 +5068,7 @@ var enTags = [
         "name": "Love Love Alien (Suki Suki Seijin)",
         "tags": [
             "Base Category",
+            "Side Nova (SHOWING BROKEN RESULTS)",
             "Songs with Love"
         ],
         "id": 5050220,
@@ -5083,6 +5082,7 @@ var enTags = [
             "Base Category",
             "Vtuber",
             "Hololive",
+            "Side Nova (SHOWING BROKEN RESULTS)",
             "Songs with !"
         ],
         "id": 5050214,
@@ -5118,7 +5118,6 @@ var enTags = [
             "Merm4id",
             "Original Category",
             "Songs with !",
-            "Side Origin",
             "Songs with Love",
             "Songs with MV"
         ],
@@ -5153,7 +5152,8 @@ var enTags = [
         "name": "Shangri-La For The Two of Us (Bokuradakeno Shangri-La)",
         "tags": [
             "Base Category",
-            "Numbers Spelled Out"
+            "Numbers Spelled Out",
+            "Side Origin (SHOWING BROKEN RESULTS)"
         ],
         "id": 5050221,
         "level": "12+",
@@ -5200,7 +5200,6 @@ var enTags = [
         "tags": [
             "RONDO",
             "Original Category",
-            "Side Origin",
             "Songs with MV"
         ],
         "id": 510022,
@@ -5225,7 +5224,6 @@ var enTags = [
             "UniChØrd",
             "Original Category",
             "Summer 23 Dan",
-            "Side Nova",
             "Songs with MV"
         ],
         "id": 810003,
@@ -5239,7 +5237,7 @@ var enTags = [
         "tags": [
             "Abyssmare",
             "Original Category",
-            "Side Nova",
+            "Side Origin (SHOWING BROKEN RESULTS)",
             "Songs with MV"
         ],
         "level": "13",
@@ -5252,8 +5250,7 @@ var enTags = [
         "tags": [
             "Special (unit)",
             "Original Category",
-            "Summer 23 Dan",
-            "Side Nova"
+            "Summer 23 Dan"
         ],
         "level": "13",
         "scorePerc": "91.9%",
@@ -5264,6 +5261,7 @@ var enTags = [
         "tags": [
             "Abyssmare",
             "Cover Category",
+            "Side Nova (SHOWING BROKEN RESULTS)",
             "Cover Tracks Vol 8"
         ],
         "id": 920002,
@@ -5276,6 +5274,7 @@ var enTags = [
         "tags": [
             "Abyssmare",
             "Cover Category",
+            "Side Nova (SHOWING BROKEN RESULTS)",
             "Numbers Spelled Out"
         ],
         "id": 920003,
@@ -5287,6 +5286,7 @@ var enTags = [
         "name": "Ankoku no Tsubasa",
         "tags": [
             "Special (unit)",
+            "Side Nova (SHOWING BROKEN RESULTS)",
             "Cover Category"
         ],
         "id": 3020014,
@@ -5461,8 +5461,7 @@ var enTags = [
         "name": "Kurikae Step",
         "tags": [
             "UniChØrd",
-            "Original Category",
-            "Side Nova"
+            "Original Category"
         ],
         "id": 810004,
         "level": "12+",
@@ -5473,8 +5472,7 @@ var enTags = [
         "name": "STORY",
         "tags": [
             "Abyssmare",
-            "Original Category",
-            "Side Nova"
+            "Original Category"
         ],
         "id": 910004,
         "level": "12+",
@@ -5497,6 +5495,7 @@ var enTags = [
         "name": "Aventu～re Summer Da～ys",
         "tags": [
             "Happy Around!",
+            "Side Nova (SHOWING BROKEN RESULTS)",
             "Original Category"
         ],
         "level": "14+",
@@ -5508,6 +5507,7 @@ var enTags = [
         "name": "Amaoto",
         "tags": [
             "RONDO",
+            "Side Nova (SHOWING BROKEN RESULTS)",
             "Original Category"
         ],
         "level": "13+",
