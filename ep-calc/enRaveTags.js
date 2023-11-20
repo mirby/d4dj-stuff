@@ -536,7 +536,8 @@ var enTags = [
             "Peaky P-key",
             "Original Category",
             "Summer 22 Dan",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "Songs with Go"
         ],
         "id": 210003,
         "level": "13",
@@ -738,7 +739,8 @@ var enTags = [
         "tags": [
             "Instrumental Category",
             "Wrestling",
-            "Bushiroad"
+            "Bushiroad",
+            "Songs with Go"
         ],
         "id": 5040016,
         "level": "13+",
@@ -1475,7 +1477,8 @@ var enTags = [
             "Happy Around!",
             "Cover Category",
             "First Mix",
-            "D4DJ Anime"
+            "D4DJ Anime",
+            "Songs with Go"
         ],
         "id": 120011,
         "level": "14",
@@ -2100,7 +2103,8 @@ var enTags = [
     {
         "name": "God knows...",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Songs with Go"
         ],
         "id": 5050028,
         "level": "13",
@@ -3112,7 +3116,8 @@ var enTags = [
         "tags": [
             "Base Category",
             "from ARGONAVIS",
-            "Bushiroad"
+            "Bushiroad",
+            "Songs with Go"
         ],
         "id": 5050126,
         "level": "13",
@@ -3124,7 +3129,8 @@ var enTags = [
         "tags": [
             "Base Category",
             "from ARGONAVIS",
-            "Bushiroad"
+            "Bushiroad",
+            "Songs with Go"
         ],
         "id": 5050127,
         "level": "13",
@@ -3355,7 +3361,8 @@ var enTags = [
             "Cover Category",
             "Winter 23 Dan",
             "Cover Tracks Vol 6",
-            "Songs with !"
+            "Songs with !",
+            "Songs with Go"
         ],
         "id": 220020,
         "level": "14+",
@@ -3486,7 +3493,8 @@ var enTags = [
         "tags": [
             "Peaky P-key",
             "Cover Category",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "Songs with Go"
         ],
         "id": 220014,
         "level": "13",
@@ -3943,7 +3951,8 @@ var enTags = [
     {
         "name": "Gotoubun no Kiseki",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Songs with Go"
         ],
         "id": 5050150,
         "level": "12",
@@ -4195,7 +4204,8 @@ var enTags = [
             "Autumn 22 Dan",
             "Cover Tracks Vol 7",
             "BPM over 250",
-            "Autumn 23 Dan"
+            "Autumn 23 Dan",
+            "Songs with Go"
         ],
         "id": 520016,
         "level": "14",
@@ -4566,7 +4576,8 @@ var enTags = [
         "tags": [
             "Game Category",
             "Winter 23 Dan",
-            "Summer 23 Dan"
+            "Summer 23 Dan",
+            "Songs with Go"
         ],
         "id": 5030096,
         "level": "12+",
@@ -4685,7 +4696,8 @@ var enTags = [
     {
         "name": "IAM (feat. Shogo, Tsubasa)",
         "tags": [
-            "Base Category"
+            "Base Category",
+            "Songs with Go"
         ],
         "id": 5050188,
         "level": "13",
