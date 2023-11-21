@@ -32,7 +32,8 @@ var enTags = [
             "Happy Around!",
             "Cover Category",
             "Autumn 22 Dan",
-            "Autumn 23 Dan"
+            "Autumn 23 Dan",
+            "Songs with Sun or Moon"
         ],
         "id": 120001,
         "level": "12+",
@@ -511,7 +512,8 @@ var enTags = [
         "tags": [
             "Instrumental Category",
             "Wrestling",
-            "Bushiroad"
+            "Bushiroad",
+            "Songs with Sun or Moon"
         ],
         "id": 5040018,
         "level": "12",
@@ -988,7 +990,8 @@ var enTags = [
         "tags": [
             "Lyrical Lily",
             "Cover Category",
-            "Cover Tracks Vol 4"
+            "Cover Tracks Vol 4",
+            "Songs with Sun or Moon"
         ],
         "id": 620008,
         "level": "12",
@@ -1503,7 +1506,8 @@ var enTags = [
             "Lyrical Lily",
             "Original Category",
             "Autumn 22 Dan",
-            "Autumn 23 Dan"
+            "Autumn 23 Dan",
+            "Songs with Sun or Moon"
         ],
         "id": 610006,
         "level": "11",
@@ -4720,7 +4724,8 @@ var enTags = [
         "tags": [
             "Photon Maiden",
             "Cover Category",
-            "Spring 23 Dan"
+            "Spring 23 Dan",
+            "Songs with Sun or Moon"
         ],
         "id": 320020,
         "level": "13",

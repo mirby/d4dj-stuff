@@ -33,6 +33,7 @@ const tags = [
     "A:Songs with Party",
     "A:Songs with Night",
     "A:Songs with Dream",
+    "A:Songs with Sun or Moon",
     "A:Songs with ♡",
     "A:Songs with ☆",
     "A:Cover Tracks Vol 1",
