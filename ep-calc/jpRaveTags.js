@@ -5761,29 +5761,6 @@ var jpTags = [
         "date": "2022-12-25"
     },
     {
-        "id": 5050198,
-        "name": "GALAXY",
-        "tags": [
-            "Base Category",
-            "Vtuber",
-            "BPM 120 or less"
-        ],
-        "level": "12",
-        "scorePerc": "90.8%",
-        "date": "2022-11-17"
-    },
-    {
-        "id": 5050199,
-        "name": "VR",
-        "tags": [
-            "Base Category",
-            "Vtuber"
-        ],
-        "level": "13",
-        "scorePerc": "91.2%",
-        "date": "2022-11-21"
-    },
-    {
         "id": 5050200,
         "name": "R U GAME?",
         "tags": [
@@ -7332,5 +7309,57 @@ var jpTags = [
         "level": "13",
         "scorePerc": "95.4%",
         "date": "2023-11-16"
+    },
+    {
+        "id": 5050248,
+        "name": "ダンシング・クレイジー",
+        "tags": [
+            "Base Category"
+        ],
+        "level": "12+",
+        "scorePerc": "89.8%",
+        "date": "2023-11-21"
+    },
+    {
+        "id": 5050249,
+        "name": "爽快奪回Sunlight",
+        "tags": [
+            "Base Category"
+        ],
+        "level": "12+",
+        "scorePerc": "89.1%",
+        "date": "2023-11-24"
+    },
+    {
+        "id": 5050250,
+        "name": "Go Wave!",
+        "tags": [
+            "Base Category",
+            "Songs with !",
+            "Songs with Go"
+        ],
+        "level": "13",
+        "scorePerc": "89.4%",
+        "date": "2023-11-19"
+    },
+    {
+        "id": 5050256,
+        "name": "WITH",
+        "tags": [
+            "Base Category"
+        ],
+        "level": "13",
+        "scorePerc": "89%",
+        "date": "2023-11-25"
+    },
+    {
+        "id": 5050260,
+        "name": "Starlight challenge",
+        "tags": [
+            "Base Category"
+        ],
+        "level": "13",
+        "scorePerc": "93.4%",
+        "date": "2023-11-22"
     }
 ]
