@@ -10457,7 +10457,7 @@ var cards = {
             "cardname": "Tsukihi Phoenix",
             "unit": "Photon",
             "type": "Cute",
-            "rarity": .6,
+            "rarity": 4,
             "heart": 14961,
             "technical": 16226,
             "physical": 14714,
