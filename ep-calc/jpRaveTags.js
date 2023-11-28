@@ -5761,17 +5761,6 @@ var jpTags = [
         "date": "2022-12-25"
     },
     {
-        "id": 5050200,
-        "name": "R U GAME?",
-        "tags": [
-            "Base Category",
-            "Vtuber"
-        ],
-        "level": "13+",
-        "scorePerc": "90.4%",
-        "date": "2022-11-25"
-    },
-    {
         "id": 110030,
         "name": "Merry-Go-Around!♡",
         "tags": [
@@ -7361,5 +7350,27 @@ var jpTags = [
         "level": "13",
         "scorePerc": "93.4%",
         "date": "2023-11-22"
+    },
+    {
+        "id": 5050258,
+        "name": "SHOOT!",
+        "tags": [
+            "Base Category",
+            "Songs with !"
+        ],
+        "level": "13",
+        "scorePerc": "93.2%",
+        "date": "2023-11-27"
+    },
+    {
+        "id": 320018,
+        "name": "irony",
+        "tags": [
+            "Photon Maiden",
+            "Cover Category"
+        ],
+        "level": "13+",
+        "scorePerc": "93.7%",
+        "date": "2023-11-26"
     }
 ]

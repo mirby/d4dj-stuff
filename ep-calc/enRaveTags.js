@@ -5771,5 +5771,16 @@ var enTags = [
         "level": "13+",
         "scorePerc": "91.1%",
         "date": "2023-11-15"
+    },
+    {
+        "id": 3010031,
+        "name": "Soft-Boiled Wonderland and the Dawn of the World",
+        "tags": [
+            "Special (unit)",
+            "Original Category"
+        ],
+        "level": "13+",
+        "scorePerc": "92%",
+        "date": "2023-11-27"
     }
 ]
