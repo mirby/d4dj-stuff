@@ -7372,5 +7372,17 @@ var jpTags = [
         "level": "13+",
         "scorePerc": "93.7%",
         "date": "2023-11-26"
+    },
+    {
+        "id": 640001,
+        "name": "Lyrical Strike!",
+        "tags": [
+            "Lyrical Lily",
+            "Instrumental Category",
+            "Songs with !"
+        ],
+        "level": "14+",
+        "scorePerc": "92%",
+        "date": "2023-11-30"
     }
 ]

@@ -5782,5 +5782,39 @@ var enTags = [
         "level": "13+",
         "scorePerc": "92%",
         "date": "2023-11-27"
+    },
+    {
+        "id": 3010032,
+        "name": "Eight Tones",
+        "tags": [
+            "Special (unit)",
+            "Original Category",
+            "Numbers Spelled Out"
+        ],
+        "level": "14",
+        "scorePerc": "93.9%",
+        "date": "2023-11-30"
+    },
+    {
+        "id": 3010033,
+        "name": "Vs or vS",
+        "tags": [
+            "Special (unit)",
+            "Original Category"
+        ],
+        "level": "14",
+        "scorePerc": "94.8%",
+        "date": "2023-11-28"
+    },
+    {
+        "id": 3010035,
+        "name": "CYBERPUNK",
+        "tags": [
+            "Special (unit)",
+            "Original Category"
+        ],
+        "level": "13",
+        "scorePerc": "88%",
+        "date": "2023-11-29"
     }
 ]
