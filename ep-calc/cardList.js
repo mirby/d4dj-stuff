@@ -10814,6 +10814,62 @@ var cards = {
             "skill": .5,
             "icon": "card_icon_070940002_1.1fc765ff",
             "passive": "Groovy Bonus 10-35%"
+        },
+        "770": {
+            "id": 770,
+            "character": "Rika",
+            "cardname": "Munching☆Gone to Panic",
+            "unit": "Mermaid",
+            "type": "Street",
+            "rarity": 3,
+            "heart": 17440,
+            "technical": 8171,
+            "physical": 6794,
+            "skill": .3,
+            "icon": "card_icon_030410007_1.377e0a77",
+            "passive": "Groovy Solo 10-20%"
+        },
+        "771": {
+            "id": 771,
+            "character": "Yuka",
+            "cardname": "Fluffy☆Sleeping Time",
+            "unit": "Peaky",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 20244,
+            "technical": 14571,
+            "physical": 8420,
+            "skill": .5,
+            "icon": "card_icon_040230013_1.6505bd7d",
+            "passive": "Life Boost 2.5-7.5%"
+        },
+        "772": {
+            "id": 772,
+            "character": "Saori",
+            "cardname": "Gulping☆Love Power",
+            "unit": "Mermaid",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 21102,
+            "technical": 8208,
+            "physical": 13721,
+            "skill": .5,
+            "icon": "card_icon_040430014_1.31e4646d",
+            "passive": "Auto Boost 2.5-8%"
+        },
+        "773": {
+            "id": 773,
+            "character": "Rinku",
+            "cardname": "Wobbly☆Hot Spa",
+            "unit": "HapiAra",
+            "type": "Street",
+            "rarity": 3,
+            "heart": 17116,
+            "technical": 6236,
+            "physical": 8453,
+            "skill": .3,
+            "icon": "card_icon_030110010_1.10b684ba",
+            "passive": "Groovy Bonus 5-10%"
         }
     }
 

@@ -1483,6 +1483,17 @@ var eventList = {
         "comboBonus":true,
         "addition":"50% power boost for 3rd Anniversary card in Multi. 25% in Special Raid"
     },
+    "125": {
+        "id":125,
+        "name":"Run! The Great Fluffy Operation",
+        "characters":"Rinku,Yuka,Rika,Saori",
+        "type":"Poker",
+        "style":"Street",
+        "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
