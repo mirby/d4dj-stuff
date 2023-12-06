@@ -5858,28 +5858,6 @@ var jpTags = [
         "date": "2022-12-31"
     },
     {
-        "id": 5050202,
-        "name": "独占予報",
-        "tags": [
-            "Base Category",
-            "Vtuber"
-        ],
-        "level": "13",
-        "scorePerc": "93.1%",
-        "date": "2022-12-03"
-    },
-    {
-        "id": 5050203,
-        "name": "ハチャメチャバース",
-        "tags": [
-            "Base Category",
-            "Vtuber"
-        ],
-        "level": "12",
-        "scorePerc": "89.0%",
-        "date": "2022-12-03"
-    },
-    {
         "id": 410019,
         "name": "START (Merm4id)",
         "tags": [
@@ -7384,5 +7362,37 @@ var jpTags = [
         "level": "14+",
         "scorePerc": "92%",
         "date": "2023-11-30"
+    },
+    {
+        "id": 5050257,
+        "name": "Chance! & Revenge!",
+        "tags": [
+            "Base Category",
+            "Songs with !"
+        ],
+        "level": "13",
+        "scorePerc": "89.5%",
+        "date": "2023-12-04"
+    },
+    {
+        "id": 120025,
+        "name": "ヒトリゴト",
+        "tags": [
+            "Happy Around!",
+            "Cover Category"
+        ],
+        "level": "13",
+        "scorePerc": "93.7%",
+        "date": "2023-12-03"
+    },
+    {
+        "id": 5050259,
+        "name": "Os-宇宙人",
+        "tags": [
+            "Base Category"
+        ],
+        "level": "13+",
+        "scorePerc": "94.8%",
+        "date": "2023-12-05"
     }
 ]
