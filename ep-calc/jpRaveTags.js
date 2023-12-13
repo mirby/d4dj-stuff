@@ -7394,5 +7394,15 @@ var jpTags = [
         "level": "13+",
         "scorePerc": "94.8%",
         "date": "2023-12-05"
+    },
+    {
+        "id": 5040024,
+        "name": "RYDEEN",
+        "tags": [
+            "Instrumental Category"
+        ],
+        "level": "13",
+        "scorePerc": "93%",
+        "date": "2023-12-11"
     }
 ]
