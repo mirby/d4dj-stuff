@@ -152,6 +152,7 @@ function saveData() {
     clubItemsSave.push({"club-light":document.getElementById("club-light").value});
     clubItemsSave.push({"club-accessory":document.getElementById("club-accessory").value});
     clubItemsSave.push({"club-decoration":document.getElementById("club-decoration").value});
+    clubItemsSave.push({"club-outframe":document.getElementById("club-outframe").value});
 
     // Event info
     var eventSave = [];

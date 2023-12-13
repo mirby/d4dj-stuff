@@ -56,6 +56,11 @@ function createClubSelects() {
         document.getElementById("club-" + type + "-div").appendChild(select);
     }
 
+    for (let type of clubTypes4) {
+        var select = createClubSelect(clubItems4, "club-" + type);
+        document.getElementById("club-" + type + "-div").appendChild(select);
+    }
+
     generateClubArrays();
 }
 
@@ -94,13 +99,17 @@ function autoClub() {
     var highestPower = 0;
     var highestChar = "";
     var clubUse = "";
+    var chars = {};
     var styleArr = [];
     var unitArr = [];
     for (let i = 1; i <= 4; i++) {
         var tempPower = document.getElementById("m" + i + "_cardpower").innerHTML;
+        var char = document.getElementById("m" + i + "_char").innerHTML;
+        chars[char] = tempPower;
+
         if (tempPower > highestPower) {
             highestPower = tempPower;
-            highestChar = document.getElementById("m" + i + "_char").innerHTML;
+            highestChar = char;
         }
 
         if (tempPower != 0) {
@@ -108,6 +117,9 @@ function autoClub() {
             unitArr.push(document.getElementById("m" + i + "_unit").innerHTML.toLowerCase());
         }
     }
+
+    charArray = Object.entries(chars);
+    charArray.sort((a, b) => b[1] - a[1]);
 
     // Don't bother setting club items if a team isn't built yet
     if (highestPower != 0) {
@@ -160,6 +172,19 @@ function autoClub() {
         for (var type of clubTypes2) {
             $("select[name=club-" + type + "]").val(clubUse);
         }
+
+        // Set the decoration item 
+        // Since the decorations are all 2%, no point in setting it during auto
+
+        // Set the outframe item
+        // Set yuka by default
+        $("select[name=club-outframe]").val("out-yuka");
+        for (var char of charArray) {
+            if (containsChar(char[0])) {
+                $("select[name=club-outframe]").val("out-" + char[0]);
+                break;
+            }
+        }
     
         $.refreshClubSelect();
 
@@ -169,14 +194,29 @@ function autoClub() {
     }
 }
 
+function containsChar(char) {
+    for (let key in clubItems4) {
+        if (clubItems4.hasOwnProperty(key)) {
+            const value = clubItems4[key];
+            if (value.name === char) {
+                return true;
+            }
+        }
+    }
+    
+    return false;
+}
+
 var clubTypesDisplay = ["display"];
 var clubTypes1 = ["djbooth", "discl", "discr"];
 var clubTypes2 = ["front", "side", "back", "frame", "light", "accessory"];
 var clubTypes3 = ["decoration"];
+var clubTypes4 = ["outframe"];
 var clubArrayDisplay = [];
 var clubArray1 = [];
 var clubArray2 = [];
 var clubArray3 = [];
+var clubArray4 = [];
 
 function generateClubArrays() {
     for (var x in clubItemsDisplay) {
@@ -193,6 +233,10 @@ function generateClubArrays() {
 
     for (var x in clubItems3) {
         clubArray3.push(x);
+    }
+
+    for (var x in clubItems4) {
+        clubArray4.push(x);
     }
 }
 
@@ -895,5 +939,32 @@ var clubItems3 = {
         "displayname":"Archangel Wings",
         "type":"decoration",
         "bonus":.02
+    }
+}
+
+var clubItems4 = {
+    "out-yuka": {
+        "name":"yuka",
+        "displayname":"Yuka",
+        "type":"character",
+        "bonus":.03
+    },
+    "out-saori": {
+        "name":"saori",
+        "displayname":"Saori",
+        "type":"character",
+        "bonus":.03
+    },
+    "out-miyu": {
+        "name":"miyu",
+        "displayname":"Miyu",
+        "type":"character",
+        "bonus":.03
+    },
+    "out-kurumi": {
+        "name":"kurumi",
+        "displayname":"Kurumi",
+        "type":"character",
+        "bonus":.03
     }
 }
