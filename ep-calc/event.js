@@ -1494,6 +1494,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "126": {
+        "id":126,
+        "name":"One of the Most -Yuka & Shinobu-",
+        "characters":"Shinobu,Yuka",
+        "type":"Slots",
+        "style":"Elegant",
+        "parameter":"Physical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
