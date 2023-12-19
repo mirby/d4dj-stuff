@@ -1505,6 +1505,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "127": {
+        "id":127,
+        "name":"A Girl Alone in Solitude",
+        "characters":"Tsubaki,Nagisa,Hiiro,Aoi",
+        "type":"Poker",
+        "style":"Street",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*

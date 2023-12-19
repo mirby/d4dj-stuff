@@ -10968,6 +10968,62 @@ var cards = {
             "skill": .45,
             "icon": "card_icon_060610002_1.73a8f95d",
             "passive": "Life Boost 2.5-7.75%"
+        },
+        "781": {
+            "id": 781,
+            "character": "Aoi",
+            "cardname": "Deskbound Game",
+            "unit": "Rondo",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 14298,
+            "technical": 17339,
+            "physical": 15510,
+            "skill": .5,
+            "icon": "card_icon_040540016_1.1f693dce",
+            "passive": "Groovy Bonus 10-35%"
+        },
+        "782": {
+            "id": 782,
+            "character": "Hiiro",
+            "cardname": "Unfelt Warmth",
+            "unit": "Rondo",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 15820,
+            "technical": 17016,
+            "physical": 14169,
+            "skill": .5,
+            "icon": "card_icon_040530017_1.1707c9ff",
+            "passive": "Manual Up 2.5-10%"
+        },
+        "783": {
+            "id": 783,
+            "character": "Nagisa",
+            "cardname": "Always Looking Up at the Skylight",
+            "unit": "Rondo",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 14529,
+            "technical": 17689,
+            "physical": 14917,
+            "skill": .5,
+            "icon": "card_icon_040520016_1.013d0235",
+            "passive": "Groovy Solo 20-70%"
+        },
+        "784": {
+            "id": 784,
+            "character": "Tsubaki",
+            "cardname": "Concert Inside the Box",
+            "unit": "Rondo",
+            "type": "Street",
+            "rarity": 3,
+            "heart": 9353,
+            "technical": 13908,
+            "physical": 8470,
+            "skill": .3,
+            "icon": "card_icon_030510009_1.752342be",
+            "passive": "Life Boost 1-3%"
         }
     }
 
