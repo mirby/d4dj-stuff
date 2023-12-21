@@ -5720,16 +5720,6 @@ var jpTags = [
         "date": "2022-10-29"
     },
     {
-        "id": 5050194,
-        "name": "Pixel Galaxy",
-        "tags": [
-            "Base Category"
-        ],
-        "level": "12+",
-        "scorePerc": "88.7%",
-        "date": "2022-12-20"
-    },
-    {
         "id": 5050195,
         "name": "チュルリラ・チュルリラ・ダッダッダ！",
         "tags": [
@@ -7404,5 +7394,15 @@ var jpTags = [
         "level": "13",
         "scorePerc": "93%",
         "date": "2023-12-11"
+    },
+    {
+        "id": 5050225,
+        "name": "エアーマンが倒せない",
+        "tags": [
+            "Base Category"
+        ],
+        "level": "13+",
+        "scorePerc": "91.9%",
+        "date": "2023-12-18"
     }
 ]

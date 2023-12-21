@@ -4846,16 +4846,6 @@ var enTags = [
         "date": "2023-03-15"
     },
     {
-        "name": "Pixel Galaxy",
-        "tags": [
-            "Base Category"
-        ],
-        "id": 5050194,
-        "level": "12+",
-        "scorePerc": "88.7%",
-        "date": "2023-03-15"
-    },
-    {
         "name": "Träumerei",
         "tags": [
             "RONDO",
