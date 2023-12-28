@@ -5741,16 +5741,6 @@ var jpTags = [
         "date": "2023-01-22"
     },
     {
-        "id": 5050197,
-        "name": "Notice (w/ TORIENA)",
-        "tags": [
-            "Base Category"
-        ],
-        "level": "13",
-        "scorePerc": "89.4%",
-        "date": "2022-12-25"
-    },
-    {
         "id": 110030,
         "name": "Merry-Go-Around!♡",
         "tags": [
@@ -7404,5 +7394,37 @@ var jpTags = [
         "level": "13+",
         "scorePerc": "91.9%",
         "date": "2023-12-18"
+    },
+    {
+        "id": 210023,
+        "name": "PEAKY FORCE",
+        "tags": [
+            "Peaky P-key",
+            "Original Category"
+        ],
+        "level": "14+",
+        "scorePerc": "97%",
+        "date": "2023-12-24"
+    },
+    {
+        "id": 5050255,
+        "name": "FACE feat. 山手響子",
+        "tags": [
+            "Base Category"
+        ],
+        "level": "14",
+        "scorePerc": "90.3%",
+        "date": "2023-12-25"
+    },
+    {
+        "id": 210025,
+        "name": "Never lose",
+        "tags": [
+            "Peaky P-key",
+            "Original Category"
+        ],
+        "level": "13+",
+        "scorePerc": "92.5%",
+        "date": "2023-12-23"
     }
 ]
