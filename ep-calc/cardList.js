@@ -11024,6 +11024,62 @@ var cards = {
             "skill": .3,
             "icon": "card_icon_030510009_1.752342be",
             "passive": "Life Boost 1-3%"
+        },
+        "785": {
+            "id": 785,
+            "character": "Kyoko",
+            "cardname": "Unchanging Shining Star Forever",
+            "unit": "Peaky",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 15011,
+            "technical": 17810,
+            "physical": 13798,
+            "skill": .5,
+            "icon": "card_icon_040210013_1.1a5d5f61",
+            "passive": "Groovy Solo 20-70%"
+        },
+        "786": {
+            "id": 786,
+            "character": "Yuka",
+            "cardname": "Reindeer Santa with His Proud Beard",
+            "unit": "Peaky",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 13226,
+            "technical": 19761,
+            "physical": 14701,
+            "skill": .5,
+            "icon": "card_icon_040230015_1.278a08be",
+            "passive": "Manual Up 2.5-10%"
+        },
+        "787": {
+            "id": 787,
+            "character": "Esora",
+            "cardname": "A Tailored Outfit for the Sacred Night",
+            "unit": "Peaky",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 14193,
+            "technical": 20025,
+            "physical": 13011,
+            "skill": .5,
+            "icon": "card_icon_040240015_1.fdbc2e0f",
+            "passive": "Groovy Bonus 10-35%"
+        },
+        "788": {
+            "id": 788,
+            "character": "Shinobu",
+            "cardname": "A Message Filled with Blessings",
+            "unit": "Peaky",
+            "type": "Party",
+            "rarity": 3,
+            "heart": 8973,
+            "technical": 13556,
+            "physical": 9273,
+            "skill": .3,
+            "icon": "card_icon_030220008_1.c82c5053",
+            "passive": "Life Boost 1-3%"
         }
     }
 

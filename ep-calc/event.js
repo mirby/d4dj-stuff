@@ -1516,6 +1516,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "128": {
+        "id":128,
+        "name":"P-key Night's Memory",
+        "characters":"Kyoko,Shinobu,Yuka,Esora",
+        "type":"Bingo",
+        "style":"Party",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
