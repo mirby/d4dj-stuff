@@ -5827,17 +5827,6 @@ var jpTags = [
         "date": "2022-11-29"
     },
     {
-        "id": 5050201,
-        "name": "ロボティックガール",
-        "tags": [
-            "Base Category",
-            "Songs with 女"
-        ],
-        "level": "13",
-        "scorePerc": "92.4%",
-        "date": "2022-12-31"
-    },
-    {
         "id": 410019,
         "name": "START (Merm4id)",
         "tags": [
@@ -7426,5 +7415,27 @@ var jpTags = [
         "level": "13+",
         "scorePerc": "92.5%",
         "date": "2023-12-23"
+    },
+    {
+        "id": 140001,
+        "name": "Happy Melty Party",
+        "tags": [
+            "Happy Around!",
+            "Instrumental Category"
+        ],
+        "level": "14+",
+        "scorePerc": "96.6%",
+        "date": "2023-12-30"
+    },
+    {
+        "id": 810008,
+        "name": "新春エントロピー",
+        "tags": [
+            "UniChØrd",
+            "Original Category"
+        ],
+        "level": "13+",
+        "scorePerc": "90%",
+        "date": "2024-01-01"
     }
 ]

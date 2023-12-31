@@ -5817,5 +5817,16 @@ var enTags = [
         "level": "13+",
         "scorePerc": "92.5%",
         "date": "2023-12-29"
+    },
+    {
+        "id": 210023,
+        "name": "PEAKY FORCE",
+        "tags": [
+            "Peaky P-key",
+            "Original Category"
+        ],
+        "level": "14+",
+        "scorePerc": "97%",
+        "date": "2023-12-30"
     }
 ]
