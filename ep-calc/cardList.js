@@ -11164,6 +11164,20 @@ var cards = {
             "skill": .45,
             "icon": "card_icon_060510002_1.cf2122de",
             "passive": "Groovy Bonus 10-36.5%"
+        },
+        "795": {
+            "id": 795,
+            "character": "Michiru",
+            "cardname": "An Incredibly Joyful Year☆2024!",
+            "unit": "Unichord",
+            "type": "Street",
+            "rarity": 3,
+            "heart": 8511,
+            "technical": 9318,
+            "physical": 13805,
+            "skill": .3,
+            "icon": "card_icon_030810002_1.a7831684",
+            "passive": "Groovy Bonus 5-11.5%"
         }
     }
 

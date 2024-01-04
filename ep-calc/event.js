@@ -1527,6 +1527,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "129": {
+        "id":129,
+        "name":"New Spring, New Star☆UniChØrd",
+        "characters":"Lumina,Michiru,Kokoa,Hayate",
+        "type":"Poker",
+        "style":"Street",
+        "parameter":"Physical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
