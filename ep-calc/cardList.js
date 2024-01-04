@@ -11178,6 +11178,20 @@ var cards = {
             "skill": .3,
             "icon": "card_icon_030810002_1.a7831684",
             "passive": "Groovy Bonus 5-11.5%"
+        },
+        "796": {
+            "id": 796,
+            "character": "Kyoko",
+            "cardname": "Another P-key Night's Memory",
+            "unit": "Peaky",
+            "type": "Cool",
+            "rarity": 3,
+            "heart": 10025,
+            "technical": 10833,
+            "physical": 11598,
+            "skill": .25,
+            "icon": "card_icon_050210004_1.391c3f79",
+            "passive": "Auto Boost 1.5-3%"
         }
     }
 
