@@ -11192,6 +11192,20 @@ var cards = {
             "skill": .25,
             "icon": "card_icon_050210004_1.391c3f79",
             "passive": "Auto Boost 1.5-3%"
+        },
+        "797": {
+            "id": 797,
+            "character": "Michiru",
+            "cardname": "Beach Ball Connecting To You",
+            "unit": "Unichord",
+            "type": "Street",
+            "rarity": 3,
+            "heart": 10984,
+            "technical": 10210,
+            "physical": 9996,
+            "skill": .25,
+            "icon": "card_icon_050810002_1.fca64acc",
+            "passive": "Life Boost 1-2.5%"
         }
     }
 
