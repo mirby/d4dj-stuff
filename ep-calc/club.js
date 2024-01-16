@@ -966,5 +966,11 @@ var clubItems4 = {
         "displayname":"Kurumi",
         "type":"character",
         "bonus":.03
+    },
+    "out-tsubaki": {
+        "name":"tsubaki",
+        "displayname":"Tsubaki",
+        "type":"character",
+        "bonus":.03
     }
 }
