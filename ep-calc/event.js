@@ -1538,6 +1538,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "130": {
+        "id":130,
+        "name":"XROSS∞BEAT EPISODE2",
+        "characters":"Saki,Ibuki,Towa,Noa",
+        "type":"Bingo",
+        "style":"Party",
+        "parameter":"Physical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*

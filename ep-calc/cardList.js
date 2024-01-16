@@ -11206,6 +11206,76 @@ var cards = {
             "skill": .25,
             "icon": "card_icon_050810002_1.fca64acc",
             "passive": "Life Boost 1-2.5%"
+        },
+        "798": {
+            "id": 798,
+            "character": "Saki",
+            "cardname": "Pure and Clear",
+            "unit": "Photon",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 13202,
+            "technical": 14947,
+            "physical": 18549,
+            "skill": .8,
+            "icon": "card_icon_070310008_1.50e14bcd",
+            "passive": "Groovy Solo 20-70%"
+        },
+        "799": {
+            "id": 799,
+            "character": "Ibuki",
+            "cardname": "Chilliness",
+            "unit": "Photon",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 12546,
+            "technical": 15692,
+            "physical": 19391,
+            "skill": .8,
+            "icon": "card_icon_070320006_1.b934ff77",
+            "passive": "Life Boost 2.5-8.25%"
+        },
+        "800": {
+            "id": 800,
+            "character": "Towa",
+            "cardname": "Bubble in Water",
+            "unit": "Photon",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 15409,
+            "technical": 12448,
+            "physical": 19937,
+            "skill": .8,
+            "icon": "card_icon_070330007_1.24ce0769",
+            "passive": "Manual Up 2.5-10%"
+        },
+        "801": {
+            "id": 801,
+            "character": "Noa",
+            "cardname": "Morning Coolness",
+            "unit": "Photon",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 16465,
+            "technical": 12733,
+            "physical": 18683,
+            "skill": .8,
+            "icon": "card_icon_070340006_1.66285dd9",
+            "passive": "Auto Boost 2.5-8.5%"
+        },
+        "802": {
+            "id": 802,
+            "character": "Saki",
+            "cardname": "Winter Fes. 2023-2024",
+            "unit": "Photon",
+            "type": "Cute",
+            "rarity": 3,
+            "heart": 12762,
+            "technical": 9857,
+            "physical": 9893,
+            "skill": .25,
+            "icon": "card_icon_050310003_1.116621c4",
+            "passive": "Manual Up 1.5-4%"
         }
     }
 
