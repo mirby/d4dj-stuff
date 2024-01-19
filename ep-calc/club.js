@@ -32,6 +32,14 @@ function refreshClubSelects() {
         document.getElementById("club-" + type).value = "snowman";
     }
 
+    for (let type of clubTypes4) {
+        document.getElementById("club-" + type).value = "out-yuka";
+    }
+
+    for (let type of clubTypes5) {
+        document.getElementById("club-" + type).value = "mizuhiki";
+    }
+
     $.refreshClubSelect();
 }
 
@@ -61,6 +69,11 @@ function createClubSelects() {
         document.getElementById("club-" + type + "-div").appendChild(select);
     }
 
+    for (let type of clubTypes5) {
+        var select = createClubSelect(clubItems5, "club-" + type);
+        document.getElementById("club-" + type + "-div").appendChild(select);
+    }
+
     generateClubArrays();
 }
 
@@ -81,7 +94,7 @@ function createClubSelect(obj, id) {
         option.setAttribute("data-content", option.text);
         if (obj[x].type === "type") {
             option.setAttribute("data-content","<img src='../icons/type_" + obj[x].name.toLowerCase() + ".png' width='20' height='20'></img>" + ' ' + option.text);
-        } else if (obj[x].type === "decoration") {
+        } else if (obj[x].type === "decoration" || obj[x].type === "frameline") {
             option.setAttribute("data-content",option.text);
         } else if (obj[x].type === "character") {
             option.setAttribute("data-content","<img src='../icons/icon_" + obj[x].name.toLowerCase() + ".png' width='30' height='30'></img>" + ' ' + option.text);
@@ -185,6 +198,9 @@ function autoClub() {
                 break;
             }
         }
+
+        // Set the frameline item
+        // Since all frameline items are 1%, no point in setting it
     
         $.refreshClubSelect();
 
@@ -212,11 +228,13 @@ var clubTypes1 = ["djbooth", "discl", "discr"];
 var clubTypes2 = ["front", "side", "back", "frame", "light", "accessory"];
 var clubTypes3 = ["decoration"];
 var clubTypes4 = ["outframe"];
+var clubTypes5 = ["frameline"];
 var clubArrayDisplay = [];
 var clubArray1 = [];
 var clubArray2 = [];
 var clubArray3 = [];
 var clubArray4 = [];
+var clubArray5 = [];
 
 function generateClubArrays() {
     for (var x in clubItemsDisplay) {
@@ -237,6 +255,10 @@ function generateClubArrays() {
 
     for (var x in clubItems4) {
         clubArray4.push(x);
+    }
+
+    for (var x in clubItems5) {
+        clubArray5.push(x);
     }
 }
 
@@ -947,30 +969,39 @@ var clubItems4 = {
         "name":"yuka",
         "displayname":"Yuka",
         "type":"character",
-        "bonus":.03
+        "bonus":.02
     },
     "out-saori": {
         "name":"saori",
         "displayname":"Saori",
         "type":"character",
-        "bonus":.03
+        "bonus":.02
     },
     "out-miyu": {
         "name":"miyu",
         "displayname":"Miyu",
         "type":"character",
-        "bonus":.03
+        "bonus":.02
     },
     "out-kurumi": {
         "name":"kurumi",
         "displayname":"Kurumi",
         "type":"character",
-        "bonus":.03
+        "bonus":.02
     },
     "out-tsubaki": {
         "name":"tsubaki",
         "displayname":"Tsubaki",
         "type":"character",
-        "bonus":.03
+        "bonus":.02
+    }
+}
+
+var clubItems5 = {
+    "mizuhiki": {
+        "name":"mizuhiki",
+        "displayname":"Japanese Mizuhiki Art",
+        "type":"frameline",
+        "bonus":.01
     }
 }

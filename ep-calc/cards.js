@@ -854,6 +854,11 @@ function calcClubPower() {
             clubPercGain = Math.round((clubPercGain + Number.EPSILON) * 100) / 100
         }
 
+        for (let type5 of clubTypes5) {
+            clubPercGain += getClubPerc(type5, i);
+            clubPercGain = Math.round((clubPercGain + Number.EPSILON) * 100) / 100
+        }
+
         var heart = parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) || 0;
         var tech = parseInt(document.getElementById("m" + i + "_techmod").innerHTML) || 0;
         var phys = parseInt(document.getElementById("m" + i + "_physmod").innerHTML) || 0;
@@ -895,6 +900,9 @@ function getClubPerc(selectId, charId) {
             break;
         case "outframe":
             clubItemCheck = clubItems4;
+            break;
+        case "frameline":
+            clubItemCheck = clubItems5;
             break;
     }
 
