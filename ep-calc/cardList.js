@@ -11276,6 +11276,34 @@ var cards = {
             "skill": .25,
             "icon": "card_icon_050310003_1.116621c4",
             "passive": "Manual Up 1.5-4%"
+        },
+        "803": {
+            "id": 803,
+            "character": "Muni",
+            "cardname": "Nyochio-branded Magical Curry",
+            "unit": "HapiAra",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 17649,
+            "technical": 16363,
+            "physical": 12855,
+            "skill": .5,
+            "icon": "card_icon_040130016_1.3fba7ef8",
+            "passive": "Manual Up 2.5-10%"
+        },
+        "804": {
+            "id": 804,
+            "character": "Rei",
+            "cardname": "Nyochio-branded Magical Pie",
+            "unit": "HapiAra",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 17247,
+            "technical": 13662,
+            "physical": 15844,
+            "skill": .5,
+            "icon": "card_icon_040140015_1.7b278138",
+            "passive": "Groovy Solo 20-70%"
         }
     }
 

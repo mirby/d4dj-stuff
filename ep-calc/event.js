@@ -1549,6 +1549,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "131": {
+        "id":131,
+        "name":"The Magnificient Struggle -Muni & Rei-",
+        "characters":"Muni,Rei",
+        "type":"Slots",
+        "style":"Party",
+        "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
