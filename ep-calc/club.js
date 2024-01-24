@@ -994,6 +994,12 @@ var clubItems4 = {
         "displayname":"Tsubaki",
         "type":"character",
         "bonus":.02
+    },
+    "out-michiru": {
+        "name":"michiru",
+        "displayname":"Michiru",
+        "type":"character",
+        "bonus":.02
     }
 }
 
