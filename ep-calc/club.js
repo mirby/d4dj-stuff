@@ -187,9 +187,9 @@ function autoClub() {
         }
 
         // Set the decoration item 
-        // Since the decorations are all 2%, no point in setting it during auto
+        // All decorations are 2%
 
-        // Set the outframe item
+        // Set the outframe item (character only, 2% per char)
         // Set yuka by default
         $("select[name=club-outframe]").val("out-yuka");
         for (var char of charArray) {
@@ -200,7 +200,7 @@ function autoClub() {
         }
 
         // Set the frameline item
-        // Since all frameline items are 1%, no point in setting it
+        // All frameline items are 2%
     
         $.refreshClubSelect();
 
@@ -1008,6 +1008,6 @@ var clubItems5 = {
         "name":"mizuhiki",
         "displayname":"Japanese Mizuhiki Art",
         "type":"frameline",
-        "bonus":.01
+        "bonus":.02
     }
 }
