@@ -11304,6 +11304,62 @@ var cards = {
             "skill": .5,
             "icon": "card_icon_040140015_1.7b278138",
             "passive": "Groovy Solo 20-70%"
+        },
+        "805": {
+            "id": 805,
+            "character": "Haruna",
+            "cardname": "Tranquil Mind",
+            "unit": "LyriLily",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 19707,
+            "technical": 13170,
+            "physical": 14937,
+            "skill": .8,
+            "icon": "card_icon_070620007_1.310df9e4",
+            "passive": "Life Boost 2.5-8.25%"
+        },
+        "806": {
+            "id": 806,
+            "character": "Kurumi",
+            "cardname": "Coloration",
+            "unit": "LyriLily",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 19871,
+            "technical": 14189,
+            "physical": 14154,
+            "skill": .8,
+            "icon": "card_icon_070630006_1.820ef251",
+            "passive": "Groovy Solo 20-70%"
+        },
+        "807": {
+            "id": 807,
+            "character": "Miiko",
+            "cardname": "Homeward Bound",
+            "unit": "LyriLily",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 19169,
+            "technical": 15203,
+            "physical": 13431,
+            "skill": .8,
+            "icon": "card_icon_070640008_1.85a5af4d",
+            "passive": "Manual Up 2.5-10%"
+        },
+        "808": {
+            "id": 808,
+            "character": "Miyu",
+            "cardname": "Fragment",
+            "unit": "LyriLily",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 18577,
+            "technical": 15257,
+            "physical": 13414,
+            "skill": .8,
+            "icon": "card_icon_070610008_1.e401e798",
+            "passive": "Groovy Bonus 10-35%"
         }
     }
 

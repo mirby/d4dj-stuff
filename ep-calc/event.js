@@ -239,7 +239,8 @@ function getCardSet(type) {
         "106":["On This Fine Day", "Heavenly Stairway", "In This Shining World", "Dazzling Bravery"],
         "110":["Tiny Light", "Overflowing Splendor", "Girl Spinning", "Brilliant Flowers"],
         "113":["Sweet×waterside", "Tropical＊eyes", "Hungry♡pool", "Splash＋reading"],
-        "122":["Wine Red Monopoly", "Whispering On Sleepless Nights", "Lovely Snake Princess", "Unraveling Dynamite"]
+        "122":["Wine Red Monopoly", "Whispering On Sleepless Nights", "Lovely Snake Princess", "Unraveling Dynamite"],
+        "132":["Fragment", "Tranquil Mind", "Coloration", "Homeward Bound"]
     };
 
     var raidSet = {
@@ -1555,6 +1556,17 @@ var eventList = {
         "characters":"Muni,Rei",
         "type":"Slots",
         "style":"Party",
+        "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
+    "132": {
+        "id":132,
+        "name":"XROSS∞BEAT EPISODE3",
+        "characters":"Miyu,Haruna,Kurumi,Miiko",
+        "type":"Medley",
+        "style":"Cool",
         "parameter":"Heart",
         "bonus":true,
         "comboBonus":true,
