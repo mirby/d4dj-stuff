@@ -11360,6 +11360,76 @@ var cards = {
             "skill": .8,
             "icon": "card_icon_070610008_1.e401e798",
             "passive": "Groovy Bonus 10-35%"
+        },
+        "809": {
+            "id": 809,
+            "character": "Miiko",
+            "cardname": "Navigation：With",
+            "unit": "LyriLily",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 16189,
+            "technical": 17732,
+            "physical": 16204,
+            "skill": .45,
+            "icon": "card_icon_060640002_1.767b656c",
+            "passive": "Groovy Bonus 10-36.5%"
+        },
+        "810": {
+            "id": 810,
+            "character": "Hayate",
+            "cardname": "Navigation：With",
+            "unit": "Unichord",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 16008,
+            "technical": 17291,
+            "physical": 16560,
+            "skill": .45,
+            "icon": "card_icon_060840002_1.36927265",
+            "passive": "Groovy Bonus 10-36.5%"
+        },
+        "811": {
+            "id": 811,
+            "character": "Shinobu",
+            "cardname": "Navigation：With",
+            "unit": "Peaky",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 16940,
+            "technical": 15581,
+            "physical": 16590,
+            "skill": .45,
+            "icon": "card_icon_060220002_1.552e66f1",
+            "passive": "Life Boost 2.5-8.5%"
+        },
+        "812": {
+            "id": 812,
+            "character": "Ibuki",
+            "cardname": "CLUB WARS-Sports-",
+            "unit": "Photon",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 14932,
+            "technical": 18631,
+            "physical": 14177,
+            "skill": .5,
+            "icon": "card_icon_040320015_1.adb1b889",
+            "passive": "Groovy Bonus 10-35%"
+        },
+        "813": {
+            "id": 813,
+            "character": "Noa",
+            "cardname": "CLUB WARS-Culture-",
+            "unit": "Photon",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 16519,
+            "technical": 18998,
+            "physical": 12265,
+            "skill": .5,
+            "icon": "card_icon_040340016_1.7528b579",
+            "passive": "Life Boost 2.5-8.25%"
         }
     }
 

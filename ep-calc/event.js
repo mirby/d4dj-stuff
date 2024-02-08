@@ -1572,6 +1572,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "133": {
+        "id":133,
+        "name":"Believe in Our Future -Ibuki & Noa-",
+        "characters":"Ibuki,Noa",
+        "type":"Slots",
+        "style":"Street",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
