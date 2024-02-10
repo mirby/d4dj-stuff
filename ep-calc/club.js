@@ -971,24 +971,24 @@ var clubItems4 = {
         "type":"character",
         "bonus":.02
     },
-    "out-saori": {
-        "name":"saori",
-        "displayname":"Saori",
-        "type":"character",
-        "bonus":.02
-    },
+    // "out-saori": {
+    //     "name":"saori",
+    //     "displayname":"Saori",
+    //     "type":"character",
+    //     "bonus":.02
+    // },
     "out-miyu": {
         "name":"miyu",
         "displayname":"Miyu",
         "type":"character",
         "bonus":.02
     },
-    "out-kurumi": {
-        "name":"kurumi",
-        "displayname":"Kurumi",
-        "type":"character",
-        "bonus":.02
-    },
+    // "out-kurumi": {
+    //     "name":"kurumi",
+    //     "displayname":"Kurumi",
+    //     "type":"character",
+    //     "bonus":.02
+    // },
     "out-tsubaki": {
         "name":"tsubaki",
         "displayname":"Tsubaki",
@@ -998,6 +998,24 @@ var clubItems4 = {
     "out-michiru": {
         "name":"michiru",
         "displayname":"Michiru",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-towa": {
+        "name":"towa",
+        "displayname":"Towa",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-shinobu": {
+        "name":"shinobu",
+        "displayname":"Shinobu",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-hayate": {
+        "name":"hayate",
+        "displayname":"Hayate",
         "type":"character",
         "bonus":.02
     }
