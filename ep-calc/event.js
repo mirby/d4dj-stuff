@@ -1583,6 +1583,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "134": {
+        "id":134,
+        "name":"Red Pure Hearts, Melt in the Blue Moonlit Night",
+        "characters":"Tsubaki,Nagisa,Hiiro,Aoi",
+        "type":"Poker",
+        "style":"Party",
+        "parameter":"Physical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
