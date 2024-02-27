@@ -1594,6 +1594,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "135": {
+        "id":135,
+        "name":"The Groove in Shadow",
+        "characters":"Kyoko,Shinobu,Yuka,Esora",
+        "type":"Bingo",
+        "style":"Cute",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*

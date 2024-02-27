@@ -11430,6 +11430,62 @@ var cards = {
             "skill": .5,
             "icon": "card_icon_040340016_1.7528b579",
             "passive": "Life Boost 2.5-8.25%"
+        },
+        "814": {
+            "id": 814,
+            "character": "Kyoko",
+            "cardname": "Commander of the Crimson Order",
+            "unit": "Peaky",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 15305,
+            "technical": 22053,
+            "physical": 8576,
+            "skill": .6,
+            "icon": "card_icon_070210006_1.3400d7f1",
+            "passive": "Groovy Bonus 10-30%"
+        },
+        "815": {
+            "id": 815,
+            "character": "Shinobu",
+            "cardname": "Second Princess of the Midgar Kingdom",
+            "unit": "Peaky",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 8396,
+            "technical": 20756,
+            "physical": 15482,
+            "skill": .6,
+            "icon": "card_icon_070220004_1.6c79e3b5",
+            "passive": "Auto Boost 2.5-8%"
+        },
+        "816": {
+            "id": 816,
+            "character": "Yuka",
+            "cardname": "First of the Seven Shadows",
+            "unit": "Peaky",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 15511,
+            "technical": 22631,
+            "physical": 8361,
+            "skill": .6,
+            "icon": "card_icon_070230005_1.29362bf7",
+            "passive": "Life Boost 2.5-7.5%"
+        },
+        "817": {
+            "id": 817,
+            "character": "Esora",
+            "cardname": "Second Member of the Seven Shadows",
+            "unit": "Peaky",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 8812,
+            "technical": 21408,
+            "physical": 15999,
+            "skill": .6,
+            "icon": "card_icon_070240005_1.99da5556",
+            "passive": "Groovy Solo 20-60%"
         }
     }
 
