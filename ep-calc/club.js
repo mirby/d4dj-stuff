@@ -965,6 +965,12 @@ var clubItems3 = {
 }
 
 var clubItems4 = {
+    "out-none": {
+        "name":"none",
+        "displayname":"None",
+        "type":"character",
+        "bonus":0
+    },
     "out-yuka": {
         "name":"yuka",
         "displayname":"Yuka",
@@ -1018,10 +1024,22 @@ var clubItems4 = {
         "displayname":"Hayate",
         "type":"character",
         "bonus":.02
+    },
+    "out-muni": {
+        "name":"muni",
+        "displayname":"Muni",
+        "type":"character",
+        "bonus":.02
     }
 }
 
 var clubItems5 = {
+    "none": {
+        "name":"none",
+        "displayname":"None",
+        "type":"frameline",
+        "bonus":0
+    },
     "mizuhiki": {
         "name":"mizuhiki",
         "displayname":"Japanese Mizuhiki Art",
