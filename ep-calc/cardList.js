@@ -11486,6 +11486,76 @@ var cards = {
             "skill": .6,
             "icon": "card_icon_070240005_1.99da5556",
             "passive": "Groovy Solo 20-60%"
+        },
+        "818": {
+            "id": 818,
+            "character": "Elsie",
+            "cardname": "The Vicious Dog",
+            "unit": "Abyssmare",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 15519,
+            "technical": 19121,
+            "physical": 13512,
+            "skill": .5,
+            "icon": "card_icon_040930003_1.7eee1f85",
+            "passive": "Life Boost 2.5-8.25%"
+        },
+        "819": {
+            "id": 819,
+            "character": "Weronika",
+            "cardname": "The Ferocious Dog",
+            "unit": "Abyssmare",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 13116,
+            "technical": 18181,
+            "physical": 16316,
+            "skill": .5,
+            "icon": "card_icon_040940003_1.da32548a",
+            "passive": "Auto Boost 2.5-8.5%"
+        },
+        "820": {
+            "id": 820,
+            "character": "Muni",
+            "cardname": "Navigation：With",
+            "unit": "HapiAra",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 16554,
+            "technical": 15974,
+            "physical": 16825,
+            "skill": .45,
+            "icon": "card_icon_060130002_1.8d43ccc4",
+            "passive": "Life Boost 2.5-8.5%"
+        },
+        "821": {
+            "id": 821,
+            "character": "Kokoa",
+            "cardname": "Navigation：With",
+            "unit": "Unichord",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 16736,
+            "technical": 15991,
+            "physical": 15703,
+            "skill": .45,
+            "icon": "card_icon_060830002_1.c547377c",
+            "passive": "Groovy Bonus 10-36.5%"
+        },
+        "822": {
+            "id": 822,
+            "character": "Hiiro",
+            "cardname": "Navigation：With",
+            "unit": "Rondo",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 15430,
+            "technical": 17445,
+            "physical": 16539,
+            "skill": .45,
+            "icon": "card_icon_060530002_1.58cb853b",
+            "passive": "Groovy Bonus 10-36.5%"
         }
     }
 

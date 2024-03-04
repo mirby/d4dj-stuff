@@ -1605,6 +1605,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "136": {
+        "id":136,
+        "name":"st(r)ay with you -Elsie & Weronika-",
+        "characters":"Elsie,Weronika",
+        "type":"Slots",
+        "style":"Elegant",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
