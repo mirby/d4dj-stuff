@@ -11556,6 +11556,62 @@ var cards = {
             "skill": .45,
             "icon": "card_icon_060530002_1.58cb853b",
             "passive": "Groovy Bonus 10-36.5%"
+        },
+        "823": {
+            "id": 823,
+            "character": "Saki",
+            "cardname": "Your Color♥Sugar Time",
+            "unit": "Photon",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 19433,
+            "technical": 13582,
+            "physical": 14508,
+            "skill": .5,
+            "icon": "card_icon_040310015_1.15c359b5",
+            "passive": "Manual Up 2.5-10%"
+        },
+        "824": {
+            "id": 824,
+            "character": "Ibuki",
+            "cardname": "Heart-pounding♥Kiss You",
+            "unit": "Photon",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 18818,
+            "technical": 11917,
+            "physical": 16866,
+            "skill": .5,
+            "icon": "card_icon_040320016_1.d4731a28",
+            "passive": "Auto Boost 2.5-8.5%"
+        },
+        "825": {
+            "id": 825,
+            "character": "Noa",
+            "cardname": "Gap Moe♥Sweetheart",
+            "unit": "Photon",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 18818,
+            "technical": 11917,
+            "physical": 16866,
+            "skill": .5,
+            "icon": "card_icon_040340017_1.a0cc94b2",
+            "passive": "Groovy Solo 20-70%"
+        },
+        "826": {
+            "id": 826,
+            "character": "Towa",
+            "cardname": "Maiden of Flowers♥Forever and Ever",
+            "unit": "Photon",
+            "type": "Cute",
+            "rarity": 3,
+            "heart": 11657,
+            "technical": 10148,
+            "physical": 9940,
+            "skill": .3,
+            "icon": "card_icon_030330008_1.942be4e1",
+            "passive": "Manual Up 1.5-4%"
         }
     }
 

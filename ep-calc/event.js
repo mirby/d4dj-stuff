@@ -240,7 +240,8 @@ function getCardSet(type) {
         "110":["Tiny Light", "Overflowing Splendor", "Girl Spinning", "Brilliant Flowers"],
         "113":["Sweet×waterside", "Tropical＊eyes", "Hungry♡pool", "Splash＋reading"],
         "122":["Wine Red Monopoly", "Whispering On Sleepless Nights", "Lovely Snake Princess", "Unraveling Dynamite"],
-        "132":["Fragment", "Tranquil Mind", "Coloration", "Homeward Bound"]
+        "132":["Fragment", "Tranquil Mind", "Coloration", "Homeward Bound"],
+        "137":["Your Color♥Sugar Time", "Heart-pounding♥Kiss You", "Gap Moe♥Sweetheart", "Maiden of Flowers♥Forever and Ever"]
     };
 
     var raidSet = {
@@ -1612,6 +1613,17 @@ var eventList = {
         "type":"Slots",
         "style":"Elegant",
         "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
+    "137": {
+        "id":137,
+        "name":"Chocolate Project -if story of Photon's Valentine-",
+        "characters":"Saki,Ibuki,Towa,Noa",
+        "type":"Medley",
+        "style":"Cute",
+        "parameter":"Heart",
         "bonus":true,
         "comboBonus":true,
         "addition":""
