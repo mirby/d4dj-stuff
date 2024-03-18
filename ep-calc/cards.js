@@ -468,6 +468,21 @@ function generateFilters(arr) {
         arr = arr.filter(o => filterArray.some(fn => fn(o)));
     }
 
+    // Passive Skill filters
+    filters = document.getElementsByClassName("filter_passive");
+    filterArray = [];
+    hasFilter = false;
+    for (let x of filters) {
+        if (x.checked) {
+            hasFilter = true;
+            filterArray.push(o=>o.passive.includes(x.value));
+        }
+    }
+
+    if (hasFilter) {
+        arr = arr.filter(o => filterArray.some(fn => fn(o)));
+    }
+
     displayCardsDropdown(arr);
 
     $.refreshSelect1();
@@ -1257,10 +1272,10 @@ var units = [
         "unit":"Abyssmare",
         "display":"Abyssmare"
     },
-    {
-        "unit":"Common",
-        "display":"Other"
-    }
+    // {
+    //     "unit":"Common",
+    //     "display":"Other"
+    // }
 ];
 
 var characters = ["Rinku", "Maho", "Muni", "Rei", "Kyoko", "Shinobu", "Yuka", "Esora", "Saki", "Ibuki", "Towa", "Noa", "Rika", "Marika", "Saori", "Dalia", 
