@@ -846,33 +846,35 @@ function calcClubPower() {
 
         for (let type0 of clubTypesDisplay) {
             clubPercGain += getClubPerc(type0, i);
-            clubPercGain = Math.round((clubPercGain + Number.EPSILON) * 100) / 100
+            clubPercGain = Math.round((clubPercGain + Number.EPSILON) * 1000) / 1000
         }
 
         for (let type1 of clubTypes1) {
             clubPercGain += getClubPerc(type1, i);
-            clubPercGain = Math.round((clubPercGain + Number.EPSILON) * 100) / 100
+            clubPercGain = Math.round((clubPercGain + Number.EPSILON) * 1000) / 1000
         }
     
         for (let type2 of clubTypes2) {
             clubPercGain += getClubPerc(type2, i);
-            clubPercGain = Math.round((clubPercGain + Number.EPSILON) * 100) / 100
+            clubPercGain = Math.round((clubPercGain + Number.EPSILON) * 1000) / 1000
         }
     
         for (let type3 of clubTypes3) {
             clubPercGain += getClubPerc(type3, i);
-            clubPercGain = Math.round((clubPercGain + Number.EPSILON) * 100) / 100
+            clubPercGain = Math.round((clubPercGain + Number.EPSILON) * 1000) / 1000
         }
 
         for (let type4 of clubTypes4) {
             clubPercGain += getClubPerc(type4, i);
-            clubPercGain = Math.round((clubPercGain + Number.EPSILON) * 100) / 100
+            clubPercGain = Math.round((clubPercGain + Number.EPSILON) * 1000) / 1000
         }
 
         for (let type5 of clubTypes5) {
             clubPercGain += getClubPerc(type5, i);
-            clubPercGain = Math.round((clubPercGain + Number.EPSILON) * 100) / 100
+            clubPercGain = Math.round((clubPercGain + Number.EPSILON) * 1000) / 1000
         }
+
+        console.log("Total Club % Gain is : " + clubPercGain);
 
         var heart = parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) || 0;
         var tech = parseInt(document.getElementById("m" + i + "_techmod").innerHTML) || 0;

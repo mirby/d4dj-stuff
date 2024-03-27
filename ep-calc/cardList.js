@@ -11624,7 +11624,7 @@ var cards = {
             "technical": 13891,
             "physical": 18146,
             "skill": .6,
-            "icon": "hcard_icon_070610005_1.c1b07b7b",
+            "icon": "card_icon_070610005_1.c1b07b7b",
             "passive": "Auto Boost 2.5-8%"
         },
         "828": {

@@ -164,13 +164,13 @@ function autoClub() {
             if (unitUse !== "") {
                 clubUse = unitUse;
             } else {
-                clubUse = "common";
+                clubUse = "common2";
             }
         } else {
             if (styleUse !== "") {
                 clubUse = styleUse;
             } else {
-                clubUse = "common";
+                clubUse = "common2";
             }
         }
 
@@ -183,6 +183,12 @@ function autoClub() {
         }
     
         for (var type of clubTypes2) {
+            // FIXME Hack to not use the new 2.5 type for frame or accessory slot until they add it
+            if (clubUse === "common2" && (type === "frame" || type === "accessory")) {
+                $("select[name=club-" + type + "]").val("common");
+                continue;
+            }
+
             $("select[name=club-" + type + "]").val(clubUse);
         }
 
@@ -911,6 +917,12 @@ var clubItems2 = {
         "type":"all",
         "bonus":.02
     },
+    "common2": {
+        "name":"common",
+        "displayname":"All Units (2.5%)",
+        "type":"all",
+        "bonus":.025
+    },
     "street": {
         "name":"street",
         "displayname":"Street",
@@ -1028,6 +1040,18 @@ var clubItems4 = {
     "out-muni": {
         "name":"muni",
         "displayname":"Muni",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-kokoa": {
+        "name":"kokoa",
+        "displayname":"Kokoa",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-hiiro": {
+        "name":"hiiro",
+        "displayname":"Hiiro",
         "type":"character",
         "bonus":.02
     }
