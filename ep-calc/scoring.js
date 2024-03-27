@@ -385,9 +385,6 @@ function calculateScore(type) {
 
     // FIXME: Replaces all instances of 80 with 60. 80 skills have a different duration and I can't fix it easily, so treat it as a 60 value
     skillsList.forEach(function(item, i) { if (item == 80) skillsList[i] = 60; });
-    // Get event bonus power if raid for the target Support Live room
-    var bonusPower = getBonusPower(type);
-    power2 = parseInt(power2) + parseInt(bonusPower);
     
     // Get passive skills
     var gtboost = ((parseFloat(document.getElementById("pass_gt").value) / 100) || 0) + 1;
@@ -492,32 +489,6 @@ function calculateScore(type) {
     scoreMap.set("scoreAuto2", scoreAuto2);
 
     return scoreMap;
-}
-
-// Get bonus power for Raid bonus room
-function getBonusPower(eventType) {
-    if (eventType === "raid") {
-        var character = document.getElementById("raidchars").value.toLowerCase();
-        for (let i = 1; i <= 4; i++) {
-            var char = document.getElementById("m" + i + "_char").innerHTML;
-            if (char === character) {
-                // If playing in char support room and card is event card, additional bonus added
-                if (isEventCard(eventType, "m" + i)) {
-                    var eventPerc = .5;
-                    var heartMod = parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) || 0;
-                    var techMod = parseInt(document.getElementById("m" + i + "_techmod").innerHTML) || 0;
-                    var physMod = parseInt(document.getElementById("m" + i + "_physmod").innerHTML) || 0;
-            
-                    var heart = Math.floor(parseInt(heartMod) * eventPerc);
-                    var tech = Math.floor(parseInt(techMod) * eventPerc);
-                    var phys = Math.floor(parseInt(physMod) * eventPerc);
-                    return heart + tech + phys;
-                }
-            }
-        }
-    }
-
-    return 0;
 }
 
 function getComboMult(num) {

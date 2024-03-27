@@ -960,7 +960,8 @@ function calcEventPower() {
         }
 
         for (let i = 1; i <= 4; i++) {
-            var eventPerc = setEventPerc(type, "m" + i);
+            var identifier = "m" + i;
+            var eventPerc = setEventPerc(type, identifier);
 
             // Re-run of old quints event. No power bonus except for matching card to support live room
             // which is handled in scoring section
@@ -968,23 +969,39 @@ function calcEventPower() {
                 eventPerc = 0;    
             }
 
-            var heartMod = parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) || 0;
-            var techMod = parseInt(document.getElementById("m" + i + "_techmod").innerHTML) || 0;
-            var physMod = parseInt(document.getElementById("m" + i + "_physmod").innerHTML) || 0;
-    
+            var heartMod = parseInt(document.getElementById(identifier + "_heartmod").innerHTML) || 0;
+            var techMod = parseInt(document.getElementById(identifier + "_techmod").innerHTML) || 0;
+            var physMod = parseInt(document.getElementById(identifier + "_physmod").innerHTML) || 0;
+
+            // Power for Special Raid Live
+            var specialEventPerc = eventPerc;
+            if (isEventCard(type, identifier)) {
+                specialEventPerc += 1;
+            } else {
+                specialEventPerc += .5;
+            }
+
+            var heart2 = Math.floor(parseInt(heartMod) * specialEventPerc);
+            var tech2 = Math.floor(parseInt(techMod) * specialEventPerc);
+            var phys2 = Math.floor(parseInt(physMod) * specialEventPerc);
+            var eventTotal2 = heart2 + tech2 + phys2;
+
+            document.getElementById(identifier + "_eventbonus2").innerHTML = eventTotal2;
+
+            // Power for Raid Live
+
+            // Apply collab char room match power bonus
+            var character = document.getElementById(identifier + "_char").innerText.toLowerCase();
+            var raidChar = document.getElementById("raidchars").value.toLowerCase();
+            if (type === "Raid" && isEventCard(type, identifier) && (character === raidChar)) {
+                eventPerc += .5;
+            }
+        
             var heart = Math.floor(parseInt(heartMod) * eventPerc);
             var tech = Math.floor(parseInt(techMod) * eventPerc);
             var phys = Math.floor(parseInt(physMod) * eventPerc);
             var eventTotal = heart + tech + phys;
-
-            // Power for super dengeki live
-            var heart2 = Math.floor(parseInt(heartMod) * eventPerc * 2);
-            var tech2 = Math.floor(parseInt(techMod) * eventPerc * 2);
-            var phys2 = Math.floor(parseInt(physMod) * eventPerc * 2);
-            var eventTotal2 = heart2 + tech2 + phys2;
-
-            document.getElementById("m" + i + "_eventbonus").innerHTML = eventTotal;
-            document.getElementById("m" + i + "_eventbonus2").innerHTML = eventTotal2;
+            document.getElementById(identifier + "_eventbonus").innerHTML = eventTotal;
         }
     } else {
         for (let i = 1; i <= 4; i++) {
@@ -1061,12 +1078,6 @@ function setEventPerc(type, identifier) {
     // If the event is raid and the card is an event card, double the eventPerc
     if (type === "Raid" && isEventCard(type, identifier)) {
         eventPerc = eventPerc * 2;
-
-        // If the Raid room matches the char, add extra 50%
-        var raidChar = document.getElementById("raidchars").value.toLowerCase();
-        if (character === raidChar) {
-            eventPerc += .5;
-        }
     }
 
     document.getElementById(identifier + "_eventperc").innerHTML = eventPerc;
