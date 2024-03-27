@@ -254,6 +254,7 @@ function getCardSet(type) {
         "109":["Carpet of Sunflowers", "The One and Only Tulip", "Brilliant Hydrangea", "Four-Leaf Clover", "The Witness Carnation"],
         "120":["Hitagi Crab", "Nadeko Snake", "Mayoi Snail", "Suruga Monkey"],
         "121":["Karen Bee", "Tsukihi Phoenix", "Tsubasa Cat", "Shinobu Time"],
+        "138":["Code Name Flower Garden", "Code Name Daughter Dearest", "Code Name Glint", "Code Name Fool"],
     };
 
     if (type === "medley") {
@@ -1624,6 +1625,17 @@ var eventList = {
         "type":"Medley",
         "style":"Cute",
         "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
+    "138": {
+        "id":138,
+        "name":"Spy ClassroomｘD4DJ -The Magnificient Groove-",
+        "characters":"Miyu,Kokoa,Elsie,Weronika",
+        "type":"Raid",
+        "style":"None",
+        "parameter":"None",
         "bonus":true,
         "comboBonus":true,
         "addition":""

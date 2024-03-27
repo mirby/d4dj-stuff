@@ -11612,6 +11612,62 @@ var cards = {
             "skill": .3,
             "icon": "card_icon_030330008_1.942be4e1",
             "passive": "Manual Up 1.5-4%"
+        },
+        "827": {
+            "id": 827,
+            "character": "Miyu",
+            "cardname": "Code Name Daughter Dearest",
+            "unit": "LyriLily",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 13531,
+            "technical": 13891,
+            "physical": 18146,
+            "skill": .6,
+            "icon": "hcard_icon_070610005_1.c1b07b7b",
+            "passive": "Auto Boost 2.5-8%"
+        },
+        "828": {
+            "id": 828,
+            "character": "Elsie",
+            "cardname": "Code Name Glint",
+            "unit": "Abyssmare",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 14061,
+            "technical": 14508,
+            "physical": 16862,
+            "skill": .6,
+            "icon": "card_icon_070930001_1.66665eef",
+            "passive": "Life Boost 2.5-7.5%"
+        },
+        "829": {
+            "id": 829,
+            "character": "Kokoa",
+            "cardname": "Code Name Fool",
+            "unit": "Unichord",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 15714,
+            "technical": 14825,
+            "physical": 14567,
+            "skill": .6,
+            "icon": "card_icon_070830002_1.ac536ba7",
+            "passive": "Groovy Solo 20-60%"
+        },
+        "830": {
+            "id": 830,
+            "character": "Weronika",
+            "cardname": "Code Name Flower Garden",
+            "unit": "Abyssmare",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 15157,
+            "technical": 17192,
+            "physical": 13296,
+            "skill": .6,
+            "icon": "card_icon_070940001_1.8ef5c538",
+            "passive": "Auto Boost 2.5-8%"
         }
     }
 
