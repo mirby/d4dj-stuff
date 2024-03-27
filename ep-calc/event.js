@@ -12,7 +12,7 @@ $(document).ready(function() {
     };
 
     $.refreshEventCharSelect = function() {
-        $('.selectpicker#eventchars').selectpicker('refresh');
+        $('.selectpicker.eventchars').selectpicker('refresh');
     };
 });
 
@@ -107,6 +107,11 @@ function showMedleyUIElements() {
     document.getElementById("roomscorein2label").style.display = "inline-block";
     document.getElementById("roomscorein2").style.display = "inline-block";
 
+    var brs = document.getElementsByClassName("medleyBreak");
+    while (brs.length) {
+        brs[0].parentNode.removeChild(brs[0]);
+    }
+
     var br = document.createElement("br");
     br.classList.add("medleyBreak");
     document.getElementById("roomscorein").insertAdjacentElement("afterend", br);
@@ -133,7 +138,12 @@ function hideMedleyElements() {
 function showRaidElements() {
     document.getElementById("powerin3label").style.display = "inline-block";
     document.getElementById("powerin3").style.display = "inline-block";
-    document.getElementById("eventcharselect").style.display = "block";
+    document.getElementById("raidcharselect").style.display = "table-row";
+
+    var brs = document.getElementsByClassName("raidBreak");
+    while (brs.length) {
+        brs[0].parentNode.removeChild(brs[0]);
+    }
 
     var br = document.createElement("br");
     br.classList.add("raidBreak");
@@ -143,7 +153,7 @@ function showRaidElements() {
 function hideRaidElements() {
     document.getElementById("powerin3label").style.display = "none";
     document.getElementById("powerin3").style.display = "none";
-    document.getElementById("eventcharselect").style.display = "none";
+    document.getElementById("raidcharselect").style.display = "none";
 
     var brs = document.getElementsByClassName("raidBreak");
     while (brs.length) {
@@ -165,10 +175,10 @@ function populateCharSelectRaid() {
     }
 
     var select = document.createElement("select");
-    select.name = "eventchars";
-    select.id = "eventchars";
+    select.name = "raidchars";
+    select.id = "raidchars";
     select.classList.add("selectpicker");
-    select.classList.add("voltselect");
+    select.classList.add("eventchars");
     select.setAttribute("data-width","fit");
     select.setAttribute("data-size","10");
 
@@ -208,7 +218,7 @@ function populateCharSelectMed() {
     select.name = "medleychars";
     select.id = "medleychars";
     select.classList.add("selectpicker");
-    select.classList.add("voltselect");
+    select.classList.add("eventchars");
     select.setAttribute("data-width","fit");
     select.setAttribute("data-size","10");
 

@@ -43,7 +43,6 @@ $(document).on('changed.bs.select', 'select', function(event) {
 
     if ($(event.target).is("select#eventselector")) {
         fillEventDisplay();
-        $.refreshMedleySelect();
         $.refreshEventCharSelect();
         calcEventPower();
         calcDisplayPower();
@@ -65,6 +64,10 @@ $(document).on('changed.bs.select', 'select', function(event) {
         calcDisplayParams();
     } else if ($(event.target).is("select#eventsel")) {
         displayEventBonus($(this).val());
+    } else if ($(event.target).is("select#raidchars")) {
+        calcEventPower();
+        calcDisplayPower();
+        calcDisplayParams();
     } else if ($(event.target).is("select#medleychars")) {
         calcDisplayPower();
         calcDisplayParams();
@@ -649,6 +652,7 @@ function calcDisplayPower() {
     document.getElementById("power_main").innerHTML = totalMainPower;
     document.getElementById("power_club").innerHTML = totalClubPower;
     document.getElementById("power_support").innerHTML = totalSupportPower;
+
     document.getElementById("power_event").innerHTML = totalEventPower;
 
     var totalMedleyPower = getMedleyPower();
@@ -874,8 +878,6 @@ function calcClubPower() {
             clubPercGain = Math.round((clubPercGain + Number.EPSILON) * 1000) / 1000
         }
 
-        console.log("Total Club % Gain is : " + clubPercGain);
-
         var heart = parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) || 0;
         var tech = parseInt(document.getElementById("m" + i + "_techmod").innerHTML) || 0;
         var phys = parseInt(document.getElementById("m" + i + "_physmod").innerHTML) || 0;
@@ -958,47 +960,35 @@ function calcEventPower() {
         }
 
         for (let i = 1; i <= 4; i++) {
-            setEventPerc("m" + i);
+            var eventPerc = setEventPerc(type, "m" + i);
 
-            var char = document.getElementById("m" + i + "_char").innerHTML;
-            if (charList.includes(char)) {
-
-                var eventPerc = .5;
-                if (isEventCard(type, "m" + i)) {
-                    eventPerc = 1;
-                }
-
-                // Re-run of old quints event. No power bonus except for matching card to support live room
-                // which is handled in scoring section
-                if (eventId == 109) {
-                    eventPerc = 0;    
-                }
-
-                var heartMod = parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) || 0;
-                var techMod = parseInt(document.getElementById("m" + i + "_techmod").innerHTML) || 0;
-                var physMod = parseInt(document.getElementById("m" + i + "_physmod").innerHTML) || 0;
-        
-                var heart = Math.floor(parseInt(heartMod) * eventPerc);
-                var tech = Math.floor(parseInt(techMod) * eventPerc);
-                var phys = Math.floor(parseInt(physMod) * eventPerc);
-                var eventTotal = heart + tech + phys;
-
-                // Power for super dengeki live
-                var heart2 = Math.floor(parseInt(heartMod) * eventPerc * 2);
-                var tech2 = Math.floor(parseInt(techMod) * eventPerc * 2);
-                var phys2 = Math.floor(parseInt(physMod) * eventPerc * 2);
-                var eventTotal2 = heart2 + tech2 + phys2;
-
-                document.getElementById("m" + i + "_eventbonus").innerHTML = eventTotal;
-                document.getElementById("m" + i + "_eventbonus2").innerHTML = eventTotal2;
-            } else {
-                document.getElementById("m" + i + "_eventbonus").innerHTML = 0;
-                document.getElementById("m" + i + "_eventbonus2").innerHTML = 0;
+            // Re-run of old quints event. No power bonus except for matching card to support live room
+            // which is handled in scoring section
+            if (eventId == 109) {
+                eventPerc = 0;    
             }
+
+            var heartMod = parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) || 0;
+            var techMod = parseInt(document.getElementById("m" + i + "_techmod").innerHTML) || 0;
+            var physMod = parseInt(document.getElementById("m" + i + "_physmod").innerHTML) || 0;
+    
+            var heart = Math.floor(parseInt(heartMod) * eventPerc);
+            var tech = Math.floor(parseInt(techMod) * eventPerc);
+            var phys = Math.floor(parseInt(physMod) * eventPerc);
+            var eventTotal = heart + tech + phys;
+
+            // Power for super dengeki live
+            var heart2 = Math.floor(parseInt(heartMod) * eventPerc * 2);
+            var tech2 = Math.floor(parseInt(techMod) * eventPerc * 2);
+            var phys2 = Math.floor(parseInt(physMod) * eventPerc * 2);
+            var eventTotal2 = heart2 + tech2 + phys2;
+
+            document.getElementById("m" + i + "_eventbonus").innerHTML = eventTotal;
+            document.getElementById("m" + i + "_eventbonus2").innerHTML = eventTotal2;
         }
     } else {
         for (let i = 1; i <= 4; i++) {
-            var eventPercGain = setEventPerc("m" + i);
+            var eventPercGain = setEventPerc(type, "m" + i);
 
             var heartMod = parseInt(document.getElementById("m" + i + "_heartmod").innerHTML) || 0;
             var techMod = parseInt(document.getElementById("m" + i + "_techmod").innerHTML) || 0;
@@ -1030,7 +1020,7 @@ function isEventCard(type, identifier) {
     return false;
 }
 
-function setEventPerc(identifier) {
+function setEventPerc(type, identifier) {
     
     var eventId = document.getElementById("eventid").innerHTML;
 
@@ -1046,14 +1036,16 @@ function setEventPerc(identifier) {
         }
     }
 
+    // Check if there's a style match
     var style = document.getElementById(identifier + "_type").innerText.toLowerCase();
     var styleBonus = (style === document.getElementById("eventstyleval").innerHTML.toLowerCase());
+
     var charMatch = false;
     var styleMatch = false;
 
     var eventPerc = 0;
     if (charBonus) {
-        eventPerc += getEventPercBonus(identifier);
+        eventPerc += getEventPercBonus(type, identifier);
         charMatch = true;
     }
 
@@ -1066,16 +1058,31 @@ function setEventPerc(identifier) {
         eventPerc += .1;
     }
 
+    // If the event is raid and the card is an event card, double the eventPerc
+    if (type === "Raid" && isEventCard(type, identifier)) {
+        eventPerc = eventPerc * 2;
+
+        // If the Raid room matches the char, add extra 50%
+        var raidChar = document.getElementById("raidchars").value.toLowerCase();
+        if (character === raidChar) {
+            eventPerc += .5;
+        }
+    }
+
     document.getElementById(identifier + "_eventperc").innerHTML = eventPerc;
 
     return eventPerc;
 }
 
-function getEventPercBonus(identifier) {
+function getEventPercBonus(type, identifier) {
     var et = document.getElementById(identifier + "_et").value;
     var id = parseInt(document.getElementById(identifier + "_id").innerHTML);
     var rarity = standardArray.find(item => item.id === id).rarity;
     var bonus = .2;
+    // Base Raid type bonus starts at 50%
+    if (type === "Raid") {
+        bonus = .5;
+    }
 
     if (!isComboBonus()) {
         return bonus;
@@ -1083,27 +1090,27 @@ function getEventPercBonus(identifier) {
 
     if (rarity == 3) {
         if (et == 0) {
-            bonus = .2;
+            bonus += 0;
         } else if (et == 1) {
-            bonus = .22;
+            bonus += .02;
         } else if (et == 2) {
-            bonus = .24;
+            bonus += .04;
         } else if (et == 3) {
-            bonus = .27;
+            bonus += .07;
         } else if (et == 4) {
-            bonus = .3;
+            bonus += .1;
         }
     } else if (rarity == 4) {
         if (et == 0) {
-            bonus = .2;
+            bonus += 0;
         } else if (et == 1) {
-            bonus = .25;
+            bonus += .05;
         } else if (et == 2) {
-            bonus = .3;
+            bonus += .1;
         } else if (et == 3) {
-            bonus = .35;
+            bonus += .15;
         } else if (et == 4) {
-            bonus = .45;
+            bonus += .25;
         }
     }
 

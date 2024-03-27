@@ -497,7 +497,7 @@ function calculateScore(type) {
 // Get bonus power for Raid bonus room
 function getBonusPower(eventType) {
     if (eventType === "raid") {
-        var character = document.getElementById("eventchars").value.toLowerCase();
+        var character = document.getElementById("raidchars").value.toLowerCase();
         for (let i = 1; i <= 4; i++) {
             var char = document.getElementById("m" + i + "_char").innerHTML;
             if (char === character) {
@@ -849,9 +849,6 @@ function displayEventBonus(eventType) {
     if (eventType === "raid") {
         showRaidElements();
         hideMedleyElements();
-
-        populateCharSelectRaid();
-        $.refreshEventCharSelect();
     } else if (eventType === "medley") {
         showMedleyUIElements();
         hideRaidElements();
