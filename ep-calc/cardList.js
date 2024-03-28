@@ -11668,6 +11668,20 @@ var cards = {
             "skill": .6,
             "icon": "card_icon_070940001_1.8ef5c538",
             "passive": "Auto Boost 2.5-8%"
+        },
+        "831": {
+            "id": 831,
+            "character": "Weronika",
+            "cardname": "Summer Fes. 2023",
+            "unit": "Abyssmare",
+            "type": "Street",
+            "rarity": 3,
+            "heart": 9700,
+            "technical": 9623,
+            "physical": 12188,
+            "skill": .25,
+            "icon": "card_icon_050940001_1.ea192be0",
+            "passive": "Groovy Solo 10-20%"
         }
     }
 
