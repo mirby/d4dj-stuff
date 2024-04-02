@@ -1067,7 +1067,7 @@ function setEventPerc(type, identifier) {
     }
 
     if (styleBonus) {
-        eventPerc += getEventPercBonus(identifier);
+        eventPerc += getEventPercBonus(type, identifier);
         styleMatch = true;
     }
 
