@@ -1650,6 +1650,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "139": {
+        "id":139,
+        "name":"XROSS∞BEAT EPISODE4",
+        "characters":"Tsubaki,Nagisa,Hiiro,Aoi",
+        "type":"Bingo",
+        "style":"Elegant",
+        "parameter":"Physical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
