@@ -1661,6 +1661,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "140": {
+        "id":140,
+        "name":"Come Closer to the Nano Distance -Kurumi & Miiko-",
+        "characters":"Kurumi,Miiko",
+        "type":"Slots",
+        "style":"Elegant",
+        "parameter":"Physical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*

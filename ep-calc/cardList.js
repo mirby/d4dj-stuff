@@ -11766,6 +11766,34 @@ var cards = {
             "skill": .8,
             "icon": "card_icon_070540005_1.7366e759",
             "passive": "Manual Up 2.5-10%"
+        },
+        "838": {
+            "id": 838,
+            "character": "Kurumi",
+            "cardname": "Catchphrase Drop",
+            "unit": "LyriLily",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 13032,
+            "technical": 14604,
+            "physical": 19181,
+            "skill": .5,
+            "icon": "card_icon_040630015_1.2db16678",
+            "passive": "Auto Boost 2.5-8.5%"
+        },
+        "839": {
+            "id": 839,
+            "character": "Miiko",
+            "cardname": "Kiss Candy",
+            "unit": "LyriLily",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 16523,
+            "technical": 12017,
+            "physical": 18256,
+            "skill": .5,
+            "icon": "card_icon_040640014_1.ec115a3f",
+            "passive": "Groovy Solo 20-70%"
         }
     }
 
