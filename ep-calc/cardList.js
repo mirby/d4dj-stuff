@@ -11794,6 +11794,62 @@ var cards = {
             "skill": .5,
             "icon": "card_icon_040640014_1.ec115a3f",
             "passive": "Groovy Solo 20-70%"
+        },
+        "840": {
+            "id": 840,
+            "character": "Rika",
+            "cardname": "Raindrop",
+            "unit": "Mermaid",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 12706,
+            "technical": 18841,
+            "physical": 15230,
+            "skill": .8,
+            "icon": "card_icon_070410008_1.d7bf6607",
+            "passive": "Auto Boost 2.5-8.5%"
+        },
+        "841": {
+            "id": 841,
+            "character": "Marika",
+            "cardname": "Blooming",
+            "unit": "Mermaid",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 13662,
+            "technical": 19704,
+            "physical": 14691,
+            "skill": .8,
+            "icon": "card_icon_070420008_1.f6c17d68",
+            "passive": "Groovy Bonus 10-35%"
+        },
+        "842": {
+            "id": 842,
+            "character": "Saori",
+            "cardname": "Contentment",
+            "unit": "Mermaid",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 13173,
+            "technical": 19515,
+            "physical": 15404,
+            "skill": .8,
+            "icon": "card_icon_070430007_1.33e920bc",
+            "passive": "Manual Up 2.5-10%"
+        },
+        "843": {
+            "id": 843,
+            "character": "Dalia",
+            "cardname": "Breeze",
+            "unit": "Mermaid",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 14112,
+            "technical": 19824,
+            "physical": 13979,
+            "skill": .8,
+            "icon": "card_icon_070440005_1.b2f682f8",
+            "passive": "Life Boost 2.5-8.25%"
         }
     }
 

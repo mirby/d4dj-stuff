@@ -1672,6 +1672,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "141": {
+        "id":141,
+        "name":"XROSS∞BEAT EPISODE5",
+        "characters":"Rika,Marika,Saori,Dalia",
+        "type":"Poker",
+        "style":"Party",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
