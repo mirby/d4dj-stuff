@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Param Disc Helper</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/css/bootstrap-select.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../ep-calc/extras.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js" integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c=" crossorigin="anonymous"></script>
+        <script src="paramhelper.js"></script>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="col-auto">
+                <div>
+                    <div class="sectionHeader">
+                        <h2>Param Disc Helper</h2>
+                        <p style="font-size: medium;">Enter the card's current stats and the char's current param</p>
+                    </div>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><label class="fieldHeader"><img class="paramimage" src="../icons/param_heart.png" width='30' height='30'></img>  Heart:</label></td>
+                                <td><input style="text-align:right;width:150px" type="number" class="form-control" id="growthHeart"></td>
+                                <td><label style="margin-left:10px" class="fieldHeader">Heart Param:</label></td>
+                                <td>
+                                    <div id=growthParamHeartWrapper></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label class="fieldHeader"><img class="paramimage" src="../icons/param_technical.png" width='30' height='30'></img>  Technical:</label></td>
+                                <td><input style="text-align:right;width:150px" type="number" class="form-control" id="growthTech"></td>
+                                <td><label style="margin-left:10px" class="fieldHeader">Tech Param:</label></td>
+                                <td>
+                                    <div id=growthParamTechWrapper></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label class="fieldHeader"><img class="paramimage" src="../icons/param_physical.png" width='30' height='30'></img>  Physical:</label></td>
+                                <td><input style="text-align:right;width:150px" type="number" class="form-control" id="growthPhys"></td>
+                                <td><label style="margin-left:10px" class="fieldHeader">Phys Param:</label></td>
+                                <td>
+                                    <div id=growthParamPhysWrapper></div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="calcbutton">
+                        <a id="calculate" class="btn btn-primary" role="button">Calculate</a>
+                    </div>
+                    <hr>
+                    <h2>Output</h2>
+                    <div id="output">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            setupParamDropdown();
+        </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/js/bootstrap-select.min.js"></script>
+    </body>
+</html>
