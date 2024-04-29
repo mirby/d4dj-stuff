@@ -11850,6 +11850,62 @@ var cards = {
             "skill": .8,
             "icon": "card_icon_070440005_1.b2f682f8",
             "passive": "Life Boost 2.5-8.25%"
+        },
+        "844": {
+            "id": 844,
+            "character": "Rinku",
+            "cardname": "Footsteps",
+            "unit": "HapiAra",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 12680,
+            "technical": 19382,
+            "physical": 15052,
+            "skill": .8,
+            "icon": "card_icon_070110010_1.917e20b9",
+            "passive": "Life Boost 2.5-8.25%"
+        },
+        "845": {
+            "id": 845,
+            "character": "Maho",
+            "cardname": "Swooning",
+            "unit": "HapiAra",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 16040,
+            "technical": 19201,
+            "physical": 12368,
+            "skill": .8,
+            "icon": "card_icon_070120009_1.7a2d8fa3",
+            "passive": "Groovy Bonus 10-35%"
+        },
+        "846": {
+            "id": 846,
+            "character": "Muni",
+            "cardname": "Gaze",
+            "unit": "HapiAra",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 12504,
+            "technical": 19269,
+            "physical": 16053,
+            "skill": .8,
+            "icon": "card_icon_070130007_1.7828fdf0",
+            "passive": "Groovy Solo 20-70%"
+        },
+        "847": {
+            "id": 847,
+            "character": "Rei",
+            "cardname": "Cool Breeze",
+            "unit": "HapiAra",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 15715,
+            "technical": 18950,
+            "physical": 13314,
+            "skill": .8,
+            "icon": "card_icon_070140007_1.e9a4628c",
+            "passive": "Manual Up 2.5-10%"
         }
     }
 

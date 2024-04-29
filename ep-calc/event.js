@@ -1683,6 +1683,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "142": {
+        "id":142,
+        "name":"XROSS∞BEAT EPISODE6",
+        "characters":"Rinku,Maho,Muni,Rei",
+        "type":"Bingo",
+        "style":"Street",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
