@@ -11906,6 +11906,48 @@ var cards = {
             "skill": .8,
             "icon": "card_icon_070140007_1.e9a4628c",
             "passive": "Manual Up 2.5-10%"
+        },
+        "848": {
+            "id": 848,
+            "character": "Saki",
+            "cardname": "Navigation：With",
+            "unit": "Photon",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 16519,
+            "technical": 16673,
+            "physical": 15250,
+            "skill": .45,
+            "icon": "card_icon_060310002_1.0b3d1268",
+            "passive": "Life Boost 2.5-8.5%"
+        },
+        "849": {
+            "id": 849,
+            "character": "Mana",
+            "cardname": "Navigation：With",
+            "unit": "CallofArtemis",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 15538,
+            "technical": 16683,
+            "physical": 16801,
+            "skill": .45,
+            "icon": "card_icon_060720002_1.1669c8bb",
+            "passive": "Groovy Bonus 10-36.5%"
+        },
+        "850": {
+            "id": 850,
+            "character": "Haruna",
+            "cardname": "Navigation：With",
+            "unit": "LyriLily",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 16694,
+            "technical": 16271,
+            "physical": 15097,
+            "skill": .45,
+            "icon": "card_icon_060620002_1.c6166e71",
+            "passive": "Life Boost 2.5-8.5%"
         }
     }
 
