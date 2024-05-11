@@ -1054,6 +1054,24 @@ var clubItems4 = {
         "displayname":"Hiiro",
         "type":"character",
         "bonus":.02
+    },
+    "out-ibuki": {
+        "name":"ibuki",
+        "displayname":"Ibuki",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-kyoko": {
+        "name":"kyoko",
+        "displayname":"Kyoko",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-saki": {
+        "name":"saki",
+        "displayname":"Saki",
+        "type":"character",
+        "bonus":.02
     }
 }
 

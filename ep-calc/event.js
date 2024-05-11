@@ -251,7 +251,8 @@ function getCardSet(type) {
         "113":["Sweet×waterside", "Tropical＊eyes", "Hungry♡pool", "Splash＋reading"],
         "122":["Wine Red Monopoly", "Whispering On Sleepless Nights", "Lovely Snake Princess", "Unraveling Dynamite"],
         "132":["Fragment", "Tranquil Mind", "Coloration", "Homeward Bound"],
-        "137":["Your Color♥Sugar Time", "Heart-pounding♥Kiss You", "Gap Moe♥Sweetheart", "Maiden of Flowers♥Forever and Ever"]
+        "137":["Your Color♥Sugar Time", "Heart-pounding♥Kiss You", "Gap Moe♥Sweetheart", "Maiden of Flowers♥Forever and Ever"],
+        "143":["Little Red Riding Hood in the Forest", "The Captive Sleeping Beauty", "Snow White in the Mirror", "Cinderella at the stroke of midnight"]
     };
 
     var raidSet = {
@@ -1690,6 +1691,17 @@ var eventList = {
         "type":"Bingo",
         "style":"Street",
         "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
+    "143": {
+        "id":143,
+        "name":"Princess in Fairy tale",
+        "characters":"Miyu,Haruna,Kurumi,Miiko",
+        "type":"Medley",
+        "style":"Cool",
+        "parameter":"Heart",
         "bonus":true,
         "comboBonus":true,
         "addition":""
