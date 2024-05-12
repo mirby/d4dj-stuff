@@ -158,8 +158,8 @@ function calculateEp(type, scoreMap, bonus, param, volts, roomscore) {
 
             valueMap.set("Task Medley Score (Estimated)", scoreSolo2);
 
-            result = volts * (15 + Math.floor(scoreAuto / 50000));
-            var result2 = volts * (20 + Math.floor(scoreAuto / 50000));
+            result = volts * (25 + Math.floor(scoreAuto / 200000));
+            var result2 = volts * (30 + Math.floor(scoreAuto / 200000));
             valueMap.set("Challenge Tickets - Auto", (result || "-") + "-" + (result2 || "-"));
 
             var roomscoreAuto = scoreAuto * 4;
@@ -168,8 +168,8 @@ function calculateEp(type, scoreMap, bonus, param, volts, roomscore) {
 
             valueMap.set("Multi-Medley Live Score - Auto (Estimated)", scoreAuto);
 
-            result = volts * (15 + Math.floor(score / 50000));
-            result2 = volts * (20 + Math.floor(score / 50000));
+            result = volts * (25 + Math.floor(score / 200000));
+            result2 = volts * (30 + Math.floor(score / 200000));
             valueMap.set("Challenge Tickets", (result || "-") + "-" + (result2 || "-"));
 
             result = volts * Math.floor(param * Math.floor(bonus * (10 + Math.floor(score / 10000) + Math.max(10, Math.floor(roomscore / 80000)) + comboBonus)));
@@ -309,8 +309,8 @@ function calculateEpScore(type, score, bonus, param, volts, roomscore) {
                 result = Math.floor(param * Math.floor(bonus * (100 + Math.floor(score / 1000) + comboBonus)));
                 valueMap.set("Task Medley EP (100 tickets)", result);
 
-                result = volts * (15 + Math.floor(score / 50000));
-                var result2 = volts * (20 + Math.floor(score / 50000));
+                result = volts * (25 + Math.floor(score / 200000));
+                var result2 = volts * (30 + Math.floor(score / 200000));
                 valueMap.set("Challenge Tickets", (result || "-") + "-" + (result2 || "-"));
 
                 result = volts * Math.floor(param * Math.floor(bonus * (10 + Math.floor(score / 10000) + Math.max(10, Math.floor(roomscore / 80000)) + comboBonus)));
