@@ -11948,6 +11948,62 @@ var cards = {
             "skill": .45,
             "icon": "card_icon_060620002_1.c6166e71",
             "passive": "Life Boost 2.5-8.5%"
+        },
+        "851": {
+            "id": 851,
+            "character": "Kyoko",
+            "cardname": "Blue Firmament",
+            "unit": "Peaky",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 19147,
+            "technical": 15037,
+            "physical": 12982,
+            "skill": .8,
+            "icon": "card_icon_070210009_1.24aba485",
+            "passive": "Manual Up 2.5-10%"
+        },
+        "852": {
+            "id": 852,
+            "character": "Shinobu",
+            "cardname": "Street Corner",
+            "unit": "Peaky",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 19562,
+            "technical": 15291,
+            "physical": 13119,
+            "skill": .8,
+            "icon": "card_icon_070220009_1.a1edc86b",
+            "passive": "Auto Boost 2.5-8.5%"
+        },
+        "853": {
+            "id": 853,
+            "character": "Yuka",
+            "cardname": "Transient Moment",
+            "unit": "Peaky",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 19389,
+            "technical": 15536,
+            "physical": 12481,
+            "skill": .8,
+            "icon": "card_icon_070230009_1.3f8ac936",
+            "passive": "Life Boost 2.5-8.25%"
+        },
+        "854": {
+            "id": 854,
+            "character": "Esora",
+            "cardname": "Silence",
+            "unit": "Peaky",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 19273,
+            "technical": 14419,
+            "physical": 13835,
+            "skill": .8,
+            "icon": "card_icon_070240010_1.fb19ccac",
+            "passive": "Groovy Solo 20-70%"
         }
     }
 

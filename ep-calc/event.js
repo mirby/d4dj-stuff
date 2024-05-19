@@ -1706,6 +1706,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "144": {
+        "id":144,
+        "name":"XROSS∞BEAT EPISODE7",
+        "characters":"Kyoko,Shinobu,Yuka,Esora",
+        "type":"Poker",
+        "style":"Elegant",
+        "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
