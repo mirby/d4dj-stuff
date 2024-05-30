@@ -1717,6 +1717,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "145": {
+        "id":145,
+        "name":"A Bad Cynic Doggo VOL.1",
+        "characters":"None",
+        "type":"Raid",
+        "style":"None",
+        "parameter":"None",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":"50% power boost for 3rd Anni/XROSS SP card in Multi. 25% in Special Raid"
+    },
 }
 
 /*
