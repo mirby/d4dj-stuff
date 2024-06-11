@@ -252,7 +252,8 @@ function getCardSet(type) {
         "122":["Wine Red Monopoly", "Whispering On Sleepless Nights", "Lovely Snake Princess", "Unraveling Dynamite"],
         "132":["Fragment", "Tranquil Mind", "Coloration", "Homeward Bound"],
         "137":["Your Color♥Sugar Time", "Heart-pounding♥Kiss You", "Gap Moe♥Sweetheart", "Maiden of Flowers♥Forever and Ever"],
-        "143":["Little Red Riding Hood in the Forest", "The Captive Sleeping Beauty", "Snow White in the Mirror", "Cinderella at the stroke of midnight"]
+        "143":["Little Red Riding Hood in the Forest", "The Captive Sleeping Beauty", "Snow White in the Mirror", "Cinderella at the stroke of midnight"],
+        "146":["Pine Blue Soda", "Cherry Cream Soda", "Kiwi Fruit Tea", "Lime Rose Lemonade"],
     };
 
     var raidSet = {
@@ -1727,6 +1728,17 @@ var eventList = {
         "bonus":true,
         "comboBonus":true,
         "addition":"50% power boost for 3rd Anni/XROSS SP card in Multi. 25% in Special Raid"
+    },
+    "146": {
+        "id":146,
+        "name":"HAVE A FUN TIME! -Café de LAGOON-",
+        "characters":"Rika,Marika,Saori,Dalia",
+        "type":"Medley",
+        "style":"Street",
+        "parameter":"Physical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
     },
 }
 

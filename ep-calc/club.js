@@ -1072,6 +1072,36 @@ var clubItems4 = {
         "displayname":"Saki",
         "type":"character",
         "bonus":.02
+    },
+    "out-mana": {
+        "name":"mana",
+        "displayname":"Mana",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-haruna": {
+        "name":"haruna",
+        "displayname":"Haruna",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-dalia": {
+        "name":"dalia",
+        "displayname":"Dalia",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-sophia": {
+        "name":"sophia",
+        "displayname":"Sophia",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-neo": {
+        "name":"neo",
+        "displayname":"Neo",
+        "type":"character",
+        "bonus":.02
     }
 }
 
