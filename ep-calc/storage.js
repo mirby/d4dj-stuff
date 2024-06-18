@@ -241,10 +241,15 @@ function loadData() {
 
     var profile = document.getElementById("profsel").value;
     if (confirm("Are you sure you wish to load profile " + profile + "? Make sure you save first!")) {
+        refreshClubSelects();
+        refreshEventSelect();
+        refreshTeam();
         var obj = storage.getItem(profile);
         if (obj) {
     
             var jsonObj = JSON.parse(obj);
+
+            
     
             // Initialize team
             if (jsonObj["team"]) {
@@ -272,11 +277,7 @@ function loadData() {
     
             $('.selectpicker').selectpicker('refresh');
         } else {
-            // if doesnt exist, refresh the page items
             console.log("Profile " + profile + " does not exist.");
-            refreshClubSelects();
-            refreshEventSelect();
-            refreshTeam();
         }
     
         calcModPower();
