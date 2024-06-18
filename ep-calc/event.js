@@ -1739,7 +1739,7 @@ var eventList = {
         "bonus":true,
         "comboBonus":true,
         "addition":""
-    },
+    }
 }
 
 /*

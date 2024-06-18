@@ -1351,6 +1351,10 @@ var units = [
         "unit":"Abyssmare",
         "display":"Abyssmare"
     },
+    {
+        "unit":"Doggo",
+        "display":"A Bad Cynic Doggo"
+    }
     // {
     //     "unit":"Common",
     //     "display":"Other"
@@ -1359,4 +1363,4 @@ var units = [
 
 var characters = ["Rinku", "Maho", "Muni", "Rei", "Kyoko", "Shinobu", "Yuka", "Esora", "Saki", "Ibuki", "Towa", "Noa", "Rika", "Marika", "Saori", "Dalia", 
                     "Tsubaki", "Nagisa", "Hiiro", "Aoi", "Miyu", "Haruna", "Kurumi", "Miiko", "Michiru", "Lumina", "Kokoa", "Hayate", "Neo", "Sophia", "Elsie", "Weronika",
-                     "Toka", "Shano", "Mana", "Airi"];
+                     "Toka", "Shano", "Mana", "Airi", "Eimi", "Bell", "Shika", "Date-chan"];
