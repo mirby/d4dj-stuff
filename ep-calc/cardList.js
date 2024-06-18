@@ -12634,6 +12634,174 @@ var cards = {
             "skill": .1,
             "icon": "card_icon_020840002_0.a253953e",
             "passive": "None"
+        },
+        "900": {
+            "id": 900,
+            "character": "Shinobu",
+            "cardname": "GroovyFes track.2",
+            "unit": "Peaky",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 18676,
+            "technical": 21093,
+            "physical": 17941,
+            "skill": .6,
+            "icon": "card_icon_070220008_1.ea1704ff",
+            "passive": "Sympathy 2-6%"
+        },
+        "901": {
+            "id": 901,
+            "character": "Saki",
+            "cardname": "GroovyFes track.2",
+            "unit": "Photon",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 18453,
+            "technical": 17918,
+            "physical": 21556,
+            "skill": .6,
+            "icon": "card_icon_070310009_1.7b3c11df",
+            "passive": "Sympathy 2-6%"
+        },
+        "902": {
+            "id": 902,
+            "character": "Saori",
+            "cardname": "GroovyFes track.2",
+            "unit": "Mermaid",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 18661,
+            "technical": 19744,
+            "physical": 20199,
+            "skill": .6,
+            "icon": "card_icon_070430006_1.10ee01ee",
+            "passive": "Sympathy 2-6%"
+        },
+        "903": {
+            "id": 903,
+            "character": "Haruna",
+            "cardname": "GroovyFes track.2",
+            "unit": "LyriLily",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 18499,
+            "technical": 20769,
+            "physical": 19445,
+            "skill": .6,
+            "icon": "card_icon_070620009_1.a6f58bcd",
+            "passive": "Sympathy 2-6%"
+        },
+        "904": {
+            "id": 904,
+            "character": "Muni",
+            "cardname": "一途",
+            "unit": "HapiAra",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 12360,
+            "technical": 14499,
+            "physical": 21167,
+            "skill": .8,
+            "icon": "card_icon_070130008_1.de3c2a90",
+            "passive": "Groovy Bonus 10-35%"
+        },
+        "905": {
+            "id": 905,
+            "character": "Rinku",
+            "cardname": "追想",
+            "unit": "HapiAra",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 14757,
+            "technical": 11582,
+            "physical": 21518,
+            "skill": .8,
+            "icon": "card_icon_070110011_1.6e3a2e8a",
+            "passive": "Manual Up 2.5-10%"
+        },
+        "906": {
+            "id": 906,
+            "character": "Maho",
+            "cardname": "薫香",
+            "unit": "HapiAra",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 14554,
+            "technical": 11813,
+            "physical": 20316,
+            "skill": .8,
+            "icon": "card_icon_070120010_1.7052ab0d",
+            "passive": "Groovy Solo 20-70%"
+        },
+        "907": {
+            "id": 907,
+            "character": "Rei",
+            "cardname": "鮮烈",
+            "unit": "HapiAra",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 14901,
+            "technical": 11241,
+            "physical": 21409,
+            "skill": .8,
+            "icon": "card_icon_070140008_1.9bb5114a",
+            "passive": "Auto Boost 2.5-8.5%"
+        },
+        "908": {
+            "id": 908,
+            "character": "Eimi",
+            "cardname": "Against your story",
+            "unit": "Doggo",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 14151,
+            "technical": 10788,
+            "physical": 18553,
+            "skill": .5,
+            "icon": "card_icon_041010001_1.dd8f5dbe",
+            "passive": "Manual Up 2.5-10%"
+        },
+        "909": {
+            "id": 909,
+            "character": "Bell",
+            "cardname": "Business time",
+            "unit": "Doggo",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 14037,
+            "technical": 10969,
+            "physical": 18132,
+            "skill": .5,
+            "icon": "Groovy Bonus 10-35%",
+            "passive": "card_icon_041020001_1.e9782949"
+        },
+        "910": {
+            "id": 910,
+            "character": "Shika",
+            "cardname": "Crazy sound",
+            "unit": "Doggo",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 14092,
+            "technical": 10565,
+            "physical": 18231,
+            "skill": .5,
+            "icon": "card_icon_041030001_1.224e0895",
+            "passive": "Groovy Solo 20-70%"
+        },
+        "911": {
+            "id": 911,
+            "character": "Date-chan",
+            "cardname": "Dope rhyme",
+            "unit": "Doggo",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 14569,
+            "technical": 9993,
+            "physical": 18257,
+            "skill": .5,
+            "icon": "card_icon_041040001_1.4fe96d95",
+            "passive": "Life Boost 2.5-8.25%"
         }
     }
 
@@ -12703,6 +12871,11 @@ function setUnit(name) {
         case "Airi":
         case "Mana":
             return "CallofArtemis";
+        case "Eimi":
+        case "Bell":
+        case "Shika":
+        case "Date-chan":
+            return "Doggo";
     }
 }
 
