@@ -658,8 +658,14 @@ function calcDisplayPower() {
     var totalMedleyPower = getMedleyPower();
     document.getElementById("power_medley").innerHTML = totalMedleyPower;
 
-    document.getElementById("power_totalwo").innerHTML = totalMainPower + totalClubPower + totalSupportPower;
-    document.getElementById("power_total").innerHTML = totalMainPower + totalClubPower + totalSupportPower + totalEventPower + totalMedleyPower;
+    var sympathyPerc = parseFloat(getSympathyPerc() / 100);
+    
+    var totalPowerWithoutEventBonus = totalMainPower + totalClubPower + totalSupportPower;
+    var totalPowerWithEventBonus = totalMainPower + totalClubPower + totalSupportPower + totalEventPower + totalMedleyPower;
+
+    document.getElementById("power_sympathy").innerHTML = Math.floor(totalPowerWithEventBonus * (sympathyPerc));
+    document.getElementById("power_totalwo").innerHTML = Math.floor(totalPowerWithoutEventBonus * (sympathyPerc + 1));
+    document.getElementById("power_total").innerHTML = Math.floor(totalPowerWithEventBonus * (sympathyPerc + 1));
 }
 
 function getMedleyPower() {
@@ -1126,6 +1132,59 @@ function getEventPercBonus(type, identifier) {
     }
 
     return bonus;
+}
+
+// Get the total Sympathy % on team
+function getSympathyPerc() {
+    var isSympathyActive = false;
+    var maxSympPerc = 0;
+    var sympCount = 0;
+
+    // cycle through all cards and add up sympathy
+    for (var i=1; i<=4; i++) {
+        var selection = "m" + i;
+        var passiveSkill = document.getElementById(selection + "_pskill").innerHTML;
+        if (passiveSkill.startsWith("Sympathy")){
+            sympCount++;
+            var et = document.getElementById(selection + "_et").value;
+            if (!isSympathyActive) {
+                isSympathyActive = true;
+            }
+            var passiveValue = getSympPassiveValue(passiveSkill, et);
+            if (passiveValue > maxSympPerc) {
+                maxSympPerc = passiveValue;
+            }
+        }
+    }
+
+    for (var i=1; i<=4; i++) {
+        var selection = "s" + i;
+        var passiveSkill = document.getElementById(selection + "_pskill").innerHTML;
+        if (passiveSkill.startsWith("Sympathy")){
+            sympCount++;
+            var et = document.getElementById(selection + "_et").value;
+            if (!isSympathyActive && et >= 1) {
+                isSympathyActive = true;
+            }
+            var passiveValue = getSympPassiveValue(passiveSkill, et);
+            if (passiveValue > maxSympPerc) {
+                maxSympPerc = passiveValue;
+            }
+        }
+    }
+
+    if (isSympathyActive) {
+        return parseFloat(maxSympPerc * sympCount);
+    } else {
+        return 0;
+    }    
+}
+
+function getSympPassiveValue(pString, et) {
+    var pSkill = pString.substring(9).slice(0, -1);
+    var pSkillParts = pSkill.split("-");
+    var interval = (parseFloat(pSkillParts[1]) - parseFloat(pSkillParts[0])) * 100 / 400;
+    return parseFloat(pSkillParts[0]) + (interval * et);
 }
 
 function calcDisplayParams() {
