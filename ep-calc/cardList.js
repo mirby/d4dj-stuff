@@ -12802,6 +12802,62 @@ var cards = {
             "skill": .5,
             "icon": "card_icon_041040001_1.4fe96d95",
             "passive": "Life Boost 2.5-8.25%"
+        },
+        "912": {
+            "id": 912,
+            "character": "Neo",
+            "cardname": "Black and White",
+            "unit": "Abyssmare",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 20556,
+            "technical": 11455,
+            "physical": 14797,
+            "skill": .8,
+            "icon": "card_icon_070910004_1.149d319c",
+            "passive": "Manual Up 2.5-10%"
+        },
+        "913": {
+            "id": 913,
+            "character": "Sophia",
+            "cardname": "Radiance",
+            "unit": "Abyssmare",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 20940,
+            "technical": 10965,
+            "physical": 15752,
+            "skill": .8,
+            "icon": "card_icon_070920003_1.7ee11a4f",
+            "passive": "Auto Boost 2.5-8.5%"
+        },
+        "914": {
+            "id": 914,
+            "character": "Elsie",
+            "cardname": "Vermillion",
+            "unit": "Abyssmare",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 20591,
+            "technical": 15423,
+            "physical": 11981,
+            "skill": .8,
+            "icon": "card_icon_070930004_1.2e15678d",
+            "passive": "Groovy Bonus 10-35%"
+        },
+        "915": {
+            "id": 915,
+            "character": "Weronika",
+            "cardname": "Fine Weather",
+            "unit": "Abyssmare",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 20760,
+            "technical": 15502,
+            "physical": 11831,
+            "skill": .8,
+            "icon": "card_icon_070940003_1.c2cb1871",
+            "passive": "Groovy Solo 20-70%"
         }
     }
 

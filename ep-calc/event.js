@@ -1739,7 +1739,18 @@ var eventList = {
         "bonus":true,
         "comboBonus":true,
         "addition":""
-    }
+    },
+    "147": {
+        "id":147,
+        "name":"A Bad Cynic Doggo VOL.2",
+        "characters":"Neo,Sophia,Elsie,Weronika",
+        "type":"Poker",
+        "style":"Cool",
+        "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
