@@ -1751,6 +1751,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "148": {
+        "id":148,
+        "name":"Circling, Dancing, June's Song",
+        "characters":"Tsubaki,Nagisa,Hiiro,Aoi",
+        "type":"Poker",
+        "style":"Street",
+        "parameter":"Physical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*

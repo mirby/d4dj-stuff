@@ -12858,6 +12858,62 @@ var cards = {
             "skill": .8,
             "icon": "card_icon_070940003_1.c2cb1871",
             "passive": "Groovy Solo 20-70%"
+        },
+        "916": {
+            "id": 916,
+            "character": "Tsubaki",
+            "cardname": "Azure Vow",
+            "unit": "Rondo",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 14097,
+            "technical": 14638,
+            "physical": 19342,
+            "skill": .5,
+            "icon": "card_icon_040510016_1.18001035",
+            "passive": "Auto Boost 2.5-8.5%"
+        },
+        "917": {
+            "id": 917,
+            "character": "Nagisa",
+            "cardname": "Soaring Maiden's Heart",
+            "unit": "Rondo",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 12024,
+            "technical": 15841,
+            "physical": 20244,
+            "skill": .5,
+            "icon": "card_icon_040520017_1.e4fae9e6",
+            "passive": "Groovy Bonus 10-35%"
+        },
+        "918": {
+            "id": 918,
+            "character": "Aoi",
+            "cardname": "Blessing to the Noble Flower",
+            "unit": "Rondo",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 15430,
+            "technical": 13785,
+            "physical": 19047,
+            "skill": .5,
+            "icon": "card_icon_040540017_1.cd9b934d",
+            "passive": "Groovy Solo 20-70%"
+        },
+        "919": {
+            "id": 919,
+            "character": "Hiiro",
+            "cardname": "Promise on the Ring Finger",
+            "unit": "Rondo",
+            "type": "Street",
+            "rarity": 3,
+            "heart": 10044,
+            "technical": 9438,
+            "physical": 12744,
+            "skill": .25,
+            "icon": "card_icon_030530007_1.baf48194",
+            "passive": "Manual Up 1.5-4%"
         }
     }
 
