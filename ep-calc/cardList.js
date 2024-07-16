@@ -12694,7 +12694,7 @@ var cards = {
         "904": {
             "id": 904,
             "character": "Muni",
-            "cardname": "一途",
+            "cardname": "Devotion",
             "unit": "HapiAra",
             "type": "Cute",
             "rarity": 4,
@@ -12708,7 +12708,7 @@ var cards = {
         "905": {
             "id": 905,
             "character": "Rinku",
-            "cardname": "追想",
+            "cardname": "Reminiscence",
             "unit": "HapiAra",
             "type": "Cute",
             "rarity": 4,
@@ -12722,7 +12722,7 @@ var cards = {
         "906": {
             "id": 906,
             "character": "Maho",
-            "cardname": "薫香",
+            "cardname": "Fragrance",
             "unit": "HapiAra",
             "type": "Cute",
             "rarity": 4,
@@ -12736,7 +12736,7 @@ var cards = {
         "907": {
             "id": 907,
             "character": "Rei",
-            "cardname": "鮮烈",
+            "cardname": "Vivid",
             "unit": "HapiAra",
             "type": "Cute",
             "rarity": 4,
@@ -12914,6 +12914,48 @@ var cards = {
             "skill": .25,
             "icon": "card_icon_030530007_1.baf48194",
             "passive": "Manual Up 1.5-4%"
+        },
+        "920": {
+            "id": 920,
+            "character": "Aoi",
+            "cardname": "Navigation：With",
+            "unit": "Rondo",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 17177,
+            "technical": 16535,
+            "physical": 14938,
+            "skill": .45,
+            "icon": "card_icon_060540002_1.437b7f55",
+            "passive": "Groovy Bonus 10-36.5%"
+        },
+        "921": {
+            "id": 921,
+            "character": "Toka",
+            "cardname": "Navigation：With",
+            "unit": "CallofArtemis",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 17113,
+            "technical": 16730,
+            "physical": 15726,
+            "skill": .45,
+            "icon": "card_icon_060740002_1.c1a89e4a",
+            "passive": "Life Boost 2.5-8.5%"
+        },
+        "922": {
+            "id": 922,
+            "character": "Marika",
+            "cardname": "Navigation：With",
+            "unit": "Mermaid",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 16469,
+            "technical": 17464,
+            "physical": 15877,
+            "skill": .45,
+            "icon": "card_icon_060420002_1.2c39073e",
+            "passive": "Groovy Bonus 10-36.5%"
         }
     }
 

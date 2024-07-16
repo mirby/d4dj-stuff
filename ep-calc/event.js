@@ -1762,6 +1762,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "149": {
+        "id":149,
+        "name":"A Bad Cynic Doggo VOL.3",
+        "characters":"Rinku,Maho,Muni,Rei,Eimi,Bell,Shika,Date-chan",
+        "type":"Medley",
+        "style":"Cute",
+        "parameter":"Physical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":"5th medley has 50% power up for event Doggo cards"
+    },
 }
 
 /*
