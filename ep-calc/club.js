@@ -33,7 +33,7 @@ function refreshClubSelects() {
     }
 
     for (let type of clubTypes4) {
-        document.getElementById("club-" + type).value = "out-yuka";
+        document.getElementById("club-" + type).value = "out-kvtapestry";
     }
 
     for (let type of clubTypes5) {
@@ -195,15 +195,18 @@ function autoClub() {
         // Set the decoration item 
         // All decorations are 2%
 
+        // 3rd anni added KV Tapestry item, which gives flat 2% bonus to both slots, meaning 4% total
+        // Leave this section commented out in case there becomes more choices in future
+        $("select[name=club-outframe]").val("out-kvtapestry");
         // Set the outframe item (character only, 2% per char)
         // Set yuka by default
-        $("select[name=club-outframe]").val("out-yuka");
-        for (var char of charArray) {
-            if (containsChar(char[0])) {
-                $("select[name=club-outframe]").val("out-" + char[0]);
-                break;
-            }
-        }
+        
+        // for (var char of charArray) {
+        //     if (containsChar(char[0])) {
+        //         $("select[name=club-outframe]").val("out-" + char[0]);
+        //         break;
+        //     }
+        // }
 
         // Set the frameline item
         // All frameline items are 2%
@@ -983,6 +986,12 @@ var clubItems4 = {
         "type":"character",
         "bonus":0
     },
+    "out-kvtapestry": {
+        "name":"kvtapestry",
+        "displayname":"KV Tapestry",
+        "type":"decoration",
+        "bonus":.04
+    },
     "out-yuka": {
         "name":"yuka",
         "displayname":"Yuka",
@@ -1100,6 +1109,18 @@ var clubItems4 = {
     "out-neo": {
         "name":"neo",
         "displayname":"Neo",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-rinku": {
+        "name":"rinku",
+        "displayname":"Rinku",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-aoi": {
+        "name":"aoi",
+        "displayname":"Aoi",
         "type":"character",
         "bonus":.02
     }

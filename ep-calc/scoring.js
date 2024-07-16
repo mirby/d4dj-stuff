@@ -544,31 +544,32 @@ function importTeam() {
     var highestSkill = 0;
     // Get team skills and bonus
     for (let i = 1; i <= 4; i++) {
-        var skill = document.getElementById("m" + i + "_skill").innerHTML.slice(0, -1);
+        var skill = document.getElementById("m" + i + "_skill").value;
 
         // If the card is Navigation, need to calculate how much actual skill it is
-        var cardname = document.getElementById("m" + i + "_charfull").innerHTML;
-        if (cardname.includes("Navigation")) {
-            var currUnit = document.getElementById("m" + i + "_unit").innerHTML;
-            var counter = 0;
-            for (let j = 1; j <= 4; j++) {
-                if (i == j) {
-                    continue;
-                } else {
-                    var otherUnit = document.getElementById("m" + j + "_unit").innerHTML;
-                    if (otherUnit === currUnit) {
-                        counter++;
-                    }
-                }
-            }
-            if (counter == 1) {
-                skill = "55";
-            } else if (counter == 2) {
-                skill = "60";
-            } else if (counter == 3) {
-                skill = "65";
-            }
-        }
+        // TODO: For now, ignore all skill conditionals and treat them as is
+        // var cardname = document.getElementById("m" + i + "_charfull").innerHTML;
+        // if (cardname.includes("Navigation")) {
+        //     var currUnit = document.getElementById("m" + i + "_unit").innerHTML;
+        //     var counter = 0;
+        //     for (let j = 1; j <= 4; j++) {
+        //         if (i == j) {
+        //             continue;
+        //         } else {
+        //             var otherUnit = document.getElementById("m" + j + "_unit").innerHTML;
+        //             if (otherUnit === currUnit) {
+        //                 counter++;
+        //             }
+        //         }
+        //     }
+        //     if (counter == 1) {
+        //         skill = "55";
+        //     } else if (counter == 2) {
+        //         skill = "60";
+        //     } else if (counter == 3) {
+        //         skill = "65";
+        //     }
+        // }
 
         if (parseInt(skill) > highestSkill) {
             highestSkill = parseInt(skill);

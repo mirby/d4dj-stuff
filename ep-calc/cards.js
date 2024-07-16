@@ -149,6 +149,21 @@ jQuery(function($) {
     $('#cancelAdd').on('click', function() {
         $('#teamSelectSection').toggleClass('show');
     });
+
+    $('.numberField').on('blur', function() {
+        // Get the value of the input field
+        const value = $(this).val();
+
+        if (!isNaN(value) && value !== '') {
+            calcModPower();
+            calcClubPower();
+            calcEventPower();
+            calcDisplayPower();
+            calcDisplayParams();
+        } else {
+            console.log("bad number");
+        }
+    });
 });
 
 /*
@@ -191,19 +206,36 @@ function populateTeam(selection, cardId) {
         document.getElementById(selection + "_physbase").innerHTML = physical;
         document.getElementById(selection + "_pskill").innerHTML = cards[cardId].passive;
 
-        // Check if ET exists and if so, set it
+        // Check if Power % exists
+        var powerPerc = localPower.get(cardId + "_powerPerc") || 0;
+        document.getElementById(selection + "_powerPerc").value = powerPerc;
+
+        // check if Skill was changed, if not, set default
+        var skill = Math.round(cards[cardId].skill * 100); // default skill
+
+        // Skill from Old Growth
+        var tempSkill = parseFloat(localStats.get(cardId + "_skill"));
+        if (tempSkill) {
+            skill = Math.round(tempSkill * 100);
+        }
+
+        // Skill from New Growth
+        tempSkill = parseFloat(localPower.get(cardId + "_skill"));
+        if (tempSkill) {
+            skill = tempSkill;
+        }
+
+        document.getElementById(selection + "_skill").value = skill;
+
+        // Check if ET exists
         var et = localEt.get(cardId) || 0;
         document.getElementById(selection + "_et").value = et;
         $.refreshSelect3(selection);
 
         document.getElementById(selection + "_unit").innerHTML = cards[cardId].unit;
         document.getElementById(selection + "_type").innerHTML = cards[cardId].type;
-        var skill = Math.round(cards[cardId].skill * 100);
-        var tempSkill = parseFloat(localStats.get(cardId + "_skill"));
-        if (tempSkill) {
-            skill = Math.round(tempSkill * 100);
-        }
-        document.getElementById(selection + "_skill").innerHTML = skill.toString() + "%";
+
+
 
         return true;
     } else {
@@ -783,6 +815,12 @@ function calcModPower() {
             var heartBase = parseInt(document.getElementById(x + i + "_heartbase").innerText);
             var techBase = parseInt(document.getElementById(x + i + "_techbase").innerText);
             var physBase = parseInt(document.getElementById(x + i + "_physbase").innerText);
+
+            // Power percentage from new growth
+            var powerPerc = parseFloat(document.getElementById(x + i + "_powerPerc").value) / 100;
+            heartMod = Math.floor(heartBase * powerPerc);
+            techMod = Math.floor(techBase * powerPerc);
+            physMod = Math.floor(physBase * powerPerc);
     
             // Extra training
             var et = document.getElementById(x + i + "_et").value;

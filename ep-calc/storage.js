@@ -1,6 +1,7 @@
 var localEt = new Map();
 var localStats = new Map();
 var localParam = new Map();
+var localPower = new Map();
 
 jQuery(function($) {
     $(window).on("load", function() {
@@ -23,15 +24,17 @@ jQuery(function($) {
             localStats = new Map(obj);
         }
 
+        // Initialize new growth updates
+        var obj = JSON.parse(storage.getItem("newGrowth"));
+        if (obj) {
+            localPower = new Map(obj);
+        }
+
         // Initialize extra training
         var obj = JSON.parse(storage.getItem("et"));
         if (obj) {
             localEt = new Map(obj);
         }
-
-        // Initialize the card selectors
-        fillStat(document.getElementById("cards").value);
-        populateStats(document.getElementById("growthCards").value);
 
         // Initialize param
         var obj = JSON.parse(storage.getItem("param"));
@@ -46,6 +49,10 @@ jQuery(function($) {
                 });
             }
         }
+        
+        // Initialize the card selectors
+        fillStat(document.getElementById("cards").value);
+        populateStats(document.getElementById("growthCards").value);
 
         // Display growth-able cards chart
         displayGrowthCardChart(cardArray2);
@@ -178,6 +185,22 @@ function saveData() {
 
     storage.setItem(profile, JSON.stringify(merges));
 
+    // Power percentage info
+    for (var i = 1; i<= 4; i++) {
+        var id = document.getElementById("m" + i + "_id").innerHTML;
+        if (id !== "") {
+            localPower.set(id + "_powerPerc", document.getElementById("m" + i + "_powerPerc").value);
+            localPower.set(id + "_skill", document.getElementById("m" + i + "_skill").value);
+        }
+        
+        id = document.getElementById("s" + i + "_id").innerHTML;
+        if (id !== "") {
+            localPower.set(id + "_powerPerc", document.getElementById("s" + i + "_powerPerc").value);
+            localPower.set(id + "_skill", document.getElementById("s" + i + "_skill").value);
+        }
+    }
+    storage.setItem("newGrowth", JSON.stringify([...localPower]));
+
     // Extra training info
     for (var i = 1; i<= 4; i++) {
         var id = document.getElementById("m" + i + "_id").innerHTML;
@@ -203,6 +226,7 @@ function saveData() {
 
     console.log("Profile: " + profile + ":\n" + JSON.stringify(merges));
     console.log("Parameters: " + JSON.stringify([...localParam]));
+    console.log("Power percentage: " + JSON.stringify([...localPower]));
     console.log("Extra training: " + JSON.stringify([...localEt]));
 
     // After saving, recreate the card list
@@ -427,7 +451,7 @@ function resetStats() {
                 document.getElementById(selection + "_heartbase").innerHTML = heart;
                 document.getElementById(selection + "_techbase").innerHTML = tech;
                 document.getElementById(selection + "_physbase").innerHTML = phys;
-                document.getElementById(selection + "_skill").innerHTML = skill.toString() + "%";
+                document.getElementById(selection + "_skill").value = skill;
 
                 calcModPower();
                 calcClubPower();
@@ -448,11 +472,16 @@ function resetStats() {
 
 function printStuff() {
     var storage = window.localStorage;
+    
+    //storage.removeItem("newGrowth");
+
     //console.log(storage);
 
+    console.log("Power %: " + JSON.stringify([...localPower]));
     console.log("Parameters: " + JSON.stringify([...localParam]));
     console.log("Extra training: " + JSON.stringify([...localEt]));
     console.log("Upgraded Stats: " + JSON.stringify([...localStats]));
+
 }
 
 // Changed club indices. Patches cases where people had old save data. Need to fix for each profile (if it exists)
