@@ -8512,5 +8512,38 @@ var sectionsJp = [
     "combined": 148.557,
     "section2twice": 189.426,
     "sectionAvg": 49.519
+  },
+  {
+    "songID": "5050284",
+    "songName": "キュンリアス",
+    "1": 48.589,
+    "2": 35.337,
+    "3": 54.287,
+    "4": 137.064,
+    "combined": 138.213,
+    "section2twice": 173.55,
+    "sectionAvg": 46.071
+  },
+  {
+    "songID": "210026",
+    "songName": "咲ケ、舞踊無双",
+    "1": 37.183,
+    "2": 40.563,
+    "3": 43.635,
+    "4": 123.38,
+    "combined": 121.381,
+    "section2twice": 161.944,
+    "sectionAvg": 40.46
+  },
+  {
+    "songID": "910009",
+    "songName": "Now or Never",
+    "1": 40.0,
+    "2": 40.0,
+    "3": 55.6,
+    "4": 142.4,
+    "combined": 135.6,
+    "section2twice": 175.6,
+    "sectionAvg": 45.2
   }
 ]

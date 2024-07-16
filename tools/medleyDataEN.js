@@ -5793,5 +5793,60 @@ var sectionsEn = [
     "combined": 115.663,
     "section2twice": 149.466,
     "sectionAvg": 38.554
+  },
+  {
+    "songID": "810009",
+    "songName": "tokyo otaku date",
+    "1": 40.678,
+    "2": 40.678,
+    "3": 46.213,
+    "4": 122.034,
+    "combined": 127.569,
+    "section2twice": 168.247,
+    "sectionAvg": 42.523
+  },
+  {
+    "songID": "310025",
+    "songName": "Begin Again",
+    "1": 43.637,
+    "2": 34.909,
+    "3": 38.278,
+    "4": 120.0,
+    "combined": 116.824,
+    "section2twice": 151.733,
+    "sectionAvg": 38.941
+  },
+  {
+    "songID": "3040001",
+    "songName": "Altar of Artemis",
+    "1": 41.264,
+    "2": 34.0,
+    "3": 44.988,
+    "4": 112.597,
+    "combined": 120.252,
+    "section2twice": 154.252,
+    "sectionAvg": 40.084
+  },
+  {
+    "songID": "510025",
+    "songName": "Bloody Mary",
+    "1": 47.111,
+    "2": 37.333,
+    "3": 62.431,
+    "4": 146.223,
+    "combined": 146.875,
+    "section2twice": 184.208,
+    "sectionAvg": 48.958
+  },
+  {
+    "songID": "3010037",
+    "songName": "Metamorphose",
+    "1": 46.452,
+    "2": 30.968,
+    "3": 37.729,
+    "4": 123.871,
+    "combined": 115.149,
+    "section2twice": 146.117,
+    "sectionAvg": 38.383
   }
 ]
