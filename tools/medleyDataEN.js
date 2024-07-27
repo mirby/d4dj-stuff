@@ -5848,5 +5848,27 @@ var sectionsEn = [
     "combined": 115.149,
     "section2twice": 146.117,
     "sectionAvg": 38.383
+  },
+  {
+    "songID": "1010001",
+    "songName": "Get on the top",
+    "1": 43.888,
+    "2": 32.912,
+    "3": 51.66,
+    "4": 123.431,
+    "combined": 128.46,
+    "section2twice": 161.372,
+    "sectionAvg": 42.82
+  },
+  {
+    "songID": "110037",
+    "songName": "happiful colorful days☆",
+    "1": 46.957,
+    "2": 40.869,
+    "3": 60.731,
+    "4": 145.217,
+    "combined": 148.557,
+    "section2twice": 189.426,
+    "sectionAvg": 49.519
   }
 ]
