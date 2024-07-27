@@ -417,17 +417,6 @@ var sectionsEn = [
     "sectionAvg": 37.607
   },
   {
-    "songID": "5040014",
-    "songName": "RAINMAKER",
-    "1": 37.819,
-    "2": 29.091,
-    "3": 37.455,
-    "4": 119.273,
-    "combined": 104.365,
-    "section2twice": 133.456,
-    "sectionAvg": 34.788
-  },
-  {
     "songID": "5040018",
     "songName": "SUNRISE",
     "1": 34.783,
@@ -439,17 +428,6 @@ var sectionsEn = [
     "sectionAvg": 38.261
   },
   {
-    "songID": "5030002",
-    "songName": "OPA-OPA!",
-    "1": 43.126,
-    "2": 30.0,
-    "3": 43.125,
-    "4": 125.626,
-    "combined": 116.251,
-    "section2twice": 146.251,
-    "sectionAvg": 38.75
-  },
-  {
     "songID": "210003",
     "songName": "Gonna be right",
     "1": 37.714,
@@ -459,17 +437,6 @@ var sectionsEn = [
     "combined": 102.858,
     "section2twice": 130.287,
     "sectionAvg": 34.286
-  },
-  {
-    "songID": "5030003",
-    "songName": "Space Harrier",
-    "1": 37.403,
-    "2": 28.052,
-    "3": 41.299,
-    "4": 135.974,
-    "combined": 106.754,
-    "section2twice": 134.806,
-    "sectionAvg": 35.585
   },
   {
     "songID": "5030004",
@@ -626,17 +593,6 @@ var sectionsEn = [
     "sectionAvg": 40.58
   },
   {
-    "songID": "5040016",
-    "songName": "Golden Star",
-    "1": 40.728,
-    "2": 29.091,
-    "3": 38.182,
-    "4": 122.182,
-    "combined": 108.001,
-    "section2twice": 137.092,
-    "sectionAvg": 36.0
-  },
-  {
     "songID": "210004",
     "songName": "Peak Peaky&Peaky!!",
     "1": 44.255,
@@ -646,17 +602,6 @@ var sectionsEn = [
     "combined": 126.382,
     "section2twice": 160.424,
     "sectionAvg": 42.127
-  },
-  {
-    "songID": "5030012",
-    "songName": "Final Take Off",
-    "1": 39.197,
-    "2": 28.799,
-    "3": 45.999,
-    "4": 121.599,
-    "combined": 113.995,
-    "section2twice": 142.794,
-    "sectionAvg": 37.998
   },
   {
     "songID": "5040004",
@@ -745,17 +690,6 @@ var sectionsEn = [
     "combined": 120.551,
     "section2twice": 154.951,
     "sectionAvg": 40.184
-  },
-  {
-    "songID": "5030011",
-    "songName": "Magical Sound Shower",
-    "1": 44.16,
-    "2": 36.48,
-    "3": 44.159,
-    "4": 119.999,
-    "combined": 124.799,
-    "section2twice": 161.279,
-    "sectionAvg": 41.6
   },
   {
     "songID": "5030013",
@@ -1417,17 +1351,6 @@ var sectionsEn = [
     "sectionAvg": 37.068
   },
   {
-    "songID": "5050009",
-    "songName": "Say! Fanfare!",
-    "1": 39.529,
-    "2": 32.47,
-    "3": 43.85,
-    "4": 115.059,
-    "combined": 115.849,
-    "section2twice": 148.319,
-    "sectionAvg": 38.616
-  },
-  {
     "songID": "5050008",
     "songName": "aqua iro palette",
     "1": 37.308,
@@ -1659,28 +1582,6 @@ var sectionsEn = [
     "sectionAvg": 39.602
   },
   {
-    "songID": "5050045",
-    "songName": "BLUE CLAPPER",
-    "1": 43.862,
-    "2": 33.104,
-    "3": 41.693,
-    "4": 120.827,
-    "combined": 118.659,
-    "section2twice": 151.763,
-    "sectionAvg": 39.553
-  },
-  {
-    "songID": "5050006",
-    "songName": "Angelic Symphony",
-    "1": 49.455,
-    "2": 36.364,
-    "3": 41.071,
-    "4": 147.273,
-    "combined": 126.89,
-    "section2twice": 163.254,
-    "sectionAvg": 42.297
-  },
-  {
     "songID": "110015",
     "songName": "Hey! Be Ambitious! (Another Ver.)",
     "1": 42.001,
@@ -1701,17 +1602,6 @@ var sectionsEn = [
     "combined": 124.417,
     "section2twice": 159.084,
     "sectionAvg": 41.472
-  },
-  {
-    "songID": "5050054",
-    "songName": "Halloween Night, Tonight!",
-    "1": 39.375,
-    "2": 33.75,
-    "3": 48.545,
-    "4": 112.502,
-    "combined": 121.67,
-    "section2twice": 155.42,
-    "sectionAvg": 40.557
   },
   {
     "songID": "420013",
@@ -1802,17 +1692,6 @@ var sectionsEn = [
     "sectionAvg": 38.229
   },
   {
-    "songID": "5050046",
-    "songName": "Hyakka Ryoran Hanafubuki",
-    "1": 38.743,
-    "2": 30.171,
-    "3": 42.493,
-    "4": 142.628,
-    "combined": 111.407,
-    "section2twice": 141.578,
-    "sectionAvg": 37.136
-  },
-  {
     "songID": "110016",
     "songName": "Dig Delight! (4sk Remix)",
     "1": 39.001,
@@ -1822,17 +1701,6 @@ var sectionsEn = [
     "combined": 116.666,
     "section2twice": 151.333,
     "sectionAvg": 38.889
-  },
-  {
-    "songID": "5050047",
-    "songName": "SHIJOSHUGI ADTRUCK",
-    "1": 41.251,
-    "2": 29.25,
-    "3": 38.251,
-    "4": 98.252,
-    "combined": 108.752,
-    "section2twice": 138.002,
-    "sectionAvg": 36.251
   },
   {
     "songID": "5030034",
@@ -1879,28 +1747,6 @@ var sectionsEn = [
     "sectionAvg": 39.722
   },
   {
-    "songID": "5050011",
-    "songName": "Invisible",
-    "1": 40.0,
-    "2": 35.0,
-    "3": 45.914,
-    "4": 91.249,
-    "combined": 120.914,
-    "section2twice": 155.914,
-    "sectionAvg": 40.305
-  },
-  {
-    "songID": "5050030",
-    "songName": "Gachi Yabee Jan feat.Nanamori.",
-    "1": 36.001,
-    "2": 28.001,
-    "3": 44.524,
-    "4": 116.003,
-    "combined": 108.526,
-    "section2twice": 136.527,
-    "sectionAvg": 36.175
-  },
-  {
     "songID": "410009",
     "songName": "High tension BPM",
     "1": 44.138,
@@ -1912,17 +1758,6 @@ var sectionsEn = [
     "sectionAvg": 39.331
   },
   {
-    "songID": "5050048",
-    "songName": "Candy-Go-Round",
-    "1": 41.194,
-    "2": 34.03,
-    "3": 43.735,
-    "4": 145.075,
-    "combined": 118.959,
-    "section2twice": 152.989,
-    "sectionAvg": 39.653
-  },
-  {
     "songID": "5050010",
     "songName": "Life Reset Button",
     "1": 43.2,
@@ -1932,17 +1767,6 @@ var sectionsEn = [
     "combined": 119.401,
     "section2twice": 149.401,
     "sectionAvg": 39.8
-  },
-  {
-    "songID": "5050013",
-    "songName": "Life-Cheating Game",
-    "1": 43.201,
-    "2": 31.201,
-    "3": 45.279,
-    "4": 98.401,
-    "combined": 119.681,
-    "section2twice": 150.882,
-    "sectionAvg": 39.894
   },
   {
     "songID": "310011",
@@ -1965,17 +1789,6 @@ var sectionsEn = [
     "combined": 120.725,
     "section2twice": 154.608,
     "sectionAvg": 40.242
-  },
-  {
-    "songID": "5050049",
-    "songName": "DAILY DIARY",
-    "1": 43.256,
-    "2": 32.093,
-    "3": 46.103,
-    "4": 126.976,
-    "combined": 121.452,
-    "section2twice": 153.545,
-    "sectionAvg": 40.484
   },
   {
     "songID": "120015",
@@ -2009,17 +1822,6 @@ var sectionsEn = [
     "combined": 116.25,
     "section2twice": 148.125,
     "sectionAvg": 38.75
-  },
-  {
-    "songID": "5050051",
-    "songName": "STARDUST SONG",
-    "1": 45.86,
-    "2": 35.159,
-    "3": 44.331,
-    "4": 139.109,
-    "combined": 125.35,
-    "section2twice": 160.509,
-    "sectionAvg": 41.783
   },
   {
     "songID": "410010",
@@ -2077,17 +1879,6 @@ var sectionsEn = [
     "sectionAvg": 40.106
   },
   {
-    "songID": "5050053",
-    "songName": "AsuiroClearSky",
-    "1": 44.836,
-    "2": 29.011,
-    "3": 47.502,
-    "4": 104.176,
-    "combined": 121.349,
-    "section2twice": 150.36,
-    "sectionAvg": 40.45
-  },
-  {
     "songID": "510010",
     "songName": "[Re] termination",
     "1": 39.385,
@@ -2119,17 +1910,6 @@ var sectionsEn = [
     "combined": 110.333,
     "section2twice": 141.301,
     "sectionAvg": 36.778
-  },
-  {
-    "songID": "5050067",
-    "songName": "Precious Photographs",
-    "1": 44.347,
-    "2": 31.305,
-    "3": 38.769,
-    "4": 114.783,
-    "combined": 114.421,
-    "section2twice": 145.726,
-    "sectionAvg": 38.14
   },
   {
     "songID": "110018",
@@ -2847,28 +2627,6 @@ var sectionsEn = [
     "sectionAvg": 42.868
   },
   {
-    "songID": "5050099",
-    "songName": "START!! True dreams",
-    "1": 40.449,
-    "2": 28.315,
-    "3": 42.301,
-    "4": 107.865,
-    "combined": 111.065,
-    "section2twice": 139.38,
-    "sectionAvg": 37.022
-  },
-  {
-    "songID": "5050100",
-    "songName": "Mirai wa Kaze no you ni ",
-    "1": 42.353,
-    "2": 30.0,
-    "3": 49.284,
-    "4": 146.471,
-    "combined": 121.637,
-    "section2twice": 151.637,
-    "sectionAvg": 40.546
-  },
-  {
     "songID": "110023",
     "songName": "Full Full♡Heartful",
     "1": 38.4,
@@ -2944,17 +2702,6 @@ var sectionsEn = [
     "combined": 108.081,
     "section2twice": 137.311,
     "sectionAvg": 36.027
-  },
-  {
-    "songID": "5050093",
-    "songName": "DREAM SOLISTER",
-    "1": 43.832,
-    "2": 34.491,
-    "3": 44.111,
-    "4": 114.97,
-    "combined": 122.434,
-    "section2twice": 156.925,
-    "sectionAvg": 40.811
   },
   {
     "songID": "5050079",
@@ -3043,149 +2790,6 @@ var sectionsEn = [
     "combined": 117.901,
     "section2twice": 146.264,
     "sectionAvg": 39.3
-  },
-  {
-    "songID": "5050036",
-    "songName": "Bring It On",
-    "1": 38.572,
-    "2": 34.286,
-    "3": 42.32,
-    "4": 120.001,
-    "combined": 115.178,
-    "section2twice": 149.464,
-    "sectionAvg": 38.393
-  },
-  {
-    "songID": "5050037",
-    "songName": "After Pain",
-    "1": 42.92,
-    "2": 35.036,
-    "3": 44.503,
-    "4": 127.885,
-    "combined": 122.459,
-    "section2twice": 157.495,
-    "sectionAvg": 40.82
-  },
-  {
-    "songID": "5050038",
-    "songName": "Throw Down",
-    "1": 43.637,
-    "2": 34.909,
-    "3": 42.025,
-    "4": 133.091,
-    "combined": 120.571,
-    "section2twice": 155.48,
-    "sectionAvg": 40.19
-  },
-  {
-    "songID": "5050039",
-    "songName": "This Is How To Be In Love With You",
-    "1": 42.162,
-    "2": 30.811,
-    "3": 48.463,
-    "4": 127.296,
-    "combined": 121.436,
-    "section2twice": 152.247,
-    "sectionAvg": 40.479
-  },
-  {
-    "songID": "5050040",
-    "songName": "half",
-    "1": 37.333,
-    "2": 32.0,
-    "3": 36.419,
-    "4": 125.338,
-    "combined": 105.752,
-    "section2twice": 137.752,
-    "sectionAvg": 35.251
-  },
-  {
-    "songID": "5050041",
-    "songName": "Magic",
-    "1": 36.0,
-    "2": 30.0,
-    "3": 41.625,
-    "4": 128.5,
-    "combined": 107.625,
-    "section2twice": 137.625,
-    "sectionAvg": 35.875
-  },
-  {
-    "songID": "5050042",
-    "songName": "MeMe",
-    "1": 38.401,
-    "2": 30.721,
-    "3": 43.019,
-    "4": 118.081,
-    "combined": 112.141,
-    "section2twice": 142.862,
-    "sectionAvg": 37.38
-  },
-  {
-    "songID": "5050043",
-    "songName": "HARROW",
-    "1": 44.308,
-    "2": 34.462,
-    "3": 39.838,
-    "4": 112.001,
-    "combined": 118.608,
-    "section2twice": 153.07,
-    "sectionAvg": 39.536
-  },
-  {
-    "songID": "5050112",
-    "songName": "Tori no Uta",
-    "1": 51.147,
-    "2": 31.475,
-    "3": 45.267,
-    "4": 165.23,
-    "combined": 127.889,
-    "section2twice": 159.364,
-    "sectionAvg": 42.63
-  },
-  {
-    "songID": "5050113",
-    "songName": "Toki o Kizamu Uta",
-    "1": 37.202,
-    "2": 25.036,
-    "3": 36.018,
-    "4": 124.521,
-    "combined": 98.256,
-    "section2twice": 123.292,
-    "sectionAvg": 32.752
-  },
-  {
-    "songID": "5050114",
-    "songName": "Little Busters!",
-    "1": 38.146,
-    "2": 30.198,
-    "3": 40.355,
-    "4": 107.285,
-    "combined": 108.699,
-    "section2twice": 138.897,
-    "sectionAvg": 36.233
-  },
-  {
-    "songID": "5050115",
-    "songName": "Last regrets",
-    "1": 41.291,
-    "2": 36.123,
-    "3": 38.037,
-    "4": 132.98,
-    "combined": 115.451,
-    "section2twice": 151.574,
-    "sectionAvg": 38.484
-  },
-  {
-    "songID": "5050116",
-    "songName": "Philosophyz",
-    "1": 37.5,
-    "2": 33.0,
-    "3": 48.549,
-    "4": 145.5,
-    "combined": 119.049,
-    "section2twice": 152.049,
-    "sectionAvg": 39.683
   },
   {
     "songID": "5050101",
@@ -3463,72 +3067,6 @@ var sectionsEn = [
     "sectionAvg": 40.148
   },
   {
-    "songID": "5050138",
-    "songName": "black bullet",
-    "1": 37.162,
-    "2": 27.872,
-    "3": 44.132,
-    "4": 114.582,
-    "combined": 109.166,
-    "section2twice": 137.038,
-    "sectionAvg": 36.389
-  },
-  {
-    "songID": "5050139",
-    "songName": "here and there",
-    "1": 42.354,
-    "2": 28.236,
-    "3": 45.036,
-    "4": 120.001,
-    "combined": 115.626,
-    "section2twice": 143.862,
-    "sectionAvg": 38.542
-  },
-  {
-    "songID": "5050140",
-    "songName": "being",
-    "1": 51.893,
-    "2": 22.703,
-    "3": 43.289,
-    "4": 110.271,
-    "combined": 117.885,
-    "section2twice": 140.588,
-    "sectionAvg": 39.295
-  },
-  {
-    "songID": "5050141",
-    "songName": "lull ～Soshite Bokura wa～",
-    "1": 43.309,
-    "2": 28.873,
-    "3": 37.789,
-    "4": 117.294,
-    "combined": 109.971,
-    "section2twice": 138.844,
-    "sectionAvg": 36.657
-  },
-  {
-    "songID": "5050142",
-    "songName": "1st Love Story",
-    "1": 43.637,
-    "2": 27.928,
-    "3": 46.019,
-    "4": 143.128,
-    "combined": 117.584,
-    "section2twice": 145.512,
-    "sectionAvg": 39.195
-  },
-  {
-    "songID": "5050143",
-    "songName": "masterpiece",
-    "1": 48.864,
-    "2": 34.492,
-    "3": 39.159,
-    "4": 94.852,
-    "combined": 122.515,
-    "section2twice": 157.007,
-    "sectionAvg": 40.838
-  },
-  {
     "songID": "5030079",
     "songName": "Necessary Discrepancy",
     "1": 41.455,
@@ -3782,17 +3320,6 @@ var sectionsEn = [
     "sectionAvg": 37.849
   },
   {
-    "songID": "5030052",
-    "songName": "Fall in Love",
-    "1": 40.466,
-    "2": 26.513,
-    "3": 47.897,
-    "4": 96.28,
-    "combined": 114.876,
-    "section2twice": 141.389,
-    "sectionAvg": 38.292
-  },
-  {
     "songID": "120021",
     "songName": "Happy☆Material",
     "1": 43.113,
@@ -3837,17 +3364,6 @@ var sectionsEn = [
     "sectionAvg": 41.036
   },
   {
-    "songID": "5050168",
-    "songName": "UNSTOPPABLE",
-    "1": 48.0,
-    "2": 36.705,
-    "3": 32.712,
-    "4": 110.117,
-    "combined": 117.417,
-    "section2twice": 154.122,
-    "sectionAvg": 39.139
-  },
-  {
     "songID": "120022",
     "songName": "Sparkling Daydream",
     "1": 38.4,
@@ -3857,17 +3373,6 @@ var sectionsEn = [
     "combined": 125.084,
     "section2twice": 160.741,
     "sectionAvg": 41.695
-  },
-  {
-    "songID": "5050170",
-    "songName": "Can Do",
-    "1": 43.2,
-    "2": 38.4,
-    "3": 69.8,
-    "4": 158.4,
-    "combined": 151.4,
-    "section2twice": 189.8,
-    "sectionAvg": 50.467
   },
   {
     "songID": "3020012",
@@ -3914,17 +3419,6 @@ var sectionsEn = [
     "sectionAvg": 37.086
   },
   {
-    "songID": "5030059",
-    "songName": "AMATERRAS",
-    "1": 40.645,
-    "2": 30.967,
-    "3": 42.354,
-    "4": 100.645,
-    "combined": 113.966,
-    "section2twice": 144.933,
-    "sectionAvg": 37.989
-  },
-  {
     "songID": "520019",
     "songName": "Kanade",
     "1": 41.6,
@@ -3969,17 +3463,6 @@ var sectionsEn = [
     "sectionAvg": 37.852
   },
   {
-    "songID": "5050185",
-    "songName": "Regalia - Keishou",
-    "1": 47.116,
-    "2": 38.283,
-    "3": 77.475,
-    "4": 157.546,
-    "combined": 162.874,
-    "section2twice": 201.157,
-    "sectionAvg": 54.291
-  },
-  {
     "songID": "5050186",
     "songName": "Afuregu ～Aufregendes Leben～",
     "1": 40.656,
@@ -4000,50 +3483,6 @@ var sectionsEn = [
     "combined": 122.006,
     "section2twice": 156.915,
     "sectionAvg": 40.669
-  },
-  {
-    "songID": "5050158",
-    "songName": "Kitare Amaigumi",
-    "1": 35.294,
-    "2": 35.294,
-    "3": 69.771,
-    "4": 129.882,
-    "combined": 140.359,
-    "section2twice": 175.653,
-    "sectionAvg": 46.786
-  },
-  {
-    "songID": "5050159",
-    "songName": "Natsuzakura",
-    "1": 42.858,
-    "2": 34.285,
-    "3": 37.899,
-    "4": 107.143,
-    "combined": 115.042,
-    "section2twice": 149.327,
-    "sectionAvg": 38.347
-  },
-  {
-    "songID": "5050160",
-    "songName": "Kirameki Sprinkles",
-    "1": 52.236,
-    "2": 31.059,
-    "3": 66.247,
-    "4": 144.0,
-    "combined": 149.542,
-    "section2twice": 180.601,
-    "sectionAvg": 49.847
-  },
-  {
-    "songID": "5050161",
-    "songName": "Sinsoukaiten HoneyStrap",
-    "1": 45.474,
-    "2": 34.105,
-    "3": 35.475,
-    "4": 140.21,
-    "combined": 115.054,
-    "section2twice": 149.159,
-    "sectionAvg": 38.351
   },
   {
     "songID": "520016",
@@ -4222,28 +3661,6 @@ var sectionsEn = [
     "sectionAvg": 42.175
   },
   {
-    "songID": "5050176",
-    "songName": "Aimaisa, Kofukuron",
-    "1": 42.962,
-    "2": 35.556,
-    "3": 60.352,
-    "4": 103.703,
-    "combined": 138.87,
-    "section2twice": 174.426,
-    "sectionAvg": 46.29
-  },
-  {
-    "songID": "5050178",
-    "songName": "Welcome! (D-POP version) ～D.U.P.～",
-    "1": 48.814,
-    "2": 29.491,
-    "3": 39.526,
-    "4": 118.983,
-    "combined": 117.831,
-    "section2twice": 147.322,
-    "sectionAvg": 39.277
-  },
-  {
     "songID": "210017",
     "songName": "Deja Boon",
     "1": 46.78,
@@ -4319,17 +3736,6 @@ var sectionsEn = [
     "combined": 129.275,
     "section2twice": 158.366,
     "sectionAvg": 43.092
-  },
-  {
-    "songID": "5030057",
-    "songName": "KODOMO-DE-HERO",
-    "1": 40.001,
-    "2": 32.0,
-    "3": 45.654,
-    "4": 130.667,
-    "combined": 117.655,
-    "section2twice": 149.655,
-    "sectionAvg": 39.218
   },
   {
     "songID": "310018",
@@ -4574,17 +3980,6 @@ var sectionsEn = [
     "sectionAvg": 41.174
   },
   {
-    "songID": "5030056",
-    "songName": "Citrus One-Way Love",
-    "1": 46.546,
-    "2": 24.727,
-    "3": 33.446,
-    "4": 105.909,
-    "combined": 104.719,
-    "section2twice": 129.446,
-    "sectionAvg": 34.906
-  },
-  {
     "songID": "610022",
     "songName": "Snow Black",
     "1": 36.774,
@@ -4605,17 +4000,6 @@ var sectionsEn = [
     "combined": 122.556,
     "section2twice": 155.89,
     "sectionAvg": 40.852
-  },
-  {
-    "songID": "5050194",
-    "songName": "Pixel Galaxy",
-    "1": 51.2,
-    "2": 38.4,
-    "3": 43.471,
-    "4": 128.0,
-    "combined": 133.071,
-    "section2twice": 171.471,
-    "sectionAvg": 44.357
   },
   {
     "songID": "3010020",
@@ -4671,17 +4055,6 @@ var sectionsEn = [
     "combined": 121.754,
     "section2twice": 151.754,
     "sectionAvg": 40.585
-  },
-  {
-    "songID": "5050152",
-    "songName": "Reversal",
-    "1": 40.615,
-    "2": 35.077,
-    "3": 55.865,
-    "4": 158.769,
-    "combined": 131.557,
-    "section2twice": 166.634,
-    "sectionAvg": 43.852
   },
   {
     "songID": "3020019",
@@ -5311,50 +4684,6 @@ var sectionsEn = [
     "sectionAvg": 46.532
   },
   {
-    "songID": "5050190",
-    "songName": "Just the truth",
-    "1": 41.38,
-    "2": 33.103,
-    "3": 54.244,
-    "4": 111.725,
-    "combined": 128.727,
-    "section2twice": 161.83,
-    "sectionAvg": 42.909
-  },
-  {
-    "songID": "5050191",
-    "songName": "kaleidoscope",
-    "1": 44.138,
-    "2": 40.0,
-    "3": 35.469,
-    "4": 106.207,
-    "combined": 119.607,
-    "section2twice": 159.607,
-    "sectionAvg": 39.869
-  },
-  {
-    "songID": "5050193",
-    "songName": "Wonder Stella",
-    "1": 38.549,
-    "2": 38.549,
-    "3": 49.587,
-    "4": 121.865,
-    "combined": 126.685,
-    "section2twice": 165.234,
-    "sectionAvg": 42.228
-  },
-  {
-    "songID": "5050192",
-    "songName": "starlog",
-    "1": 38.572,
-    "2": 45.714,
-    "3": 46.786,
-    "4": 108.572,
-    "combined": 131.072,
-    "section2twice": 176.786,
-    "sectionAvg": 43.691
-  },
-  {
     "songID": "210021",
     "songName": "Ideal Factor",
     "1": 43.355,
@@ -5562,17 +4891,6 @@ var sectionsEn = [
     "combined": 118.451,
     "section2twice": 150.365,
     "sectionAvg": 39.484
-  },
-  {
-    "songID": "5050224",
-    "songName": "HIGHEST",
-    "1": 34.666,
-    "2": 32.0,
-    "3": 47.804,
-    "4": 132.0,
-    "combined": 114.47,
-    "section2twice": 146.47,
-    "sectionAvg": 38.157
   },
   {
     "songID": "910007",

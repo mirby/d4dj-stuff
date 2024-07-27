@@ -473,17 +473,6 @@ var sectionsJp = [
     "sectionAvg": 37.607
   },
   {
-    "songID": "5040014",
-    "songName": "RAINMAKER",
-    "1": 37.819,
-    "2": 29.091,
-    "3": 37.455,
-    "4": 119.273,
-    "combined": 104.365,
-    "section2twice": 133.456,
-    "sectionAvg": 34.788
-  },
-  {
     "songID": "5040018",
     "songName": "SUNRISE",
     "1": 34.783,
@@ -493,17 +482,6 @@ var sectionsJp = [
     "combined": 114.783,
     "section2twice": 149.566,
     "sectionAvg": 38.261
-  },
-  {
-    "songID": "5030002",
-    "songName": "OPA-OPA!",
-    "1": 43.126,
-    "2": 30.0,
-    "3": 43.125,
-    "4": 125.626,
-    "combined": 116.251,
-    "section2twice": 146.251,
-    "sectionAvg": 38.75
   },
   {
     "songID": "210003",
@@ -526,17 +504,6 @@ var sectionsJp = [
     "combined": 114.944,
     "section2twice": 147.787,
     "sectionAvg": 38.315
-  },
-  {
-    "songID": "5030003",
-    "songName": "スペースハリアー",
-    "1": 37.403,
-    "2": 28.052,
-    "3": 41.299,
-    "4": 135.974,
-    "combined": 106.754,
-    "section2twice": 134.806,
-    "sectionAvg": 35.585
   },
   {
     "songID": "5030004",
@@ -704,17 +671,6 @@ var sectionsJp = [
     "sectionAvg": 40.58
   },
   {
-    "songID": "5040016",
-    "songName": "ゴールデン☆スター",
-    "1": 40.728,
-    "2": 29.091,
-    "3": 38.182,
-    "4": 122.182,
-    "combined": 108.001,
-    "section2twice": 137.092,
-    "sectionAvg": 36.0
-  },
-  {
     "songID": "210004",
     "songName": "最頂点Peaky&Peaky!!",
     "1": 44.255,
@@ -724,17 +680,6 @@ var sectionsJp = [
     "combined": 126.382,
     "section2twice": 160.424,
     "sectionAvg": 42.127
-  },
-  {
-    "songID": "5030012",
-    "songName": "Final Take Off",
-    "1": 39.197,
-    "2": 28.799,
-    "3": 45.999,
-    "4": 121.599,
-    "combined": 113.995,
-    "section2twice": 142.794,
-    "sectionAvg": 37.998
   },
   {
     "songID": "5040004",
@@ -845,17 +790,6 @@ var sectionsJp = [
     "combined": 120.551,
     "section2twice": 154.951,
     "sectionAvg": 40.184
-  },
-  {
-    "songID": "5030011",
-    "songName": "Magical Sound Shower",
-    "1": 44.16,
-    "2": 36.48,
-    "3": 44.159,
-    "4": 119.999,
-    "combined": 124.799,
-    "section2twice": 161.279,
-    "sectionAvg": 41.6
   },
   {
     "songID": "5030013",
@@ -1441,17 +1375,6 @@ var sectionsJp = [
     "sectionAvg": 38.742
   },
   {
-    "songID": "5050001",
-    "songName": "Edel Lilie",
-    "1": 41.143,
-    "2": 34.286,
-    "3": 41.829,
-    "4": 117.943,
-    "combined": 117.258,
-    "section2twice": 151.544,
-    "sectionAvg": 39.086
-  },
-  {
     "songID": "520011",
     "songName": "Journey through the Decade",
     "1": 41.143,
@@ -1672,50 +1595,6 @@ var sectionsJp = [
     "sectionAvg": 37.068
   },
   {
-    "songID": "5050004",
-    "songName": "深愛",
-    "1": 43.308,
-    "2": 32.481,
-    "3": 39.117,
-    "4": 110.075,
-    "combined": 114.906,
-    "section2twice": 147.387,
-    "sectionAvg": 38.302
-  },
-  {
-    "songID": "5050003",
-    "songName": "WILD EYES",
-    "1": 43.571,
-    "2": 34.285,
-    "3": 40.245,
-    "4": 125.715,
-    "combined": 118.101,
-    "section2twice": 152.386,
-    "sectionAvg": 39.367
-  },
-  {
-    "songID": "5050002",
-    "songName": "ETERNAL BLAZE",
-    "1": 38.71,
-    "2": 32.516,
-    "3": 44.623,
-    "4": 120.001,
-    "combined": 115.849,
-    "section2twice": 148.365,
-    "sectionAvg": 38.616
-  },
-  {
-    "songID": "5050009",
-    "songName": "Say!ファンファーレ!",
-    "1": 39.529,
-    "2": 32.47,
-    "3": 43.85,
-    "4": 115.059,
-    "combined": 115.849,
-    "section2twice": 148.319,
-    "sectionAvg": 38.616
-  },
-  {
     "songID": "5050008",
     "songName": "#あくあ色ぱれっと",
     "1": 37.308,
@@ -1738,17 +1617,6 @@ var sectionsJp = [
     "sectionAvg": 37.329
   },
   {
-    "songID": "5050005",
-    "songName": "Exterminate",
-    "1": 36.745,
-    "2": 33.103,
-    "3": 39.405,
-    "4": 109.249,
-    "combined": 109.253,
-    "section2twice": 142.356,
-    "sectionAvg": 36.418
-  },
-  {
     "songID": "110012",
     "songName": "はぁ〜い☆FORTUNE！",
     "1": 40.946,
@@ -1758,28 +1626,6 @@ var sectionsJp = [
     "combined": 114.001,
     "section2twice": 146.434,
     "sectionAvg": 38.0
-  },
-  {
-    "songID": "5050016",
-    "songName": "PLAY!",
-    "1": 37.679,
-    "2": 33.6,
-    "3": 41.208,
-    "4": 117.179,
-    "combined": 112.487,
-    "section2twice": 146.087,
-    "sectionAvg": 37.496
-  },
-  {
-    "songID": "5050015",
-    "songName": "行くぜっ!怪盗少女 -ZZ ver.-",
-    "1": 37.501,
-    "2": 30.0,
-    "3": 39.043,
-    "4": 141.376,
-    "combined": 106.544,
-    "section2twice": 136.544,
-    "sectionAvg": 35.515
   },
   {
     "songID": "310007",
@@ -1947,17 +1793,6 @@ var sectionsJp = [
     "sectionAvg": 36.211
   },
   {
-    "songID": "5050017",
-    "songName": "Are you ready to FIGHT",
-    "1": 45.177,
-    "2": 33.883,
-    "3": 39.864,
-    "4": 112.941,
-    "combined": 118.924,
-    "section2twice": 152.807,
-    "sectionAvg": 39.641
-  },
-  {
     "songID": "210008",
     "songName": "ABSOLUTE",
     "1": 40.889,
@@ -2057,61 +1892,6 @@ var sectionsJp = [
     "sectionAvg": 37.228
   },
   {
-    "songID": "5050023",
-    "songName": "雨上がりのミライ",
-    "1": 44.495,
-    "2": 33.709,
-    "3": 48.486,
-    "4": 103.821,
-    "combined": 126.69,
-    "section2twice": 160.399,
-    "sectionAvg": 42.23
-  },
-  {
-    "songID": "5050020",
-    "songName": "irony -season 02-",
-    "1": 43.432,
-    "2": 35.82,
-    "3": 42.7,
-    "4": 125.263,
-    "combined": 121.952,
-    "section2twice": 157.772,
-    "sectionAvg": 40.651
-  },
-  {
-    "songID": "5050021",
-    "songName": "コネクト -2017-",
-    "1": 39.086,
-    "2": 32.914,
-    "3": 42.581,
-    "4": 112.456,
-    "combined": 114.581,
-    "section2twice": 147.495,
-    "sectionAvg": 38.194
-  },
-  {
-    "songID": "5050022",
-    "songName": "ヒトリゴト",
-    "1": 42.182,
-    "2": 34.909,
-    "3": 42.583,
-    "4": 122.908,
-    "combined": 119.674,
-    "section2twice": 154.583,
-    "sectionAvg": 39.891
-  },
-  {
-    "songID": "5050019",
-    "songName": "Fight!!",
-    "1": 45.518,
-    "2": 35.173,
-    "3": 39.363,
-    "4": 122.071,
-    "combined": 120.054,
-    "section2twice": 155.227,
-    "sectionAvg": 40.018
-  },
-  {
     "songID": "5050044",
     "songName": "SE・SA・ME",
     "1": 41.739,
@@ -2121,28 +1901,6 @@ var sectionsJp = [
     "combined": 120.07,
     "section2twice": 154.853,
     "sectionAvg": 40.023
-  },
-  {
-    "songID": "5050045",
-    "songName": "BLUE CLAPPER",
-    "1": 43.862,
-    "2": 33.104,
-    "3": 41.693,
-    "4": 120.827,
-    "combined": 118.659,
-    "section2twice": 151.763,
-    "sectionAvg": 39.553
-  },
-  {
-    "songID": "5050006",
-    "songName": "Angelic Symphony",
-    "1": 49.455,
-    "2": 36.364,
-    "3": 41.071,
-    "4": 147.273,
-    "combined": 126.89,
-    "section2twice": 163.254,
-    "sectionAvg": 42.297
   },
   {
     "songID": "110015",
@@ -2165,17 +1923,6 @@ var sectionsJp = [
     "combined": 124.417,
     "section2twice": 159.084,
     "sectionAvg": 41.472
-  },
-  {
-    "songID": "5050054",
-    "songName": "今宵はHalloween Night!",
-    "1": 39.375,
-    "2": 33.75,
-    "3": 48.545,
-    "4": 112.502,
-    "combined": 121.67,
-    "section2twice": 155.42,
-    "sectionAvg": 40.557
   },
   {
     "songID": "420013",
@@ -2233,17 +1980,6 @@ var sectionsJp = [
     "sectionAvg": 39.191
   },
   {
-    "songID": "5050018",
-    "songName": "Vanguard",
-    "1": 37.818,
-    "2": 32.0,
-    "3": 40.728,
-    "4": 145.455,
-    "combined": 110.546,
-    "section2twice": 142.546,
-    "sectionAvg": 36.849
-  },
-  {
     "songID": "5050029",
     "songName": "ハレ晴レユカイ",
     "1": 47.442,
@@ -2253,17 +1989,6 @@ var sectionsJp = [
     "combined": 130.814,
     "section2twice": 167.093,
     "sectionAvg": 43.605
-  },
-  {
-    "songID": "5050031",
-    "songName": "SKILL",
-    "1": 45.32,
-    "2": 33.818,
-    "3": 45.37,
-    "4": 128.592,
-    "combined": 124.508,
-    "section2twice": 158.326,
-    "sectionAvg": 41.503
   },
   {
     "songID": "310008",
@@ -2321,17 +2046,6 @@ var sectionsJp = [
     "sectionAvg": 38.229
   },
   {
-    "songID": "5050046",
-    "songName": "百花繚乱花吹雪",
-    "1": 38.743,
-    "2": 30.171,
-    "3": 42.493,
-    "4": 142.628,
-    "combined": 111.407,
-    "section2twice": 141.578,
-    "sectionAvg": 37.136
-  },
-  {
     "songID": "110016",
     "songName": "Dig Delight! (4sk Remix)",
     "1": 39.001,
@@ -2341,17 +2055,6 @@ var sectionsJp = [
     "combined": 116.666,
     "section2twice": 151.333,
     "sectionAvg": 38.889
-  },
-  {
-    "songID": "5050047",
-    "songName": "至上主義アドトラック",
-    "1": 41.251,
-    "2": 29.25,
-    "3": 38.251,
-    "4": 98.252,
-    "combined": 108.752,
-    "section2twice": 138.002,
-    "sectionAvg": 36.251
   },
   {
     "songID": "5030034",
@@ -2387,17 +2090,6 @@ var sectionsJp = [
     "sectionAvg": 41.13
   },
   {
-    "songID": "5050024",
-    "songName": "未来への咆哮",
-    "1": 34.285,
-    "2": 36.0,
-    "3": 48.422,
-    "4": 109.714,
-    "combined": 118.707,
-    "section2twice": 154.707,
-    "sectionAvg": 39.569
-  },
-  {
     "songID": "310010",
     "songName": "Photon Melodies (TAKU INOUE Remix)",
     "1": 37.333,
@@ -2431,50 +2123,6 @@ var sectionsJp = [
     "sectionAvg": 40.0
   },
   {
-    "songID": "5050027",
-    "songName": "Rumbling hearts",
-    "1": 42.353,
-    "2": 35.294,
-    "3": 42.883,
-    "4": 102.353,
-    "combined": 120.53,
-    "section2twice": 155.824,
-    "sectionAvg": 40.177
-  },
-  {
-    "songID": "5050011",
-    "songName": "インビジブル",
-    "1": 40.0,
-    "2": 35.0,
-    "3": 45.914,
-    "4": 91.249,
-    "combined": 120.914,
-    "section2twice": 155.914,
-    "sectionAvg": 40.305
-  },
-  {
-    "songID": "5050030",
-    "songName": "ガチやべぇじゃん feat.ななもり。",
-    "1": 36.001,
-    "2": 28.001,
-    "3": 44.524,
-    "4": 116.003,
-    "combined": 108.526,
-    "section2twice": 136.527,
-    "sectionAvg": 36.175
-  },
-  {
-    "songID": "5050060",
-    "songName": "五等分のカタチ",
-    "1": 42.531,
-    "2": 33.417,
-    "3": 36.856,
-    "4": 101.772,
-    "combined": 112.804,
-    "section2twice": 146.221,
-    "sectionAvg": 37.601
-  },
-  {
     "songID": "410009",
     "songName": "High tension BPM",
     "1": 44.138,
@@ -2486,17 +2134,6 @@ var sectionsJp = [
     "sectionAvg": 39.331
   },
   {
-    "songID": "5050048",
-    "songName": "Candy-Go-Round",
-    "1": 41.194,
-    "2": 34.03,
-    "3": 43.735,
-    "4": 145.075,
-    "combined": 118.959,
-    "section2twice": 152.989,
-    "sectionAvg": 39.653
-  },
-  {
     "songID": "5050010",
     "songName": "人生リセットボタン",
     "1": 43.2,
@@ -2506,17 +2143,6 @@ var sectionsJp = [
     "combined": 119.401,
     "section2twice": 149.401,
     "sectionAvg": 39.8
-  },
-  {
-    "songID": "5050013",
-    "songName": "イカサマライフゲイム",
-    "1": 43.201,
-    "2": 31.201,
-    "3": 45.279,
-    "4": 98.401,
-    "combined": 119.681,
-    "section2twice": 150.882,
-    "sectionAvg": 39.894
   },
   {
     "songID": "310011",
@@ -2541,28 +2167,6 @@ var sectionsJp = [
     "sectionAvg": 40.242
   },
   {
-    "songID": "5050062",
-    "songName": "ぐだふわエブリデー",
-    "1": 43.637,
-    "2": 34.909,
-    "3": 43.881,
-    "4": 117.818,
-    "combined": 122.427,
-    "section2twice": 157.336,
-    "sectionAvg": 40.809
-  },
-  {
-    "songID": "5050049",
-    "songName": "でいり〜だいあり〜！",
-    "1": 43.256,
-    "2": 32.093,
-    "3": 46.103,
-    "4": 126.976,
-    "combined": 121.452,
-    "section2twice": 153.545,
-    "sectionAvg": 40.484
-  },
-  {
     "songID": "120015",
     "songName": "Help me, ERINNNNNN!!",
     "1": 38.298,
@@ -2572,28 +2176,6 @@ var sectionsJp = [
     "combined": 115.214,
     "section2twice": 148.406,
     "sectionAvg": 38.405
-  },
-  {
-    "songID": "5050061",
-    "songName": "Y",
-    "1": 41.38,
-    "2": 33.104,
-    "3": 39.364,
-    "4": 109.658,
-    "combined": 113.848,
-    "section2twice": 146.952,
-    "sectionAvg": 37.949
-  },
-  {
-    "songID": "5050063",
-    "songName": "Brand new diary",
-    "1": 45.334,
-    "2": 34.667,
-    "3": 39.666,
-    "4": 109.333,
-    "combined": 119.667,
-    "section2twice": 154.334,
-    "sectionAvg": 39.889
   },
   {
     "songID": "3020003",
@@ -2607,28 +2189,6 @@ var sectionsJp = [
     "sectionAvg": 39.473
   },
   {
-    "songID": "5050050",
-    "songName": "Suspect",
-    "1": 37.5,
-    "2": 31.875,
-    "3": 46.875,
-    "4": 105.0,
-    "combined": 116.25,
-    "section2twice": 148.125,
-    "sectionAvg": 38.75
-  },
-  {
-    "songID": "5050064",
-    "songName": "Soul salvation",
-    "1": 46.344,
-    "2": 33.103,
-    "3": 45.569,
-    "4": 130.755,
-    "combined": 125.016,
-    "section2twice": 158.119,
-    "sectionAvg": 41.672
-  },
-  {
     "songID": "5030036",
     "songName": "ストリートファイターⅡ メドレー2",
     "1": 45.958,
@@ -2638,17 +2198,6 @@ var sectionsJp = [
     "combined": 126.287,
     "section2twice": 157.866,
     "sectionAvg": 42.096
-  },
-  {
-    "songID": "5050051",
-    "songName": "STARDUST SONG",
-    "1": 45.86,
-    "2": 35.159,
-    "3": 44.331,
-    "4": 139.109,
-    "combined": 125.35,
-    "section2twice": 160.509,
-    "sectionAvg": 41.783
   },
   {
     "songID": "410010",
@@ -2671,28 +2220,6 @@ var sectionsJp = [
     "combined": 128.001,
     "section2twice": 162.287,
     "sectionAvg": 42.667
-  },
-  {
-    "songID": "5050066",
-    "songName": "インパーフェクト",
-    "1": 42.759,
-    "2": 35.862,
-    "3": 40.312,
-    "4": 132.414,
-    "combined": 118.933,
-    "section2twice": 154.795,
-    "sectionAvg": 39.644
-  },
-  {
-    "songID": "5050052",
-    "songName": "Dreaming Days",
-    "1": 44.285,
-    "2": 35.714,
-    "3": 44.249,
-    "4": 132.858,
-    "combined": 124.248,
-    "section2twice": 159.962,
-    "sectionAvg": 41.416
   },
   {
     "songID": "220017",
@@ -2739,17 +2266,6 @@ var sectionsJp = [
     "sectionAvg": 40.106
   },
   {
-    "songID": "5050053",
-    "songName": "あすいろClearSky",
-    "1": 44.836,
-    "2": 29.011,
-    "3": 47.502,
-    "4": 104.176,
-    "combined": 121.349,
-    "section2twice": 150.36,
-    "sectionAvg": 40.45
-  },
-  {
     "songID": "510010",
     "songName": "[Re] termination",
     "1": 39.385,
@@ -2759,17 +2275,6 @@ var sectionsJp = [
     "combined": 116.291,
     "section2twice": 150.753,
     "sectionAvg": 38.764
-  },
-  {
-    "songID": "5050033",
-    "songName": "アンダーカバー",
-    "1": 41.838,
-    "2": 31.136,
-    "3": 45.135,
-    "4": 124.541,
-    "combined": 118.109,
-    "section2twice": 149.245,
-    "sectionAvg": 39.37
   },
   {
     "songID": "5050028",
@@ -2794,17 +2299,6 @@ var sectionsJp = [
     "sectionAvg": 40.882
   },
   {
-    "songID": "5050034",
-    "songName": "弱肉共食",
-    "1": 37.818,
-    "2": 31.999,
-    "3": 47.26,
-    "4": 122.181,
-    "combined": 117.077,
-    "section2twice": 149.076,
-    "sectionAvg": 39.026
-  },
-  {
     "songID": "610008",
     "songName": "汚れっちまった悲しみの色 (t+pazolite Remix)",
     "1": 45.333,
@@ -2827,17 +2321,6 @@ var sectionsJp = [
     "sectionAvg": 36.778
   },
   {
-    "songID": "5050035",
-    "songName": "アンビリカル",
-    "1": 38.919,
-    "2": 32.432,
-    "3": 39.758,
-    "4": 103.784,
-    "combined": 111.109,
-    "section2twice": 143.541,
-    "sectionAvg": 37.036
-  },
-  {
     "songID": "620013",
     "songName": "アンダーカバー (TeddyLoid Remix)",
     "1": 42.811,
@@ -2847,28 +2330,6 @@ var sectionsJp = [
     "combined": 117.863,
     "section2twice": 150.295,
     "sectionAvg": 39.288
-  },
-  {
-    "songID": "5050067",
-    "songName": "大切フォトグラフ",
-    "1": 44.347,
-    "2": 31.305,
-    "3": 38.769,
-    "4": 114.783,
-    "combined": 114.421,
-    "section2twice": 145.726,
-    "sectionAvg": 38.14
-  },
-  {
-    "songID": "5050065",
-    "songName": "ゴジラのテーマ-シンギュラポイント-",
-    "1": 43.672,
-    "2": 30.569,
-    "3": 41.734,
-    "4": 124.089,
-    "combined": 115.975,
-    "section2twice": 146.544,
-    "sectionAvg": 38.658
   },
   {
     "songID": "110018",
@@ -3003,17 +2464,6 @@ var sectionsJp = [
     "sectionAvg": 38.765
   },
   {
-    "songID": "5050036",
-    "songName": "事変上等",
-    "1": 38.572,
-    "2": 34.286,
-    "3": 42.32,
-    "4": 120.001,
-    "combined": 115.178,
-    "section2twice": 149.464,
-    "sectionAvg": 38.393
-  },
-  {
     "songID": "5030040",
     "songName": "ONOMATO Pairing!!!",
     "1": 42.532,
@@ -3025,17 +2475,6 @@ var sectionsJp = [
     "sectionAvg": 40.166
   },
   {
-    "songID": "5050058",
-    "songName": "妄想感傷代償連盟",
-    "1": 42.0,
-    "2": 34.909,
-    "3": 41.765,
-    "4": 111.272,
-    "combined": 118.674,
-    "section2twice": 153.583,
-    "sectionAvg": 39.558
-  },
-  {
     "songID": "410011",
     "songName": "OMG",
     "1": 45.882,
@@ -3045,17 +2484,6 @@ var sectionsJp = [
     "combined": 124.411,
     "section2twice": 159.705,
     "sectionAvg": 41.47
-  },
-  {
-    "songID": "5050037",
-    "songName": "アフターペイン",
-    "1": 42.92,
-    "2": 35.036,
-    "3": 44.503,
-    "4": 127.885,
-    "combined": 122.459,
-    "section2twice": 157.495,
-    "sectionAvg": 40.82
   },
   {
     "songID": "5030041",
@@ -3146,28 +2574,6 @@ var sectionsJp = [
     "sectionAvg": 41.149
   },
   {
-    "songID": "5050026",
-    "songName": "Paradise Lost",
-    "1": 48.0,
-    "2": 36.364,
-    "3": 46.22,
-    "4": 103.274,
-    "combined": 130.584,
-    "section2twice": 166.948,
-    "sectionAvg": 43.528
-  },
-  {
-    "songID": "5050071",
-    "songName": "Analogy",
-    "1": 44.118,
-    "2": 30.0,
-    "3": 39.132,
-    "4": 97.06,
-    "combined": 113.25,
-    "section2twice": 143.25,
-    "sectionAvg": 37.75
-  },
-  {
     "songID": "420014",
     "songName": "Bomb A Head!",
     "1": 47.273,
@@ -3188,28 +2594,6 @@ var sectionsJp = [
     "combined": 122.145,
     "section2twice": 159.86,
     "sectionAvg": 40.715
-  },
-  {
-    "songID": "5050069",
-    "songName": "Like Flames",
-    "1": 43.885,
-    "2": 35.657,
-    "3": 42.154,
-    "4": 104.228,
-    "combined": 121.696,
-    "section2twice": 157.353,
-    "sectionAvg": 40.565
-  },
-  {
-    "songID": "5050070",
-    "songName": "Reincarnate",
-    "1": 41.143,
-    "2": 34.286,
-    "3": 42.755,
-    "4": 129.143,
-    "combined": 118.184,
-    "section2twice": 152.47,
-    "sectionAvg": 39.395
   },
   {
     "songID": "5050074",
@@ -3234,39 +2618,6 @@ var sectionsJp = [
     "sectionAvg": 41.525
   },
   {
-    "songID": "5050038",
-    "songName": "スローダウン",
-    "1": 43.637,
-    "2": 34.909,
-    "3": 42.025,
-    "4": 133.091,
-    "combined": 120.571,
-    "section2twice": 155.48,
-    "sectionAvg": 40.19
-  },
-  {
-    "songID": "5050072",
-    "songName": "No Continue",
-    "1": 44.445,
-    "2": 36.001,
-    "3": 43.74,
-    "4": 121.334,
-    "combined": 124.186,
-    "section2twice": 160.187,
-    "sectionAvg": 41.395
-  },
-  {
-    "songID": "5050068",
-    "songName": "縁-YUÁN-",
-    "1": 42.857,
-    "2": 34.286,
-    "3": 44.414,
-    "4": 142.857,
-    "combined": 121.557,
-    "section2twice": 155.843,
-    "sectionAvg": 40.519
-  },
-  {
     "songID": "110019",
     "songName": "パノラマリウム",
     "1": 44.347,
@@ -3287,17 +2638,6 @@ var sectionsJp = [
     "combined": 115.492,
     "section2twice": 147.492,
     "sectionAvg": 38.497
-  },
-  {
-    "songID": "5050039",
-    "songName": "愛なんですよ",
-    "1": 42.162,
-    "2": 30.811,
-    "3": 48.463,
-    "4": 127.296,
-    "combined": 121.436,
-    "section2twice": 152.247,
-    "sectionAvg": 40.479
   },
   {
     "songID": "110020",
@@ -3344,17 +2684,6 @@ var sectionsJp = [
     "sectionAvg": 36.932
   },
   {
-    "songID": "5050059",
-    "songName": "愛言葉Ⅲ",
-    "1": 42.044,
-    "2": 29.781,
-    "3": 40.107,
-    "4": 126.132,
-    "combined": 111.932,
-    "section2twice": 141.713,
-    "sectionAvg": 37.311
-  },
-  {
     "songID": "120016",
     "songName": "R.P.G.～Rockin' Playing Game",
     "1": 42.146,
@@ -3375,17 +2704,6 @@ var sectionsJp = [
     "combined": 110.74,
     "section2twice": 140.741,
     "sectionAvg": 36.913
-  },
-  {
-    "songID": "5050040",
-    "songName": "half",
-    "1": 37.333,
-    "2": 32.0,
-    "3": 36.419,
-    "4": 125.338,
-    "combined": 105.752,
-    "section2twice": 137.752,
-    "sectionAvg": 35.251
   },
   {
     "songID": "210011",
@@ -3465,17 +2783,6 @@ var sectionsJp = [
     "sectionAvg": 38.885
   },
   {
-    "songID": "5050041",
-    "songName": "おまじない",
-    "1": 36.0,
-    "2": 30.0,
-    "3": 41.625,
-    "4": 128.5,
-    "combined": 107.625,
-    "section2twice": 137.625,
-    "sectionAvg": 35.875
-  },
-  {
     "songID": "420015",
     "songName": "＊〜アスタリスク〜",
     "1": 43.636,
@@ -3509,17 +2816,6 @@ var sectionsJp = [
     "sectionAvg": 37.724
   },
   {
-    "songID": "5050079",
-    "songName": "星がはじまる",
-    "1": 42.857,
-    "2": 34.285,
-    "3": 42.038,
-    "4": 109.121,
-    "combined": 119.18,
-    "section2twice": 153.465,
-    "sectionAvg": 39.727
-  },
-  {
     "songID": "5050086",
     "songName": "R·I·O·T",
     "1": 39.429,
@@ -3529,28 +2825,6 @@ var sectionsJp = [
     "combined": 115.115,
     "section2twice": 147.686,
     "sectionAvg": 38.372
-  },
-  {
-    "songID": "5050081",
-    "songName": "Memorial",
-    "1": 49.757,
-    "2": 35.122,
-    "3": 43.02,
-    "4": 152.195,
-    "combined": 127.899,
-    "section2twice": 163.021,
-    "sectionAvg": 42.633
-  },
-  {
-    "songID": "5050083",
-    "songName": "Shangri-La",
-    "1": 43.076,
-    "2": 29.23,
-    "3": 35.775,
-    "4": 86.921,
-    "combined": 108.081,
-    "section2twice": 137.311,
-    "sectionAvg": 36.027
   },
   {
     "songID": "120019",
@@ -3575,72 +2849,6 @@ var sectionsJp = [
     "sectionAvg": 37.012
   },
   {
-    "songID": "5050084",
-    "songName": "私たちはもう舞台の上",
-    "1": 36.501,
-    "2": 36.774,
-    "3": 48.163,
-    "4": 161.838,
-    "combined": 121.438,
-    "section2twice": 158.212,
-    "sectionAvg": 40.479
-  },
-  {
-    "songID": "5050085",
-    "songName": "ロールプレイング",
-    "1": 43.636,
-    "2": 34.545,
-    "3": 46.896,
-    "4": 147.273,
-    "combined": 125.077,
-    "section2twice": 159.622,
-    "sectionAvg": 41.692
-  },
-  {
-    "songID": "5050087",
-    "songName": "GROWING*",
-    "1": 41.685,
-    "2": 30.316,
-    "3": 46.737,
-    "4": 132.633,
-    "combined": 118.738,
-    "section2twice": 149.054,
-    "sectionAvg": 39.579
-  },
-  {
-    "songID": "5050088",
-    "songName": "君の手を離さない ～BOUQUET Ver.～",
-    "1": 37.42,
-    "2": 37.42,
-    "3": 44.041,
-    "4": 141.935,
-    "combined": 118.881,
-    "section2twice": 156.301,
-    "sectionAvg": 39.627
-  },
-  {
-    "songID": "5050089",
-    "songName": "youthful beautiful",
-    "1": 42.857,
-    "2": 31.428,
-    "3": 40.325,
-    "4": 117.143,
-    "combined": 114.61,
-    "section2twice": 146.038,
-    "sectionAvg": 38.203
-  },
-  {
-    "songID": "5050090",
-    "songName": "over and over",
-    "1": 45.176,
-    "2": 32.47,
-    "3": 44.287,
-    "4": 111.529,
-    "combined": 121.933,
-    "section2twice": 154.403,
-    "sectionAvg": 40.644
-  },
-  {
     "songID": "220019",
     "songName": "Storyteller",
     "1": 45.0,
@@ -3650,28 +2858,6 @@ var sectionsJp = [
     "combined": 119.184,
     "section2twice": 151.684,
     "sectionAvg": 39.728
-  },
-  {
-    "songID": "5050080",
-    "songName": "MANIFESTO",
-    "1": 48.0,
-    "2": 34.0,
-    "3": 41.02,
-    "4": 131.0,
-    "combined": 123.02,
-    "section2twice": 157.02,
-    "sectionAvg": 41.007
-  },
-  {
-    "songID": "5050082",
-    "songName": "はじめてのかくめい！",
-    "1": 42.353,
-    "2": 32.085,
-    "3": 48.318,
-    "4": 150.16,
-    "combined": 122.756,
-    "section2twice": 154.841,
-    "sectionAvg": 40.919
   },
   {
     "songID": "3020009",
@@ -3707,28 +2893,6 @@ var sectionsJp = [
     "sectionAvg": 41.332
   },
   {
-    "songID": "5050042",
-    "songName": "MeMe",
-    "1": 38.401,
-    "2": 30.721,
-    "3": 43.019,
-    "4": 118.081,
-    "combined": 112.141,
-    "section2twice": 142.862,
-    "sectionAvg": 37.38
-  },
-  {
-    "songID": "5050043",
-    "songName": "HARROW",
-    "1": 44.308,
-    "2": 34.462,
-    "3": 39.838,
-    "4": 112.001,
-    "combined": 118.608,
-    "section2twice": 153.07,
-    "sectionAvg": 39.536
-  },
-  {
     "songID": "420016",
     "songName": "恋愛♥ライダー",
     "1": 41.379,
@@ -3762,17 +2926,6 @@ var sectionsJp = [
     "sectionAvg": 38.836
   },
   {
-    "songID": "5030043",
-    "songName": "R-TYPE メドレー",
-    "1": 44.275,
-    "2": 32.416,
-    "3": 48.734,
-    "4": 137.243,
-    "combined": 125.425,
-    "section2twice": 157.841,
-    "sectionAvg": 41.808
-  },
-  {
     "songID": "5050091",
     "songName": "Redo",
     "1": 45.474,
@@ -3782,28 +2935,6 @@ var sectionsJp = [
     "combined": 128.847,
     "section2twice": 164.216,
     "sectionAvg": 42.949
-  },
-  {
-    "songID": "5050093",
-    "songName": "DREAM SOLISTER",
-    "1": 43.832,
-    "2": 34.491,
-    "3": 44.111,
-    "4": 114.97,
-    "combined": 122.434,
-    "section2twice": 156.925,
-    "sectionAvg": 40.811
-  },
-  {
-    "songID": "5050094",
-    "songName": "魂のルフラン",
-    "1": 40.616,
-    "2": 33.23,
-    "3": 45.225,
-    "4": 147.693,
-    "combined": 119.071,
-    "section2twice": 152.301,
-    "sectionAvg": 39.69
   },
   {
     "songID": "5030045",
@@ -3850,39 +2981,6 @@ var sectionsJp = [
     "sectionAvg": 39.994
   },
   {
-    "songID": "5050101",
-    "songName": "ちいさなキセキ",
-    "1": 40.563,
-    "2": 32.112,
-    "3": 39.239,
-    "4": 116.133,
-    "combined": 111.914,
-    "section2twice": 144.026,
-    "sectionAvg": 37.305
-  },
-  {
-    "songID": "5050095",
-    "songName": "Viva! Spark!トロピカル～ジュ！プリキュア",
-    "1": 38.183,
-    "2": 38.182,
-    "3": 39.947,
-    "4": 103.637,
-    "combined": 116.312,
-    "section2twice": 154.494,
-    "sectionAvg": 38.771
-  },
-  {
-    "songID": "5050096",
-    "songName": "Alright! ハートキャッチプリキュア！",
-    "1": 43.39,
-    "2": 35.254,
-    "3": 41.356,
-    "4": 149.152,
-    "combined": 120.0,
-    "section2twice": 155.254,
-    "sectionAvg": 40.0
-  },
-  {
     "songID": "5030055",
     "songName": "SEVENTH HAVEN",
     "1": 36.364,
@@ -3927,17 +3025,6 @@ var sectionsJp = [
     "sectionAvg": 39.271
   },
   {
-    "songID": "5050100",
-    "songName": "未来は風のように",
-    "1": 42.353,
-    "2": 30.0,
-    "3": 49.284,
-    "4": 146.471,
-    "combined": 121.637,
-    "section2twice": 151.637,
-    "sectionAvg": 40.546
-  },
-  {
     "songID": "5050099",
     "songName": "START!! True dreams",
     "1": 40.449,
@@ -3947,17 +3034,6 @@ var sectionsJp = [
     "combined": 111.065,
     "section2twice": 139.38,
     "sectionAvg": 37.022
-  },
-  {
-    "songID": "5050098",
-    "songName": "Everlasting Soul",
-    "1": 43.5,
-    "2": 36.0,
-    "3": 43.112,
-    "4": 142.5,
-    "combined": 122.612,
-    "section2twice": 158.612,
-    "sectionAvg": 40.871
   },
   {
     "songID": "5050097",
@@ -4103,17 +3179,6 @@ var sectionsJp = [
     "sectionAvg": 39.167
   },
   {
-    "songID": "5050108",
-    "songName": "EXIST",
-    "1": 49.107,
-    "2": 27.429,
-    "3": 46.025,
-    "4": 131.392,
-    "combined": 122.561,
-    "section2twice": 149.99,
-    "sectionAvg": 40.854
-  },
-  {
     "songID": "610013",
     "songName": "Journey to the West",
     "1": 45.333,
@@ -4145,17 +3210,6 @@ var sectionsJp = [
     "combined": 113.555,
     "section2twice": 151.018,
     "sectionAvg": 37.852
-  },
-  {
-    "songID": "5050055",
-    "songName": "Embrace of light",
-    "1": 37.894,
-    "2": 31.579,
-    "3": 48.465,
-    "4": 104.21,
-    "combined": 117.938,
-    "section2twice": 149.517,
-    "sectionAvg": 39.313
   },
   {
     "songID": "310014",
@@ -4202,61 +3256,6 @@ var sectionsJp = [
     "sectionAvg": 34.765
   },
   {
-    "songID": "5050112",
-    "songName": "鳥の詩",
-    "1": 51.147,
-    "2": 31.475,
-    "3": 45.267,
-    "4": 165.23,
-    "combined": 127.889,
-    "section2twice": 159.364,
-    "sectionAvg": 42.63
-  },
-  {
-    "songID": "5050113",
-    "songName": "時を刻む唄",
-    "1": 37.202,
-    "2": 25.036,
-    "3": 36.018,
-    "4": 124.521,
-    "combined": 98.256,
-    "section2twice": 123.292,
-    "sectionAvg": 32.752
-  },
-  {
-    "songID": "5050114",
-    "songName": "Little Busters!",
-    "1": 38.146,
-    "2": 30.198,
-    "3": 40.355,
-    "4": 107.285,
-    "combined": 108.699,
-    "section2twice": 138.897,
-    "sectionAvg": 36.233
-  },
-  {
-    "songID": "5050115",
-    "songName": "Last regrets",
-    "1": 41.291,
-    "2": 36.123,
-    "3": 38.037,
-    "4": 132.98,
-    "combined": 115.451,
-    "section2twice": 151.574,
-    "sectionAvg": 38.484
-  },
-  {
-    "songID": "5050116",
-    "songName": "Philosophyz",
-    "1": 37.5,
-    "2": 33.0,
-    "3": 48.549,
-    "4": 145.5,
-    "combined": 119.049,
-    "section2twice": 152.049,
-    "sectionAvg": 39.683
-  },
-  {
     "songID": "410013",
     "songName": "HOLY WORRY",
     "1": 45.715,
@@ -4299,17 +3298,6 @@ var sectionsJp = [
     "combined": 113.076,
     "section2twice": 145.076,
     "sectionAvg": 37.692
-  },
-  {
-    "songID": "5050117",
-    "songName": "星のダイアローグ",
-    "1": 42.145,
-    "2": 34.411,
-    "3": 44.909,
-    "4": 124.353,
-    "combined": 121.465,
-    "section2twice": 155.876,
-    "sectionAvg": 40.488
   },
   {
     "songID": "120021",
@@ -4378,17 +3366,6 @@ var sectionsJp = [
     "sectionAvg": 34.789
   },
   {
-    "songID": "5030059",
-    "songName": "AMATERRAS",
-    "1": 40.645,
-    "2": 30.967,
-    "3": 42.354,
-    "4": 100.645,
-    "combined": 113.966,
-    "section2twice": 144.933,
-    "sectionAvg": 37.989
-  },
-  {
     "songID": "620015",
     "songName": "ぼなぺてぃーと♡S",
     "1": 45.79,
@@ -4409,39 +3386,6 @@ var sectionsJp = [
     "combined": 116.543,
     "section2twice": 146.081,
     "sectionAvg": 38.848
-  },
-  {
-    "songID": "5030060",
-    "songName": "TRIGGER",
-    "1": 48.0,
-    "2": 30.316,
-    "3": 37.614,
-    "4": 101.053,
-    "combined": 115.93,
-    "section2twice": 146.246,
-    "sectionAvg": 38.643
-  },
-  {
-    "songID": "5050118",
-    "songName": "あこがれ Go My Way!!",
-    "1": 39.375,
-    "2": 40.312,
-    "3": 43.235,
-    "4": 142.5,
-    "combined": 122.922,
-    "section2twice": 163.234,
-    "sectionAvg": 40.974
-  },
-  {
-    "songID": "5050119",
-    "songName": "ハートキャッチ☆パラダイス！",
-    "1": 46.828,
-    "2": 27.805,
-    "3": 38.249,
-    "4": 106.828,
-    "combined": 112.882,
-    "section2twice": 140.687,
-    "sectionAvg": 37.627
   },
   {
     "songID": "5050122",
@@ -4631,17 +3575,6 @@ var sectionsJp = [
     "sectionAvg": 41.673
   },
   {
-    "songID": "5030052",
-    "songName": "Fall in Love",
-    "1": 40.466,
-    "2": 26.513,
-    "3": 47.897,
-    "4": 96.28,
-    "combined": 114.876,
-    "section2twice": 141.389,
-    "sectionAvg": 38.292
-  },
-  {
     "songID": "5050136",
     "songName": "神奏曲:ライトニング",
     "1": 42.858,
@@ -4796,17 +3729,6 @@ var sectionsJp = [
     "sectionAvg": 37.551
   },
   {
-    "songID": "5030057",
-    "songName": "コドーモ・デ・ヒーロ",
-    "1": 40.001,
-    "2": 32.0,
-    "3": 45.654,
-    "4": 130.667,
-    "combined": 117.655,
-    "section2twice": 149.655,
-    "sectionAvg": 39.218
-  },
-  {
     "songID": "5050137",
     "songName": "only my railgun",
     "1": 46.994,
@@ -4816,72 +3738,6 @@ var sectionsJp = [
     "combined": 120.443,
     "section2twice": 152.332,
     "sectionAvg": 40.148
-  },
-  {
-    "songID": "5050138",
-    "songName": "black bullet",
-    "1": 37.162,
-    "2": 27.872,
-    "3": 44.132,
-    "4": 114.582,
-    "combined": 109.166,
-    "section2twice": 137.038,
-    "sectionAvg": 36.389
-  },
-  {
-    "songID": "5050139",
-    "songName": "here and there",
-    "1": 42.354,
-    "2": 28.236,
-    "3": 45.036,
-    "4": 120.001,
-    "combined": 115.626,
-    "section2twice": 143.862,
-    "sectionAvg": 38.542
-  },
-  {
-    "songID": "5050140",
-    "songName": "being",
-    "1": 51.893,
-    "2": 22.703,
-    "3": 43.289,
-    "4": 110.271,
-    "combined": 117.885,
-    "section2twice": 140.588,
-    "sectionAvg": 39.295
-  },
-  {
-    "songID": "5050141",
-    "songName": "lull ～そして僕らは～",
-    "1": 43.309,
-    "2": 28.873,
-    "3": 37.789,
-    "4": 117.294,
-    "combined": 109.971,
-    "section2twice": 138.844,
-    "sectionAvg": 36.657
-  },
-  {
-    "songID": "5050142",
-    "songName": "1st Love Story",
-    "1": 43.637,
-    "2": 27.928,
-    "3": 46.019,
-    "4": 143.128,
-    "combined": 117.584,
-    "section2twice": 145.512,
-    "sectionAvg": 39.195
-  },
-  {
-    "songID": "5050143",
-    "songName": "masterpiece",
-    "1": 48.864,
-    "2": 34.492,
-    "3": 39.159,
-    "4": 94.852,
-    "combined": 122.515,
-    "section2twice": 157.007,
-    "sectionAvg": 40.838
   },
   {
     "songID": "410014",
@@ -4961,17 +3817,6 @@ var sectionsJp = [
     "sectionAvg": 38.752
   },
   {
-    "songID": "5030053",
-    "songName": "ミツバチ",
-    "1": 52.725,
-    "2": 30.909,
-    "3": 39.256,
-    "4": 119.381,
-    "combined": 122.89,
-    "section2twice": 153.799,
-    "sectionAvg": 40.963
-  },
-  {
     "songID": "5030070",
     "songName": "花咲く乙女",
     "1": 27.856,
@@ -5049,28 +3894,6 @@ var sectionsJp = [
     "sectionAvg": 36.901
   },
   {
-    "songID": "5050151",
-    "songName": "きっと僕らは",
-    "1": 36.0,
-    "2": 37.2,
-    "3": 35.595,
-    "4": 130.8,
-    "combined": 108.795,
-    "section2twice": 145.995,
-    "sectionAvg": 36.265
-  },
-  {
-    "songID": "5050152",
-    "songName": "Reversal",
-    "1": 40.615,
-    "2": 35.077,
-    "3": 55.865,
-    "4": 158.769,
-    "combined": 131.557,
-    "section2twice": 166.634,
-    "sectionAvg": 43.852
-  },
-  {
     "songID": "510018",
     "songName": "「花の手錠と魔物の箱庭」",
     "1": 43.429,
@@ -5080,17 +3903,6 @@ var sectionsJp = [
     "combined": 128.573,
     "section2twice": 158.287,
     "sectionAvg": 42.858
-  },
-  {
-    "songID": "5050150",
-    "songName": "五等分の軌跡",
-    "1": 44.615,
-    "2": 27.693,
-    "3": 42.906,
-    "4": 138.462,
-    "combined": 115.214,
-    "section2twice": 142.907,
-    "sectionAvg": 38.405
   },
   {
     "songID": "3010016",
@@ -5135,17 +3947,6 @@ var sectionsJp = [
     "combined": 124.226,
     "section2twice": 157.329,
     "sectionAvg": 41.409
-  },
-  {
-    "songID": "5030056",
-    "songName": "シトラスは片想い",
-    "1": 46.546,
-    "2": 24.727,
-    "3": 33.446,
-    "4": 105.909,
-    "combined": 104.719,
-    "section2twice": 129.446,
-    "sectionAvg": 34.906
   },
   {
     "songID": "5030077",
@@ -5280,28 +4081,6 @@ var sectionsJp = [
     "sectionAvg": 40.519
   },
   {
-    "songID": "5050153",
-    "songName": "てっぺんっ天国 ～TOP OF THE LAUGH !!!～",
-    "1": 53.572,
-    "2": 34.285,
-    "3": 45.535,
-    "4": 113.572,
-    "combined": 133.392,
-    "section2twice": 167.677,
-    "sectionAvg": 44.464
-  },
-  {
-    "songID": "5050154",
-    "songName": "あはっててっぺんっ",
-    "1": 48.555,
-    "2": 33.294,
-    "3": 55.307,
-    "4": 145.665,
-    "combined": 137.156,
-    "section2twice": 170.45,
-    "sectionAvg": 45.719
-  },
-  {
     "songID": "5030058",
     "songName": "MELODY IN THE POCKET",
     "1": 33.882,
@@ -5313,17 +4092,6 @@ var sectionsJp = [
     "sectionAvg": 31.675
   },
   {
-    "songID": "5050159",
-    "songName": "夏桜",
-    "1": 42.858,
-    "2": 34.285,
-    "3": 37.899,
-    "4": 107.143,
-    "combined": 115.042,
-    "section2twice": 149.327,
-    "sectionAvg": 38.347
-  },
-  {
     "songID": "110027",
     "songName": "Summer Wonder",
     "1": 46.286,
@@ -5333,17 +4101,6 @@ var sectionsJp = [
     "combined": 132.0,
     "section2twice": 171.428,
     "sectionAvg": 44.0
-  },
-  {
-    "songID": "5050160",
-    "songName": "キラメキスプリンクル",
-    "1": 52.236,
-    "2": 31.059,
-    "3": 66.247,
-    "4": 144.0,
-    "combined": 149.542,
-    "section2twice": 180.601,
-    "sectionAvg": 49.847
   },
   {
     "songID": "310017",
@@ -5368,17 +4125,6 @@ var sectionsJp = [
     "sectionAvg": 48.714
   },
   {
-    "songID": "5050158",
-    "songName": "来たれ！甘い組",
-    "1": 35.294,
-    "2": 35.294,
-    "3": 69.771,
-    "4": 129.882,
-    "combined": 140.359,
-    "section2twice": 175.653,
-    "sectionAvg": 46.786
-  },
-  {
     "songID": "210015",
     "songName": "Let's do it!",
     "1": 52.245,
@@ -5388,17 +4134,6 @@ var sectionsJp = [
     "combined": 123.01,
     "section2twice": 154.02,
     "sectionAvg": 41.003
-  },
-  {
-    "songID": "5050161",
-    "songName": "新装開店ハニーストラップ",
-    "1": 45.474,
-    "2": 34.105,
-    "3": 35.475,
-    "4": 140.21,
-    "combined": 115.054,
-    "section2twice": 149.159,
-    "sectionAvg": 38.351
   },
   {
     "songID": "5050163",
@@ -5577,17 +4312,6 @@ var sectionsJp = [
     "sectionAvg": 44.413
   },
   {
-    "songID": "5050165",
-    "songName": "Wherever",
-    "1": 42.198,
-    "2": 31.648,
-    "3": 39.918,
-    "4": 126.593,
-    "combined": 113.764,
-    "section2twice": 145.412,
-    "sectionAvg": 37.921
-  },
-  {
     "songID": "3010017",
     "songName": "FAKE OFF",
     "1": 44.8,
@@ -5621,17 +4345,6 @@ var sectionsJp = [
     "sectionAvg": 42.311
   },
   {
-    "songID": "5050164",
-    "songName": "頭ん中DEAD END",
-    "1": 43.943,
-    "2": 32.113,
-    "3": 47.21,
-    "4": 118.31,
-    "combined": 123.266,
-    "section2twice": 155.379,
-    "sectionAvg": 41.089
-  },
-  {
     "songID": "420018",
     "songName": "GO!!!",
     "1": 42.985,
@@ -5641,17 +4354,6 @@ var sectionsJp = [
     "combined": 111.258,
     "section2twice": 139.915,
     "sectionAvg": 37.086
-  },
-  {
-    "songID": "5050171",
-    "songName": "マツケンサンバII",
-    "1": 45.284,
-    "2": 33.956,
-    "3": 55.315,
-    "4": 124.521,
-    "combined": 134.555,
-    "section2twice": 168.511,
-    "sectionAvg": 44.852
   },
   {
     "songID": "520019",
@@ -5665,17 +4367,6 @@ var sectionsJp = [
     "sectionAvg": 39.33
   },
   {
-    "songID": "5050169",
-    "songName": "MIRACLE RUSH",
-    "1": 50.0,
-    "2": 35.714,
-    "3": 49.786,
-    "4": 102.857,
-    "combined": 135.5,
-    "section2twice": 171.214,
-    "sectionAvg": 45.167
-  },
-  {
     "songID": "620019",
     "songName": "adrenaline!!!",
     "1": 45.428,
@@ -5687,17 +4378,6 @@ var sectionsJp = [
     "sectionAvg": 41.81
   },
   {
-    "songID": "5050167",
-    "songName": "ドリームパレード",
-    "1": 37.675,
-    "2": 37.674,
-    "3": 58.518,
-    "4": 145.177,
-    "combined": 133.867,
-    "section2twice": 171.541,
-    "sectionAvg": 44.622
-  },
-  {
     "songID": "220022",
     "songName": "UNION",
     "1": 36.404,
@@ -5707,28 +4387,6 @@ var sectionsJp = [
     "combined": 123.107,
     "section2twice": 156.815,
     "sectionAvg": 41.036
-  },
-  {
-    "songID": "5050168",
-    "songName": "UNSTOPPABLE",
-    "1": 48.0,
-    "2": 36.705,
-    "3": 32.712,
-    "4": 110.117,
-    "combined": 117.417,
-    "section2twice": 154.122,
-    "sectionAvg": 39.139
-  },
-  {
-    "songID": "5050170",
-    "songName": "Can Do",
-    "1": 43.2,
-    "2": 38.4,
-    "3": 69.8,
-    "4": 158.4,
-    "combined": 151.4,
-    "section2twice": 189.8,
-    "sectionAvg": 50.467
   },
   {
     "songID": "3020012",
@@ -5797,28 +4455,6 @@ var sectionsJp = [
     "sectionAvg": 41.695
   },
   {
-    "songID": "5030093",
-    "songName": "NieR:Automataメドレー「イニシエガ終ワリ絶望ガ壊レタ世界」",
-    "1": 32.445,
-    "2": 26.483,
-    "3": 51.76,
-    "4": 153.662,
-    "combined": 110.688,
-    "section2twice": 137.171,
-    "sectionAvg": 36.896
-  },
-  {
-    "songID": "5030092",
-    "songName": "NieR:Automataメドレー「双極ノ遊園施設ト美シキ異形ノ歌」",
-    "1": 36.0,
-    "2": 30.397,
-    "3": 65.513,
-    "4": 157.639,
-    "combined": 131.91,
-    "section2twice": 162.307,
-    "sectionAvg": 43.97
-  },
-  {
     "songID": "5030098",
     "songName": "INTERNET OVERDOSE",
     "1": 35.337,
@@ -5852,28 +4488,6 @@ var sectionsJp = [
     "sectionAvg": 38.446
   },
   {
-    "songID": "5050185",
-    "songName": "Regalia -継承-",
-    "1": 47.116,
-    "2": 38.283,
-    "3": 77.475,
-    "4": 157.546,
-    "combined": 162.874,
-    "section2twice": 201.157,
-    "sectionAvg": 54.291
-  },
-  {
-    "songID": "5050186",
-    "songName": "アフレぐ！〜Aufregendes leben〜",
-    "1": 40.656,
-    "2": 32.787,
-    "3": 52.486,
-    "4": 159.344,
-    "combined": 125.929,
-    "section2twice": 158.716,
-    "sectionAvg": 41.976
-  },
-  {
     "songID": "5050179",
     "songName": "青空Jumping Heart",
     "1": 32.4,
@@ -5883,17 +4497,6 @@ var sectionsJp = [
     "combined": 133.844,
     "section2twice": 163.844,
     "sectionAvg": 44.615
-  },
-  {
-    "songID": "5050180",
-    "songName": "未来の僕らは知ってるよ",
-    "1": 35.801,
-    "2": 37.127,
-    "3": 62.983,
-    "4": 157.791,
-    "combined": 135.911,
-    "section2twice": 173.038,
-    "sectionAvg": 45.304
   },
   {
     "songID": "3020015",
@@ -5929,28 +4532,6 @@ var sectionsJp = [
     "sectionAvg": 46.875
   },
   {
-    "songID": "5050176",
-    "songName": "曖昧さ、幸福論",
-    "1": 42.962,
-    "2": 35.556,
-    "3": 60.352,
-    "4": 103.703,
-    "combined": 138.87,
-    "section2twice": 174.426,
-    "sectionAvg": 46.29
-  },
-  {
-    "songID": "5050178",
-    "songName": "Welcome! (D-POP version) ～D.U.P.～",
-    "1": 48.814,
-    "2": 29.491,
-    "3": 39.526,
-    "4": 118.983,
-    "combined": 117.831,
-    "section2twice": 147.322,
-    "sectionAvg": 39.277
-  },
-  {
     "songID": "5050181",
     "songName": "虹色Passions！",
     "1": 50.667,
@@ -5960,28 +4541,6 @@ var sectionsJp = [
     "combined": 139.338,
     "section2twice": 170.004,
     "sectionAvg": 46.446
-  },
-  {
-    "songID": "5050182",
-    "songName": "Colorful Dreams! Colorful Smiles!",
-    "1": 54.486,
-    "2": 36.325,
-    "3": 40.2,
-    "4": 105.081,
-    "combined": 131.011,
-    "section2twice": 167.336,
-    "sectionAvg": 43.67
-  },
-  {
-    "songID": "5050183",
-    "songName": "Utauyo!!MIRACLE",
-    "1": 52.012,
-    "2": 37.895,
-    "3": 67.76,
-    "4": 149.349,
-    "combined": 157.667,
-    "section2twice": 195.562,
-    "sectionAvg": 52.556
   },
   {
     "songID": "5050184",
@@ -6116,39 +4675,6 @@ var sectionsJp = [
     "sectionAvg": 35.426
   },
   {
-    "songID": "5050198",
-    "songName": "GALAXY",
-    "1": 45.177,
-    "2": 31.059,
-    "3": 70.75,
-    "4": 124.235,
-    "combined": 146.986,
-    "section2twice": 178.045,
-    "sectionAvg": 48.995
-  },
-  {
-    "songID": "5050199",
-    "songName": "VR",
-    "1": 43.969,
-    "2": 34.809,
-    "3": 50.55,
-    "4": 130.076,
-    "combined": 129.328,
-    "section2twice": 164.137,
-    "sectionAvg": 43.109
-  },
-  {
-    "songID": "5050200",
-    "songName": "R U GAME?",
-    "1": 44.307,
-    "2": 31.385,
-    "3": 70.731,
-    "4": 151.384,
-    "combined": 146.423,
-    "section2twice": 177.808,
-    "sectionAvg": 48.808
-  },
-  {
     "songID": "310020",
     "songName": "24",
     "1": 34.909,
@@ -6182,28 +4708,6 @@ var sectionsJp = [
     "sectionAvg": 41.662
   },
   {
-    "songID": "5050202",
-    "songName": "独占予報",
-    "1": 47.213,
-    "2": 27.541,
-    "3": 56.623,
-    "4": 121.967,
-    "combined": 131.377,
-    "section2twice": 158.918,
-    "sectionAvg": 43.792
-  },
-  {
-    "songID": "5050203",
-    "songName": "ハチャメチャバース",
-    "1": 48.0,
-    "2": 36.48,
-    "3": 53.699,
-    "4": 132.48,
-    "combined": 138.179,
-    "section2twice": 174.659,
-    "sectionAvg": 46.06
-  },
-  {
     "songID": "510020",
     "songName": "夢想曲 -Träumerei-",
     "1": 36.631,
@@ -6224,17 +4728,6 @@ var sectionsJp = [
     "combined": 118.723,
     "section2twice": 147.167,
     "sectionAvg": 39.574
-  },
-  {
-    "songID": "5050194",
-    "songName": "Pixel Galaxy",
-    "1": 51.2,
-    "2": 38.4,
-    "3": 43.471,
-    "4": 128.0,
-    "combined": 133.071,
-    "section2twice": 171.471,
-    "sectionAvg": 44.357
   },
   {
     "songID": "810001",
@@ -6259,17 +4752,6 @@ var sectionsJp = [
     "sectionAvg": 43.85
   },
   {
-    "songID": "5050197",
-    "songName": "Notice (w/ TORIENA)",
-    "1": 38.4,
-    "2": 32.64,
-    "3": 82.485,
-    "4": 157.44,
-    "combined": 153.525,
-    "section2twice": 186.165,
-    "sectionAvg": 51.175
-  },
-  {
     "songID": "3020018",
     "songName": "プラスティック・ラブ",
     "1": 33.333,
@@ -6279,28 +4761,6 @@ var sectionsJp = [
     "combined": 122.556,
     "section2twice": 155.89,
     "sectionAvg": 40.852
-  },
-  {
-    "songID": "5050201",
-    "songName": "ロボティックガール",
-    "1": 42.667,
-    "2": 35.555,
-    "3": 58.557,
-    "4": 131.556,
-    "combined": 136.779,
-    "section2twice": 172.334,
-    "sectionAvg": 45.593
-  },
-  {
-    "songID": "5050177",
-    "songName": "PARTY☆NIGHT (D-POP version)",
-    "1": 40.564,
-    "2": 30.422,
-    "3": 50.193,
-    "4": 115.873,
-    "combined": 121.179,
-    "section2twice": 151.601,
-    "sectionAvg": 40.393
   },
   {
     "songID": "610022",
@@ -6345,28 +4805,6 @@ var sectionsJp = [
     "combined": 130.46,
     "section2twice": 167.96,
     "sectionAvg": 43.487
-  },
-  {
-    "songID": "5050204",
-    "songName": "贅沢な匙",
-    "1": 42.137,
-    "2": 38.473,
-    "3": 85.267,
-    "4": 159.389,
-    "combined": 165.877,
-    "section2twice": 204.35,
-    "sectionAvg": 55.292
-  },
-  {
-    "songID": "5050205",
-    "songName": "Happy-go-Journey",
-    "1": 40.422,
-    "2": 32.842,
-    "3": 46.214,
-    "4": 109.895,
-    "combined": 119.478,
-    "section2twice": 152.32,
-    "sectionAvg": 39.826
   },
   {
     "songID": "5050195",
@@ -6422,50 +4860,6 @@ var sectionsJp = [
     "combined": 124.707,
     "section2twice": 154.246,
     "sectionAvg": 41.569
-  },
-  {
-    "songID": "5050190",
-    "songName": "Just the truth",
-    "1": 41.38,
-    "2": 33.103,
-    "3": 54.244,
-    "4": 111.725,
-    "combined": 128.727,
-    "section2twice": 161.83,
-    "sectionAvg": 42.909
-  },
-  {
-    "songID": "5050191",
-    "songName": "kaleidoscope",
-    "1": 44.138,
-    "2": 40.0,
-    "3": 35.469,
-    "4": 106.207,
-    "combined": 119.607,
-    "section2twice": 159.607,
-    "sectionAvg": 39.869
-  },
-  {
-    "songID": "5050193",
-    "songName": "ワンダーステラ",
-    "1": 38.549,
-    "2": 38.549,
-    "3": 49.587,
-    "4": 121.865,
-    "combined": 126.685,
-    "section2twice": 165.234,
-    "sectionAvg": 42.228
-  },
-  {
-    "songID": "5050192",
-    "songName": "starlog",
-    "1": 38.572,
-    "2": 45.714,
-    "3": 46.786,
-    "4": 108.572,
-    "combined": 131.072,
-    "section2twice": 176.786,
-    "sectionAvg": 43.691
   },
   {
     "songID": "510021",
@@ -6699,94 +5093,6 @@ var sectionsJp = [
     "sectionAvg": 40.185
   },
   {
-    "songID": "5050217",
-    "songName": "Accelerate",
-    "1": 36.191,
-    "2": 38.095,
-    "3": 39.551,
-    "4": 121.905,
-    "combined": 113.837,
-    "section2twice": 151.932,
-    "sectionAvg": 37.946
-  },
-  {
-    "songID": "5050218",
-    "songName": "青春チョコレート（Christmas Version）",
-    "1": 51.282,
-    "2": 32.82,
-    "3": 49.847,
-    "4": 129.231,
-    "combined": 133.949,
-    "section2twice": 166.769,
-    "sectionAvg": 44.65
-  },
-  {
-    "songID": "5050219",
-    "songName": "START",
-    "1": 51.429,
-    "2": 45.714,
-    "3": 49.786,
-    "4": 139.429,
-    "combined": 146.929,
-    "section2twice": 192.643,
-    "sectionAvg": 48.976
-  },
-  {
-    "songID": "5050220",
-    "songName": "スキスキ星人",
-    "1": 41.514,
-    "2": 41.513,
-    "3": 50.327,
-    "4": 127.11,
-    "combined": 133.354,
-    "section2twice": 174.867,
-    "sectionAvg": 44.451
-  },
-  {
-    "songID": "5050221",
-    "songName": "僕らだけのシャングリラ",
-    "1": 33.231,
-    "2": 33.231,
-    "3": 45.838,
-    "4": 107.077,
-    "combined": 112.3,
-    "section2twice": 145.531,
-    "sectionAvg": 37.433
-  },
-  {
-    "songID": "5050214",
-    "songName": "全人類　兎化計画！",
-    "1": 49.18,
-    "2": 33.443,
-    "3": 60.91,
-    "4": 129.836,
-    "combined": 143.533,
-    "section2twice": 176.976,
-    "sectionAvg": 47.844
-  },
-  {
-    "songID": "5050215",
-    "songName": "未だ、青い",
-    "1": 40.216,
-    "2": 27.838,
-    "3": 60.636,
-    "4": 137.514,
-    "combined": 128.69,
-    "section2twice": 156.528,
-    "sectionAvg": 42.897
-  },
-  {
-    "songID": "5050212",
-    "songName": "失礼しますが、RIP♡",
-    "1": 47.42,
-    "2": 45.484,
-    "3": 52.342,
-    "4": 150.967,
-    "combined": 145.246,
-    "section2twice": 190.73,
-    "sectionAvg": 48.415
-  },
-  {
     "songID": "3010019",
     "songName": "Peaky Around!!",
     "1": 52.174,
@@ -6796,39 +5102,6 @@ var sectionsJp = [
     "combined": 123.793,
     "section2twice": 153.793,
     "sectionAvg": 41.264
-  },
-  {
-    "songID": "5050213",
-    "songName": "常夜リペイント",
-    "1": 60.76,
-    "2": 36.456,
-    "3": 47.544,
-    "4": 150.38,
-    "combined": 144.76,
-    "section2twice": 181.216,
-    "sectionAvg": 48.253
-  },
-  {
-    "songID": "5050211",
-    "songName": "君の知らない物語",
-    "1": 55.249,
-    "2": 40.737,
-    "3": 60.529,
-    "4": 95.986,
-    "combined": 156.515,
-    "section2twice": 197.252,
-    "sectionAvg": 52.172
-  },
-  {
-    "songID": "5050216",
-    "songName": "Sparklers",
-    "1": 33.104,
-    "2": 35.862,
-    "3": 53.563,
-    "4": 104.828,
-    "combined": 122.529,
-    "section2twice": 158.391,
-    "sectionAvg": 40.843
   },
   {
     "songID": "920003",
@@ -6906,17 +5179,6 @@ var sectionsJp = [
     "combined": 136.312,
     "section2twice": 176.812,
     "sectionAvg": 45.437
-  },
-  {
-    "songID": "5050223",
-    "songName": "ティアーズテイル",
-    "1": 41.514,
-    "2": 35.027,
-    "3": 51.836,
-    "4": 112.865,
-    "combined": 128.377,
-    "section2twice": 163.404,
-    "sectionAvg": 42.792
   },
   {
     "songID": "510022",
@@ -7007,17 +5269,6 @@ var sectionsJp = [
     "sectionAvg": 42.439
   },
   {
-    "songID": "5050224",
-    "songName": "HIGHEST",
-    "1": 34.666,
-    "2": 32.0,
-    "3": 47.804,
-    "4": 132.0,
-    "combined": 114.47,
-    "section2twice": 146.47,
-    "sectionAvg": 38.157
-  },
-  {
     "songID": "3020017",
     "songName": "一滴の影響",
     "1": 40.421,
@@ -7073,39 +5324,6 @@ var sectionsJp = [
     "sectionAvg": 39.87
   },
   {
-    "songID": "5050226",
-    "songName": "Rebellion",
-    "1": 31.012,
-    "2": 32.359,
-    "3": 48.23,
-    "4": 118.652,
-    "combined": 111.601,
-    "section2twice": 143.96,
-    "sectionAvg": 37.2
-  },
-  {
-    "songID": "5050227",
-    "songName": "ユメみロ",
-    "1": 41.113,
-    "2": 34.273,
-    "3": 51.221,
-    "4": 133.7,
-    "combined": 126.607,
-    "section2twice": 160.88,
-    "sectionAvg": 42.202
-  },
-  {
-    "songID": "5050228",
-    "songName": "メトロポリス！ドゲンジャーズ！",
-    "1": 37.753,
-    "2": 39.101,
-    "3": 42.452,
-    "4": 140.225,
-    "combined": 119.306,
-    "section2twice": 158.407,
-    "sectionAvg": 39.769
-  },
-  {
     "songID": "910004",
     "songName": "STORY",
     "1": 40.32,
@@ -7150,17 +5368,6 @@ var sectionsJp = [
     "sectionAvg": 38.514
   },
   {
-    "songID": "5050229",
-    "songName": "秘密♡Melody",
-    "1": 48.793,
-    "2": 37.241,
-    "3": 62.118,
-    "4": 141.379,
-    "combined": 148.152,
-    "section2twice": 185.393,
-    "sectionAvg": 49.384
-  },
-  {
     "songID": "110033",
     "songName": "アバンチューールなサマーデーーイズ",
     "1": 45.366,
@@ -7170,17 +5377,6 @@ var sectionsJp = [
     "combined": 130.45,
     "section2twice": 168.499,
     "sectionAvg": 43.483
-  },
-  {
-    "songID": "5050230",
-    "songName": "灯火",
-    "1": 42.666,
-    "2": 36.0,
-    "3": 66.432,
-    "4": 144.519,
-    "combined": 145.098,
-    "section2twice": 181.098,
-    "sectionAvg": 48.366
   },
   {
     "songID": "510023",
@@ -7214,28 +5410,6 @@ var sectionsJp = [
     "combined": 124.411,
     "section2twice": 164.183,
     "sectionAvg": 41.47
-  },
-  {
-    "songID": "5050242",
-    "songName": "迷星叫",
-    "1": 35.368,
-    "2": 36.632,
-    "3": 71.076,
-    "4": 127.579,
-    "combined": 143.076,
-    "section2twice": 179.708,
-    "sectionAvg": 47.692
-  },
-  {
-    "songID": "5050231",
-    "songName": "楽園",
-    "1": 36.032,
-    "2": 28.311,
-    "3": 62.056,
-    "4": 128.687,
-    "combined": 126.399,
-    "section2twice": 154.71,
-    "sectionAvg": 42.133
   },
   {
     "songID": "5050175",
