@@ -12956,6 +12956,62 @@ var cards = {
             "skill": .45,
             "icon": "card_icon_060420002_1.2c39073e",
             "passive": "Groovy Bonus 10-36.5%"
+        },
+        "923": {
+            "id": 923,
+            "character": "Kyoko",
+            "cardname": "Dance - PASSION",
+            "unit": "Peaky",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 14105,
+            "technical": 20081,
+            "physical": 14201,
+            "skill": .5,
+            "icon": "card_icon_040210015_1.f85fdc77",
+            "passive": "Life Boost 2.5-8.25%"
+        },
+        "924": {
+            "id": 924,
+            "character": "Yuka",
+            "cardname": "Pulse - BEAT",
+            "unit": "Peaky",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 12032,
+            "technical": 18203,
+            "physical": 16793,
+            "skill": .5,
+            "icon": "card_icon_040230016_1.2a4a8145",
+            "passive": "Groovy Bonus 10-35%"
+        },
+        "925": {
+            "id": 925,
+            "character": "Esora",
+            "cardname": "Graceful - FLY",
+            "unit": "Peaky",
+            "type": "Street",
+            "rarity": 4,
+            "heart": 16579,
+            "technical": 17676,
+            "physical": 12425,
+            "skill": .5,
+            "icon": "card_icon_040240017_1.3ef21141",
+            "passive": "Auto Boost 2.5-8.5%"
+        },
+        "926": {
+            "id": 926,
+            "character": "Shinobu",
+            "cardname": "Charge - SHOUT",
+            "unit": "Peaky",
+            "type": "Street",
+            "rarity": 3,
+            "heart": 10313,
+            "technical": 12733,
+            "physical": 9053,
+            "skill": .25,
+            "icon": "card_icon_030220009_1.f5612df4",
+            "passive": "Groovy Solo 10-25%"
         }
     }
 

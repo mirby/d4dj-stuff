@@ -1773,6 +1773,17 @@ var eventList = {
         "comboBonus":true,
         "addition":"5th medley has 50% power up for event Doggo cards"
     },
+    "150": {
+        "id":150,
+        "name":"Riotous! Peaky!!! Festival Splendor",
+        "characters":"Kyoko,Shinobu,Yuka,Esora",
+        "type":"Bingo",
+        "style":"Street",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
