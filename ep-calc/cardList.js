@@ -13012,6 +13012,62 @@ var cards = {
             "skill": .25,
             "icon": "card_icon_030220009_1.f5612df4",
             "passive": "Groovy Solo 10-25%"
+        },
+        "927": {
+            "id": 927,
+            "character": "Weronika",
+            "cardname": "Navigation：With",
+            "unit": "Abyssmare",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 16709,
+            "technical": 15233,
+            "physical": 17153,
+            "skill": .45,
+            "icon": "card_icon_060940002_1.8ec16de2",
+            "passive": "Groovy Bonus 10-36.5%"
+        },
+        "928": {
+            "id": 928,
+            "character": "Nagisa",
+            "cardname": "Navigation：With",
+            "unit": "Rondo",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 16501,
+            "technical": 15701,
+            "physical": 16207,
+            "skill": .45,
+            "icon": "card_icon_060520002_1.48caf017",
+            "passive": "Life Boost 2.5-8.5%"
+        },
+        "929": {
+            "id": 929,
+            "character": "Shano",
+            "cardname": "Navigation：With",
+            "unit": "4",
+            "type": "Cute",
+            "rarity": 4,
+            "heart": 16435,
+            "technical": 17305,
+            "physical": 15319,
+            "skill": .45,
+            "icon": "card_icon_060730002_1.0a39762d",
+            "passive": "Groovy Bonus 10-36.5%"
+        },
+        "930": {
+            "id": 930,
+            "character": "Rika",
+            "cardname": "Navigation：With",
+            "unit": "Mermaid",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 15530,
+            "technical": 17155,
+            "physical": 15691,
+            "skill": .45,
+            "icon": "card_icon_060410002_1.628bc934",
+            "passive": "Groovy Bonus 10-36.5%"
         }
     }
 
