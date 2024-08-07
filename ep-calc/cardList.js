@@ -13068,6 +13068,62 @@ var cards = {
             "skill": .45,
             "icon": "card_icon_060410002_1.628bc934",
             "passive": "Groovy Bonus 10-36.5%"
+        },
+        "931": {
+            "id": 931,
+            "character": "Michiru",
+            "cardname": "Full Sky",
+            "unit": "Unichord",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 15119,
+            "technical": 11002,
+            "physical": 20562,
+            "skill": .8,
+            "icon": "card_icon_070810006_1.12bd2a89",
+            "passive": "Groovy Bonus 10-35%"
+        },
+        "932": {
+            "id": 932,
+            "character": "Lumina",
+            "cardname": "Strange Path",
+            "unit": "Unichord",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 15565,
+            "technical": 11668,
+            "physical": 20962,
+            "skill": .8,
+            "icon": "card_icon_070820006_1.a9a22a31",
+            "passive": "Groovy Solo 20-70%"
+        },
+        "933": {
+            "id": 933,
+            "character": "Kokoa",
+            "cardname": "Mild Fever",
+            "unit": "Unichord",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 11931,
+            "technical": 15309,
+            "physical": 20908,
+            "skill": .8,
+            "icon": "card_icon_070830007_1.216dd707",
+            "passive": "Life Boost 2.5-8.25%"
+        },
+        "934": {
+            "id": 934,
+            "character": "Hayate",
+            "cardname": "Migration",
+            "unit": "Unichord",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 12076,
+            "technical": 15059,
+            "physical": 20859,
+            "skill": .8,
+            "icon": "card_icon_070840005_1.4d63c2ba",
+            "passive": "Manual Up 2.5-10%"
         }
     }
 

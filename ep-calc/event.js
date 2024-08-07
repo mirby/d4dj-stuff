@@ -1784,6 +1784,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "151": {
+        "id":151,
+        "name":"A Bad Cynic Doggo VOL.4",
+        "characters":"Michiru,Lumina,Kokoa,Hayate",
+        "type":"Poker",
+        "style":"Party",
+        "parameter":"Physical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
