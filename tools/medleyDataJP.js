@@ -4136,17 +4136,6 @@ var sectionsJp = [
     "sectionAvg": 41.003
   },
   {
-    "songID": "5050163",
-    "songName": "Victory Road",
-    "1": 42.5,
-    "2": 30.0,
-    "3": 38.75,
-    "4": 122.5,
-    "combined": 111.25,
-    "section2twice": 141.25,
-    "sectionAvg": 37.083
-  },
-  {
     "songID": "210016",
     "songName": "Keep it up",
     "1": 50.526,

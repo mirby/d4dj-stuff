@@ -4442,17 +4442,6 @@ var sectionsEn = [
     "sectionAvg": 43.605
   },
   {
-    "songID": "5050163",
-    "songName": "Victory Road",
-    "1": 42.5,
-    "2": 30.0,
-    "3": 38.75,
-    "4": 122.5,
-    "combined": 111.25,
-    "section2twice": 141.25,
-    "sectionAvg": 37.083
-  },
-  {
     "songID": "5050156",
     "songName": "Mienai Tsubasa (feat.bassy)",
     "1": 34.476,
@@ -5188,5 +5177,27 @@ var sectionsEn = [
     "combined": 148.557,
     "section2twice": 189.426,
     "sectionAvg": 49.519
+  },
+  {
+    "songID": "210026",
+    "songName": "Blossom, Unrivaled Dance",
+    "1": 37.183,
+    "2": 40.563,
+    "3": 43.635,
+    "4": 123.38,
+    "combined": 121.381,
+    "section2twice": 161.944,
+    "sectionAvg": 40.46
+  },
+  {
+    "songID": "5050231",
+    "songName": "Rakuen",
+    "1": 36.032,
+    "2": 28.311,
+    "3": 62.056,
+    "4": 128.687,
+    "combined": 126.399,
+    "section2twice": 154.71,
+    "sectionAvg": 42.133
   }
 ]
