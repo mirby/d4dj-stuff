@@ -1795,6 +1795,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "152": {
+        "id":152,
+        "name":"Dive into the Blue Abyss",
+        "characters":"Neo,Sophia,Elsie,Weronika",
+        "type":"Bingo",
+        "style":"Party",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":"SP Bingo event"
+    },
 }
 
 /*

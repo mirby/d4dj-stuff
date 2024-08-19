@@ -13124,6 +13124,62 @@ var cards = {
             "skill": .8,
             "icon": "card_icon_070840005_1.4d63c2ba",
             "passive": "Manual Up 2.5-10%"
+        },
+        "935": {
+            "id": 935,
+            "character": "Neo",
+            "cardname": "Seaside-Venus",
+            "unit": "Abyssmare",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 14994,
+            "technical": 18537,
+            "physical": 14436,
+            "skill": .5,
+            "icon": "card_icon_040910004_1.b29455e0",
+            "passive": "Groovy Bonus 10-35%"
+        },
+        "936": {
+            "id": 936,
+            "character": "Sophia",
+            "cardname": "Shy-Beach",
+            "unit": "Abyssmare",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 13414,
+            "technical": 20612,
+            "physical": 13447,
+            "skill": .5,
+            "icon": "card_icon_040920004_1.0b19d6d3",
+            "passive": "Groovy Solo 20-70%"
+        },
+        "937": {
+            "id": 937,
+            "character": "Elsie",
+            "cardname": "Marine-Lady",
+            "unit": "Abyssmare",
+            "type": "Party",
+            "rarity": 4,
+            "heart": 17745,
+            "technical": 19196,
+            "physical": 11195,
+            "skill": .5,
+            "icon": "card_icon_040930004_1.590b9f68",
+            "passive": "Auto Boost 2.5-8.5%"
+        },
+        "938": {
+            "id": 938,
+            "character": "Weronika",
+            "cardname": "Bright-Ocean",
+            "unit": "Abyssmare",
+            "type": "Party",
+            "rarity": 3,
+            "heart": 9581,
+            "technical": 12096,
+            "physical": 10567,
+            "skill": .25,
+            "icon": "card_icon_030940002_1.31d18d1f",
+            "passive": "Life Boost 1-3%"
         }
     }
 
