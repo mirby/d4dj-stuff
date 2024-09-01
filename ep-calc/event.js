@@ -1806,6 +1806,17 @@ var eventList = {
         "comboBonus":true,
         "addition":"SP Bingo event"
     },
+    "153": {
+        "id":153,
+        "name":"A Bad Cynic Doggo VOL.5",
+        "characters":"Saki,Ibuki,Towa,Noa",
+        "type":"Poker",
+        "style":"Street",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
