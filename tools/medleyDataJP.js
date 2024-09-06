@@ -6708,5 +6708,60 @@ var sectionsJp = [
     "combined": 135.6,
     "section2twice": 175.6,
     "sectionAvg": 45.2
+  },
+  {
+    "songID": "5050286",
+    "songName": "Frustration",
+    "1": 41.936,
+    "2": 38.709,
+    "3": 46.258,
+    "4": 114.839,
+    "combined": 126.903,
+    "section2twice": 165.612,
+    "sectionAvg": 42.301
+  },
+  {
+    "songID": "410025",
+    "songName": "WIN-WIN",
+    "1": 40.564,
+    "2": 40.564,
+    "3": 39.182,
+    "4": 106.479,
+    "combined": 120.31,
+    "section2twice": 160.874,
+    "sectionAvg": 40.103
+  },
+  {
+    "songID": "5050303",
+    "songName": "Ordinary Star",
+    "1": 45.474,
+    "2": 29.052,
+    "3": 40.012,
+    "4": 150.315,
+    "combined": 114.538,
+    "section2twice": 143.59,
+    "sectionAvg": 38.179
+  },
+  {
+    "songID": "610027",
+    "songName": "夏ニモマケズ！",
+    "1": 37.334,
+    "2": 40.0,
+    "3": 42.284,
+    "4": 122.667,
+    "combined": 119.618,
+    "section2twice": 159.618,
+    "sectionAvg": 39.873
+  },
+  {
+    "songID": "910010",
+    "songName": "ARK",
+    "1": 54.0,
+    "2": 36.0,
+    "3": 51.877,
+    "4": 150.0,
+    "combined": 141.877,
+    "section2twice": 177.877,
+    "sectionAvg": 47.292
   }
 ]

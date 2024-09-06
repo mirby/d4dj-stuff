@@ -3232,17 +3232,6 @@ var sectionsEn = [
     "sectionAvg": 41.003
   },
   {
-    "songID": "5050150",
-    "songName": "Gotoubun no Kiseki",
-    "1": 44.615,
-    "2": 27.693,
-    "3": 42.906,
-    "4": 138.462,
-    "combined": 115.214,
-    "section2twice": 142.907,
-    "sectionAvg": 38.405
-  },
-  {
     "songID": "110028",
     "songName": "Laugh Diamond Magic ",
     "1": 60.885,
@@ -5199,5 +5188,16 @@ var sectionsEn = [
     "combined": 126.399,
     "section2twice": 154.71,
     "sectionAvg": 42.133
+  },
+  {
+    "songID": "910009",
+    "songName": "Now or Never",
+    "1": 40.0,
+    "2": 40.0,
+    "3": 55.6,
+    "4": 142.4,
+    "combined": 135.6,
+    "section2twice": 175.6,
+    "sectionAvg": 45.2
   }
 ]
