@@ -209,6 +209,7 @@ function autoClub() {
         // }
 
         // Set the frameline item
+        $("select[name=club-frameline]").val("mizuhiki");
         // All frameline items are 2%
     
         $.refreshClubSelect();
@@ -1123,6 +1124,54 @@ var clubItems4 = {
         "displayname":"Aoi",
         "type":"character",
         "bonus":.02
+    },
+    "out-toka": {
+        "name":"toka",
+        "displayname":"Toka",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-marika": {
+        "name":"marika",
+        "displayname":"Marika",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-weronika": {
+        "name":"weronika",
+        "displayname":"Weronika",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-nagisa": {
+        "name":"nagisa",
+        "displayname":"Nagisa",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-shano": {
+        "name":"shano",
+        "displayname":"Shano",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-rika": {
+        "name":"rika",
+        "displayname":"Rika",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-airi": {
+        "name":"airi",
+        "displayname":"Airi",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-esora": {
+        "name":"esora",
+        "displayname":"Esora",
+        "type":"character",
+        "bonus":.02
     }
 }
 
@@ -1136,6 +1185,12 @@ var clubItems5 = {
     "mizuhiki": {
         "name":"mizuhiki",
         "displayname":"Japanese Mizuhiki Art",
+        "type":"frameline",
+        "bonus":.02
+    },
+    "icecubes": {
+        "name":"icecubes",
+        "displayname":"Ice Cubes",
         "type":"frameline",
         "bonus":.02
     }

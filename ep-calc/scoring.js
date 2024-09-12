@@ -321,16 +321,16 @@ function calculateEpScore(type, score, bonus, param, volts, roomscore) {
 
                 break;
             case "bingo":
-                result = volts * Math.floor(param * Math.floor(bonus * (110 + Math.max(10, Math.floor(score / 8000)) + comboBonus)));
+                result = volts * Math.floor(param * Math.floor(bonus * (160 + Math.max(10, Math.floor(score / 8000)) + comboBonus)));
                 valueMap.set("Battle Live EP (Fourth)", result);
 
-                result = volts * Math.floor(param * Math.floor(bonus * (125 + Math.max(10, Math.floor(score / 8000)) + comboBonus)));
+                result = volts * Math.floor(param * Math.floor(bonus * (175 + Math.max(10, Math.floor(score / 8000)) + comboBonus)));
                 valueMap.set("Battle Live EP (Third)", result);
     
-                result = volts * Math.floor(param * Math.floor(bonus * (135 + Math.max(10, Math.floor(score / 8000)) + comboBonus)));
+                result = volts * Math.floor(param * Math.floor(bonus * (185 + Math.max(10, Math.floor(score / 8000)) + comboBonus)));
                 valueMap.set("Battle Live EP (Second)", result);
 
-                result = volts * Math.floor(param * Math.floor(bonus * (150 + Math.max(10, Math.floor(score / 8000)) + comboBonus)));
+                result = volts * Math.floor(param * Math.floor(bonus * (200 + Math.max(10, Math.floor(score / 8000)) + comboBonus)));
                 valueMap.set("Battle Live EP (First)", result);
 
                 result = volts * Math.floor(param * Math.floor(bonus * (Math.max(10, Math.floor(score / 8000)) + comboBonus)));
