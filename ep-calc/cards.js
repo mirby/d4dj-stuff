@@ -182,6 +182,8 @@ function populateTeam(selection, cardId) {
         }
         document.getElementById(selection + "_charImageWrapper").appendChild(img);
         document.getElementById(selection + "_id").innerHTML = cardId;
+        document.getElementById(selection + "_eventId").innerHTML = cards[cardId].eventId;
+        document.getElementById(selection + "_rarity").innerHTML = cards[cardId].rarity;
         document.getElementById(selection + "_char").innerHTML = cards[cardId].character.toLowerCase();
         document.getElementById(selection + "_charfull").innerHTML = cards[cardId].character + ' - ' + cards[cardId].cardname;
 

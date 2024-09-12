@@ -178,6 +178,28 @@
                             <td id="s4_id"></td>
                         </tr>
                         <tr style="display:none;">
+                            <th scope="row">Event ID</th>
+                            <td id="m1_eventId"></td>
+                            <td id="m2_eventId"></td>
+                            <td id="m3_eventId"></td>
+                            <td id="m4_eventId"></td>
+                            <td id="s1_eventId"></td>
+                            <td id="s2_eventId"></td>
+                            <td id="s3_eventId"></td>
+                            <td id="s4_eventId"></td>
+                        </tr>
+                        <tr style="display:none;">
+                            <th scope="row">Rarity</th>
+                            <td id="m1_rarity"></td>
+                            <td id="m2_rarity"></td>
+                            <td id="m3_rarity"></td>
+                            <td id="m4_rarity"></td>
+                            <td id="s1_rarity"></td>
+                            <td id="s2_rarity"></td>
+                            <td id="s3_rarity"></td>
+                            <td id="s4_rarity"></td>
+                        </tr>
+                        <tr style="display:none;">
                             <th scope="row">Character</th>
                             <td id="m1_char"></td>
                             <td id="m2_char"></td>
@@ -795,6 +817,15 @@
                                         </span>
                                     </span>
                                     <input style="text-align:right;width:150px" type="text" class="form-control" id="combobonus" name="combobonus" placeholder="200" value="200"><br>
+                                    <span style="margin-top:15px;display:inline-block;width:150px">
+                                        <span class="flateptip">
+                                            <label for="flatepbonus">Member EP Bonus <i class="fa fa-info-circle"></i></label>
+                                            <span class="flatepintip">
+                                                Bonus EP if using event cards.
+                                            </span>
+                                        </span>
+                                    </span>
+                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="flatepbonus" name="flatepbonus" placeholder="0" value="0"><br>
                                     <label style="margin-top:15px;width:150px" for="voltsel">Volts</label>
                                     <select class="selectpicker voltselect" name="voltsel" id="voltsel" data-width="fit">
                                         <option value="1" data-content="1">1</option>
@@ -872,15 +903,6 @@
                                     <input style="text-align:right;width:150px" type="text" class="form-control" id="roomscorein2" placeholder="4000000">
                                     <span style="margin-top:15px;display:inline-block;width:150px">
                                         <span class="paramtip">
-                                            <label for="paramselout2">Parameter % <i class="fa fa-info-circle"></i></label>
-                                            <span class="paramoptiontip">
-                                                See example image for calculating param bonus: <a href="../parkingcalc/parambonus_new.png" target="_blank">Example</a>
-                                            </span>
-                                        </span>
-                                    </span>
-                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="paramselout2" placeholder="40" value="40"><br>
-                                    <span style="margin-top:15px;display:inline-block;width:150px">
-                                        <span class="paramtip">
                                             <label for="teambonus2">Bonus % <i class="fa fa-info-circle"></i></label>
                                             <span class="paramoptiontip">
                                                 See image for calculating Team Bonus % (Additional 10% for double matching) <a href="../ep-calc/teambonus.jpg" target="_blank">Example</a>
@@ -888,6 +910,15 @@
                                         </span>
                                     </span>
                                     <input style="text-align:right;width:150px" type="text" class="form-control" id="teambonus2" name="teambonus2" placeholder="200" value="200"><br>
+                                    <span style="margin-top:15px;display:inline-block;width:150px">
+                                        <span class="paramtip">
+                                            <label for="paramselout2">Parameter % <i class="fa fa-info-circle"></i></label>
+                                            <span class="paramoptiontip">
+                                                See example image for calculating param bonus: <a href="../parkingcalc/parambonus_new.png" target="_blank">Example</a>
+                                            </span>
+                                        </span>
+                                    </span>
+                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="paramselout2" placeholder="40" value="40"><br>
                                     <span style="margin-top:15px;display:inline-block;width:150px">
                                         <span class="skilltip">
                                             <label for="combobonus2">Combo Bonus <i class="fa fa-info-circle"></i></label>
@@ -897,6 +928,15 @@
                                         </span>
                                     </span>
                                     <input style="text-align:right;width:150px" type="text" class="form-control" id="combobonus2" name="combobonus2" placeholder="200" value="200"><br>
+                                    <span style="margin-top:15px;display:inline-block;width:150px">
+                                        <span class="flateptip">
+                                            <label for="flatepbonus2">Member EP Bonus <i class="fa fa-info-circle"></i></label>
+                                            <span class="flatepintip">
+                                                Bonus EP if using event cards.
+                                            </span>
+                                        </span>
+                                    </span>
+                                    <input style="text-align:right;width:150px" type="text" class="form-control" id="flatepbonus2" name="flatepbonus2" placeholder="0" value="0"><br>
                                     <label style="margin-top:15px;width:150px" for="voltsel2">Volts</label>
                                     <select class="selectpicker voltselect" name="voltsel2" id="voltsel2" data-width="fit">
                                         <option value="1" data-content="1">1</option>
