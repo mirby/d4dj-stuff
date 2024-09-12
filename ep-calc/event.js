@@ -1817,6 +1817,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "154": {
+        "id":154,
+        "name":"Light up my heart",
+        "characters":"Marika,Saori,Hiiro,Aoi",
+        "type":"Bingo",
+        "style":"Cool",
+        "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*

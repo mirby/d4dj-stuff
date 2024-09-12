@@ -13292,6 +13292,62 @@ var cards = {
             "skill": .8,
             "icon": "card_icon_070340009_1.63baeb3d",
             "passive": "Life Boost 2.5-8.25%"
+        },
+        "947": {
+            "id": 947,
+            "character": "Saori",
+            "cardname": "Sending I Love You",
+            "unit": "Mermaid",
+            "type": "Cool",
+            "rarity": 3,
+            "heart": 11902,
+            "technical": 9221,
+            "physical": 11090,
+            "skill": .25,
+            "icon": "card_icon_030430007_1.75334d65",
+            "passive": "Manual Up 1.5-4%"
+        },
+        "948": {
+            "id": 948,
+            "character": "Marika",
+            "cardname": "Toast to Friendship",
+            "unit": "Mermaid",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 18725,
+            "technical": 14715,
+            "physical": 14704,
+            "skill": .5,
+            "icon": "card_icon_040420017_1.0b09dd5e",
+            "passive": "Life Boost 2.5-8.25%"
+        },
+        "949": {
+            "id": 949,
+            "character": "Hiiro",
+            "cardname": "Unforgettable Summer Night",
+            "unit": "Rondo",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 18878,
+            "technical": 11882,
+            "physical": 15860,
+            "skill": .5,
+            "icon": "card_icon_040530018_1.8d49ac0b",
+            "passive": "Auto Boost 2.5-8.5%"
+        },
+        "950": {
+            "id": 950,
+            "character": "Aoi",
+            "cardname": "Resolve at the Poolside",
+            "unit": "Rondo",
+            "type": "Cool",
+            "rarity": 4,
+            "heart": 18263,
+            "technical": 16274,
+            "physical": 13886,
+            "skill": .5,
+            "icon": "card_icon_040540018_1.996d9182",
+            "passive": "Groovy Solo 20-70%"
         }
     }
 
