@@ -13788,7 +13788,7 @@ var cards = {
         "skill": 0.5,
         "icon": "card_icon_040510016_1.18001035",
         "passive": "Auto Boost 2.5-8.5%",
-        "eventId": 0
+        "eventId": 148
     },
     "917": {
         "id": 917,
@@ -13803,7 +13803,7 @@ var cards = {
         "skill": 0.5,
         "icon": "card_icon_040520017_1.e4fae9e6",
         "passive": "Groovy Bonus 10-35%",
-        "eventId": 0
+        "eventId": 148
     },
     "918": {
         "id": 918,
@@ -13818,7 +13818,7 @@ var cards = {
         "skill": 0.5,
         "icon": "card_icon_040540017_1.cd9b934d",
         "passive": "Groovy Solo 20-70%",
-        "eventId": 0
+        "eventId": 148
     },
     "919": {
         "id": 919,
@@ -13833,7 +13833,7 @@ var cards = {
         "skill": 0.25,
         "icon": "card_icon_030530007_1.baf48194",
         "passive": "Manual Up 1.5-4%",
-        "eventId": 0
+        "eventId": 148
     },
     "920": {
         "id": 920,
@@ -13893,7 +13893,7 @@ var cards = {
         "skill": 0.5,
         "icon": "card_icon_040210015_1.f85fdc77",
         "passive": "Life Boost 2.5-8.25%",
-        "eventId": 0
+        "eventId": 150
     },
     "924": {
         "id": 924,
@@ -13908,7 +13908,7 @@ var cards = {
         "skill": 0.5,
         "icon": "card_icon_040230016_1.2a4a8145",
         "passive": "Groovy Bonus 10-35%",
-        "eventId": 0
+        "eventId": 150
     },
     "925": {
         "id": 925,
@@ -13923,7 +13923,7 @@ var cards = {
         "skill": 0.5,
         "icon": "card_icon_040240017_1.3ef21141",
         "passive": "Auto Boost 2.5-8.5%",
-        "eventId": 0
+        "eventId": 150
     },
     "926": {
         "id": 926,
@@ -13938,7 +13938,7 @@ var cards = {
         "skill": 0.25,
         "icon": "card_icon_030220009_1.f5612df4",
         "passive": "Groovy Solo 10-25%",
-        "eventId": 0
+        "eventId": 150
     },
     "927": {
         "id": 927,
@@ -14013,7 +14013,7 @@ var cards = {
         "skill": 0.8,
         "icon": "card_icon_070810006_1.12bd2a89",
         "passive": "Groovy Bonus 10-35%",
-        "eventId": 0
+        "eventId": 151
     },
     "932": {
         "id": 932,
@@ -14028,7 +14028,7 @@ var cards = {
         "skill": 0.8,
         "icon": "card_icon_070820006_1.a9a22a31",
         "passive": "Groovy Solo 20-70%",
-        "eventId": 0
+        "eventId": 151
     },
     "933": {
         "id": 933,
@@ -14043,7 +14043,7 @@ var cards = {
         "skill": 0.8,
         "icon": "card_icon_070830007_1.216dd707",
         "passive": "Life Boost 2.5-8.25%",
-        "eventId": 0
+        "eventId": 151
     },
     "934": {
         "id": 934,
@@ -14058,7 +14058,7 @@ var cards = {
         "skill": 0.8,
         "icon": "card_icon_070840005_1.4d63c2ba",
         "passive": "Manual Up 2.5-10%",
-        "eventId": 0
+        "eventId": 151
     },
     "935": {
         "id": 935,
@@ -14073,7 +14073,7 @@ var cards = {
         "skill": 0.5,
         "icon": "card_icon_040910004_1.b29455e0",
         "passive": "Groovy Bonus 10-35%",
-        "eventId": 0
+        "eventId": 152
     },
     "936": {
         "id": 936,
@@ -14088,7 +14088,7 @@ var cards = {
         "skill": 0.5,
         "icon": "card_icon_040920004_1.0b19d6d3",
         "passive": "Groovy Solo 20-70%",
-        "eventId": 0
+        "eventId": 152
     },
     "937": {
         "id": 937,
@@ -14103,7 +14103,7 @@ var cards = {
         "skill": 0.5,
         "icon": "card_icon_040930004_1.590b9f68",
         "passive": "Auto Boost 2.5-8.5%",
-        "eventId": 0
+        "eventId": 152
     },
     "938": {
         "id": 938,
@@ -14118,7 +14118,7 @@ var cards = {
         "skill": 0.25,
         "icon": "card_icon_030940002_1.31d18d1f",
         "passive": "Life Boost 1-3%",
-        "eventId": 0
+        "eventId": 152
     },
     "939": {
         "id": 939,
