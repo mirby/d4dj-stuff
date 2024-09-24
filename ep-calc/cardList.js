@@ -14299,6 +14299,66 @@ var cards = {
         "icon": "card_icon_040540018_1.996d9182",
         "passive": "Groovy Solo 20-70%",
         "eventId": 154
+    },
+    "951": {
+        "id": 951,
+        "character": "Miyu",
+        "cardname": "",
+        "unit": "LyriLily",
+        "type": "Party",
+        "rarity": 3,
+        "heart": 9497,
+        "technical": 12074,
+        "physical": 10655,
+        "skill": .25,
+        "icon": "card_icon_030610010_1.d531cf02",
+        "passive": "Groovy Solo 10-25%",
+        "eventId": 155
+    },
+    "952": {
+        "id": 952,
+        "character": "Haruna",
+        "cardname": "",
+        "unit": "LyriLily",
+        "type": "Party",
+        "rarity": 4,
+        "heart": 14724,
+        "technical": 19643,
+        "physical": 12846,
+        "skill": .5,
+        "icon": "card_icon_040620016_1.5f6aab1e",
+        "passive": "Groovy Bonus 10-35%",
+        "eventId": 155
+    },
+    "953": {
+        "id": 953,
+        "character": "Kurumi",
+        "cardname": "",
+        "unit": "LyriLily",
+        "type": "Party",
+        "rarity": 4,
+        "heart": 12014,
+        "technical": 19356,
+        "physical": 15933,
+        "skill": .5,
+        "icon": "card_icon_040630016_1.d3536bc4",
+        "passive": "Manual Up 2.5-10%",
+        "eventId": 155
+    },
+    "954": {
+        "id": 954,
+        "character": "Miiko",
+        "cardname": "",
+        "unit": "LyriLily",
+        "type": "Party",
+        "rarity": 4,
+        "heart": 16501,
+        "technical": 19202,
+        "physical": 11385,
+        "skill": .5,
+        "icon": "card_icon_040640015_1.30b0eabf",
+        "passive": "Life Boost 2.5-8.25%",
+        "eventId": 155
     }
 }
 

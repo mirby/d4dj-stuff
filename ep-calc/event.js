@@ -1828,6 +1828,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "155": {
+        "id":155,
+        "name":"Unraveling in the Summer Twilight",
+        "characters":"Miyu,Haruna,Kurumi,Miiko",
+        "type":"Poker",
+        "style":"Party",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
