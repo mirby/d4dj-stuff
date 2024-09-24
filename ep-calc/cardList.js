@@ -14303,7 +14303,7 @@ var cards = {
     "951": {
         "id": 951,
         "character": "Miyu",
-        "cardname": "",
+        "cardname": "Submersion! The Wise Spy",
         "unit": "LyriLily",
         "type": "Party",
         "rarity": 3,
@@ -14318,7 +14318,7 @@ var cards = {
     "952": {
         "id": 952,
         "character": "Haruna",
-        "cardname": "",
+        "cardname": "Infiltration! The Resilient Combatant",
         "unit": "LyriLily",
         "type": "Party",
         "rarity": 4,
@@ -14333,7 +14333,7 @@ var cards = {
     "953": {
         "id": 953,
         "character": "Kurumi",
-        "cardname": "",
+        "cardname": "Leap! The Agile Gunfighter",
         "unit": "LyriLily",
         "type": "Party",
         "rarity": 4,
@@ -14348,7 +14348,7 @@ var cards = {
     "954": {
         "id": 954,
         "character": "Miiko",
-        "cardname": "",
+        "cardname": "Capture! The Death-Defying Tracker",
         "unit": "LyriLily",
         "type": "Party",
         "rarity": 4,
