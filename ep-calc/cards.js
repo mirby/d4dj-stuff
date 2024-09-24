@@ -1315,6 +1315,8 @@ function refreshTeam() {
             document.getElementById(selection + "_charImageWrapper").appendChild(img);
             document.getElementById(selection + "_charfull").innerHTML = "";
             document.getElementById(selection + "_id").innerHTML = "";
+            document.getElementById(selection + "_eventId").innerHTML = "";
+            document.getElementById(selection + "_rarity").innerHTML = "";
             document.getElementById(selection + "_char").innerHTML = "";
             document.getElementById(selection + "_unit").innerHTML = "";
             document.getElementById(selection + "_type").innerHTML = "";
