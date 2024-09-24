@@ -6763,5 +6763,27 @@ var sectionsJp = [
     "combined": 141.877,
     "section2twice": 177.877,
     "sectionAvg": 47.292
+  },
+  {
+    "songID": "320021",
+    "songName": "Edel Lilie",
+    "1": 35.657,
+    "2": 41.143,
+    "3": 45.248,
+    "4": 112.458,
+    "combined": 122.048,
+    "section2twice": 163.191,
+    "sectionAvg": 40.683
+  },
+  {
+    "songID": "5050295",
+    "songName": "きゅびずむ",
+    "1": 41.514,
+    "2": 31.135,
+    "3": 49.675,
+    "4": 140.108,
+    "combined": 122.324,
+    "section2twice": 153.459,
+    "sectionAvg": 40.775
   }
 ]

@@ -66,16 +66,6 @@ var sectionsEn = [
     "sectionAvg": 29.811
   },
   {
-    "songID": "220002",
-    "songName": "Agehachou",
-    "1": 40.616,
-    "2": 33.231,
-    "3": 40.615,
-    "combined": 114.462,
-    "section2twice": 147.693,
-    "sectionAvg": 38.154
-  },
-  {
     "songID": "310001",
     "songName": "Photon Melodies",
     "1": 30.0,
@@ -85,17 +75,6 @@ var sectionsEn = [
     "combined": 95.615,
     "section2twice": 125.615,
     "sectionAvg": 31.872
-  },
-  {
-    "songID": "320001",
-    "songName": "The Galaxy Express 999",
-    "1": 26.087,
-    "2": 40.0,
-    "3": 25.652,
-    "4": 118.26,
-    "combined": 91.739,
-    "section2twice": 131.739,
-    "sectionAvg": 30.58
   },
   {
     "songID": "320002",
@@ -153,17 +132,6 @@ var sectionsEn = [
     "sectionAvg": 36.267
   },
   {
-    "songID": "420003",
-    "songName": "Dounimo Tomaranai",
-    "1": 35.41,
-    "2": 35.41,
-    "3": 37.378,
-    "4": 92.459,
-    "combined": 108.198,
-    "section2twice": 143.608,
-    "sectionAvg": 36.066
-  },
-  {
     "songID": "510001",
     "songName": "Movement",
     "1": 40.374,
@@ -184,17 +152,6 @@ var sectionsEn = [
     "combined": 105.6,
     "section2twice": 137.143,
     "sectionAvg": 35.2
-  },
-  {
-    "songID": "520003",
-    "songName": "Namaenonai Kaibutsu",
-    "1": 26.666,
-    "2": 26.666,
-    "3": 45.333,
-    "4": 109.333,
-    "combined": 98.665,
-    "section2twice": 125.331,
-    "sectionAvg": 32.888
   },
   {
     "songID": "310002",
@@ -318,17 +275,6 @@ var sectionsEn = [
     "sectionAvg": 32.889
   },
   {
-    "songID": "420005",
-    "songName": "Gamble Rumble",
-    "1": 42.254,
-    "2": 35.493,
-    "3": 32.958,
-    "4": 90.423,
-    "combined": 110.705,
-    "section2twice": 146.198,
-    "sectionAvg": 36.902
-  },
-  {
     "songID": "320005",
     "songName": "WHITE BREATH",
     "1": 38.621,
@@ -349,17 +295,6 @@ var sectionsEn = [
     "combined": 108.354,
     "section2twice": 142.237,
     "sectionAvg": 36.118
-  },
-  {
-    "songID": "120004",
-    "songName": "DAYS",
-    "1": 33.231,
-    "2": 33.231,
-    "3": 51.692,
-    "4": 114.462,
-    "combined": 118.154,
-    "section2twice": 151.385,
-    "sectionAvg": 39.385
   },
   {
     "songID": "5030001",
@@ -659,17 +594,6 @@ var sectionsEn = [
     "sectionAvg": 39.849
   },
   {
-    "songID": "420006",
-    "songName": "real Emotion",
-    "1": 35.625,
-    "2": 28.125,
-    "3": 36.562,
-    "4": 108.749,
-    "combined": 100.312,
-    "section2twice": 128.437,
-    "sectionAvg": 33.437
-  },
-  {
     "songID": "510008",
     "songName": "Crinoid",
     "1": 41.514,
@@ -725,17 +649,6 @@ var sectionsEn = [
     "sectionAvg": 41.286
   },
   {
-    "songID": "520008",
-    "songName": "KiLLiNG ME",
-    "1": 43.645,
-    "2": 32.235,
-    "3": 38.795,
-    "4": 116.101,
-    "combined": 114.675,
-    "section2twice": 146.91,
-    "sectionAvg": 38.225
-  },
-  {
     "songID": "110005",
     "songName": "Happiness to you♪",
     "1": 38.182,
@@ -767,17 +680,6 @@ var sectionsEn = [
     "combined": 117.367,
     "section2twice": 150.148,
     "sectionAvg": 39.122
-  },
-  {
-    "songID": "620004",
-    "songName": "Touch",
-    "1": 43.636,
-    "2": 33.454,
-    "3": 40.364,
-    "4": 116.364,
-    "combined": 117.454,
-    "section2twice": 150.908,
-    "sectionAvg": 39.151
   },
   {
     "songID": "120009",
@@ -1075,17 +977,6 @@ var sectionsEn = [
     "combined": 113.056,
     "section2twice": 145.252,
     "sectionAvg": 37.685
-  },
-  {
-    "songID": "3020001",
-    "songName": "WOW WAR TONIGHT",
-    "1": 35.294,
-    "2": 33.882,
-    "3": 39.882,
-    "4": 90.352,
-    "combined": 109.058,
-    "section2twice": 142.94,
-    "sectionAvg": 36.353
   },
   {
     "songID": "220007",
@@ -1615,17 +1506,6 @@ var sectionsEn = [
     "sectionAvg": 36.0
   },
   {
-    "songID": "220015",
-    "songName": "Agehachou",
-    "1": 40.616,
-    "2": 33.231,
-    "3": 43.847,
-    "4": 103.385,
-    "combined": 117.694,
-    "section2twice": 150.925,
-    "sectionAvg": 39.231
-  },
-  {
     "songID": "610005",
     "songName": "Certified Human!!!!",
     "1": 43.24,
@@ -1978,17 +1858,6 @@ var sectionsEn = [
     "sectionAvg": 40.114
   },
   {
-    "songID": "320014",
-    "songName": "Sirius",
-    "1": 40.737,
-    "2": 35.368,
-    "3": 41.372,
-    "4": 107.368,
-    "combined": 117.477,
-    "section2twice": 152.845,
-    "sectionAvg": 39.159
-  },
-  {
     "songID": "510013",
     "songName": "ReTINA",
     "1": 48.539,
@@ -2075,28 +1944,6 @@ var sectionsEn = [
     "combined": 115.492,
     "section2twice": 147.492,
     "sectionAvg": 38.497
-  },
-  {
-    "songID": "3020004",
-    "songName": "Love again",
-    "1": 44.597,
-    "2": 36.405,
-    "3": 39.614,
-    "4": 123.777,
-    "combined": 120.616,
-    "section2twice": 157.021,
-    "sectionAvg": 40.205
-  },
-  {
-    "songID": "3020005",
-    "songName": "EZ DO DANCE",
-    "1": 42.353,
-    "2": 35.294,
-    "3": 40.551,
-    "4": 95.294,
-    "combined": 118.198,
-    "section2twice": 153.492,
-    "sectionAvg": 39.399
   },
   {
     "songID": "210010",
@@ -2341,17 +2188,6 @@ var sectionsEn = [
     "sectionAvg": 41.007
   },
   {
-    "songID": "220018",
-    "songName": "Pretender",
-    "1": 36.522,
-    "2": 36.522,
-    "3": 42.747,
-    "4": 125.218,
-    "combined": 115.791,
-    "section2twice": 152.313,
-    "sectionAvg": 38.597
-  },
-  {
     "songID": "510014",
     "songName": "BLACK LOTUS",
     "1": 40.212,
@@ -2361,17 +2197,6 @@ var sectionsEn = [
     "combined": 115.751,
     "section2twice": 148.304,
     "sectionAvg": 38.584
-  },
-  {
-    "songID": "520013",
-    "songName": "Onaji Hoshi",
-    "1": 40.32,
-    "2": 34.561,
-    "3": 45.101,
-    "4": 122.881,
-    "combined": 119.982,
-    "section2twice": 154.543,
-    "sectionAvg": 39.994
   },
   {
     "songID": "5050086",
@@ -2394,17 +2219,6 @@ var sectionsEn = [
     "combined": 119.184,
     "section2twice": 151.684,
     "sectionAvg": 39.728
-  },
-  {
-    "songID": "620016",
-    "songName": "NYANDAA WANDAA DEIZU",
-    "1": 45.355,
-    "2": 30.236,
-    "3": 40.918,
-    "4": 120.956,
-    "combined": 116.509,
-    "section2twice": 146.745,
-    "sectionAvg": 38.836
   },
   {
     "songID": "5050097",
@@ -2880,17 +2694,6 @@ var sectionsEn = [
     "sectionAvg": 38.01
   },
   {
-    "songID": "220014",
-    "songName": "Koigokoro",
-    "1": 44.901,
-    "2": 33.377,
-    "3": 46.82,
-    "4": 122.384,
-    "combined": 125.098,
-    "section2twice": 158.475,
-    "sectionAvg": 41.699
-  },
-  {
     "songID": "5030076",
     "songName": "The Roar of the Spark",
     "1": 41.448,
@@ -3287,17 +3090,6 @@ var sectionsEn = [
     "sectionAvg": 38.249
   },
   {
-    "songID": "5030073",
-    "songName": "Geki! Teikoku Kagekidan",
-    "1": 47.027,
-    "2": 30.218,
-    "3": 36.518,
-    "4": 112.527,
-    "combined": 113.763,
-    "section2twice": 143.981,
-    "sectionAvg": 37.921
-  },
-  {
     "songID": "5030051",
     "songName": "HEAVEN'S RAVE",
     "1": 38.4,
@@ -3540,28 +3332,6 @@ var sectionsEn = [
     "sectionAvg": 40.296
   },
   {
-    "songID": "5030070",
-    "songName": "Hanasaku Otome",
-    "1": 27.856,
-    "2": 28.757,
-    "3": 44.866,
-    "4": 125.467,
-    "combined": 101.479,
-    "section2twice": 130.236,
-    "sectionAvg": 33.826
-  },
-  {
-    "songID": "5030071",
-    "songName": "Mihata no Moto ni",
-    "1": 32.672,
-    "2": 29.468,
-    "3": 50.57,
-    "4": 106.179,
-    "combined": 112.71,
-    "section2twice": 142.178,
-    "sectionAvg": 37.57
-  },
-  {
     "songID": "910001",
     "songName": "Get into the Abyssmare",
     "1": 34.909,
@@ -3637,17 +3407,6 @@ var sectionsEn = [
     "combined": 120.0,
     "section2twice": 151.875,
     "sectionAvg": 40.0
-  },
-  {
-    "songID": "620017",
-    "songName": "Love Story Wa Totsuzenni",
-    "1": 48.001,
-    "2": 30.462,
-    "3": 48.062,
-    "4": 122.77,
-    "combined": 126.525,
-    "section2twice": 156.987,
-    "sectionAvg": 42.175
   },
   {
     "songID": "210017",
@@ -3980,17 +3739,6 @@ var sectionsEn = [
     "sectionAvg": 43.855
   },
   {
-    "songID": "3020018",
-    "songName": "Plastic Love",
-    "1": 33.333,
-    "2": 33.334,
-    "3": 55.889,
-    "4": 124.444,
-    "combined": 122.556,
-    "section2twice": 155.89,
-    "sectionAvg": 40.852
-  },
-  {
     "songID": "3010020",
     "songName": "Melodious Stars",
     "1": 37.895,
@@ -4244,17 +3992,6 @@ var sectionsEn = [
     "sectionAvg": 42.897
   },
   {
-    "songID": "5050212",
-    "songName": "Excuse My Rudeness, But Could You Please RIP?",
-    "1": 47.42,
-    "2": 45.484,
-    "3": 52.342,
-    "4": 150.967,
-    "combined": 145.246,
-    "section2twice": 190.73,
-    "sectionAvg": 48.415
-  },
-  {
     "songID": "5050213",
     "songName": "Jouya Repaint",
     "1": 60.76,
@@ -4451,17 +4188,6 @@ var sectionsEn = [
     "combined": 133.239,
     "section2twice": 163.679,
     "sectionAvg": 44.413
-  },
-  {
-    "songID": "5030072",
-    "songName": "Chijou no Senshi",
-    "1": 49.182,
-    "2": 30.202,
-    "3": 48.263,
-    "4": 152.307,
-    "combined": 127.647,
-    "section2twice": 157.849,
-    "sectionAvg": 42.549
   },
   {
     "songID": "3020022",
@@ -5179,17 +4905,6 @@ var sectionsEn = [
     "sectionAvg": 40.46
   },
   {
-    "songID": "5050231",
-    "songName": "Rakuen",
-    "1": 36.032,
-    "2": 28.311,
-    "3": 62.056,
-    "4": 128.687,
-    "combined": 126.399,
-    "section2twice": 154.71,
-    "sectionAvg": 42.133
-  },
-  {
     "songID": "910009",
     "songName": "Now or Never",
     "1": 40.0,
@@ -5199,5 +4914,16 @@ var sectionsEn = [
     "combined": 135.6,
     "section2twice": 175.6,
     "sectionAvg": 45.2
+  },
+  {
+    "songID": "410025",
+    "songName": "WIN-WIN",
+    "1": 40.564,
+    "2": 40.564,
+    "3": 39.182,
+    "4": 106.479,
+    "combined": 120.31,
+    "section2twice": 160.874,
+    "sectionAvg": 40.103
   }
 ]
