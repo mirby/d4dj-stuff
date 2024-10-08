@@ -254,6 +254,7 @@ function getCardSet(type) {
         "137":["Your Color♥Sugar Time", "Heart-pounding♥Kiss You", "Gap Moe♥Sweetheart", "Maiden of Flowers♥Forever and Ever"],
         "143":["Little Red Riding Hood in the Forest", "The Captive Sleeping Beauty", "Snow White in the Mirror", "Cinderella at the stroke of midnight"],
         "146":["Pine Blue Soda", "Cherry Cream Soda", "Kiwi Fruit Tea", "Lime Rose Lemonade"],
+        "156":["Evening Serenity", "A Journey of Encounter", "Refreshing Breeze", "Sound of Waves"],
     };
 
     var raidSet = {
@@ -1835,6 +1836,17 @@ var eventList = {
         "type":"Poker",
         "style":"Party",
         "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
+    "156": {
+        "id":156,
+        "name":"A Bad Cynic Doggo VOL.6",
+        "characters":"Kyoko,Shinobu,Yuka,Esora",
+        "type":"Medley",
+        "style":"Cool",
+        "parameter":"Physical",
         "bonus":true,
         "comboBonus":true,
         "addition":""
