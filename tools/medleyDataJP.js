@@ -4477,17 +4477,6 @@ var sectionsJp = [
     "sectionAvg": 38.446
   },
   {
-    "songID": "5050179",
-    "songName": "青空Jumping Heart",
-    "1": 32.4,
-    "2": 30.0,
-    "3": 71.444,
-    "4": 106.8,
-    "combined": 133.844,
-    "section2twice": 163.844,
-    "sectionAvg": 44.615
-  },
-  {
     "songID": "3020015",
     "songName": "ストライク・ザ・ブラッド",
     "1": 42.0,
@@ -4519,28 +4508,6 @@ var sectionsJp = [
     "combined": 140.625,
     "section2twice": 178.125,
     "sectionAvg": 46.875
-  },
-  {
-    "songID": "5050181",
-    "songName": "虹色Passions！",
-    "1": 50.667,
-    "2": 30.666,
-    "3": 58.005,
-    "4": 148.0,
-    "combined": 139.338,
-    "section2twice": 170.004,
-    "sectionAvg": 46.446
-  },
-  {
-    "songID": "5050184",
-    "songName": "NO,Thank You!",
-    "1": 51.713,
-    "2": 38.453,
-    "3": 58.397,
-    "4": 156.606,
-    "combined": 148.563,
-    "section2twice": 187.016,
-    "sectionAvg": 49.521
   },
   {
     "songID": "910001",
@@ -6785,5 +6752,38 @@ var sectionsJp = [
     "combined": 122.324,
     "section2twice": 153.459,
     "sectionAvg": 40.775
+  },
+  {
+    "songID": "5050296",
+    "songName": "きゅびびびびずむ",
+    "1": 41.513,
+    "2": 36.324,
+    "3": 53.891,
+    "4": 153.402,
+    "combined": 131.728,
+    "section2twice": 168.052,
+    "sectionAvg": 43.909
+  },
+  {
+    "songID": "5050288",
+    "songName": "揺れ恋ゆららか！",
+    "1": 38.117,
+    "2": 33.882,
+    "3": 42.942,
+    "4": 104.471,
+    "combined": 114.941,
+    "section2twice": 148.823,
+    "sectionAvg": 38.314
+  },
+  {
+    "songID": "5050287",
+    "songName": "Now On Air",
+    "1": 38.918,
+    "2": 42.152,
+    "3": 41.198,
+    "4": 175.115,
+    "combined": 122.268,
+    "section2twice": 164.42,
+    "sectionAvg": 40.756
   }
 ]

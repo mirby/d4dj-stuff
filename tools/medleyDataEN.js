@@ -1682,28 +1682,6 @@ var sectionsEn = [
     "sectionAvg": 38.405
   },
   {
-    "songID": "5050061",
-    "songName": "Y",
-    "1": 41.38,
-    "2": 33.104,
-    "3": 39.364,
-    "4": 109.658,
-    "combined": 113.848,
-    "section2twice": 146.952,
-    "sectionAvg": 37.949
-  },
-  {
-    "songID": "5050050",
-    "songName": "Suspect",
-    "1": 37.5,
-    "2": 31.875,
-    "3": 46.875,
-    "4": 105.0,
-    "combined": 116.25,
-    "section2twice": 148.125,
-    "sectionAvg": 38.75
-  },
-  {
     "songID": "410010",
     "songName": "S.T.O.P.!",
     "1": 40.54,
@@ -1713,17 +1691,6 @@ var sectionsEn = [
     "combined": 115.588,
     "section2twice": 148.02,
     "sectionAvg": 38.529
-  },
-  {
-    "songID": "5050052",
-    "songName": "Dreaming Days",
-    "1": 44.285,
-    "2": 35.714,
-    "3": 44.249,
-    "4": 132.858,
-    "combined": 124.248,
-    "section2twice": 159.962,
-    "sectionAvg": 41.416
   },
   {
     "songID": "220017",
@@ -2122,17 +2089,6 @@ var sectionsEn = [
     "sectionAvg": 43.423
   },
   {
-    "songID": "5050055",
-    "songName": "Embrace of light",
-    "1": 37.894,
-    "2": 31.579,
-    "3": 48.465,
-    "4": 104.21,
-    "combined": 117.938,
-    "section2twice": 149.517,
-    "sectionAvg": 39.313
-  },
-  {
     "songID": "410011",
     "songName": "OMG",
     "1": 45.882,
@@ -2164,28 +2120,6 @@ var sectionsEn = [
     "combined": 125.549,
     "section2twice": 161.207,
     "sectionAvg": 41.85
-  },
-  {
-    "songID": "5050072",
-    "songName": "No Continue",
-    "1": 44.445,
-    "2": 36.001,
-    "3": 43.74,
-    "4": 121.334,
-    "combined": 124.186,
-    "section2twice": 160.187,
-    "sectionAvg": 41.395
-  },
-  {
-    "songID": "5050080",
-    "songName": "MANIFESTO",
-    "1": 48.0,
-    "2": 34.0,
-    "3": 41.02,
-    "4": 131.0,
-    "combined": 123.02,
-    "section2twice": 157.02,
-    "sectionAvg": 41.007
   },
   {
     "songID": "510014",
@@ -2230,17 +2164,6 @@ var sectionsEn = [
     "combined": 122.388,
     "section2twice": 162.838,
     "sectionAvg": 40.796
-  },
-  {
-    "songID": "5050098",
-    "songName": "Everlasting Soul",
-    "1": 43.5,
-    "2": 36.0,
-    "3": 43.112,
-    "4": 142.5,
-    "combined": 122.612,
-    "section2twice": 158.612,
-    "sectionAvg": 40.871
   },
   {
     "songID": "110021",
@@ -2507,28 +2430,6 @@ var sectionsEn = [
     "sectionAvg": 41.476
   },
   {
-    "songID": "5050083",
-    "songName": "Shangri-La",
-    "1": 43.076,
-    "2": 29.23,
-    "3": 35.775,
-    "4": 86.921,
-    "combined": 108.081,
-    "section2twice": 137.311,
-    "sectionAvg": 36.027
-  },
-  {
-    "songID": "5050079",
-    "songName": "Hoshi ga hajimaru",
-    "1": 42.857,
-    "2": 34.285,
-    "3": 42.038,
-    "4": 109.121,
-    "combined": 119.18,
-    "section2twice": 153.465,
-    "sectionAvg": 39.727
-  },
-  {
     "songID": "420016",
     "songName": "Renai♥Rider",
     "1": 41.379,
@@ -2549,17 +2450,6 @@ var sectionsEn = [
     "combined": 127.173,
     "section2twice": 161.673,
     "sectionAvg": 42.391
-  },
-  {
-    "songID": "5050094",
-    "songName": "Soul's Refrain",
-    "1": 40.616,
-    "2": 33.23,
-    "3": 45.225,
-    "4": 147.693,
-    "combined": 119.071,
-    "section2twice": 152.301,
-    "sectionAvg": 39.69
   },
   {
     "songID": "5030062",
@@ -2604,17 +2494,6 @@ var sectionsEn = [
     "combined": 117.901,
     "section2twice": 146.264,
     "sectionAvg": 39.3
-  },
-  {
-    "songID": "5050101",
-    "songName": "Chiisana Kiseki",
-    "1": 40.563,
-    "2": 32.112,
-    "3": 39.239,
-    "4": 116.133,
-    "combined": 111.914,
-    "section2twice": 144.026,
-    "sectionAvg": 37.305
   },
   {
     "songID": "310015",
@@ -2791,17 +2670,6 @@ var sectionsEn = [
     "combined": 116.524,
     "section2twice": 150.406,
     "sectionAvg": 38.841
-  },
-  {
-    "songID": "5050108",
-    "songName": "EXIST",
-    "1": 49.107,
-    "2": 27.429,
-    "3": 46.025,
-    "4": 131.392,
-    "combined": 122.561,
-    "section2twice": 149.99,
-    "sectionAvg": 40.854
   },
   {
     "songID": "110020",
@@ -3123,17 +2991,6 @@ var sectionsEn = [
     "sectionAvg": 43.506
   },
   {
-    "songID": "5050169",
-    "songName": "MIRACLE RUSH",
-    "1": 50.0,
-    "2": 35.714,
-    "3": 49.786,
-    "4": 102.857,
-    "combined": 135.5,
-    "section2twice": 171.214,
-    "sectionAvg": 45.167
-  },
-  {
     "songID": "220022",
     "songName": "UNION",
     "1": 36.404,
@@ -3244,17 +3101,6 @@ var sectionsEn = [
     "sectionAvg": 37.852
   },
   {
-    "songID": "5050186",
-    "songName": "Afuregu ～Aufregendes Leben～",
-    "1": 40.656,
-    "2": 32.787,
-    "3": 52.486,
-    "4": 159.344,
-    "combined": 125.929,
-    "section2twice": 158.716,
-    "sectionAvg": 41.976
-  },
-  {
     "songID": "610018",
     "songName": "I Shall Be a Cat (Kawaii×Future×Hard Mix)",
     "1": 46.546,
@@ -3308,17 +3154,6 @@ var sectionsEn = [
     "combined": 116.257,
     "section2twice": 147.166,
     "sectionAvg": 38.752
-  },
-  {
-    "songID": "5030043",
-    "songName": "R-TYPE BGM",
-    "1": 44.275,
-    "2": 32.416,
-    "3": 48.734,
-    "4": 137.243,
-    "combined": 125.425,
-    "section2twice": 157.841,
-    "sectionAvg": 41.808
   },
   {
     "songID": "5030049",
@@ -3913,105 +3748,6 @@ var sectionsEn = [
     "combined": 132.667,
     "section2twice": 178.001,
     "sectionAvg": 44.222
-  },
-  {
-    "songID": "5050217",
-    "songName": "Accelerate",
-    "1": 36.191,
-    "2": 38.095,
-    "3": 39.551,
-    "4": 121.905,
-    "combined": 113.837,
-    "section2twice": 151.932,
-    "sectionAvg": 37.946
-  },
-  {
-    "songID": "5050218",
-    "songName": "Teenage Crush Chocolate(Seisyun Chocolate) - Christmas Version",
-    "1": 51.282,
-    "2": 32.82,
-    "3": 49.847,
-    "4": 129.231,
-    "combined": 133.949,
-    "section2twice": 166.769,
-    "sectionAvg": 44.65
-  },
-  {
-    "songID": "5050219",
-    "songName": "START",
-    "1": 51.429,
-    "2": 45.714,
-    "3": 49.786,
-    "4": 139.429,
-    "combined": 146.929,
-    "section2twice": 192.643,
-    "sectionAvg": 48.976
-  },
-  {
-    "songID": "5050220",
-    "songName": "Love Love Alien (Suki Suki Seijin)",
-    "1": 41.514,
-    "2": 41.513,
-    "3": 50.327,
-    "4": 127.11,
-    "combined": 133.354,
-    "section2twice": 174.867,
-    "sectionAvg": 44.451
-  },
-  {
-    "songID": "5050221",
-    "songName": "Shangri-La For The Two of Us (Bokuradakeno Shangri-La)",
-    "1": 33.231,
-    "2": 33.231,
-    "3": 45.838,
-    "4": 107.077,
-    "combined": 112.3,
-    "section2twice": 145.531,
-    "sectionAvg": 37.433
-  },
-  {
-    "songID": "5050214",
-    "songName": "ZenjinruiUsagikakeikaku!",
-    "1": 49.18,
-    "2": 33.443,
-    "3": 60.91,
-    "4": 129.836,
-    "combined": 143.533,
-    "section2twice": 176.976,
-    "sectionAvg": 47.844
-  },
-  {
-    "songID": "5050215",
-    "songName": "Stay Blue",
-    "1": 40.216,
-    "2": 27.838,
-    "3": 60.636,
-    "4": 137.514,
-    "combined": 128.69,
-    "section2twice": 156.528,
-    "sectionAvg": 42.897
-  },
-  {
-    "songID": "5050213",
-    "songName": "Jouya Repaint",
-    "1": 60.76,
-    "2": 36.456,
-    "3": 47.544,
-    "4": 150.38,
-    "combined": 144.76,
-    "section2twice": 181.216,
-    "sectionAvg": 48.253
-  },
-  {
-    "songID": "5050216",
-    "songName": "Sparklers",
-    "1": 33.104,
-    "2": 35.862,
-    "3": 53.563,
-    "4": 104.828,
-    "combined": 122.529,
-    "section2twice": 158.391,
-    "sectionAvg": 40.843
   },
   {
     "songID": "3010024",
@@ -4925,5 +4661,49 @@ var sectionsEn = [
     "combined": 120.31,
     "section2twice": 160.874,
     "sectionAvg": 40.103
+  },
+  {
+    "songID": "610027",
+    "songName": "Summer Won't",
+    "1": 37.334,
+    "2": 40.0,
+    "3": 42.284,
+    "4": 122.667,
+    "combined": 119.618,
+    "section2twice": 159.618,
+    "sectionAvg": 39.873
+  },
+  {
+    "songID": "910010",
+    "songName": "ARK",
+    "1": 54.0,
+    "2": 36.0,
+    "3": 51.877,
+    "4": 150.0,
+    "combined": 141.877,
+    "section2twice": 177.877,
+    "sectionAvg": 47.292
+  },
+  {
+    "songID": "5050295",
+    "songName": "Cubism",
+    "1": 41.514,
+    "2": 31.135,
+    "3": 49.675,
+    "4": 140.108,
+    "combined": 122.324,
+    "section2twice": 153.459,
+    "sectionAvg": 40.775
+  },
+  {
+    "songID": "5050296",
+    "songName": "Cubibibibism",
+    "1": 41.513,
+    "2": 36.324,
+    "3": 53.891,
+    "4": 153.402,
+    "combined": 131.728,
+    "section2twice": 168.052,
+    "sectionAvg": 43.909
   }
 ]
