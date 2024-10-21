@@ -14464,6 +14464,66 @@ var cards = {
         "icon": "card_icon_070240011_1.662e0ddc",
         "passive": "Manual Up 2.5-10%",
         "eventId": 156
+    },
+    "962": {
+        "id": 962,
+        "character": "Rinku",
+        "cardname": "Sharing Autumn Moon with Friends",
+        "unit": "HapiAra",
+        "type": "Elegant",
+        "rarity": 4,
+        "heart": 19840,
+        "technical": 15635,
+        "physical": 12645,
+        "skill": .5,
+        "icon": "card_icon_040110015_1.d3fcf65b",
+        "passive": "Auto Boost 2.5-8.5%",
+        "eventId": 157
+    },
+    "963": {
+        "id": 963,
+        "character": "Maho",
+        "cardname": "Mischievous Faint Moon",
+        "unit": "HapiAra",
+        "type": "Elegant",
+        "rarity": 4,
+        "heart": 19783,
+        "technical": 12312,
+        "physical": 14977,
+        "skill": .5,
+        "icon": "card_icon_040120017_1.d76ddd26",
+        "passive": "Manual Up 2.5-10%",
+        "eventId": 157
+    },
+    "964": {
+        "id": 964,
+        "character": "Muni",
+        "cardname": "The Hopping Moon Rabbit",
+        "unit": "HapiAra",
+        "type": "Elegant",
+        "rarity": 4,
+        "heart": 19707,
+        "technical": 15088,
+        "physical": 12056,
+        "skill": .5,
+        "icon": "card_icon_040130017_1.befb762b",
+        "passive": "Auto Boost 2.5-8.5%",
+        "eventId": 157
+    },
+    "965": {
+        "id": 965,
+        "character": "Rei",
+        "cardname": "Moon Blossoms Blooming in the Twilight",
+        "unit": "HapiAra",
+        "type": "Elegant",
+        "rarity": 3,
+        "heart": 12851,
+        "technical": 9528,
+        "physical": 9439,
+        "skill": .25,
+        "icon": "card_icon_030140008_1.cf33e39b",
+        "passive": "Groovy Bonus 5-11.5%",
+        "eventId": 157
     }
 }
 

@@ -1851,6 +1851,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "157": {
+        "id":157,
+        "name":"To Go Around Twilight Travel Sentiment",
+        "characters":"Rinku,Maho,Muni,Rei",
+        "type":"Poker",
+        "style":"Elegant",
+        "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
