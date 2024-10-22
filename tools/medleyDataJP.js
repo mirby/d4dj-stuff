@@ -6785,5 +6785,16 @@ var sectionsJp = [
     "combined": 122.268,
     "section2twice": 164.42,
     "sectionAvg": 40.756
+  },
+  {
+    "songID": "1010002",
+    "songName": "buzzよりbite you",
+    "1": 35.556,
+    "2": 42.666,
+    "3": 49.557,
+    "4": 131.556,
+    "combined": 127.779,
+    "section2twice": 170.445,
+    "sectionAvg": 42.593
   }
 ]

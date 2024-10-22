@@ -4705,5 +4705,27 @@ var sectionsEn = [
     "combined": 131.728,
     "section2twice": 168.052,
     "sectionAvg": 43.909
+  },
+  {
+    "songID": "240001",
+    "songName": "RAVE INTO THE PEAKY VIBES",
+    "1": 43.886,
+    "2": 43.886,
+    "3": 45.885,
+    "4": 126.172,
+    "combined": 133.657,
+    "section2twice": 177.543,
+    "sectionAvg": 44.552
+  },
+  {
+    "songID": "940001",
+    "songName": "Lost in the Abyss",
+    "1": 37.091,
+    "2": 34.909,
+    "3": 47.005,
+    "4": 120.0,
+    "combined": 119.005,
+    "section2twice": 153.914,
+    "sectionAvg": 39.668
   }
 ]
