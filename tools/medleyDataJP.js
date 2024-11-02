@@ -3025,17 +3025,6 @@ var sectionsJp = [
     "sectionAvg": 39.271
   },
   {
-    "songID": "5050099",
-    "songName": "START!! True dreams",
-    "1": 40.449,
-    "2": 28.315,
-    "3": 42.301,
-    "4": 107.865,
-    "combined": 111.065,
-    "section2twice": 139.38,
-    "sectionAvg": 37.022
-  },
-  {
     "songID": "5050097",
     "songName": "Stellar Stellar",
     "1": 37.752,
@@ -5984,17 +5973,6 @@ var sectionsJp = [
     "sectionAvg": 35.072
   },
   {
-    "songID": "5050260",
-    "songName": "Starlight challenge",
-    "1": 43.279,
-    "2": 36.721,
-    "3": 26.605,
-    "4": 111.475,
-    "combined": 106.605,
-    "section2twice": 143.326,
-    "sectionAvg": 35.535
-  },
-  {
     "songID": "320018",
     "songName": "irony",
     "1": 40.52,
@@ -6765,6 +6743,17 @@ var sectionsJp = [
     "sectionAvg": 43.909
   },
   {
+    "songID": "5050304",
+    "songName": "はいよろこんで",
+    "1": 39.184,
+    "2": 29.388,
+    "3": 49.348,
+    "4": 138.775,
+    "combined": 117.92,
+    "section2twice": 147.308,
+    "sectionAvg": 39.307
+  },
+  {
     "songID": "5050288",
     "songName": "揺れ恋ゆららか！",
     "1": 38.117,
@@ -6787,6 +6776,39 @@ var sectionsJp = [
     "sectionAvg": 40.756
   },
   {
+    "songID": "510027",
+    "songName": "ARCANA(Sakuzyo Remix)",
+    "1": 47.347,
+    "2": 34.286,
+    "3": 46.693,
+    "4": 137.143,
+    "combined": 128.326,
+    "section2twice": 162.612,
+    "sectionAvg": 42.775
+  },
+  {
+    "songID": "610028",
+    "songName": "Maihime(kors k Remix)",
+    "1": 37.895,
+    "2": 36.315,
+    "3": 47.791,
+    "4": 126.316,
+    "combined": 122.001,
+    "section2twice": 158.316,
+    "sectionAvg": 40.667
+  },
+  {
+    "songID": "540001",
+    "songName": "燐華",
+    "1": 30.0,
+    "2": 29.062,
+    "3": 47.938,
+    "4": 162.187,
+    "combined": 107.0,
+    "section2twice": 136.062,
+    "sectionAvg": 35.667
+  },
+  {
     "songID": "1010002",
     "songName": "buzzよりbite you",
     "1": 35.556,
@@ -6796,5 +6818,38 @@ var sectionsJp = [
     "combined": 127.779,
     "section2twice": 170.445,
     "sectionAvg": 42.593
+  },
+  {
+    "songID": "110034",
+    "songName": "4 PIECES OF CAKE",
+    "1": 31.25,
+    "2": 30.0,
+    "3": 46.437,
+    "4": 125.0,
+    "combined": 107.687,
+    "section2twice": 137.687,
+    "sectionAvg": 35.896
+  },
+  {
+    "songID": "920005",
+    "songName": "唱",
+    "1": 41.818,
+    "2": 43.637,
+    "3": 38.839,
+    "4": 141.818,
+    "combined": 124.294,
+    "section2twice": 167.931,
+    "sectionAvg": 41.431
+  },
+  {
+    "songID": "210027",
+    "songName": "We are COMPLETE!",
+    "1": 45.0,
+    "2": 30.0,
+    "3": 34.783,
+    "4": 120.0,
+    "combined": 109.783,
+    "section2twice": 139.783,
+    "sectionAvg": 36.594
   }
 ]

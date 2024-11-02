@@ -116,6 +116,12 @@ var birthdays = [
         "socials":""
     },
     {
+        "name": "Date-chan",
+        "type": "character",
+        "birthday": "4/20",
+        "socials":""
+    },
+    {
         "name": "Yamate Kyoko",
         "type": "character",
         "birthday": "4/27",
@@ -173,6 +179,12 @@ var birthdays = [
         "name": "Takao Toka",
         "type": "character",
         "birthday": "7/22",
+        "socials":""
+    },
+    {
+        "name": "Azai Eimi",
+        "type": "character",
+        "birthday": "7/24",
         "socials":""
     },
     {
@@ -254,6 +266,12 @@ var birthdays = [
         "socials":""
     },
     {
+        "name": "Shimazu Shika",
+        "type": "character",
+        "birthday": "11/13",
+        "socials":""
+    },
+    {
         "name": "Hidaka Saori",
         "type": "character",
         "birthday": "11/27",
@@ -269,6 +287,12 @@ var birthdays = [
         "name": "Sakurada Miyu",
         "type": "character",
         "birthday": "12/14",
+        "socials":""
+    },
+    {
+        "name": "Bessyo Bell",
+        "type": "character",
+        "birthday": "12/25",
         "socials":""
     },
     {

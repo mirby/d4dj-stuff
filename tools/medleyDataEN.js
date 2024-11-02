@@ -4727,5 +4727,38 @@ var sectionsEn = [
     "combined": 119.005,
     "section2twice": 153.914,
     "sectionAvg": 39.668
+  },
+  {
+    "songID": "510027",
+    "songName": "ARCANA(Sakuzyo Remix)",
+    "1": 47.347,
+    "2": 34.286,
+    "3": 46.693,
+    "4": 137.143,
+    "combined": 128.326,
+    "section2twice": 162.612,
+    "sectionAvg": 42.775
+  },
+  {
+    "songID": "610028",
+    "songName": "Maihime(kors k Remix)",
+    "1": 37.895,
+    "2": 36.315,
+    "3": 47.791,
+    "4": 126.316,
+    "combined": 122.001,
+    "section2twice": 158.316,
+    "sectionAvg": 40.667
+  },
+  {
+    "songID": "540001",
+    "songName": "Rinka",
+    "1": 30.0,
+    "2": 29.062,
+    "3": 47.938,
+    "4": 162.187,
+    "combined": 107.0,
+    "section2twice": 136.062,
+    "sectionAvg": 35.667
   }
 ]
