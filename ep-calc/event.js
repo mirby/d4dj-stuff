@@ -268,6 +268,7 @@ function getCardSet(type) {
         "120":["Hitagi Crab", "Nadeko Snake", "Mayoi Snail", "Suruga Monkey"],
         "121":["Karen Bee", "Tsukihi Phoenix", "Tsubasa Cat", "Shinobu Time"],
         "138":["Code Name Flower Garden", "Code Name Daughter Dearest", "Code Name Glint", "Code Name Fool"],
+        "158":["Siscon Idol", "Bunny Girl Senpai", "Petite Devil Kohai", "Sister Venturing Out"],
     };
 
     if (type === "medley") {
@@ -1858,6 +1859,17 @@ var eventList = {
         "type":"Poker",
         "style":"Elegant",
         "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
+    "158": {
+        "id":158,
+        "name":"Rascal DJ Girl Do Dream of a Club Event",
+        "characters":"Yuka,Marika,Saori,Miiko",
+        "type":"Raid",
+        "style":"None",
+        "parameter":"None",
         "bonus":true,
         "comboBonus":true,
         "addition":""
