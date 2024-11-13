@@ -14644,6 +14644,66 @@ var cards = {
         "icon": "card_icon_070230006_1.f2488311",
         "passive": "Manual Up 2.5-9%",
         "eventId": 158
+    },
+    "974": {
+        "id": 974,
+        "character": "Eimi",
+        "cardname": "underdog's Answer",
+        "unit": "Doggo",
+        "type": "Street",
+        "rarity": 4,
+        "heart": 20088,
+        "technical": 8791,
+        "physical": 13666,
+        "skill": .5,
+        "icon": "card_icon_041010002_1.ab14768c",
+        "passive": "Auto Boost 2.5-8.5%",
+        "eventId": 159
+    },
+    "975": {
+        "id": 975,
+        "character": "Bell",
+        "cardname": "Bite at mad dogs",
+        "unit": "Doggo",
+        "type": "Street",
+        "rarity": 4,
+        "heart": 19856,
+        "technical": 9450,
+        "physical": 14263,
+        "skill": .5,
+        "icon": "card_icon_041020002_1.cb2f1de5",
+        "passive": "Groovy Solo 20-70%",
+        "eventId": 159
+    },
+    "976": {
+        "id": 976,
+        "character": "Shika",
+        "cardname": "Catch hold of dog tail",
+        "unit": "Doggo",
+        "type": "Street",
+        "rarity": 4,
+        "heart": 19866,
+        "technical": 13613,
+        "physical": 9103,
+        "skill": .5,
+        "icon": "card_icon_041030002_1.bd12bb5e",
+        "passive": "Groovy Bonus 10-35%",
+        "eventId": 159
+    },
+    "977": {
+        "id": 977,
+        "character": "Date-chan",
+        "cardname": "Don't miss the barking",
+        "unit": "Doggo",
+        "type": "Street",
+        "rarity": 4,
+        "heart": 19947,
+        "technical": 13485,
+        "physical": 9901,
+        "skill": .5,
+        "icon": "card_icon_041040002_1.81c91f8d",
+        "passive": "Manual Up 2.5-10%",
+        "eventId": 159
     }
 }
 

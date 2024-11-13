@@ -1874,6 +1874,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "159": {
+        "id":159,
+        "name":"A Bad Cynic Doggo VOL.7",
+        "characters":"Eimi,Bell,Shika,Date-chan",
+        "type":"Bingo",
+        "style":"Street",
+        "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
