@@ -1885,6 +1885,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "160": {
+        "id":160,
+        "name":"Lyrical Lily The Side Story: Arisugawa Student Council Chronicles VOL.1",
+        "characters":"None",
+        "type":"Raid",
+        "style":"None",
+        "parameter":"None",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":"50% power boost for 4th anni cards in Multi. 25% in Special Raid"
+    },
 }
 
 /*
