@@ -4760,5 +4760,38 @@ var sectionsEn = [
     "combined": 107.0,
     "section2twice": 136.062,
     "sectionAvg": 35.667
+  },
+  {
+    "songID": "1010002",
+    "songName": "Bite more than Buzz",
+    "1": 35.556,
+    "2": 42.666,
+    "3": 49.557,
+    "4": 131.556,
+    "combined": 127.779,
+    "section2twice": 170.445,
+    "sectionAvg": 42.593
+  },
+  {
+    "songID": "5050304",
+    "songName": "Hai Yorokonde",
+    "1": 39.184,
+    "2": 29.388,
+    "3": 49.348,
+    "4": 138.775,
+    "combined": 117.92,
+    "section2twice": 147.308,
+    "sectionAvg": 39.307
+  },
+  {
+    "songID": "110034",
+    "songName": "4 PIECES OF CAKE",
+    "1": 31.25,
+    "2": 30.0,
+    "3": 46.437,
+    "4": 125.0,
+    "combined": 107.687,
+    "section2twice": 137.687,
+    "sectionAvg": 35.896
   }
 ]

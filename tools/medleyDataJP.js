@@ -5984,17 +5984,6 @@ var sectionsJp = [
     "sectionAvg": 42.353
   },
   {
-    "songID": "5050256",
-    "songName": "WITH",
-    "1": 45.257,
-    "2": 42.514,
-    "3": 50.002,
-    "4": 148.115,
-    "combined": 137.773,
-    "section2twice": 180.287,
-    "sectionAvg": 45.924
-  },
-  {
     "songID": "5050257",
     "songName": "Chance! & Revenge!",
     "1": 42.532,
@@ -6851,5 +6840,93 @@ var sectionsJp = [
     "combined": 109.783,
     "section2twice": 139.783,
     "sectionAvg": 36.594
+  },
+  {
+    "songID": "310026",
+    "songName": "Meteor",
+    "1": 38.4,
+    "2": 33.6,
+    "3": 33.219,
+    "4": 118.0,
+    "combined": 105.219,
+    "section2twice": 138.819,
+    "sectionAvg": 35.073
+  },
+  {
+    "songID": "610029",
+    "songName": "君たちはKawaiku生きるか",
+    "1": 41.143,
+    "2": 41.143,
+    "3": 49.068,
+    "4": 125.143,
+    "combined": 131.354,
+    "section2twice": 172.497,
+    "sectionAvg": 43.785
+  },
+  {
+    "songID": "5050292",
+    "songName": "Distortion (feat. Yunomi)",
+    "1": 36.0,
+    "2": 30.0,
+    "3": 39.75,
+    "4": 162.0,
+    "combined": 105.75,
+    "section2twice": 135.75,
+    "sectionAvg": 35.25
+  },
+  {
+    "songID": "5050293",
+    "songName": "Chick Chick love♡ (Prod. Nor)",
+    "1": 45.0,
+    "2": 30.0,
+    "3": 51.687,
+    "4": 120.0,
+    "combined": 126.687,
+    "section2twice": 156.687,
+    "sectionAvg": 42.229
+  },
+  {
+    "songID": "5050294",
+    "songName": "Prayer(Prod. picco)",
+    "1": 36.923,
+    "2": 36.924,
+    "3": 41.512,
+    "4": 127.692,
+    "combined": 115.359,
+    "section2twice": 152.283,
+    "sectionAvg": 38.453
+  },
+  {
+    "songID": "5050289",
+    "songName": "Catch a Fire (Prod. ケンモチヒデフミ)",
+    "1": 40.279,
+    "2": 35.245,
+    "3": 38.922,
+    "4": 122.518,
+    "combined": 114.446,
+    "section2twice": 149.691,
+    "sectionAvg": 38.149
+  },
+  {
+    "songID": "5050290",
+    "songName": "Make Some Noise (feat.オタユキ, Belex)",
+    "1": 37.5,
+    "2": 37.5,
+    "3": 37.154,
+    "4": 135.0,
+    "combined": 112.154,
+    "section2twice": 149.654,
+    "sectionAvg": 37.385
+  },
+  {
+    "songID": "5050291",
+    "songName": "Sweet Illusion (feat. DE DE MOUSE)",
+    "1": 45.0,
+    "2": 31.875,
+    "3": 37.645,
+    "4": 125.625,
+    "combined": 114.52,
+    "section2twice": 146.395,
+    "sectionAvg": 38.173
   }
 ]
