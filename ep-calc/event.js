@@ -1896,6 +1896,17 @@ var eventList = {
         "comboBonus":true,
         "addition":"50% power boost for 4th anni cards in Multi. 25% in Special Raid"
     },
+    "161": {
+        "id":161,
+        "name":"The Magic!? of Halloween!",
+        "characters":"Michiru,Lumina,Neo,Sophia",
+        "type":"Poker",
+        "style":"Cute",
+        "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
