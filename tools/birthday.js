@@ -296,6 +296,12 @@ var birthdays = [
         "socials":""
     },
     {
+        "name": "Miyumi Shuri",
+        "type": "character",
+        "birthday": "1/6",
+        "socials":"https://x.com/miyumi_shuri"
+    },
+    {
         "name": "Tsunko",
         "type": "character",
         "birthday": "1/9",
@@ -486,12 +492,6 @@ var birthdays = [
         "type": "character",
         "birthday": "10/3",
         "socials":"https://x.com/rihonyan103"
-    },
-    {
-        "name": "Otsuka Sae",
-        "type": "character",
-        "birthday": "10/10",
-        "socials":"https://x.com/Sae_Otsuka"
     },
     {
         "name": "May'n",

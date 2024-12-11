@@ -1606,17 +1606,6 @@ var sectionsJp = [
     "sectionAvg": 36.657
   },
   {
-    "songID": "5050007",
-    "songName": "NEXT COLOR PLANET",
-    "1": 36.363,
-    "2": 30.909,
-    "3": 44.716,
-    "4": 120.0,
-    "combined": 111.988,
-    "section2twice": 142.897,
-    "sectionAvg": 37.329
-  },
-  {
     "songID": "110012",
     "songName": "はぁ〜い☆FORTUNE！",
     "1": 40.946,
@@ -5984,39 +5973,6 @@ var sectionsJp = [
     "sectionAvg": 42.353
   },
   {
-    "songID": "5050257",
-    "songName": "Chance! & Revenge!",
-    "1": 42.532,
-    "2": 42.532,
-    "3": 47.937,
-    "4": 129.874,
-    "combined": 133.001,
-    "section2twice": 175.533,
-    "sectionAvg": 44.334
-  },
-  {
-    "songID": "5050258",
-    "songName": "SHOOT!",
-    "1": 39.149,
-    "2": 27.234,
-    "3": 40.947,
-    "4": 124.255,
-    "combined": 107.33,
-    "section2twice": 134.564,
-    "sectionAvg": 35.777
-  },
-  {
-    "songID": "5050259",
-    "songName": "Os-宇宙人",
-    "1": 37.171,
-    "2": 27.031,
-    "3": 47.454,
-    "4": 104.761,
-    "combined": 111.656,
-    "section2twice": 138.687,
-    "sectionAvg": 37.219
-  },
-  {
     "songID": "120025",
     "songName": "ヒトリゴト",
     "1": 42.182,
@@ -6730,6 +6686,17 @@ var sectionsJp = [
     "combined": 131.728,
     "section2twice": 168.052,
     "sectionAvg": 43.909
+  },
+  {
+    "songID": "5050307",
+    "songName": "美少女無罪♡パイレーツ",
+    "1": 48.0,
+    "2": 35.294,
+    "3": 45.896,
+    "4": 145.41,
+    "combined": 129.19,
+    "section2twice": 164.484,
+    "sectionAvg": 43.063
   },
   {
     "songID": "5050304",

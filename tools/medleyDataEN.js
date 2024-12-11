@@ -4793,5 +4793,16 @@ var sectionsEn = [
     "combined": 107.687,
     "section2twice": 137.687,
     "sectionAvg": 35.896
+  },
+  {
+    "songID": "210027",
+    "songName": "We are COMPLETE!",
+    "1": 45.0,
+    "2": 30.0,
+    "3": 34.783,
+    "4": 120.0,
+    "combined": 109.783,
+    "section2twice": 139.783,
+    "sectionAvg": 36.594
   }
 ]
