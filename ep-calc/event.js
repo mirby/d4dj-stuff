@@ -1907,6 +1907,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "162": {
+        "id":162,
+        "name":"The Holy Night, Where Stars Glisten Serenely",
+        "characters":"Tsubaki,Nagisa,Hiiro,Aoi",
+        "type":"Medley",
+        "style":"Cute",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*

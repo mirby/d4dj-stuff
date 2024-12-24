@@ -15334,6 +15334,66 @@ var cards = {
         "icon": "card_icon_030920001_1.7e9ea902",
         "passive": "Groovy Bonus 5-11.5%",
         "eventId": 161
+    },
+    "1020": {
+        "id": 1020,
+        "character": "Tsubaki",
+        "cardname": "Snowfireworks Beckoning You",
+        "unit": "Rondo",
+        "type": "Cute",
+        "rarity": 3,
+        "heart": 9310,
+        "technical": 12605,
+        "physical": 9543,
+        "skill": .25,
+        "icon": "card_icon_030510010_1.54aa3574",
+        "passive": "Auto Boost 1.5-3%",
+        "eventId": 162
+    },
+    "1021": {
+        "id": 1021,
+        "character": "Nagisa",
+        "cardname": "Snowlit Night Sky with You",
+        "unit": "Rondo",
+        "type": "Cute",
+        "rarity": 4,
+        "heart": 18080,
+        "technical": 19933,
+        "physical": 14716,
+        "skill": .5,
+        "icon": "card_icon_040520018_1.6dbd39c8",
+        "passive": "Manual Up 2.5-10.5%",
+        "eventId": 162
+    },
+    "1022": {
+        "id": 1022,
+        "character": "Hiiro",
+        "cardname": "Snowy Elegance for You",
+        "unit": "Rondo",
+        "type": "Cute",
+        "rarity": 4,
+        "heart": 15236,
+        "technical": 20206,
+        "physical": 17481,
+        "skill": .5,
+        "icon": "card_icon_040530019_1.2c7f671b",
+        "passive": "Groovy Bonus 10-37.5%",
+        "eventId": 162
+    },
+    "1023": {
+        "id": 1023,
+        "character": "Aoi",
+        "cardname": "Smiling Snow Maiden for You",
+        "unit": "Rondo",
+        "type": "Cute",
+        "rarity": 4,
+        "heart": 15738,
+        "technical": 20255,
+        "physical": 16614,
+        "skill": .5,
+        "icon": "card_icon_040540019_1.dacf2b49",
+        "passive": "Life Boost 2.5-8.5%",
+        "eventId": 162
     }
 }
 
