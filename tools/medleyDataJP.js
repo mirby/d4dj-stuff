@@ -6895,5 +6895,38 @@ var sectionsJp = [
     "combined": 114.52,
     "section2twice": 146.395,
     "sectionAvg": 38.173
+  },
+  {
+    "songID": "410026",
+    "songName": "GIVE Attention",
+    "1": 38.919,
+    "2": 38.919,
+    "3": 49.057,
+    "4": 103.784,
+    "combined": 126.895,
+    "section2twice": 165.814,
+    "sectionAvg": 42.298
+  },
+  {
+    "songID": "5050305",
+    "songName": "レッツゴー！陰陽師",
+    "1": 35.2,
+    "2": 38.4,
+    "3": 50.8,
+    "4": 140.821,
+    "combined": 124.4,
+    "section2twice": 162.8,
+    "sectionAvg": 41.467
+  },
+  {
+    "songID": "5030107",
+    "songName": "YO-KAI Disco",
+    "1": 31.373,
+    "2": 37.647,
+    "3": 45.919,
+    "4": 109.954,
+    "combined": 114.939,
+    "section2twice": 152.586,
+    "sectionAvg": 38.313
   }
 ]

@@ -4804,5 +4804,27 @@ var sectionsEn = [
     "combined": 109.783,
     "section2twice": 139.783,
     "sectionAvg": 36.594
+  },
+  {
+    "songID": "610029",
+    "songName": "Will you live \"kawaii\" life?",
+    "1": 41.143,
+    "2": 41.143,
+    "3": 49.068,
+    "4": 125.143,
+    "combined": 131.354,
+    "section2twice": 172.497,
+    "sectionAvg": 43.785
+  },
+  {
+    "songID": "5050307",
+    "songName": "Bishoujyo Muzai♡Pirates",
+    "1": 48.0,
+    "2": 35.294,
+    "3": 45.896,
+    "4": 145.41,
+    "combined": 129.19,
+    "section2twice": 164.484,
+    "sectionAvg": 43.063
   }
 ]
