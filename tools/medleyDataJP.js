@@ -6919,6 +6919,17 @@ var sectionsJp = [
     "sectionAvg": 41.467
   },
   {
+    "songID": "5050309",
+    "songName": "UNDERCODE",
+    "1": 42.858,
+    "2": 29.142,
+    "3": 44.497,
+    "4": 103.599,
+    "combined": 116.497,
+    "section2twice": 145.639,
+    "sectionAvg": 38.832
+  },
+  {
     "songID": "5030107",
     "songName": "YO-KAI Disco",
     "1": 31.373,
@@ -6928,5 +6939,60 @@ var sectionsJp = [
     "combined": 114.939,
     "section2twice": 152.586,
     "sectionAvg": 38.313
+  },
+  {
+    "songID": "110038",
+    "songName": "仲良しのシリウス",
+    "1": 46.223,
+    "2": 35.555,
+    "3": 47.97,
+    "4": 122.667,
+    "combined": 129.748,
+    "section2twice": 165.303,
+    "sectionAvg": 43.249
+  },
+  {
+    "songID": "810010",
+    "songName": "バズゾンビ",
+    "1": 44.0,
+    "2": 34.667,
+    "3": 43.707,
+    "4": 144.0,
+    "combined": 122.374,
+    "section2twice": 157.041,
+    "sectionAvg": 40.791
+  },
+  {
+    "songID": "310027",
+    "songName": "In Colors Anew",
+    "1": 37.795,
+    "2": 45.354,
+    "3": 36.017,
+    "4": 107.717,
+    "combined": 119.166,
+    "section2twice": 164.52,
+    "sectionAvg": 39.722
+  },
+  {
+    "songID": "5050308",
+    "songName": "僕らは今のなかで",
+    "1": 39.184,
+    "2": 29.388,
+    "3": 44.745,
+    "4": 100.409,
+    "combined": 113.317,
+    "section2twice": 142.705,
+    "sectionAvg": 37.772
+  },
+  {
+    "songID": "520022",
+    "songName": "雪の華",
+    "1": 41.667,
+    "2": 43.333,
+    "3": 46.402,
+    "4": 151.831,
+    "combined": 131.402,
+    "section2twice": 174.735,
+    "sectionAvg": 43.801
   }
 ]
