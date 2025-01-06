@@ -269,6 +269,7 @@ function getCardSet(type) {
         "121":["Karen Bee", "Tsukihi Phoenix", "Tsubasa Cat", "Shinobu Time"],
         "138":["Code Name Flower Garden", "Code Name Daughter Dearest", "Code Name Glint", "Code Name Fool"],
         "158":["Siscon Idol", "Bunny Girl Senpai", "Petite Devil Kohai", "Sister Venturing Out"],
+        "163":["Peach and Willow Blossoms☆2025!", "Determined Spirit☆2025!", "Spring's Elegant Glow☆2025!", "Eternal Infinity☆2025!"],
     };
 
     if (type === "medley") {
@@ -1914,6 +1915,17 @@ var eventList = {
         "type":"Medley",
         "style":"Cute",
         "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
+    "163": {
+        "id":163,
+        "name":"New Year's Radiance Happy New Bright",
+        "characters":"Saki,Ibuki,Towa,Noa",
+        "type":"Raid",
+        "style":"None",
+        "parameter":"None",
         "bonus":true,
         "comboBonus":true,
         "addition":""
