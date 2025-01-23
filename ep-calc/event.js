@@ -1930,6 +1930,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "164": {
+        "id":164,
+        "name":"Groovy on ICE ~Dancing Together on the Silver Ice~",
+        "characters":"Rinku,Maho,Kyoko,Esora",
+        "type":"Poker",
+        "style":"Party",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
