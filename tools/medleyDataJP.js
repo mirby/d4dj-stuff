@@ -4741,17 +4741,6 @@ var sectionsJp = [
     "sectionAvg": 43.487
   },
   {
-    "songID": "5050195",
-    "songName": "チュルリラ・チュルリラ・ダッダッダ！",
-    "1": 47.545,
-    "2": 34.909,
-    "3": 39.553,
-    "4": 142.91,
-    "combined": 122.007,
-    "section2twice": 156.916,
-    "sectionAvg": 40.669
-  },
-  {
     "songID": "5050196",
     "songName": "幸せになれる隠しコマンドがあるらしい",
     "1": 42.253,
@@ -6083,39 +6072,6 @@ var sectionsJp = [
     "sectionAvg": 45.835
   },
   {
-    "songID": "5050263",
-    "songName": "マイナーピース",
-    "1": 37.809,
-    "2": 32.876,
-    "3": 57.476,
-    "4": 143.014,
-    "combined": 128.161,
-    "section2twice": 161.037,
-    "sectionAvg": 42.72
-  },
-  {
-    "songID": "5050262",
-    "songName": "Dance In The Game",
-    "1": 39.111,
-    "2": 32.0,
-    "3": 49.586,
-    "4": 144.0,
-    "combined": 120.697,
-    "section2twice": 152.697,
-    "sectionAvg": 40.232
-  },
-  {
-    "songID": "5050261",
-    "songName": "カーストルーム",
-    "1": 46.154,
-    "2": 30.769,
-    "3": 40.71,
-    "4": 109.231,
-    "combined": 117.633,
-    "section2twice": 148.402,
-    "sectionAvg": 39.211
-  },
-  {
     "songID": "110035",
     "songName": "カレーライスが大好き♡",
     "1": 39.892,
@@ -6963,6 +6919,28 @@ var sectionsJp = [
     "sectionAvg": 40.791
   },
   {
+    "songID": "5050279",
+    "songName": "イタラズ",
+    "1": 34.099,
+    "2": 31.475,
+    "3": 49.617,
+    "4": 146.886,
+    "combined": 115.191,
+    "section2twice": 146.666,
+    "sectionAvg": 38.397
+  },
+  {
+    "songID": "5050280",
+    "songName": "金糸雀 ～カナリヤ～ feat.亜季",
+    "1": 36.429,
+    "2": 42.857,
+    "3": 48.436,
+    "4": 152.143,
+    "combined": 127.722,
+    "section2twice": 170.579,
+    "sectionAvg": 42.574
+  },
+  {
     "songID": "310027",
     "songName": "In Colors Anew",
     "1": 37.795,
@@ -6994,5 +6972,82 @@ var sectionsJp = [
     "combined": 131.402,
     "section2twice": 174.735,
     "sectionAvg": 43.801
+  },
+  {
+    "songID": "5050281",
+    "songName": "Time Flies",
+    "1": 41.948,
+    "2": 28.84,
+    "3": 46.184,
+    "4": 152.065,
+    "combined": 116.972,
+    "section2twice": 145.812,
+    "sectionAvg": 38.991
+  },
+  {
+    "songID": "3010040",
+    "songName": "吾輩よ猫であれ（有栖川生徒会Ver.）",
+    "1": 42.353,
+    "2": 28.235,
+    "3": 43.676,
+    "4": 120.0,
+    "combined": 114.264,
+    "section2twice": 142.499,
+    "sectionAvg": 38.088
+  },
+  {
+    "songID": "5050298",
+    "songName": "水天一碧",
+    "1": 48.0,
+    "2": 40.0,
+    "3": 35.5,
+    "4": 148.0,
+    "combined": 123.5,
+    "section2twice": 163.5,
+    "sectionAvg": 41.167
+  },
+  {
+    "songID": "5050299",
+    "songName": "GIGA EXTEND",
+    "1": 44.651,
+    "2": 34.884,
+    "3": 47.48,
+    "4": 145.116,
+    "combined": 127.015,
+    "section2twice": 161.899,
+    "sectionAvg": 42.338
+  },
+  {
+    "songID": "5050300",
+    "songName": "Estahv",
+    "1": 40.209,
+    "2": 32.67,
+    "3": 39.638,
+    "4": 116.858,
+    "combined": 112.517,
+    "section2twice": 145.187,
+    "sectionAvg": 37.506
+  },
+  {
+    "songID": "5050301",
+    "songName": "Reminiscence of Sea",
+    "1": 38.788,
+    "2": 33.939,
+    "3": 44.553,
+    "4": 152.237,
+    "combined": 117.28,
+    "section2twice": 151.219,
+    "sectionAvg": 39.093
+  },
+  {
+    "songID": "5050302",
+    "songName": "Airtraveler",
+    "1": 45.455,
+    "2": 43.636,
+    "3": 38.079,
+    "4": 132.727,
+    "combined": 127.17,
+    "section2twice": 170.806,
+    "sectionAvg": 42.39
   }
 ]

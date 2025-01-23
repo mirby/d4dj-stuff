@@ -4826,5 +4826,38 @@ var sectionsEn = [
     "combined": 129.19,
     "section2twice": 164.484,
     "sectionAvg": 43.063
+  },
+  {
+    "songID": "310027",
+    "songName": "In Colors Anew",
+    "1": 37.795,
+    "2": 45.354,
+    "3": 36.017,
+    "4": 107.717,
+    "combined": 119.166,
+    "section2twice": 164.52,
+    "sectionAvg": 39.722
+  },
+  {
+    "songID": "5050305",
+    "songName": "Let's Go! Onmyouji",
+    "1": 35.2,
+    "2": 38.4,
+    "3": 50.8,
+    "4": 140.821,
+    "combined": 124.4,
+    "section2twice": 162.8,
+    "sectionAvg": 41.467
+  },
+  {
+    "songID": "110038",
+    "songName": "Sirius Harmony",
+    "1": 46.223,
+    "2": 35.555,
+    "3": 47.97,
+    "4": 122.667,
+    "combined": 129.748,
+    "section2twice": 165.303,
+    "sectionAvg": 43.249
   }
 ]
