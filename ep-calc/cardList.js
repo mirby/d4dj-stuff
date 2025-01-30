@@ -15619,6 +15619,66 @@ var cards = {
         "icon": "card_icon_070140011_1.3a552e79",
         "passive": "Sympathy 2-6%",
         "eventId": 0
+    },
+    "1039": {
+        "id": 1039,
+        "character": "Saki",
+        "cardname": "【REVERSE】Marionette",
+        "unit": "Photon",
+        "type": "Elegant",
+        "rarity": 4,
+        "heart": 23169,
+        "technical": 12540,
+        "physical": 16693,
+        "skill": .8,
+        "icon": "card_icon_070310014_1.aac511b5",
+        "passive": "Auto Boost 2.5-9%",
+        "eventId": 165
+    },
+    "1040": {
+        "id": 1040,
+        "character": "Ibuki",
+        "cardname": "【REVERSE】Marionette",
+        "unit": "Photon",
+        "type": "Elegant",
+        "rarity": 4,
+        "heart": 22739,
+        "technical": 12529,
+        "physical": 16433,
+        "skill": .8,
+        "icon": "card_icon_070320012_1.17c26b3b",
+        "passive": "Groovy Bonus 10-37.5%",
+        "eventId": 165
+    },
+    "1041": {
+        "id": 1041,
+        "character": "Towa",
+        "cardname": "【REVERSE】Marionette",
+        "unit": "Photon",
+        "type": "Elegant",
+        "rarity": 4,
+        "heart": 21822,
+        "technical": 16561,
+        "physical": 12361,
+        "skill": .8,
+        "icon": "card_icon_070330013_1.415a2a46",
+        "passive": "Groovy Solo 20-75%",
+        "eventId": 165
+    },
+    "1042": {
+        "id": 1042,
+        "character": "Noa",
+        "cardname": "【REVERSE】Marionette",
+        "unit": "Photon",
+        "type": "Elegant",
+        "rarity": 4,
+        "heart": 22418,
+        "technical": 16082,
+        "physical": 13397,
+        "skill": .8,
+        "icon": "card_icon_070340011_1.f5bcfa14",
+        "passive": "Manual Up 2.5-10.5%",
+        "eventId": 165
     }
 }
 

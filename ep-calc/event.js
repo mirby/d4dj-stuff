@@ -1941,6 +1941,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "165": {
+        "id":165,
+        "name":"Lyrical Lily The Side Story: Arisugawa Student Council Chronicles VOL.2",
+        "characters":"Saki,Ibuki,Towa,Noa",
+        "type":"Medley",
+        "style":"Elegant",
+        "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
