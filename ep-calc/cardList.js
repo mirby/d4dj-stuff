@@ -15679,6 +15679,51 @@ var cards = {
         "icon": "card_icon_070340011_1.f5bcfa14",
         "passive": "Manual Up 2.5-10.5%",
         "eventId": 165
+    },
+    "1043": {
+        "id": 1043,
+        "character": "Shinobu",
+        "cardname": "Navigation：Classic",
+        "unit": "Peaky",
+        "type": "Elegant",
+        "rarity": 4,
+        "heart": 16946,
+        "technical": 20432,
+        "physical": 15048,
+        "skill": .45,
+        "icon": "card_icon_060220003_1.449d4b79",
+        "passive": "Manual Up 2.5-11%",
+        "eventId": 0
+    },
+    "1044": {
+        "id": 1044,
+        "character": "Miiko",
+        "cardname": "Navigation：Classic",
+        "unit": "LyriLily",
+        "type": "Cute",
+        "rarity": 4,
+        "heart": 15639,
+        "technical": 16101,
+        "physical": 21157,
+        "skill": .45,
+        "icon": "card_icon_060640003_1.5be92622",
+        "passive": "Manual Up 2.5-11%",
+        "eventId": 0
+    },
+    "1045": {
+        "id": 1045,
+        "character": "Hayate",
+        "cardname": "Navigation：Classic",
+        "unit": "Unichord",
+        "type": "Street",
+        "rarity": 4,
+        "heart": 17908,
+        "technical": 16298,
+        "physical": 20592,
+        "skill": .45,
+        "icon": "card_icon_060840003_1.132c9ece",
+        "passive": "Manual Up 2.5-11%",
+        "eventId": 0
     }
 }
 
