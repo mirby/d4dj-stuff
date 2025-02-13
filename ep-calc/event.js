@@ -1952,6 +1952,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "166": {
+        "id":166,
+        "name":"Ritual Purification",
+        "characters":"Rika,Marika,Nagisa,Aoi",
+        "type":"Slots",
+        "style":"Party",
+        "parameter":"Physical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*

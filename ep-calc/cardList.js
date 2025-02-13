@@ -15724,6 +15724,66 @@ var cards = {
         "icon": "card_icon_060840003_1.132c9ece",
         "passive": "Manual Up 2.5-11%",
         "eventId": 0
+    },
+    "1046": {
+        "id": 1046,
+        "character": "Aoi",
+        "cardname": "Beyond the Darkness Lies Ahead",
+        "unit": "Rondo",
+        "type": "Party",
+        "rarity": 3,
+        "heart": 9650,
+        "technical": 9867,
+        "physical": 12437,
+        "skill": .25,
+        "icon": "card_icon_030540007_1.229a9823",
+        "passive": "Life Boost 1-3%",
+        "eventId": 166
+    },
+    "1047": {
+        "id": 1047,
+        "character": "Rika",
+        "cardname": "The Smiling, Racing Thunder Demon",
+        "unit": "Mermaid",
+        "type": "Party",
+        "rarity": 4,
+        "heart": 16593,
+        "technical": 16669,
+        "physical": 19819,
+        "skill": .5,
+        "icon": "card_icon_040410015_1.ffaa0368",
+        "passive": "Auto Boost 2.5-9%",
+        "eventId": 166
+    },
+    "1048": {
+        "id": 1048,
+        "character": "Marika",
+        "cardname": "The Gentle, Swaying Wind Demon",
+        "unit": "Mermaid",
+        "type": "Party",
+        "rarity": 4,
+        "heart": 15817,
+        "technical": 15788,
+        "physical": 20553,
+        "skill": .5,
+        "icon": "card_icon_040420018_1.e2bbfb14",
+        "passive": "Life Boost 2.5-8.5%",
+        "eventId": 166
+    },
+    "1049": {
+        "id": 1049,
+        "character": "Nagisa",
+        "cardname": "With a Blink, Shadows Appear",
+        "unit": "Rondo",
+        "type": "Party",
+        "rarity": 4,
+        "heart": 16168,
+        "technical": 14484,
+        "physical": 21510,
+        "skill": .5,
+        "icon": "card_icon_040520019_1.05a0d879",
+        "passive": "Groovy Bonus 10-37.5%",
+        "eventId": 166
     }
 }
 
