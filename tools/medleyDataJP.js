@@ -6127,17 +6127,6 @@ var sectionsJp = [
     "sectionAvg": 39.587
   },
   {
-    "songID": "5050268",
-    "songName": "切札",
-    "1": 37.463,
-    "2": 35.122,
-    "3": 61.519,
-    "4": 141.659,
-    "combined": 134.104,
-    "section2twice": 169.226,
-    "sectionAvg": 44.701
-  },
-  {
     "songID": "910007",
     "songName": "バイララバイ",
     "1": 38.4,
@@ -7049,5 +7038,27 @@ var sectionsJp = [
     "combined": 127.17,
     "section2twice": 170.806,
     "sectionAvg": 42.39
+  },
+  {
+    "songID": "110039",
+    "songName": "ハピアラブレード講座DX〜初級編〜",
+    "1": 36.0,
+    "2": 29.143,
+    "3": 44.429,
+    "4": 121.714,
+    "combined": 109.572,
+    "section2twice": 138.715,
+    "sectionAvg": 36.524
+  },
+  {
+    "songID": "810011",
+    "songName": "TSUTAE♡TALK",
+    "1": 42.253,
+    "2": 30.423,
+    "3": 45.635,
+    "4": 128.45,
+    "combined": 118.311,
+    "section2twice": 148.734,
+    "sectionAvg": 39.437
   }
 ]

@@ -2463,17 +2463,6 @@ var sectionsEn = [
     "sectionAvg": 39.271
   },
   {
-    "songID": "5050091",
-    "songName": "Redo",
-    "1": 45.474,
-    "2": 35.369,
-    "3": 48.004,
-    "4": 155.368,
-    "combined": 128.847,
-    "section2twice": 164.216,
-    "sectionAvg": 42.949
-  },
-  {
     "songID": "220020",
     "songName": "Goshouwa kudasai Wareno Nao!",
     "1": 40.616,
@@ -4859,5 +4848,82 @@ var sectionsEn = [
     "combined": 129.748,
     "section2twice": 165.303,
     "sectionAvg": 43.249
+  },
+  {
+    "songID": "5030107",
+    "songName": "YO-KAI Disco",
+    "1": 31.373,
+    "2": 37.647,
+    "3": 45.919,
+    "4": 109.954,
+    "combined": 114.939,
+    "section2twice": 152.586,
+    "sectionAvg": 38.313
+  },
+  {
+    "songID": "310026",
+    "songName": "Meteor",
+    "1": 38.4,
+    "2": 33.6,
+    "3": 33.219,
+    "4": 118.0,
+    "combined": 105.219,
+    "section2twice": 138.819,
+    "sectionAvg": 35.073
+  },
+  {
+    "songID": "5050298",
+    "songName": "Suiten Ippeki",
+    "1": 48.0,
+    "2": 40.0,
+    "3": 35.5,
+    "4": 148.0,
+    "combined": 123.5,
+    "section2twice": 163.5,
+    "sectionAvg": 41.167
+  },
+  {
+    "songID": "5050299",
+    "songName": "GIGA EXTEND",
+    "1": 44.651,
+    "2": 34.884,
+    "3": 47.48,
+    "4": 145.116,
+    "combined": 127.015,
+    "section2twice": 161.899,
+    "sectionAvg": 42.338
+  },
+  {
+    "songID": "5050300",
+    "songName": "Estahv",
+    "1": 40.209,
+    "2": 32.67,
+    "3": 39.638,
+    "4": 116.858,
+    "combined": 112.517,
+    "section2twice": 145.187,
+    "sectionAvg": 37.506
+  },
+  {
+    "songID": "5050301",
+    "songName": "Reminiscence of Sea",
+    "1": 38.788,
+    "2": 33.939,
+    "3": 44.553,
+    "4": 152.237,
+    "combined": 117.28,
+    "section2twice": 151.219,
+    "sectionAvg": 39.093
+  },
+  {
+    "songID": "5050302",
+    "songName": "Airtraveler",
+    "1": 45.455,
+    "2": 43.636,
+    "3": 38.079,
+    "4": 132.727,
+    "combined": 127.17,
+    "section2twice": 170.806,
+    "sectionAvg": 42.39
   }
 ]
