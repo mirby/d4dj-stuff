@@ -15784,6 +15784,66 @@ var cards = {
         "icon": "card_icon_040520019_1.05a0d879",
         "passive": "Groovy Bonus 10-37.5%",
         "eventId": 166
+    },
+    "1050": {
+            "id": 1050,
+            "character": "Hayate",
+            "cardname": "Cutie♡Collection",
+            "unit": "Unichord",
+            "type": "Elegant",
+            "rarity": 3,
+            "heart": 10503,
+            "technical": 12119,
+            "physical": 9751,
+            "skill": .25,
+            "icon": "card_icon_030840001_1.1076348c",
+            "passive": "Life Boost 1-3%",
+            "eventId": 167
+    },
+    "1051": {
+            "id": 1051,
+            "character": "Michiru",
+            "cardname": "Pop☆Decoration",
+            "unit": "Unichord",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 16852,
+            "technical": 21068,
+            "physical": 13908,
+            "skill": .5,
+            "icon": "card_icon_040810006_1.15f6a172",
+            "passive": "Auto Boost 2.5-9%",
+            "eventId": 167
+    },
+    "1052": {
+            "id": 1052,
+            "character": "Lumina",
+            "cardname": "Girly☆Decoration",
+            "unit": "Unichord",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 15530,
+            "technical": 21310,
+            "physical": 16380,
+            "skill": .5,
+            "icon": "card_icon_040820006_1.52ca50df",
+            "passive": "Groovy Solo 20-75%",
+            "eventId": 167
+    },
+    "1053": {
+            "id": 1053,
+            "character": "Kokoa",
+            "cardname": "Sweet♡Collection",
+            "unit": "Unichord",
+            "type": "Elegant",
+            "rarity": 4,
+            "heart": 16338,
+            "technical": 19028,
+            "physical": 15882,
+            "skill": .5,
+            "icon": "card_icon_040830004_1.f72e29fa",
+            "passive": "Groovy Bonus 10-37.5%",
+            "eventId": 167
     }
 }
 

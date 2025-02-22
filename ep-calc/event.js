@@ -1963,6 +1963,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "167": {
+        "id":167,
+        "name":"UniChØcolat To a Restless Heart, Eternity",
+        "characters":"Michiru,Lumina,Kokoa,Hayate",
+        "type":"Bingo",
+        "style":"Elegant",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
