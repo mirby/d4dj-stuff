@@ -1974,6 +1974,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "168": {
+        "id":168,
+        "name":"Meow's Mysterious Tale",
+        "characters":"Saki,Towa,Saori,Dalia",
+        "type":"Poker",
+        "style":"Party",
+        "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
