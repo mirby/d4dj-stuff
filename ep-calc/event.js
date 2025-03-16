@@ -1985,6 +1985,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "169": {
+        "id":169,
+        "name":"Lyrical Lily The Side Story: Arisugawa Student Council Chronicles VOL.3",
+        "characters":"Rika,Marika,Saori,Dalia",
+        "type":"Bingo",
+        "style":"Cute",
+        "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*

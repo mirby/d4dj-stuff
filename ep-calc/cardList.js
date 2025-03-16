@@ -15949,6 +15949,66 @@ var cards = {
         "icon": "card_icon_060830003_1.252f63f1",
         "passive": "Manual Up 2.5-11%",
         "eventId": 0
+    },
+    "1061": {
+        "id": 1061,
+        "character": "Rika",
+        "cardname": "【REVERSE】Depths",
+        "unit": "Mermaid",
+        "type": "Cute",
+        "rarity": 4,
+        "heart": 22416,
+        "technical": 13038,
+        "physical": 17091,
+        "skill": .8,
+        "icon": "card_icon_070410012_1.77df31e8",
+        "passive": "Auto Boost 2.5-9%",
+        "eventId": 169
+    },
+    "1062": {
+        "id": 1062,
+        "character": "Marika",
+        "cardname": "【REVERSE】Depths",
+        "unit": "Mermaid",
+        "type": "Cute",
+        "rarity": 4,
+        "heart": 22277,
+        "technical": 15970,
+        "physical": 12440,
+        "skill": .8,
+        "icon": "card_icon_070420010_1.8729f091",
+        "passive": "Groovy Solo 20-75%",
+        "eventId": 169
+    },
+    "1063": {
+        "id": 1063,
+        "character": "Saori",
+        "cardname": "【REVERSE】Depths",
+        "unit": "Mermaid",
+        "type": "Cute",
+        "rarity": 4,
+        "heart": 24056,
+        "technical": 12074,
+        "physical": 15353,
+        "skill": .8,
+        "icon": "card_icon_070430010_1.77d0e6ee",
+        "passive": "Life Boost 2.5-8.5%",
+        "eventId": 169
+    },
+    "1064": {
+        "id": 1064,
+        "character": "Dalia",
+        "cardname": "【REVERSE】Depths",
+        "unit": "Mermaid",
+        "type": "Cute",
+        "rarity": 4,
+        "heart": 22794,
+        "technical": 17041,
+        "physical": 12349,
+        "skill": .8,
+        "icon": "card_icon_070440008_1.a29679b8",
+        "passive": "Manual Up 2.5-10.5%",
+        "eventId": 169
     }
 }
 
