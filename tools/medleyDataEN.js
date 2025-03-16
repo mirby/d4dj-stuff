@@ -55,17 +55,6 @@ var sectionsEn = [
     "sectionAvg": 31.351
   },
   {
-    "songID": "220001",
-    "songName": "Can't Stay a Dreamy Girl",
-    "1": 24.151,
-    "2": 24.151,
-    "3": 41.132,
-    "4": 96.604,
-    "combined": 89.434,
-    "section2twice": 113.585,
-    "sectionAvg": 29.811
-  },
-  {
     "songID": "310001",
     "songName": "Photon Melodies",
     "1": 30.0,
@@ -176,17 +165,6 @@ var sectionsEn = [
     "sectionAvg": 34.737
   },
   {
-    "songID": "320004",
-    "songName": "Sidonia",
-    "1": 40.0,
-    "2": 40.0,
-    "3": 41.6,
-    "4": 121.6,
-    "combined": 121.6,
-    "section2twice": 161.6,
-    "sectionAvg": 40.533
-  },
-  {
     "songID": "410002",
     "songName": "ING",
     "1": 43.635,
@@ -198,17 +176,6 @@ var sectionsEn = [
     "sectionAvg": 39.394
   },
   {
-    "songID": "420004",
-    "songName": "HONEY",
-    "1": 36.923,
-    "2": 27.692,
-    "3": 38.901,
-    "4": 94.945,
-    "combined": 103.516,
-    "section2twice": 131.208,
-    "sectionAvg": 34.505
-  },
-  {
     "songID": "510002",
     "songName": "Calendula",
     "1": 27.789,
@@ -218,17 +185,6 @@ var sectionsEn = [
     "combined": 90.315,
     "section2twice": 118.104,
     "sectionAvg": 30.105
-  },
-  {
-    "songID": "520004",
-    "songName": "DAYBREAK'S BELL",
-    "1": 36.876,
-    "2": 36.876,
-    "3": 52.24,
-    "4": 104.481,
-    "combined": 125.992,
-    "section2twice": 162.868,
-    "sectionAvg": 41.997
   },
   {
     "songID": "520005",
@@ -286,17 +242,6 @@ var sectionsEn = [
     "sectionAvg": 36.207
   },
   {
-    "songID": "320006",
-    "songName": "READY STEADY GO",
-    "1": 38.118,
-    "2": 33.883,
-    "3": 36.353,
-    "4": 105.882,
-    "combined": 108.354,
-    "section2twice": 142.237,
-    "sectionAvg": 36.118
-  },
-  {
     "songID": "5030001",
     "songName": "Ninja JaJaMaru-kun Medley",
     "1": 38.4,
@@ -319,50 +264,6 @@ var sectionsEn = [
     "sectionAvg": 31.692
   },
   {
-    "songID": "5040001",
-    "songName": "Rhythm And Police",
-    "1": 42.667,
-    "2": 35.555,
-    "3": 45.778,
-    "4": 96.0,
-    "combined": 124.0,
-    "section2twice": 159.555,
-    "sectionAvg": 41.333
-  },
-  {
-    "songID": "5040008",
-    "songName": "FURUHATA'S THEME",
-    "1": 38.261,
-    "2": 31.304,
-    "3": 42.609,
-    "4": 107.826,
-    "combined": 112.174,
-    "section2twice": 143.478,
-    "sectionAvg": 37.391
-  },
-  {
-    "songID": "5040011",
-    "songName": "YONIMO KIMYOUNA MONOGATARI BGM",
-    "1": 41.025,
-    "2": 32.82,
-    "3": 38.975,
-    "4": 96.41,
-    "combined": 112.82,
-    "section2twice": 145.64,
-    "sectionAvg": 37.607
-  },
-  {
-    "songID": "5040018",
-    "songName": "SUNRISE",
-    "1": 34.783,
-    "2": 34.783,
-    "3": 45.217,
-    "4": 128.697,
-    "combined": 114.783,
-    "section2twice": 149.566,
-    "sectionAvg": 38.261
-  },
-  {
     "songID": "210003",
     "songName": "Gonna be right",
     "1": 37.714,
@@ -383,17 +284,6 @@ var sectionsEn = [
     "combined": 109.875,
     "section2twice": 145.875,
     "sectionAvg": 36.625
-  },
-  {
-    "songID": "5040003",
-    "songName": "JINGINAKI TATAKAINO THEME",
-    "1": 38.438,
-    "2": 30.0,
-    "3": 38.906,
-    "4": 105.938,
-    "combined": 107.344,
-    "section2twice": 137.344,
-    "sectionAvg": 35.781
   },
   {
     "songID": "5040010",
@@ -748,28 +638,6 @@ var sectionsEn = [
     "sectionAvg": 36.0
   },
   {
-    "songID": "5040009",
-    "songName": "TAIYO NI HOERO THEME",
-    "1": 36.923,
-    "2": 29.538,
-    "3": 42.462,
-    "4": 129.231,
-    "combined": 108.923,
-    "section2twice": 138.461,
-    "sectionAvg": 36.308
-  },
-  {
-    "songID": "5040020",
-    "songName": "JAGUAR '13",
-    "1": 37.647,
-    "2": 28.236,
-    "3": 41.568,
-    "4": 125.49,
-    "combined": 107.451,
-    "section2twice": 135.687,
-    "sectionAvg": 35.817
-  },
-  {
     "songID": "110006",
     "songName": "SHUFFLE HEART BEAT",
     "1": 39.501,
@@ -891,28 +759,6 @@ var sectionsEn = [
     "sectionAvg": 39.617
   },
   {
-    "songID": "5040012",
-    "songName": "Rag Time On The Rag",
-    "1": 40.247,
-    "2": 32.0,
-    "3": 37.646,
-    "4": 118.268,
-    "combined": 109.893,
-    "section2twice": 141.893,
-    "sectionAvg": 36.631
-  },
-  {
-    "songID": "5040021",
-    "songName": "ANUN UZUMAKU NAMEKKUSEI",
-    "1": 38.534,
-    "2": 30.968,
-    "3": 43.355,
-    "4": 121.373,
-    "combined": 112.857,
-    "section2twice": 143.825,
-    "sectionAvg": 37.619
-  },
-  {
     "songID": "5040022",
     "songName": "Power Hall",
     "1": 40.138,
@@ -933,17 +779,6 @@ var sectionsEn = [
     "combined": 116.142,
     "section2twice": 148.713,
     "sectionAvg": 38.714
-  },
-  {
-    "songID": "220008",
-    "songName": "MAJI LOVE 1000%",
-    "1": 43.256,
-    "2": 29.767,
-    "3": 43.257,
-    "4": 126.512,
-    "combined": 116.28,
-    "section2twice": 146.047,
-    "sectionAvg": 38.76
   },
   {
     "songID": "310005",
@@ -988,28 +823,6 @@ var sectionsEn = [
     "combined": 117.727,
     "section2twice": 150.454,
     "sectionAvg": 39.242
-  },
-  {
-    "songID": "320009",
-    "songName": "Synchrogazer",
-    "1": 38.677,
-    "2": 32.415,
-    "3": 41.992,
-    "4": 81.037,
-    "combined": 113.084,
-    "section2twice": 145.499,
-    "sectionAvg": 37.695
-  },
-  {
-    "songID": "420009",
-    "songName": "Blazin' Beat",
-    "1": 41.739,
-    "2": 34.782,
-    "3": 46.087,
-    "4": 85.218,
-    "combined": 122.608,
-    "section2twice": 157.39,
-    "sectionAvg": 40.869
   },
   {
     "songID": "520009",
@@ -1163,17 +976,6 @@ var sectionsEn = [
     "combined": 125.138,
     "section2twice": 159.424,
     "sectionAvg": 41.713
-  },
-  {
-    "songID": "220009",
-    "songName": "Backlit Wings",
-    "1": 43.783,
-    "2": 34.054,
-    "3": 48.72,
-    "4": 112.702,
-    "combined": 126.557,
-    "section2twice": 160.611,
-    "sectionAvg": 42.186
   },
   {
     "songID": "320010",
@@ -1517,17 +1319,6 @@ var sectionsEn = [
     "sectionAvg": 39.328
   },
   {
-    "songID": "3020002",
-    "songName": "POP TEAM EPIC",
-    "1": 42.803,
-    "2": 32.102,
-    "3": 42.42,
-    "4": 91.72,
-    "combined": 117.325,
-    "section2twice": 149.427,
-    "sectionAvg": 39.108
-  },
-  {
     "songID": "5040023",
     "songName": "Mystic Antique",
     "1": 39.291,
@@ -1592,17 +1383,6 @@ var sectionsEn = [
     "combined": 117.735,
     "section2twice": 148.87,
     "sectionAvg": 39.245
-  },
-  {
-    "songID": "120014",
-    "songName": "Blazing Continent Bushilord ~Passionate Roar~",
-    "1": 43.5,
-    "2": 34.5,
-    "3": 45.391,
-    "4": 100.5,
-    "combined": 123.391,
-    "section2twice": 157.891,
-    "sectionAvg": 41.13
   },
   {
     "songID": "310010",
@@ -1955,17 +1735,6 @@ var sectionsEn = [
     "combined": 114.882,
     "section2twice": 148.482,
     "sectionAvg": 38.294
-  },
-  {
-    "songID": "120019",
-    "songName": "Zenryoku ☆Summer！",
-    "1": 38.018,
-    "2": 30.422,
-    "3": 45.212,
-    "4": 109.131,
-    "combined": 113.652,
-    "section2twice": 144.074,
-    "sectionAvg": 37.884
   },
   {
     "songID": "5050075",
@@ -3024,17 +2793,6 @@ var sectionsEn = [
     "sectionAvg": 43.984
   },
   {
-    "songID": "3020006",
-    "songName": "What a Colorful World!! [D4DJ Remix] Type 1",
-    "1": 41.86,
-    "2": 30.697,
-    "3": 40.616,
-    "4": 131.163,
-    "combined": 113.173,
-    "section2twice": 143.87,
-    "sectionAvg": 37.724
-  },
-  {
     "songID": "420018",
     "songName": "GO!!!",
     "1": 42.985,
@@ -3066,17 +2824,6 @@ var sectionsEn = [
     "combined": 104.825,
     "section2twice": 135.155,
     "sectionAvg": 34.942
-  },
-  {
-    "songID": "3020007",
-    "songName": "What a Colorful World!! [D4DJ Remix] Type 2",
-    "1": 39.767,
-    "2": 30.697,
-    "3": 40.571,
-    "4": 131.162,
-    "combined": 111.035,
-    "section2twice": 141.732,
-    "sectionAvg": 37.012
   },
   {
     "songID": "5050104",
@@ -4925,5 +4672,38 @@ var sectionsEn = [
     "combined": 127.17,
     "section2twice": 170.806,
     "sectionAvg": 42.39
+  },
+  {
+    "songID": "810011",
+    "songName": "TSUTAE♡TALK",
+    "1": 42.253,
+    "2": 30.423,
+    "3": 45.635,
+    "4": 128.45,
+    "combined": 118.311,
+    "section2twice": 148.734,
+    "sectionAvg": 39.437
+  },
+  {
+    "songID": "810010",
+    "songName": "BUZZ ZOMBIE",
+    "1": 44.0,
+    "2": 34.667,
+    "3": 43.707,
+    "4": 144.0,
+    "combined": 122.374,
+    "section2twice": 157.041,
+    "sectionAvg": 40.791
+  },
+  {
+    "songID": "5050256",
+    "songName": "WITH",
+    "1": 45.257,
+    "2": 42.514,
+    "3": 50.002,
+    "4": 148.115,
+    "combined": 137.773,
+    "section2twice": 180.287,
+    "sectionAvg": 45.924
   }
 ]

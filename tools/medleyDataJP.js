@@ -1881,17 +1881,6 @@ var sectionsJp = [
     "sectionAvg": 37.228
   },
   {
-    "songID": "5050044",
-    "songName": "SE・SA・ME",
-    "1": 41.739,
-    "2": 34.783,
-    "3": 43.548,
-    "4": 116.978,
-    "combined": 120.07,
-    "section2twice": 154.853,
-    "sectionAvg": 40.023
-  },
-  {
     "songID": "110015",
     "songName": "Hey! Be Ambitious! (Another Ver.)",
     "1": 42.001,
@@ -6160,28 +6149,6 @@ var sectionsJp = [
     "sectionAvg": 39.668
   },
   {
-    "songID": "5050269",
-    "songName": "Nameless Story",
-    "1": 38.154,
-    "2": 36.923,
-    "3": 60.937,
-    "4": 146.462,
-    "combined": 136.014,
-    "section2twice": 172.937,
-    "sectionAvg": 45.338
-  },
-  {
-    "songID": "5050270",
-    "songName": "Storyteller",
-    "1": 32.5,
-    "2": 30.0,
-    "3": 47.007,
-    "4": 110.0,
-    "combined": 109.507,
-    "section2twice": 139.507,
-    "sectionAvg": 36.502
-  },
-  {
     "songID": "510024",
     "songName": "ラストソング",
     "1": 45.682,
@@ -7060,5 +7027,60 @@ var sectionsJp = [
     "combined": 118.311,
     "section2twice": 148.734,
     "sectionAvg": 39.437
+  },
+  {
+    "songID": "610030",
+    "songName": "Lyrical Tea Party!",
+    "1": 37.818,
+    "2": 34.909,
+    "3": 48.082,
+    "4": 123.636,
+    "combined": 120.809,
+    "section2twice": 155.718,
+    "sectionAvg": 40.27
+  },
+  {
+    "songID": "5050313",
+    "songName": "江ノ島イノセント",
+    "1": 40.0,
+    "2": 40.0,
+    "3": 38.596,
+    "4": 114.667,
+    "combined": 118.596,
+    "section2twice": 158.596,
+    "sectionAvg": 39.532
+  },
+  {
+    "songID": "210028",
+    "songName": "WHITE moment",
+    "1": 38.4,
+    "2": 35.2,
+    "3": 52.953,
+    "4": 107.2,
+    "combined": 126.553,
+    "section2twice": 161.753,
+    "sectionAvg": 42.184
+  },
+  {
+    "songID": "5050322",
+    "songName": "ぜんりょくじょしかくめい！",
+    "1": 48.0,
+    "2": 33.882,
+    "3": 42.842,
+    "4": 141.177,
+    "combined": 124.724,
+    "section2twice": 158.606,
+    "sectionAvg": 41.575
+  },
+  {
+    "songID": "5050323",
+    "songName": "We're The World",
+    "1": 37.818,
+    "2": 29.091,
+    "3": 40.608,
+    "4": 117.818,
+    "combined": 107.517,
+    "section2twice": 136.608,
+    "sectionAvg": 35.839
   }
 ]
