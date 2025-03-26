@@ -1996,6 +1996,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "170": {
+        "id":170,
+        "name":"Lyrical Lily The Side Story: Arisugawa Student Council Chronicles VOL. Final",
+        "characters":"Miyu,Haruna,Kurumi,Miiko",
+        "type":"Poker",
+        "style":"Street",
+        "parameter":"Physical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*

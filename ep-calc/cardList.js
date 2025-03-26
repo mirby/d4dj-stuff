@@ -16009,6 +16009,66 @@ var cards = {
         "icon": "card_icon_070440008_1.a29679b8",
         "passive": "Manual Up 2.5-10.5%",
         "eventId": 169
+    },
+    "1065": {
+        "id": 1065,
+        "character": "Miyu",
+        "cardname": "【REVERSE】Guardian",
+        "unit": "LyriLily",
+        "type": "Street",
+        "rarity": 4,
+        "heart": 16573,
+        "technical": 12194,
+        "physical": 23342,
+        "skill": .8,
+        "icon": "card_icon_070610012_1.5ddc9100",
+        "passive": "Groovy Solo 20-75%",
+        "eventId": 170
+    },
+    "1066": {
+        "id": 1066,
+        "character": "Haruna",
+        "cardname": "【REVERSE】Guardian",
+        "unit": "LyriLily",
+        "type": "Street",
+        "rarity": 4,
+        "heart": 16569,
+        "technical": 13195,
+        "physical": 20884,
+        "skill": .8,
+        "icon": "card_icon_070620012_1.85530079",
+        "passive": "Auto Boost 2.5-9%",
+        "eventId": 170
+    },
+    "1067": {
+        "id": 1067,
+        "character": "Kurumi",
+        "cardname": "【REVERSE】Guardian",
+        "unit": "LyriLily",
+        "type": "Street",
+        "rarity": 4,
+        "heart": 12693,
+        "technical": 17127,
+        "physical": 21925,
+        "skill": .8,
+        "icon": "card_icon_070630008_1.ee07e460",
+        "passive": "Life Boost 2.5-8.5%",
+        "eventId": 170
+    },
+    "1068": {
+        "id": 1068,
+        "character": "Miiko",
+        "cardname": "【REVERSE】Guardian",
+        "unit": "LyriLily",
+        "type": "Street",
+        "rarity": 4,
+        "heart": 12528,
+        "technical": 17939,
+        "physical": 21460,
+        "skill": .8,
+        "icon": "card_icon_070640012_1.afe0d362",
+        "passive": "Groovy Bonus 10-37.5%",
+        "eventId": 170
     }
 }
 
