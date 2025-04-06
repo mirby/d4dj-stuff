@@ -16069,6 +16069,66 @@ var cards = {
         "icon": "card_icon_070640012_1.afe0d362",
         "passive": "Groovy Bonus 10-37.5%",
         "eventId": 170
+    },
+    "1069": {
+        "id": 1069,
+        "character": "Yuka",
+        "cardname": "Grateful x Day",
+        "unit": "Peaky",
+        "type": "Street",
+        "rarity": 3,
+        "heart": 11919,
+        "technical": 9988,
+        "physical": 10169,
+        "skill": .25,
+        "icon": "card_icon_030230007_1.038f37e3",
+        "passive": "Life Boost 1-3%",
+        "eventId": 171
+    },
+    "1070": {
+        "id": 1070,
+        "character": "Kyoko",
+        "cardname": "White x Present",
+        "unit": "Peaky",
+        "type": "Street",
+        "rarity": 4,
+        "heart": 20506,
+        "technical": 16618,
+        "physical": 15134,
+        "skill": .5,
+        "icon": "card_icon_040210017_1.7ed3af3f",
+        "passive": "Groovy Solo 20-75%",
+        "eventId": 171
+    },
+    "1071": {
+        "id": 1071,
+        "character": "Shinobu",
+        "cardname": "White x Thanks",
+        "unit": "Peaky",
+        "type": "Street",
+        "rarity": 4,
+        "heart": 20386,
+        "technical": 16262,
+        "physical": 16433,
+        "skill": .5,
+        "icon": "card_icon_040220017_1.4b196bda",
+        "passive": "Auto Boost 2.5-9%",
+        "eventId": 171
+    },
+    "1072": {
+        "id": 1072,
+        "character": "Esora",
+        "cardname": "Precious x Day",
+        "unit": "Peaky",
+        "type": "Street",
+        "rarity": 4,
+        "heart": 20773,
+        "technical": 16693,
+        "physical": 14048,
+        "skill": .5,
+        "icon": "card_icon_040240019_1.3ae247fc",
+        "passive": "Groovy Bonus 10-37.5%",
+        "eventId": 171
     }
 }
 

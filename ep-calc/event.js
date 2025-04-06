@@ -2007,6 +2007,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "171": {
+        "id":171,
+        "name":"White Return",
+        "characters":"Kyoko,Shinobu,Yuka,Esora",
+        "type":"Slots",
+        "style":"Street",
+        "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
