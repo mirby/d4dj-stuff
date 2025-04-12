@@ -4113,17 +4113,6 @@ var sectionsEn = [
     "sectionAvg": 42.239
   },
   {
-    "songID": "5050230",
-    "songName": "Tomoshibi",
-    "1": 42.666,
-    "2": 36.0,
-    "3": 66.432,
-    "4": 144.519,
-    "combined": 145.098,
-    "section2twice": 181.098,
-    "sectionAvg": 48.366
-  },
-  {
     "songID": "3010039",
     "songName": "Vital Sign",
     "1": 41.333,
@@ -4705,5 +4694,49 @@ var sectionsEn = [
     "combined": 137.773,
     "section2twice": 180.287,
     "sectionAvg": 45.924
+  },
+  {
+    "songID": "410026",
+    "songName": "GIVE Attention",
+    "1": 38.919,
+    "2": 38.919,
+    "3": 49.057,
+    "4": 103.784,
+    "combined": 126.895,
+    "section2twice": 165.814,
+    "sectionAvg": 42.298
+  },
+  {
+    "songID": "3010040",
+    "songName": "I Shall Be a Cat (Arisugawa Student Council Ver.)",
+    "1": 42.353,
+    "2": 28.235,
+    "3": 43.676,
+    "4": 120.0,
+    "combined": 114.264,
+    "section2twice": 142.499,
+    "sectionAvg": 38.088
+  },
+  {
+    "songID": "210028",
+    "songName": "WHITE moment",
+    "1": 38.4,
+    "2": 35.2,
+    "3": 52.953,
+    "4": 107.2,
+    "combined": 126.553,
+    "section2twice": 161.753,
+    "sectionAvg": 42.184
+  },
+  {
+    "songID": "5050261",
+    "songName": "Caste Room",
+    "1": 46.154,
+    "2": 30.769,
+    "3": 40.71,
+    "4": 109.231,
+    "combined": 117.633,
+    "section2twice": 148.402,
+    "sectionAvg": 39.211
   }
 ]

@@ -2112,17 +2112,6 @@ var sectionsJp = [
     "sectionAvg": 39.331
   },
   {
-    "songID": "5050010",
-    "songName": "人生リセットボタン",
-    "1": 43.2,
-    "2": 30.0,
-    "3": 46.201,
-    "4": 103.2,
-    "combined": 119.401,
-    "section2twice": 149.401,
-    "sectionAvg": 39.8
-  },
-  {
     "songID": "310011",
     "songName": "4 Challenges",
     "1": 43.637,
@@ -2572,17 +2561,6 @@ var sectionsJp = [
     "combined": 122.145,
     "section2twice": 159.86,
     "sectionAvg": 40.715
-  },
-  {
-    "songID": "5050074",
-    "songName": "愛のシュプリーム！",
-    "1": 44.446,
-    "2": 35.557,
-    "3": 43.695,
-    "4": 108.446,
-    "combined": 123.698,
-    "section2twice": 159.255,
-    "sectionAvg": 41.233
   },
   {
     "songID": "310012",
@@ -6171,28 +6149,6 @@ var sectionsJp = [
     "sectionAvg": 37.743
   },
   {
-    "songID": "5050272",
-    "songName": "まっさかさマジック！",
-    "1": 42.667,
-    "2": 32.0,
-    "3": 41.006,
-    "4": 144.667,
-    "combined": 115.673,
-    "section2twice": 147.673,
-    "sectionAvg": 38.558
-  },
-  {
-    "songID": "5050273",
-    "songName": "明日は明日の風が吹く",
-    "1": 37.643,
-    "2": 33.284,
-    "3": 46.239,
-    "4": 123.496,
-    "combined": 117.166,
-    "section2twice": 150.45,
-    "sectionAvg": 39.055
-  },
-  {
     "songID": "210024",
     "songName": "hanamuke",
     "1": 33.73,
@@ -6224,17 +6180,6 @@ var sectionsJp = [
     "combined": 110.185,
     "section2twice": 141.094,
     "sectionAvg": 36.728
-  },
-  {
-    "songID": "5050271",
-    "songName": "夢の糸",
-    "1": 39.184,
-    "2": 42.857,
-    "3": 49.031,
-    "4": 148.163,
-    "combined": 131.072,
-    "section2twice": 173.929,
-    "sectionAvg": 43.691
   },
   {
     "songID": "5030105",
@@ -7082,5 +7027,60 @@ var sectionsJp = [
     "combined": 107.517,
     "section2twice": 136.608,
     "sectionAvg": 35.839
+  },
+  {
+    "songID": "910011",
+    "songName": "JUNKBOX",
+    "1": 40.0,
+    "2": 40.0,
+    "3": 44.39,
+    "4": 121.6,
+    "combined": 124.39,
+    "section2twice": 164.39,
+    "sectionAvg": 41.463
+  },
+  {
+    "songID": "5050324",
+    "songName": "いっちょくせんだいさくせん！",
+    "1": 49.411,
+    "2": 35.294,
+    "3": 56.491,
+    "4": 148.235,
+    "combined": 141.196,
+    "section2twice": 176.49,
+    "sectionAvg": 47.065
+  },
+  {
+    "songID": "5050325",
+    "songName": "GIRA GIRA STAR",
+    "1": 46.265,
+    "2": 39.037,
+    "3": 46.601,
+    "4": 111.325,
+    "combined": 131.903,
+    "section2twice": 170.94,
+    "sectionAvg": 43.968
+  },
+  {
+    "songID": "5050326",
+    "songName": "Ring Ring Ring feat. ひまり",
+    "1": 40.449,
+    "2": 39.101,
+    "3": 47.264,
+    "4": 125.393,
+    "combined": 126.814,
+    "section2twice": 165.915,
+    "sectionAvg": 42.271
+  },
+  {
+    "songID": "620021",
+    "songName": "Ｏｎｅ　Ｎｉｇｈｔ　Ｃａｒｎｉｖａｌ",
+    "1": 42.858,
+    "2": 36.0,
+    "3": 39.683,
+    "4": 142.286,
+    "combined": 118.541,
+    "section2twice": 154.541,
+    "sectionAvg": 39.514
   }
 ]
