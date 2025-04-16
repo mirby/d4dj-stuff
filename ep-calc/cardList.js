@@ -16234,6 +16234,66 @@ var cards = {
         "icon": "card_icon_070510011_1.732d391a",
         "passive": "Sympathy 2-6%",
         "eventId": 0
+    },
+    "1080": {
+        "id": 1080,
+        "character": "Neo",
+        "cardname": "[REVERSE] Solitude",
+        "unit": "Abyssmare",
+        "type": "Cute",
+        "rarity": 4,
+        "heart": 12886,
+        "technical": 18278,
+        "physical": 21951,
+        "skill": .8,
+        "icon": "card_icon_070910008_1.254c9f57",
+        "passive": "Groovy Solo 20-75%",
+        "eventId": 172
+    },
+    "1081": {
+        "id": 1081,
+        "character": "Sophia",
+        "cardname": "[REVERSE] Solitude",
+        "unit": "Abyssmare",
+        "type": "Cute",
+        "rarity": 4,
+        "heart": 16516,
+        "technical": 11709,
+        "physical": 22746,
+        "skill": .8,
+        "icon": "card_icon_070920008_1.29c7bc81",
+        "passive": "Life Boost 2.5-8.5%",
+        "eventId": 172
+    },
+    "1082": {
+        "id": 1082,
+        "character": "Elsie",
+        "cardname": "[REVERSE] Solitude",
+        "unit": "Abyssmare",
+        "type": "Cute",
+        "rarity": 4,
+        "heart": 13824,
+        "technical": 15877,
+        "physical": 21913,
+        "skill": .8,
+        "icon": "card_icon_070930008_1.c9860d54",
+        "passive": "Groovy Bonus 10-37.5%",
+        "eventId": 172
+    },
+    "1083": {
+        "id": 1083,
+        "character": "Weronika",
+        "cardname": "[REVERSE] Solitude",
+        "unit": "Abyssmare",
+        "type": "Cute",
+        "rarity": 4,
+        "heart": 16973,
+        "technical": 12155,
+        "physical": 22886,
+        "skill": .8,
+        "icon": "card_icon_070940006_1.d4422c16",
+        "passive": "Manual Up 2.5-10.5%",
+        "eventId": 172
     }
 }
 

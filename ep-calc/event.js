@@ -255,6 +255,7 @@ function getCardSet(type) {
         "143":["Little Red Riding Hood in the Forest", "The Captive Sleeping Beauty", "Snow White in the Mirror", "Cinderella at the stroke of midnight"],
         "146":["Pine Blue Soda", "Cherry Cream Soda", "Kiwi Fruit Tea", "Lime Rose Lemonade"],
         "156":["Evening Serenity", "A Journey of Encounter", "Refreshing Breeze", "Sound of Waves"],
+        "172":["[REVERSE] Solitude"],
     };
 
     var raidSet = {
@@ -2014,6 +2015,17 @@ var eventList = {
         "type":"Slots",
         "style":"Street",
         "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
+    "172": {
+        "id":172,
+        "name":"Crossroads of Abyssmare",
+        "characters":"Neo,Sophia,Elsie,Weronika",
+        "type":"Medley",
+        "style":"Cute",
+        "parameter":"Physical",
         "bonus":true,
         "comboBonus":true,
         "addition":""
