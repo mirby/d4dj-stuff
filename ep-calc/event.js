@@ -2035,7 +2035,7 @@ var eventList = {
         "name":"Live A Happy Life",
         "characters":"Rinku,Maho,Muni,Rei",
         "type":"Bingo",
-        "style":"Cute",
+        "style":"Cool",
         "parameter":"Physical",
         "bonus":true,
         "comboBonus":true,
