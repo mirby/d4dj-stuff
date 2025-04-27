@@ -2030,6 +2030,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "173": {
+        "id":173,
+        "name":"Live A Happy Life",
+        "characters":"Rinku,Maho,Muni,Rei",
+        "type":"Bingo",
+        "style":"Cute",
+        "parameter":"Physical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*

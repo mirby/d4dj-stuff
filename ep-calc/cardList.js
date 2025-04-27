@@ -16294,6 +16294,66 @@ var cards = {
         "icon": "card_icon_070940006_1.d4422c16",
         "passive": "Manual Up 2.5-10.5%",
         "eventId": 172
+    },
+    "1084": {
+        "id": 1084,
+        "character": "Rinku",
+        "cardname": "[REVERSE] Edge",
+        "unit": "HapiAra",
+        "type": "Cool",
+        "rarity": 4,
+        "heart": 13508,
+        "technical": 15460,
+        "physical": 22502,
+        "skill": .8,
+        "icon": "card_icon_070110014_1.538e2267",
+        "passive": "Life Boost 2.5-8.5%",
+        "eventId": 173
+    },
+    "1085": {
+        "id": 1085,
+        "character": "Maho",
+        "cardname": "[REVERSE] Edge",
+        "unit": "HapiAra",
+        "type": "Cool",
+        "rarity": 4,
+        "heart": 13191,
+        "technical": 16694,
+        "physical": 21389,
+        "skill": .8,
+        "icon": "card_icon_070120013_1.4652c9d5",
+        "passive": "Groovy Solo 20-75%",
+        "eventId": 173
+    },
+    "1086": {
+        "id": 1086,
+        "character": "Muni",
+        "cardname": "[REVERSE] Edge",
+        "unit": "HapiAra",
+        "type": "Cool",
+        "rarity": 4,
+        "heart": 15793,
+        "technical": 12600,
+        "physical": 22381,
+        "skill": .8,
+        "icon": "card_icon_070130011_1.5f94a52d",
+        "passive": "Auto Boost 2.5-9%",
+        "eventId": 173
+    },
+    "1087": {
+        "id": 1087,
+        "character": "Rei",
+        "cardname": "[REVERSE] Edge",
+        "unit": "HapiAra",
+        "type": "Cool",
+        "rarity": 4,
+        "heart": 16324,
+        "technical": 11926,
+        "physical": 22685,
+        "skill": .8,
+        "icon": "card_icon_070140012_1.8ae12f52",
+        "passive": "Groovy Bonus 10-37.5%",
+        "eventId": 173
     }
 }
 
