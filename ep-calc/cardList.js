@@ -16384,6 +16384,36 @@ var cards = {
         "icon": "card_icon_050120002_1.6c7faae0",
         "passive": "Auto Boost 1.5-3%",
         "eventId": 0
+    },
+    "1090": {
+        "id": 1090,
+        "character": "Maho",
+        "cardname": "Summer Fes. 2024",
+        "unit": "HapiAra",
+        "type": "Cool",
+        "rarity": 3,
+        "heart": 8391,
+        "technical": 14882,
+        "physical": 9269,
+        "skill": .3,
+        "icon": "card_icon_050120001_1.f1ce4f7b",
+        "passive": "Manual Up 1.5-4%",
+        "eventId": 0
+    },
+    "1091": {
+        "id": 1091,
+        "character": "Rinku",
+        "cardname": "Summer Fes. 2024",
+        "unit": "HapiAra",
+        "type": "Cool",
+        "rarity": 3,
+        "heart": 9656,
+        "technical": 14931,
+        "physical": 7364,
+        "skill": .3,
+        "icon": "card_icon_050110004_1.94e60ef7",
+        "passive": "Groovy Bonus 5-11.5%",
+        "eventId": 0
     }
 }
 
