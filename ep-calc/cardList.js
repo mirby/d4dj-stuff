@@ -16354,6 +16354,36 @@ var cards = {
         "icon": "card_icon_070140012_1.8ae12f52",
         "passive": "Groovy Bonus 10-37.5%",
         "eventId": 173
+    },
+    "1088": {
+        "id": 1088,
+        "character": "Rinku",
+        "cardname": "Summer Fes. 2024, Twilight Glow",
+        "unit": "HapiAra",
+        "type": "Street",
+        "rarity": 3,
+        "heart": 15563,
+        "technical": 7941,
+        "physical": 8837,
+        "skill": .3,
+        "icon": "card_icon_050110005_1.b9cf454f",
+        "passive": "Life Boost 1-3%",
+        "eventId": 0
+    },
+    "1089": {
+        "id": 1089,
+        "character": "Maho",
+        "cardname": "Summer Fes. 2024 Twilight Glow",
+        "unit": "HapiAra",
+        "type": "Street",
+        "rarity": 3,
+        "heart": 15198,
+        "technical": 9656,
+        "physical": 7723,
+        "skill": .3,
+        "icon": "card_icon_050120002_1.6c7faae0",
+        "passive": "Auto Boost 1.5-3%",
+        "eventId": 0
     }
 }
 
