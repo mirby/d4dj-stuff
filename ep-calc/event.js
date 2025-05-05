@@ -2041,6 +2041,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "174": {
+        "id":174,
+        "name":"Arisugawa in Wonder Easter",
+        "characters":"Miyu,Haruna,Kokoa,Hayate",
+        "type":"Medley",
+        "style":"Cute",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
