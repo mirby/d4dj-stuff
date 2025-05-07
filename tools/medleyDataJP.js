@@ -3740,17 +3740,6 @@ var sectionsJp = [
     "sectionAvg": 43.29
   },
   {
-    "songID": "5030073",
-    "songName": "檄！帝国華撃団",
-    "1": 47.027,
-    "2": 30.218,
-    "3": 36.518,
-    "4": 112.527,
-    "combined": 113.763,
-    "section2twice": 143.981,
-    "sectionAvg": 37.921
-  },
-  {
     "songID": "420017",
     "songName": "Timing",
     "1": 50.909,
@@ -3760,39 +3749,6 @@ var sectionsJp = [
     "combined": 116.257,
     "section2twice": 147.166,
     "sectionAvg": 38.752
-  },
-  {
-    "songID": "5030070",
-    "songName": "花咲く乙女",
-    "1": 27.856,
-    "2": 28.757,
-    "3": 44.866,
-    "4": 125.467,
-    "combined": 101.479,
-    "section2twice": 130.236,
-    "sectionAvg": 33.826
-  },
-  {
-    "songID": "5030071",
-    "songName": "御旗のもとに",
-    "1": 32.672,
-    "2": 29.468,
-    "3": 50.57,
-    "4": 106.179,
-    "combined": 112.71,
-    "section2twice": 142.178,
-    "sectionAvg": 37.57
-  },
-  {
-    "songID": "5030072",
-    "songName": "地上の戦士",
-    "1": 49.182,
-    "2": 30.202,
-    "3": 48.263,
-    "4": 152.307,
-    "combined": 127.647,
-    "section2twice": 157.849,
-    "sectionAvg": 42.549
   },
   {
     "songID": "110026",
@@ -6215,28 +6171,6 @@ var sectionsJp = [
     "sectionAvg": 37.754
   },
   {
-    "songID": "5050274",
-    "songName": "Follow your arrows",
-    "1": 43.636,
-    "2": 32.727,
-    "3": 41.296,
-    "4": 135.0,
-    "combined": 117.659,
-    "section2twice": 150.386,
-    "sectionAvg": 39.22
-  },
-  {
-    "songID": "5050276",
-    "songName": "Humming Love",
-    "1": 33.334,
-    "2": 34.666,
-    "3": 49.28,
-    "4": 105.334,
-    "combined": 117.28,
-    "section2twice": 151.946,
-    "sectionAvg": 39.093
-  },
-  {
     "songID": "810009",
     "songName": "トーキョーオタクデート",
     "1": 40.678,
@@ -6246,17 +6180,6 @@ var sectionsJp = [
     "combined": 127.569,
     "section2twice": 168.247,
     "sectionAvg": 42.523
-  },
-  {
-    "songID": "5050275",
-    "songName": "ギフティ",
-    "1": 40.0,
-    "2": 30.0,
-    "3": 43.259,
-    "4": 115.0,
-    "combined": 113.259,
-    "section2twice": 143.259,
-    "sectionAvg": 37.753
   },
   {
     "songID": "3020041",
@@ -7082,5 +7005,104 @@ var sectionsJp = [
     "combined": 118.541,
     "section2twice": 154.541,
     "sectionAvg": 39.514
+  },
+  {
+    "songID": "310028",
+    "songName": "Mirror",
+    "1": 45.0,
+    "2": 33.75,
+    "3": 45.373,
+    "4": 131.25,
+    "combined": 124.123,
+    "section2twice": 157.873,
+    "sectionAvg": 41.374
+  },
+  {
+    "songID": "5050310",
+    "songName": "旅立ちのSAGA",
+    "1": 43.637,
+    "2": 32.727,
+    "3": 39.724,
+    "4": 103.636,
+    "combined": 116.088,
+    "section2twice": 148.815,
+    "sectionAvg": 38.696
+  },
+  {
+    "songID": "5050327",
+    "songName": "雑踏、僕らの街",
+    "1": 45.614,
+    "2": 36.491,
+    "3": 46.062,
+    "4": 98.947,
+    "combined": 128.167,
+    "section2twice": 164.658,
+    "sectionAvg": 42.722
+  },
+  {
+    "songID": "5050328",
+    "songName": "爆ぜて咲く",
+    "1": 38.4,
+    "2": 28.8,
+    "3": 47.176,
+    "4": 144.0,
+    "combined": 114.376,
+    "section2twice": 143.176,
+    "sectionAvg": 38.125
+  },
+  {
+    "songID": "5050329",
+    "songName": "名もなき何もかも",
+    "1": 39.786,
+    "2": 32.085,
+    "3": 47.049,
+    "4": 130.909,
+    "combined": 118.92,
+    "section2twice": 151.005,
+    "sectionAvg": 39.64
+  },
+  {
+    "songID": "5050330",
+    "songName": "理想的パラドクスとは",
+    "1": 40.0,
+    "2": 32.0,
+    "3": 45.638,
+    "4": 116.8,
+    "combined": 117.638,
+    "section2twice": 149.638,
+    "sectionAvg": 39.213
+  },
+  {
+    "songID": "5050331",
+    "songName": "空白とカタルシス",
+    "1": 41.29,
+    "2": 33.548,
+    "3": 45.057,
+    "4": 120.0,
+    "combined": 119.895,
+    "section2twice": 153.443,
+    "sectionAvg": 39.965
+  },
+  {
+    "songID": "5050312",
+    "songName": "COUNT9",
+    "1": 32.0,
+    "2": 30.0,
+    "3": 45.725,
+    "4": 113.334,
+    "combined": 107.725,
+    "section2twice": 137.725,
+    "sectionAvg": 35.908
+  },
+  {
+    "songID": "1010003",
+    "songName": "カテカンオーライ☆",
+    "1": 46.08,
+    "2": 30.72,
+    "3": 43.929,
+    "4": 130.56,
+    "combined": 120.729,
+    "section2twice": 151.449,
+    "sectionAvg": 40.243
   }
 ]

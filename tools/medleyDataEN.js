@@ -1264,17 +1264,6 @@ var sectionsEn = [
     "sectionAvg": 40.023
   },
   {
-    "songID": "5050028",
-    "songName": "God knows...",
-    "1": 41.6,
-    "2": 35.2,
-    "3": 42.006,
-    "4": 118.4,
-    "combined": 118.806,
-    "section2twice": 154.006,
-    "sectionAvg": 39.602
-  },
-  {
     "songID": "110015",
     "songName": "Hey! Be Ambitious! (Another Ver.)",
     "1": 42.001,
@@ -2023,17 +2012,6 @@ var sectionsEn = [
     "sectionAvg": 38.406
   },
   {
-    "songID": "5050124",
-    "songName": "HERE COMES HOPE",
-    "1": 41.684,
-    "2": 30.316,
-    "3": 47.268,
-    "4": 112.421,
-    "combined": 119.268,
-    "section2twice": 149.584,
-    "sectionAvg": 39.756
-  },
-  {
     "songID": "210013",
     "songName": "Symphonic Merry-Go-Round",
     "1": 36.0,
@@ -2164,28 +2142,6 @@ var sectionsEn = [
     "combined": 125.019,
     "section2twice": 156.239,
     "sectionAvg": 41.673
-  },
-  {
-    "songID": "5050148",
-    "songName": "Insomnia",
-    "1": 36.572,
-    "2": 27.43,
-    "3": 38.685,
-    "4": 148.573,
-    "combined": 102.687,
-    "section2twice": 130.117,
-    "sectionAvg": 34.229
-  },
-  {
-    "songID": "5050149",
-    "songName": "Loving you",
-    "1": 34.91,
-    "2": 34.91,
-    "3": 37.551,
-    "4": 139.637,
-    "combined": 107.371,
-    "section2twice": 142.281,
-    "sectionAvg": 35.79
   },
   {
     "songID": "320016",
@@ -2991,28 +2947,6 @@ var sectionsEn = [
     "sectionAvg": 42.311
   },
   {
-    "songID": "5030101",
-    "songName": "Super Battleworn Insomniac",
-    "1": 31.987,
-    "2": 41.667,
-    "3": 40.513,
-    "4": 119.154,
-    "combined": 114.167,
-    "section2twice": 155.834,
-    "sectionAvg": 38.056
-  },
-  {
-    "songID": "5030102",
-    "songName": "wish i could care less",
-    "1": 37.037,
-    "2": 22.222,
-    "3": 51.628,
-    "4": 94.455,
-    "combined": 110.887,
-    "section2twice": 133.109,
-    "sectionAvg": 36.962
-  },
-  {
     "songID": "310020",
     "songName": "24",
     "1": 34.909,
@@ -3627,17 +3561,6 @@ var sectionsEn = [
     "combined": 116.385,
     "section2twice": 145.923,
     "sectionAvg": 38.795
-  },
-  {
-    "songID": "5050029",
-    "songName": "Hare Hare Yukai",
-    "1": 47.442,
-    "2": 36.279,
-    "3": 47.093,
-    "4": 133.605,
-    "combined": 130.814,
-    "section2twice": 167.093,
-    "sectionAvg": 43.605
   },
   {
     "songID": "5050156",
@@ -4738,5 +4661,38 @@ var sectionsEn = [
     "combined": 117.633,
     "section2twice": 148.402,
     "sectionAvg": 39.211
+  },
+  {
+    "songID": "5050262",
+    "songName": "Dance In The Game",
+    "1": 39.111,
+    "2": 32.0,
+    "3": 49.586,
+    "4": 144.0,
+    "combined": 120.697,
+    "section2twice": 152.697,
+    "sectionAvg": 40.232
+  },
+  {
+    "songID": "5050263",
+    "songName": "Minor Piece",
+    "1": 37.809,
+    "2": 32.876,
+    "3": 57.476,
+    "4": 143.014,
+    "combined": 128.161,
+    "section2twice": 161.037,
+    "sectionAvg": 42.72
+  },
+  {
+    "songID": "610030",
+    "songName": "Lyrical Tea Party!",
+    "1": 37.818,
+    "2": 34.909,
+    "3": 48.082,
+    "4": 123.636,
+    "combined": 120.809,
+    "section2twice": 155.718,
+    "sectionAvg": 40.27
   }
 ]
