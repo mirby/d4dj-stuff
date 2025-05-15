@@ -16519,6 +16519,66 @@ var cards = {
         "icon": "card_icon_060720003_1.0a1d5d29",
         "passive": "Manual Up 2.5-11%",
         "eventId": 0
+    },
+    "1099": {
+        "id": 1099,
+        "character": "Tsubaki",
+        "cardname": "【REVERSE】Crimson",
+        "unit": "Rondo",
+        "type": "Party",
+        "rarity": 4,
+        "heart": 22788,
+        "technical": 12994,
+        "physical": 15348,
+        "skill": .8,
+        "icon": "card_icon_070510012_1.780289de",
+        "passive": "Life Boost 2.5-8.5%",
+        "eventId": 175
+    },
+    "1100": {
+        "id": 1100,
+        "character": "Nagisa",
+        "cardname": "【REVERSE】Crimson",
+        "unit": "Rondo",
+        "type": "Party",
+        "rarity": 4,
+        "heart": 21874,
+        "technical": 17268,
+        "physical": 13186,
+        "skill": .8,
+        "icon": "card_icon_070520011_1.2e9f015b",
+        "passive": "Auto Boost 2.5-9%",
+        "eventId": 175
+    },
+    "1101": {
+        "id": 1101,
+        "character": "Hiiro",
+        "cardname": "【REVERSE】Crimson",
+        "unit": "Rondo",
+        "type": "Party",
+        "rarity": 4,
+        "heart": 22432,
+        "technical": 15987,
+        "physical": 13587,
+        "skill": .8,
+        "icon": "card_icon_070530009_1.e60cf1e8",
+        "passive": "Groovy Solo 20-75%",
+        "eventId": 175
+    },
+    "1102": {
+        "id": 1102,
+        "character": "Aoi",
+        "cardname": "【REVERSE】Crimson",
+        "unit": "Rondo",
+        "type": "Party",
+        "rarity": 4,
+        "heart": 22642,
+        "technical": 12662,
+        "physical": 16140,
+        "skill": .8,
+        "icon": "card_icon_070540009_1.be623468",
+        "passive": "Groovy Bonus 10-37.5%",
+        "eventId": 175
     }
 }
 

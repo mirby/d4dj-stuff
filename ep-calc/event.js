@@ -2052,6 +2052,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "175": {
+        "id":175,
+        "name":"Where the Azure Song Goes",
+        "characters":"Tsubaki,Nagisa,Hiiro,Aoi",
+        "type":"Poker",
+        "style":"Party",
+        "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
