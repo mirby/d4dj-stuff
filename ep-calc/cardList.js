@@ -16579,6 +16579,66 @@ var cards = {
         "icon": "card_icon_070540009_1.be623468",
         "passive": "Groovy Bonus 10-37.5%",
         "eventId": 175
+    },
+    "1103": {
+        "id": 1103,
+        "character": "Shika",
+        "cardname": "the Coolest summer",
+        "unit": "Doggo",
+        "type": "Elegant",
+        "rarity": 4,
+        "heart": 17938,
+        "technical": 21925,
+        "physical": 12678,
+        "skill": .5,
+        "icon": "card_icon_041030003_1.61069ee7",
+        "passive": "Life Boost 2.5-8.5%",
+        "eventId": 176
+    },
+    "1104": {
+        "id": 1104,
+        "character": "Eimi",
+        "cardname": "what is next Aim",
+        "unit": "Doggo",
+        "type": "Elegant",
+        "rarity": 4,
+        "heart": 13146,
+        "technical": 22702,
+        "physical": 17355,
+        "skill": .5,
+        "icon": "card_icon_041010003_1.3687dbf3",
+        "passive": "Groovy Bonus 10-37.5%",
+        "eventId": 176
+    },
+    "1105": {
+        "id": 1105,
+        "character": "Bell",
+        "cardname": "aboard a Boat",
+        "unit": "Doggo",
+        "type": "Elegant",
+        "rarity": 4,
+        "heart": 17053,
+        "technical": 22027,
+        "physical": 13435,
+        "skill": .5,
+        "icon": "card_icon_041020003_1.b8d62ebc",
+        "passive": "Auto Boost 2.5-9%",
+        "eventId": 176
+    },
+    "1106": {
+        "id": 1106,
+        "character": "Date-chan",
+        "cardname": "like a Dynamite",
+        "unit": "Doggo",
+        "type": "Elegant",
+        "rarity": 4,
+        "heart": 12997,
+        "technical": 22614,
+        "physical": 17522,
+        "skill": .5,
+        "icon": "card_icon_041040003_1.f86c6063",
+        "passive": "Groovy Solo 20-75%",
+        "eventId": 176
     }
 }
 

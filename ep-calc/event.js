@@ -2063,6 +2063,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "176": {
+        "id":176,
+        "name":"A Bad Cynic Doggo ~Crimson-Tinged Sky Blue Blank~",
+        "characters":"Eimi,Bell,Shika,Date-chan",
+        "type":"Raid",
+        "style":"None",
+        "parameter":"None",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":"50% power boost for 4th anni cards or Event Doggo in Multi. 25% in Special Raid"
+    },
 }
 
 /*
