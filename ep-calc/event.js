@@ -2074,6 +2074,17 @@ var eventList = {
         "comboBonus":true,
         "addition":"50% power boost for 4th anni cards or Event Doggo in Multi. 25% in Special Raid"
     },
+    "177": {
+        "id":177,
+        "name":"The Arisugawa Chronicles of Imagination: Blossoming Princesses in Full Glory",
+        "characters":"Miyu,Haruna,Kurumi,Miiko",
+        "type":"Medley",
+        "style":"Elegant",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
