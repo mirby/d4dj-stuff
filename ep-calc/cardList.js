@@ -16760,8 +16760,8 @@ var cards = {
         "passive": "Manual Up 2.5-11%",
         "eventId": 0
     },
-    "1115": {
-        "id": 1115,
+    "1124": {
+        "id": 1124,
         "character": "Kyoko",
         "cardname": "GROWTH 〈Peaky P-key〉",
         "unit": "Peaky",
@@ -16775,8 +16775,8 @@ var cards = {
         "passive": "Score Up 4-6%",
         "eventId": 0
     },
-    "1115": {
-        "id": 1115,
+    "1125": {
+        "id": 1125,
         "character": "Shinobu",
         "cardname": "GROWTH 〈Peaky P-key〉",
         "unit": "Peaky",
@@ -16790,8 +16790,8 @@ var cards = {
         "passive": "Skill Duration 10-30%",
         "eventId": 0
     },
-    "1115": {
-        "id": 1115,
+    "1126": {
+        "id": 1126,
         "character": "Yuka",
         "cardname": "GROWTH 〈Peaky P-key〉",
         "unit": "Peaky",
