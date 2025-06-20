@@ -16819,26 +16819,146 @@ var cards = {
         "icon": "card_icon_070240009_1.8b5cca2a",
         "passive": "Skill Duration 10-30%",
         "eventId": 0
+    },
+    "1116": {
+        "id": 1116,
+        "character": "Kyoko",
+        "cardname": "GroovyFes track.2",
+        "unit": "Peaky",
+        "type": "Elegant",
+        "rarity": 4,
+        "heart": 18798,
+        "technical": 19420,
+        "physical": 19387,
+        "skill": .6,
+        "icon": "card_icon_070210013_1.59d87043",
+        "passive": "Sympathy 2-6%",
+        "eventId": 0
+    },
+    "1117": {
+        "id": 1117,
+        "character": "Esora",
+        "cardname": "GroovyFes track.2",
+        "unit": "Peaky",
+        "type": "Cool",
+        "rarity": 4,
+        "heart": 19962,
+        "technical": 18340,
+        "physical": 19258,
+        "skill": .6,
+        "icon": "card_icon_070240014_1.5947b30f",
+        "passive": "Sympathy 2-6%",
+        "eventId": 0
+    },
+    "1118": {
+        "id": 1118,
+        "character": "Elsie",
+        "cardname": "GroovyFes track.2",
+        "unit": "Abyssmare",
+        "type": "Cute",
+        "rarity": 4,
+        "heart": 18406,
+        "technical": 21372,
+        "physical": 17752,
+        "skill": .6,
+        "icon": "card_icon_070930010_1.041f23b1",
+        "passive": "Sympathy 2-6%",
+        "eventId": 0
+    },
+    "1119": {
+        "id": 1119,
+        "character": "Towa",
+        "cardname": "GroovyFes track.2",
+        "unit": "Photon",
+        "type": "Cool",
+        "rarity": 4,
+        "heart": 19204,
+        "technical": 19083,
+        "physical": 19197,
+        "skill": .6,
+        "icon": "card_icon_070330015_1.3fa8fea1",
+        "passive": "Sympathy 2-6%",
+        "eventId": 0
+    },
+    "1120": {
+        "id": 1120,
+        "character": "Michiru",
+        "cardname": "【REVERSE】Noise",
+        "unit": "Unichord",
+        "type": "Street",
+        "rarity": 4,
+        "heart": 21707,
+        "technical": 12344,
+        "physical": 16583,
+        "skill": .8,
+        "icon": "card_icon_070810010_1.b6f5996f",
+        "passive": "Groovy Bonus 10-37.5%",
+        "eventId": 178
+    },
+    "1121": {
+        "id": 1121,
+        "character": "Lumina",
+        "cardname": "【REVERSE】Noise",
+        "unit": "Unichord",
+        "type": "Street",
+        "rarity": 4,
+        "heart": 23079,
+        "technical": 14940,
+        "physical": 12615,
+        "skill": .8,
+        "icon": "card_icon_070820011_1.4798e5ec",
+        "passive": "Auto Boost 2.5-9%",
+        "eventId": 178
+    },
+    "1122": {
+        "id": 1122,
+        "character": "Kokoa",
+        "cardname": "【REVERSE】Noise",
+        "unit": "Unichord",
+        "type": "Street",
+        "rarity": 4,
+        "heart": 23288,
+        "technical": 15197,
+        "physical": 13256,
+        "skill": .8,
+        "icon": "card_icon_070830012_1.7bd4fbe5",
+        "passive": "Groovy Solo 20-75%",
+        "eventId": 178
+    },
+    "1123": {
+        "id": 1123,
+        "character": "Hayate",
+        "cardname": "【REVERSE】Noise",
+        "unit": "Unichord",
+        "type": "Street",
+        "rarity": 4,
+        "heart": 24255,
+        "technical": 14203,
+        "physical": 13669,
+        "skill": .8,
+        "icon": "card_icon_070840011_1.24dc57dc",
+        "passive": "Life Boost 2.5-8.5%",
+        "eventId": 178
     }
 }
 
 /*
 Template
-        "": {
-            "id": ,
-            "character": "",
-            "cardname": "",
-            "unit": "",
-            "type": "",
-            "rarity": ,
-            "heart": ,
-            "technical": ,
-            "physical": ,
-            "skill": ,
-            "icon": "",
-            "passive": "",
-            "eventId": 0
-        }
+    "": {
+        "id": ,
+        "character": "",
+        "cardname": "",
+        "unit": "",
+        "type": "",
+        "rarity": ,
+        "heart": ,
+        "technical": ,
+        "physical": ,
+        "skill": ,
+        "icon": "",
+        "passive": "",
+        "eventId": 0
+    }
 */
 
 // Unused for now, for future refactoring

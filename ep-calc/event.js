@@ -2085,6 +2085,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "178": {
+        "id":178,
+        "name":"IfChØrd 404：Not Found",
+        "characters":"Michiru,Lumina,Kokoa,Hayate",
+        "type":"Bingo",
+        "style":"Street",
+        "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
