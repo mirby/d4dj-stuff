@@ -17,6 +17,17 @@ jQuery(function($) {
     });
 });
 
+const partners = {
+    Airi: 'Mana',
+    Mana: 'Airi',
+    Shano: 'Toka',
+    Toka: 'Shano',
+    Kyoko: 'Shinobu',
+    Shinobu: 'Kyoko',
+    Esora: 'Yuka',
+    Yuka: 'Esora'
+};
+
 function calcByPower() {
 
     // Remove the old table rows
@@ -576,7 +587,6 @@ function importTeam() {
                 }                
             }
         }
-        document.getElementById("flatepbonus").value = flatEpBonus;
 
         // If the card is Navigation, need to calculate how much actual skill it is
         // TODO: For now, ignore all skill conditionals and treat them as is
@@ -611,6 +621,8 @@ function importTeam() {
         bonus = parseFloat(bonus.toFixed(2));
     }
     skillList = skillList.slice(0, -1).split(",").sort().join(",");
+
+    document.getElementById("flatepbonus").value = flatEpBonus;
 
     if (power != 0) {
         document.getElementById("powerin").value = power;
@@ -662,30 +674,13 @@ function importTeam() {
     var autoBoost = 0;
     var manualBoost = 0;
     var skillDuration = 0;
+    const cardNames = new Set();
 
-    var hasShano = false;
-    var hasToka = false;
-    var hasAiri = false;
-    var hasMana = false;
-
-    // Set variables if any CoA members are in team
+    // Get names of all 8 cards
     for (let x of ["m", "s"]) {
         for (let i = 1; i <= 4; i++) {
             var char = document.getElementById(x + i + "_char").innerHTML;
-            switch (char) {
-                case "shano":
-                    hasShano = true;
-                    break;
-                case "toka":
-                    hasToka = true;
-                    break;
-                case "airi":
-                    hasAiri = true;
-                    break;
-                case "mana":
-                    hasMana = true;
-                    break;
-            }
+            cardNames.add(char);
         }
     }
 
@@ -719,13 +714,9 @@ function importTeam() {
             var et = document.getElementById("m" + i + "_et").value;
             var char = document.getElementById("m" + i + "_char").innerHTML;
             var bonus = 0;
-            if (char === "shano" && hasToka) {
-                bonus += 1.5;
-            } else if (char === "airi" && hasMana) {
-                bonus += 1.5;
-            } else if (char === "mana" && hasAiri) {
-                bonus += 1.5;
-            } else if (char === "toka" && hasShano) {
+            const partnerName = partners[char];
+
+            if (partnerName && cardNames.has(partnerName)) {
                 bonus += 1.5;
             }
             var scoreUpTemp = getPassiveValue(pskillString, "Score Up", et) + bonus;
@@ -736,13 +727,9 @@ function importTeam() {
             var et = document.getElementById("m" + i + "_et").value;
             var char = document.getElementById("m" + i + "_char").innerHTML;
             var bonus = 0;
-            if (char === "mana" && hasAiri) {
-                bonus += 15;
-            } else if (char === "toka" && hasShano) {
-                bonus += 15;
-            } else if (char === "airi" && hasMana) {
-                bonus += 15;
-            } else if (char === "shano" && hasToka) {
+            const partnerName = partners[char];
+
+            if (partnerName && cardNames.has(partnerName)) {
                 bonus += 15;
             }
             var skillDurTemp = getPassiveValue(pskillString, "Skill Duration", et) + bonus;
@@ -759,13 +746,9 @@ function importTeam() {
             var et = document.getElementById("s" + i + "_et").value;
             var char = document.getElementById("s" + i + "_char").innerHTML;
             var bonus = 0;
-            if (char === "shano" && hasToka) {
-                bonus += 1.5;
-            } else if (char === "airi" && hasMana) {
-                bonus += 1.5;
-            } else if (char === "mana" && hasAiri) {
-                bonus += 1.5;
-            } else if (char === "toka" && hasShano) {
+            const partnerName = partners[char];
+
+            if (partnerName && cardNames.has(partnerName)) {
                 bonus += 1.5;
             }
             var scoreUpTemp = getPassiveValue(pskillStringSupp, "Score Up", et) + bonus;
@@ -776,13 +759,9 @@ function importTeam() {
             var et = document.getElementById("s" + i + "_et").value;
             var char = document.getElementById("s" + i + "_char").innerHTML;
             var bonus = 0;
-            if (char === "mana" && hasAiri) {
-                bonus += 15;
-            } else if (char === "toka" && hasShano) {
-                bonus += 15;
-            } else if (char === "airi" && hasMana) {
-                bonus += 15;
-            } else if (char === "shano" && hasToka) {
+            const partnerName = partners[char];
+
+            if (partnerName && cardNames.has(partnerName)) {
                 bonus += 15;
             }
             var skillDurTemp = getPassiveValue(pskillStringSupp, "Skill Duration", et) + bonus;
