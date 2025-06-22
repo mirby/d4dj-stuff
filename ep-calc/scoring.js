@@ -18,14 +18,14 @@ jQuery(function($) {
 });
 
 const partners = {
-    Airi: 'Mana',
-    Mana: 'Airi',
-    Shano: 'Toka',
-    Toka: 'Shano',
-    Kyoko: 'Shinobu',
-    Shinobu: 'Kyoko',
-    Esora: 'Yuka',
-    Yuka: 'Esora'
+    airi: 'mana',
+    mana: 'airi',
+    shano: 'toka',
+    toka: 'shano',
+    kyoko: 'shinobu',
+    shinobu: 'kyoko',
+    esora: 'yuka',
+    yuka: 'esora'
 };
 
 function calcByPower() {
