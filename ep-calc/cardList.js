@@ -16795,7 +16795,7 @@ var cards = {
         "character": "Yuka",
         "cardname": "GROWTH 〈Peaky P-key〉",
         "unit": "Peaky",
-        "type": "Elegant",
+        "type": "Cool",
         "rarity": 4,
         "heart": 14203,
         "technical": 24466,
@@ -16810,7 +16810,7 @@ var cards = {
         "character": "Esora",
         "cardname": "GROWTH 〈Peaky P-key〉",
         "unit": "Peaky",
-        "type": "Elegant",
+        "type": "Cool",
         "rarity": 4,
         "heart": 18165,
         "technical": 24420,
@@ -16940,8 +16940,8 @@ var cards = {
         "passive": "Life Boost 2.5-8.5%",
         "eventId": 178
     },
-    "1124": {
-        "id": 1124,
+    "1127": {
+        "id": 1127,
         "character": "Marika",
         "cardname": "Navigation：Classic",
         "unit": "Mermaid",
@@ -16955,8 +16955,8 @@ var cards = {
         "passive": "Manual Up 2.5-11%",
         "eventId": 0
     },
-    "1125": {
-        "id": 1125,
+    "1128": {
+        "id": 1128,
         "character": "Aoi",
         "cardname": "Navigation：Classic",
         "unit": "Rondo",
@@ -16970,8 +16970,8 @@ var cards = {
         "passive": "Manual Up 2.5-11%",
         "eventId": 0
     },
-    "1126": {
-        "id": 1126,
+    "1129": {
+        "id": 1129,
         "character": "Toka",
         "cardname": "Navigation：Classic",
         "unit": "CallofArtemis",
@@ -16985,8 +16985,8 @@ var cards = {
         "passive": "Manual Up 2.5-11%",
         "eventId": 0
     },
-    "1127": {
-        "id": 1127,
+    "1130": {
+        "id": 1130,
         "character": "Eimi",
         "cardname": "Navigation：Classic",
         "unit": "Doggo",
@@ -17000,8 +17000,8 @@ var cards = {
         "passive": "Life Boost 2.5-8.75%",
         "eventId": 0
     },
-    "1128": {
-        "id": 1128,
+    "1131": {
+        "id": 1131,
         "character": "Rika",
         "cardname": "the Hottest STAGE",
         "unit": "Mermaid",
@@ -17015,8 +17015,8 @@ var cards = {
         "passive": "Groovy Solo 20-75%",
         "eventId": 179
     },
-    "1129": {
-        "id": 1129,
+    "1132": {
+        "id": 1132,
         "character": "Marika",
         "cardname": "the Hottest STAGE",
         "unit": "Mermaid",
@@ -17030,8 +17030,8 @@ var cards = {
         "passive": "Auto Boost 2.5-9%",
         "eventId": 179
     },
-    "1130": {
-        "id": 1130,
+    "1133": {
+        "id": 1133,
         "character": "Saori",
         "cardname": "the Hottest STAGE",
         "unit": "Mermaid",
@@ -17045,8 +17045,8 @@ var cards = {
         "passive": "Groovy Bonus 10-37.5%",
         "eventId": 179
     },
-    "1131": {
-        "id": 1131,
+    "1134": {
+        "id": 1134,
         "character": "Dalia",
         "cardname": "the Hottest STAGE",
         "unit": "Mermaid",
