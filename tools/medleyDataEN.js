@@ -1363,17 +1363,6 @@ var sectionsEn = [
     "sectionAvg": 38.889
   },
   {
-    "songID": "5030034",
-    "songName": "Pure Furies (DJ_WILDPARTY_remix)",
-    "1": 41.513,
-    "2": 31.135,
-    "3": 45.087,
-    "4": 114.162,
-    "combined": 117.735,
-    "section2twice": 148.87,
-    "sectionAvg": 39.245
-  },
-  {
     "songID": "310010",
     "songName": "Photon Melodies (TAKU INOUE Remix)",
     "1": 37.333,
@@ -4694,5 +4683,159 @@ var sectionsEn = [
     "combined": 120.809,
     "section2twice": 155.718,
     "sectionAvg": 40.27
+  },
+  {
+    "songID": "110039",
+    "songName": "HAPIARA Glow stick Course Deluxe〜for Beginners〜",
+    "1": 36.0,
+    "2": 29.143,
+    "3": 44.429,
+    "4": 121.714,
+    "combined": 109.572,
+    "section2twice": 138.715,
+    "sectionAvg": 36.524
+  },
+  {
+    "songID": "910011",
+    "songName": "JUNKBOX",
+    "1": 40.0,
+    "2": 40.0,
+    "3": 44.39,
+    "4": 121.6,
+    "combined": 124.39,
+    "section2twice": 164.39,
+    "sectionAvg": 41.463
+  },
+  {
+    "songID": "1010003",
+    "songName": "Kate-Kan Alright☆",
+    "1": 46.08,
+    "2": 30.72,
+    "3": 43.929,
+    "4": 130.56,
+    "combined": 120.729,
+    "section2twice": 151.449,
+    "sectionAvg": 40.243
+  },
+  {
+    "songID": "310028",
+    "songName": "Mirror",
+    "1": 45.0,
+    "2": 33.75,
+    "3": 45.373,
+    "4": 131.25,
+    "combined": 124.123,
+    "section2twice": 157.873,
+    "sectionAvg": 41.374
+  },
+  {
+    "songID": "5050309",
+    "songName": "UNDERCODE",
+    "1": 42.858,
+    "2": 29.142,
+    "3": 44.497,
+    "4": 103.599,
+    "combined": 116.497,
+    "section2twice": 145.639,
+    "sectionAvg": 38.832
+  },
+  {
+    "songID": "5050313",
+    "songName": "Enoshima Innocent",
+    "1": 40.0,
+    "2": 40.0,
+    "3": 38.596,
+    "4": 114.667,
+    "combined": 118.596,
+    "section2twice": 158.596,
+    "sectionAvg": 39.532
+  },
+  {
+    "songID": "5050311",
+    "songName": "Science Girl",
+    "1": 38.961,
+    "2": 37.403,
+    "3": 40.961,
+    "4": 123.117,
+    "combined": 117.325,
+    "section2twice": 154.728,
+    "sectionAvg": 39.108
+  },
+  {
+    "songID": "810012",
+    "songName": "Refactoring UtØpia",
+    "1": 35.338,
+    "2": 38.282,
+    "3": 43.698,
+    "4": 122.209,
+    "combined": 117.318,
+    "section2twice": 155.6,
+    "sectionAvg": 39.106
+  },
+  {
+    "songID": "5050333",
+    "songName": "While Shining feat. Yukacco",
+    "1": 43.885,
+    "2": 32.915,
+    "3": 52.018,
+    "4": 131.658,
+    "combined": 128.818,
+    "section2twice": 161.733,
+    "sectionAvg": 42.939
+  },
+  {
+    "songID": "5050334",
+    "songName": "Breaking Dawn feat. Itsuki Natsume",
+    "1": 42.667,
+    "2": 32.0,
+    "3": 47.537,
+    "4": 157.334,
+    "combined": 122.204,
+    "section2twice": 154.204,
+    "sectionAvg": 40.735
+  },
+  {
+    "songID": "5050335",
+    "songName": "Change the Game feat. Iori Matsunaga",
+    "1": 40.8,
+    "2": 38.4,
+    "3": 44.471,
+    "4": 129.6,
+    "combined": 123.671,
+    "section2twice": 162.071,
+    "sectionAvg": 41.224
+  },
+  {
+    "songID": "5050336",
+    "songName": "Soldiers",
+    "1": 45.177,
+    "2": 33.882,
+    "3": 40.503,
+    "4": 112.941,
+    "combined": 119.562,
+    "section2twice": 153.444,
+    "sectionAvg": 39.854
+  },
+  {
+    "songID": "5050337",
+    "songName": "Fight for the CORE feat. Daisuke",
+    "1": 48.0,
+    "2": 38.4,
+    "3": 42.272,
+    "4": 134.4,
+    "combined": 128.672,
+    "section2twice": 167.072,
+    "sectionAvg": 42.891
+  },
+  {
+    "songID": "5050312",
+    "songName": "COUNT9",
+    "1": 32.0,
+    "2": 30.0,
+    "3": 45.725,
+    "4": 113.334,
+    "combined": 107.725,
+    "section2twice": 137.725,
+    "sectionAvg": 35.908
   }
 ]

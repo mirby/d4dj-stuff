@@ -2035,17 +2035,6 @@ var sectionsJp = [
     "sectionAvg": 38.889
   },
   {
-    "songID": "5030034",
-    "songName": "ピュアヒューリーズ (DJ WILDPARTY Remix)",
-    "1": 41.513,
-    "2": 31.135,
-    "3": 45.087,
-    "4": 114.162,
-    "combined": 117.735,
-    "section2twice": 148.87,
-    "sectionAvg": 39.245
-  },
-  {
     "songID": "5030035",
     "songName": "ロックマン2 メドレー2",
     "1": 42.326,
@@ -3573,28 +3562,6 @@ var sectionsJp = [
     "combined": 109.121,
     "section2twice": 133.897,
     "sectionAvg": 36.374
-  },
-  {
-    "songID": "5030065",
-    "songName": "シャッキーーン！！",
-    "1": 40.728,
-    "2": 34.91,
-    "3": 42.386,
-    "4": 151.636,
-    "combined": 118.024,
-    "section2twice": 152.934,
-    "sectionAvg": 39.341
-  },
-  {
-    "songID": "5030066",
-    "songName": "Caliburne ～Story of the Legendary sword～",
-    "1": 45.474,
-    "2": 30.317,
-    "3": 43.101,
-    "4": 130.737,
-    "combined": 118.892,
-    "section2twice": 149.209,
-    "sectionAvg": 39.631
   },
   {
     "songID": "5030067",
@@ -6028,28 +5995,6 @@ var sectionsJp = [
     "sectionAvg": 40.963
   },
   {
-    "songID": "5050264",
-    "songName": "Make a splash!",
-    "1": 33.882,
-    "2": 42.353,
-    "3": 38.031,
-    "4": 107.258,
-    "combined": 114.266,
-    "section2twice": 156.619,
-    "sectionAvg": 38.089
-  },
-  {
-    "songID": "5050265",
-    "songName": "Future will come",
-    "1": 37.551,
-    "2": 39.184,
-    "3": 42.025,
-    "4": 156.735,
-    "combined": 118.76,
-    "section2twice": 157.944,
-    "sectionAvg": 39.587
-  },
-  {
     "songID": "910007",
     "songName": "バイララバイ",
     "1": 38.4,
@@ -6259,17 +6204,6 @@ var sectionsJp = [
     "sectionAvg": 40.667
   },
   {
-    "songID": "5050277",
-    "songName": "Sunny Spot",
-    "1": 42.197,
-    "2": 36.924,
-    "3": 48.544,
-    "4": 113.407,
-    "combined": 127.665,
-    "section2twice": 164.589,
-    "sectionAvg": 42.555
-  },
-  {
     "songID": "820004",
     "songName": "INTERNET YAMERO",
     "1": 37.622,
@@ -6279,17 +6213,6 @@ var sectionsJp = [
     "combined": 116.042,
     "section2twice": 147.177,
     "sectionAvg": 38.681
-  },
-  {
-    "songID": "5050278",
-    "songName": "メリトクラシー",
-    "1": 46.154,
-    "2": 44.307,
-    "3": 51.708,
-    "4": 135.316,
-    "combined": 142.169,
-    "section2twice": 186.476,
-    "sectionAvg": 47.39
   },
   {
     "songID": "5030106",
@@ -6345,17 +6268,6 @@ var sectionsJp = [
     "combined": 148.557,
     "section2twice": 189.426,
     "sectionAvg": 49.519
-  },
-  {
-    "songID": "5050284",
-    "songName": "キュンリアス",
-    "1": 48.589,
-    "2": 35.337,
-    "3": 54.287,
-    "4": 137.064,
-    "combined": 138.213,
-    "section2twice": 173.55,
-    "sectionAvg": 46.071
   },
   {
     "songID": "210026",
@@ -7084,6 +6996,17 @@ var sectionsJp = [
     "sectionAvg": 39.965
   },
   {
+    "songID": "5050332",
+    "songName": "わたしの一番かわいいところ",
+    "1": 39.375,
+    "2": 30.0,
+    "3": 49.416,
+    "4": 127.5,
+    "combined": 118.791,
+    "section2twice": 148.791,
+    "sectionAvg": 39.597
+  },
+  {
     "songID": "5050312",
     "songName": "COUNT9",
     "1": 32.0,
@@ -7095,6 +7018,17 @@ var sectionsJp = [
     "sectionAvg": 35.908
   },
   {
+    "songID": "5050311",
+    "songName": "Science Girl",
+    "1": 38.961,
+    "2": 37.403,
+    "3": 40.961,
+    "4": 123.117,
+    "combined": 117.325,
+    "section2twice": 154.728,
+    "sectionAvg": 39.108
+  },
+  {
     "songID": "1010003",
     "songName": "カテカンオーライ☆",
     "1": 46.08,
@@ -7104,5 +7038,148 @@ var sectionsJp = [
     "combined": 120.729,
     "section2twice": 151.449,
     "sectionAvg": 40.243
+  },
+  {
+    "songID": "5050333",
+    "songName": "While Shining feat. Yukacco",
+    "1": 43.885,
+    "2": 32.915,
+    "3": 52.018,
+    "4": 131.658,
+    "combined": 128.818,
+    "section2twice": 161.733,
+    "sectionAvg": 42.939
+  },
+  {
+    "songID": "5050334",
+    "songName": "Breaking Dawn feat. 棗いつき",
+    "1": 42.667,
+    "2": 32.0,
+    "3": 47.537,
+    "4": 157.334,
+    "combined": 122.204,
+    "section2twice": 154.204,
+    "sectionAvg": 40.735
+  },
+  {
+    "songID": "5050335",
+    "songName": "Change the Game feat. 松永依織",
+    "1": 40.8,
+    "2": 38.4,
+    "3": 44.471,
+    "4": 129.6,
+    "combined": 123.671,
+    "section2twice": 162.071,
+    "sectionAvg": 41.224
+  },
+  {
+    "songID": "5050336",
+    "songName": "Soldiers",
+    "1": 45.177,
+    "2": 33.882,
+    "3": 40.503,
+    "4": 112.941,
+    "combined": 119.562,
+    "section2twice": 153.444,
+    "sectionAvg": 39.854
+  },
+  {
+    "songID": "5050337",
+    "songName": "Fight for the CORE feat. Daisuke",
+    "1": 48.0,
+    "2": 38.4,
+    "3": 42.272,
+    "4": 134.4,
+    "combined": 128.672,
+    "section2twice": 167.072,
+    "sectionAvg": 42.891
+  },
+  {
+    "songID": "810012",
+    "songName": "Refactoring UtØpia",
+    "1": 35.338,
+    "2": 38.282,
+    "3": 43.698,
+    "4": 122.209,
+    "combined": 117.318,
+    "section2twice": 155.6,
+    "sectionAvg": 39.106
+  },
+  {
+    "songID": "110040",
+    "songName": "Happy Countdown!!",
+    "1": 33.684,
+    "2": 35.085,
+    "3": 43.489,
+    "4": 134.736,
+    "combined": 112.258,
+    "section2twice": 147.343,
+    "sectionAvg": 37.419
+  },
+  {
+    "songID": "5050340",
+    "songName": "Hi-Vision",
+    "1": 37.647,
+    "2": 40.0,
+    "3": 46.136,
+    "4": 108.236,
+    "combined": 123.783,
+    "section2twice": 163.783,
+    "sectionAvg": 41.261
+  },
+  {
+    "songID": "5050306",
+    "songName": "シカ色デイズ",
+    "1": 41.968,
+    "2": 31.476,
+    "3": 41.256,
+    "4": 129.837,
+    "combined": 114.7,
+    "section2twice": 146.176,
+    "sectionAvg": 38.233
+  },
+  {
+    "songID": "5050338",
+    "songName": "ハニーレモン",
+    "1": 44.835,
+    "2": 35.604,
+    "3": 46.981,
+    "4": 154.286,
+    "combined": 127.42,
+    "section2twice": 163.024,
+    "sectionAvg": 42.473
+  },
+  {
+    "songID": "5050339",
+    "songName": "LIKE YOU o(>< = ><)o LOVE YOU?",
+    "1": 42.791,
+    "2": 31.628,
+    "3": 47.595,
+    "4": 102.47,
+    "combined": 122.014,
+    "section2twice": 153.642,
+    "sectionAvg": 40.671
+  },
+  {
+    "songID": "220023",
+    "songName": "Body & Soul",
+    "1": 46.83,
+    "2": 33.17,
+    "3": 45.158,
+    "4": 115.122,
+    "combined": 125.158,
+    "section2twice": 158.328,
+    "sectionAvg": 41.719
+  },
+  {
+    "songID": "5050316",
+    "songName": "良く晴れたSunny",
+    "1": 45.0,
+    "2": 33.333,
+    "3": 41.086,
+    "4": 113.438,
+    "combined": 119.419,
+    "section2twice": 152.752,
+    "sectionAvg": 39.806
   }
 ]
