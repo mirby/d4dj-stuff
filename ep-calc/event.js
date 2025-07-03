@@ -2096,6 +2096,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "179": {
+        "id":179,
+        "name":"The SLOT in 2025 Jul.",
+        "characters":"Rika,Marika,Saori,Dalia",
+        "type":"Slots",
+        "style":"Cool",
+        "parameter":"Physical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
