@@ -2107,6 +2107,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "180": {
+        "id":180,
+        "name":"The POKER in 2025 Jul.",
+        "characters":"Rinku,Maho,Muni,Rei",
+        "type":"Poker",
+        "style":"Party",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*

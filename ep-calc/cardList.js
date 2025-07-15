@@ -17059,6 +17059,66 @@ var cards = {
         "icon": "card_icon_070440010_1.905996fa",
         "passive": "Life Boost 2.5-8.5%",
         "eventId": 179
+    },
+    "1135": {
+        "id": 1135,
+        "character": "Rinku",
+        "cardname": "the Happiest STAGE",
+        "unit": "HapiAra",
+        "type": "Party",
+        "rarity": 4,
+        "heart": 15344,
+        "technical": 22713,
+        "physical": 15098,
+        "skill": .8,
+        "icon": "card_icon_070110016_1.f1d8994b",
+        "passive": "Groovy Bonus 10-37.5%",
+        "eventId": 180
+    },
+    "1136": {
+        "id": 1136,
+        "character": "Maho",
+        "cardname": "the Happiest STAGE",
+        "unit": "HapiAra",
+        "type": "Party",
+        "rarity": 4,
+        "heart": 14649,
+        "technical": 22745,
+        "physical": 13558,
+        "skill": .8,
+        "icon": "card_icon_070120015_1.54cac6bd",
+        "passive": "Life Boost 2.5-8.5%",
+        "eventId": 180
+    },
+    "1137": {
+        "id": 1137,
+        "character": "Muni",
+        "cardname": "the Happiest STAGE",
+        "unit": "HapiAra",
+        "type": "Party",
+        "rarity": 4,
+        "heart": 13391,
+        "technical": 22663,
+        "physical": 16405,
+        "skill": .8,
+        "icon": "card_icon_070130013_1.243b1c3e",
+        "passive": "Groovy Solo 20-75%",
+        "eventId": 180
+    },
+    "1138": {
+        "id": 1138,
+        "character": "Rei",
+        "cardname": "the Happiest STAGE",
+        "unit": "HapiAra",
+        "type": "Party",
+        "rarity": 4,
+        "heart": 17576,
+        "technical": 22154,
+        "physical": 12027,
+        "skill": .8,
+        "icon": "card_icon_070140014_1.f5a14ade",
+        "passive": "Auto Boost 2.5-9%",
+        "eventId": 180
     }
 }
 
