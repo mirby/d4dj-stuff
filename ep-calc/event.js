@@ -2118,6 +2118,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "181": {
+        "id":181,
+        "name":"Encounters in Ancient Cities～The Peaky School Trip～",
+        "characters":"Kyoko,Shinobu,Yuka,Esora",
+        "type":"Slots",
+        "style":"Party",
+        "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*

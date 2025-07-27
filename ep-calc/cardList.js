@@ -17119,6 +17119,66 @@ var cards = {
         "icon": "card_icon_070140014_1.f5a14ade",
         "passive": "Auto Boost 2.5-9%",
         "eventId": 180
+    },
+    "1139": {
+        "id": 1139,
+        "character": "Kyoko",
+        "cardname": "[REVERSE] Crown]",
+        "unit": "Peaky",
+        "type": "Party",
+        "rarity": 4,
+        "heart": 22592,
+        "technical": 12019,
+        "physical": 16398,
+        "skill": .8,
+        "icon": "card_chara_070210014_1.9d5a7265",
+        "passive": "Groovy Solo 20-75%",
+        "eventId": 181
+    },
+    "1140": {
+        "id": 1140,
+        "character": "Shinobu",
+        "cardname": "[REVERSE] Crown]",
+        "unit": "Peaky",
+        "type": "Party",
+        "rarity": 4,
+        "heart": 21340,
+        "technical": 17503,
+        "physical": 13177,
+        "skill": .8,
+        "icon": "card_icon_070220015_1.3fee4043",
+        "passive": "Groovy Bonus 10-37.5%",
+        "eventId": 181
+    },
+    "1141": {
+        "id": 1141,
+        "character": "Yuka",
+        "cardname": "[REVERSE] Crown]",
+        "unit": "Peaky",
+        "type": "Party",
+        "rarity": 4,
+        "heart": 22429,
+        "technical": 14640,
+        "physical": 14163,
+        "skill": .8,
+        "icon": "card_icon_070230015_1.d4a1e393",
+        "passive": "Life Boost 2.5-8.5%",
+        "eventId": 181
+    },
+    "1142": {
+        "id": 1142,
+        "character": "Esora",
+        "cardname": "[REVERSE] Crown]",
+        "unit": "Peaky",
+        "type": "Party",
+        "rarity": 4,
+        "heart": 22444,
+        "technical": 16982,
+        "physical": 13106,
+        "skill": .8,
+        "icon": "card_icon_070240015_1.c3e84993",
+        "passive": "Manual Up 2.5-10.5%",
+        "eventId": 181
     }
 }
 
