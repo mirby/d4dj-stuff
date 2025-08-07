@@ -3729,28 +3729,6 @@ var sectionsJp = [
     "sectionAvg": 39.914
   },
   {
-    "songID": "5030074",
-    "songName": "Smell of the Game",
-    "1": 39.231,
-    "2": 30.0,
-    "3": 40.973,
-    "4": 144.231,
-    "combined": 110.204,
-    "section2twice": 140.204,
-    "sectionAvg": 36.735
-  },
-  {
-    "songID": "5030075",
-    "songName": "Find Your One Way",
-    "1": 37.5,
-    "2": 22.5,
-    "3": 52.89,
-    "4": 142.5,
-    "combined": 112.89,
-    "section2twice": 135.39,
-    "sectionAvg": 37.63
-  },
-  {
     "songID": "510017",
     "songName": "神蕾-シン・ライ-",
     "1": 39.385,
@@ -3806,39 +3784,6 @@ var sectionsJp = [
     "sectionAvg": 37.113
   },
   {
-    "songID": "5030076",
-    "songName": "The Roar of the Spark",
-    "1": 41.448,
-    "2": 33.103,
-    "3": 49.675,
-    "4": 128.344,
-    "combined": 124.226,
-    "section2twice": 157.329,
-    "sectionAvg": 41.409
-  },
-  {
-    "songID": "5030077",
-    "songName": "The Disaster of Passion",
-    "1": 45.921,
-    "2": 32.0,
-    "3": 47.684,
-    "4": 113.333,
-    "combined": 125.605,
-    "section2twice": 157.605,
-    "sectionAvg": 41.868
-  },
-  {
-    "songID": "5030078",
-    "songName": "Love the Subhuman Self",
-    "1": 43.479,
-    "2": 31.305,
-    "3": 46.757,
-    "4": 121.739,
-    "combined": 121.541,
-    "section2twice": 152.846,
-    "sectionAvg": 40.514
-  },
-  {
     "songID": "220021",
     "songName": "NO MORE CRY",
     "1": 52.603,
@@ -3883,61 +3828,6 @@ var sectionsJp = [
     "sectionAvg": 44.205
   },
   {
-    "songID": "5030079",
-    "songName": "Necessary Discrepancy",
-    "1": 41.455,
-    "2": 34.909,
-    "3": 62.267,
-    "4": 137.455,
-    "combined": 138.631,
-    "section2twice": 173.54,
-    "sectionAvg": 46.21
-  },
-  {
-    "songID": "5030080",
-    "songName": "What do you fight for",
-    "1": 48.0,
-    "2": 28.5,
-    "3": 37.835,
-    "4": 114.0,
-    "combined": 114.335,
-    "section2twice": 142.835,
-    "sectionAvg": 38.112
-  },
-  {
-    "songID": "5030081",
-    "songName": "Perfection Can't Please Me",
-    "1": 48.608,
-    "2": 22.785,
-    "3": 47.22,
-    "4": 116.963,
-    "combined": 118.613,
-    "section2twice": 141.398,
-    "sectionAvg": 39.538
-  },
-  {
-    "songID": "5030082",
-    "songName": "Mirror of the World",
-    "1": 48.98,
-    "2": 27.755,
-    "3": 59.133,
-    "4": 130.612,
-    "combined": 135.868,
-    "section2twice": 163.623,
-    "sectionAvg": 45.289
-  },
-  {
-    "songID": "5030083",
-    "songName": "Drift",
-    "1": 41.785,
-    "2": 27.844,
-    "3": 61.457,
-    "4": 106.698,
-    "combined": 131.086,
-    "section2twice": 158.93,
-    "sectionAvg": 43.695
-  },
-  {
     "songID": "610017",
     "songName": "千リ一リ物語",
     "1": 49.412,
@@ -3947,17 +3837,6 @@ var sectionsJp = [
     "combined": 121.558,
     "section2twice": 156.852,
     "sectionAvg": 40.519
-  },
-  {
-    "songID": "5030058",
-    "songName": "MELODY IN THE POCKET",
-    "1": 33.882,
-    "2": 22.588,
-    "3": 38.554,
-    "4": 112.941,
-    "combined": 95.024,
-    "section2twice": 117.612,
-    "sectionAvg": 31.675
   },
   {
     "songID": "110027",
@@ -7181,5 +7060,82 @@ var sectionsJp = [
     "combined": 119.419,
     "section2twice": 152.752,
     "sectionAvg": 39.806
+  },
+  {
+    "songID": "810013",
+    "songName": "Øver the Universe",
+    "1": 46.222,
+    "2": 42.667,
+    "3": 40.382,
+    "4": 135.111,
+    "combined": 129.271,
+    "section2twice": 171.938,
+    "sectionAvg": 43.09
+  },
+  {
+    "songID": "5050315",
+    "songName": "いろあつめ",
+    "1": 41.143,
+    "2": 41.143,
+    "3": 46.127,
+    "4": 123.429,
+    "combined": 128.413,
+    "section2twice": 169.556,
+    "sectionAvg": 42.804
+  },
+  {
+    "songID": "5050317",
+    "songName": "ダンデライオン",
+    "1": 42.667,
+    "2": 34.666,
+    "3": 37.952,
+    "4": 117.334,
+    "combined": 115.285,
+    "section2twice": 149.951,
+    "sectionAvg": 38.428
+  },
+  {
+    "songID": "5050344",
+    "songName": "つけまつける",
+    "1": 39.724,
+    "2": 39.724,
+    "3": 44.208,
+    "4": 124.138,
+    "combined": 123.656,
+    "section2twice": 163.38,
+    "sectionAvg": 41.219
+  },
+  {
+    "songID": "5050345",
+    "songName": "ファッションモンスター",
+    "1": 34.5,
+    "2": 37.5,
+    "3": 43.547,
+    "4": 123.0,
+    "combined": 115.547,
+    "section2twice": 153.047,
+    "sectionAvg": 38.516
+  },
+  {
+    "songID": "410027",
+    "songName": "Desperate Situation",
+    "1": 35.2,
+    "2": 38.4,
+    "3": 40.153,
+    "4": 102.4,
+    "combined": 113.753,
+    "section2twice": 152.153,
+    "sectionAvg": 37.918
+  },
+  {
+    "songID": "310029",
+    "songName": "無限大",
+    "1": 33.0,
+    "2": 39.0,
+    "3": 46.788,
+    "4": 132.0,
+    "combined": 118.788,
+    "section2twice": 157.788,
+    "sectionAvg": 39.596
   }
 ]

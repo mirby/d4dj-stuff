@@ -2221,28 +2221,6 @@ var sectionsEn = [
     "sectionAvg": 38.346
   },
   {
-    "songID": "5030074",
-    "songName": "Smell of the Game",
-    "1": 39.231,
-    "2": 30.0,
-    "3": 40.973,
-    "4": 144.231,
-    "combined": 110.204,
-    "section2twice": 140.204,
-    "sectionAvg": 36.735
-  },
-  {
-    "songID": "5030075",
-    "songName": "Find Your One Way",
-    "1": 37.5,
-    "2": 22.5,
-    "3": 52.89,
-    "4": 142.5,
-    "combined": 112.89,
-    "section2twice": 135.39,
-    "sectionAvg": 37.63
-  },
-  {
     "songID": "610015",
     "songName": "The IF Dancer",
     "1": 48.609,
@@ -2276,28 +2254,6 @@ var sectionsEn = [
     "sectionAvg": 38.01
   },
   {
-    "songID": "5030076",
-    "songName": "The Roar of the Spark",
-    "1": 41.448,
-    "2": 33.103,
-    "3": 49.675,
-    "4": 128.344,
-    "combined": 124.226,
-    "section2twice": 157.329,
-    "sectionAvg": 41.409
-  },
-  {
-    "songID": "5030077",
-    "songName": "The Disaster of Passion",
-    "1": 45.921,
-    "2": 32.0,
-    "3": 47.684,
-    "4": 113.333,
-    "combined": 125.605,
-    "section2twice": 157.605,
-    "sectionAvg": 41.868
-  },
-  {
     "songID": "110026",
     "songName": "TRANCE TOURS",
     "1": 36.413,
@@ -2307,17 +2263,6 @@ var sectionsEn = [
     "combined": 119.742,
     "section2twice": 151.191,
     "sectionAvg": 39.914
-  },
-  {
-    "songID": "320015",
-    "songName": "Uninstall",
-    "1": 47.442,
-    "2": 33.489,
-    "3": 38.914,
-    "4": 117.324,
-    "combined": 119.845,
-    "section2twice": 153.334,
-    "sectionAvg": 39.948
   },
   {
     "songID": "520014",
@@ -2408,17 +2353,6 @@ var sectionsEn = [
     "sectionAvg": 42.597
   },
   {
-    "songID": "5030078",
-    "songName": "Love the Subhuman Self",
-    "1": 43.479,
-    "2": 31.305,
-    "3": 46.757,
-    "4": 121.739,
-    "combined": 121.541,
-    "section2twice": 152.846,
-    "sectionAvg": 40.514
-  },
-  {
     "songID": "620018",
     "songName": "Bludgeoning Angel Dokuro-Chan",
     "1": 39.071,
@@ -2439,28 +2373,6 @@ var sectionsEn = [
     "combined": 120.443,
     "section2twice": 152.332,
     "sectionAvg": 40.148
-  },
-  {
-    "songID": "5030079",
-    "songName": "Necessary Discrepancy",
-    "1": 41.455,
-    "2": 34.909,
-    "3": 62.267,
-    "4": 137.455,
-    "combined": 138.631,
-    "section2twice": 173.54,
-    "sectionAvg": 46.21
-  },
-  {
-    "songID": "5030080",
-    "songName": "What do you fight for",
-    "1": 48.0,
-    "2": 28.5,
-    "3": 37.835,
-    "4": 114.0,
-    "combined": 114.335,
-    "section2twice": 142.835,
-    "sectionAvg": 38.112
   },
   {
     "songID": "510017",
@@ -2485,28 +2397,6 @@ var sectionsEn = [
     "sectionAvg": 41.938
   },
   {
-    "songID": "5030081",
-    "songName": "Perfection Can't Please Me",
-    "1": 48.608,
-    "2": 22.785,
-    "3": 47.22,
-    "4": 116.963,
-    "combined": 118.613,
-    "section2twice": 141.398,
-    "sectionAvg": 39.538
-  },
-  {
-    "songID": "5030082",
-    "songName": "Mirror of the World",
-    "1": 48.98,
-    "2": 27.755,
-    "3": 59.133,
-    "4": 130.612,
-    "combined": 135.868,
-    "section2twice": 163.623,
-    "sectionAvg": 45.289
-  },
-  {
     "songID": "3010016",
     "songName": "I don't wanna lose!",
     "1": 40.32,
@@ -2516,17 +2406,6 @@ var sectionsEn = [
     "combined": 117.158,
     "section2twice": 147.878,
     "sectionAvg": 39.053
-  },
-  {
-    "songID": "5030083",
-    "songName": "Drift",
-    "1": 41.785,
-    "2": 27.844,
-    "3": 61.457,
-    "4": 106.698,
-    "combined": 131.086,
-    "section2twice": 158.93,
-    "sectionAvg": 43.695
   },
   {
     "songID": "410015",
@@ -3266,17 +3145,6 @@ var sectionsEn = [
     "sectionAvg": 40.519
   },
   {
-    "songID": "620019",
-    "songName": "adrenaline!!!",
-    "1": 45.428,
-    "2": 36.0,
-    "3": 44.002,
-    "4": 118.285,
-    "combined": 125.43,
-    "section2twice": 161.43,
-    "sectionAvg": 41.81
-  },
-  {
     "songID": "3020010",
     "songName": "I'm proud",
     "1": 44.118,
@@ -3286,17 +3154,6 @@ var sectionsEn = [
     "combined": 121.754,
     "section2twice": 151.754,
     "sectionAvg": 40.585
-  },
-  {
-    "songID": "3020019",
-    "songName": "Fantastic future",
-    "1": 44.651,
-    "2": 36.279,
-    "3": 58.942,
-    "4": 126.977,
-    "combined": 139.872,
-    "section2twice": 176.151,
-    "sectionAvg": 46.624
   },
   {
     "songID": "5050106",
@@ -4718,6 +4575,39 @@ var sectionsEn = [
     "sectionAvg": 40.243
   },
   {
+    "songID": "5050327",
+    "songName": "Wrong World",
+    "1": 45.614,
+    "2": 36.491,
+    "3": 46.062,
+    "4": 98.947,
+    "combined": 128.167,
+    "section2twice": 164.658,
+    "sectionAvg": 42.722
+  },
+  {
+    "songID": "5050328",
+    "songName": "Bleeding Hearts",
+    "1": 38.4,
+    "2": 28.8,
+    "3": 47.176,
+    "4": 144.0,
+    "combined": 114.376,
+    "section2twice": 143.176,
+    "sectionAvg": 38.125
+  },
+  {
+    "songID": "5050329",
+    "songName": "Nameless Name",
+    "1": 39.786,
+    "2": 32.085,
+    "3": 47.049,
+    "4": 130.909,
+    "combined": 118.92,
+    "section2twice": 151.005,
+    "sectionAvg": 39.64
+  },
+  {
     "songID": "310028",
     "songName": "Mirror",
     "1": 45.0,
@@ -4727,6 +4617,28 @@ var sectionsEn = [
     "combined": 124.123,
     "section2twice": 157.873,
     "sectionAvg": 41.374
+  },
+  {
+    "songID": "5050330",
+    "songName": "Ideal Paradox",
+    "1": 40.0,
+    "2": 32.0,
+    "3": 45.638,
+    "4": 116.8,
+    "combined": 117.638,
+    "section2twice": 149.638,
+    "sectionAvg": 39.213
+  },
+  {
+    "songID": "5050331",
+    "songName": "Emptiness and Catharsis",
+    "1": 41.29,
+    "2": 33.548,
+    "3": 45.057,
+    "4": 120.0,
+    "combined": 119.895,
+    "section2twice": 153.443,
+    "sectionAvg": 39.965
   },
   {
     "songID": "5050309",
@@ -4837,5 +4749,27 @@ var sectionsEn = [
     "combined": 107.725,
     "section2twice": 137.725,
     "sectionAvg": 35.908
+  },
+  {
+    "songID": "110040",
+    "songName": "Happy Countdown!!",
+    "1": 33.684,
+    "2": 35.085,
+    "3": 43.489,
+    "4": 134.736,
+    "combined": 112.258,
+    "section2twice": 147.343,
+    "sectionAvg": 37.419
+  },
+  {
+    "songID": "5050332",
+    "songName": "Watashi no ichiban kawaii tokoro",
+    "1": 39.375,
+    "2": 30.0,
+    "3": 49.416,
+    "4": 127.5,
+    "combined": 118.791,
+    "section2twice": 148.791,
+    "sectionAvg": 39.597
   }
 ]
