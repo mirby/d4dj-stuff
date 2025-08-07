@@ -2129,6 +2129,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "182": {
+        "id":182,
+        "name":"The MEDLEY in 2025 Aug.",
+        "characters":"Michiru,Lumina,Kokoa,Hayate",
+        "type":"Medley",
+        "style":"Cool",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
