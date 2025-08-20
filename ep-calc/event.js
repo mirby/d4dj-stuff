@@ -255,7 +255,11 @@ function getCardSet(type) {
         "143":["Little Red Riding Hood in the Forest", "The Captive Sleeping Beauty", "Snow White in the Mirror", "Cinderella at the stroke of midnight"],
         "146":["Pine Blue Soda", "Cherry Cream Soda", "Kiwi Fruit Tea", "Lime Rose Lemonade"],
         "156":["Evening Serenity", "A Journey of Encounter", "Refreshing Breeze", "Sound of Waves"],
+        "165":["【REVERSE】Marionette"],
         "172":["[REVERSE] Solitude"],
+        "174":["Find Something Colorful", "Welcome to the Tea Party", "The Flustered Bunny", "Ears Springing Up"],
+        "177":["Blossom Dream", "Chrysanthemum Garden", "Wandering Plum", "Drifting Peony"],
+        "182":["the Delightest STAGE"],
     };
 
     var raidSet = {
@@ -271,6 +275,7 @@ function getCardSet(type) {
         "138":["Code Name Flower Garden", "Code Name Daughter Dearest", "Code Name Glint", "Code Name Fool"],
         "158":["Siscon Idol", "Bunny Girl Senpai", "Petite Devil Kohai", "Sister Venturing Out"],
         "163":["Peach and Willow Blossoms☆2025!", "Determined Spirit☆2025!", "Spring's Elegant Glow☆2025!", "Eternal Infinity☆2025!"],
+        "176":["the Coolest summer", "what is next Aim", "aboard a Boat", "like a Dynamite"],
     };
 
     if (type === "medley") {
