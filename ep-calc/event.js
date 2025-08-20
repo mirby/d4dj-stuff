@@ -2140,6 +2140,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "183": {
+        "id":183,
+        "name":"The POKER in 2025 Aug.",
+        "characters":"Aoi,Nagisa,Hiiro,Aoi",
+        "type":"Poker",
+        "style":"Cool",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
