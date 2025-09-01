@@ -2156,6 +2156,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "184": {
+        "id":184,
+        "name":"SumMerm4id!!!! -Memory Aquarium-",
+        "characters":"Rika,Marika,Saori,Dalia",
+        "type":"Slots",
+        "style":"Elegant",
+        "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
