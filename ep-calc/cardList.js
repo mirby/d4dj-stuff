@@ -17584,6 +17584,66 @@ var cards = {
         "icon": "card_icon_040440018_1.1fac44e0",
         "passive": "Groovy Bonus 10-37.5%",
         "eventId": 184
+    },
+    "1170": {
+        "id": 1170,
+        "character": "Neo",
+        "cardname": "the Greatest STAGE",
+        "unit": "Abyssmare",
+        "type": "Elegant",
+        "rarity": 4,
+        "heart": 23098,
+        "technical": 12470,
+        "physical": 17317,
+        "skill": .8,
+        "icon": "card_icon_070910010_1.fa6b7108",
+        "passive": "Life Boost 2.5-8.5%",
+        "eventId": 185
+    },
+    "1171": {
+        "id": 1171,
+        "character": "Sophia",
+        "cardname": "the Greatest STAGE",
+        "unit": "Abyssmare",
+        "type": "Elegant",
+        "rarity": 4,
+        "heart": 21914,
+        "technical": 16893,
+        "physical": 13203,
+        "skill": .8,
+        "icon": "card_icon_070920011_1.aa31dacb",
+        "passive": "Groovy Solo 20-75%",
+        "eventId": 185
+    },
+    "1172": {
+        "id": 1172,
+        "character": "Elsie",
+        "cardname": "the Greatest STAGE",
+        "unit": "Abyssmare",
+        "type": "Elegant",
+        "rarity": 4,
+        "heart": 22536,
+        "technical": 13610,
+        "physical": 14719,
+        "skill": .8,
+        "icon": "card_icon_070930011_1.d355982b",
+        "passive": "Manual Up 2.5-10.5%",
+        "eventId": 185
+    },
+    "1173": {
+        "id": 1173,
+        "character": "Weronika",
+        "cardname": "the Greatest STAGE",
+        "unit": "Abyssmare",
+        "type": "Elegant",
+        "rarity": 4,
+        "heart": 21162,
+        "technical": 14997,
+        "physical": 15481,
+        "skill": .8,
+        "icon": "card_icon_070940008_1.caa1b5ff",
+        "passive": "Auto Boost 2.5-9%",
+        "eventId": 185
     }
 }
 

@@ -2167,6 +2167,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "185": {
+        "id":185,
+        "name":"The MEDLEY in 2025 Sep.",
+        "characters":"Neo,Sophia,Elsie,Weronika",
+        "type":"Medley",
+        "style":"Elegant",
+        "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
