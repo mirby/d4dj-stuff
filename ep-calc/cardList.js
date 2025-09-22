@@ -17422,9 +17422,9 @@ var cards = {
     },
     "1159": {
         "id": 1159,
-        "character": "Nagisa",
+        "character": "Lumina",
         "cardname": "GroovyFes track.2",
-        "unit": "Rondo",
+        "unit": "Unichord",
         "type": "Party",
         "rarity": 4,
         "heart": 20652,
@@ -17644,6 +17644,36 @@ var cards = {
         "icon": "card_icon_070940008_1.caa1b5ff",
         "passive": "Auto Boost 2.5-9%",
         "eventId": 185
+    },
+    "1174": {
+        "id": 1174,
+        "character": "Eimi",
+        "cardname": "Summer Fes. 2025: Paradise",
+        "unit": "Doggo",
+        "type": "Cool",
+        "rarity": 3,
+        "heart": 10065,
+        "technical": 6810,
+        "physical": 15710,
+        "skill": .45,
+        "icon": "card_icon_051010002_1.226ca885",
+        "passive": "Manual Up 1.5-4%",
+        "eventId": 0
+    },
+    "1175": {
+        "id": 1175,
+        "character": "Date-chan",
+        "cardname": "Summer Fes. 2025: Paradise",
+        "unit": "Doggo",
+        "type": "Cool",
+        "rarity": 3,
+        "heart": 6988,
+        "technical": 9037,
+        "physical": 15536,
+        "skill": .45,
+        "icon": "card_icon_051040002_1.c465da51",
+        "passive": "Life Boost 1-3%",
+        "eventId": 0
     }
 }
 
