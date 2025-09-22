@@ -260,6 +260,7 @@ function getCardSet(type) {
         "174":["Find Something Colorful", "Welcome to the Tea Party", "The Flustered Bunny", "Ears Springing Up"],
         "177":["Blossom Dream", "Chrysanthemum Garden", "Wandering Plum", "Drifting Peony"],
         "182":["the Delightest STAGE"],
+        "185":["the Greatest STAGE"],
     };
 
     var raidSet = {
