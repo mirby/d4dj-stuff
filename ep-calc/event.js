@@ -2179,6 +2179,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "186": {
+        "id":186,
+        "name":"DJ GIRL ØVERLØAD",
+        "characters":"Michiru,Lumina,Kokoa,Hayate",
+        "type":"Bingo",
+        "style":"Cute",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*

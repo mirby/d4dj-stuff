@@ -17674,6 +17674,66 @@ var cards = {
         "icon": "card_icon_051040002_1.c465da51",
         "passive": "Life Boost 1-3%",
         "eventId": 0
+    },
+    "1176": {
+        "id": 1176,
+        "character": "Michiru",
+        "cardname": "Angel Fall Down",
+        "unit": "Unichord",
+        "type": "Cute",
+        "rarity": 4,
+        "heart": 15992,
+        "technical": 19256,
+        "physical": 15193,
+        "skill": .6,
+        "icon": "card_icon_070810005_1.98b56cf3",
+        "passive": "Auto Boost 2.5-8.5%",
+        "eventId": 186
+    },
+    "1177": {
+        "id": 1177,
+        "character": "Lumina",
+        "cardname": "Welcome To My Religion",
+        "unit": "Unichord",
+        "type": "Cute",
+        "rarity": 4,
+        "heart": 14139,
+        "technical": 19139,
+        "physical": 15994,
+        "skill": .6,
+        "icon": "card_icon_070820005_1.ef38837f",
+        "passive": "Groovy Bonus 10-35%",
+        "eventId": 186
+    },
+    "1178": {
+        "id": 1178,
+        "character": "Kokoa",
+        "cardname": "Os-Alien",
+        "unit": "Unichord",
+        "type": "Cute",
+        "rarity": 4,
+        "heart": 15860,
+        "technical": 19255,
+        "physical": 15804,
+        "skill": .6,
+        "icon": "card_icon_070830006_1.76ac039e",
+        "passive": "Manual Up 2.5-10%",
+        "eventId": 186
+    },
+    "1179": {
+        "id": 1179,
+        "character": "Hayate",
+        "cardname": "Crossing The Line",
+        "unit": "Unichord",
+        "type": "Cute",
+        "rarity": 4,
+        "heart": 15817,
+        "technical": 19212,
+        "physical": 14109,
+        "skill": .6,
+        "icon": "card_icon_070840004_1.154b4bf6",
+        "passive": "Groovy Solo 20-70%",
+        "eventId": 186
     }
 }
 
