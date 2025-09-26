@@ -2871,17 +2871,6 @@ var sectionsJp = [
     "sectionAvg": 38.836
   },
   {
-    "songID": "5050091",
-    "songName": "Redo",
-    "1": 45.474,
-    "2": 35.369,
-    "3": 48.004,
-    "4": 155.368,
-    "combined": 128.847,
-    "section2twice": 164.216,
-    "sectionAvg": 42.949
-  },
-  {
     "songID": "5030045",
     "songName": "Solar Storm",
     "1": 40.8,
@@ -5247,17 +5236,6 @@ var sectionsJp = [
     "sectionAvg": 38.987
   },
   {
-    "songID": "5050251",
-    "songName": "追想のラグナロク",
-    "1": 40.8,
-    "2": 30.0,
-    "3": 63.539,
-    "4": 123.6,
-    "combined": 134.339,
-    "section2twice": 164.339,
-    "sectionAvg": 44.78
-  },
-  {
     "songID": "210022",
     "songName": "真夏のInstant",
     "1": 40.0,
@@ -7137,5 +7115,115 @@ var sectionsJp = [
     "combined": 118.788,
     "section2twice": 157.788,
     "sectionAvg": 39.596
+  },
+  {
+    "songID": "1020001",
+    "songName": "Bling-Bang-Bang-Born",
+    "1": 36.688,
+    "2": 36.688,
+    "3": 43.072,
+    "4": 136.051,
+    "combined": 116.448,
+    "section2twice": 153.136,
+    "sectionAvg": 38.816
+  },
+  {
+    "songID": "5050347",
+    "songName": "ヒャクニチソウ",
+    "1": 36.404,
+    "2": 36.405,
+    "3": 41.781,
+    "4": 100.786,
+    "combined": 114.59,
+    "section2twice": 150.995,
+    "sectionAvg": 38.197
+  },
+  {
+    "songID": "5050318",
+    "songName": "SCAPEGOAT",
+    "1": 41.334,
+    "2": 32.0,
+    "3": 42.097,
+    "4": 126.667,
+    "combined": 115.431,
+    "section2twice": 147.431,
+    "sectionAvg": 38.477
+  },
+  {
+    "songID": "5050346",
+    "songName": "Virtual to LIVE",
+    "1": 35.923,
+    "2": 37.923,
+    "3": 47.385,
+    "4": 120.0,
+    "combined": 121.231,
+    "section2twice": 159.154,
+    "sectionAvg": 40.41
+  },
+  {
+    "songID": "5050348",
+    "songName": "前前前世 [original ver.]",
+    "1": 35.369,
+    "2": 37.895,
+    "3": 41.839,
+    "4": 106.105,
+    "combined": 115.103,
+    "section2twice": 152.998,
+    "sectionAvg": 38.368
+  },
+  {
+    "songID": "5050342",
+    "songName": "アルストロメリア",
+    "1": 42.58,
+    "2": 37.42,
+    "3": 43.082,
+    "4": 110.968,
+    "combined": 123.082,
+    "section2twice": 160.502,
+    "sectionAvg": 41.027
+  },
+  {
+    "songID": "5050341",
+    "songName": "ステージ",
+    "1": 44.504,
+    "2": 31.788,
+    "3": 46.912,
+    "4": 139.868,
+    "combined": 123.204,
+    "section2twice": 154.992,
+    "sectionAvg": 41.068
+  },
+  {
+    "songID": "5050343",
+    "songName": "アンチプライド・カタルシス",
+    "1": 37.833,
+    "2": 30.739,
+    "3": 42.626,
+    "4": 111.133,
+    "combined": 111.198,
+    "section2twice": 141.937,
+    "sectionAvg": 37.066
+  },
+  {
+    "songID": "5050349",
+    "songName": "ワールドエンド",
+    "1": 40.0,
+    "2": 32.258,
+    "3": 38.644,
+    "4": 129.032,
+    "combined": 110.902,
+    "section2twice": 143.16,
+    "sectionAvg": 36.967
+  },
+  {
+    "songID": "610031",
+    "songName": "天使が来りて笛を吹く",
+    "1": 32.728,
+    "2": 32.723,
+    "3": 36.723,
+    "4": 112.724,
+    "combined": 102.174,
+    "section2twice": 134.897,
+    "sectionAvg": 34.058
   }
 ]

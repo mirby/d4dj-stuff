@@ -1055,17 +1055,6 @@ var sectionsEn = [
     "sectionAvg": 36.657
   },
   {
-    "songID": "5050007",
-    "songName": "NEXT COLOR PLANET",
-    "1": 36.363,
-    "2": 30.909,
-    "3": 44.716,
-    "4": 120.0,
-    "combined": 111.988,
-    "section2twice": 142.897,
-    "sectionAvg": 37.329
-  },
-  {
     "songID": "110012",
     "songName": "Yes☆FORTUNE!",
     "1": 40.946,
@@ -1394,17 +1383,6 @@ var sectionsEn = [
     "combined": 117.993,
     "section2twice": 151.096,
     "sectionAvg": 39.331
-  },
-  {
-    "songID": "5050010",
-    "songName": "Life Reset Button",
-    "1": 43.2,
-    "2": 30.0,
-    "3": 46.201,
-    "4": 103.2,
-    "combined": 119.401,
-    "section2twice": 149.401,
-    "sectionAvg": 39.8
   },
   {
     "songID": "310011",
@@ -1878,17 +1856,6 @@ var sectionsEn = [
     "combined": 115.751,
     "section2twice": 148.304,
     "sectionAvg": 38.584
-  },
-  {
-    "songID": "5050086",
-    "songName": "R·I·O·T",
-    "1": 39.429,
-    "2": 32.571,
-    "3": 43.115,
-    "4": 114.858,
-    "combined": 115.115,
-    "section2twice": 147.686,
-    "sectionAvg": 38.372
   },
   {
     "songID": "220019",
@@ -4771,5 +4738,115 @@ var sectionsEn = [
     "combined": 118.791,
     "section2twice": 148.791,
     "sectionAvg": 39.597
+  },
+  {
+    "songID": "5050310",
+    "songName": "THE SAGA of departure",
+    "1": 43.637,
+    "2": 32.727,
+    "3": 39.724,
+    "4": 103.636,
+    "combined": 116.088,
+    "section2twice": 148.815,
+    "sectionAvg": 38.696
+  },
+  {
+    "songID": "810013",
+    "songName": "Øver the Universe",
+    "1": 46.222,
+    "2": 42.667,
+    "3": 40.382,
+    "4": 135.111,
+    "combined": 129.271,
+    "section2twice": 171.938,
+    "sectionAvg": 43.09
+  },
+  {
+    "songID": "5050316",
+    "songName": "Sunny Sunny Sunny",
+    "1": 45.0,
+    "2": 33.333,
+    "3": 41.086,
+    "4": 113.438,
+    "combined": 119.419,
+    "section2twice": 152.752,
+    "sectionAvg": 39.806
+  },
+  {
+    "songID": "5050315",
+    "songName": "Color Collection",
+    "1": 41.143,
+    "2": 41.143,
+    "3": 46.127,
+    "4": 123.429,
+    "combined": 128.413,
+    "section2twice": 169.556,
+    "sectionAvg": 42.804
+  },
+  {
+    "songID": "5050317",
+    "songName": "DANDELION",
+    "1": 42.667,
+    "2": 34.666,
+    "3": 37.952,
+    "4": 117.334,
+    "combined": 115.285,
+    "section2twice": 149.951,
+    "sectionAvg": 38.428
+  },
+  {
+    "songID": "410027",
+    "songName": "Desperate Situation",
+    "1": 35.2,
+    "2": 38.4,
+    "3": 40.153,
+    "4": 102.4,
+    "combined": 113.753,
+    "section2twice": 152.153,
+    "sectionAvg": 37.918
+  },
+  {
+    "songID": "310029",
+    "songName": "Infinity",
+    "1": 33.0,
+    "2": 39.0,
+    "3": 46.788,
+    "4": 132.0,
+    "combined": 118.788,
+    "section2twice": 157.788,
+    "sectionAvg": 39.596
+  },
+  {
+    "songID": "5050318",
+    "songName": "SCAPEGOAT",
+    "1": 41.334,
+    "2": 32.0,
+    "3": 42.097,
+    "4": 126.667,
+    "combined": 115.431,
+    "section2twice": 147.431,
+    "sectionAvg": 38.477
+  },
+  {
+    "songID": "5030106",
+    "songName": "INTERNET YAMERO",
+    "1": 50.595,
+    "2": 32.432,
+    "3": 61.676,
+    "4": 151.784,
+    "combined": 144.703,
+    "section2twice": 177.135,
+    "sectionAvg": 48.234
+  },
+  {
+    "songID": "820004",
+    "songName": "INTERNET YAMERO",
+    "1": 37.622,
+    "2": 31.135,
+    "3": 47.285,
+    "4": 108.973,
+    "combined": 116.042,
+    "section2twice": 147.177,
+    "sectionAvg": 38.681
   }
 ]
