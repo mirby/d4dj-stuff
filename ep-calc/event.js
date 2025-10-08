@@ -2190,6 +2190,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "187": {
+        "id":187,
+        "name":"The SLOT in 2025 Oct.",
+        "characters":"Miyu,Haruna,Kurumi,Miiko",
+        "type":"Slots",
+        "style":"Party",
+        "parameter":"Physical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*

@@ -17734,6 +17734,66 @@ var cards = {
         "icon": "card_icon_070840004_1.154b4bf6",
         "passive": "Groovy Solo 20-70%",
         "eventId": 186
+    },
+    "1180": {
+        "id": 1180,
+        "character": "Miyu",
+        "cardname": "the Cutest STAGE",
+        "unit": "LyriLily",
+        "type": "Party",
+        "rarity": 4,
+        "heart": 15845,
+        "technical": 13450,
+        "physical": 21727,
+        "skill": .8,
+        "icon": "card_icon_070610015_1.1ecd43d8",
+        "passive": "Auto Boost 2.5-9%",
+        "eventId": 187
+    },
+    "1181": {
+        "id": 1181,
+        "character": "Haruna",
+        "cardname": "the Cutest STAGE",
+        "unit": "LyriLily",
+        "type": "Party",
+        "rarity": 4,
+        "heart": 13692,
+        "technical": 16690,
+        "physical": 21175,
+        "skill": .8,
+        "icon": "card_icon_070620014_1.44f49c48",
+        "passive": "Life Boost 2.5-8.5%",
+        "eventId": 187
+    },
+    "1182": {
+        "id": 1182,
+        "character": "Kurumi",
+        "cardname": "the Cutest STAGE",
+        "unit": "LyriLily",
+        "type": "Party",
+        "rarity": 4,
+        "heart": 14610,
+        "technical": 15314,
+        "physical": 21250,
+        "skill": .8,
+        "icon": "card_icon_070630012_1.3f6f467d",
+        "passive": "Groovy Solo 20-75%",
+        "eventId": 187
+    },
+    "1183": {
+        "id": 1183,
+        "character": "Miiko",
+        "cardname": "the Cutest STAGE",
+        "unit": "LyriLily",
+        "type": "Party",
+        "rarity": 4,
+        "heart": 15485,
+        "technical": 14293,
+        "physical": 21505,
+        "skill": .8,
+        "icon": "card_icon_070640015_1.b275d586",
+        "passive": "Groovy Bonus 10-37.5%",
+        "eventId": 187
     }
 }
 
