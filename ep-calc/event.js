@@ -2201,6 +2201,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "188": {
+        "id":188,
+        "name":"dig it! creation!",
+        "characters":"Muni,Rei,Michiru,Lumnina",
+        "type":"Bingo",
+        "style":"Cute",
+        "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
