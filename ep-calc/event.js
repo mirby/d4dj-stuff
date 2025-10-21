@@ -2204,7 +2204,7 @@ var eventList = {
     "188": {
         "id":188,
         "name":"dig it! creation!",
-        "characters":"Muni,Rei,Michiru,Lumnina",
+        "characters":"Muni,Rei,Michiru,Lumina",
         "type":"Bingo",
         "style":"Cute",
         "parameter":"Heart",
