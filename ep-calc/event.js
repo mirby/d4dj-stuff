@@ -2212,6 +2212,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "189": {
+        "id":189,
+        "name":"The POKER in 2025 Nov.",
+        "characters":"Kyoko,Shinobu,Yuka,Esora",
+        "type":"Poker",
+        "style":"Elegant",
+        "parameter":"Physical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
