@@ -261,6 +261,7 @@ function getCardSet(type) {
         "177":["Blossom Dream", "Chrysanthemum Garden", "Wandering Plum", "Drifting Peony"],
         "182":["the Delightest STAGE"],
         "185":["the Greatest STAGE"],
+        "190":["the Brightest STAGE"],
     };
 
     var raidSet = {
@@ -2219,6 +2220,17 @@ var eventList = {
         "type":"Poker",
         "style":"Elegant",
         "parameter":"Physical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
+    "190": {
+        "id":190,
+        "name":"The MEDLEY in 2025 Nov.",
+        "characters":"Saki,Ibuki,Towa,Noa",
+        "type":"Medley",
+        "style":"Cute",
+        "parameter":"Technical",
         "bonus":true,
         "comboBonus":true,
         "addition":""

@@ -18019,6 +18019,66 @@ var cards = {
         "icon": "card_icon_070240017_1.988a00c7",
         "passive": "Auto Boost 2.5-9%",
         "eventId": 189
+    },
+    "1199": {
+        "id": 1199,
+        "character": "Saki",
+        "cardname": "the Brightest STAGE",
+        "unit": "Photon",
+        "type": "Cute",
+        "rarity": 4,
+        "heart": 15481,
+        "technical": 24335,
+        "physical": 12899,
+        "skill": .8,
+        "icon": "card_icon_070310018_1.1f91fcef",
+        "passive": "Groovy Solo 20-75%",
+        "eventId": 190
+    },
+    "1200": {
+        "id": 1200,
+        "character": "Ibuki",
+        "cardname": "the Brightest STAGE",
+        "unit": "Photon",
+        "type": "Cute",
+        "rarity": 4,
+        "heart": 12916,
+        "technical": 22086,
+        "physical": 17477,
+        "skill": .8,
+        "icon": "card_icon_070320015_1.d1d66a6b",
+        "passive": "Auto Boost 2.5-9%",
+        "eventId": 190
+    },
+    "1201": {
+        "id": 1201,
+        "character": "Towa",
+        "cardname": "the Brightest STAGE",
+        "unit": "Photon",
+        "type": "Cute",
+        "rarity": 4,
+        "heart": 14535,
+        "technical": 22041,
+        "physical": 15678,
+        "skill": .8,
+        "icon": "card_icon_070330017_1.9096df38",
+        "passive": "Groovy Bonus 10-37.5%",
+        "eventId": 190
+    },
+    "1202": {
+        "id": 1202,
+        "character": "Noa",
+        "cardname": "the Brightest STAGE",
+        "unit": "Photon",
+        "type": "Cute",
+        "rarity": 4,
+        "heart": 13906,
+        "technical": 21391,
+        "physical": 15491,
+        "skill": .8,
+        "icon": "card_icon_070340014_1.f6a6b04b",
+        "passive": "Life Boost 2.5-8.5%",
+        "eventId": 190
     }
 }
 
