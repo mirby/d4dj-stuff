@@ -2235,6 +2235,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "191": {
+        "id":191,
+        "name":"UNIT INTERVIEW ~our DJ story~",
+        "characters":"None",
+        "type":"Raid",
+        "style":"None",
+        "parameter":"None",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":"50% power boost for 5th anni cards in Multi. 25% in Special Raid"
+    },
 }
 
 /*
