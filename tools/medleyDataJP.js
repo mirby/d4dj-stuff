@@ -2915,17 +2915,6 @@ var sectionsJp = [
     "sectionAvg": 39.994
   },
   {
-    "songID": "5030055",
-    "songName": "SEVENTH HAVEN",
-    "1": 36.364,
-    "2": 29.091,
-    "3": 37.273,
-    "4": 101.818,
-    "combined": 102.728,
-    "section2twice": 131.819,
-    "sectionAvg": 34.243
-  },
-  {
     "songID": "5030061",
     "songName": "チルノのパーフェクトさんすう教室（かめりあ's ⑨⑨⑨ Remix）",
     "1": 42.181,
@@ -2935,17 +2924,6 @@ var sectionsJp = [
     "combined": 114.747,
     "section2twice": 143.576,
     "sectionAvg": 38.249
-  },
-  {
-    "songID": "5030063",
-    "songName": "幻想のサテライト (Getty Remix)",
-    "1": 45.6,
-    "2": 31.2,
-    "3": 40.076,
-    "4": 124.8,
-    "combined": 116.876,
-    "section2twice": 148.076,
-    "sectionAvg": 38.959
   },
   {
     "songID": "5030062",
@@ -4310,39 +4288,6 @@ var sectionsJp = [
     "combined": 125.557,
     "section2twice": 168.223,
     "sectionAvg": 41.852
-  },
-  {
-    "songID": "5050187",
-    "songName": "爆裂タウマゼイン",
-    "1": 42.667,
-    "2": 32.0,
-    "3": 73.5,
-    "4": 141.333,
-    "combined": 148.167,
-    "section2twice": 180.167,
-    "sectionAvg": 49.389
-  },
-  {
-    "songID": "5050188",
-    "songName": "IAM",
-    "1": 41.739,
-    "2": 27.826,
-    "3": 65.04,
-    "4": 128.695,
-    "combined": 134.605,
-    "section2twice": 162.431,
-    "sectionAvg": 44.868
-  },
-  {
-    "songID": "5050189",
-    "songName": "Hyper Bass",
-    "1": 42.667,
-    "2": 32.0,
-    "3": 57.667,
-    "4": 128.0,
-    "combined": 132.334,
-    "section2twice": 164.334,
-    "sectionAvg": 44.111
   },
   {
     "songID": "310019",
@@ -6259,28 +6204,6 @@ var sectionsJp = [
     "sectionAvg": 39.307
   },
   {
-    "songID": "5050288",
-    "songName": "揺れ恋ゆららか！",
-    "1": 38.117,
-    "2": 33.882,
-    "3": 42.942,
-    "4": 104.471,
-    "combined": 114.941,
-    "section2twice": 148.823,
-    "sectionAvg": 38.314
-  },
-  {
-    "songID": "5050287",
-    "songName": "Now On Air",
-    "1": 38.918,
-    "2": 42.152,
-    "3": 41.198,
-    "4": 175.115,
-    "combined": 122.268,
-    "section2twice": 164.42,
-    "sectionAvg": 40.756
-  },
-  {
     "songID": "510027",
     "songName": "ARCANA(Sakuzyo Remix)",
     "1": 47.347,
@@ -7225,5 +7148,203 @@ var sectionsJp = [
     "combined": 102.174,
     "section2twice": 134.897,
     "sectionAvg": 34.058
+  },
+  {
+    "songID": "5050314",
+    "songName": "GIRL'S RESIST",
+    "1": 27.429,
+    "2": 36.0,
+    "3": 39.434,
+    "4": 113.143,
+    "combined": 102.863,
+    "section2twice": 138.863,
+    "sectionAvg": 34.288
+  },
+  {
+    "songID": "120026",
+    "songName": "SEVENTH HAVEN",
+    "1": 43.637,
+    "2": 36.363,
+    "3": 44.469,
+    "4": 130.909,
+    "combined": 124.469,
+    "section2twice": 160.832,
+    "sectionAvg": 41.49
+  },
+  {
+    "songID": "210029",
+    "songName": "I'm a HERO",
+    "1": 36.294,
+    "2": 34.286,
+    "3": 41.106,
+    "4": 116.572,
+    "combined": 111.686,
+    "section2twice": 145.972,
+    "sectionAvg": 37.229
+  },
+  {
+    "songID": "310030",
+    "songName": "Heart to Heart",
+    "1": 39.724,
+    "2": 38.069,
+    "3": 45.909,
+    "4": 129.103,
+    "combined": 123.702,
+    "section2twice": 161.771,
+    "sectionAvg": 41.234
+  },
+  {
+    "songID": "5050319",
+    "songName": "ノクチルカ",
+    "1": 40.429,
+    "2": 29.949,
+    "3": 40.218,
+    "4": 122.556,
+    "combined": 110.596,
+    "section2twice": 140.545,
+    "sectionAvg": 36.865
+  },
+  {
+    "songID": "5050320",
+    "songName": "アマテラス",
+    "1": 40.0,
+    "2": 32.451,
+    "3": 45.928,
+    "4": 132.947,
+    "combined": 118.379,
+    "section2twice": 150.83,
+    "sectionAvg": 39.46
+  },
+  {
+    "songID": "5050321",
+    "songName": "超 寝てない",
+    "1": 40.396,
+    "2": 33.221,
+    "3": 47.429,
+    "4": 103.632,
+    "combined": 121.046,
+    "section2twice": 154.267,
+    "sectionAvg": 40.349
+  },
+  {
+    "songID": "5030108",
+    "songName": "Re:SONANCE",
+    "1": 39.344,
+    "2": 37.377,
+    "3": 37.407,
+    "4": 112.131,
+    "combined": 114.128,
+    "section2twice": 151.505,
+    "sectionAvg": 38.043
+  },
+  {
+    "songID": "5030109",
+    "songName": "Synergistic White",
+    "1": 35.613,
+    "2": 37.162,
+    "3": 37.278,
+    "4": 112.258,
+    "combined": 110.053,
+    "section2twice": 147.215,
+    "sectionAvg": 36.684
+  },
+  {
+    "songID": "5030110",
+    "songName": "We Are Stars",
+    "1": 39.724,
+    "2": 36.414,
+    "3": 35.382,
+    "4": 97.655,
+    "combined": 111.52,
+    "section2twice": 147.934,
+    "sectionAvg": 37.173
+  },
+  {
+    "songID": "5030111",
+    "songName": "Round-Round-Round",
+    "1": 44.393,
+    "2": 36.069,
+    "3": 41.576,
+    "4": 91.561,
+    "combined": 122.038,
+    "section2twice": 158.107,
+    "sectionAvg": 40.679
+  },
+  {
+    "songID": "5030112",
+    "songName": "Reach for the Meteor",
+    "1": 43.886,
+    "2": 45.257,
+    "3": 50.003,
+    "4": 135.771,
+    "combined": 139.146,
+    "section2twice": 184.403,
+    "sectionAvg": 46.382
+  },
+  {
+    "songID": "5030113",
+    "songName": "キュート・アラモード",
+    "1": 38.261,
+    "2": 34.782,
+    "3": 43.114,
+    "4": 99.13,
+    "combined": 116.157,
+    "section2twice": 150.939,
+    "sectionAvg": 38.719
+  },
+  {
+    "songID": "5030114",
+    "songName": "Leukothea",
+    "1": 44.689,
+    "2": 34.756,
+    "3": 46.475,
+    "4": 105.931,
+    "combined": 125.92,
+    "section2twice": 160.676,
+    "sectionAvg": 41.973
+  },
+  {
+    "songID": "820005",
+    "songName": "ようこそジャパリパークへ",
+    "1": 39.53,
+    "2": 39.529,
+    "3": 46.994,
+    "4": 121.412,
+    "combined": 126.053,
+    "section2twice": 165.582,
+    "sectionAvg": 42.018
+  },
+  {
+    "songID": "110041",
+    "songName": "アヤカシパレェド",
+    "1": 40.0,
+    "2": 32.0,
+    "3": 45.073,
+    "4": 128.0,
+    "combined": 117.073,
+    "section2twice": 149.073,
+    "sectionAvg": 39.024
+  },
+  {
+    "songID": "1110001",
+    "songName": "Searchlight",
+    "1": 43.636,
+    "2": 31.169,
+    "3": 41.824,
+    "4": 143.377,
+    "combined": 116.629,
+    "section2twice": 147.798,
+    "sectionAvg": 38.876
+  },
+  {
+    "songID": "610032",
+    "songName": "月に萌える (Starving Trancer & MARS Remix)",
+    "1": 37.551,
+    "2": 39.183,
+    "3": 41.186,
+    "4": 124.081,
+    "combined": 117.92,
+    "section2twice": 157.103,
+    "sectionAvg": 39.307
   }
 ]

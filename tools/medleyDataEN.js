@@ -2386,17 +2386,6 @@ var sectionsEn = [
     "sectionAvg": 44.205
   },
   {
-    "songID": "5030055",
-    "songName": "SEVENTH HAVEN",
-    "1": 36.364,
-    "2": 29.091,
-    "3": 37.273,
-    "4": 101.818,
-    "combined": 102.728,
-    "section2twice": 131.819,
-    "sectionAvg": 34.243
-  },
-  {
     "songID": "310017",
     "songName": "Collector",
     "1": 43.2,
@@ -2978,39 +2967,6 @@ var sectionsEn = [
     "combined": 106.278,
     "section2twice": 132.945,
     "sectionAvg": 35.426
-  },
-  {
-    "songID": "5050187",
-    "songName": "Bakuretsu Thaumazein (Prod. ChibaNyan)",
-    "1": 42.667,
-    "2": 32.0,
-    "3": 73.5,
-    "4": 141.333,
-    "combined": 148.167,
-    "section2twice": 180.167,
-    "sectionAvg": 49.389
-  },
-  {
-    "songID": "5050188",
-    "songName": "IAM (feat. Shogo, Tsubasa)",
-    "1": 41.739,
-    "2": 27.826,
-    "3": 65.04,
-    "4": 128.695,
-    "combined": 134.605,
-    "section2twice": 162.431,
-    "sectionAvg": 44.868
-  },
-  {
-    "songID": "5050189",
-    "songName": "Hyper Bass (feat. Yunomi)",
-    "1": 42.667,
-    "2": 32.0,
-    "3": 57.667,
-    "4": 128.0,
-    "combined": 132.334,
-    "section2twice": 164.334,
-    "sectionAvg": 44.111
   },
   {
     "songID": "410018",
@@ -4848,5 +4804,93 @@ var sectionsEn = [
     "combined": 116.042,
     "section2twice": 147.177,
     "sectionAvg": 38.681
+  },
+  {
+    "songID": "610031",
+    "songName": "Tensi ga kitarite hue wo huku",
+    "1": 32.728,
+    "2": 32.723,
+    "3": 36.723,
+    "4": 112.724,
+    "combined": 102.174,
+    "section2twice": 134.897,
+    "sectionAvg": 34.058
+  },
+  {
+    "songID": "120026",
+    "songName": "SEVENTH HAVEN",
+    "1": 43.637,
+    "2": 36.363,
+    "3": 44.469,
+    "4": 130.909,
+    "combined": 124.469,
+    "section2twice": 160.832,
+    "sectionAvg": 41.49
+  },
+  {
+    "songID": "5050345",
+    "songName": "Fashion Monster",
+    "1": 34.5,
+    "2": 37.5,
+    "3": 43.547,
+    "4": 123.0,
+    "combined": 115.547,
+    "section2twice": 153.047,
+    "sectionAvg": 38.516
+  },
+  {
+    "songID": "5050344",
+    "songName": "tsukematsukeru",
+    "1": 39.724,
+    "2": 39.724,
+    "3": 44.208,
+    "4": 124.138,
+    "combined": 123.656,
+    "section2twice": 163.38,
+    "sectionAvg": 41.219
+  },
+  {
+    "songID": "210029",
+    "songName": "I'm a HERO",
+    "1": 36.294,
+    "2": 34.286,
+    "3": 41.106,
+    "4": 116.572,
+    "combined": 111.686,
+    "section2twice": 145.972,
+    "sectionAvg": 37.229
+  },
+  {
+    "songID": "310030",
+    "songName": "Heart to Heart",
+    "1": 39.724,
+    "2": 38.069,
+    "3": 45.909,
+    "4": 129.103,
+    "combined": 123.702,
+    "section2twice": 161.771,
+    "sectionAvg": 41.234
+  },
+  {
+    "songID": "5050320",
+    "songName": "AMATERASU",
+    "1": 40.0,
+    "2": 32.451,
+    "3": 45.928,
+    "4": 132.947,
+    "combined": 118.379,
+    "section2twice": 150.83,
+    "sectionAvg": 39.46
+  },
+  {
+    "songID": "5050319",
+    "songName": "Noctiluca",
+    "1": 40.429,
+    "2": 29.949,
+    "3": 40.218,
+    "4": 122.556,
+    "combined": 110.596,
+    "section2twice": 140.545,
+    "sectionAvg": 36.865
   }
 ]
