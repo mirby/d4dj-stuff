@@ -18559,6 +18559,66 @@ var cards = {
         "icon": "card_icon_070940009_1.d83140b6",
         "passive": "Groovy Solo 20-80%",
         "eventId": 191
+    },
+    "1236": {
+        "id": 1236,
+        "character": "Rinku",
+        "cardname": "Eerie, Eerie Nekomata",
+        "unit": "HapiAra",
+        "type": "Street",
+        "rarity": 4,
+        "heart": 16161,
+        "technical": 24504,
+        "physical": 16258,
+        "skill": .5,
+        "icon": "card_icon_040110017_1.c2d8b3ff",
+        "passive": "Groovy Bonus 10-40%",
+        "eventId": 192
+    },
+    "1237": {
+        "id": 1237,
+        "character": "Rei",
+        "cardname": "Drifting Demon",
+        "unit": "HapiAra",
+        "type": "Street",
+        "rarity": 4,
+        "heart": 16457,
+        "technical": 23352,
+        "physical": 16194,
+        "skill": .5,
+        "icon": "card_icon_040140017_1.9860c4e8",
+        "passive": "Groovy Solo 20-80%",
+        "eventId": 192
+    },
+    "1238": {
+        "id": 1238,
+        "character": "Towa",
+        "cardname": "A Bewitching Tail",
+        "unit": "Photon",
+        "type": "Street",
+        "rarity": 4,
+        "heart": 16079,
+        "technical": 23122,
+        "physical": 16788,
+        "skill": .5,
+        "icon": "card_icon_040330016_1.64fbc4c1",
+        "passive": "Manual Up 2.5-11%",
+        "eventId": 192
+    },
+    "1239": {
+        "id": 1239,
+        "character": "Noa",
+        "cardname": "Leaves You Boneles Urameshiya",
+        "unit": "Photon",
+        "type": "Street",
+        "rarity": 4,
+        "heart": 8373,
+        "technical": 14442,
+        "physical": 8556,
+        "skill": .25,
+        "icon": "card_icon_030340008_1.fd0199e7",
+        "passive": "Life Boost 1-3%",
+        "eventId": 192
     }
 }
 

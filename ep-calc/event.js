@@ -2246,6 +2246,17 @@ var eventList = {
         "comboBonus":true,
         "addition":"50% power boost for 5th anni cards in Multi. 25% in Special Raid"
     },
+    "192": {
+        "id":192,
+        "name":"Lovely & Spooky Halloween Night",
+        "characters":"Rinku,Rei,Towa,Noa",
+        "type":"Bingo",
+        "style":"Street",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
