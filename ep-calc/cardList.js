@@ -18611,7 +18611,7 @@ var cards = {
         "cardname": "Leaves You Boneles Urameshiya",
         "unit": "Photon",
         "type": "Street",
-        "rarity": 4,
+        "rarity": 3,
         "heart": 8373,
         "technical": 14442,
         "physical": 8556,
