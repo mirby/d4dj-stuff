@@ -604,7 +604,7 @@ function createCharacterFilters() {
             paramSelect.setAttribute("data-width","fit");
             paramSelect.setAttribute("data-size","10");
 
-            for (var j = 0; j <= 10; j+=.1) {
+            for (var j = 0; j <= 15; j+=.1) {
                 var paramOption = document.createElement("option");
                 j = Math.round(j * 10) / 10;
                 paramOption.value = j;
