@@ -2257,6 +2257,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "193": {
+        "id":193,
+        "name":"The POKER in 2025 Dec.",
+        "characters":"Miyu,Haruna,Kurumi,Miiko",
+        "type":"Poker",
+        "style":"Cute",
+        "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
