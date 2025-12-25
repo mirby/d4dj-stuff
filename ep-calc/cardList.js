@@ -18769,6 +18769,66 @@ var cards = {
         "icon": "card_icon_061030002_1.05f472f9",
         "passive": "Life Boost 2.5-9%",
         "eventId": 0
+    },
+    "1250": {
+        "id": 1250,
+        "character": "Michiru",
+        "cardname": "A Perfect Christmas!",
+        "unit": "Unichord",
+        "type": "Cute",
+        "rarity": 4,
+        "heart": 17021,
+        "technical": 15048,
+        "physical": 22627,
+        "skill": .5,
+        "icon": "card_icon_070810014_1.e36d8184",
+        "passive": "Life Boost 2.5-8.75%",
+        "eventId": 194
+    },
+    "1251": {
+        "id": 1251,
+        "character": "Lumina",
+        "cardname": "The Shining Star of Christmas Eve",
+        "unit": "Unichord",
+        "type": "Cute",
+        "rarity": 4,
+        "heart": 16243,
+        "technical": 15404,
+        "physical": 22973,
+        "skill": .5,
+        "icon": "card_icon_070820017_1.7e5ad856",
+        "passive": "Combo Boost 4-8%",
+        "eventId": 194
+    },
+    "1252": {
+        "id": 1252,
+        "character": "Kokoa",
+        "cardname": "Secret Wish",
+        "unit": "Unichord",
+        "type": "Cute",
+        "rarity": 4,
+        "heart": 14742,
+        "technical": 17048,
+        "physical": 22459,
+        "skill": .5,
+        "icon": "card_icon_070830017_1.27176fe9",
+        "passive": "Tap Heal 2.5%",
+        "eventId": 194
+    },
+    "1253": {
+        "id": 1253,
+        "character": "Hayate",
+        "cardname": "Let My Feelings Reach You",
+        "unit": "Unichord",
+        "type": "Cute",
+        "rarity": 3,
+        "heart": 8247,
+        "technical": 8362,
+        "physical": 15348,
+        "skill": .25,
+        "icon": "card_icon_050840003_1.6624a9ee",
+        "passive": "Life Protect 3-1%",
+        "eventId": 194
     }
 }
 

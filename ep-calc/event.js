@@ -2268,6 +2268,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "194": {
+        "id":194,
+        "name":"White Snow ChØrd",
+        "characters":"Michiru,Lumina,Kokoa,Hayate",
+        "type":"Bingo",
+        "style":"Cute",
+        "parameter":"Physical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
