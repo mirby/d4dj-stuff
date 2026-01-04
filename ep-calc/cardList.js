@@ -18829,6 +18829,66 @@ var cards = {
         "icon": "card_icon_050840003_1.6624a9ee",
         "passive": "Life Protect 3-1%",
         "eventId": 194
+    },
+    "1254": {
+        "id": 1254,
+        "character": "Miyu",
+        "cardname": "Wafuu Good Fortune ☆ 2026!",
+        "unit": "LyriLily",
+        "type": "Street",
+        "rarity": 4,
+        "heart": 14576,
+        "technical": 21734,
+        "physical": 18080,
+        "skill": .5,
+        "icon": "card_icon_070610018_1.d36eca00",
+        "passive": "Life Boost 2.5-8.75%",
+        "eventId": 195
+    },
+    "1255": {
+        "id": 1255,
+        "character": "Haruna",
+        "cardname": "Beyond the Clouds ☆ 2026!",
+        "unit": "LyriLily",
+        "type": "Street",
+        "rarity": 4,
+        "heart": 16073,
+        "technical": 21990,
+        "physical": 16372,
+        "skill": .5,
+        "icon": "card_icon_070620017_1.17d14746",
+        "passive": "Life Protect 10-1%",
+        "eventId": 195
+    },
+    "1256": {
+        "id": 1256,
+        "character": "Kurumi",
+        "cardname": "Dazzling Splendor ☆ 2026!",
+        "unit": "LyriLily",
+        "type": "Street",
+        "rarity": 4,
+        "heart": 17028,
+        "technical": 23357,
+        "physical": 13920,
+        "skill": .5,
+        "icon": "card_icon_070630015_1.5f86b92f",
+        "passive": "Combo Boost 4-8%",
+        "eventId": 195
+    },
+    "1257": {
+        "id": 1257,
+        "character": "Miiko",
+        "cardname": "Brocade & Blossoms ☆ 2026!",
+        "unit": "LyriLily",
+        "type": "Street",
+        "rarity": 3,
+        "heart": 10147,
+        "technical": 13396,
+        "physical": 9404,
+        "skill": .25,
+        "icon": "card_icon_050640001_1.fae0bbfe",
+        "passive": "Tap Heal 1%",
+        "eventId": 195
     }
 }
 

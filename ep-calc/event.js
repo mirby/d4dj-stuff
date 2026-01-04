@@ -262,6 +262,7 @@ function getCardSet(type) {
         "182":["the Delightest STAGE"],
         "185":["the Greatest STAGE"],
         "190":["the Brightest STAGE"],
+        "195":["Wafuu Good Fortune ☆ 2026!", "Beyond the Clouds ☆ 2026!", "Dazzling Splendor ☆ 2026!", "Brocade & Blossoms ☆ 2026!"],
     };
 
     var raidSet = {
@@ -2275,6 +2276,17 @@ var eventList = {
         "type":"Bingo",
         "style":"Cute",
         "parameter":"Physical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
+    "195": {
+        "id":195,
+        "name":"A Melody Tied in the New Year",
+        "characters":"Miyu,Haruna,Kurumi,Miiko",
+        "type":"Medley",
+        "style":"Street",
+        "parameter":"Technical",
         "bonus":true,
         "comboBonus":true,
         "addition":""
