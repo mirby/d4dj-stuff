@@ -1441,17 +1441,6 @@ var sectionsJp = [
     "sectionAvg": 40.438
   },
   {
-    "songID": "5030018",
-    "songName": "上海紅茶館 (siromaru d'n'b remix)",
-    "1": 41.514,
-    "2": 31.135,
-    "3": 41.022,
-    "4": 103.784,
-    "combined": 113.671,
-    "section2twice": 144.806,
-    "sectionAvg": 37.89
-  },
-  {
     "songID": "5030019",
     "songName": "恋色マスタースパーク (DJ Genki Remix)",
     "1": 40.8,
@@ -1461,17 +1450,6 @@ var sectionsJp = [
     "combined": 118.239,
     "section2twice": 149.439,
     "sectionAvg": 39.413
-  },
-  {
-    "songID": "5030020",
-    "songName": "幽雅に咲かせ、墨染の桜 ～ Border of Life (REDALiCE Remix)",
-    "1": 43.0,
-    "2": 32.0,
-    "3": 41.33,
-    "4": 124.0,
-    "combined": 116.33,
-    "section2twice": 148.33,
-    "sectionAvg": 38.777
   },
   {
     "songID": "5030021",
@@ -3221,17 +3199,6 @@ var sectionsJp = [
     "combined": 115.278,
     "section2twice": 144.816,
     "sectionAvg": 38.426
-  },
-  {
-    "songID": "5050123",
-    "songName": "千本桜",
-    "1": 43.636,
-    "2": 31.168,
-    "3": 41.605,
-    "4": 105.974,
-    "combined": 116.409,
-    "section2twice": 147.577,
-    "sectionAvg": 38.803
   },
   {
     "songID": "3020010",
@@ -6303,72 +6270,6 @@ var sectionsJp = [
     "sectionAvg": 43.785
   },
   {
-    "songID": "5050292",
-    "songName": "Distortion (feat. Yunomi)",
-    "1": 36.0,
-    "2": 30.0,
-    "3": 39.75,
-    "4": 162.0,
-    "combined": 105.75,
-    "section2twice": 135.75,
-    "sectionAvg": 35.25
-  },
-  {
-    "songID": "5050293",
-    "songName": "Chick Chick love♡ (Prod. Nor)",
-    "1": 45.0,
-    "2": 30.0,
-    "3": 51.687,
-    "4": 120.0,
-    "combined": 126.687,
-    "section2twice": 156.687,
-    "sectionAvg": 42.229
-  },
-  {
-    "songID": "5050294",
-    "songName": "Prayer(Prod. picco)",
-    "1": 36.923,
-    "2": 36.924,
-    "3": 41.512,
-    "4": 127.692,
-    "combined": 115.359,
-    "section2twice": 152.283,
-    "sectionAvg": 38.453
-  },
-  {
-    "songID": "5050289",
-    "songName": "Catch a Fire (Prod. ケンモチヒデフミ)",
-    "1": 40.279,
-    "2": 35.245,
-    "3": 38.922,
-    "4": 122.518,
-    "combined": 114.446,
-    "section2twice": 149.691,
-    "sectionAvg": 38.149
-  },
-  {
-    "songID": "5050290",
-    "songName": "Make Some Noise (feat.オタユキ, Belex)",
-    "1": 37.5,
-    "2": 37.5,
-    "3": 37.154,
-    "4": 135.0,
-    "combined": 112.154,
-    "section2twice": 149.654,
-    "sectionAvg": 37.385
-  },
-  {
-    "songID": "5050291",
-    "songName": "Sweet Illusion (feat. DE DE MOUSE)",
-    "1": 45.0,
-    "2": 31.875,
-    "3": 37.645,
-    "4": 125.625,
-    "combined": 114.52,
-    "section2twice": 146.395,
-    "sectionAvg": 38.173
-  },
-  {
     "songID": "410026",
     "songName": "GIVE Attention",
     "1": 38.919,
@@ -6435,17 +6336,6 @@ var sectionsJp = [
     "sectionAvg": 40.791
   },
   {
-    "songID": "5050279",
-    "songName": "イタラズ",
-    "1": 34.099,
-    "2": 31.475,
-    "3": 49.617,
-    "4": 146.886,
-    "combined": 115.191,
-    "section2twice": 146.666,
-    "sectionAvg": 38.397
-  },
-  {
     "songID": "5050280",
     "songName": "金糸雀 ～カナリヤ～ feat.亜季",
     "1": 36.429,
@@ -6466,17 +6356,6 @@ var sectionsJp = [
     "combined": 119.166,
     "section2twice": 164.52,
     "sectionAvg": 39.722
-  },
-  {
-    "songID": "5050308",
-    "songName": "僕らは今のなかで",
-    "1": 39.184,
-    "2": 29.388,
-    "3": 44.745,
-    "4": 100.409,
-    "combined": 113.317,
-    "section2twice": 142.705,
-    "sectionAvg": 37.772
   },
   {
     "songID": "520022",
@@ -7346,5 +7225,115 @@ var sectionsJp = [
     "combined": 117.92,
     "section2twice": 157.103,
     "sectionAvg": 39.307
+  },
+  {
+    "songID": "1110002",
+    "songName": "エゴイスタ",
+    "1": 37.037,
+    "2": 35.556,
+    "3": 41.953,
+    "4": 143.704,
+    "combined": 114.546,
+    "section2twice": 150.102,
+    "sectionAvg": 38.182
+  },
+  {
+    "songID": "810014",
+    "songName": "ハジマリビート (TAG Remix)",
+    "1": 44.571,
+    "2": 38.205,
+    "3": 39.696,
+    "4": 141.849,
+    "combined": 122.472,
+    "section2twice": 160.677,
+    "sectionAvg": 40.824
+  },
+  {
+    "songID": "810015",
+    "songName": "DJ NANMO WAKARAN (Yuta Imai Remix)",
+    "1": 39.384,
+    "2": 40.616,
+    "3": 38.564,
+    "4": 137.846,
+    "combined": 118.564,
+    "section2twice": 159.18,
+    "sectionAvg": 39.521
+  },
+  {
+    "songID": "910012",
+    "songName": "Get into the Abyssmare (かめりあ's \"ULTRA ABYSSUM\" Remix)",
+    "1": 41.025,
+    "2": 34.872,
+    "3": 45.379,
+    "4": 144.616,
+    "combined": 121.276,
+    "section2twice": 156.148,
+    "sectionAvg": 40.425
+  },
+  {
+    "songID": "13",
+    "songName": "レッスン GROOVY体験",
+    "1": 35.369,
+    "2": 37.895,
+    "3": 41.839,
+    "4": 106.105,
+    "combined": 115.103,
+    "section2twice": 152.998,
+    "sectionAvg": 38.368
+  },
+  {
+    "songID": "620022",
+    "songName": "恋愛ミリフィルム",
+    "1": 31.875,
+    "2": 30.0,
+    "3": 47.667,
+    "4": 128.437,
+    "combined": 109.542,
+    "section2twice": 139.542,
+    "sectionAvg": 36.514
+  },
+  {
+    "songID": "320022",
+    "songName": "ヒミツ恋ゴコロ",
+    "1": 34.909,
+    "2": 33.455,
+    "3": 44.382,
+    "4": 130.909,
+    "combined": 112.746,
+    "section2twice": 146.201,
+    "sectionAvg": 37.582
+  },
+  {
+    "songID": "810016",
+    "songName": "Talky night！",
+    "1": 38.4,
+    "2": 38.4,
+    "3": 45.774,
+    "4": 131.2,
+    "combined": 122.574,
+    "section2twice": 160.974,
+    "sectionAvg": 40.858
+  },
+  {
+    "songID": "5050354",
+    "songName": "Snow halation",
+    "1": 37.456,
+    "2": 31.908,
+    "3": 39.486,
+    "4": 108.208,
+    "combined": 108.85,
+    "section2twice": 140.758,
+    "sectionAvg": 36.283
+  },
+  {
+    "songID": "610033",
+    "songName": "シン･Year",
+    "1": 30.968,
+    "2": 30.968,
+    "3": 46.575,
+    "4": 118.065,
+    "combined": 108.511,
+    "section2twice": 139.479,
+    "sectionAvg": 36.17
   }
 ]

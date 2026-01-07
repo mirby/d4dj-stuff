@@ -912,17 +912,6 @@ var sectionsEn = [
     "sectionAvg": 40.438
   },
   {
-    "songID": "5030018",
-    "songName": "Shanghai Scarlet Teahouse (siromaru d'n'b remix)",
-    "1": 41.514,
-    "2": 31.135,
-    "3": 41.022,
-    "4": 103.784,
-    "combined": 113.671,
-    "section2twice": 144.806,
-    "sectionAvg": 37.89
-  },
-  {
     "songID": "5030019",
     "songName": "Love-Colored Master Spark (DJ Genki Remix)",
     "1": 40.8,
@@ -932,17 +921,6 @@ var sectionsEn = [
     "combined": 118.239,
     "section2twice": 149.439,
     "sectionAvg": 39.413
-  },
-  {
-    "songID": "5030020",
-    "songName": "Bloom Nobly, Ink-Black Cherry Blossom ~ Border of Life (REDALiCE Remix)",
-    "1": 43.0,
-    "2": 32.0,
-    "3": 41.33,
-    "4": 124.0,
-    "combined": 116.33,
-    "section2twice": 148.33,
-    "sectionAvg": 38.777
   },
   {
     "songID": "5030021",
@@ -4892,5 +4870,192 @@ var sectionsEn = [
     "combined": 110.596,
     "section2twice": 140.545,
     "sectionAvg": 36.865
+  },
+  {
+    "songID": "820005",
+    "songName": "Welcome to Japari Park",
+    "1": 39.53,
+    "2": 39.529,
+    "3": 46.994,
+    "4": 121.412,
+    "combined": 126.053,
+    "section2twice": 165.582,
+    "sectionAvg": 42.018
+  },
+  {
+    "songID": "1110001",
+    "songName": "Searchlight",
+    "1": 43.636,
+    "2": 31.169,
+    "3": 41.824,
+    "4": 143.377,
+    "combined": 116.629,
+    "section2twice": 147.798,
+    "sectionAvg": 38.876
+  },
+  {
+    "songID": "110041",
+    "songName": "Ayakashi parade",
+    "1": 40.0,
+    "2": 32.0,
+    "3": 45.073,
+    "4": 128.0,
+    "combined": 117.073,
+    "section2twice": 149.073,
+    "sectionAvg": 39.024
+  },
+  {
+    "songID": "5050321",
+    "songName": "CHOU NETENAI",
+    "1": 40.396,
+    "2": 33.221,
+    "3": 47.429,
+    "4": 103.632,
+    "combined": 121.046,
+    "section2twice": 154.267,
+    "sectionAvg": 40.349
+  },
+  {
+    "songID": "610032",
+    "songName": "Pining For The Moon (Starving Trancer & MARS Remix)",
+    "1": 37.551,
+    "2": 39.183,
+    "3": 41.186,
+    "4": 124.081,
+    "combined": 117.92,
+    "section2twice": 157.103,
+    "sectionAvg": 39.307
+  },
+  {
+    "songID": "5030108",
+    "songName": "Re:SONANCE",
+    "1": 39.344,
+    "2": 37.377,
+    "3": 37.407,
+    "4": 112.131,
+    "combined": 114.128,
+    "section2twice": 151.505,
+    "sectionAvg": 38.043
+  },
+  {
+    "songID": "5030109",
+    "songName": "Synergistic White",
+    "1": 35.613,
+    "2": 37.162,
+    "3": 37.278,
+    "4": 112.258,
+    "combined": 110.053,
+    "section2twice": 147.215,
+    "sectionAvg": 36.684
+  },
+  {
+    "songID": "5030110",
+    "songName": "We Are Stars",
+    "1": 39.724,
+    "2": 36.414,
+    "3": 35.382,
+    "4": 97.655,
+    "combined": 111.52,
+    "section2twice": 147.934,
+    "sectionAvg": 37.173
+  },
+  {
+    "songID": "5030111",
+    "songName": "Round-Round-Round",
+    "1": 44.393,
+    "2": 36.069,
+    "3": 41.576,
+    "4": 91.561,
+    "combined": 122.038,
+    "section2twice": 158.107,
+    "sectionAvg": 40.679
+  },
+  {
+    "songID": "5030112",
+    "songName": "Reach for the Meteor",
+    "1": 43.886,
+    "2": 45.257,
+    "3": 50.003,
+    "4": 135.771,
+    "combined": 139.146,
+    "section2twice": 184.403,
+    "sectionAvg": 46.382
+  },
+  {
+    "songID": "5030113",
+    "songName": "Cute.a la mode",
+    "1": 38.261,
+    "2": 34.782,
+    "3": 43.114,
+    "4": 99.13,
+    "combined": 116.157,
+    "section2twice": 150.939,
+    "sectionAvg": 38.719
+  },
+  {
+    "songID": "5030114",
+    "songName": "Leukothea",
+    "1": 44.689,
+    "2": 34.756,
+    "3": 46.475,
+    "4": 105.931,
+    "combined": 125.92,
+    "section2twice": 160.676,
+    "sectionAvg": 41.973
+  },
+  {
+    "songID": "810014",
+    "songName": "Hajimari Beat (TAG Remix)",
+    "1": 44.571,
+    "2": 38.205,
+    "3": 39.696,
+    "4": 141.849,
+    "combined": 122.472,
+    "section2twice": 160.677,
+    "sectionAvg": 40.824
+  },
+  {
+    "songID": "810015",
+    "songName": "DJ NANMO WAKARAN (Yuta Imai Remix)",
+    "1": 39.384,
+    "2": 40.616,
+    "3": 38.564,
+    "4": 137.846,
+    "combined": 118.564,
+    "section2twice": 159.18,
+    "sectionAvg": 39.521
+  },
+  {
+    "songID": "910012",
+    "songName": "Get into the Abyssmare (Camellia's \"ULTRA ABYSSUM\" Remix)",
+    "1": 41.025,
+    "2": 34.872,
+    "3": 45.379,
+    "4": 144.616,
+    "combined": 121.276,
+    "section2twice": 156.148,
+    "sectionAvg": 40.425
+  },
+  {
+    "songID": "810016",
+    "songName": "Talky night！",
+    "1": 38.4,
+    "2": 38.4,
+    "3": 45.774,
+    "4": 131.2,
+    "combined": 122.574,
+    "section2twice": 160.974,
+    "sectionAvg": 40.858
+  },
+  {
+    "songID": "610033",
+    "songName": "Shin Year",
+    "1": 30.968,
+    "2": 30.968,
+    "3": 46.575,
+    "4": 118.065,
+    "combined": 108.511,
+    "section2twice": 139.479,
+    "sectionAvg": 36.17
   }
 ]
