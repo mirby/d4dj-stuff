@@ -2291,6 +2291,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "196": {
+        "id":196,
+        "name":"EGOEGG Re:born vol. 1",
+        "characters":"Rika,Marika,Saori,Dalia",
+        "type":"Bingo",
+        "style":"Street",
+        "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*

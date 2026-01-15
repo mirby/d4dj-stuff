@@ -19234,6 +19234,66 @@ var cards = {
         "icon": "card_icon_050840004_1.af81eb35",
         "passive": "Life Boost 1-3%",
         "eventId": 0
+    },
+    "1281": {
+        "id": 1281,
+        "character": "Rika",
+        "cardname": "Reverie: Light-Filled Seafloor",
+        "unit": "Mermaid",
+        "type": "Street",
+        "rarity": 4,
+        "heart": 23873,
+        "technical": 15919,
+        "physical": 15834,
+        "skill": .8,
+        "icon": "card_icon_070410017_1.f502c8eb",
+        "passive": "Life Protect 10-1%",
+        "eventId": 196
+    },
+    "1282": {
+        "id": 1282,
+        "character": "Marika",
+        "cardname": "Reverie: Dancing Seafoam",
+        "unit": "Mermaid",
+        "type": "Street",
+        "rarity": 4,
+        "heart": 24417,
+        "technical": 17778,
+        "physical": 14090,
+        "skill": .8,
+        "icon": "card_icon_070420015_1.85bcb826",
+        "passive": "Life Boost 2.5-8.75%",
+        "eventId": 196
+    },
+    "1283": {
+        "id": 1283,
+        "character": "Saori",
+        "cardname": "Reverie: Frolicking in the Azure Deep",
+        "unit": "Mermaid",
+        "type": "Street",
+        "rarity": 4,
+        "heart": 24593,
+        "technical": 14718,
+        "physical": 17343,
+        "skill": .8,
+        "icon": "card_icon_070430014_1.b23c63ba",
+        "passive": "Tap Healing 2.5%",
+        "eventId": 196
+    },
+    "1284": {
+        "id": 1284,
+        "character": "Dalia",
+        "cardname": "Reverie: A Heart-Stirring Torrent",
+        "unit": "Mermaid",
+        "type": "Street",
+        "rarity": 4,
+        "heart": 24370,
+        "technical": 15924,
+        "physical": 16280,
+        "skill": .8,
+        "icon": "card_icon_070440012_1.68043df7",
+        "passive": "Combo Boost 4-8%",
+        "eventId": 196
     }
 }
 
