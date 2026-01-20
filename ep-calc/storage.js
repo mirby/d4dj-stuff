@@ -91,6 +91,8 @@ jQuery(function($) {
                     }
                 });
             }
+
+            document.getElementById("totalSymp").value = storage.getItem("totalSymp");
         } else {
             refreshTeam();
         }
@@ -224,6 +226,8 @@ function saveData() {
     }
     storage.setItem("param",JSON.stringify([...localParam]));
 
+    storage.setItem("totalSymp", document.getElementById("totalSymp").value);
+
     console.log("Profile: " + profile + ":\n" + JSON.stringify(merges));
     console.log("Parameters: " + JSON.stringify([...localParam]));
     console.log("Power percentage: " + JSON.stringify([...localPower]));
@@ -298,6 +302,9 @@ function loadData() {
                     }
                 });
             }
+
+            console.log(storage.getItem("totalSymp"));
+            document.getElementById("totalSymp").value = storage.getItem("totalSymp");
     
             $('.selectpicker').selectpicker('refresh');
         } else {

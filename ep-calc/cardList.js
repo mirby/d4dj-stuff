@@ -19294,6 +19294,66 @@ var cards = {
         "icon": "card_icon_070440012_1.68043df7",
         "passive": "Combo Boost 4-8%",
         "eventId": 196
+    },
+    "1285": {
+        "id": 1285,
+        "character": "Maho",
+        "cardname": "GroovyFes track.3",
+        "unit": "HapiAra",
+        "type": "Party",
+        "rarity": 4,
+        "heart": 20604,
+        "technical": 20639,
+        "physical": 23048,
+        "skill": .6,
+        "icon": "card_icon_070120018_1.f97eab9d",
+        "passive": "Sympathy+ 2-7%",
+        "eventId": 0
+    },
+    "1286": {
+        "id": 1286,
+        "character": "Kyoko",
+        "cardname": "GroovyFes track.3",
+        "unit": "Peaky",
+        "type": "Party",
+        "rarity": 4,
+        "heart": 19962,
+        "technical": 23147,
+        "physical": 19717,
+        "skill": .6,
+        "icon": "card_icon_070210018_1.a35fb9ab",
+        "passive": "Sympathy+ 2-7%",
+        "eventId": 0
+    },
+    "1287": {
+        "id": 1287,
+        "character": "Ibuki",
+        "cardname": "GroovyFes track.3",
+        "unit": "Photon",
+        "type": "Elegant",
+        "rarity": 4,
+        "heart": 20702,
+        "technical": 20977,
+        "physical": 22970,
+        "skill": .6,
+        "icon": "card_icon_070320017_1.932fd9b8",
+        "passive": "Sympathy+ 2-7%",
+        "eventId": 0
+    },
+    "1288": {
+        "id": 1288,
+        "character": "Noa",
+        "cardname": "GroovyFes track.3",
+        "unit": "Photon",
+        "type": "Elegant",
+        "rarity": 4,
+        "heart": 18382,
+        "technical": 20777,
+        "physical": 23089,
+        "skill": .6,
+        "icon": "card_icon_070340016_1.cf49d7f4",
+        "passive": "Sympathy+ 2-7%",
+        "eventId": 0
     }
 }
 

@@ -150,7 +150,7 @@ jQuery(function($) {
         $('#teamSelectSection').toggleClass('show');
     });
 
-    $('.numberField').on('blur', function() {
+    $('.numberField').on('input', function() {
         // Get the value of the input field
         const value = $(this).val();
 
@@ -1213,15 +1213,25 @@ function getSympathyPerc() {
         }
     }
 
+    // Sympathy+
+    var totalSymp = parseInt(document.getElementById("totalSymp").value);
+
     if (isSympathyActive) {
-        return parseFloat(maxSympPerc * sympCount);
+        return parseFloat((maxSympPerc * sympCount) + (totalSymp * 0.1));
     } else {
         return 0;
     }    
 }
 
 function getSympPassiveValue(pString, et) {
-    var pSkill = pString.substring(9).slice(0, -1);
+
+    var pSkill;
+    if (pString.includes("+")) {
+        pSkill = pString.substring(10).slice(0, -1);
+    } else {
+        pSkill = pString.substring(9).slice(0, -1);
+    }
+    
     var pSkillParts = pSkill.split("-");
     var interval = (parseFloat(pSkillParts[1]) - parseFloat(pSkillParts[0])) * 100 / 400;
     return parseFloat(pSkillParts[0]) + (interval * et);
