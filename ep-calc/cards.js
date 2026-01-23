@@ -1177,6 +1177,7 @@ function getEventPercBonus(type, identifier) {
 // Get the total Sympathy % on team
 function getSympathyPerc() {
     var isSympathyActive = false;
+    var isSympathyPlusActive = false;
     var maxSympPerc = 0;
     var sympCount = 0;
 
@@ -1193,6 +1194,10 @@ function getSympathyPerc() {
             var passiveValue = getSympPassiveValue(passiveSkill, et);
             if (passiveValue > maxSympPerc) {
                 maxSympPerc = passiveValue;
+            }
+
+            if (passiveSkill.startsWith("Sympathy+")) {
+                isSympathyPlusActive = true;
             }
         }
     }
@@ -1214,7 +1219,11 @@ function getSympathyPerc() {
     }
 
     // Sympathy+
-    var totalSymp = parseInt(document.getElementById("totalSymp").value);
+    var totalSymp = 0;
+    
+    if (isSympathyPlusActive) {
+        totalSymp = parseInt(document.getElementById("totalSymp").value);
+    }    
 
     if (isSympathyActive) {
         return parseFloat((maxSympPerc * sympCount) + (totalSymp * 0.1));

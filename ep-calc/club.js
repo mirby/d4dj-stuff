@@ -108,70 +108,68 @@ function createClubSelect(obj, id) {
 
 function autoClub() {
 
-    // Get strongest member, and unit/style counts from current team
-    var highestPower = 0;
-    var highestChar = "";
-    var clubUse = "";
-    var chars = {};
-    var styleArr = [];
-    var unitArr = [];
-    for (let i = 1; i <= 4; i++) {
-        var tempPower = document.getElementById("m" + i + "_cardpower").innerHTML;
-        var char = document.getElementById("m" + i + "_char").innerHTML;
-        chars[char] = tempPower;
+    let highestPower = 0;
+    let highestChar = "";
+    let clubUse = "";
 
-        if (tempPower > highestPower) {
-            highestPower = tempPower;
+    const chars = {};
+    const styleData = {};
+    const unitData = {};
+
+    for (let i = 1; i <= 4; i++) {
+        const power = Number(document.getElementById(`m${i}_cardpower`).innerHTML);
+        const char  = document.getElementById(`m${i}_char`).innerHTML;
+        const style = document.getElementById(`m${i}_type`).innerHTML.toLowerCase();
+        const unit  = document.getElementById(`m${i}_unit`).innerHTML.toLowerCase();
+
+        chars[char] = power;
+
+        if (power > highestPower) {
+            highestPower = power;
             highestChar = char;
         }
 
-        if (tempPower != 0) {
-            styleArr.push(document.getElementById("m" + i + "_type").innerHTML.toLowerCase());
-            unitArr.push(document.getElementById("m" + i + "_unit").innerHTML.toLowerCase());
+        if (power !== 0) {
+            styleData[style] ??= { count: 0, power: 0 };
+            unitData[unit]   ??= { count: 0, power: 0 };
+
+            styleData[style].count++;
+            styleData[style].power += power;
+
+            unitData[unit].count++;
+            unitData[unit].power += power;
         }
     }
 
-    charArray = Object.entries(chars);
-    charArray.sort((a, b) => b[1] - a[1]);
+    // helper to find the best entry
+    const getBest = (data) => {
+        let bestKey = "";
+        let best = { count: 0, power: 0 };
 
-    // Don't bother setting club items if a team isn't built yet
-    if (highestPower != 0) {
-        var styleNum = 0;
-        var unitNum = 0;
-        var styleUse = "";
-        var unitUse = "";
-        var styleCount = {};
-        var unitCount = {};
-        styleArr.forEach(function(i) { styleCount[i] = (styleCount[i]||0) + 1;});
-        unitArr.forEach(function(i) { unitCount[i] = (unitCount[i]||0) + 1;});
-        for (var key of Object.keys(styleCount)) {
-            styleNum = styleCount[key];
-            if (styleNum >= 3) {
-                styleUse = key;
-                break;
-            }            
-        }
-        for (var key of Object.keys(unitCount)) {
-            unitNum = unitCount[key];
-            if (unitNum >= 3) {
-                unitUse = key;
-                break;
-            }            
-        }
-
-        // Unichord and Abyssmare club items exist now
-        if (unitNum >= styleNum) {
-            if (unitUse !== "") {
-                clubUse = unitUse;
-            } else {
-                clubUse = "common2";
+        for (const [key, val] of Object.entries(data)) {
+            if (val.count >= 3 && val.count > best.count) {
+                bestKey = key;
+                best = val;
             }
+        }
+        return { key: bestKey, ...best };
+    };
+
+    if (highestPower !== 0) {
+        const bestStyle = getBest(styleData);
+        const bestUnit  = getBest(unitData);
+
+        // tie-breaker: both counts exactly 3 → compare total cardpower
+        if (bestStyle.count === 3 && bestUnit.count === 3) {
+            clubUse = bestStyle.power >= bestUnit.power
+                ? bestStyle.key
+                : bestUnit.key;
+        } 
+        // otherwise, normal comparison
+        else if (bestUnit.count >= bestStyle.count) {
+            clubUse = bestUnit.key || "common2";
         } else {
-            if (styleUse !== "") {
-                clubUse = styleUse;
-            } else {
-                clubUse = "common2";
-            }
+            clubUse = bestStyle.key || "common2";
         }
 
         for (var type of clubTypesDisplay) {

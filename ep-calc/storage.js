@@ -92,7 +92,10 @@ jQuery(function($) {
                 });
             }
 
-            document.getElementById("totalSymp").value = storage.getItem("totalSymp");
+            var totalSymp = storage.getItem("totalSymp");
+            if (totalSymp !== null && totalSymp !== '') {
+                document.getElementById("totalSymp").value = storage.getItem("totalSymp");
+            }
         } else {
             refreshTeam();
         }
@@ -232,6 +235,7 @@ function saveData() {
     console.log("Parameters: " + JSON.stringify([...localParam]));
     console.log("Power percentage: " + JSON.stringify([...localPower]));
     console.log("Extra training: " + JSON.stringify([...localEt]));
+    console.log("Total Sympathy: " + document.getElementById("totalSymp").value);
 
     // After saving, recreate the card list
     generateCardArray();
