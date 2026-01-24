@@ -319,6 +319,12 @@ var clubItemsDisplay = {
         "type":"unit",
         "bonus":.03
     },
+    "doggo": {
+        "name":"doggo",
+        "displayname":"A Bad Cynic Doggo",
+        "type":"unit",
+        "bonus":.03
+    },
     "callofartemis": {
         "name":"callofartemis",
         "displayname":"Call of Artemis",
@@ -553,6 +559,30 @@ var clubItemsDisplay = {
         "type":"character",
         "bonus":.12
     },
+    "eimi": {
+        "name":"eimi",
+        "displayname":"Eimi",
+        "type":"character",
+        "bonus":.12
+    },
+    "bell": {
+        "name":"bell",
+        "displayname":"Bell",
+        "type":"character",
+        "bonus":.12
+    },
+    "shika": {
+        "name":"shika",
+        "displayname":"Shika",
+        "type":"character",
+        "bonus":.12
+    },
+    "date-chan": {
+        "name":"date-chan",
+        "displayname":"Date-chan",
+        "type":"character",
+        "bonus":.12
+    },
     "toka": {
         "name":"toka",
         "displayname":"Toka",
@@ -576,7 +606,7 @@ var clubItemsDisplay = {
         "displayname":"Airi",
         "type":"character",
         "bonus":.12
-    }
+    },
 }
 
 var clubItems1 = {
@@ -625,6 +655,12 @@ var clubItems1 = {
     "abyssmare": {
         "name":"abyssmare",
         "displayname":"Abyssmare",
+        "type":"unit",
+        "bonus":.03
+    },
+    "doggo": {
+        "name":"doggo",
+        "displayname":"A Bad Cynic Doggo",
         "type":"unit",
         "bonus":.03
     },
@@ -832,6 +868,30 @@ var clubItems1 = {
         "type":"character",
         "bonus":.12
     },
+    "eimi": {
+        "name":"eimi",
+        "displayname":"Eimi",
+        "type":"character",
+        "bonus":.12
+    },
+    "bell": {
+        "name":"bell",
+        "displayname":"Bell",
+        "type":"character",
+        "bonus":.12
+    },
+    "shika": {
+        "name":"shika",
+        "displayname":"Shika",
+        "type":"character",
+        "bonus":.12
+    },
+    "date-chan": {
+        "name":"date-chan",
+        "displayname":"Date-chan",
+        "type":"character",
+        "bonus":.12
+    },
     "toka": {
         "name":"toka",
         "displayname":"Toka",
@@ -855,7 +915,7 @@ var clubItems1 = {
         "displayname":"Airi",
         "type":"character",
         "bonus":.12
-    }
+    },
 }
 
 var clubItems2 = {
@@ -904,6 +964,12 @@ var clubItems2 = {
     "abyssmare": {
         "name":"abyssmare",
         "displayname":"Abyssmare",
+        "type":"unit",
+        "bonus":.03
+    },
+    "doggo": {
+        "name":"doggo",
+        "displayname":"A Bad Cynic Doggo",
         "type":"unit",
         "bonus":.03
     },
@@ -991,57 +1057,15 @@ var clubItems4 = {
         "type":"decoration",
         "bonus":.04
     },
-    "out-yuka": {
-        "name":"yuka",
-        "displayname":"Yuka",
+    "out-rinku": {
+        "name":"rinku",
+        "displayname":"Rinku",
         "type":"character",
         "bonus":.02
     },
-    // "out-saori": {
-    //     "name":"saori",
-    //     "displayname":"Saori",
-    //     "type":"character",
-    //     "bonus":.02
-    // },
-    "out-miyu": {
-        "name":"miyu",
-        "displayname":"Miyu",
-        "type":"character",
-        "bonus":.02
-    },
-    // "out-kurumi": {
-    //     "name":"kurumi",
-    //     "displayname":"Kurumi",
-    //     "type":"character",
-    //     "bonus":.02
-    // },
-    "out-tsubaki": {
-        "name":"tsubaki",
-        "displayname":"Tsubaki",
-        "type":"character",
-        "bonus":.02
-    },
-    "out-michiru": {
-        "name":"michiru",
-        "displayname":"Michiru",
-        "type":"character",
-        "bonus":.02
-    },
-    "out-towa": {
-        "name":"towa",
-        "displayname":"Towa",
-        "type":"character",
-        "bonus":.02
-    },
-    "out-shinobu": {
-        "name":"shinobu",
-        "displayname":"Shinobu",
-        "type":"character",
-        "bonus":.02
-    },
-    "out-hayate": {
-        "name":"hayate",
-        "displayname":"Hayate",
+    "out-maho": {
+        "name":"maho",
+        "displayname":"Maho",
         "type":"character",
         "bonus":.02
     },
@@ -1051,21 +1075,9 @@ var clubItems4 = {
         "type":"character",
         "bonus":.02
     },
-    "out-kokoa": {
-        "name":"kokoa",
-        "displayname":"Kokoa",
-        "type":"character",
-        "bonus":.02
-    },
-    "out-hiiro": {
-        "name":"hiiro",
-        "displayname":"Hiiro",
-        "type":"character",
-        "bonus":.02
-    },
-    "out-ibuki": {
-        "name":"ibuki",
-        "displayname":"Ibuki",
+    "out-rei": {
+        "name":"rei",
+        "displayname":"Rei",
         "type":"character",
         "bonus":.02
     },
@@ -1075,81 +1087,45 @@ var clubItems4 = {
         "type":"character",
         "bonus":.02
     },
+    "out-shinobu": {
+        "name":"shinobu",
+        "displayname":"Shinobu",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-yuka": {
+        "name":"yuka",
+        "displayname":"Yuka",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-esora": {
+        "name":"esora",
+        "displayname":"Esora",
+        "type":"character",
+        "bonus":.02
+    },
     "out-saki": {
         "name":"saki",
         "displayname":"Saki",
         "type":"character",
         "bonus":.02
     },
-    "out-mana": {
-        "name":"mana",
-        "displayname":"Mana",
+    "out-ibuki": {
+        "name":"ibuki",
+        "displayname":"Ibuki",
         "type":"character",
         "bonus":.02
     },
-    "out-haruna": {
-        "name":"haruna",
-        "displayname":"Haruna",
+    "out-towa": {
+        "name":"towa",
+        "displayname":"Towa",
         "type":"character",
         "bonus":.02
     },
-    "out-dalia": {
-        "name":"dalia",
-        "displayname":"Dalia",
-        "type":"character",
-        "bonus":.02
-    },
-    "out-sophia": {
-        "name":"sophia",
-        "displayname":"Sophia",
-        "type":"character",
-        "bonus":.02
-    },
-    "out-neo": {
-        "name":"neo",
-        "displayname":"Neo",
-        "type":"character",
-        "bonus":.02
-    },
-    "out-rinku": {
-        "name":"rinku",
-        "displayname":"Rinku",
-        "type":"character",
-        "bonus":.02
-    },
-    "out-aoi": {
-        "name":"aoi",
-        "displayname":"Aoi",
-        "type":"character",
-        "bonus":.02
-    },
-    "out-toka": {
-        "name":"toka",
-        "displayname":"Toka",
-        "type":"character",
-        "bonus":.02
-    },
-    "out-marika": {
-        "name":"marika",
-        "displayname":"Marika",
-        "type":"character",
-        "bonus":.02
-    },
-    "out-weronika": {
-        "name":"weronika",
-        "displayname":"Weronika",
-        "type":"character",
-        "bonus":.02
-    },
-    "out-nagisa": {
-        "name":"nagisa",
-        "displayname":"Nagisa",
-        "type":"character",
-        "bonus":.02
-    },
-    "out-shano": {
-        "name":"shano",
-        "displayname":"Shano",
+    "out-noa": {
+        "name":"noa",
+        "displayname":"Noa",
         "type":"character",
         "bonus":.02
     },
@@ -1159,18 +1135,168 @@ var clubItems4 = {
         "type":"character",
         "bonus":.02
     },
+    "out-marika": {
+        "name":"marika",
+        "displayname":"Marika",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-saori": {
+        "name":"saori",
+        "displayname":"Saori",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-dalia": {
+        "name":"dalia",
+        "displayname":"Dalia",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-tsubaki": {
+        "name":"tsubaki",
+        "displayname":"Tsubaki",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-nagisa": {
+        "name":"nagisa",
+        "displayname":"Nagisa",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-hiiro": {
+        "name":"hiiro",
+        "displayname":"Hiiro",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-aoi": {
+        "name":"aoi",
+        "displayname":"Aoi",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-miyu": {
+        "name":"miyu",
+        "displayname":"Miyu",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-haruna": {
+        "name":"haruna",
+        "displayname":"Haruna",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-kurumi": {
+        "name":"kurumi",
+        "displayname":"Kurumi",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-miiko": {
+        "name":"miiko",
+        "displayname":"Miiko",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-michiru": {
+        "name":"michiru",
+        "displayname":"Michiru",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-lumina": {
+        "name":"lumina",
+        "displayname":"Lumina",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-kokoa": {
+        "name":"kokoa",
+        "displayname":"Kokoa",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-hayate": {
+        "name":"hayate",
+        "displayname":"Hayate",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-neo": {
+        "name":"neo",
+        "displayname":"Neo",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-sophia": {
+        "name":"sophia",
+        "displayname":"Sophia",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-elsie": {
+        "name":"elsie",
+        "displayname":"Elsie",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-weronika": {
+        "name":"weronika",
+        "displayname":"Weronika",
+        "type":"character",
+        "bonus":.02
+    },
     "out-airi": {
         "name":"airi",
         "displayname":"Airi",
         "type":"character",
         "bonus":.02
     },
-    "out-esora": {
-        "name":"esora",
-        "displayname":"Esora",
+    "out-shano": {
+        "name":"shano",
+        "displayname":"Shano",
         "type":"character",
         "bonus":.02
-    }
+    },
+    "out-mana": {
+        "name":"mana",
+        "displayname":"Mana",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-toka": {
+        "name":"toka",
+        "displayname":"Toka",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-eimi": {
+        "name":"eimi",
+        "displayname":"Eimi",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-bell": {
+        "name":"bell",
+        "displayname":"Bell",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-shika": {
+        "name":"shika",
+        "displayname":"Shika",
+        "type":"character",
+        "bonus":.02
+    },
+    "out-datechan": {
+        "name":"date-chan",
+        "displayname":"Date-chan",
+        "type":"character",
+        "bonus":.02
+    },
 }
 
 var clubItems5 = {
