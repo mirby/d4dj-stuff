@@ -1215,6 +1215,12 @@ function getSympathyPerc() {
             if (passiveValue > maxSympPerc) {
                 maxSympPerc = passiveValue;
             }
+
+            if (passiveSkill.startsWith("Sympathy+")) {
+                if (!isSympathyPlusActive && et >= 1) {
+                    isSympathyPlusActive = true;
+                }
+            }
         }
     }
 
