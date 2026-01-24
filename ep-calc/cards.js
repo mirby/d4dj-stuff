@@ -1176,80 +1176,59 @@ function getEventPercBonus(type, identifier) {
 
 // Get the total Sympathy % on team
 function getSympathyPerc() {
-    var isSympathyActive = false;
-    var isSympathyPlusActive = false;
-    var maxSympPerc = 0;
-    var sympCount = 0;
+    let isSympathyActive = false;
+    let isSympathyPlusActive = false;
+    let maxSympPerc = 0;
+    let sympCount = 0;
 
-    // cycle through all cards and add up sympathy
-    for (var i=1; i<=4; i++) {
-        var selection = "m" + i;
-        var passiveSkill = document.getElementById(selection + "_pskill").innerHTML;
-        if (passiveSkill.startsWith("Sympathy")){
-            sympCount++;
-            var et = document.getElementById(selection + "_et").value;
-            if (!isSympathyActive) {
-                isSympathyActive = true;
-            }
-            var passiveValue = getSympPassiveValue(passiveSkill, et);
-            if (passiveValue > maxSympPerc) {
-                maxSympPerc = passiveValue;
-            }
+    const parseSympathyValue = (skill, et) => {
+        // Matches: Sympathy 2-7%  OR  Sympathy+ 3-8%
+        const match = skill.match(/Sympathy\+?\s+(\d+(?:\.\d+)?)\s*-\s*(\d+(?:\.\d+)?)%/);
+        if (!match) return 0;
 
-            if (passiveSkill.startsWith("Sympathy+")) {
-                isSympathyPlusActive = true;
-            }
+        const min = parseFloat(match[1]);
+        const max = parseFloat(match[2]);
+
+        const interval = (max - min) * 100 / 400;
+        return min + (interval * et);
+    };
+
+    const processCard = (prefix, i, requiresEt) => {
+        const base = `${prefix}${i}`;
+        const passiveSkill = document.getElementById(`${base}_pskill`).textContent;
+
+        if (!passiveSkill.startsWith("Sympathy")) return;
+
+        const et = Number(document.getElementById(`${base}_et`).value);
+        sympCount++;
+
+        if (!requiresEt || et >= 1) {
+            isSympathyActive = true;
         }
-    }
 
-    for (var i=1; i<=4; i++) {
-        var selection = "s" + i;
-        var passiveSkill = document.getElementById(selection + "_pskill").innerHTML;
-        if (passiveSkill.startsWith("Sympathy")){
-            sympCount++;
-            var et = document.getElementById(selection + "_et").value;
-            if (!isSympathyActive && et >= 1) {
-                isSympathyActive = true;
-            }
-            var passiveValue = getSympPassiveValue(passiveSkill, et);
-            if (passiveValue > maxSympPerc) {
-                maxSympPerc = passiveValue;
-            }
-
-            if (passiveSkill.startsWith("Sympathy+")) {
-                if (!isSympathyPlusActive && et >= 1) {
-                    isSympathyPlusActive = true;
-                }
-            }
+        if (
+            passiveSkill.startsWith("Sympathy+") &&
+            (!requiresEt || et >= 1)
+        ) {
+            isSympathyPlusActive = true;
         }
+
+        const passiveValue = parseSympathyValue(passiveSkill, et);
+        maxSympPerc = Math.max(maxSympPerc, passiveValue);
+    };
+
+    for (let i = 1; i <= 4; i++) {
+        processCard("m", i, false);
+        processCard("s", i, true);
     }
 
-    // Sympathy+
-    var totalSymp = 0;
-    
-    if (isSympathyPlusActive) {
-        totalSymp = parseInt(document.getElementById("totalSymp").value);
-    }    
+    if (!isSympathyActive) return 0;
 
-    if (isSympathyActive) {
-        return parseFloat((maxSympPerc * sympCount) + (totalSymp * 0.1));
-    } else {
-        return 0;
-    }    
-}
+    const totalSymp = isSympathyPlusActive
+        ? Number(document.getElementById("totalSymp").value)
+        : 0;
 
-function getSympPassiveValue(pString, et) {
-
-    var pSkill;
-    if (pString.includes("+")) {
-        pSkill = pString.substring(10).slice(0, -1);
-    } else {
-        pSkill = pString.substring(9).slice(0, -1);
-    }
-    
-    var pSkillParts = pSkill.split("-");
-    var interval = (parseFloat(pSkillParts[1]) - parseFloat(pSkillParts[0])) * 100 / 400;
-    return parseFloat(pSkillParts[0]) + (interval * et);
+    return (maxSympPerc * sympCount) + (totalSymp * 0.1);
 }
 
 function calcDisplayParams() {
