@@ -279,6 +279,7 @@ function getCardSet(type) {
         "158":["Siscon Idol", "Bunny Girl Senpai", "Petite Devil Kohai", "Sister Venturing Out"],
         "163":["Peach and Willow Blossoms☆2025!", "Determined Spirit☆2025!", "Spring's Elegant Glow☆2025!", "Eternal Infinity☆2025!"],
         "176":["the Coolest summer", "what is next Aim", "aboard a Boat", "like a Dynamite"],
+        "197":["Chick Chick love♡","Catch a Fire","Make Some Noise","Prayer","Sweet Illusion","Distortion",],
     };
 
     if (type === "medley") {
@@ -2298,6 +2299,17 @@ var eventList = {
         "type":"Bingo",
         "style":"Street",
         "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
+    "197": {
+        "id":197,
+        "name":"DEN-ON-BU x D4DJ Dual Anthem -Next Groovy-",
+        "characters":"Maho,Shinobu,Aoi,Hayate,Neo,Elsie",
+        "type":"Raid",
+        "style":"None",
+        "parameter":"None",
         "bonus":true,
         "comboBonus":true,
         "addition":""
