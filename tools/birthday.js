@@ -323,7 +323,7 @@ var birthdays = [
         "name": "Komiya Arisa",
         "type": "character",
         "birthday": "2/5",
-        "socials":"https://x.com/box_komiyaarisa"
+        "socials":"https://x.com/arisakomiya"
     },
     {
         "name": "Tamura Konomi",
