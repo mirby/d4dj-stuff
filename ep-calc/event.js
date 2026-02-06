@@ -2314,6 +2314,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "198": {
+        "id":198,
+        "name":"Victory for You!",
+        "characters":"Neo,Sophia,Elsie,Weronika",
+        "type":"Slots",
+        "style":"Party",
+        "parameter":"Physical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
