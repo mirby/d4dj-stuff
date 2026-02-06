@@ -341,7 +341,7 @@ var birthdays = [
         "name": "Nanaki Kanon",
         "type": "character",
         "birthday": "2/7",
-        "socials":"https://x.com/nanaki_staff"
+        "socials":"https://x.com/nanakikanon"
     },
     {
         "name": "Koiwai Kotori",
