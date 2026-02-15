@@ -2325,6 +2325,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "199": {
+        "id":"199",
+        "name":"EGOEGG Re:born vol.2",
+        "characters":"Rinku,Maho,Muni,Rei",
+        "type":"Poker",
+        "style":"Elegant",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*

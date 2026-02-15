@@ -19609,6 +19609,66 @@ var cards = {
         "icon": "card_icon_060840004_1.c10aeaf7",
         "passive": "Groovy Bonus 10-41.5%",
         "eventId": 0
+    },
+    "1306": {
+        "id": 1306,
+        "character": "Rinku",
+        "cardname": "Reverie Trickster",
+        "unit": "HapiAra",
+        "type": "Elegant",
+        "rarity": 4,
+        "heart": 15544,
+        "technical": 22487,
+        "physical": 16755,
+        "skill": .8,
+        "icon": "card_icon_070110019_1.35603024",
+        "passive": "Combo Boost 4-8%",
+        "eventId": 199
+    },
+    "1307": {
+        "id": 1307,
+        "character": "Maho",
+        "cardname": "Reverie Grand Show",
+        "unit": "HapiAra",
+        "type": "Elegant",
+        "rarity": 4,
+        "heart": 17676,
+        "technical": 22371,
+        "physical": 15913,
+        "skill": .8,
+        "icon": "card_icon_070120019_1.1189a08c",
+        "passive": "Tap Healing 2.5%",
+        "eventId": 199
+    },
+    "1308": {
+        "id": 1308,
+        "character": "Muni",
+        "cardname": "Reverie Wonder",
+        "unit": "HapiAra",
+        "type": "Elegant",
+        "rarity": 4,
+        "heart": 18508,
+        "technical": 22868,
+        "physical": 14650,
+        "skill": .8,
+        "icon": "card_icon_070130016_1.3681e715",
+        "passive": "Life Protect 10-1%",
+        "eventId": 199
+    },
+    "1309": {
+        "id": 1309,
+        "character": "Rei",
+        "cardname": "Reverie Melancholia",
+        "unit": "HapiAra",
+        "type": "Elegant",
+        "rarity": 4,
+        "heart": 16660,
+        "technical": 21730,
+        "physical": 16278,
+        "skill": .8,
+        "icon": "card_icon_070140016_1.7d4b3577",
+        "passive": "Life Boost 2.5-8.75%",
+        "eventId": 199
     }
 }
 
