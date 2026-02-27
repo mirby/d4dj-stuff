@@ -2336,6 +2336,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "200": {
+        "id":200,
+        "name":"The SLOT in 2026 Feb.",
+        "characters":"Neo,Sophia,Elsie,Weronika",
+        "type":"Slots",
+        "style":"Street",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*

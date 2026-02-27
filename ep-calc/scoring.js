@@ -25,7 +25,11 @@ const partners = {
     kyoko: 'shinobu',
     shinobu: 'kyoko',
     esora: 'yuka',
-    yuka: 'esora'
+    yuka: 'esora',
+    tsubaki: 'aoi',
+    nagisa: 'hiiro',
+    hiiro: 'nagisa',
+    aoi: 'tsubaki'
 };
 
 function calcByPower() {
