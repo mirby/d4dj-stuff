@@ -2347,6 +2347,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "201": {
+        "id":201,
+        "name":"The BINGO in 2026 Mar.",
+        "characters":"Kyoko,Shinobu,Yuka,Esora",
+        "type":"Bingo",
+        "style":"Cool",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
