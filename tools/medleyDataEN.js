@@ -1220,17 +1220,6 @@ var sectionsEn = [
     "sectionAvg": 37.228
   },
   {
-    "songID": "5050044",
-    "songName": "SE・SA・ME",
-    "1": 41.739,
-    "2": 34.783,
-    "3": 43.548,
-    "4": 116.978,
-    "combined": 120.07,
-    "section2twice": 154.853,
-    "sectionAvg": 40.023
-  },
-  {
     "songID": "110015",
     "songName": "Hey! Be Ambitious! (Another Ver.)",
     "1": 42.001,
@@ -2474,17 +2463,6 @@ var sectionsEn = [
     "sectionAvg": 38.249
   },
   {
-    "songID": "5030051",
-    "songName": "HEAVEN'S RAVE",
-    "1": 38.4,
-    "2": 32.0,
-    "3": 43.148,
-    "4": 102.4,
-    "combined": 113.548,
-    "section2twice": 145.548,
-    "sectionAvg": 37.849
-  },
-  {
     "songID": "120021",
     "songName": "Happy☆Material",
     "1": 43.113,
@@ -3077,17 +3055,6 @@ var sectionsEn = [
     "combined": 128.094,
     "section2twice": 156.039,
     "sectionAvg": 42.698
-  },
-  {
-    "songID": "5030065",
-    "songName": "Shakkiiin!!",
-    "1": 40.728,
-    "2": 34.91,
-    "3": 42.386,
-    "4": 151.636,
-    "combined": 118.024,
-    "section2twice": 152.934,
-    "sectionAvg": 39.341
   },
   {
     "songID": "5050134",
@@ -4355,17 +4322,6 @@ var sectionsEn = [
     "sectionAvg": 40.791
   },
   {
-    "songID": "5050256",
-    "songName": "WITH",
-    "1": 45.257,
-    "2": 42.514,
-    "3": 50.002,
-    "4": 148.115,
-    "combined": 137.773,
-    "section2twice": 180.287,
-    "sectionAvg": 45.924
-  },
-  {
     "songID": "410026",
     "songName": "GIVE Attention",
     "1": 38.919,
@@ -5057,5 +5013,104 @@ var sectionsEn = [
     "combined": 108.511,
     "section2twice": 139.479,
     "sectionAvg": 36.17
+  },
+  {
+    "songID": "1110002",
+    "songName": "EGOISTA",
+    "1": 37.037,
+    "2": 35.556,
+    "3": 41.953,
+    "4": 143.704,
+    "combined": 114.546,
+    "section2twice": 150.102,
+    "sectionAvg": 38.182
+  },
+  {
+    "songID": "5050292",
+    "songName": "Distortion (feat. Yunomi)",
+    "1": 36.0,
+    "2": 30.0,
+    "3": 39.75,
+    "4": 162.0,
+    "combined": 105.75,
+    "section2twice": 135.75,
+    "sectionAvg": 35.25
+  },
+  {
+    "songID": "5050293",
+    "songName": "Chick Chick love♡ (Prod. Nor)",
+    "1": 45.0,
+    "2": 30.0,
+    "3": 51.687,
+    "4": 120.0,
+    "combined": 126.687,
+    "section2twice": 156.687,
+    "sectionAvg": 42.229
+  },
+  {
+    "songID": "5050294",
+    "songName": "Prayer(Prod. picco)",
+    "1": 36.923,
+    "2": 36.924,
+    "3": 41.512,
+    "4": 127.692,
+    "combined": 115.359,
+    "section2twice": 152.283,
+    "sectionAvg": 38.453
+  },
+  {
+    "songID": "5050289",
+    "songName": "Catch a Fire (Prod. Kenmochi Hidefumi)",
+    "1": 40.279,
+    "2": 35.245,
+    "3": 38.922,
+    "4": 122.518,
+    "combined": 114.446,
+    "section2twice": 149.691,
+    "sectionAvg": 38.149
+  },
+  {
+    "songID": "5050290",
+    "songName": "Make Some Noise (feat.Otayuki, Belex)",
+    "1": 37.5,
+    "2": 37.5,
+    "3": 37.154,
+    "4": 135.0,
+    "combined": 112.154,
+    "section2twice": 149.654,
+    "sectionAvg": 37.385
+  },
+  {
+    "songID": "5050291",
+    "songName": "Sweet Illusion (feat. DE DE MOUSE)",
+    "1": 45.0,
+    "2": 31.875,
+    "3": 37.645,
+    "4": 125.625,
+    "combined": 114.52,
+    "section2twice": 146.395,
+    "sectionAvg": 38.173
+  },
+  {
+    "songID": "13",
+    "songName": "Lesson GROOVY Trial",
+    "1": 35.369,
+    "2": 37.895,
+    "3": 41.839,
+    "4": 106.105,
+    "combined": 115.103,
+    "section2twice": 152.998,
+    "sectionAvg": 38.368
+  },
+  {
+    "songID": "1110003",
+    "songName": "Kurushiidaisuki",
+    "1": 34.909,
+    "2": 34.91,
+    "3": 38.363,
+    "4": 116.363,
+    "combined": 108.182,
+    "section2twice": 143.092,
+    "sectionAvg": 36.061
   }
 ]

@@ -2057,17 +2057,6 @@ var sectionsJp = [
     "sectionAvg": 39.722
   },
   {
-    "songID": "5050056",
-    "songName": "ヒバナ -Reloaded-",
-    "1": 38.4,
-    "2": 33.6,
-    "3": 47.999,
-    "4": 133.199,
-    "combined": 119.999,
-    "section2twice": 153.599,
-    "sectionAvg": 40.0
-  },
-  {
     "songID": "410009",
     "songName": "High tension BPM",
     "1": 44.138,
@@ -3410,17 +3399,6 @@ var sectionsJp = [
     "sectionAvg": 40.446
   },
   {
-    "songID": "5030051",
-    "songName": "HEAVEN'S RAVE",
-    "1": 38.4,
-    "2": 32.0,
-    "3": 43.148,
-    "4": 102.4,
-    "combined": 113.548,
-    "section2twice": 145.548,
-    "sectionAvg": 37.849
-  },
-  {
     "songID": "5050133",
     "songName": "GOODTEK",
     "1": 40.422,
@@ -4409,17 +4387,6 @@ var sectionsJp = [
     "combined": 130.46,
     "section2twice": 167.96,
     "sectionAvg": 43.487
-  },
-  {
-    "songID": "5050196",
-    "songName": "幸せになれる隠しコマンドがあるらしい",
-    "1": 42.253,
-    "2": 28.733,
-    "3": 59.303,
-    "4": 125.07,
-    "combined": 130.289,
-    "section2twice": 159.022,
-    "sectionAvg": 43.43
   },
   {
     "songID": "910002",
@@ -6336,17 +6303,6 @@ var sectionsJp = [
     "sectionAvg": 40.791
   },
   {
-    "songID": "5050280",
-    "songName": "金糸雀 ～カナリヤ～ feat.亜季",
-    "1": 36.429,
-    "2": 42.857,
-    "3": 48.436,
-    "4": 152.143,
-    "combined": 127.722,
-    "section2twice": 170.579,
-    "sectionAvg": 42.574
-  },
-  {
     "songID": "310027",
     "songName": "In Colors Anew",
     "1": 37.795,
@@ -6367,17 +6323,6 @@ var sectionsJp = [
     "combined": 131.402,
     "section2twice": 174.735,
     "sectionAvg": 43.801
-  },
-  {
-    "songID": "5050281",
-    "songName": "Time Flies",
-    "1": 41.948,
-    "2": 28.84,
-    "3": 46.184,
-    "4": 152.065,
-    "combined": 116.972,
-    "section2twice": 145.812,
-    "sectionAvg": 38.991
   },
   {
     "songID": "3010040",
@@ -6501,28 +6446,6 @@ var sectionsJp = [
     "sectionAvg": 42.184
   },
   {
-    "songID": "5050322",
-    "songName": "ぜんりょくじょしかくめい！",
-    "1": 48.0,
-    "2": 33.882,
-    "3": 42.842,
-    "4": 141.177,
-    "combined": 124.724,
-    "section2twice": 158.606,
-    "sectionAvg": 41.575
-  },
-  {
-    "songID": "5050323",
-    "songName": "We're The World",
-    "1": 37.818,
-    "2": 29.091,
-    "3": 40.608,
-    "4": 117.818,
-    "combined": 107.517,
-    "section2twice": 136.608,
-    "sectionAvg": 35.839
-  },
-  {
     "songID": "910011",
     "songName": "JUNKBOX",
     "1": 40.0,
@@ -6532,28 +6455,6 @@ var sectionsJp = [
     "combined": 124.39,
     "section2twice": 164.39,
     "sectionAvg": 41.463
-  },
-  {
-    "songID": "5050324",
-    "songName": "いっちょくせんだいさくせん！",
-    "1": 49.411,
-    "2": 35.294,
-    "3": 56.491,
-    "4": 148.235,
-    "combined": 141.196,
-    "section2twice": 176.49,
-    "sectionAvg": 47.065
-  },
-  {
-    "songID": "5050325",
-    "songName": "GIRA GIRA STAR",
-    "1": 46.265,
-    "2": 39.037,
-    "3": 46.601,
-    "4": 111.325,
-    "combined": 131.903,
-    "section2twice": 170.94,
-    "sectionAvg": 43.968
   },
   {
     "songID": "5050326",
@@ -7335,5 +7236,137 @@ var sectionsJp = [
     "combined": 108.511,
     "section2twice": 139.479,
     "sectionAvg": 36.17
+  },
+  {
+    "songID": "1110003",
+    "songName": "くるしいだいすき",
+    "1": 34.909,
+    "2": 34.91,
+    "3": 38.363,
+    "4": 116.363,
+    "combined": 108.182,
+    "section2twice": 143.092,
+    "sectionAvg": 36.061
+  },
+  {
+    "songID": "5050361",
+    "songName": "BON BON FIRE",
+    "1": 40.0,
+    "2": 38.4,
+    "3": 45.199,
+    "4": 120.0,
+    "combined": 123.599,
+    "section2twice": 161.999,
+    "sectionAvg": 41.2
+  },
+  {
+    "songID": "110042",
+    "songName": "ハピフルカラフルdays☆ミ(Ark-Z Remix)",
+    "1": 44.69,
+    "2": 35.586,
+    "3": 52.072,
+    "4": 138.207,
+    "combined": 132.348,
+    "section2twice": 167.934,
+    "sectionAvg": 44.116
+  },
+  {
+    "songID": "1110004",
+    "songName": "革命者ガール",
+    "1": 38.4,
+    "2": 38.4,
+    "3": 45.601,
+    "4": 128.0,
+    "combined": 122.401,
+    "section2twice": 160.801,
+    "sectionAvg": 40.8
+  },
+  {
+    "songID": "910013",
+    "songName": "Velvet Shadow",
+    "1": 41.807,
+    "2": 38.71,
+    "3": 44.597,
+    "4": 142.452,
+    "combined": 125.114,
+    "section2twice": 163.824,
+    "sectionAvg": 41.705
+  },
+  {
+    "songID": "910014",
+    "songName": "No Escape",
+    "1": 43.125,
+    "2": 39.375,
+    "3": 45.127,
+    "4": 121.875,
+    "combined": 127.627,
+    "section2twice": 167.002,
+    "sectionAvg": 42.542
+  },
+  {
+    "songID": "910015",
+    "songName": "PRIMA HERO",
+    "1": 36.924,
+    "2": 31.384,
+    "3": 34.263,
+    "4": 101.384,
+    "combined": 102.571,
+    "section2twice": 133.955,
+    "sectionAvg": 34.19
+  },
+  {
+    "songID": "910016",
+    "songName": "Harley-Daring",
+    "1": 34.5,
+    "2": 31.5,
+    "3": 54.224,
+    "4": 123.0,
+    "combined": 120.224,
+    "section2twice": 151.724,
+    "sectionAvg": 40.075
+  },
+  {
+    "songID": "910017",
+    "songName": "NOT 4 A LIE",
+    "1": 33.103,
+    "2": 34.483,
+    "3": 47.174,
+    "4": 135.173,
+    "combined": 114.76,
+    "section2twice": 149.243,
+    "sectionAvg": 38.253
+  },
+  {
+    "songID": "510026",
+    "songName": "ReTINA (Maozon Remix)",
+    "1": 32.36,
+    "2": 43.146,
+    "3": 49.19,
+    "4": 118.652,
+    "combined": 124.696,
+    "section2twice": 167.842,
+    "sectionAvg": 41.565
+  },
+  {
+    "songID": "5050364",
+    "songName": "New Fly Away",
+    "1": 43.636,
+    "2": 29.091,
+    "3": 47.321,
+    "4": 160.0,
+    "combined": 120.048,
+    "section2twice": 149.139,
+    "sectionAvg": 40.016
+  },
+  {
+    "songID": "5050365",
+    "songName": "Theme of New PANTY ＆ STOCKING",
+    "1": 36.0,
+    "2": 24.0,
+    "3": 54.876,
+    "4": 144.0,
+    "combined": 114.876,
+    "section2twice": 138.876,
+    "sectionAvg": 38.292
   }
 ]
