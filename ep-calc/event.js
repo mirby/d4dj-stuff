@@ -263,6 +263,7 @@ function getCardSet(type) {
         "185":["the Greatest STAGE"],
         "190":["the Brightest STAGE"],
         "195":["Wafuu Good Fortune ☆ 2026!", "Beyond the Clouds ☆ 2026!", "Dazzling Splendor ☆ 2026!", "Brocade & Blossoms ☆ 2026!"],
+        "202":["By the Roadside.", "Where I am!", "@Whatever", "Territory♡", "Reverie Implore", "Reverie Rapture", "Reverie Temptation", "Reverie Wicked"],
     };
 
     var raidSet = {
@@ -2354,6 +2355,17 @@ var eventList = {
         "type":"Bingo",
         "style":"Cool",
         "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
+    "202": {
+        "id":202,
+        "name":"EGOEGG Re:born vol.3",
+        "characters":"Saki,Ibuki,Towa,Noa,Hare,Raika,Jiu,Mikumo",
+        "type":"Medley",
+        "style":"Cool",
+        "parameter":"Heart",
         "bonus":true,
         "comboBonus":true,
         "addition":""

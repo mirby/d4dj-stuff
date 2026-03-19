@@ -82,6 +82,10 @@ function generateSongArray() {
                 unit = "A Bad Cynic Doggo";
                 unitIcon = "doggo";
                 break;
+            case 11:
+                unit = "EGOEGG";
+                unitIcon = "egoegg";
+                break;
             default:
                 unit = "Other";
                 unitIcon = "none";

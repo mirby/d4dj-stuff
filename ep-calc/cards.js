@@ -1400,6 +1400,10 @@ var units = [
     {
         "unit":"Doggo",
         "display":"A Bad Cynic Doggo"
+    },
+    {
+        "unit":"Egoegg",
+        "display":"EGOEGG"
     }
     // {
     //     "unit":"Common",
@@ -1409,4 +1413,4 @@ var units = [
 
 var characters = ["Rinku", "Maho", "Muni", "Rei", "Kyoko", "Shinobu", "Yuka", "Esora", "Saki", "Ibuki", "Towa", "Noa", "Rika", "Marika", "Saori", "Dalia", 
                     "Tsubaki", "Nagisa", "Hiiro", "Aoi", "Miyu", "Haruna", "Kurumi", "Miiko", "Michiru", "Lumina", "Kokoa", "Hayate", "Neo", "Sophia", "Elsie", "Weronika",
-                     "Toka", "Shano", "Mana", "Airi", "Eimi", "Bell", "Shika", "Date-chan"];
+                     "Toka", "Shano", "Mana", "Airi", "Eimi", "Bell", "Shika", "Date-chan", "Hare", "Raika", "Jiu", "Mikumo"];

@@ -325,6 +325,12 @@ var clubItemsDisplay = {
         "type":"unit",
         "bonus":.03
     },
+    "egoegg": {
+        "name":"egoegg",
+        "displayname":"EGOEGG",
+        "type":"unit",
+        "bonus":.03
+    },
     "callofartemis": {
         "name":"callofartemis",
         "displayname":"Call of Artemis",
@@ -583,6 +589,30 @@ var clubItemsDisplay = {
         "type":"character",
         "bonus":.12
     },
+    "hare": {
+        "name":"hare",
+        "displayname":"Hare",
+        "type":"character",
+        "bonus":.12
+    },
+    "raika": {
+        "name":"raika",
+        "displayname":"Raika",
+        "type":"character",
+        "bonus":.12
+    },
+    "jiu": {
+        "name":"jiu",
+        "displayname":"Jiu",
+        "type":"character",
+        "bonus":.12
+    },
+    "mikumo": {
+        "name":"mikumo",
+        "displayname":"Mikumo",
+        "type":"character",
+        "bonus":.12
+    },
     "toka": {
         "name":"toka",
         "displayname":"Toka",
@@ -661,6 +691,12 @@ var clubItems1 = {
     "doggo": {
         "name":"doggo",
         "displayname":"A Bad Cynic Doggo",
+        "type":"unit",
+        "bonus":.03
+    },
+    "egoegg": {
+        "name":"egoegg",
+        "displayname":"EGOEGG",
         "type":"unit",
         "bonus":.03
     },
@@ -892,6 +928,30 @@ var clubItems1 = {
         "type":"character",
         "bonus":.12
     },
+    "hare": {
+        "name":"hare",
+        "displayname":"Hare",
+        "type":"character",
+        "bonus":.12
+    },
+    "raika": {
+        "name":"raika",
+        "displayname":"Raika",
+        "type":"character",
+        "bonus":.12
+    },
+    "jiu": {
+        "name":"jiu",
+        "displayname":"Jiu",
+        "type":"character",
+        "bonus":.12
+    },
+    "mikumo": {
+        "name":"mikumo",
+        "displayname":"Mikumo",
+        "type":"character",
+        "bonus":.12
+    },
     "toka": {
         "name":"toka",
         "displayname":"Toka",
@@ -970,6 +1030,12 @@ var clubItems2 = {
     "doggo": {
         "name":"doggo",
         "displayname":"A Bad Cynic Doggo",
+        "type":"unit",
+        "bonus":.03
+    },
+    "egoegg": {
+        "name":"egoegg",
+        "displayname":"EGOEGG",
         "type":"unit",
         "bonus":.03
     },
@@ -1273,6 +1339,31 @@ var clubItems4 = {
         "type":"character",
         "bonus":.02
     },
+    // TODO: Add when EGOEGG birthdays are added
+    // "out-hare": {
+    //     "name":"hare",
+    //     "displayname":"Hare",
+    //     "type":"character",
+    //     "bonus":.02
+    // },
+    // "out-raika": {
+    //     "name":"raika",
+    //     "displayname":"Raika",
+    //     "type":"character",
+    //     "bonus":.02
+    // },
+    // "out-jiu": {
+    //     "name":"jiu",
+    //     "displayname":"Jiu",
+    //     "type":"character",
+    //     "bonus":.02
+    // },
+    // "out-mikumo": {
+    //     "name":"mikumo",
+    //     "displayname":"Mikumo",
+    //     "type":"character",
+    //     "bonus":.02
+    // },    
     "out-eimi": {
         "name":"eimi",
         "displayname":"Eimi",

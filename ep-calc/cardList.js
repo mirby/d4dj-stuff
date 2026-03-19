@@ -19894,6 +19894,186 @@ var cards = {
         "icon": "card_icon_070230018_1.dec9bcff",
         "passive": "Life Protect 10-1%",
         "eventId": 201
+    },
+    "1325": {
+        "id": 1325,
+        "character": "Hare",
+        "cardname": "By the Roadside.",
+        "unit": "Egoegg",
+        "type": "Cool",
+        "rarity": 4,
+        "heart": 23349,
+        "technical": 17855,
+        "physical": 13044,
+        "skill": .5,
+        "icon": "card_icon_071110001_1.fbdac68a",
+        "passive": "Life Boost 2.5-8.75%",
+        "eventId": 202
+    },
+    "1326": {
+        "id": 1326,
+        "character": "Raika",
+        "cardname": "Where I am!",
+        "unit": "Egoegg",
+        "type": "Cool",
+        "rarity": 4,
+        "heart": 24417,
+        "technical": 12852,
+        "physical": 17714,
+        "skill": .5,
+        "icon": "card_icon_071120001_1.202582ca",
+        "passive": "Groovy Bonus 10-40%",
+        "eventId": 202
+    },
+    "1327": {
+        "id": 1327,
+        "character": "Jiu",
+        "cardname": "@Whatever",
+        "unit": "Egoegg",
+        "type": "Cool",
+        "rarity": 4,
+        "heart": 25096,
+        "technical": 12729,
+        "physical": 17116,
+        "skill": .5,
+        "icon": "card_icon_071130001_1.0787e6f3",
+        "passive": "Manual Up 2.5-11%",
+        "eventId": 202
+    },
+    "1328": {
+        "id": 1328,
+        "character": "Mikumo",
+        "cardname": "Territory♡",
+        "unit": "Egoegg",
+        "type": "Cool",
+        "rarity": 4,
+        "heart": 23279,
+        "technical": 17666,
+        "physical": 14086,
+        "skill": .5,
+        "icon": "card_icon_071140001_1.69967ca0",
+        "passive": "Groovy Solo 20-80%",
+        "eventId": 202
+    },
+    "1329": {
+        "id": 1329,
+        "character": "Hare",
+        "cardname": "DJ-LIFE!",
+        "unit": "Egoegg",
+        "type": "Cute",
+        "rarity": 2,
+        "heart": 3354,
+        "technical": 3671,
+        "physical": 3322,
+        "skill": .1,
+        "icon": "card_icon_021110001_0.a6e94aa8",
+        "passive": "None",
+        "eventId": 0
+    },
+    "1330": {
+        "id": 1330,
+        "character": "Raika",
+        "cardname": "DJ-LIFE!",
+        "unit": "Egoegg",
+        "type": "Party",
+        "rarity": 2,
+        "heart": 3319,
+        "technical": 3755,
+        "physical": 3349,
+        "skill": .1,
+        "icon": "card_icon_021120001_0.940f1aaf",
+        "passive": "None",
+        "eventId": 0
+    },
+    "1331": {
+        "id": 1331,
+        "character": "Jiu",
+        "cardname": "DJ-LIFE!",
+        "unit": "Egoegg",
+        "type": "Cool",
+        "rarity": 2,
+        "heart": 3635,
+        "technical": 3282,
+        "physical": 3518,
+        "skill": .1,
+        "icon": "card_icon_021130001_0.259a005d",
+        "passive": "None",
+        "eventId": 0
+    },
+    "1332": {
+        "id": 1332,
+        "character": "Mikumo",
+        "cardname": "DJ-LIFE!",
+        "unit": "Egoegg",
+        "type": "Street",
+        "rarity": 2,
+        "heart": 3286,
+        "technical": 3428,
+        "physical": 3752,
+        "skill": .1,
+        "icon": "card_icon_021140001_0.4e57ad7c",
+        "passive": "None",
+        "eventId": 0
+    },
+    "1333": {
+        "id": 1333,
+        "character": "Saki",
+        "cardname": "Reverie Implore",
+        "unit": "Photon",
+        "type": "Cool",
+        "rarity": 4,
+        "heart": 24849,
+        "technical": 12626,
+        "physical": 17947,
+        "skill": .8,
+        "icon": "card_icon_070310022_1.dc26a65c",
+        "passive": "Combo Boost 4-8%",
+        "eventId": 202
+    },
+    "1334": {
+        "id": 1334,
+        "character": "Ibuki",
+        "cardname": "Reverie Rapture",
+        "unit": "Photon",
+        "type": "Cool",
+        "rarity": 4,
+        "heart": 24920,
+        "technical": 17408,
+        "physical": 12760,
+        "skill": .8,
+        "icon": "card_icon_070320018_1.5a48483c",
+        "passive": "Tap Healing 2.5%",
+        "eventId": 202
+    },
+    "1335": {
+        "id": 1335,
+        "character": "Towa",
+        "cardname": "Reverie Temptation",
+        "unit": "Photon",
+        "type": "Cool",
+        "rarity": 4,
+        "heart": 22590,
+        "technical": 14487,
+        "physical": 18992,
+        "skill": .8,
+        "icon": "card_icon_070330019_1.fbf68837",
+        "passive": "Life Boost 2.5-8.75%",
+        "eventId": 202
+    },
+    "1336": {
+        "id": 1336,
+        "character": "Noa",
+        "cardname": "Reverie Wicked",
+        "unit": "Photon",
+        "type": "Cool",
+        "rarity": 4,
+        "heart": 25375,
+        "technical": 17335,
+        "physical": 13397,
+        "skill": .8,
+        "icon": "card_icon_070340017_1.09c48cff",
+        "passive": "Life Protect 10-1%",
+        "eventId": 202
     }
 }
 
@@ -19969,6 +20149,11 @@ function setUnit(name) {
         case "Shika":
         case "Date-chan":
             return "Doggo";
+        case "Hare":
+        case "Raika":
+        case "Jiu":
+        case "Mikumo":
+            return "Egoegg";
     }
 }
 
