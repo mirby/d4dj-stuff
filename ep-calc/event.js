@@ -2370,6 +2370,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "203": {
+        "id":203,
+        "name":"The BINGO in 2026 Mar. II",
+        "characters":"Rika,Marika,Saori,Dalia",
+        "type":"Bingo",
+        "style":"Cute",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
