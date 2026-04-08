@@ -2381,6 +2381,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "204": {
+        "id":204,
+        "name":"The POKER in 2026 Apr.",
+        "characters":"Tsubaki,Nagisa,Hiiro,Aoi",
+        "type":"Poker",
+        "style":"Street",
+        "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
