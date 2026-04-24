@@ -20299,6 +20299,66 @@ var cards = {
         "icon": "card_icon_061040002_1.f12b0c7b",
         "passive": "Life Boost 2.5-9%",
         "eventId": 0
+    },
+    "1352": {
+        "id": 1352,
+        "character": "Michiru",
+        "cardname": "After Hours",
+        "unit": "Unichord",
+        "type": "Party",
+        "rarity": 4,
+        "heart": 14937,
+        "technical": 22555,
+        "physical": 16973,
+        "skill": .8,
+        "icon": "card_icon_070810016_1.43b04c5a",
+        "passive": "Groovy Solo 20-80%",
+        "eventId": 205
+    },
+    "1353": {
+        "id": 1353,
+        "character": "Lumina",
+        "cardname": "Rainbow-Hued",
+        "unit": "Unichord",
+        "type": "Party",
+        "rarity": 4,
+        "heart": 16166,
+        "technical": 22456,
+        "physical": 16268,
+        "skill": .8,
+        "icon": "card_icon_070820018_1.23e4753a",
+        "passive": "Life Boost 2.5-8.75%",
+        "eventId": 205
+    },
+    "1354": {
+        "id": 1354,
+        "character": "Kokoa",
+        "cardname": "Smile",
+        "unit": "Unichord",
+        "type": "Party",
+        "rarity": 4,
+        "heart": 17952,
+        "technical": 24264,
+        "physical": 13820,
+        "skill": .8,
+        "icon": "card_icon_070830018_1.ea034378",
+        "passive": "Auto Boost 2.5-9.5%",
+        "eventId": 205
+    },
+    "1355": {
+        "id": 1355,
+        "character": "Hayate",
+        "cardname": "By Your Side",
+        "unit": "Unichord",
+        "type": "Party",
+        "rarity": 4,
+        "heart": 15562,
+        "technical": 22585,
+        "physical": 17247,
+        "skill": .8,
+        "icon": "card_icon_070840016_1.86532d2a",
+        "passive": "Groovy Bonus 10-40%",
+        "eventId": 205
     }
 }
 

@@ -2392,6 +2392,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "205": {
+        "id":205,
+        "name":"The SLOT in 2026 Apr.",
+        "characters":"Michiru,Lumina,Kokoa,Hayate",
+        "type":"Slot",
+        "style":"Party",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
