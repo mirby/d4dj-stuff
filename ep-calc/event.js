@@ -264,6 +264,7 @@ function getCardSet(type) {
         "190":["the Brightest STAGE"],
         "195":["Wafuu Good Fortune ☆ 2026!", "Beyond the Clouds ☆ 2026!", "Dazzling Splendor ☆ 2026!", "Brocade & Blossoms ☆ 2026!"],
         "202":["By the Roadside.", "Where I am!", "@Whatever", "Territory♡", "Reverie Implore", "Reverie Rapture", "Reverie Temptation", "Reverie Wicked"],
+        "206":["Reverie: In a Sea of Shining Stars", "Reverie: Lit by Starlight", "Reverie: Clad in Glittering Stars", "Bearing the Magic of the Stars"],
     };
 
     var raidSet = {
@@ -2399,6 +2400,17 @@ var eventList = {
         "type":"Slot",
         "style":"Party",
         "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
+    "206": {
+        "id":206,
+        "name":"EGOEGG Re:born vol.4",
+        "characters":"Kyoko,Shinobu,Yuka,Esora",
+        "type":"Medley",
+        "style":"Cute",
+        "parameter":"Physical",
         "bonus":true,
         "comboBonus":true,
         "addition":""

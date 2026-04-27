@@ -20359,6 +20359,66 @@ var cards = {
         "icon": "card_icon_070840016_1.86532d2a",
         "passive": "Groovy Bonus 10-40%",
         "eventId": 205
+    },
+    "1356": {
+        "id": 1356,
+        "character": "Kyoko",
+        "cardname": "Reverie: In a Sea of Shining Stars",
+        "unit": "Peaky",
+        "type": "Cute",
+        "rarity": 4,
+        "heart": 15112,
+        "technical": 15901,
+        "physical": 23433,
+        "skill": .8,
+        "icon": "card_icon_070210021_1.a8188a48",
+        "passive": "Tap Healing 2.5%",
+        "eventId": 206
+    },
+    "1357": {
+        "id": 1357,
+        "character": "Shinobu",
+        "cardname": "Reverie: Lit by Starlight",
+        "unit": "Peaky",
+        "type": "Cute",
+        "rarity": 4,
+        "heart": 16745,
+        "technical": 16071,
+        "physical": 23182,
+        "skill": .8,
+        "icon": "card_icon_070220021_1.37cd9ad9",
+        "passive": "Combo Boost 4-8%",
+        "eventId": 206
+    },
+    "1358": {
+        "id": 1358,
+        "character": "Yuka",
+        "cardname": "Reverie: Clad in Glittering Stars",
+        "unit": "Peaky",
+        "type": "Cute",
+        "rarity": 4,
+        "heart": 17337,
+        "technical": 14667,
+        "physical": 23112,
+        "skill": .8,
+        "icon": "card_icon_070230019_1.7c4ed1d3",
+        "passive": "Life Boost 2.5-8.75%",
+        "eventId": 206
+    },
+    "1359": {
+        "d": 1359,
+        "character": "Esora",
+        "cardname": "Bearing the Magic of the Stars",
+        "unit": "Peaky",
+        "type": "Cute",
+        "rarity": 4,
+        "heart": 18295,
+        "technical": 15405,
+        "physical": 23265,
+        "skill": .8,
+        "icon": "card_icon_070240020_1.4bff8c66",
+        "passive": "Life Protect 10-1%",
+        "eventId": 206
     }
 }
 
