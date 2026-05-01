@@ -20406,7 +20406,7 @@ var cards = {
         "eventId": 206
     },
     "1359": {
-        "d": 1359,
+        "id": 1359,
         "character": "Esora",
         "cardname": "Bearing the Magic of the Stars",
         "unit": "Peaky",
