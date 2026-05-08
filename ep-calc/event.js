@@ -2415,6 +2415,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "207": {
+        "id":207,
+        "name":"Super Luminous Valkyrie Photon Maiden",
+        "characters":"Saki,Ibuki,Towa,Noa",
+        "type":"Bingo",
+        "style":"Party",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
