@@ -2426,6 +2426,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "208": {
+        "id":208,
+        "name":"The POKER in 2026 May.",
+        "characters":"Rika,Marika,Saori,Dalia",
+        "type":"Poker",
+        "style":"Party",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
