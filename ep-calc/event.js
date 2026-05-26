@@ -281,7 +281,8 @@ function getCardSet(type) {
         "158":["Siscon Idol", "Bunny Girl Senpai", "Petite Devil Kohai", "Sister Venturing Out"],
         "163":["Peach and Willow Blossoms☆2025!", "Determined Spirit☆2025!", "Spring's Elegant Glow☆2025!", "Eternal Infinity☆2025!"],
         "176":["the Coolest summer", "what is next Aim", "aboard a Boat", "like a Dynamite"],
-        "197":["Chick Chick love♡","Catch a Fire","Make Some Noise","Prayer","Sweet Illusion","Distortion",],
+        "197":["Chick Chick love♡","Catch a Fire","Make Some Noise","Prayer","Sweet Illusion","Distortion"],
+        "209":["Radiant Stage","Thunderous Solo Stage!","#Rainy Field","Clouds That Remind Me of You"],
     };
 
     if (type === "medley") {
@@ -2433,6 +2434,17 @@ var eventList = {
         "type":"Poker",
         "style":"Party",
         "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
+    "209": {
+        "id":209,
+        "name":"EGOEGG Re:born vol.5",
+        "characters":"Hare,Raika,Jiu,Mikumo",
+        "type":"Raid",
+        "style":"None",
+        "parameter":"None",
         "bonus":true,
         "comboBonus":true,
         "addition":""
