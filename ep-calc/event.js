@@ -2449,6 +2449,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "210": {
+        "id":210,
+        "name":"Happy Around! Beat the Rock",
+        "characters":"Rinku,Maho,Muni,Rei",
+        "type":"Slots",
+        "style":"Cool",
+        "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
