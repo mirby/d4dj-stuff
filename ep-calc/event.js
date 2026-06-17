@@ -2460,6 +2460,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "211": {
+        "id":211,
+        "name":"DOGHOUSE Idol Operation",
+        "characters":"Eimi,Bell,Shika,Date-chan",
+        "type":"Bingo",
+        "style":"Cool",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
