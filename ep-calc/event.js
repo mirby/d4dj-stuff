@@ -265,6 +265,7 @@ function getCardSet(type) {
         "195":["Wafuu Good Fortune ☆ 2026!", "Beyond the Clouds ☆ 2026!", "Dazzling Splendor ☆ 2026!", "Brocade & Blossoms ☆ 2026!"],
         "202":["By the Roadside.", "Where I am!", "@Whatever", "Territory♡", "Reverie Implore", "Reverie Rapture", "Reverie Temptation", "Reverie Wicked"],
         "206":["Reverie: In a Sea of Shining Stars", "Reverie: Lit by Starlight", "Reverie: Clad in Glittering Stars", "Bearing the Magic of the Stars"],
+        "212":["Echo - Where the Dazzling Sounds Go -", "Vision - The Scenery Waiting for Us -", "Moment - Swearing on the Path We Walk -", "Shine - Toward the Shining Light -"],
     };
 
     var raidSet = {
@@ -2467,6 +2468,17 @@ var eventList = {
         "type":"Bingo",
         "style":"Cool",
         "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
+    "212": {
+        "id":212,
+        "name":"From Here!→To the Top!",
+        "characters":"Kyoko,Shinobu,Yuka,Esora",
+        "type":"Medley",
+        "style":"Street",
+        "parameter":"Physical",
         "bonus":true,
         "comboBonus":true,
         "addition":""
