@@ -2483,6 +2483,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "213": {
+        "id":213,
+        "name":"Veil Sync Protocol",
+        "characters":"Saki,Ibuki,Noa,Towa",
+        "type":"Bingo",
+        "style":"Party",
+        "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
