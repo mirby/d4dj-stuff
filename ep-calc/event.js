@@ -2494,6 +2494,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "214": {
+        "id":214,
+        "name":"First Steps of the Flowers",
+        "characters":"Miyu,Haruna,Kurumi,Miiko",
+        "type":"Poker",
+        "style":"Elegant",
+        "parameter":"Physical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*

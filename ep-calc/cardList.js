@@ -21334,6 +21334,66 @@ var cards = {
         "icon": "card_icon_070340019_1.08943cb8",
         "passive": "Auto Boost 2.5-9.5%",
         "eventId": 213
+    },
+    "1421": {
+        "id": 1421,
+        "character": "Miyu",
+        "cardname": "Overflowing Feelings",
+        "unit": "LyriLily",
+        "type": "Elegant",
+        "rarity": 4,
+        "heart": 15425,
+        "technical": 15992,
+        "physical": 23242,
+        "skill": .8,
+        "icon": "card_icon_070610020_1.85d9ff0b",
+        "passive": "Tap Healing 2.5%",
+        "eventId": 214
+    },
+    "1422": {
+        "id": 1422,
+        "character": "Haruna",
+        "cardname": "Hand in Hand",
+        "unit": "LyriLily",
+        "type": "Elegant",
+        "rarity": 4,
+        "heart": 14316,
+        "technical": 18389,
+        "physical": 21826,
+        "skill": .8,
+        "icon": "card_icon_070620018_1.5bfb0fb9",
+        "passive": "Groovy Bonus 10-40%",
+        "eventId": 214
+    },
+    "1423": {
+        "id": 1423,
+        "character": "Kurumi",
+        "cardname": "May You Feel Better",
+        "unit": "LyriLily",
+        "type": "Elegant",
+        "rarity": 4,
+        "heart": 16492,
+        "technical": 14539,
+        "physical": 23646,
+        "skill": .8,
+        "icon": "card_icon_070630017_1.b0df7d88",
+        "passive": "Groovy Solo 20-80%",
+        "eventId": 214
+    },
+    "1424": {
+        "id": 1424,
+        "character": "Miiko",
+        "cardname": "Spreading the Excitement!",
+        "unit": "LyriLily",
+        "type": "Elegant",
+        "rarity": 4,
+        "heart": 16321,
+        "technical": 15548,
+        "physical": 24412,
+        "skill": .8,
+        "icon": "card_icon_070640019_1.370b1750",
+        "passive": "Life Boost 2.5-8.75%",
+        "eventId": 214
     }
 }
 
