@@ -2505,6 +2505,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "215": {
+        "id":215,
+        "name":"Concerto of the Azure Sea",
+        "characters":"Tsubaki,Nagisa,Hiiro,Aoi",
+        "type":"Slots",
+        "style":"Party",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
