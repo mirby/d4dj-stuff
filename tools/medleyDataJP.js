@@ -1936,17 +1936,6 @@ var sectionsJp = [
     "sectionAvg": 39.191
   },
   {
-    "songID": "5050029",
-    "songName": "ハレ晴レユカイ",
-    "1": 47.442,
-    "2": 36.279,
-    "3": 47.093,
-    "4": 133.605,
-    "combined": 130.814,
-    "section2twice": 167.093,
-    "sectionAvg": 43.605
-  },
-  {
     "songID": "310008",
     "songName": "Wonder Wonder Trip",
     "1": 41.227,
@@ -2134,17 +2123,6 @@ var sectionsJp = [
     "sectionAvg": 38.529
   },
   {
-    "songID": "5050057",
-    "songName": "ゴーストルール",
-    "1": 48.0,
-    "2": 34.286,
-    "3": 45.715,
-    "4": 121.143,
-    "combined": 128.001,
-    "section2twice": 162.287,
-    "sectionAvg": 42.667
-  },
-  {
     "songID": "220017",
     "songName": "BLACK SHOUT",
     "1": 44.757,
@@ -2154,17 +2132,6 @@ var sectionsJp = [
     "combined": 121.616,
     "section2twice": 157.94,
     "sectionAvg": 40.539
-  },
-  {
-    "songID": "5050025",
-    "songName": "もってけ！セーラーふく",
-    "1": 38.4,
-    "2": 32.0,
-    "3": 41.819,
-    "4": 108.798,
-    "combined": 112.219,
-    "section2twice": 144.219,
-    "sectionAvg": 37.406
   },
   {
     "songID": "320013",
@@ -2200,17 +2167,6 @@ var sectionsJp = [
     "sectionAvg": 38.764
   },
   {
-    "songID": "5050028",
-    "songName": "God knows...",
-    "1": 41.6,
-    "2": 35.2,
-    "3": 42.006,
-    "4": 118.4,
-    "combined": 118.806,
-    "section2twice": 154.006,
-    "sectionAvg": 39.602
-  },
-  {
     "songID": "420012",
     "songName": "Realize",
     "1": 42.666,
@@ -2231,17 +2187,6 @@ var sectionsJp = [
     "combined": 119.975,
     "section2twice": 151.975,
     "sectionAvg": 39.992
-  },
-  {
-    "songID": "5050012",
-    "songName": "六兆年と一夜物語",
-    "1": 36.129,
-    "2": 30.968,
-    "3": 43.236,
-    "4": 107.097,
-    "combined": 110.333,
-    "section2twice": 141.301,
-    "sectionAvg": 36.778
   },
   {
     "songID": "620013",
@@ -2726,17 +2671,6 @@ var sectionsJp = [
     "combined": 113.173,
     "section2twice": 143.87,
     "sectionAvg": 37.724
-  },
-  {
-    "songID": "5050086",
-    "songName": "R·I·O·T",
-    "1": 39.429,
-    "2": 32.571,
-    "3": 43.115,
-    "4": 114.858,
-    "combined": 115.115,
-    "section2twice": 147.686,
-    "sectionAvg": 38.372
   },
   {
     "songID": "120019",
@@ -3463,50 +3397,6 @@ var sectionsJp = [
     "combined": 115.037,
     "section2twice": 143.769,
     "sectionAvg": 38.346
-  },
-  {
-    "songID": "5030064",
-    "songName": "Trrricksters!!",
-    "1": 43.356,
-    "2": 24.776,
-    "3": 40.989,
-    "4": 144.001,
-    "combined": 109.121,
-    "section2twice": 133.897,
-    "sectionAvg": 36.374
-  },
-  {
-    "songID": "5030067",
-    "songName": "Oshama Scramble!",
-    "1": 41.685,
-    "2": 30.317,
-    "3": 49.696,
-    "4": 114.948,
-    "combined": 121.698,
-    "section2twice": 152.015,
-    "sectionAvg": 40.566
-  },
-  {
-    "songID": "5030068",
-    "songName": "Falsum Atlantis.",
-    "1": 48.0,
-    "2": 30.0,
-    "3": 42.036,
-    "4": 144.0,
-    "combined": 120.036,
-    "section2twice": 150.036,
-    "sectionAvg": 40.012
-  },
-  {
-    "songID": "5030069",
-    "songName": "Titania",
-    "1": 41.887,
-    "2": 32.831,
-    "3": 39.788,
-    "4": 131.321,
-    "combined": 114.506,
-    "section2twice": 147.337,
-    "sectionAvg": 38.169
   },
   {
     "songID": "110025",
@@ -6457,17 +6347,6 @@ var sectionsJp = [
     "sectionAvg": 41.463
   },
   {
-    "songID": "5050326",
-    "songName": "Ring Ring Ring feat. ひまり",
-    "1": 40.449,
-    "2": 39.101,
-    "3": 47.264,
-    "4": 125.393,
-    "combined": 126.814,
-    "section2twice": 165.915,
-    "sectionAvg": 42.271
-  },
-  {
     "songID": "620021",
     "songName": "Ｏｎｅ　Ｎｉｇｈｔ　Ｃａｒｎｉｖａｌ",
     "1": 42.858,
@@ -6521,28 +6400,6 @@ var sectionsJp = [
     "combined": 114.376,
     "section2twice": 143.176,
     "sectionAvg": 38.125
-  },
-  {
-    "songID": "5050329",
-    "songName": "名もなき何もかも",
-    "1": 39.786,
-    "2": 32.085,
-    "3": 47.049,
-    "4": 130.909,
-    "combined": 118.92,
-    "section2twice": 151.005,
-    "sectionAvg": 39.64
-  },
-  {
-    "songID": "5050330",
-    "songName": "理想的パラドクスとは",
-    "1": 40.0,
-    "2": 32.0,
-    "3": 45.638,
-    "4": 116.8,
-    "combined": 117.638,
-    "section2twice": 149.638,
-    "sectionAvg": 39.213
   },
   {
     "songID": "5050331",
@@ -6677,17 +6534,6 @@ var sectionsJp = [
     "sectionAvg": 37.419
   },
   {
-    "songID": "5050340",
-    "songName": "Hi-Vision",
-    "1": 37.647,
-    "2": 40.0,
-    "3": 46.136,
-    "4": 108.236,
-    "combined": 123.783,
-    "section2twice": 163.783,
-    "sectionAvg": 41.261
-  },
-  {
     "songID": "5050306",
     "songName": "シカ色デイズ",
     "1": 41.968,
@@ -6697,28 +6543,6 @@ var sectionsJp = [
     "combined": 114.7,
     "section2twice": 146.176,
     "sectionAvg": 38.233
-  },
-  {
-    "songID": "5050338",
-    "songName": "ハニーレモン",
-    "1": 44.835,
-    "2": 35.604,
-    "3": 46.981,
-    "4": 154.286,
-    "combined": 127.42,
-    "section2twice": 163.024,
-    "sectionAvg": 42.473
-  },
-  {
-    "songID": "5050339",
-    "songName": "LIKE YOU o(>< = ><)o LOVE YOU?",
-    "1": 42.791,
-    "2": 31.628,
-    "3": 47.595,
-    "4": 102.47,
-    "combined": 122.014,
-    "section2twice": 153.642,
-    "sectionAvg": 40.671
   },
   {
     "songID": "220023",
@@ -6774,28 +6598,6 @@ var sectionsJp = [
     "combined": 115.285,
     "section2twice": 149.951,
     "sectionAvg": 38.428
-  },
-  {
-    "songID": "5050344",
-    "songName": "つけまつける",
-    "1": 39.724,
-    "2": 39.724,
-    "3": 44.208,
-    "4": 124.138,
-    "combined": 123.656,
-    "section2twice": 163.38,
-    "sectionAvg": 41.219
-  },
-  {
-    "songID": "5050345",
-    "songName": "ファッションモンスター",
-    "1": 34.5,
-    "2": 37.5,
-    "3": 43.547,
-    "4": 123.0,
-    "combined": 115.547,
-    "section2twice": 153.047,
-    "sectionAvg": 38.516
   },
   {
     "songID": "410027",
@@ -7271,6 +7073,28 @@ var sectionsJp = [
     "sectionAvg": 44.116
   },
   {
+    "songID": "5050362",
+    "songName": "ゼロ・グラビティ",
+    "1": 39.724,
+    "2": 39.724,
+    "3": 49.382,
+    "4": 125.793,
+    "combined": 128.83,
+    "section2twice": 168.554,
+    "sectionAvg": 42.943
+  },
+  {
+    "songID": "5050363",
+    "songName": "圧倒的アイドルの極み",
+    "1": 44.8,
+    "2": 44.8,
+    "3": 46.0,
+    "4": 137.6,
+    "combined": 135.6,
+    "section2twice": 180.4,
+    "sectionAvg": 45.2
+  },
+  {
     "songID": "1110004",
     "songName": "革命者ガール",
     "1": 38.4,
@@ -7348,25 +7172,366 @@ var sectionsJp = [
     "sectionAvg": 41.565
   },
   {
-    "songID": "5050364",
-    "songName": "New Fly Away",
-    "1": 43.636,
-    "2": 29.091,
-    "3": 47.321,
-    "4": 160.0,
-    "combined": 120.048,
-    "section2twice": 149.139,
-    "sectionAvg": 40.016
+    "songID": "410028",
+    "songName": "femmes fatale",
+    "1": 34.286,
+    "2": 34.286,
+    "3": 39.61,
+    "4": 139.886,
+    "combined": 108.182,
+    "section2twice": 142.468,
+    "sectionAvg": 36.061
   },
   {
-    "songID": "5050365",
-    "songName": "Theme of New PANTY ＆ STOCKING",
+    "songID": "1110005",
+    "songName": "Firestarter",
+    "1": 40.28,
+    "2": 33.567,
+    "3": 47.743,
+    "4": 142.657,
+    "combined": 121.59,
+    "section2twice": 155.157,
+    "sectionAvg": 40.53
+  },
+  {
+    "songID": "210030",
+    "songName": "Longing & Shine",
+    "1": 44.666,
+    "2": 35.0,
+    "3": 43.26,
+    "4": 108.667,
+    "combined": 122.926,
+    "section2twice": 157.926,
+    "sectionAvg": 40.975
+  },
+  {
+    "songID": "5050356",
+    "songName": "SATISFACTION feat. KMNZ",
+    "1": 42.667,
+    "2": 34.667,
+    "3": 38.313,
+    "4": 141.334,
+    "combined": 115.647,
+    "section2twice": 150.314,
+    "sectionAvg": 38.549
+  },
+  {
+    "songID": "5050366",
+    "songName": "Riot in the System feat. 社築",
+    "1": 38.4,
+    "2": 33.6,
+    "3": 41.901,
+    "4": 148.8,
+    "combined": 113.901,
+    "section2twice": 147.501,
+    "sectionAvg": 37.967
+  },
+  {
+    "songID": "110043",
+    "songName": "ぶっちぎりっ！？にょちお フェスティバル！！",
+    "1": 41.514,
+    "2": 38.919,
+    "3": 40.203,
+    "4": 127.136,
+    "combined": 120.636,
+    "section2twice": 159.555,
+    "sectionAvg": 40.212
+  },
+  {
+    "songID": "1040001",
+    "songName": "Floofy♡Cutie♡Doggo",
+    "1": 39.53,
+    "2": 28.235,
+    "3": 46.323,
+    "4": 125.647,
+    "combined": 114.088,
+    "section2twice": 142.323,
+    "sectionAvg": 38.029
+  },
+  {
+    "songID": "1040002",
+    "songName": "Cynic-Sweet-Panic",
+    "1": 37.5,
+    "2": 37.5,
+    "3": 42.023,
+    "4": 123.0,
+    "combined": 117.023,
+    "section2twice": 154.523,
+    "sectionAvg": 39.008
+  },
+  {
+    "songID": "1040003",
+    "songName": "今はまだ合法デジタルトリップ",
+    "1": 41.739,
+    "2": 35.479,
+    "3": 45.285,
+    "4": 127.305,
+    "combined": 122.503,
+    "section2twice": 157.982,
+    "sectionAvg": 40.834
+  },
+  {
+    "songID": "210031",
+    "songName": "PEAKY★The Beginning",
+    "1": 36.706,
+    "2": 33.882,
+    "3": 31.631,
+    "4": 108.706,
+    "combined": 102.219,
+    "section2twice": 136.101,
+    "sectionAvg": 34.073
+  },
+  {
+    "songID": "610034",
+    "songName": "こーふくろん！",
+    "1": 37.5,
+    "2": 37.5,
+    "3": 36.874,
+    "4": 112.5,
+    "combined": 111.874,
+    "section2twice": 149.374,
+    "sectionAvg": 37.291
+  },
+  {
+    "songID": "810017",
+    "songName": "不具合修正戦隊バグバスターズ！",
+    "1": 41.685,
+    "2": 35.369,
+    "3": 41.79,
+    "4": 104.842,
+    "combined": 118.844,
+    "section2twice": 154.213,
+    "sectionAvg": 39.615
+  },
+  {
+    "songID": "840002",
+    "songName": "MIRAI SHIFT",
+    "1": 32.914,
+    "2": 32.914,
+    "3": 35.256,
+    "4": 120.686,
+    "combined": 101.084,
+    "section2twice": 133.998,
+    "sectionAvg": 33.695
+  },
+  {
+    "songID": "310031",
+    "songName": "Top of The World",
+    "1": 45.0,
+    "2": 30.0,
+    "3": 37.621,
+    "4": 120.0,
+    "combined": 112.621,
+    "section2twice": 142.621,
+    "sectionAvg": 37.54
+  },
+  {
+    "songID": "310032",
+    "songName": "Top of The World (出雲咲姫 Solo ver.)",
+    "1": 45.0,
+    "2": 30.0,
+    "3": 37.621,
+    "4": 120.0,
+    "combined": 112.621,
+    "section2twice": 142.621,
+    "sectionAvg": 37.54
+  },
+  {
+    "songID": "310033",
+    "songName": "Top of The World (新島衣舞紀 Solo ver.)",
+    "1": 45.0,
+    "2": 30.0,
+    "3": 37.621,
+    "4": 120.0,
+    "combined": 112.621,
+    "section2twice": 142.621,
+    "sectionAvg": 37.54
+  },
+  {
+    "songID": "310034",
+    "songName": "Top of The World (花巻乙和 Solo ver.)",
+    "1": 45.0,
+    "2": 30.0,
+    "3": 37.621,
+    "4": 120.0,
+    "combined": 112.621,
+    "section2twice": 142.621,
+    "sectionAvg": 37.54
+  },
+  {
+    "songID": "310035",
+    "songName": "Top of The World (福島ノア Solo ver.)",
+    "1": 45.0,
+    "2": 30.0,
+    "3": 37.621,
+    "4": 120.0,
+    "combined": 112.621,
+    "section2twice": 142.621,
+    "sectionAvg": 37.54
+  },
+  {
+    "songID": "110044",
+    "songName": "ハピリング",
+    "1": 37.5,
+    "2": 30.0,
+    "3": 37.602,
+    "4": 100.0,
+    "combined": 105.102,
+    "section2twice": 135.102,
+    "sectionAvg": 35.034
+  },
+  {
+    "songID": "1110006",
+    "songName": "インポスター",
+    "1": 39.428,
+    "2": 30.857,
+    "3": 39.083,
+    "4": 137.143,
+    "combined": 109.368,
+    "section2twice": 140.225,
+    "sectionAvg": 36.456
+  },
+  {
+    "songID": "5050350",
+    "songName": "CROSSING DELTA",
+    "1": 38.667,
+    "2": 32.0,
+    "3": 46.817,
+    "4": 133.334,
+    "combined": 117.484,
+    "section2twice": 149.484,
+    "sectionAvg": 39.161
+  },
+  {
+    "songID": "5050351",
+    "songName": "Slapstick Parfait",
     "1": 36.0,
-    "2": 24.0,
-    "3": 54.876,
-    "4": 144.0,
-    "combined": 114.876,
-    "section2twice": 138.876,
-    "sectionAvg": 38.292
+    "2": 39.0,
+    "3": 37.446,
+    "4": 117.0,
+    "combined": 112.446,
+    "section2twice": 151.446,
+    "sectionAvg": 37.482
+  },
+  {
+    "songID": "5050352",
+    "songName": "POP SEQUENCE",
+    "1": 34.909,
+    "2": 34.909,
+    "3": 41.841,
+    "4": 113.455,
+    "combined": 111.659,
+    "section2twice": 146.568,
+    "sectionAvg": 37.22
+  },
+  {
+    "songID": "5050353",
+    "songName": "Paved Garden",
+    "1": 30.802,
+    "2": 30.802,
+    "3": 38.257,
+    "4": 102.674,
+    "combined": 99.861,
+    "section2twice": 130.663,
+    "sectionAvg": 33.287
+  },
+  {
+    "songID": "1110007",
+    "songName": "Take Me Down",
+    "1": 36.572,
+    "2": 38.857,
+    "3": 47.645,
+    "4": 121.429,
+    "combined": 123.074,
+    "section2twice": 161.931,
+    "sectionAvg": 41.025
+  },
+  {
+    "songID": "410029",
+    "songName": "ULTIMATE VIBES",
+    "1": 45.0,
+    "2": 33.75,
+    "3": 37.628,
+    "4": 133.125,
+    "combined": 116.378,
+    "section2twice": 150.128,
+    "sectionAvg": 38.793
+  },
+  {
+    "songID": "1110008",
+    "songName": "Reborn the Fate",
+    "1": 40.258,
+    "2": 37.162,
+    "3": 47.112,
+    "4": 131.613,
+    "combined": 124.532,
+    "section2twice": 161.694,
+    "sectionAvg": 41.511
+  },
+  {
+    "songID": "1110009",
+    "songName": "エゴイスタ -はれ×Hommarju Remix-",
+    "1": 42.667,
+    "2": 34.667,
+    "3": 38.88,
+    "4": 134.667,
+    "combined": 116.214,
+    "section2twice": 150.881,
+    "sectionAvg": 38.738
+  },
+  {
+    "songID": "1110010",
+    "songName": "エゴイスタ -ライカ×Shouya Namai Remix-",
+    "1": 37.162,
+    "2": 37.161,
+    "3": 44.226,
+    "4": 136.258,
+    "combined": 118.549,
+    "section2twice": 155.71,
+    "sectionAvg": 39.516
+  },
+  {
+    "songID": "1110011",
+    "songName": "エゴイスタ -慈雨×新井大樹 Remix-",
+    "1": 41.143,
+    "2": 29.142,
+    "3": 39.287,
+    "4": 130.286,
+    "combined": 109.572,
+    "section2twice": 138.714,
+    "sectionAvg": 36.524
+  },
+  {
+    "songID": "1110012",
+    "songName": "エゴイスタ -美雲×Ark-Z Remix-",
+    "1": 35.556,
+    "2": 35.555,
+    "3": 43.483,
+    "4": 124.445,
+    "combined": 114.594,
+    "section2twice": 150.149,
+    "sectionAvg": 38.198
+  },
+  {
+    "songID": "1140002",
+    "songName": "天才美少女☆汐留ライカのウルトラ超絶アゲアゲ↑↑↑チュ→ン♪ ♪ ♪",
+    "1": 40.0,
+    "2": 40.522,
+    "3": 42.118,
+    "4": 126.374,
+    "combined": 122.64,
+    "section2twice": 163.162,
+    "sectionAvg": 40.88
+  },
+  {
+    "songID": "1140003",
+    "songName": "Flawless Ego",
+    "1": 40.0,
+    "2": 33.333,
+    "3": 44.436,
+    "4": 131.333,
+    "combined": 117.769,
+    "section2twice": 151.102,
+    "sectionAvg": 39.256
   }
 ]

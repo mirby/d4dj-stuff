@@ -3321,50 +3321,6 @@ var sectionsEn = [
     "sectionAvg": 39.533
   },
   {
-    "songID": "5030067",
-    "songName": "Oshama Scramble!",
-    "1": 41.685,
-    "2": 30.317,
-    "3": 49.696,
-    "4": 114.948,
-    "combined": 121.698,
-    "section2twice": 152.015,
-    "sectionAvg": 40.566
-  },
-  {
-    "songID": "5030069",
-    "songName": "Titania",
-    "1": 41.887,
-    "2": 32.831,
-    "3": 39.788,
-    "4": 131.321,
-    "combined": 114.506,
-    "section2twice": 147.337,
-    "sectionAvg": 38.169
-  },
-  {
-    "songID": "5030064",
-    "songName": "Trrricksters!!",
-    "1": 43.356,
-    "2": 24.776,
-    "3": 40.989,
-    "4": 144.001,
-    "combined": 109.121,
-    "section2twice": 133.897,
-    "sectionAvg": 36.374
-  },
-  {
-    "songID": "5030068",
-    "songName": "Falsum Atlantis.",
-    "1": 48.0,
-    "2": 30.0,
-    "3": 42.036,
-    "4": 144.0,
-    "combined": 120.036,
-    "section2twice": 150.036,
-    "sectionAvg": 40.012
-  },
-  {
     "songID": "810004",
     "songName": "Kurikae Step",
     "1": 41.334,
@@ -4355,39 +4311,6 @@ var sectionsEn = [
     "sectionAvg": 42.184
   },
   {
-    "songID": "5050261",
-    "songName": "Caste Room",
-    "1": 46.154,
-    "2": 30.769,
-    "3": 40.71,
-    "4": 109.231,
-    "combined": 117.633,
-    "section2twice": 148.402,
-    "sectionAvg": 39.211
-  },
-  {
-    "songID": "5050262",
-    "songName": "Dance In The Game",
-    "1": 39.111,
-    "2": 32.0,
-    "3": 49.586,
-    "4": 144.0,
-    "combined": 120.697,
-    "section2twice": 152.697,
-    "sectionAvg": 40.232
-  },
-  {
-    "songID": "5050263",
-    "songName": "Minor Piece",
-    "1": 37.809,
-    "2": 32.876,
-    "3": 57.476,
-    "4": 143.014,
-    "combined": 128.161,
-    "section2twice": 161.037,
-    "sectionAvg": 42.72
-  },
-  {
     "songID": "610030",
     "songName": "Lyrical Tea Party!",
     "1": 37.818,
@@ -4432,39 +4355,6 @@ var sectionsEn = [
     "sectionAvg": 40.243
   },
   {
-    "songID": "5050327",
-    "songName": "Wrong World",
-    "1": 45.614,
-    "2": 36.491,
-    "3": 46.062,
-    "4": 98.947,
-    "combined": 128.167,
-    "section2twice": 164.658,
-    "sectionAvg": 42.722
-  },
-  {
-    "songID": "5050328",
-    "songName": "Bleeding Hearts",
-    "1": 38.4,
-    "2": 28.8,
-    "3": 47.176,
-    "4": 144.0,
-    "combined": 114.376,
-    "section2twice": 143.176,
-    "sectionAvg": 38.125
-  },
-  {
-    "songID": "5050329",
-    "songName": "Nameless Name",
-    "1": 39.786,
-    "2": 32.085,
-    "3": 47.049,
-    "4": 130.909,
-    "combined": 118.92,
-    "section2twice": 151.005,
-    "sectionAvg": 39.64
-  },
-  {
     "songID": "310028",
     "songName": "Mirror",
     "1": 45.0,
@@ -4474,28 +4364,6 @@ var sectionsEn = [
     "combined": 124.123,
     "section2twice": 157.873,
     "sectionAvg": 41.374
-  },
-  {
-    "songID": "5050330",
-    "songName": "Ideal Paradox",
-    "1": 40.0,
-    "2": 32.0,
-    "3": 45.638,
-    "4": 116.8,
-    "combined": 117.638,
-    "section2twice": 149.638,
-    "sectionAvg": 39.213
-  },
-  {
-    "songID": "5050331",
-    "songName": "Emptiness and Catharsis",
-    "1": 41.29,
-    "2": 33.548,
-    "3": 45.057,
-    "4": 120.0,
-    "combined": 119.895,
-    "section2twice": 153.443,
-    "sectionAvg": 39.965
   },
   {
     "songID": "5050309",
@@ -5026,72 +4894,6 @@ var sectionsEn = [
     "sectionAvg": 38.182
   },
   {
-    "songID": "5050292",
-    "songName": "Distortion (feat. Yunomi)",
-    "1": 36.0,
-    "2": 30.0,
-    "3": 39.75,
-    "4": 162.0,
-    "combined": 105.75,
-    "section2twice": 135.75,
-    "sectionAvg": 35.25
-  },
-  {
-    "songID": "5050293",
-    "songName": "Chick Chick love♡ (Prod. Nor)",
-    "1": 45.0,
-    "2": 30.0,
-    "3": 51.687,
-    "4": 120.0,
-    "combined": 126.687,
-    "section2twice": 156.687,
-    "sectionAvg": 42.229
-  },
-  {
-    "songID": "5050294",
-    "songName": "Prayer(Prod. picco)",
-    "1": 36.923,
-    "2": 36.924,
-    "3": 41.512,
-    "4": 127.692,
-    "combined": 115.359,
-    "section2twice": 152.283,
-    "sectionAvg": 38.453
-  },
-  {
-    "songID": "5050289",
-    "songName": "Catch a Fire (Prod. Kenmochi Hidefumi)",
-    "1": 40.279,
-    "2": 35.245,
-    "3": 38.922,
-    "4": 122.518,
-    "combined": 114.446,
-    "section2twice": 149.691,
-    "sectionAvg": 38.149
-  },
-  {
-    "songID": "5050290",
-    "songName": "Make Some Noise (feat.Otayuki, Belex)",
-    "1": 37.5,
-    "2": 37.5,
-    "3": 37.154,
-    "4": 135.0,
-    "combined": 112.154,
-    "section2twice": 149.654,
-    "sectionAvg": 37.385
-  },
-  {
-    "songID": "5050291",
-    "songName": "Sweet Illusion (feat. DE DE MOUSE)",
-    "1": 45.0,
-    "2": 31.875,
-    "3": 37.645,
-    "4": 125.625,
-    "combined": 114.52,
-    "section2twice": 146.395,
-    "sectionAvg": 38.173
-  },
-  {
     "songID": "13",
     "songName": "Lesson GROOVY Trial",
     "1": 35.369,
@@ -5112,5 +4914,302 @@ var sectionsEn = [
     "combined": 108.182,
     "section2twice": 143.092,
     "sectionAvg": 36.061
+  },
+  {
+    "songID": "1110004",
+    "songName": "Revolutionary Girl",
+    "1": 38.4,
+    "2": 38.4,
+    "3": 45.601,
+    "4": 128.0,
+    "combined": 122.401,
+    "section2twice": 160.801,
+    "sectionAvg": 40.8
+  },
+  {
+    "songID": "510026",
+    "songName": "ReTINA (Maozon Remix)",
+    "1": 32.36,
+    "2": 43.146,
+    "3": 49.19,
+    "4": 118.652,
+    "combined": 124.696,
+    "section2twice": 167.842,
+    "sectionAvg": 41.565
+  },
+  {
+    "songID": "1110005",
+    "songName": "Firestarter",
+    "1": 40.28,
+    "2": 33.567,
+    "3": 47.743,
+    "4": 142.657,
+    "combined": 121.59,
+    "section2twice": 155.157,
+    "sectionAvg": 40.53
+  },
+  {
+    "songID": "210030",
+    "songName": "Longing & Shine",
+    "1": 44.666,
+    "2": 35.0,
+    "3": 43.26,
+    "4": 108.667,
+    "combined": 122.926,
+    "section2twice": 157.926,
+    "sectionAvg": 40.975
+  },
+  {
+    "songID": "910013",
+    "songName": "Velvet Shadow",
+    "1": 41.807,
+    "2": 38.71,
+    "3": 44.597,
+    "4": 142.452,
+    "combined": 125.114,
+    "section2twice": 163.824,
+    "sectionAvg": 41.705
+  },
+  {
+    "songID": "910014",
+    "songName": "No Escape",
+    "1": 43.125,
+    "2": 39.375,
+    "3": 45.127,
+    "4": 121.875,
+    "combined": 127.627,
+    "section2twice": 167.002,
+    "sectionAvg": 42.542
+  },
+  {
+    "songID": "910015",
+    "songName": "PRIMA HERO",
+    "1": 36.924,
+    "2": 31.384,
+    "3": 34.263,
+    "4": 101.384,
+    "combined": 102.571,
+    "section2twice": 133.955,
+    "sectionAvg": 34.19
+  },
+  {
+    "songID": "910016",
+    "songName": "Harley-Daring",
+    "1": 34.5,
+    "2": 31.5,
+    "3": 54.224,
+    "4": 123.0,
+    "combined": 120.224,
+    "section2twice": 151.724,
+    "sectionAvg": 40.075
+  },
+  {
+    "songID": "910017",
+    "songName": "NOT 4 A LIE",
+    "1": 33.103,
+    "2": 34.483,
+    "3": 47.174,
+    "4": 135.173,
+    "combined": 114.76,
+    "section2twice": 149.243,
+    "sectionAvg": 38.253
+  },
+  {
+    "songID": "410028",
+    "songName": "femmes fatale",
+    "1": 34.286,
+    "2": 34.286,
+    "3": 39.61,
+    "4": 139.886,
+    "combined": 108.182,
+    "section2twice": 142.468,
+    "sectionAvg": 36.061
+  },
+  {
+    "songID": "810017",
+    "songName": "Fuguai Shusei Sentai BUGBUSTERS!",
+    "1": 41.685,
+    "2": 35.369,
+    "3": 41.79,
+    "4": 104.842,
+    "combined": 118.844,
+    "section2twice": 154.213,
+    "sectionAvg": 39.615
+  },
+  {
+    "songID": "840002",
+    "songName": "MIRAI SHIFT",
+    "1": 32.914,
+    "2": 32.914,
+    "3": 35.256,
+    "4": 120.686,
+    "combined": 101.084,
+    "section2twice": 133.998,
+    "sectionAvg": 33.695
+  },
+  {
+    "songID": "110043",
+    "songName": "Bucchigiri!? Nyochio Festival!!",
+    "1": 41.514,
+    "2": 38.919,
+    "3": 40.203,
+    "4": 127.136,
+    "combined": 120.636,
+    "section2twice": 159.555,
+    "sectionAvg": 40.212
+  },
+  {
+    "songID": "1040001",
+    "songName": "Floofy♡Cutie♡Doggo",
+    "1": 39.53,
+    "2": 28.235,
+    "3": 46.323,
+    "4": 125.647,
+    "combined": 114.088,
+    "section2twice": 142.323,
+    "sectionAvg": 38.029
+  },
+  {
+    "songID": "1040002",
+    "songName": "Cynic-Sweet-Panic",
+    "1": 37.5,
+    "2": 37.5,
+    "3": 42.023,
+    "4": 123.0,
+    "combined": 117.023,
+    "section2twice": 154.523,
+    "sectionAvg": 39.008
+  },
+  {
+    "songID": "1040003",
+    "songName": "Still Legal Digital Trip",
+    "1": 41.739,
+    "2": 35.479,
+    "3": 45.285,
+    "4": 127.305,
+    "combined": 122.503,
+    "section2twice": 157.982,
+    "sectionAvg": 40.834
+  },
+  {
+    "songID": "210031",
+    "songName": "PEAKY★The Beginning",
+    "1": 36.706,
+    "2": 33.882,
+    "3": 31.631,
+    "4": 108.706,
+    "combined": 102.219,
+    "section2twice": 136.101,
+    "sectionAvg": 34.073
+  },
+  {
+    "songID": "310031",
+    "songName": "Top of The World",
+    "1": 45.0,
+    "2": 30.0,
+    "3": 37.621,
+    "4": 120.0,
+    "combined": 112.621,
+    "section2twice": 142.621,
+    "sectionAvg": 37.54
+  },
+  {
+    "songID": "310032",
+    "songName": "Top of The World (Saki Izumo Solo ver.)",
+    "1": 45.0,
+    "2": 30.0,
+    "3": 37.621,
+    "4": 120.0,
+    "combined": 112.621,
+    "section2twice": 142.621,
+    "sectionAvg": 37.54
+  },
+  {
+    "songID": "310033",
+    "songName": "Top of The World (Ibuki Niijima Solo ver.)",
+    "1": 45.0,
+    "2": 30.0,
+    "3": 37.621,
+    "4": 120.0,
+    "combined": 112.621,
+    "section2twice": 142.621,
+    "sectionAvg": 37.54
+  },
+  {
+    "songID": "310034",
+    "songName": "Top of The World (Towa Hanamaki Solo ver.)",
+    "1": 45.0,
+    "2": 30.0,
+    "3": 37.621,
+    "4": 120.0,
+    "combined": 112.621,
+    "section2twice": 142.621,
+    "sectionAvg": 37.54
+  },
+  {
+    "songID": "310035",
+    "songName": "Top of The World (Noa Fukushima Solo ver.)",
+    "1": 45.0,
+    "2": 30.0,
+    "3": 37.621,
+    "4": 120.0,
+    "combined": 112.621,
+    "section2twice": 142.621,
+    "sectionAvg": 37.54
+  },
+  {
+    "songID": "610034",
+    "songName": "KOUFUKURON",
+    "1": 37.5,
+    "2": 37.5,
+    "3": 36.874,
+    "4": 112.5,
+    "combined": 111.874,
+    "section2twice": 149.374,
+    "sectionAvg": 37.291
+  },
+  {
+    "songID": "1110009",
+    "songName": "EGOISTA -Hare×Hommarju Remix-",
+    "1": 42.667,
+    "2": 34.667,
+    "3": 38.88,
+    "4": 134.667,
+    "combined": 116.214,
+    "section2twice": 150.881,
+    "sectionAvg": 38.738
+  },
+  {
+    "songID": "1110010",
+    "songName": "EGOISTA -Raika×Shouya Namai Remix-",
+    "1": 37.162,
+    "2": 37.161,
+    "3": 44.226,
+    "4": 136.258,
+    "combined": 118.549,
+    "section2twice": 155.71,
+    "sectionAvg": 39.516
+  },
+  {
+    "songID": "1110011",
+    "songName": "EGOISTA -Jiu×Hiroki Arai Remix-",
+    "1": 41.143,
+    "2": 29.142,
+    "3": 39.287,
+    "4": 130.286,
+    "combined": 109.572,
+    "section2twice": 138.714,
+    "sectionAvg": 36.524
+  },
+  {
+    "songID": "1110012",
+    "songName": "EGOISTA -Mikumo×Ark-Z Remix-",
+    "1": 35.556,
+    "2": 35.555,
+    "3": 43.483,
+    "4": 124.445,
+    "combined": 114.594,
+    "section2twice": 150.149,
+    "sectionAvg": 38.198
   }
 ]
