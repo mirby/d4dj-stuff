@@ -266,6 +266,7 @@ function getCardSet(type) {
         "202":["By the Roadside.", "Where I am!", "@Whatever", "Territory♡", "Reverie Implore", "Reverie Rapture", "Reverie Temptation", "Reverie Wicked"],
         "206":["Reverie: In a Sea of Shining Stars", "Reverie: Lit by Starlight", "Reverie: Clad in Glittering Stars", "Bearing the Magic of the Stars"],
         "212":["Echo - Where the Dazzling Sounds Go -", "Vision - The Scenery Waiting for Us -", "Moment - Swearing on the Path We Walk -", "Shine - Toward the Shining Light -"],
+        "216":["Reverie Slumber!", "Reverie Friendship!", "Reverie Splash!", "Reverie Munchies!"],
     };
 
     var raidSet = {
@@ -2512,6 +2513,17 @@ var eventList = {
         "type":"Slots",
         "style":"Party",
         "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
+    "216": {
+        "id":216,
+        "name":"Welcome to Abyss Park!",
+        "characters":"Neo,Sophia,Elsie,Weronika",
+        "type":"Medley",
+        "style":"Cool",
+        "parameter":"Physical",
         "bonus":true,
         "comboBonus":true,
         "addition":""
