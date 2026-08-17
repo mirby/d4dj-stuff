@@ -2528,6 +2528,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "217": {
+        "id":217,
+        "name":"Happy Surprise!",
+        "characters":"Rinku,Maho,Muni,Rei",
+        "type":"Slots",
+        "style":"Street",
+        "parameter":"Physical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
