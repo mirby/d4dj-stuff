@@ -2539,6 +2539,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "218": {
+        "id":218,
+        "name":"Revival: Circling, Dancing, June's Song -Refrain-",
+        "characters":"Tsubaki,Nagisa,Hiiro,Aoi",
+        "type":"Poker",
+        "style":"Street",
+        "parameter":"Physical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*

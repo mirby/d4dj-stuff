@@ -13788,7 +13788,7 @@ var cards = {
         "skill": 0.5,
         "icon": "card_icon_040510016_1.18001035",
         "passive": "Auto Boost 2.5-8.5%",
-        "eventId": 148
+        "eventId": 218 /* formerly 148 */
     },
     "917": {
         "id": 917,
@@ -13803,7 +13803,7 @@ var cards = {
         "skill": 0.5,
         "icon": "card_icon_040520017_1.e4fae9e6",
         "passive": "Groovy Bonus 10-35%",
-        "eventId": 148
+        "eventId": 218 /* formerly 148 */
     },
     "918": {
         "id": 918,
@@ -13818,7 +13818,7 @@ var cards = {
         "skill": 0.5,
         "icon": "card_icon_040540017_1.cd9b934d",
         "passive": "Groovy Solo 20-70%",
-        "eventId": 148
+        "eventId": 218 /* formerly 148 */
     },
     "919": {
         "id": 919,
@@ -13833,7 +13833,7 @@ var cards = {
         "skill": 0.25,
         "icon": "card_icon_030530007_1.baf48194",
         "passive": "Manual Up 1.5-4%",
-        "eventId": 148
+        "eventId": 218 /* formerly 148 */
     },
     "920": {
         "id": 920,
@@ -21784,7 +21784,158 @@ var cards = {
         "icon": "card_icon_060520004_1.35e792b6",
         "passive": "Life Boost 2.5-9%",
         "eventId": 0
+    },
+    "1451": {
+        "id": 1451,
+        "character": "Tsubaki",
+        "cardname": "Destiny, Side by Side",
+        "unit": "Rondo",
+        "type": "Street",
+        "rarity": 4,
+        "heart": 17253,
+        "technical": 15306,
+        "physical": 23863,
+        "skill": .5,
+        "icon": "card_icon_070510020_1.da0f35da",
+        "passive": "Groovy Solo 20-80%",
+        "eventId": 218
+    },
+    "1452": {
+        "id": 1452,
+        "character": "Aoi",
+        "cardname": "The White Promise from That Day",
+        "unit": "Rondo",
+        "type": "Street",
+        "rarity": 4,
+        "heart": 14547,
+        "technical": 17420,
+        "physical": 22715,
+        "skill": .5,
+        "icon": "card_icon_070540016_1.e991dc6c",
+        "passive": "Life Boost 2.5-8.75%",
+        "eventId": 218
+    },
+    "1453": {
+        "id": 1453,
+        "character": "Rika",
+        "cardname": "Ten-Goku",
+        "unit": "Mermaid",
+        "type": "Party",
+        "rarity": 3,
+        "heart": 10727,
+        "technical": 15120,
+        "physical": 7074,
+        "skill": .45,
+        "icon": "card_icon_050410005_1.1e279f49",
+        "passive": "Manual Up 1.5-4%",
+        "eventId": 0
+    },
+    "1454": {
+        "id": 1454,
+        "character": "Marika",
+        "cardname": "Ten-Goku",
+        "unit": "Mermaid",
+        "type": "Party",
+        "rarity": 3,
+        "heart": 10494,
+        "technical": 15333,
+        "physical": 7085,
+        "skill": .45,
+        "icon": "card_icon_050420003_1.ca4f73ad",
+        "passive": "Auto Boost 1.5-3%",
+        "eventId": 0
+    },
+    "1455": {
+        "id": 1455,
+        "character": "Saori",
+        "cardname": "Ten-Goku",
+        "unit": "Mermaid",
+        "type": "Party",
+        "rarity": 3,
+        "heart": 7658,
+        "technical": 14765,
+        "physical": 10313,
+        "skill": .45,
+        "icon": "card_icon_050430004_1.f9145e9b",
+        "passive": "Combo Boost 1-3%",
+        "eventId": 0
+    },
+    "1456": {
+        "id": 1456,
+        "character": "Dalia",
+        "cardname": "Ten-Goku",
+        "unit": "Mermaid",
+        "type": "Party",
+        "rarity": 3,
+        "heart": 7268,
+        "technical": 14907,
+        "physical": 10705,
+        "skill": .45,
+        "icon": "card_icon_050440004_1.2a7b57fa",
+        "passive": "Groovy Solo 10-25%",
+        "eventId": 0
+    },
+    "1457": {
+        "id": 1457,
+        "character": "Rinku",
+        "cardname": "Happy×2",
+        "unit": "HapiAra",
+        "type": "Street",
+        "rarity": 3,
+        "heart": 15303,
+        "technical": 7272,
+        "physical": 10354,
+        "skill": .45,
+        "icon": "card_icon_050110006_1.d441bee1",
+        "passive": "Life Boost 1-3%",
+        "eventId": 0
+    },
+    "1458": {
+        "id": 1458,
+        "character": "Maho",
+        "cardname": "Happy×2",
+        "unit": "HapiAra",
+        "type": "Street",
+        "rarity": 3,
+        "heart": 15169,
+        "technical": 10416,
+        "physical": 7048,
+        "skill": .45,
+        "icon": "card_icon_050120003_1.83e8c1bb",
+        "passive": "Groovy Solo 10-25%",
+        "eventId": 0
+    },
+    "1459": {
+        "id": 1459,
+        "character": "Muni",
+        "cardname": "Happy×2",
+        "unit": "HapiAra",
+        "type": "Street",
+        "rarity": 3,
+        "heart": 15300,
+        "technical": 7080,
+        "physical": 10291,
+        "skill": .45,
+        "icon": "card_icon_050130001_1.b9a68d64",
+        "passive": "Groovy Bonus 5-11.5%",
+        "eventId": 0
+    },
+    "1460": {
+        "id": 1460,
+        "character": "Rei",
+        "cardname": "Happy×2",
+        "unit": "HapiAra",
+        "type": "Street",
+        "rarity": 3,
+        "heart": 15175,
+        "technical": 10440,
+        "physical": 7087,
+        "skill": .45,
+        "icon": "card_icon_050140002_1.1d7d9223",
+        "passive": "Manual Up 1.5-4%",
+        "eventId": 0
     }
+    
 }
 
 /*
