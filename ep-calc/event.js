@@ -2550,6 +2550,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "219": {
+        "id":219,
+        "name":"Takeoff to Endless Summer! Beyond the Best of the Best",
+        "characters":"Rika,Marika,Saori,Dalia",
+        "type":"Bingo",
+        "style":"Cute",
+        "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
