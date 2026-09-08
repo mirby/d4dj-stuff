@@ -5211,5 +5211,93 @@ var sectionsEn = [
     "combined": 114.594,
     "section2twice": 150.149,
     "sectionAvg": 38.198
+  },
+  {
+    "songID": "1140001",
+    "songName": "Enter into the EGO",
+    "1": 35.556,
+    "2": 35.555,
+    "3": 36.596,
+    "4": 113.778,
+    "combined": 107.707,
+    "section2twice": 143.262,
+    "sectionAvg": 35.902
+  },
+  {
+    "songID": "110044",
+    "songName": "HapiRing",
+    "1": 37.5,
+    "2": 30.0,
+    "3": 37.602,
+    "4": 100.0,
+    "combined": 105.102,
+    "section2twice": 135.102,
+    "sectionAvg": 35.034
+  },
+  {
+    "songID": "610035",
+    "songName": "Sleeping Beauty(Lyrical Anthology Remix)",
+    "1": 32.0,
+    "2": 32.0,
+    "3": 40.631,
+    "4": 115.701,
+    "combined": 104.631,
+    "section2twice": 136.631,
+    "sectionAvg": 34.877
+  },
+  {
+    "songID": "3010043",
+    "songName": "Unichordon",
+    "1": 32.0,
+    "2": 33.333,
+    "3": 37.978,
+    "4": 125.333,
+    "combined": 103.311,
+    "section2twice": 136.644,
+    "sectionAvg": 34.437
+  },
+  {
+    "songID": "410030",
+    "songName": "SHAKE ME!",
+    "1": 32.0,
+    "2": 28.0,
+    "3": 44.747,
+    "4": 144.8,
+    "combined": 104.747,
+    "section2twice": 132.747,
+    "sectionAvg": 34.916
+  },
+  {
+    "songID": "610036",
+    "songName": "At Night on the Galactic Railroad(Lyrical Anthology Remix)",
+    "1": 29.768,
+    "2": 29.767,
+    "3": 47.855,
+    "4": 111.628,
+    "combined": 107.39,
+    "section2twice": 137.157,
+    "sectionAvg": 35.797
+  },
+  {
+    "songID": "1110006",
+    "songName": "Impostor",
+    "1": 39.428,
+    "2": 30.857,
+    "3": 39.083,
+    "4": 137.143,
+    "combined": 109.368,
+    "section2twice": 140.225,
+    "sectionAvg": 36.456
+  },
+  {
+    "songID": "410029",
+    "songName": "ULTIMATE VIBES",
+    "1": 45.0,
+    "2": 33.75,
+    "3": 37.628,
+    "4": 133.125,
+    "combined": 116.378,
+    "section2twice": 150.128,
+    "sectionAvg": 38.793
   }
 ]

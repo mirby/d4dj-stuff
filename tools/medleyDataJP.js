@@ -6633,17 +6633,6 @@ var sectionsJp = [
     "sectionAvg": 38.816
   },
   {
-    "songID": "5050347",
-    "songName": "ヒャクニチソウ",
-    "1": 36.404,
-    "2": 36.405,
-    "3": 41.781,
-    "4": 100.786,
-    "combined": 114.59,
-    "section2twice": 150.995,
-    "sectionAvg": 38.197
-  },
-  {
     "songID": "5050318",
     "songName": "SCAPEGOAT",
     "1": 41.334,
@@ -6664,17 +6653,6 @@ var sectionsJp = [
     "combined": 121.231,
     "section2twice": 159.154,
     "sectionAvg": 40.41
-  },
-  {
-    "songID": "5050348",
-    "songName": "前前前世 [original ver.]",
-    "1": 35.369,
-    "2": 37.895,
-    "3": 41.839,
-    "4": 106.105,
-    "combined": 115.103,
-    "section2twice": 152.998,
-    "sectionAvg": 38.368
   },
   {
     "songID": "5050342",
@@ -7513,6 +7491,17 @@ var sectionsJp = [
     "sectionAvg": 38.198
   },
   {
+    "songID": "1140001",
+    "songName": "Enter into the EGO",
+    "1": 35.556,
+    "2": 35.555,
+    "3": 36.596,
+    "4": 113.778,
+    "combined": 107.707,
+    "section2twice": 143.262,
+    "sectionAvg": 35.902
+  },
+  {
     "songID": "1140002",
     "songName": "天才美少女☆汐留ライカのウルトラ超絶アゲアゲ↑↑↑チュ→ン♪ ♪ ♪",
     "1": 40.0,
@@ -7533,5 +7522,71 @@ var sectionsJp = [
     "combined": 117.769,
     "section2twice": 151.102,
     "sectionAvg": 39.256
+  },
+  {
+    "songID": "610035",
+    "songName": "ねむり姫(Lyrical Anthology Remix)",
+    "1": 32.0,
+    "2": 32.0,
+    "3": 40.631,
+    "4": 115.701,
+    "combined": 104.631,
+    "section2twice": 136.631,
+    "sectionAvg": 34.877
+  },
+  {
+    "songID": "340002",
+    "songName": "Bloom in Monochrome",
+    "1": 41.482,
+    "2": 35.555,
+    "3": 41.122,
+    "4": 131.852,
+    "combined": 118.159,
+    "section2twice": 153.714,
+    "sectionAvg": 39.386
+  },
+  {
+    "songID": "3010043",
+    "songName": "ゆにこ～ドンっ☆",
+    "1": 32.0,
+    "2": 33.333,
+    "3": 37.978,
+    "4": 125.333,
+    "combined": 103.311,
+    "section2twice": 136.644,
+    "sectionAvg": 34.437
+  },
+  {
+    "songID": "410030",
+    "songName": "SHAKE ME!",
+    "1": 32.0,
+    "2": 28.0,
+    "3": 44.747,
+    "4": 144.8,
+    "combined": 104.747,
+    "section2twice": 132.747,
+    "sectionAvg": 34.916
+  },
+  {
+    "songID": "610036",
+    "songName": "銀河鉄道の夜に(Lyrical Anthology Remix)",
+    "1": 29.768,
+    "2": 29.767,
+    "3": 47.855,
+    "4": 111.628,
+    "combined": 107.39,
+    "section2twice": 137.157,
+    "sectionAvg": 35.797
+  },
+  {
+    "songID": "510028",
+    "songName": "prayer (咲人-Remix-)",
+    "1": 38.02,
+    "2": 33.267,
+    "3": 37.081,
+    "4": 130.693,
+    "combined": 108.368,
+    "section2twice": 141.635,
+    "sectionAvg": 36.123
   }
 ]
