@@ -267,6 +267,7 @@ function getCardSet(type) {
         "206":["Reverie: In a Sea of Shining Stars", "Reverie: Lit by Starlight", "Reverie: Clad in Glittering Stars", "Bearing the Magic of the Stars"],
         "212":["Echo - Where the Dazzling Sounds Go -", "Vision - The Scenery Waiting for Us -", "Moment - Swearing on the Path We Walk -", "Shine - Toward the Shining Light -"],
         "216":["Reverie Slumber!", "Reverie Friendship!", "Reverie Splash!", "Reverie Munchies!"],
+        "220":["You, Beneath the Blazing Sun", "Tropical Heroine", "Splash+Girl!", "White Waves, A Maiden Alone"],
     };
 
     var raidSet = {
@@ -2557,6 +2558,17 @@ var eventList = {
         "type":"Bingo",
         "style":"Cute",
         "parameter":"Heart",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
+    "220": {
+        "id":220,
+        "name":"Summer Whims ~First Summer Vacation~",
+        "characters":"Hare,Raika,Jiu,Mikumo",
+        "type":"Medley",
+        "style":"Elegant",
+        "parameter":"Technical",
         "bonus":true,
         "comboBonus":true,
         "addition":""
