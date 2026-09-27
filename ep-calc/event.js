@@ -286,6 +286,7 @@ function getCardSet(type) {
         "176":["the Coolest summer", "what is next Aim", "aboard a Boat", "like a Dynamite"],
         "197":["Chick Chick love♡","Catch a Fire","Make Some Noise","Prayer","Sweet Illusion","Distortion"],
         "209":["Radiant Stage","Thunderous Solo Stage!","#Rainy Field","Clouds That Remind Me of You"],
+        "221":["Bloodsmoke Lily","Magnanimous Lily","Solitary Lily","Hardworking Lily","Storm Lily"],
     };
 
     if (type === "medley") {
@@ -2569,6 +2570,17 @@ var eventList = {
         "type":"Medley",
         "style":"Elegant",
         "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
+    "221": {
+        "id":221,
+        "name":"Assault Lily x D4DJ Groovy Mix -Crossing White Lilies-",
+        "characters":"Saki,Towa,Tsubaki,Miyu,Lumina",
+        "type":"Raid",
+        "style":"None",
+        "parameter":"None",
         "bonus":true,
         "comboBonus":true,
         "addition":""
