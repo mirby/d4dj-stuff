@@ -2585,6 +2585,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "222": {
+        "id":222,
+        "name":"Revival: Welcome! Peaky's Freedom Summer!! ～Return to Beach～",
+        "characters":"Kyoko,Shinobu,Yuka,Esora",
+        "type":"Poker",
+        "style":"Street",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
