@@ -2596,6 +2596,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "223": {
+        "id":223,
+        "name":"Fade to Monochrome ～A Flower Blooming in an Unseen Universe～",
+        "characters":"Saki,Ibuki,Towa,Noa",
+        "type":"Slots",
+        "style":"Street",
+        "parameter":"Technical",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
