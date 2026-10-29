@@ -2607,6 +2607,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "224": {
+        "id":224,
+        "name":"Harmony Disc 1st SESSION",
+        "characters":"Muni,Shinobu,Marika,Saori,Kurumi,Miiko,Lumina,Elsie",
+        "type":"Raid",
+        "style":"None",
+        "parameter":"None",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
