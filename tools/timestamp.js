@@ -4,23 +4,30 @@ $(document).ready(function() {
     generateTimestamp();
 });
 
+var useLocal = false;
+
 jQuery(function($) {
-    $('#datepicker').on('change', function () {
-        generateTimestamp();
-    });
 
     $('#timeInput').on('change', function () {
         generateTimestamp();
     });
 
-    $('#timezoneInput').on('change', function () {
-        generateTimestamp();
-    });
-
     $('.settimezone').on('click', function() {
+        useLocal = (this.id === "setlocal");
         updateTimezone(this.id);
         generateTimestamp();
     });
+
+    $('#timezoneInput').on('change', function () {
+        useLocal = false; // user typed a manual offset
+        generateTimestamp();
+    });
+
+    $('#datepicker, #timeInput').on('change', function () {
+        if (useLocal) updateTimezone("setlocal");
+        generateTimestamp();
+    });
+
 
     $('.copybtn').on('click', function() {
         generateTimestamp();
@@ -86,7 +93,18 @@ function updateTimezone(id) {
     var input = document.getElementById("timezoneInput");
 
     if (id === "setlocal") {
-        input.value = getUserLocalTimezoneOffset();
+        var selectedDate = $("#datepicker").datepicker("getDate") || new Date();
+        var timeInput = document.getElementById("timeInput").value || "12:00";
+        var parts = timeInput.split(":");
+        // Local-time Date for the chosen day/time, so the browser applies the DST rules for that date
+        var target = new Date(
+            selectedDate.getFullYear(),
+            selectedDate.getMonth(),
+            selectedDate.getDate(),
+            parseInt(parts[0], 10),
+            parseInt(parts[1], 10)
+        );
+        input.value = getUserLocalTimezoneOffset(target);
     } else if (id === "setutc") {
         input.value = "+00:00";
     } else if (id === "setjst") {
@@ -94,21 +112,16 @@ function updateTimezone(id) {
     }
 }
 
-function getUserLocalTimezoneOffset() {
-    const now = new Date();
-    console.log("Local time is " + now);
-    const offsetMinutes = now.getTimezoneOffset();
-    console.log("Offset min is " + offsetMinutes);
-    const offsetHours = Math.abs(offsetMinutes / 60);
-    console.log("Offset hours is " + offsetHours);
-    const offsetMinutesPart = Math.abs(offsetMinutes % 60);
-    console.log("Offset min part is " + offsetMinutesPart);
-  
+function getUserLocalTimezoneOffset(date) {
+    date = date || new Date();
+    const offsetMinutes = date.getTimezoneOffset();
+    const absMinutes = Math.abs(offsetMinutes);
+    const offsetHours = Math.floor(absMinutes / 60);
+    const offsetMinutesPart = absMinutes % 60;
+
     const sign = offsetMinutes <= 0 ? '+' : '-';
-  
-    const formattedOffset = `${sign}${String(offsetHours).padStart(2, '0')}:${String(offsetMinutesPart).padStart(2, '0')}`;
-  
-    return formattedOffset;
+
+    return `${sign}${String(offsetHours).padStart(2, '0')}:${String(offsetMinutesPart).padStart(2, '0')}`;
 }
 
 // Display the timestamp in various ways
@@ -173,3 +186,4 @@ function performCopy(id) {
 
     navigator.clipboard.writeText(document.getElementById(formId).textContent);
 }
+
