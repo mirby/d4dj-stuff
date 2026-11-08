@@ -2618,6 +2618,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "225": {
+        "id":225,
+        "name":"Harmony Disc 2nd SESSION",
+        "characters":"Rei,Esora,Saki,Hiiro,Miyu,Haruna,Kokoa,Hayate",
+        "type":"Raid",
+        "style":"None",
+        "parameter":"None",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
