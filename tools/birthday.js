@@ -99,6 +99,13 @@ var birthdays = [
         "socials":""
     },
     {
+        "name": "Ichinohashi Mikumo",
+        "nickname": "",
+        "type": "character",
+        "birthday": "2/27",
+        "socials":""
+    },
+    {
         "name": "Ohnaruto Muni",
         "nickname": "",
         "type": "character",
@@ -117,6 +124,13 @@ var birthdays = [
         "nickname": "",
         "type": "character",
         "birthday": "3/23",
+        "socials":""
+    },
+    {
+        "name": "Kanda Hare",
+        "nickname": "",
+        "type": "character",
+        "birthday": "3/31",
         "socials":""
     },
     {
@@ -159,6 +173,13 @@ var birthdays = [
         "nickname": "",
         "type": "character",
         "birthday": "5/25",
+        "socials":""
+    },
+    {
+        "name": "Tanimachi Jiu",
+        "nickname": "",
+        "type": "character",
+        "birthday": "5/30",
         "socials":""
     },
     {
@@ -320,6 +341,13 @@ var birthdays = [
         "nickname": "",
         "type": "character",
         "birthday": "12/5",
+        "socials":""
+    },
+    {
+        "name": "Shiodome Raika",
+        "nickname": "",
+        "type": "character",
+        "birthday": "12/9",
         "socials":""
     },
     {
