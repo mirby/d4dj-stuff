@@ -2629,6 +2629,17 @@ var eventList = {
         "comboBonus":true,
         "addition":""
     },
+    "226": {
+        "id":226,
+        "name":"Harmony Disc 3rd SESSION",
+        "characters":"Maho,Ibuki,Noa,Dalia,Tsubaki,Aoi,Neo,Sophia",
+        "type":"Raid",
+        "style":"None",
+        "parameter":"None",
+        "bonus":true,
+        "comboBonus":true,
+        "addition":""
+    },
 }
 
 /*
